@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824092",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fd5ccf6737aaec28",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 868,
+    "reasoning_tokens": 619,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4375,
+    "ai_credits": 0.0556025
+  },
+  "timestamp": "2026-11-25T00:23:58.389Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potato\",\"usda_query\":\"potato roasted without skin\",\"grams\":120,\"calories\":112,\"protein_g\":2.4,\"carbs_g\":25.2,\"fat_g\":0.2},{\"name\":\"zucchini cooked\",\"usda_query\":\"squash summer zucchini includes skin cooked boiled drained\",\"grams\":60,\"calories\":10,\"protein_g\":0.7,\"carbs_g\":1.9,\"fat_g\":0.2},{\"name\":\"yellow squash cooked\",\"usda_query\":\"squash summer crookneck straightneck cooked boiled drained\",\"grams\":60,\"calories\":10,\"protein_g\":0.6,\"carbs_g\":2.3,\"fat_g\":0.1}],\"total_calories\":132}",
+  "latency_ms": 5497,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato",
+        "usda_query": "potato roasted without skin",
+        "grams": 120,
+        "calories": 112,
+        "protein_g": 2.4,
+        "carbs_g": 25.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "zucchini cooked",
+        "usda_query": "squash summer zucchini includes skin cooked boiled drained",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 1.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "yellow squash cooked",
+        "usda_query": "squash summer crookneck straightneck cooked boiled drained",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.6,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 132
+  }
+}

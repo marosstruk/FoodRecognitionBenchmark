@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560801020",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7b43c2a210b7aef3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1580,
+    "reasoning_tokens": 1068,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15572,
+    "ai_credits": 0.04324
+  },
+  "timestamp": "2026-11-25T00:26:00.160Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"steamed cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 110,\n      \"calories\": 29,\n      \"protein_g\": 2.3,\n      \"carbs_g\": 5.6,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"red quinoa mixture\",\n      \"usda_query\": \"quinoa cooked\",\n      \"grams\": 150,\n      \"calories\": 180,\n      \"protein_g\": 6.6,\n      \"carbs_g\": 32.0,\n      \"fat_g\": 2.9\n    },\n    {\n      \"name\": \"beet\",\n      \"usda_query\": \"beets cooked\",\n      \"grams\": 60,\n      \"calories\": 27,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 6.0,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"mixed leafy greens\",\n      \"usda_query\": \"mixed greens raw\",\n      \"grams\": 60,\n      \"calories\": 14,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"diced tomato\",\n      \"usda_query\": \"tomatoes raw\",\n      \"grams\": 40,\n      \"calories\": 7,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 40,\n      \"calories\": 14,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.0\n    }\n  ],\n  \"total_calories\": 279\n}",
+  "latency_ms": 16439,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 110,
+        "calories": 29,
+        "protein_g": 2.3,
+        "carbs_g": 5.6,
+        "fat_g": 0.5
+      },
+      {
+        "name": "red quinoa mixture",
+        "usda_query": "quinoa cooked",
+        "grams": 150,
+        "calories": 180,
+        "protein_g": 6.6,
+        "carbs_g": 32,
+        "fat_g": 2.9
+      },
+      {
+        "name": "beet",
+        "usda_query": "beets cooked",
+        "grams": 60,
+        "calories": 27,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "mixed greens raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.2,
+        "carbs_g": 2.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "diced tomato",
+        "usda_query": "tomatoes raw",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.4,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 40,
+        "calories": 14,
+        "protein_g": 0.8,
+        "carbs_g": 3.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.8,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 279
+  }
+}

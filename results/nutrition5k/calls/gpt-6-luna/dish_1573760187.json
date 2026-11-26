@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573760187",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e2ac20ff5f03b095",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 850,
+    "reasoning_tokens": 629,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9238,
+    "ai_credits": 0.04998
+  },
+  "timestamp": "2026-11-25T00:22:41.276Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted chicken\",\n      \"usda_query\": \"chicken meat and skin roasted\",\n      \"grams\": 170,\n      \"calories\": 354,\n      \"protein_g\": 42,\n      \"carbs_g\": 0,\n      \"fat_g\": 19\n    },\n    {\n      \"name\": \"brown sauce\",\n      \"usda_query\": \"gravy brown\",\n      \"grams\": 35,\n      \"calories\": 18,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cooked leafy greens\",\n      \"usda_query\": \"collards cooked boiled drained\",\n      \"grams\": 85,\n      \"calories\": 28,\n      \"protein_g\": 2,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 400\n}",
+  "latency_ms": 10180,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted chicken",
+        "usda_query": "chicken meat and skin roasted",
+        "grams": 170,
+        "calories": 354,
+        "protein_g": 42,
+        "carbs_g": 0,
+        "fat_g": 19
+      },
+      {
+        "name": "brown sauce",
+        "usda_query": "gravy brown",
+        "grams": 35,
+        "calories": 18,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "cooked leafy greens",
+        "usda_query": "collards cooked boiled drained",
+        "grams": 85,
+        "calories": 28,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 400
+  }
+}

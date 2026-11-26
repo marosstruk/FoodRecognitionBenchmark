@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563897439",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f10a4e246cc18d50",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1266,
+    "reasoning_tokens": 955,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5854,
+    "ai_credits": 0.0755025
+  },
+  "timestamp": "2026-11-25T00:09:01.330Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted with oil\",\"grams\":120,\"calories\":170,\"protein_g\":3,\"carbs_g\":25,\"fat_g\":6},{\"name\":\"baked sweet potato\",\"usda_query\":\"sweet potato baked in skin without salt\",\"grams\":120,\"calories\":108,\"protein_g\":2.4,\"carbs_g\":25,\"fat_g\":0.1},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained without salt\",\"grams\":60,\"calories\":21,\"protein_g\":1.7,\"carbs_g\":3.9,\"fat_g\":0.2},{\"name\":\"steamed cauliflower\",\"usda_query\":\"cauliflower cooked boiled drained without salt\",\"grams\":120,\"calories\":30,\"protein_g\":2.3,\"carbs_g\":5.5,\"fat_g\":0.3}],\"total_calories\":329}",
+  "latency_ms": 6968,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 120,
+        "calories": 170,
+        "protein_g": 3,
+        "carbs_g": 25,
+        "fat_g": 6
+      },
+      {
+        "name": "baked sweet potato",
+        "usda_query": "sweet potato baked in skin without salt",
+        "grams": 120,
+        "calories": 108,
+        "protein_g": 2.4,
+        "carbs_g": 25,
+        "fat_g": 0.1
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained without salt",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 1.7,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 30,
+        "protein_g": 2.3,
+        "carbs_g": 5.5,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 329
+  }
+}

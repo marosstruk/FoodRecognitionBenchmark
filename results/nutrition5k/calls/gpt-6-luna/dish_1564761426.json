@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564761426",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8390b47c8caf980b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1074,
+    "reasoning_tokens": 711,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10272,
+    "ai_credits": 0.06118
+  },
+  "timestamp": "2026-11-25T00:20:34.320Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 130,\n      \"calories\": 169,\n      \"protein_g\": 3.5,\n      \"carbs_g\": 36.7,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Green peas\",\n      \"usda_query\": \"peas green cooked\",\n      \"grams\": 12,\n      \"calories\": 10,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Corn\",\n      \"usda_query\": \"corn sweet cooked\",\n      \"grams\": 15,\n      \"calories\": 14,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 4,\n      \"calories\": 36,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 100,\n      \"calories\": 23,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 4.1,\n      \"fat_g\": 0.5\n    }\n  ],\n  \"total_calories\": 252\n}",
+  "latency_ms": 11367,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked rice",
+        "usda_query": "rice white cooked",
+        "grams": 130,
+        "calories": 169,
+        "protein_g": 3.5,
+        "carbs_g": 36.7,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Green peas",
+        "usda_query": "peas green cooked",
+        "grams": 12,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Corn",
+        "usda_query": "corn sweet cooked",
+        "grams": 15,
+        "calories": 14,
+        "protein_g": 0.5,
+        "carbs_g": 3.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 4,
+        "calories": 36,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "Cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 100,
+        "calories": 23,
+        "protein_g": 1.8,
+        "carbs_g": 4.1,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 252
+  }
+}

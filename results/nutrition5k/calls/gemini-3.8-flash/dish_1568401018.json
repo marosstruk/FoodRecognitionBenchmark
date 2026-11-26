@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568401018",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "abdbe6c8ea94e3ba",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 901,
+    "reasoning_tokens": 627,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8688,
+    "ai_credits": 0.448425
+  },
+  "timestamp": "2026-11-25T00:38:22.943Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"diced chicken breast\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 160,\n      \"calories\": 264,\n      \"protein_g\": 49.6,\n      \"carbs_g\": 0,\n      \"fat_g\": 5.8\n    },\n    {\n      \"name\": \"broccoli florets\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 70,\n      \"calories\": 25,\n      \"protein_g\": 1.7,\n      \"carbs_g\": 5.0,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 50,\n      \"calories\": 10,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 299\n}",
+  "latency_ms": 9815,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced chicken breast",
+        "usda_query": "chicken breast cooked",
+        "grams": 160,
+        "calories": 264,
+        "protein_g": 49.6,
+        "carbs_g": 0,
+        "fat_g": 5.8
+      },
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked",
+        "grams": 70,
+        "calories": 25,
+        "protein_g": 1.7,
+        "carbs_g": 5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 50,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 299
+  }
+}

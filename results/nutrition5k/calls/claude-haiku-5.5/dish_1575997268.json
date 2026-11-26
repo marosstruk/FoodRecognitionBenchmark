@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1575997268",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e6a26534e29ea814",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 923,
+    "reasoning_tokens": 639,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4381,
+    "ai_credits": 0.0583525
+  },
+  "timestamp": "2026-11-25T00:25:38.788Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with butter\",\"grams\":60,\"calories\":90,\"protein_g\":6,\"carbs_g\":1,\"fat_g\":7},{\"name\":\"white rice\",\"usda_query\":\"rice white long-grain cooked\",\"grams\":150,\"calories\":195,\"protein_g\":4,\"carbs_g\":43,\"fat_g\":0.4},{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce canned\",\"grams\":30,\"calories\":30,\"protein_g\":1,\"carbs_g\":7,\"fat_g\":0.1},{\"name\":\"tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":40,\"calories\":8,\"protein_g\":0.4,\"carbs_g\":1.9,\"fat_g\":0.2}],\"total_calories\":323}",
+  "latency_ms": 5234,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with butter",
+        "grams": 60,
+        "calories": 90,
+        "protein_g": 6,
+        "carbs_g": 1,
+        "fat_g": 7
+      },
+      {
+        "name": "white rice",
+        "usda_query": "rice white long-grain cooked",
+        "grams": 150,
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 43,
+        "fat_g": 0.4
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce canned",
+        "grams": 30,
+        "calories": 30,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.9,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 323
+  }
+}

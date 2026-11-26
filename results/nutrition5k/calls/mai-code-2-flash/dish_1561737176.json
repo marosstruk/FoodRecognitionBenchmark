@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561737176",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3814f8268e3fa7e4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1122,
+    "reasoning_tokens": 1064,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14623,
+    "ai_credits": 0.03179
+  },
+  "timestamp": "2026-11-25T00:26:15.660Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled steak bites\",\"usda_query\":\"beef steak grilled\",\"grams\":180,\"calories\":374,\"protein_g\":49,\"carbs_g\":0,\"fat_g\":19}],\"total_calories\":374}",
+  "latency_ms": 15494,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled steak bites",
+        "usda_query": "beef steak grilled",
+        "grams": 180,
+        "calories": 374,
+        "protein_g": 49,
+        "carbs_g": 0,
+        "fat_g": 19
+      }
+    ],
+    "total_calories": 374
+  }
+}

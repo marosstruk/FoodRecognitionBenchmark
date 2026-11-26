@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572627130",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "765a1d594913e1f9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1535,
+    "reasoning_tokens": 1376,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 19796,
+    "ai_credits": 0.042115
+  },
+  "timestamp": "2026-11-25T00:38:42.130Z",
+  "raw_text": "{\"items\":[{\"name\":\"tortilla chips\",\"usda_query\":\"tortilla chips corn salted\",\"grams\":130,\"calories\":650,\"protein_g\":9.1,\"carbs_g\":85.8,\"fat_g\":32.5},{\"name\":\"shredded cheddar cheese\",\"usda_query\":\"cheddar cheese shredded\",\"grams\":60,\"calories\":241,\"protein_g\":14.9,\"carbs_g\":1.9,\"fat_g\":19.8},{\"name\":\"tomato salsa\",\"usda_query\":\"tomato salsa\",\"grams\":50,\"calories\":18,\"protein_g\":0.8,\"carbs_g\":4.1,\"fat_g\":0.1}],\"total_calories\":909}",
+  "latency_ms": 21409,
+  "parsed": {
+    "items": [
+      {
+        "name": "tortilla chips",
+        "usda_query": "tortilla chips corn salted",
+        "grams": 130,
+        "calories": 650,
+        "protein_g": 9.1,
+        "carbs_g": 85.8,
+        "fat_g": 32.5
+      },
+      {
+        "name": "shredded cheddar cheese",
+        "usda_query": "cheddar cheese shredded",
+        "grams": 60,
+        "calories": 241,
+        "protein_g": 14.9,
+        "carbs_g": 1.9,
+        "fat_g": 19.8
+      },
+      {
+        "name": "tomato salsa",
+        "usda_query": "tomato salsa",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 0.8,
+        "carbs_g": 4.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 909
+  }
+}

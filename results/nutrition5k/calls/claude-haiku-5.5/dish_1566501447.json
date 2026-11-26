@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566501447",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f24f4167eb46668b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1443,
+    "reasoning_tokens": 937,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6866,
+    "ai_credits": 0.0843525
+  },
+  "timestamp": "2026-11-25T00:30:53.584Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"canned tuna, drained\",\n      \"usda_query\": \"fish tuna light canned in water drained solids\",\n      \"grams\": 120,\n      \"calories\": 139,\n      \"protein_g\": 30.6,\n      \"carbs_g\": 0,\n      \"fat_g\": 1.0\n    },\n    {\n      \"name\": \"shredded carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 60,\n      \"calories\": 15,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cherry tomato\",\n      \"usda_query\": \"tomatoes red ripe raw year round average\",\n      \"grams\": 40,\n      \"calories\": 7,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 3.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"green peas\",\n      \"usda_query\": \"peas green cooked boiled drained without salt\",\n      \"grams\": 10,\n      \"calories\": 8,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"black olive\",\n      \"usda_query\": \"olives ripe canned small-extra large\",\n      \"grams\": 10,\n      \"calories\": 12,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 1.1\n    }\n  ],\n  \"total_calories\": 181\n}",
+  "latency_ms": 7966,
+  "parsed": {
+    "items": [
+      {
+        "name": "canned tuna, drained",
+        "usda_query": "fish tuna light canned in water drained solids",
+        "grams": 120,
+        "calories": 139,
+        "protein_g": 30.6,
+        "carbs_g": 0,
+        "fat_g": 1
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 60,
+        "calories": 15,
+        "protein_g": 0.6,
+        "carbs_g": 5.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw year round average",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.4,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green peas",
+        "usda_query": "peas green cooked boiled drained without salt",
+        "grams": 10,
+        "calories": 8,
+        "protein_g": 0.5,
+        "carbs_g": 1.6,
+        "fat_g": 0
+      },
+      {
+        "name": "black olive",
+        "usda_query": "olives ripe canned small-extra large",
+        "grams": 10,
+        "calories": 12,
+        "protein_g": 0.8,
+        "carbs_g": 0.6,
+        "fat_g": 1.1
+      }
+    ],
+    "total_calories": 181
+  }
+}

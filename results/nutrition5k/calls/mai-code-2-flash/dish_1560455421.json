@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455421",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd6182672e759b1e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1725,
+    "reasoning_tokens": 1446,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 19151,
+    "ai_credits": 0.046865
+  },
+  "timestamp": "2026-11-25T00:37:57.739Z",
+  "raw_text": "{\"items\":[{\"name\":\"breaded chicken cutlet\",\"usda_query\":\"chicken breast breaded fried\",\"grams\":170,\"calories\":390,\"protein_g\":39,\"carbs_g\":19,\"fat_g\":18},{\"name\":\"corn on the cob\",\"usda_query\":\"corn sweet yellow cooked\",\"grams\":65,\"calories\":61,\"protein_g\":2.3,\"carbs_g\":13.4,\"fat_g\":1},{\"name\":\"green beans\",\"usda_query\":\"green beans boiled\",\"grams\":85,\"calories\":29,\"protein_g\":1.7,\"carbs_g\":6.6,\"fat_g\":0.2},{\"name\":\"mixed leafy greens\",\"usda_query\":\"mixed salad greens raw\",\"grams\":40,\"calories\":9,\"protein_g\":0.7,\"carbs_g\":1.7,\"fat_g\":0.1},{\"name\":\"tomato\",\"usda_query\":\"tomato red raw\",\"grams\":30,\"calories\":5,\"protein_g\":0.3,\"carbs_g\":1.1,\"fat_g\":0.1},{\"name\":\"cooking oil\",\"usda_query\":\"olive oil\",\"grams\":5,\"calories\":45,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":5}],\"total_calories\":539}",
+  "latency_ms": 20086,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded chicken cutlet",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 170,
+        "calories": 390,
+        "protein_g": 39,
+        "carbs_g": 19,
+        "fat_g": 18
+      },
+      {
+        "name": "corn on the cob",
+        "usda_query": "corn sweet yellow cooked",
+        "grams": 65,
+        "calories": 61,
+        "protein_g": 2.3,
+        "carbs_g": 13.4,
+        "fat_g": 1
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans boiled",
+        "grams": 85,
+        "calories": 29,
+        "protein_g": 1.7,
+        "carbs_g": 6.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 40,
+        "calories": 9,
+        "protein_g": 0.7,
+        "carbs_g": 1.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomato red raw",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "olive oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 539
+  }
+}

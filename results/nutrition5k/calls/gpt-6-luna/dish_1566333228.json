@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566333228",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4d809e99442447b1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1373,
+    "reasoning_tokens": 886,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11237,
+    "ai_credits": 0.07613
+  },
+  "timestamp": "2026-11-25T00:39:50.661Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"cheese pizza\",\n      \"grams\": 140,\n      \"calories\": 380,\n      \"protein_g\": 17,\n      \"carbs_g\": 45,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"roasted chicken drumstick\",\n      \"usda_query\": \"chicken drumstick roasted meat and skin\",\n      \"grams\": 85,\n      \"calories\": 190,\n      \"protein_g\": 22,\n      \"carbs_g\": 0,\n      \"fat_g\": 11\n    },\n    {\n      \"name\": \"roasted chicken piece\",\n      \"usda_query\": \"chicken roasted meat and skin\",\n      \"grams\": 65,\n      \"calories\": 140,\n      \"protein_g\": 18,\n      \"carbs_g\": 0,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"lettuce\",\n      \"usda_query\": \"lettuce raw\",\n      \"grams\": 130,\n      \"calories\": 20,\n      \"protein_g\": 2,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"creamy salad dressing\",\n      \"usda_query\": \"Caesar salad dressing\",\n      \"grams\": 20,\n      \"calories\": 90,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 9\n    },\n    {\n      \"name\": \"parmesan cheese\",\n      \"usda_query\": \"parmesan cheese grated\",\n      \"grams\": 4,\n      \"calories\": 17,\n      \"protein_g\": 2,\n      \"carbs_g\": 0,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"tomato sauce\",\n      \"usda_query\": \"tomato sauce\",\n      \"grams\": 5,\n      \"calories\": 3,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 840\n}",
+  "latency_ms": 12363,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "cheese pizza",
+        "grams": 140,
+        "calories": 380,
+        "protein_g": 17,
+        "carbs_g": 45,
+        "fat_g": 15
+      },
+      {
+        "name": "roasted chicken drumstick",
+        "usda_query": "chicken drumstick roasted meat and skin",
+        "grams": 85,
+        "calories": 190,
+        "protein_g": 22,
+        "carbs_g": 0,
+        "fat_g": 11
+      },
+      {
+        "name": "roasted chicken piece",
+        "usda_query": "chicken roasted meat and skin",
+        "grams": 65,
+        "calories": 140,
+        "protein_g": 18,
+        "carbs_g": 0,
+        "fat_g": 7
+      },
+      {
+        "name": "lettuce",
+        "usda_query": "lettuce raw",
+        "grams": 130,
+        "calories": 20,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "creamy salad dressing",
+        "usda_query": "Caesar salad dressing",
+        "grams": 20,
+        "calories": 90,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 9
+      },
+      {
+        "name": "parmesan cheese",
+        "usda_query": "parmesan cheese grated",
+        "grams": 4,
+        "calories": 17,
+        "protein_g": 2,
+        "carbs_g": 0,
+        "fat_g": 1
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce",
+        "grams": 5,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 840
+  }
+}

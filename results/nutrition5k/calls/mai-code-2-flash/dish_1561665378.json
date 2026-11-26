@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561665378",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f032c36f5c8e156f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 481,
+    "reasoning_tokens": 415,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6749,
+    "ai_credits": 0.015765
+  },
+  "timestamp": "2026-11-25T00:17:32.109Z",
+  "raw_text": "{\"items\":[{\"name\":\"boiled corn cob\",\"usda_query\":\"corn sweet yellow cooked boiled drained\",\"grams\":140,\"calories\":151,\"protein_g\":4.9,\"carbs_g\":33.6,\"fat_g\":1.2}],\"total_calories\":151}",
+  "latency_ms": 7616,
+  "parsed": {
+    "items": [
+      {
+        "name": "boiled corn cob",
+        "usda_query": "corn sweet yellow cooked boiled drained",
+        "grams": 140,
+        "calories": 151,
+        "protein_g": 4.9,
+        "carbs_g": 33.6,
+        "fat_g": 1.2
+      }
+    ],
+    "total_calories": 151
+  }
+}

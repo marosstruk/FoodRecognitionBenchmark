@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561736736",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd9b43396e19be3d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 885,
+    "reasoning_tokens": 686,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8142,
+    "ai_credits": 0.442425
+  },
+  "timestamp": "2026-11-25T00:30:53.276Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 110,\n      \"calories\": 164,\n      \"protein_g\": 11.0,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 12.1\n    },\n    {\n      \"name\": \"crispy bacon\",\n      \"usda_query\": \"bacon pan-fried cooked\",\n      \"grams\": 25,\n      \"calories\": 135,\n      \"protein_g\": 9.3,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 10.5\n    }\n  ],\n  \"total_calories\": 299\n}",
+  "latency_ms": 8975,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled cooked",
+        "grams": 110,
+        "calories": 164,
+        "protein_g": 11,
+        "carbs_g": 1.8,
+        "fat_g": 12.1
+      },
+      {
+        "name": "crispy bacon",
+        "usda_query": "bacon pan-fried cooked",
+        "grams": 25,
+        "calories": 135,
+        "protein_g": 9.3,
+        "carbs_g": 0.4,
+        "fat_g": 10.5
+      }
+    ],
+    "total_calories": 299
+  }
+}

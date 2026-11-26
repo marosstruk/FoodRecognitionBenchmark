@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561739238",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c6789721d3646877",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1874,
+    "reasoning_tokens": 1436,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 14870,
+    "ai_credits": 0.8133
+  },
+  "timestamp": "2026-11-25T00:22:18.699Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked egg whites\",\n      \"usda_query\": \"egg white cooked\",\n      \"grams\": 60,\n      \"calories\": 31,\n      \"protein_g\": 6.5,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"roasted sweet potatoes\",\n      \"usda_query\": \"sweet potato roasted\",\n      \"grams\": 70,\n      \"calories\": 63,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 14.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"hash browns\",\n      \"usda_query\": \"potato hash brown home-prepared\",\n      \"grams\": 40,\n      \"calories\": 65,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 8.8,\n      \"fat_g\": 3.1\n    },\n    {\n      \"name\": \"fresh raspberries\",\n      \"usda_query\": \"raspberries raw\",\n      \"grams\": 25,\n      \"calories\": 13,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 3.0,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"fresh blackberries\",\n      \"usda_query\": \"blackberries raw\",\n      \"grams\": 20,\n      \"calories\": 9,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 181\n}",
+  "latency_ms": 15988,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked egg whites",
+        "usda_query": "egg white cooked",
+        "grams": 60,
+        "calories": 31,
+        "protein_g": 6.5,
+        "carbs_g": 0.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted sweet potatoes",
+        "usda_query": "sweet potato roasted",
+        "grams": 70,
+        "calories": 63,
+        "protein_g": 1.4,
+        "carbs_g": 14.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "hash browns",
+        "usda_query": "potato hash brown home-prepared",
+        "grams": 40,
+        "calories": 65,
+        "protein_g": 1,
+        "carbs_g": 8.8,
+        "fat_g": 3.1
+      },
+      {
+        "name": "fresh raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 25,
+        "calories": 13,
+        "protein_g": 0.3,
+        "carbs_g": 3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "fresh blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 20,
+        "calories": 9,
+        "protein_g": 0.3,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 181
+  }
+}

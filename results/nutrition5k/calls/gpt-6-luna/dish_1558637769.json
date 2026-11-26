@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558637769",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "dc053defcc1294bd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 149,
+    "reasoning_tokens": 53,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 3364,
+    "ai_credits": 0.01493
+  },
+  "timestamp": "2026-11-25T00:37:40.179Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"apple with skin\",\n      \"usda_query\": \"apples raw with skin\",\n      \"grams\": 180,\n      \"calories\": 94,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 24.9,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 94\n}",
+  "latency_ms": 4490,
+  "parsed": {
+    "items": [
+      {
+        "name": "apple with skin",
+        "usda_query": "apples raw with skin",
+        "grams": 180,
+        "calories": 94,
+        "protein_g": 0.5,
+        "carbs_g": 24.9,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 94
+  }
+}

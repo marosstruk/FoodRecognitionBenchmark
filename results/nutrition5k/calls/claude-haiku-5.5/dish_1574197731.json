@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574197731",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fe613c21a3ca2816",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 856,
+    "reasoning_tokens": 699,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5614,
+    "ai_credits": 0.0550025
+  },
+  "timestamp": "2026-11-25T00:23:43.011Z",
+  "raw_text": "{\"items\":[{\"name\":\"seared beef steak\",\"usda_query\":\"beef steak sirloin cooked broiled\",\"grams\":150,\"calories\":300,\"protein_g\":40,\"carbs_g\":0,\"fat_g\":14},{\"name\":\"green beans sauteed\",\"usda_query\":\"green beans cooked boiled drained without salt\",\"grams\":100,\"calories\":70,\"protein_g\":2,\"carbs_g\":7,\"fat_g\":4.5}],\"total_calories\":370}",
+  "latency_ms": 6920,
+  "parsed": {
+    "items": [
+      {
+        "name": "seared beef steak",
+        "usda_query": "beef steak sirloin cooked broiled",
+        "grams": 150,
+        "calories": 300,
+        "protein_g": 40,
+        "carbs_g": 0,
+        "fat_g": 14
+      },
+      {
+        "name": "green beans sauteed",
+        "usda_query": "green beans cooked boiled drained without salt",
+        "grams": 100,
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 7,
+        "fat_g": 4.5
+      }
+    ],
+    "total_calories": 370
+  }
+}

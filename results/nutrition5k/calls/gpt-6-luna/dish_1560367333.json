@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367333",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8600368ce159eaf9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1176,
+    "reasoning_tokens": 698,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9109,
+    "ai_credits": 0.06628
+  },
+  "timestamp": "2026-11-25T00:26:06.774Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked asparagus\",\n      \"usda_query\": \"asparagus cooked\",\n      \"grams\": 80,\n      \"calories\": 18,\n      \"protein_g\": 2,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Boiled potato\",\n      \"usda_query\": \"potato boiled\",\n      \"grams\": 60,\n      \"calories\": 52,\n      \"protein_g\": 1,\n      \"carbs_g\": 12,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cooked beet\",\n      \"usda_query\": \"beets cooked\",\n      \"grams\": 45,\n      \"calories\": 20,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Sautéed mushrooms\",\n      \"usda_query\": \"mushrooms cooked with oil\",\n      \"grams\": 100,\n      \"calories\": 70,\n      \"protein_g\": 3,\n      \"carbs_g\": 5,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"Broccoli and leafy greens\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 65,\n      \"calories\": 22,\n      \"protein_g\": 2,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cooked chicken\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 85,\n      \"calories\": 140,\n      \"protein_g\": 26,\n      \"carbs_g\": 0,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"Cooked egg\",\n      \"usda_query\": \"egg cooked\",\n      \"grams\": 30,\n      \"calories\": 43,\n      \"protein_g\": 4,\n      \"carbs_g\": 0,\n      \"fat_g\": 3\n    }\n  ],\n  \"total_calories\": 365\n}",
+  "latency_ms": 9974,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked asparagus",
+        "usda_query": "asparagus cooked",
+        "grams": 80,
+        "calories": 18,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "Boiled potato",
+        "usda_query": "potato boiled",
+        "grams": 60,
+        "calories": 52,
+        "protein_g": 1,
+        "carbs_g": 12,
+        "fat_g": 0
+      },
+      {
+        "name": "Cooked beet",
+        "usda_query": "beets cooked",
+        "grams": 45,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "Sautéed mushrooms",
+        "usda_query": "mushrooms cooked with oil",
+        "grams": 100,
+        "calories": 70,
+        "protein_g": 3,
+        "carbs_g": 5,
+        "fat_g": 5
+      },
+      {
+        "name": "Broccoli and leafy greens",
+        "usda_query": "broccoli cooked",
+        "grams": 65,
+        "calories": 22,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "Cooked chicken",
+        "usda_query": "chicken breast cooked",
+        "grams": 85,
+        "calories": 140,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "Cooked egg",
+        "usda_query": "egg cooked",
+        "grams": 30,
+        "calories": 43,
+        "protein_g": 4,
+        "carbs_g": 0,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 365
+  }
+}

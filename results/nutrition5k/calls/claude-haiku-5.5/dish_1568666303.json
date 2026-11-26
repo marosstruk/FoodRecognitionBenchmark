@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568666303",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "52d71a92c0c3e8e3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1001,
+    "reasoning_tokens": 712,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4977,
+    "ai_credits": 0.0622525
+  },
+  "timestamp": "2026-11-25T00:35:19.538Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast roasted meat only\",\"grams\":150,\"calories\":248,\"protein_g\":46,\"carbs_g\":0,\"fat_g\":5},{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked boiled drained without salt\",\"grams\":120,\"calories\":42,\"protein_g\":3,\"carbs_g\":9,\"fat_g\":0},{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce cos or romaine raw\",\"grams\":80,\"calories\":14,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":0},{\"name\":\"butterhead lettuce\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":50,\"calories\":7,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":0}],\"total_calories\":311}",
+  "latency_ms": 5913,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast roasted meat only",
+        "grams": 150,
+        "calories": 248,
+        "protein_g": 46,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 3,
+        "carbs_g": 9,
+        "fat_g": 0
+      },
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce cos or romaine raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "butterhead lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 50,
+        "calories": 7,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 311
+  }
+}

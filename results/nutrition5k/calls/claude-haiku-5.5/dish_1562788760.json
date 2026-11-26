@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562788760",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9629326d7b2f34fb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 686,
+    "reasoning_tokens": 461,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3975,
+    "ai_credits": 0.0465025
+  },
+  "timestamp": "2026-11-25T00:38:23.923Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled chicken breast\",\n      \"usda_query\": \"chicken breast meat only cooked roasted\",\n      \"grams\": 120,\n      \"calories\": 198,\n      \"protein_g\": 37,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"spinach and tomato frittata\",\n      \"usda_query\": \"egg omelet or frittata cooked with spinach and tomato\",\n      \"grams\": 90,\n      \"calories\": 144,\n      \"protein_g\": 10,\n      \"carbs_g\": 3,\n      \"fat_g\": 10\n    }\n  ],\n  \"total_calories\": 342\n}",
+  "latency_ms": 5303,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "spinach and tomato frittata",
+        "usda_query": "egg omelet or frittata cooked with spinach and tomato",
+        "grams": 90,
+        "calories": 144,
+        "protein_g": 10,
+        "carbs_g": 3,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 342
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563555510",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5998dc721863ff25",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 606,
+    "reasoning_tokens": 514,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10376,
+    "ai_credits": 0.01889
+  },
+  "timestamp": "2026-11-25T00:20:19.306Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs with vegetables\",\n      \"usda_query\": \"scrambled eggs with vegetables\",\n      \"grams\": 180,\n      \"calories\": 300,\n      \"protein_g\": 20,\n      \"carbs_g\": 5,\n      \"fat_g\": 22\n    }\n  ],\n  \"total_calories\": 300\n}",
+  "latency_ms": 11231,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs with vegetables",
+        "usda_query": "scrambled eggs with vegetables",
+        "grams": 180,
+        "calories": 300,
+        "protein_g": 20,
+        "carbs_g": 5,
+        "fat_g": 22
+      }
+    ],
+    "total_calories": 300
+  }
+}

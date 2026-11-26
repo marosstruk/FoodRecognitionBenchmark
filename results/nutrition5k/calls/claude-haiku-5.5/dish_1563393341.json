@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563393341",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c959b8aea56281c2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 896,
+    "reasoning_tokens": 522,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4049,
+    "ai_credits": 0.0570025
+  },
+  "timestamp": "2026-11-25T00:20:19.026Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets steamed\",\"usda_query\":\"broccoli cooked steamed\",\"grams\":120,\"calories\":42,\"protein_g\":2.9,\"carbs_g\":8.6,\"fat_g\":0.5},{\"name\":\"yellow bell pepper raw\",\"usda_query\":\"peppers sweet yellow raw\",\"grams\":40,\"calories\":12,\"protein_g\":0.4,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"zucchini raw\",\"usda_query\":\"squash summer zucchini raw\",\"grams\":25,\"calories\":4,\"protein_g\":0.3,\"carbs_g\":0.8,\"fat_g\":0.1},{\"name\":\"red bell pepper raw\",\"usda_query\":\"peppers sweet red raw\",\"grams\":20,\"calories\":6,\"protein_g\":0.2,\"carbs_g\":1.2,\"fat_g\":0.1},{\"name\":\"carrot raw\",\"usda_query\":\"carrots raw\",\"grams\":10,\"calories\":4,\"protein_g\":0.1,\"carbs_g\":1.0,\"fat_g\":0.0}],\"total_calories\":68}",
+  "latency_ms": 5219,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets steamed",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 2.9,
+        "carbs_g": 8.6,
+        "fat_g": 0.5
+      },
+      {
+        "name": "yellow bell pepper raw",
+        "usda_query": "peppers sweet yellow raw",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 0.4,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "zucchini raw",
+        "usda_query": "squash summer zucchini raw",
+        "grams": 25,
+        "calories": 4,
+        "protein_g": 0.3,
+        "carbs_g": 0.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper raw",
+        "usda_query": "peppers sweet red raw",
+        "grams": 20,
+        "calories": 6,
+        "protein_g": 0.2,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot raw",
+        "usda_query": "carrots raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 68
+  }
+}

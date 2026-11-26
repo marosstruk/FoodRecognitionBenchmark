@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564516429",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "55fb8c9695cd0143",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1355,
+    "reasoning_tokens": 852,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6114,
+    "ai_credits": 0.0799525
+  },
+  "timestamp": "2026-11-25T00:36:12.279Z",
+  "raw_text": "{\"items\":[{\"name\":\"baked white fish with herb crust\",\"usda_query\":\"fish cod baked dry heat\",\"grams\":120,\"calories\":150,\"protein_g\":22,\"carbs_g\":4,\"fat_g\":6},{\"name\":\"white beans\",\"usda_query\":\"beans white cannellini mature seeds cooked boiled without salt\",\"grams\":30,\"calories\":35,\"protein_g\":2.4,\"carbs_g\":6.5,\"fat_g\":0.2},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":120,\"calories\":22,\"protein_g\":1.1,\"carbs_g\":4.7,\"fat_g\":0.3},{\"name\":\"black olives\",\"usda_query\":\"olives ripe canned small-extra large\",\"grams\":30,\"calories\":38,\"protein_g\":0.3,\"carbs_g\":1.8,\"fat_g\":3.3},{\"name\":\"pickled pepper slice\",\"usda_query\":\"peppers hot chili green canned pickled\",\"grams\":15,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"fresh herbs\",\"usda_query\":\"parsley fresh raw\",\"grams\":5,\"calories\":2,\"protein_g\":0.2,\"carbs_g\":0.4,\"fat_g\":0},{\"name\":\"\",\"usda_query\":\"\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":255}",
+  "latency_ms": 7677,
+  "error": "items[6] has no name"
+}

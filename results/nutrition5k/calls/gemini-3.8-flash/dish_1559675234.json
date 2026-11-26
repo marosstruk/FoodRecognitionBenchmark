@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559675234",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "35cd3db587d8ff10",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 921,
+    "reasoning_tokens": 561,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8659,
+    "ai_credits": 0.455925
+  },
+  "timestamp": "2026-11-25T00:16:55.123Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"shredded carrots\",\n      \"usda_query\": \"carrots shredded raw\",\n      \"grams\": 40,\n      \"calories\": 16,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes cherry raw\",\n      \"grams\": 50,\n      \"calories\": 9,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cooked Brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked boiled drained\",\n      \"grams\": 45,\n      \"calories\": 16,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"sliced green bell pepper\",\n      \"usda_query\": \"peppers sweet green raw\",\n      \"grams\": 30,\n      \"calories\": 6,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 47\n}",
+  "latency_ms": 9502,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots shredded raw",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked Brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled drained",
+        "grams": 45,
+        "calories": 16,
+        "protein_g": 1.2,
+        "carbs_g": 3.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "sliced green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 30,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 47
+  }
+}

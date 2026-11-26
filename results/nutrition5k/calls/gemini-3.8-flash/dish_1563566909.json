@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563566909",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fd290eccda1f15cf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1306,
+    "reasoning_tokens": 786,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13566,
+    "ai_credits": 0.6003
+  },
+  "timestamp": "2026-11-25T00:34:20.707Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"firm tofu\",\n      \"usda_query\": \"tofu firm prepared\",\n      \"grams\": 75,\n      \"calories\": 100,\n      \"protein_g\": 11.0,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 6.0\n    },\n    {\n      \"name\": \"cooked brown rice\",\n      \"usda_query\": \"rice brown cooked\",\n      \"grams\": 50,\n      \"calories\": 56,\n      \"protein_g\": 1.3,\n      \"carbs_g\": 11.5,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"cooked carrots\",\n      \"usda_query\": \"carrots cooked boiled drained\",\n      \"grams\": 25,\n      \"calories\": 9,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"green beans\",\n      \"usda_query\": \"beans snap green cooked\",\n      \"grams\": 20,\n      \"calories\": 7,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"yellow squash\",\n      \"usda_query\": \"squash summer cooked\",\n      \"grams\": 25,\n      \"calories\": 6,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 5,\n      \"calories\": 44,\n      \"protein_g\": 0.0,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 5.0\n    }\n  ],\n  \"total_calories\": 222\n}",
+  "latency_ms": 14679,
+  "parsed": {
+    "items": [
+      {
+        "name": "firm tofu",
+        "usda_query": "tofu firm prepared",
+        "grams": 75,
+        "calories": 100,
+        "protein_g": 11,
+        "carbs_g": 2,
+        "fat_g": 6
+      },
+      {
+        "name": "cooked brown rice",
+        "usda_query": "rice brown cooked",
+        "grams": 50,
+        "calories": 56,
+        "protein_g": 1.3,
+        "carbs_g": 11.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 25,
+        "calories": 9,
+        "protein_g": 0.2,
+        "carbs_g": 2.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green beans",
+        "usda_query": "beans snap green cooked",
+        "grams": 20,
+        "calories": 7,
+        "protein_g": 0.4,
+        "carbs_g": 1.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "yellow squash",
+        "usda_query": "squash summer cooked",
+        "grams": 25,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 5,
+        "calories": 44,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 222
+  }
+}

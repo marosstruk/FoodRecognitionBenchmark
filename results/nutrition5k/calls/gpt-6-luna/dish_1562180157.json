@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562180157",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1ac50c114d6a4ef1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1174,
+    "reasoning_tokens": 689,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10673,
+    "ai_credits": 0.06618
+  },
+  "timestamp": "2026-11-25T00:11:00.190Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded fried fish\",\n      \"usda_query\": \"fish breaded and fried\",\n      \"grams\": 170,\n      \"calories\": 430,\n      \"protein_g\": 30,\n      \"carbs_g\": 27,\n      \"fat_g\": 22\n    },\n    {\n      \"name\": \"fried chicken pieces\",\n      \"usda_query\": \"chicken meat and skin breaded fried\",\n      \"grams\": 140,\n      \"calories\": 350,\n      \"protein_g\": 28,\n      \"carbs_g\": 10,\n      \"fat_g\": 22\n    },\n    {\n      \"name\": \"lettuce\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 90,\n      \"calories\": 14,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomato raw\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"salad dressing\",\n      \"usda_query\": \"salad dressing creamy\",\n      \"grams\": 15,\n      \"calories\": 70,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"roasted mixed vegetables\",\n      \"usda_query\": \"mixed vegetables cooked roasted\",\n      \"grams\": 100,\n      \"calories\": 70,\n      \"protein_g\": 2,\n      \"carbs_g\": 14,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"shredded cheese\",\n      \"usda_query\": \"cheddar cheese shredded\",\n      \"grams\": 8,\n      \"calories\": 32,\n      \"protein_g\": 2,\n      \"carbs_g\": 0,\n      \"fat_g\": 3\n    }\n  ],\n  \"total_calories\": 969\n}",
+  "latency_ms": 11545,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded fried fish",
+        "usda_query": "fish breaded and fried",
+        "grams": 170,
+        "calories": 430,
+        "protein_g": 30,
+        "carbs_g": 27,
+        "fat_g": 22
+      },
+      {
+        "name": "fried chicken pieces",
+        "usda_query": "chicken meat and skin breaded fried",
+        "grams": 140,
+        "calories": 350,
+        "protein_g": 28,
+        "carbs_g": 10,
+        "fat_g": 22
+      },
+      {
+        "name": "lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 90,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomato raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "salad dressing",
+        "usda_query": "salad dressing creamy",
+        "grams": 15,
+        "calories": 70,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 7
+      },
+      {
+        "name": "roasted mixed vegetables",
+        "usda_query": "mixed vegetables cooked roasted",
+        "grams": 100,
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 14,
+        "fat_g": 1
+      },
+      {
+        "name": "shredded cheese",
+        "usda_query": "cheddar cheese shredded",
+        "grams": 8,
+        "calories": 32,
+        "protein_g": 2,
+        "carbs_g": 0,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 969
+  }
+}

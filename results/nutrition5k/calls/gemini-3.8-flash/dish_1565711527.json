@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565711527",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4aef97e277c98070",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 731,
+    "reasoning_tokens": 444,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6786,
+    "ai_credits": 0.384675
+  },
+  "timestamp": "2026-11-25T00:31:55.044Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs cooked\",\n      \"grams\": 120,\n      \"calories\": 180,\n      \"protein_g\": 12.0,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 13.0\n    },\n    {\n      \"name\": \"hash browns\",\n      \"usda_query\": \"potatoes hash brown prepared\",\n      \"grams\": 90,\n      \"calories\": 185,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 21.0,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"roasted brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked with oil\",\n      \"grams\": 75,\n      \"calories\": 55,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 6.8,\n      \"fat_g\": 2.5\n    }\n  ],\n  \"total_calories\": 420\n}",
+  "latency_ms": 7993,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs cooked",
+        "grams": 120,
+        "calories": 180,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "hash browns",
+        "usda_query": "potatoes hash brown prepared",
+        "grams": 90,
+        "calories": 185,
+        "protein_g": 2.2,
+        "carbs_g": 21,
+        "fat_g": 10.5
+      },
+      {
+        "name": "roasted brussels sprouts",
+        "usda_query": "brussels sprouts cooked with oil",
+        "grams": 75,
+        "calories": 55,
+        "protein_g": 2.5,
+        "carbs_g": 6.8,
+        "fat_g": 2.5
+      }
+    ],
+    "total_calories": 420
+  }
+}

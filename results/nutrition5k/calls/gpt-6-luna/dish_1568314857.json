@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568314857",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9b690105db665da3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 804,
+    "reasoning_tokens": 570,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11244,
+    "ai_credits": 0.04768
+  },
+  "timestamp": "2026-11-25T00:16:40.010Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked beef steak\",\n      \"usda_query\": \"beef steak cooked\",\n      \"grams\": 90,\n      \"calories\": 223,\n      \"protein_g\": 23.4,\n      \"carbs_g\": 0,\n      \"fat_g\": 14.4\n    },\n    {\n      \"name\": \"avocado\",\n      \"usda_query\": \"avocado raw\",\n      \"grams\": 60,\n      \"calories\": 96,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 5.1,\n      \"fat_g\": 8.8\n    },\n    {\n      \"name\": \"cooked zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 30,\n      \"calories\": 5,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 324\n}",
+  "latency_ms": 12096,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked beef steak",
+        "usda_query": "beef steak cooked",
+        "grams": 90,
+        "calories": 223,
+        "protein_g": 23.4,
+        "carbs_g": 0,
+        "fat_g": 14.4
+      },
+      {
+        "name": "avocado",
+        "usda_query": "avocado raw",
+        "grams": 60,
+        "calories": 96,
+        "protein_g": 1.2,
+        "carbs_g": 5.1,
+        "fat_g": 8.8
+      },
+      {
+        "name": "cooked zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.4,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 324
+  }
+}

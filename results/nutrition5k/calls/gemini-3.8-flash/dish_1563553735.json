@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563553735",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "285f8e864a12e175",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1035,
+    "reasoning_tokens": 830,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9176,
+    "ai_credits": 0.498675
+  },
+  "timestamp": "2026-11-25T00:16:05.194Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"salad greens raw\",\"grams\":30,\"calories\":6,\"protein_g\":0.4,\"carbs_g\":1,\"fat_g\":0.1},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":25,\"calories\":11,\"protein_g\":0.3,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":20,\"calories\":6,\"protein_g\":0.1,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"balsamic vinaigrette dressing\",\"usda_query\":\"salad dressing balsamic vinaigrette\",\"grams\":5,\"calories\":20,\"protein_g\":0,\"carbs_g\":0.5,\"fat_g\":2}],\"total_calories\":43}",
+  "latency_ms": 10229,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens raw",
+        "grams": 30,
+        "calories": 6,
+        "protein_g": 0.4,
+        "carbs_g": 1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 25,
+        "calories": 11,
+        "protein_g": 0.3,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 20,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "balsamic vinaigrette dressing",
+        "usda_query": "salad dressing balsamic vinaigrette",
+        "grams": 5,
+        "calories": 20,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 43
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559244417",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bf9b36b4ad2a106d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 599,
+    "reasoning_tokens": 376,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7420,
+    "ai_credits": 0.03743
+  },
+  "timestamp": "2026-11-25T00:26:33.595Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 55,\n      \"calories\": 12,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 3,\n      \"calories\": 1,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomatoes raw\",\n      \"grams\": 1,\n      \"calories\": 0,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 13\n}",
+  "latency_ms": 8294,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 55,
+        "calories": 12,
+        "protein_g": 1.5,
+        "carbs_g": 2.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw",
+        "grams": 3,
+        "calories": 1,
+        "protein_g": 0,
+        "carbs_g": 0.3,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes raw",
+        "grams": 1,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 13
+  }
+}

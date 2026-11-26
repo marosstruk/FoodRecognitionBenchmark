@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1557853314",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ed4dacb48e6a795e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 590,
+    "reasoning_tokens": 504,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3653,
+    "ai_credits": 0.0417025
+  },
+  "timestamp": "2026-11-25T00:12:54.621Z",
+  "raw_text": "{\"items\":[{\"name\":\"chicken tikka pieces\",\"usda_query\":\"chicken breast roasted skin removed\",\"grams\":120,\"calories\":215,\"protein_g\":30,\"carbs_g\":4,\"fat_g\":9}],\"total_calories\":215}",
+  "latency_ms": 4831,
+  "parsed": {
+    "items": [
+      {
+        "name": "chicken tikka pieces",
+        "usda_query": "chicken breast roasted skin removed",
+        "grams": 120,
+        "calories": 215,
+        "protein_g": 30,
+        "carbs_g": 4,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 215
+  }
+}

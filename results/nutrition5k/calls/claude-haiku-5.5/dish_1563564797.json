@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563564797",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6a5089fe0284d193",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 2139,
+    "reasoning_tokens": 1514,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 9383,
+    "ai_credits": 0.1191525
+  },
+  "timestamp": "2026-11-25T00:31:59.202Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked lentils\",\"usda_query\":\"lentils mature seeds cooked boiled without salt\",\"grams\":60,\"calories\":70,\"protein_g\":5.4,\"carbs_g\":12.0,\"fat_g\":0.4},{\"name\":\"cooked leafy green wrap with tomato\",\"usda_query\":\"cabbage savoy cooked boiled drained without salt\",\"grams\":120,\"calories\":45,\"protein_g\":2.5,\"carbs_g\":8.0,\"fat_g\":1.0},{\"name\":\"pan-fried chicken breast\",\"usda_query\":\"chicken breast meat only cooked roasted\",\"grams\":120,\"calories\":198,\"protein_g\":37.0,\"carbs_g\":0.0,\"fat_g\":4.3},{\"name\":\"creamy sauce\",\"usda_query\":\"yogurt greek plain whole milk\",\"grams\":40,\"calories\":40,\"protein_g\":1.5,\"carbs_g\":2.5,\"fat_g\":3.0},{\"name\":\"raw kale\",\"usda_query\":\"kale raw\",\"grams\":100,\"calories\":49,\"protein_g\":4.3,\"carbs_g\":9.0,\"fat_g\":0.9},{\"name\":\"creamy salad dressing\",\"usda_query\":\"salad dressing caesar regular\",\"grams\":20,\"calories\":96,\"protein_g\":1.0,\"carbs_g\":2.0,\"fat_g\":10.0},{\"name\":\"parmesan cheese\",\"usda_query\":\"cheese parmesan hard grated\",\"grams\":15,\"calories\":65,\"protein_g\":5.4,\"carbs_g\":0.6,\"fat_g\":4.3},{\"name\":\"sweet corn on the cob\",\"usda_query\":\"corn sweet yellow cooked boiled drained without salt\",\"grams\":130,\"calories\":125,\"protein_g\":4.4,\"carbs_g\":27.3,\"fat_g\":2.0}],\"total_calories\":688}",
+  "latency_ms": 10205,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked lentils",
+        "usda_query": "lentils mature seeds cooked boiled without salt",
+        "grams": 60,
+        "calories": 70,
+        "protein_g": 5.4,
+        "carbs_g": 12,
+        "fat_g": 0.4
+      },
+      {
+        "name": "cooked leafy green wrap with tomato",
+        "usda_query": "cabbage savoy cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 45,
+        "protein_g": 2.5,
+        "carbs_g": 8,
+        "fat_g": 1
+      },
+      {
+        "name": "pan-fried chicken breast",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4.3
+      },
+      {
+        "name": "creamy sauce",
+        "usda_query": "yogurt greek plain whole milk",
+        "grams": 40,
+        "calories": 40,
+        "protein_g": 1.5,
+        "carbs_g": 2.5,
+        "fat_g": 3
+      },
+      {
+        "name": "raw kale",
+        "usda_query": "kale raw",
+        "grams": 100,
+        "calories": 49,
+        "protein_g": 4.3,
+        "carbs_g": 9,
+        "fat_g": 0.9
+      },
+      {
+        "name": "creamy salad dressing",
+        "usda_query": "salad dressing caesar regular",
+        "grams": 20,
+        "calories": 96,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 10
+      },
+      {
+        "name": "parmesan cheese",
+        "usda_query": "cheese parmesan hard grated",
+        "grams": 15,
+        "calories": 65,
+        "protein_g": 5.4,
+        "carbs_g": 0.6,
+        "fat_g": 4.3
+      },
+      {
+        "name": "sweet corn on the cob",
+        "usda_query": "corn sweet yellow cooked boiled drained without salt",
+        "grams": 130,
+        "calories": 125,
+        "protein_g": 4.4,
+        "carbs_g": 27.3,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 688
+  }
+}

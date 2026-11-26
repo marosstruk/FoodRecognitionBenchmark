@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562010369",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a166cacc89241b72",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1295,
+    "reasoning_tokens": 1152,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16528,
+    "ai_credits": 0.036115
+  },
+  "timestamp": "2026-11-25T00:10:04.188Z",
+  "raw_text": "{\"items\":[{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":35,\"calories\":46,\"protein_g\":1,\"carbs_g\":10,\"fat_g\":0},{\"name\":\"cooked chicken pieces\",\"usda_query\":\"chicken meat cooked\",\"grams\":50,\"calories\":84,\"protein_g\":15.5,\"carbs_g\":0,\"fat_g\":2.0},{\"name\":\"brown sauce\",\"usda_query\":\"brown gravy\",\"grams\":10,\"calories\":12,\"protein_g\":0.3,\"carbs_g\":2.5,\"fat_g\":0.2}],\"total_calories\":142}",
+  "latency_ms": 17387,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 35,
+        "calories": 46,
+        "protein_g": 1,
+        "carbs_g": 10,
+        "fat_g": 0
+      },
+      {
+        "name": "cooked chicken pieces",
+        "usda_query": "chicken meat cooked",
+        "grams": 50,
+        "calories": 84,
+        "protein_g": 15.5,
+        "carbs_g": 0,
+        "fat_g": 2
+      },
+      {
+        "name": "brown sauce",
+        "usda_query": "brown gravy",
+        "grams": 10,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.5,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 142
+  }
+}

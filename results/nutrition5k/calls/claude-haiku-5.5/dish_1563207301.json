@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563207301",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e0788f5b852e53bf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 802,
+    "reasoning_tokens": 505,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4095,
+    "ai_credits": 0.0523025
+  },
+  "timestamp": "2026-11-25T00:25:25.288Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked without skin\",\"grams\":120,\"calories\":110,\"protein_g\":2,\"carbs_g\":25,\"fat_g\":1.5},{\"name\":\"roasted potato\",\"usda_query\":\"potato roasted home prepared with oil\",\"grams\":50,\"calories\":55,\"protein_g\":1,\"carbs_g\":11,\"fat_g\":1.5},{\"name\":\"mashed potato\",\"usda_query\":\"potatoes mashed prepared with whole milk and butter\",\"grams\":100,\"calories\":110,\"protein_g\":2,\"carbs_g\":16,\"fat_g\":4},{\"name\":\"mashed white root vegetable\",\"usda_query\":\"potatoes mashed home prepared\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":275}",
+  "latency_ms": 4958,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked without skin",
+        "grams": 120,
+        "calories": 110,
+        "protein_g": 2,
+        "carbs_g": 25,
+        "fat_g": 1.5
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potato roasted home prepared with oil",
+        "grams": 50,
+        "calories": 55,
+        "protein_g": 1,
+        "carbs_g": 11,
+        "fat_g": 1.5
+      },
+      {
+        "name": "mashed potato",
+        "usda_query": "potatoes mashed prepared with whole milk and butter",
+        "grams": 100,
+        "calories": 110,
+        "protein_g": 2,
+        "carbs_g": 16,
+        "fat_g": 4
+      },
+      {
+        "name": "mashed white root vegetable",
+        "usda_query": "potatoes mashed home prepared",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 275
+  }
+}

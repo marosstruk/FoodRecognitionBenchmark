@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562010085",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4082659da7da10c2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1355,
+    "reasoning_tokens": 865,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6661,
+    "ai_credits": 0.0799525
+  },
+  "timestamp": "2026-11-25T00:18:59.086Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted Brussels sprouts\",\"usda_query\":\"brussels sprouts cooked boiled or roasted with oil\",\"grams\":150,\"calories\":110,\"protein_g\":5,\"carbs_g\":12,\"fat_g\":5},{\"name\":\"seared pork\",\"usda_query\":\"pork loin cooked roasted\",\"grams\":120,\"calories\":230,\"protein_g\":30,\"carbs_g\":0,\"fat_g\":12},{\"name\":\"roasted potato\",\"usda_query\":\"potatoes roasted with oil flesh and skin\",\"grams\":100,\"calories\":130,\"protein_g\":3,\"carbs_g\":22,\"fat_g\":4},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"toasted seeds\",\"usda_query\":\"sunflower seed kernels dry roasted\",\"grams\":10,\"calories\":58,\"protein_g\":2.5,\"carbs_g\":2,\"fat_g\":5},{\"name\":\"sliced almonds\",\"usda_query\":\"almonds dry roasted\",\"grams\":10,\"calories\":58,\"protein_g\":2,\"carbs_g\":2,\"fat_g\":5},{\"name\":\"fresh herbs\",\"usda_query\":\"parsley fresh\",\"grams\":3,\"calories\":1,\"protein_g\":0.1,\"carbs_g\":0.2,\"fat_g\":0}],\"total_calories\":570}",
+  "latency_ms": 8234,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled or roasted with oil",
+        "grams": 150,
+        "calories": 110,
+        "protein_g": 5,
+        "carbs_g": 12,
+        "fat_g": 5
+      },
+      {
+        "name": "seared pork",
+        "usda_query": "pork loin cooked roasted",
+        "grams": 120,
+        "calories": 230,
+        "protein_g": 30,
+        "carbs_g": 0,
+        "fat_g": 12
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted with oil flesh and skin",
+        "grams": 100,
+        "calories": 130,
+        "protein_g": 3,
+        "carbs_g": 22,
+        "fat_g": 4
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "toasted seeds",
+        "usda_query": "sunflower seed kernels dry roasted",
+        "grams": 10,
+        "calories": 58,
+        "protein_g": 2.5,
+        "carbs_g": 2,
+        "fat_g": 5
+      },
+      {
+        "name": "sliced almonds",
+        "usda_query": "almonds dry roasted",
+        "grams": 10,
+        "calories": 58,
+        "protein_g": 2,
+        "carbs_g": 2,
+        "fat_g": 5
+      },
+      {
+        "name": "fresh herbs",
+        "usda_query": "parsley fresh",
+        "grams": 3,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 570
+  }
+}

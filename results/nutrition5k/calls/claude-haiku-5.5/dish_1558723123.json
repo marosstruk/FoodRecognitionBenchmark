@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558723123",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a279d06ae32a00d5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 550,
+    "reasoning_tokens": 459,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4009,
+    "ai_credits": 0.0397025
+  },
+  "timestamp": "2026-11-25T00:36:17.505Z",
+  "raw_text": "{\"items\":[{\"name\":\"sweet corn cob slice\",\"usda_query\":\"corn sweet yellow boiled drained\",\"grams\":90,\"calories\":86,\"protein_g\":3.1,\"carbs_g\":19,\"fat_g\":1.3}],\"total_calories\":86}",
+  "latency_ms": 5116,
+  "parsed": {
+    "items": [
+      {
+        "name": "sweet corn cob slice",
+        "usda_query": "corn sweet yellow boiled drained",
+        "grams": 90,
+        "calories": 86,
+        "protein_g": 3.1,
+        "carbs_g": 19,
+        "fat_g": 1.3
+      }
+    ],
+    "total_calories": 86
+  }
+}

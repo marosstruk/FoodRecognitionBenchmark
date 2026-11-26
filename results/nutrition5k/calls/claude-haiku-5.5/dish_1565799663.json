@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565799663",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "554c71b89663108d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1595,
+    "reasoning_tokens": 1159,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7427,
+    "ai_credits": 0.0919525
+  },
+  "timestamp": "2026-11-25T00:09:36.123Z",
+  "raw_text": "{\"items\":[{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":100,\"calories\":32,\"protein_g\":0.7,\"carbs_g\":7.7,\"fat_g\":0.3},{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":80,\"calories\":24,\"protein_g\":0.5,\"carbs_g\":6.1,\"fat_g\":0.2},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":70,\"calories\":40,\"protein_g\":0.5,\"carbs_g\":10.1,\"fat_g\":0.2},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato roasted without skin\",\"grams\":120,\"calories\":110,\"protein_g\":2.2,\"carbs_g\":25.2,\"fat_g\":0.3},{\"name\":\"mashed cauliflower\",\"usda_query\":\"cauliflower cooked boiled mashed with butter\",\"grams\":150,\"calories\":105,\"protein_g\":4.5,\"carbs_g\":9,\"fat_g\":6},{\"name\":\"green chile salsa\",\"usda_query\":\"salsa verde green tomatillo sauce\",\"grams\":80,\"calories\":28,\"protein_g\":1.2,\"carbs_g\":5.6,\"fat_g\":0.8}],\"total_calories\":339}",
+  "latency_ms": 8315,
+  "parsed": {
+    "items": [
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 100,
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 80,
+        "calories": 24,
+        "protein_g": 0.5,
+        "carbs_g": 6.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 70,
+        "calories": 40,
+        "protein_g": 0.5,
+        "carbs_g": 10.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato roasted without skin",
+        "grams": 120,
+        "calories": 110,
+        "protein_g": 2.2,
+        "carbs_g": 25.2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "mashed cauliflower",
+        "usda_query": "cauliflower cooked boiled mashed with butter",
+        "grams": 150,
+        "calories": 105,
+        "protein_g": 4.5,
+        "carbs_g": 9,
+        "fat_g": 6
+      },
+      {
+        "name": "green chile salsa",
+        "usda_query": "salsa verde green tomatillo sauce",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 1.2,
+        "carbs_g": 5.6,
+        "fat_g": 0.8
+      }
+    ],
+    "total_calories": 339
+  }
+}

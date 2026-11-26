@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563811439",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a7029d0689b0c2e4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 928,
+    "reasoning_tokens": 690,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11878,
+    "ai_credits": 0.05388
+  },
+  "timestamp": "2026-11-25T00:16:22.242Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Boiled cauliflower\",\n      \"usda_query\": \"cauliflower cooked boiled\",\n      \"grams\": 200,\n      \"calories\": 46,\n      \"protein_g\": 3.8,\n      \"carbs_g\": 9.2,\n      \"fat_g\": 0.6\n    },\n    {\n      \"name\": \"Cooked carrot\",\n      \"usda_query\": \"carrots cooked boiled\",\n      \"grams\": 60,\n      \"calories\": 21,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Curry sauce\",\n      \"usda_query\": \"tomato based curry sauce\",\n      \"grams\": 55,\n      \"calories\": 50,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 2.8\n    }\n  ],\n  \"total_calories\": 117\n}",
+  "latency_ms": 12993,
+  "parsed": {
+    "items": [
+      {
+        "name": "Boiled cauliflower",
+        "usda_query": "cauliflower cooked boiled",
+        "grams": 200,
+        "calories": 46,
+        "protein_g": 3.8,
+        "carbs_g": 9.2,
+        "fat_g": 0.6
+      },
+      {
+        "name": "Cooked carrot",
+        "usda_query": "carrots cooked boiled",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 0.5,
+        "carbs_g": 4.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Curry sauce",
+        "usda_query": "tomato based curry sauce",
+        "grams": 55,
+        "calories": 50,
+        "protein_g": 1.2,
+        "carbs_g": 5.5,
+        "fat_g": 2.8
+      }
+    ],
+    "total_calories": 117
+  }
+}

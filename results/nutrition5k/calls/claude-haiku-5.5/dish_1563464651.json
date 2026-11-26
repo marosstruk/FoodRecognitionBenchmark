@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563464651",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea3ab57a954ad7d9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 948,
+    "reasoning_tokens": 726,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5297,
+    "ai_credits": 0.0596025
+  },
+  "timestamp": "2026-11-25T00:38:14.297Z",
+  "raw_text": "{\"items\":[{\"name\":\"toasted plain bagel\",\"usda_query\":\"bagel plain enriched toasted\",\"grams\":115,\"calories\":295,\"protein_g\":10.2,\"carbs_g\":56.4,\"fat_g\":1.7},{\"name\":\"cream cheese\",\"usda_query\":\"cream cheese regular\",\"grams\":35,\"calories\":120,\"protein_g\":2.1,\"carbs_g\":1.4,\"fat_g\":12},{\"name\":\"cucumber slices\",\"usda_query\":\"cucumber raw\",\"grams\":30,\"calories\":5,\"protein_g\":0.2,\"carbs_g\":1.1,\"fat_g\":0.1}],\"total_calories\":420}",
+  "latency_ms": 6213,
+  "parsed": {
+    "items": [
+      {
+        "name": "toasted plain bagel",
+        "usda_query": "bagel plain enriched toasted",
+        "grams": 115,
+        "calories": 295,
+        "protein_g": 10.2,
+        "carbs_g": 56.4,
+        "fat_g": 1.7
+      },
+      {
+        "name": "cream cheese",
+        "usda_query": "cream cheese regular",
+        "grams": 35,
+        "calories": 120,
+        "protein_g": 2.1,
+        "carbs_g": 1.4,
+        "fat_g": 12
+      },
+      {
+        "name": "cucumber slices",
+        "usda_query": "cucumber raw",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 420
+  }
+}

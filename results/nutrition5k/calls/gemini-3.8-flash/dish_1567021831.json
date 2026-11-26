@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567021831",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f7ec6101a4d4865",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 707,
+    "reasoning_tokens": 423,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9266,
+    "ai_credits": 0.375675
+  },
+  "timestamp": "2026-11-25T00:19:30.697Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"crusted baked white fish\",\n      \"usda_query\": \"fish fillet breaded or battered baked\",\n      \"grams\": 110,\n      \"calories\": 204,\n      \"protein_g\": 18.2,\n      \"carbs_g\": 9.4,\n      \"fat_g\": 10.1\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"salad greens raw\",\n      \"grams\": 60,\n      \"calories\": 14,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette\",\n      \"grams\": 10,\n      \"calories\": 45,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 4.7\n    }\n  ],\n  \"total_calories\": 263\n}",
+  "latency_ms": 10822,
+  "parsed": {
+    "items": [
+      {
+        "name": "crusted baked white fish",
+        "usda_query": "fish fillet breaded or battered baked",
+        "grams": 110,
+        "calories": 204,
+        "protein_g": 18.2,
+        "carbs_g": 9.4,
+        "fat_g": 10.1
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.2,
+        "carbs_g": 2.2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 10,
+        "calories": 45,
+        "protein_g": 0.1,
+        "carbs_g": 0.8,
+        "fat_g": 4.7
+      }
+    ],
+    "total_calories": 263
+  }
+}

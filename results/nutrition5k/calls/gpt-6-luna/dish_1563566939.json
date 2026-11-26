@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563566939",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6d0baa356c480ea8",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1224,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10506,
+    "ai_credits": 0.06868
+  },
+  "timestamp": "2026-11-25T00:16:32.655Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked buckwheat\",\n      \"usda_query\": \"buckwheat groats cooked\",\n      \"grams\": 70,\n      \"calories\": 64,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 14,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"Tofu\",\n      \"usda_query\": \"tofu firm\",\n      \"grams\": 100,\n      \"calories\": 144,\n      \"protein_g\": 15.7,\n      \"carbs_g\": 3.5,\n      \"fat_g\": 8.7\n    },\n    {\n      \"name\": \"Carrots\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 55,\n      \"calories\": 23,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 25,\n      \"calories\": 8,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Onion\",\n      \"usda_query\": \"onions cooked\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 20,\n      \"calories\": 3,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Leafy greens\",\n      \"usda_query\": \"mixed leafy greens raw\",\n      \"grams\": 80,\n      \"calories\": 20,\n      \"protein_g\": 2,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 10,\n      \"calories\": 6,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Raspberry\",\n      \"usda_query\": \"raspberries raw\",\n      \"grams\": 5,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cooking oil\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 5,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 324\n}",
+  "latency_ms": 11822,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked buckwheat",
+        "usda_query": "buckwheat groats cooked",
+        "grams": 70,
+        "calories": 64,
+        "protein_g": 2.4,
+        "carbs_g": 14,
+        "fat_g": 0.5
+      },
+      {
+        "name": "Tofu",
+        "usda_query": "tofu firm",
+        "grams": 100,
+        "calories": 144,
+        "protein_g": 15.7,
+        "carbs_g": 3.5,
+        "fat_g": 8.7
+      },
+      {
+        "name": "Carrots",
+        "usda_query": "carrots cooked",
+        "grams": 55,
+        "calories": 23,
+        "protein_g": 0.5,
+        "carbs_g": 5.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Green beans",
+        "usda_query": "green beans cooked",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.5,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Onion",
+        "usda_query": "onions cooked",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      },
+      {
+        "name": "Zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 20,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Leafy greens",
+        "usda_query": "mixed leafy greens raw",
+        "grams": 80,
+        "calories": 20,
+        "protein_g": 2,
+        "carbs_g": 3.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 10,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.5,
+        "fat_g": 0
+      },
+      {
+        "name": "Raspberry",
+        "usda_query": "raspberries raw",
+        "grams": 5,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "olive oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 324
+  }
+}

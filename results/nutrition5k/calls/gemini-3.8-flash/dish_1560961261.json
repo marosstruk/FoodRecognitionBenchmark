@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560961261",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cd94e2332ef0b3df",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 962,
+    "reasoning_tokens": 687,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11159,
+    "ai_credits": 0.4713
+  },
+  "timestamp": "2026-11-25T00:13:52.593Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 110,\n      \"calories\": 164,\n      \"protein_g\": 11.0,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 12.1\n    },\n    {\n      \"name\": \"cooked broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 65,\n      \"calories\": 23,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 4.6,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 75,\n      \"calories\": 24,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 211\n}",
+  "latency_ms": 12296,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 110,
+        "calories": 164,
+        "protein_g": 11,
+        "carbs_g": 1.8,
+        "fat_g": 12.1
+      },
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 65,
+        "calories": 23,
+        "protein_g": 1.6,
+        "carbs_g": 4.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 75,
+        "calories": 24,
+        "protein_g": 0.5,
+        "carbs_g": 5.8,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 211
+  }
+}

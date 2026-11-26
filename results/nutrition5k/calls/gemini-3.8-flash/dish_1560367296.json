@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367296",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "162c6dc35f6fa853",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1356,
+    "reasoning_tokens": 820,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 15035,
+    "ai_credits": 0.61905
+  },
+  "timestamp": "2026-11-25T00:25:46.250Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked asparagus\",\n      \"usda_query\": \"asparagus cooked boiled drained\",\n      \"grams\": 45,\n      \"calories\": 10,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"sautéed mushrooms\",\n      \"usda_query\": \"mushrooms cooked with oil\",\n      \"grams\": 70,\n      \"calories\": 65,\n      \"protein_g\": 2.1,\n      \"carbs_g\": 3.5,\n      \"fat_g\": 5.0\n    },\n    {\n      \"name\": \"pan-fried tofu\",\n      \"usda_query\": \"tofu fried\",\n      \"grams\": 70,\n      \"calories\": 120,\n      \"protein_g\": 10.0,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 8.0\n    },\n    {\n      \"name\": \"roasted sweet potato\",\n      \"usda_query\": \"sweet potato cooked baked\",\n      \"grams\": 40,\n      \"calories\": 36,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"boiled potato wedge\",\n      \"usda_query\": \"potatoes boiled cooked without skin\",\n      \"grams\": 25,\n      \"calories\": 22,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.0,\n      \"fat_g\": 0.0\n    },\n    {\n      \"name\": \"mixed green salad with vinaigrette\",\n      \"usda_query\": \"salad greens with dressing\",\n      \"grams\": 40,\n      \"calories\": 35,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 3.2\n    }\n  ],\n  \"total_calories\": 288\n}",
+  "latency_ms": 15972,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked asparagus",
+        "usda_query": "asparagus cooked boiled drained",
+        "grams": 45,
+        "calories": 10,
+        "protein_g": 1.1,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sautéed mushrooms",
+        "usda_query": "mushrooms cooked with oil",
+        "grams": 70,
+        "calories": 65,
+        "protein_g": 2.1,
+        "carbs_g": 3.5,
+        "fat_g": 5
+      },
+      {
+        "name": "pan-fried tofu",
+        "usda_query": "tofu fried",
+        "grams": 70,
+        "calories": 120,
+        "protein_g": 10,
+        "carbs_g": 2.5,
+        "fat_g": 8
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked",
+        "grams": 40,
+        "calories": 36,
+        "protein_g": 0.8,
+        "carbs_g": 8.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "boiled potato wedge",
+        "usda_query": "potatoes boiled cooked without skin",
+        "grams": 25,
+        "calories": 22,
+        "protein_g": 0.5,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "mixed green salad with vinaigrette",
+        "usda_query": "salad greens with dressing",
+        "grams": 40,
+        "calories": 35,
+        "protein_g": 0.6,
+        "carbs_g": 1.5,
+        "fat_g": 3.2
+      }
+    ],
+    "total_calories": 288
+  }
+}

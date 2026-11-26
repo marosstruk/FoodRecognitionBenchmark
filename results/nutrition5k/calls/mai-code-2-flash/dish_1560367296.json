@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367296",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "162c6dc35f6fa853",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1637,
+    "reasoning_tokens": 1306,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18881,
+    "ai_credits": 0.044665
+  },
+  "timestamp": "2026-11-25T00:25:41.155Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled asparagus\",\"usda_query\":\"asparagus cooked\",\"grams\":100,\"calories\":22,\"protein_g\":2.4,\"carbs_g\":4.1,\"fat_g\":0.3},{\"name\":\"steamed green beans\",\"usda_query\":\"green beans cooked\",\"grams\":80,\"calories\":28,\"protein_g\":1.6,\"carbs_g\":6.3,\"fat_g\":0.1},{\"name\":\"cooked carrot\",\"usda_query\":\"carrots cooked\",\"grams\":40,\"calories\":20,\"protein_g\":0.4,\"carbs_g\":4.7,\"fat_g\":0.1},{\"name\":\"sautéed yellow squash\",\"usda_query\":\"summer squash cooked\",\"grams\":70,\"calories\":21,\"protein_g\":1.5,\"carbs_g\":4.5,\"fat_g\":0.3},{\"name\":\"sautéed mushrooms\",\"usda_query\":\"mushrooms cooked\",\"grams\":80,\"calories\":18,\"protein_g\":2.5,\"carbs_g\":2.6,\"fat_g\":0.3},{\"name\":\"cooked onions\",\"usda_query\":\"onions cooked\",\"grams\":50,\"calories\":44,\"protein_g\":1.1,\"carbs_g\":10.2,\"fat_g\":0.1},{\"name\":\"cooking oil\",\"usda_query\":\"vegetable oil\",\"grams\":8,\"calories\":71,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":8}],\"total_calories\":224}",
+  "latency_ms": 20107,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled asparagus",
+        "usda_query": "asparagus cooked",
+        "grams": 100,
+        "calories": 22,
+        "protein_g": 2.4,
+        "carbs_g": 4.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "steamed green beans",
+        "usda_query": "green beans cooked",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 1.6,
+        "carbs_g": 6.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked carrot",
+        "usda_query": "carrots cooked",
+        "grams": 40,
+        "calories": 20,
+        "protein_g": 0.4,
+        "carbs_g": 4.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sautéed yellow squash",
+        "usda_query": "summer squash cooked",
+        "grams": 70,
+        "calories": 21,
+        "protein_g": 1.5,
+        "carbs_g": 4.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "sautéed mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 80,
+        "calories": 18,
+        "protein_g": 2.5,
+        "carbs_g": 2.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cooked onions",
+        "usda_query": "onions cooked",
+        "grams": 50,
+        "calories": 44,
+        "protein_g": 1.1,
+        "carbs_g": 10.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 8,
+        "calories": 71,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 8
+      }
+    ],
+    "total_calories": 224
+  }
+}

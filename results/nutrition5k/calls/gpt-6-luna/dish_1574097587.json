@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574097587",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "07f85d7fcc447511",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1139,
+    "reasoning_tokens": 843,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10979,
+    "ai_credits": 0.06443
+  },
+  "timestamp": "2026-11-25T00:25:46.853Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"White rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 160,\n      \"calories\": 208,\n      \"protein_g\": 4.3,\n      \"carbs_g\": 45.1,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Mixed vegetables\",\n      \"usda_query\": \"mixed vegetables cooked\",\n      \"grams\": 25,\n      \"calories\": 10,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Fresh salsa\",\n      \"usda_query\": \"salsa ready to serve\",\n      \"grams\": 40,\n      \"calories\": 18,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Fried fish\",\n      \"usda_query\": \"fish fried\",\n      \"grams\": 85,\n      \"calories\": 190,\n      \"protein_g\": 21,\n      \"carbs_g\": 2,\n      \"fat_g\": 11\n    }\n  ],\n  \"total_calories\": 426\n}",
+  "latency_ms": 11831,
+  "parsed": {
+    "items": [
+      {
+        "name": "White rice",
+        "usda_query": "rice white cooked",
+        "grams": 160,
+        "calories": 208,
+        "protein_g": 4.3,
+        "carbs_g": 45.1,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Mixed vegetables",
+        "usda_query": "mixed vegetables cooked",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.4,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Fresh salsa",
+        "usda_query": "salsa ready to serve",
+        "grams": 40,
+        "calories": 18,
+        "protein_g": 0.5,
+        "carbs_g": 3.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Fried fish",
+        "usda_query": "fish fried",
+        "grams": 85,
+        "calories": 190,
+        "protein_g": 21,
+        "carbs_g": 2,
+        "fat_g": 11
+      }
+    ],
+    "total_calories": 426
+  }
+}

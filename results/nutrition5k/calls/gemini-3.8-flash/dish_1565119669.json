@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565119669",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "57b2c90c41a5a06c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 915,
+    "reasoning_tokens": 711,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 12350,
+    "ai_credits": 0.453675
+  },
+  "timestamp": "2026-11-25T00:10:18.867Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked kale and chard\",\n      \"usda_query\": \"kale cooked boiled drained without salt\",\n      \"grams\": 60,\n      \"calories\": 30,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 4.0,\n      \"fat_g\": 0.8\n    },\n    {\n      \"name\": \"sautéed yellow squash and zucchini\",\n      \"usda_query\": \"squash summer all varieties cooked boiled drained without salt\",\n      \"grams\": 95,\n      \"calories\": 35,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 4.5,\n      \"fat_g\": 1.5\n    }\n  ],\n  \"total_calories\": 65\n}",
+  "latency_ms": 13493,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked kale and chard",
+        "usda_query": "kale cooked boiled drained without salt",
+        "grams": 60,
+        "calories": 30,
+        "protein_g": 1.5,
+        "carbs_g": 4,
+        "fat_g": 0.8
+      },
+      {
+        "name": "sautéed yellow squash and zucchini",
+        "usda_query": "squash summer all varieties cooked boiled drained without salt",
+        "grams": 95,
+        "calories": 35,
+        "protein_g": 1.1,
+        "carbs_g": 4.5,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 65
+  }
+}

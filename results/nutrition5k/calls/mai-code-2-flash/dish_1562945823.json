@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562945823",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "421440ccf90a6970",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1309,
+    "reasoning_tokens": 1078,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13649,
+    "ai_credits": 0.036465
+  },
+  "timestamp": "2026-11-25T00:17:33.679Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli raw\",\n      \"grams\": 110,\n      \"calories\": 38,\n      \"protein_g\": 2.6,\n      \"carbs_g\": 7.4,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"carrots\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 85,\n      \"calories\": 35,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"firm tofu\",\n      \"usda_query\": \"tofu firm\",\n      \"grams\": 75,\n      \"calories\": 108,\n      \"protein_g\": 12.1,\n      \"carbs_g\": 4.2,\n      \"fat_g\": 6.8\n    }\n  ],\n  \"total_calories\": 181\n}",
+  "latency_ms": 14783,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli raw",
+        "grams": 110,
+        "calories": 38,
+        "protein_g": 2.6,
+        "carbs_g": 7.4,
+        "fat_g": 0.5
+      },
+      {
+        "name": "carrots",
+        "usda_query": "carrots raw",
+        "grams": 85,
+        "calories": 35,
+        "protein_g": 0.8,
+        "carbs_g": 8.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "firm tofu",
+        "usda_query": "tofu firm",
+        "grams": 75,
+        "calories": 108,
+        "protein_g": 12.1,
+        "carbs_g": 4.2,
+        "fat_g": 6.8
+      }
+    ],
+    "total_calories": 181
+  }
+}

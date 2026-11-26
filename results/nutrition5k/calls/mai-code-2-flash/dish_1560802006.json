@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560802006",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "797a91205de9f57f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 427,
+    "reasoning_tokens": 365,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7058,
+    "ai_credits": 0.014415
+  },
+  "timestamp": "2026-11-25T00:34:38.170Z",
+  "raw_text": "{\"items\":[{\"name\":\"chopped kale\",\"usda_query\":\"kale raw\",\"grams\":100,\"calories\":35,\"protein_g\":2.92,\"carbs_g\":4.42,\"fat_g\":1.49}],\"total_calories\":35}",
+  "latency_ms": 8198,
+  "parsed": {
+    "items": [
+      {
+        "name": "chopped kale",
+        "usda_query": "kale raw",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.92,
+        "carbs_g": 4.42,
+        "fat_g": 1.49
+      }
+    ],
+    "total_calories": 35
+  }
+}

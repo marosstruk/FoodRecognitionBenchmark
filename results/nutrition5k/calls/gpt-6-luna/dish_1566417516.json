@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566417516",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "457a4b1011ed83d9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1049,
+    "reasoning_tokens": 623,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10780,
+    "ai_credits": 0.05993
+  },
+  "timestamp": "2026-11-25T00:23:17.663Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded fried chicken\",\n      \"usda_query\": \"chicken breast breaded fried\",\n      \"grams\": 130,\n      \"calories\": 360,\n      \"protein_g\": 26,\n      \"carbs_g\": 25,\n      \"fat_g\": 18\n    },\n    {\n      \"name\": \"cooked eggplant\",\n      \"usda_query\": \"eggplant cooked with oil\",\n      \"grams\": 110,\n      \"calories\": 140,\n      \"protein_g\": 2,\n      \"carbs_g\": 12,\n      \"fat_g\": 9\n    },\n    {\n      \"name\": \"roasted potato\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 65,\n      \"calories\": 95,\n      \"protein_g\": 2,\n      \"carbs_g\": 15,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"boiled egg\",\n      \"usda_query\": \"egg hard boiled\",\n      \"grams\": 45,\n      \"calories\": 70,\n      \"protein_g\": 6,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 70,\n      \"calories\": 15,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"oil-based dressing\",\n      \"usda_query\": \"salad dressing oil based\",\n      \"grams\": 8,\n      \"calories\": 40,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 720\n}",
+  "latency_ms": 11894,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded fried chicken",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 130,
+        "calories": 360,
+        "protein_g": 26,
+        "carbs_g": 25,
+        "fat_g": 18
+      },
+      {
+        "name": "cooked eggplant",
+        "usda_query": "eggplant cooked with oil",
+        "grams": 110,
+        "calories": 140,
+        "protein_g": 2,
+        "carbs_g": 12,
+        "fat_g": 9
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted",
+        "grams": 65,
+        "calories": 95,
+        "protein_g": 2,
+        "carbs_g": 15,
+        "fat_g": 3
+      },
+      {
+        "name": "boiled egg",
+        "usda_query": "egg hard boiled",
+        "grams": 45,
+        "calories": 70,
+        "protein_g": 6,
+        "carbs_g": 0.5,
+        "fat_g": 5
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 70,
+        "calories": 15,
+        "protein_g": 1.5,
+        "carbs_g": 2.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "oil-based dressing",
+        "usda_query": "salad dressing oil based",
+        "grams": 8,
+        "calories": 40,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 720
+  }
+}

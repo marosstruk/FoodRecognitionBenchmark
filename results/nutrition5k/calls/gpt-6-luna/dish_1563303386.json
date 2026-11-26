@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563303386",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39fef9e4ab0a01d5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 858,
+    "reasoning_tokens": 576,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10128,
+    "ai_credits": 0.05038
+  },
+  "timestamp": "2026-11-25T00:10:50.340Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Vegetable rice casserole\",\n      \"usda_query\": \"rice casserole with vegetables\",\n      \"grams\": 140,\n      \"calories\": 230,\n      \"protein_g\": 6,\n      \"carbs_g\": 36,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"Cooked carrots\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 90,\n      \"calories\": 32,\n      \"protein_g\": 1,\n      \"carbs_g\": 7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Roasted potatoes\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 60,\n      \"calories\": 93,\n      \"protein_g\": 2,\n      \"carbs_g\": 16,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"Black olive\",\n      \"usda_query\": \"ripe olives canned\",\n      \"grams\": 5,\n      \"calories\": 6,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 361\n}",
+  "latency_ms": 10997,
+  "parsed": {
+    "items": [
+      {
+        "name": "Vegetable rice casserole",
+        "usda_query": "rice casserole with vegetables",
+        "grams": 140,
+        "calories": 230,
+        "protein_g": 6,
+        "carbs_g": 36,
+        "fat_g": 7
+      },
+      {
+        "name": "Cooked carrots",
+        "usda_query": "carrots cooked",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 60,
+        "calories": 93,
+        "protein_g": 2,
+        "carbs_g": 16,
+        "fat_g": 3
+      },
+      {
+        "name": "Black olive",
+        "usda_query": "ripe olives canned",
+        "grams": 5,
+        "calories": 6,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 361
+  }
+}

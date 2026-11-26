@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574711418",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2eaccb26e6bdf786",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 227,
+    "reasoning_tokens": 163,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5240,
+    "ai_credits": 0.01883
+  },
+  "timestamp": "2026-11-25T00:20:51.601Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":100,\"calories\":35,\"protein_g\":2.4,\"carbs_g\":7.2,\"fat_g\":0.4}],\"total_calories\":35}",
+  "latency_ms": 6368,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 35
+  }
+}

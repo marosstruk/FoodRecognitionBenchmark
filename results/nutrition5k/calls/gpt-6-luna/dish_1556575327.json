@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1556575327",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "36b0e595afbc72c0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 779,
+    "reasoning_tokens": 627,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10960,
+    "ai_credits": 0.04643
+  },
+  "timestamp": "2026-11-25T00:26:58.789Z",
+  "raw_text": "{\"items\":[{\"name\":\"Brussels sprouts\",\"usda_query\":\"brussels sprouts cooked\",\"grams\":95,\"calories\":41,\"protein_g\":3.2,\"carbs_g\":8.5,\"fat_g\":0.5},{\"name\":\"Kalamata olives\",\"usda_query\":\"olives kalamata\",\"grams\":85,\"calories\":203,\"protein_g\":1.9,\"carbs_g\":4.5,\"fat_g\":20.1},{\"name\":\"Celery\",\"usda_query\":\"celery cooked\",\"grams\":65,\"calories\":9,\"protein_g\":0.4,\"carbs_g\":2,\"fat_g\":0.1}],\"total_calories\":253}",
+  "latency_ms": 12108,
+  "parsed": {
+    "items": [
+      {
+        "name": "Brussels sprouts",
+        "usda_query": "brussels sprouts cooked",
+        "grams": 95,
+        "calories": 41,
+        "protein_g": 3.2,
+        "carbs_g": 8.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "Kalamata olives",
+        "usda_query": "olives kalamata",
+        "grams": 85,
+        "calories": 203,
+        "protein_g": 1.9,
+        "carbs_g": 4.5,
+        "fat_g": 20.1
+      },
+      {
+        "name": "Celery",
+        "usda_query": "celery cooked",
+        "grams": 65,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 253
+  }
+}

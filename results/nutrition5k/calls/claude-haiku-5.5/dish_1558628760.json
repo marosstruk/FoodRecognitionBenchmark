@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558628760",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9eef2ff170e8b1d1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1190,
+    "reasoning_tokens": 841,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5437,
+    "ai_credits": 0.0717025
+  },
+  "timestamp": "2026-11-25T00:25:59.781Z",
+  "raw_text": "{\"items\":[{\"name\":\"bacon, pan-fried\",\"usda_query\":\"pork bacon cooked pan-fried\",\"grams\":30,\"calories\":162,\"protein_g\":11,\"carbs_g\":0,\"fat_g\":13},{\"name\":\"roasted white potato\",\"usda_query\":\"potatoes roasted flesh and skin cooked with oil\",\"grams\":120,\"calories\":156,\"protein_g\":3,\"carbs_g\":24,\"fat_g\":5},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked in oil\",\"grams\":90,\"calories\":110,\"protein_g\":2,\"carbs_g\":22,\"fat_g\":2},{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":60,\"calories\":31,\"protein_g\":1,\"carbs_g\":7,\"fat_g\":0},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":40,\"calories\":17,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":0}],\"total_calories\":476}",
+  "latency_ms": 6331,
+  "parsed": {
+    "items": [
+      {
+        "name": "bacon, pan-fried",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 30,
+        "calories": 162,
+        "protein_g": 11,
+        "carbs_g": 0,
+        "fat_g": 13
+      },
+      {
+        "name": "roasted white potato",
+        "usda_query": "potatoes roasted flesh and skin cooked with oil",
+        "grams": 120,
+        "calories": 156,
+        "protein_g": 3,
+        "carbs_g": 24,
+        "fat_g": 5
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked in oil",
+        "grams": 90,
+        "calories": 110,
+        "protein_g": 2,
+        "carbs_g": 22,
+        "fat_g": 2
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 60,
+        "calories": 31,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 40,
+        "calories": 17,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 476
+  }
+}

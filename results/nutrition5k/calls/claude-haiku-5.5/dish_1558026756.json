@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558026756",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74dc993014541c0b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 705,
+    "reasoning_tokens": 495,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3529,
+    "ai_credits": 0.0474525
+  },
+  "timestamp": "2026-11-25T00:35:45.066Z",
+  "raw_text": "{\"items\":[{\"name\":\"bacon cooked\",\"usda_query\":\"bacon pan-fried cooked\",\"grams\":25,\"calories\":135,\"protein_g\":9,\"carbs_g\":0,\"fat_g\":10},{\"name\":\"cantaloupe\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":130,\"calories\":44,\"protein_g\":1,\"carbs_g\":11,\"fat_g\":0},{\"name\":\"honeydew melon\",\"usda_query\":\"melons honeydew raw\",\"grams\":120,\"calories\":43,\"protein_g\":1,\"carbs_g\":11,\"fat_g\":0}],\"total_calories\":222}",
+  "latency_ms": 4643,
+  "parsed": {
+    "items": [
+      {
+        "name": "bacon cooked",
+        "usda_query": "bacon pan-fried cooked",
+        "grams": 25,
+        "calories": 135,
+        "protein_g": 9,
+        "carbs_g": 0,
+        "fat_g": 10
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 130,
+        "calories": 44,
+        "protein_g": 1,
+        "carbs_g": 11,
+        "fat_g": 0
+      },
+      {
+        "name": "honeydew melon",
+        "usda_query": "melons honeydew raw",
+        "grams": 120,
+        "calories": 43,
+        "protein_g": 1,
+        "carbs_g": 11,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 222
+  }
+}

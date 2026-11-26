@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568060646",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b2da49388a360f89",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 560,
+    "reasoning_tokens": 354,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2864,
+    "ai_credits": 0.0402025
+  },
+  "timestamp": "2026-11-25T00:15:13.103Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":80,\"calories\":14,\"protein_g\":1.1,\"carbs_g\":2.6,\"fat_g\":0.2},{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":25,\"calories\":10,\"protein_g\":0.3,\"carbs_g\":2.3,\"fat_g\":0},{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":24}",
+  "latency_ms": 4033,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 1.1,
+        "carbs_g": 2.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 24
+  }
+}

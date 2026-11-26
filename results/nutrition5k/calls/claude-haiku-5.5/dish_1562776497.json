@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562776497",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "be6a0fc5d0f1fbb2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 669,
+    "reasoning_tokens": 428,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3599,
+    "ai_credits": 0.0456525
+  },
+  "timestamp": "2026-11-25T00:09:13.459Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted Brussels sprouts\",\"usda_query\":\"brussels sprouts cooked boiled or roasted with oil\",\"grams\":120,\"calories\":95,\"protein_g\":4,\"carbs_g\":12,\"fat_g\":4},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole scrambled cooked with butter\",\"grams\":130,\"calories\":200,\"protein_g\":13,\"carbs_g\":1.5,\"fat_g\":16},{\"name\":\"pan-fried potato cubes\",\"usda_query\":\"potatoes home fries pan fried in oil\",\"grams\":180,\"calories\":235,\"protein_g\":4,\"carbs_g\":33,\"fat_g\":9}],\"total_calories\":530}",
+  "latency_ms": 4485,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled or roasted with oil",
+        "grams": 120,
+        "calories": 95,
+        "protein_g": 4,
+        "carbs_g": 12,
+        "fat_g": 4
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole scrambled cooked with butter",
+        "grams": 130,
+        "calories": 200,
+        "protein_g": 13,
+        "carbs_g": 1.5,
+        "fat_g": 16
+      },
+      {
+        "name": "pan-fried potato cubes",
+        "usda_query": "potatoes home fries pan fried in oil",
+        "grams": 180,
+        "calories": 235,
+        "protein_g": 4,
+        "carbs_g": 33,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 530
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564774773",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "548006e9f91f2152",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 365,
+    "reasoning_tokens": 269,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2740,
+    "ai_credits": 0.0304525
+  },
+  "timestamp": "2026-11-25T00:39:47.792Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets, cooked\",\"usda_query\":\"broccoli cooked boiled drained without salt\",\"grams\":120,\"calories\":42,\"protein_g\":2.9,\"carbs_g\":8.6,\"fat_g\":0.5}],\"total_calories\":42}",
+  "latency_ms": 3867,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets, cooked",
+        "usda_query": "broccoli cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 2.9,
+        "carbs_g": 8.6,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 42
+  }
+}

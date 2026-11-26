@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568056046",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "33c22e9713032b66",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 686,
+    "reasoning_tokens": 388,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6999,
+    "ai_credits": 0.02089
+  },
+  "timestamp": "2026-11-25T00:36:30.343Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"tomato sauce\",\n      \"usda_query\": \"tomato sauce canned\",\n      \"grams\": 650,\n      \"calories\": 293,\n      \"protein_g\": 12.4,\n      \"carbs_g\": 65.7,\n      \"fat_g\": 3.9\n    },\n    {\n      \"name\": \"shredded carrots\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 60,\n      \"calories\": 25,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"sliced onion\",\n      \"usda_query\": \"onions raw\",\n      \"grams\": 30,\n      \"calories\": 12,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 15,\n      \"calories\": 133,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 15\n    }\n  ],\n  \"total_calories\": 463\n}",
+  "latency_ms": 8526,
+  "parsed": {
+    "items": [
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce canned",
+        "grams": 650,
+        "calories": 293,
+        "protein_g": 12.4,
+        "carbs_g": 65.7,
+        "fat_g": 3.9
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw",
+        "grams": 60,
+        "calories": 25,
+        "protein_g": 0.6,
+        "carbs_g": 5.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sliced onion",
+        "usda_query": "onions raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.8,
+        "fat_g": 0
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 15,
+        "calories": 133,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 463
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562086740",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0c852eb7b0517826",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 395,
+    "reasoning_tokens": 240,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5685,
+    "ai_credits": 0.02723
+  },
+  "timestamp": "2026-11-25T00:17:34.206Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 190,\n      \"calories\": 285,\n      \"protein_g\": 19,\n      \"carbs_g\": 2,\n      \"fat_g\": 22\n    },\n    {\n      \"name\": \"Cooked bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 28,\n      \"calories\": 151,\n      \"protein_g\": 10,\n      \"carbs_g\": 0,\n      \"fat_g\": 12\n    }\n  ],\n  \"total_calories\": 436\n}",
+  "latency_ms": 6802,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "egg scrambled cooked",
+        "grams": 190,
+        "calories": 285,
+        "protein_g": 19,
+        "carbs_g": 2,
+        "fat_g": 22
+      },
+      {
+        "name": "Cooked bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 28,
+        "calories": 151,
+        "protein_g": 10,
+        "carbs_g": 0,
+        "fat_g": 12
+      }
+    ],
+    "total_calories": 436
+  }
+}

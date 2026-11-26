@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558639412",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "189bf56ac01cb6dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 489,
+    "reasoning_tokens": 426,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6779,
+    "ai_credits": 0.015965
+  },
+  "timestamp": "2026-11-25T00:10:03.500Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked pumpkin\",\"usda_query\":\"pumpkin cooked boiled\",\"grams\":150,\"calories\":74,\"protein_g\":2.4,\"carbs_g\":18.9,\"fat_g\":0.3}],\"total_calories\":74}",
+  "latency_ms": 7949,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked pumpkin",
+        "usda_query": "pumpkin cooked boiled",
+        "grams": 150,
+        "calories": 74,
+        "protein_g": 2.4,
+        "carbs_g": 18.9,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 74
+  }
+}

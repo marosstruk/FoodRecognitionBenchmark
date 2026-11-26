@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567629106",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "38f979a735c2df90",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1324,
+    "reasoning_tokens": 1098,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6546,
+    "ai_credits": 0.0784025
+  },
+  "timestamp": "2026-11-25T00:27:37.102Z",
+  "raw_text": "{\"items\":[{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce romaine raw\",\"grams\":120,\"calories\":20,\"protein_g\":1.5,\"carbs_g\":3.5,\"fat_g\":0.3},{\"name\":\"Caesar dressing\",\"usda_query\":\"salad dressing caesar dressing creamy\",\"grams\":25,\"calories\":118,\"protein_g\":0.5,\"carbs_g\":2,\"fat_g\":11.5},{\"name\":\"cheese pizza\",\"usda_query\":\"pizza cheese regular crust\",\"grams\":200,\"calories\":530,\"protein_g\":23,\"carbs_g\":66,\"fat_g\":20}],\"total_calories\":668}",
+  "latency_ms": 7430,
+  "parsed": {
+    "items": [
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 120,
+        "calories": 20,
+        "protein_g": 1.5,
+        "carbs_g": 3.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Caesar dressing",
+        "usda_query": "salad dressing caesar dressing creamy",
+        "grams": 25,
+        "calories": 118,
+        "protein_g": 0.5,
+        "carbs_g": 2,
+        "fat_g": 11.5
+      },
+      {
+        "name": "cheese pizza",
+        "usda_query": "pizza cheese regular crust",
+        "grams": 200,
+        "calories": 530,
+        "protein_g": 23,
+        "carbs_g": 66,
+        "fat_g": 20
+      }
+    ],
+    "total_calories": 668
+  }
+}

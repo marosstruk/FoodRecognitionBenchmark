@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565799663",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "554c71b89663108d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1374,
+    "reasoning_tokens": 852,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10254,
+    "ai_credits": 0.6258
+  },
+  "timestamp": "2026-11-25T00:09:39.836Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled egg whites\",\n      \"usda_query\": \"egg white cooked\",\n      \"grams\": 160,\n      \"calories\": 85,\n      \"protein_g\": 17.6,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"roasted sweet potatoes\",\n      \"usda_query\": \"sweet potato roasted cooked\",\n      \"grams\": 85,\n      \"calories\": 98,\n      \"protein_g\": 1.7,\n      \"carbs_g\": 20.4,\n      \"fat_g\": 1.3\n    },\n    {\n      \"name\": \"salsa verde\",\n      \"usda_query\": \"salsa verde\",\n      \"grams\": 75,\n      \"calories\": 27,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"watermelon\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 70,\n      \"calories\": 21,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"fresh strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 45,\n      \"calories\": 14,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 3.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"fresh blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 35,\n      \"calories\": 20,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 5.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 265\n}",
+  "latency_ms": 11128,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled egg whites",
+        "usda_query": "egg white cooked",
+        "grams": 160,
+        "calories": 85,
+        "protein_g": 17.6,
+        "carbs_g": 1.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "roasted sweet potatoes",
+        "usda_query": "sweet potato roasted cooked",
+        "grams": 85,
+        "calories": 98,
+        "protein_g": 1.7,
+        "carbs_g": 20.4,
+        "fat_g": 1.3
+      },
+      {
+        "name": "salsa verde",
+        "usda_query": "salsa verde",
+        "grams": 75,
+        "calories": 27,
+        "protein_g": 1.1,
+        "carbs_g": 5.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 70,
+        "calories": 21,
+        "protein_g": 0.4,
+        "carbs_g": 5.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fresh strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 45,
+        "calories": 14,
+        "protein_g": 0.3,
+        "carbs_g": 3.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fresh blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 35,
+        "calories": 20,
+        "protein_g": 0.3,
+        "carbs_g": 5.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 265
+  }
+}

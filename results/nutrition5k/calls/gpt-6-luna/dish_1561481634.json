@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561481634",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8339d6dada1c083d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1159,
+    "reasoning_tokens": 788,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10621,
+    "ai_credits": 0.06543
+  },
+  "timestamp": "2026-11-25T00:14:21.915Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled cooked\",\n      \"grams\": 160,\n      \"calories\": 242,\n      \"protein_g\": 16.5,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 18.4\n    },\n    {\n      \"name\": \"Tomato\",\n      \"usda_query\": \"tomato raw\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Fried potatoes\",\n      \"usda_query\": \"potatoes fried\",\n      \"grams\": 180,\n      \"calories\": 315,\n      \"protein_g\": 5.4,\n      \"carbs_g\": 45,\n      \"fat_g\": 13.5\n    },\n    {\n      \"name\": \"Cooked bacon\",\n      \"usda_query\": \"bacon cooked\",\n      \"grams\": 60,\n      \"calories\": 325,\n      \"protein_g\": 22.4,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 25.2\n    },\n    {\n      \"name\": \"Breakfast sausage\",\n      \"usda_query\": \"pork sausage cooked\",\n      \"grams\": 55,\n      \"calories\": 173,\n      \"protein_g\": 8.6,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 14.8\n    }\n  ],\n  \"total_calories\": 1058\n}",
+  "latency_ms": 11922,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled cooked",
+        "grams": 160,
+        "calories": 242,
+        "protein_g": 16.5,
+        "carbs_g": 2.4,
+        "fat_g": 18.4
+      },
+      {
+        "name": "Tomato",
+        "usda_query": "tomato raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "Fried potatoes",
+        "usda_query": "potatoes fried",
+        "grams": 180,
+        "calories": 315,
+        "protein_g": 5.4,
+        "carbs_g": 45,
+        "fat_g": 13.5
+      },
+      {
+        "name": "Cooked bacon",
+        "usda_query": "bacon cooked",
+        "grams": 60,
+        "calories": 325,
+        "protein_g": 22.4,
+        "carbs_g": 0.8,
+        "fat_g": 25.2
+      },
+      {
+        "name": "Breakfast sausage",
+        "usda_query": "pork sausage cooked",
+        "grams": 55,
+        "calories": 173,
+        "protein_g": 8.6,
+        "carbs_g": 1.1,
+        "fat_g": 14.8
+      }
+    ],
+    "total_calories": 1058
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565033265",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3b94f17a89b2932d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1063,
+    "reasoning_tokens": 693,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8613,
+    "ai_credits": 0.06063
+  },
+  "timestamp": "2026-11-25T00:28:18.945Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 120,\n      \"calories\": 198,\n      \"protein_g\": 37.2,\n      \"carbs_g\": 0,\n      \"fat_g\": 4.3\n    },\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 130,\n      \"calories\": 44,\n      \"protein_g\": 3.7,\n      \"carbs_g\": 8.6,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"Leafy greens\",\n      \"usda_query\": \"lettuce raw\",\n      \"grams\": 60,\n      \"calories\": 9,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 1.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Kidney beans\",\n      \"usda_query\": \"kidney beans cooked\",\n      \"grams\": 65,\n      \"calories\": 83,\n      \"protein_g\": 5.7,\n      \"carbs_g\": 14.9,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Salad dressing\",\n      \"usda_query\": \"honey mustard salad dressing\",\n      \"grams\": 25,\n      \"calories\": 100,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4,\n      \"fat_g\": 9\n    }\n  ],\n  \"total_calories\": 434\n}",
+  "latency_ms": 9481,
+  "parsed": {
+    "items": [
+      {
+        "name": "Chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37.2,
+        "carbs_g": 0,
+        "fat_g": 4.3
+      },
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 130,
+        "calories": 44,
+        "protein_g": 3.7,
+        "carbs_g": 8.6,
+        "fat_g": 0.5
+      },
+      {
+        "name": "Leafy greens",
+        "usda_query": "lettuce raw",
+        "grams": 60,
+        "calories": 9,
+        "protein_g": 0.8,
+        "carbs_g": 1.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Kidney beans",
+        "usda_query": "kidney beans cooked",
+        "grams": 65,
+        "calories": 83,
+        "protein_g": 5.7,
+        "carbs_g": 14.9,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Salad dressing",
+        "usda_query": "honey mustard salad dressing",
+        "grams": 25,
+        "calories": 100,
+        "protein_g": 0.5,
+        "carbs_g": 4,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 434
+  }
+}

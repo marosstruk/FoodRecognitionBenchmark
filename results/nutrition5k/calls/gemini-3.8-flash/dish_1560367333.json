@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367333",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8600368ce159eaf9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1216,
+    "reasoning_tokens": 674,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13731,
+    "ai_credits": 0.56655
+  },
+  "timestamp": "2026-11-25T00:26:14.391Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked asparagus\",\n      \"usda_query\": \"asparagus cooked boiled drained\",\n      \"grams\": 60,\n      \"calories\": 13,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"sauteed mushrooms\",\n      \"usda_query\": \"mushrooms cooked with oil\",\n      \"grams\": 80,\n      \"calories\": 45,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 4.0,\n      \"fat_g\": 2.8\n    },\n    {\n      \"name\": \"diced chicken breast\",\n      \"usda_query\": \"chicken breast meat cooked roasted\",\n      \"grams\": 70,\n      \"calories\": 115,\n      \"protein_g\": 21.7,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 2.5\n    },\n    {\n      \"name\": \"mixed greens with dressing\",\n      \"usda_query\": \"lettuce salad with assorted vegetables and dressing\",\n      \"grams\": 50,\n      \"calories\": 45,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 3.8\n    },\n    {\n      \"name\": \"roasted sweet potato\",\n      \"usda_query\": \"sweet potato cooked baked in skin\",\n      \"grams\": 40,\n      \"calories\": 36,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"boiled potato\",\n      \"usda_query\": \"potatoes boiled cooked without skin\",\n      \"grams\": 30,\n      \"calories\": 26,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 5.9,\n      \"fat_g\": 0.0\n    }\n  ],\n  \"total_calories\": 280\n}",
+  "latency_ms": 14603,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked asparagus",
+        "usda_query": "asparagus cooked boiled drained",
+        "grams": 60,
+        "calories": 13,
+        "protein_g": 1.4,
+        "carbs_g": 2.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sauteed mushrooms",
+        "usda_query": "mushrooms cooked with oil",
+        "grams": 80,
+        "calories": 45,
+        "protein_g": 2.5,
+        "carbs_g": 4,
+        "fat_g": 2.8
+      },
+      {
+        "name": "diced chicken breast",
+        "usda_query": "chicken breast meat cooked roasted",
+        "grams": 70,
+        "calories": 115,
+        "protein_g": 21.7,
+        "carbs_g": 0,
+        "fat_g": 2.5
+      },
+      {
+        "name": "mixed greens with dressing",
+        "usda_query": "lettuce salad with assorted vegetables and dressing",
+        "grams": 50,
+        "calories": 45,
+        "protein_g": 0.8,
+        "carbs_g": 2.5,
+        "fat_g": 3.8
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked in skin",
+        "grams": 40,
+        "calories": 36,
+        "protein_g": 0.8,
+        "carbs_g": 8.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "boiled potato",
+        "usda_query": "potatoes boiled cooked without skin",
+        "grams": 30,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 5.9,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 280
+  }
+}

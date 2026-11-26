@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572887017",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "633ae0b98cbff893",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 839,
+    "reasoning_tokens": 471,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3959,
+    "ai_credits": 0.0541525
+  },
+  "timestamp": "2026-11-25T00:35:57.176Z",
+  "raw_text": "{\"items\":[{\"name\":\"white fish, cooked and flaked\",\"usda_query\":\"fish cod cooked dry heat\",\"grams\":120,\"calories\":126,\"protein_g\":28,\"carbs_g\":0,\"fat_g\":1},{\"name\":\"tomato, diced fresh\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":60,\"calories\":11,\"protein_g\":0.5,\"carbs_g\":2.3,\"fat_g\":0.1},{\"name\":\"green tomatillo salsa\",\"usda_query\":\"salsa verde tomatillo\",\"grams\":40,\"calories\":12,\"protein_g\":0.5,\"carbs_g\":2,\"fat_g\":0.4},{\"name\":\"white onion, raw diced\",\"usda_query\":\"onions raw\",\"grams\":15,\"calories\":6,\"protein_g\":0.2,\"carbs_g\":1.4,\"fat_g\":0},{\"name\":\"cilantro, fresh\",\"usda_query\":\"coriander leaves raw\",\"grams\":3,\"calories\":1,\"protein_g\":0.1,\"carbs_g\":0.1,\"fat_g\":0}],\"total_calories\":156}",
+  "latency_ms": 5109,
+  "parsed": {
+    "items": [
+      {
+        "name": "white fish, cooked and flaked",
+        "usda_query": "fish cod cooked dry heat",
+        "grams": 120,
+        "calories": 126,
+        "protein_g": 28,
+        "carbs_g": 0,
+        "fat_g": 1
+      },
+      {
+        "name": "tomato, diced fresh",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green tomatillo salsa",
+        "usda_query": "salsa verde tomatillo",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 0.5,
+        "carbs_g": 2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "white onion, raw diced",
+        "usda_query": "onions raw",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.2,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "cilantro, fresh",
+        "usda_query": "coriander leaves raw",
+        "grams": 3,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 156
+  }
+}

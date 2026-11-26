@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565728684",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "531666e3c274cb2f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1689,
+    "reasoning_tokens": 1151,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 16971,
+    "ai_credits": 0.743925
+  },
+  "timestamp": "2026-11-25T00:23:29.249Z",
+  "raw_text": "{\"items\": [{\"name\": \"mixed salad greens\", \"usda_query\": \"salad greens raw\", \"grams\": 40, \"calories\": 8, \"protein_g\": 0.6, \"carbs_g\": 1.4, \"fat_g\": 0.1}, {\"name\": \"steamed broccoli\", \"usda_query\": \"broccoli cooked from fresh\", \"grams\": 60, \"calories\": 21, \"protein_g\": 1.4, \"carbs_g\": 4.3, \"fat_g\": 0.2}, {\"name\": \"roasted summer squash and zucchini\", \"usda_query\": \"squash summer cooked\", \"grams\": 60, \"calories\": 25, \"protein_g\": 0.8, \"carbs_g\": 2.5, \"fat_g\": 1.5}, {\"name\": \"roasted potatoes\", \"usda_query\": \"potato roasted\", \"grams\": 50, \"calories\": 47, \"protein_g\": 1.2, \"carbs_g\": 8.8, \"fat_g\": 1.1}, {\"name\": \"fresh pineapple chunks\", \"usda_query\": \"pineapple raw\", \"grams\": 60, \"calories\": 30, \"protein_g\": 0.3, \"carbs_g\": 7.9, \"fat_g\": 0.1}, {\"name\": \"roasted chicken drumstick\", \"usda_query\": \"chicken drumstick roasted with skin\", \"grams\": 50, \"calories\": 108, \"protein_g\": 12.0, \"carbs_g\": 0.0, \"fat_g\": 6.2}, {\"name\": \"roasted pork loin\", \"usda_query\": \"pork loin roasted\", \"grams\": 60, \"calories\": 125, \"protein_g\": 16.5, \"carbs_g\": 0.0, \"fat_g\": 6.1}, {\"name\": \"cheese flatbread pizza\", \"usda_query\": \"cheese pizza thin crust\", \"grams\": 50, \"calories\": 135, \"protein_g\": 6.0, \"carbs_g\": 16.0, \"fat_g\": 5.0}], \"total_calories\": 499}",
+  "latency_ms": 17844,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens raw",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 0.6,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked from fresh",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 1.4,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted summer squash and zucchini",
+        "usda_query": "squash summer cooked",
+        "grams": 60,
+        "calories": 25,
+        "protein_g": 0.8,
+        "carbs_g": 2.5,
+        "fat_g": 1.5
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potato roasted",
+        "grams": 50,
+        "calories": 47,
+        "protein_g": 1.2,
+        "carbs_g": 8.8,
+        "fat_g": 1.1
+      },
+      {
+        "name": "fresh pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 60,
+        "calories": 30,
+        "protein_g": 0.3,
+        "carbs_g": 7.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted chicken drumstick",
+        "usda_query": "chicken drumstick roasted with skin",
+        "grams": 50,
+        "calories": 108,
+        "protein_g": 12,
+        "carbs_g": 0,
+        "fat_g": 6.2
+      },
+      {
+        "name": "roasted pork loin",
+        "usda_query": "pork loin roasted",
+        "grams": 60,
+        "calories": 125,
+        "protein_g": 16.5,
+        "carbs_g": 0,
+        "fat_g": 6.1
+      },
+      {
+        "name": "cheese flatbread pizza",
+        "usda_query": "cheese pizza thin crust",
+        "grams": 50,
+        "calories": 135,
+        "protein_g": 6,
+        "carbs_g": 16,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 499
+  }
+}

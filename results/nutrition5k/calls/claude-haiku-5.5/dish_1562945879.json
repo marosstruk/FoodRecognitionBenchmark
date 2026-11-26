@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562945879",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "62e9557063b71ff8",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1390,
+    "reasoning_tokens": 882,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6346,
+    "ai_credits": 0.0817025
+  },
+  "timestamp": "2026-11-25T00:25:02.493Z",
+  "raw_text": "{\"items\":[{\"name\":\"honeydew melon\",\"usda_query\":\"melons honeydew raw\",\"grams\":80,\"calories\":27,\"protein_g\":0.6,\"carbs_g\":6.5,\"fat_g\":0.1},{\"name\":\"cantaloupe melon\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":80,\"calories\":27,\"protein_g\":0.7,\"carbs_g\":6.5,\"fat_g\":0.2},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":10,\"protein_g\":0.8,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":80,\"calories\":26,\"protein_g\":0.6,\"carbs_g\":6.2,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":50,\"calories\":28,\"protein_g\":0.4,\"carbs_g\":7.2,\"fat_g\":0.2},{\"name\":\"roasted corn kernels\",\"usda_query\":\"corn sweet yellow cooked\",\"grams\":40,\"calories\":36,\"protein_g\":1.3,\"carbs_g\":8.1,\"fat_g\":0.6},{\"name\":\"toasted walnut pieces\",\"usda_query\":\"nuts walnuts english dried\",\"grams\":20,\"calories\":131,\"protein_g\":3.0,\"carbs_g\":2.7,\"fat_g\":13.0}],\"total_calories\":285}",
+  "latency_ms": 7221,
+  "parsed": {
+    "items": [
+      {
+        "name": "honeydew melon",
+        "usda_query": "melons honeydew raw",
+        "grams": 80,
+        "calories": 27,
+        "protein_g": 0.6,
+        "carbs_g": 6.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cantaloupe melon",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 80,
+        "calories": 27,
+        "protein_g": 0.7,
+        "carbs_g": 6.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6.2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 50,
+        "calories": 28,
+        "protein_g": 0.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted corn kernels",
+        "usda_query": "corn sweet yellow cooked",
+        "grams": 40,
+        "calories": 36,
+        "protein_g": 1.3,
+        "carbs_g": 8.1,
+        "fat_g": 0.6
+      },
+      {
+        "name": "toasted walnut pieces",
+        "usda_query": "nuts walnuts english dried",
+        "grams": 20,
+        "calories": 131,
+        "protein_g": 3,
+        "carbs_g": 2.7,
+        "fat_g": 13
+      }
+    ],
+    "total_calories": 285
+  }
+}

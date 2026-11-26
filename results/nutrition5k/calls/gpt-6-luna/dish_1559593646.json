@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559593646",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "42f08e16d22e8f78",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 893,
+    "reasoning_tokens": 590,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10069,
+    "ai_credits": 0.05213
+  },
+  "timestamp": "2026-11-25T00:26:25.462Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Chopped leafy greens\",\n      \"usda_query\": \"kale raw\",\n      \"grams\": 50,\n      \"calories\": 25,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 4.4,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"Tomato\",\n      \"usda_query\": \"tomato raw\",\n      \"grams\": 8,\n      \"calories\": 1,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Corn kernels\",\n      \"usda_query\": \"corn sweet yellow cooked\",\n      \"grams\": 5,\n      \"calories\": 5,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Chickpeas\",\n      \"usda_query\": \"chickpeas cooked\",\n      \"grams\": 5,\n      \"calories\": 8,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 39\n}",
+  "latency_ms": 10932,
+  "parsed": {
+    "items": [
+      {
+        "name": "Chopped leafy greens",
+        "usda_query": "kale raw",
+        "grams": 50,
+        "calories": 25,
+        "protein_g": 2.2,
+        "carbs_g": 4.4,
+        "fat_g": 0.5
+      },
+      {
+        "name": "Tomato",
+        "usda_query": "tomato raw",
+        "grams": 8,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.3,
+        "fat_g": 0
+      },
+      {
+        "name": "Corn kernels",
+        "usda_query": "corn sweet yellow cooked",
+        "grams": 5,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Chickpeas",
+        "usda_query": "chickpeas cooked",
+        "grams": 5,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 39
+  }
+}

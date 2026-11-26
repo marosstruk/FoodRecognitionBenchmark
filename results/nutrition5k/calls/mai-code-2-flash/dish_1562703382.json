@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562703382",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "887178b583d5897f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1261,
+    "reasoning_tokens": 959,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13953,
+    "ai_credits": 0.035265
+  },
+  "timestamp": "2026-11-25T00:29:30.017Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"plain yogurt\",\n      \"usda_query\": \"yogurt plain\",\n      \"grams\": 150,\n      \"calories\": 89,\n      \"protein_g\": 8.7,\n      \"carbs_g\": 11.4,\n      \"fat_g\": 3.3\n    },\n    {\n      \"name\": \"granola\",\n      \"usda_query\": \"granola\",\n      \"grams\": 45,\n      \"calories\": 211,\n      \"protein_g\": 5.4,\n      \"carbs_g\": 31.1,\n      \"fat_g\": 7.7\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 45,\n      \"calories\": 14,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 3.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 30,\n      \"calories\": 17,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 331\n}",
+  "latency_ms": 14831,
+  "parsed": {
+    "items": [
+      {
+        "name": "plain yogurt",
+        "usda_query": "yogurt plain",
+        "grams": 150,
+        "calories": 89,
+        "protein_g": 8.7,
+        "carbs_g": 11.4,
+        "fat_g": 3.3
+      },
+      {
+        "name": "granola",
+        "usda_query": "granola",
+        "grams": 45,
+        "calories": 211,
+        "protein_g": 5.4,
+        "carbs_g": 31.1,
+        "fat_g": 7.7
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 45,
+        "calories": 14,
+        "protein_g": 0.3,
+        "carbs_g": 3.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 30,
+        "calories": 17,
+        "protein_g": 0.2,
+        "carbs_g": 4.3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 331
+  }
+}

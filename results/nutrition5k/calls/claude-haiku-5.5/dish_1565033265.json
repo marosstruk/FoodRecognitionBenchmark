@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565033265",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3b94f17a89b2932d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1327,
+    "reasoning_tokens": 831,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5917,
+    "ai_credits": 0.0785525
+  },
+  "timestamp": "2026-11-25T00:28:18.350Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 80,\n      \"calories\": 28,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli raw\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"grilled chicken breast\",\n      \"usda_query\": \"chicken breast roasted meat only\",\n      \"grams\": 120,\n      \"calories\": 198,\n      \"protein_g\": 37,\n      \"carbs_g\": 0,\n      \"fat_g\": 4.3\n    },\n    {\n      \"name\": \"kidney beans\",\n      \"usda_query\": \"kidney beans red canned drained\",\n      \"grams\": 60,\n      \"calories\": 76,\n      \"protein_g\": 5.1,\n      \"carbs_g\": 13.7,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"sesame ginger dressing\",\n      \"usda_query\": \"salad dressing asian sesame ginger\",\n      \"grams\": 30,\n      \"calories\": 100,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 8\n    }\n  ],\n  \"total_calories\": 437\n}",
+  "latency_ms": 6782,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2.5,
+        "carbs_g": 5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli raw",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast roasted meat only",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4.3
+      },
+      {
+        "name": "kidney beans",
+        "usda_query": "kidney beans red canned drained",
+        "grams": 60,
+        "calories": 76,
+        "protein_g": 5.1,
+        "carbs_g": 13.7,
+        "fat_g": 0.5
+      },
+      {
+        "name": "sesame ginger dressing",
+        "usda_query": "salad dressing asian sesame ginger",
+        "grams": 30,
+        "calories": 100,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 8
+      }
+    ],
+    "total_calories": 437
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561576051",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3131372c79beafb2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1449,
+    "reasoning_tokens": 945,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11333,
+    "ai_credits": 0.07993
+  },
+  "timestamp": "2026-11-25T00:36:49.389Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Paneer\",\n      \"usda_query\": \"paneer cheese\",\n      \"grams\": 80,\n      \"calories\": 212,\n      \"protein_g\": 14,\n      \"carbs_g\": 1,\n      \"fat_g\": 17\n    },\n    {\n      \"name\": \"Tomato sauce\",\n      \"usda_query\": \"tomato sauce\",\n      \"grams\": 15,\n      \"calories\": 12,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Brown rice\",\n      \"usda_query\": \"rice brown cooked\",\n      \"grams\": 90,\n      \"calories\": 111,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 23,\n      \"fat_g\": 0.9\n    },\n    {\n      \"name\": \"Cooked potatoes\",\n      \"usda_query\": \"potatoes cooked\",\n      \"grams\": 120,\n      \"calories\": 105,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 24,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Kalamata olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 35,\n      \"calories\": 51,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 4.8\n    },\n    {\n      \"name\": \"Chicken breast\",\n      \"usda_query\": \"chicken breast cooked roasted\",\n      \"grams\": 50,\n      \"calories\": 83,\n      \"protein_g\": 15.5,\n      \"carbs_g\": 0,\n      \"fat_g\": 1.8\n    },\n    {\n      \"name\": \"Cooked leafy greens\",\n      \"usda_query\": \"spinach cooked\",\n      \"grams\": 20,\n      \"calories\": 5,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 579\n}",
+  "latency_ms": 12488,
+  "parsed": {
+    "items": [
+      {
+        "name": "Paneer",
+        "usda_query": "paneer cheese",
+        "grams": 80,
+        "calories": 212,
+        "protein_g": 14,
+        "carbs_g": 1,
+        "fat_g": 17
+      },
+      {
+        "name": "Tomato sauce",
+        "usda_query": "tomato sauce",
+        "grams": 15,
+        "calories": 12,
+        "protein_g": 0.5,
+        "carbs_g": 2.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Brown rice",
+        "usda_query": "rice brown cooked",
+        "grams": 90,
+        "calories": 111,
+        "protein_g": 2.5,
+        "carbs_g": 23,
+        "fat_g": 0.9
+      },
+      {
+        "name": "Cooked potatoes",
+        "usda_query": "potatoes cooked",
+        "grams": 120,
+        "calories": 105,
+        "protein_g": 2.4,
+        "carbs_g": 24,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Kalamata olives",
+        "usda_query": "olives ripe canned",
+        "grams": 35,
+        "calories": 51,
+        "protein_g": 0.4,
+        "carbs_g": 1.8,
+        "fat_g": 4.8
+      },
+      {
+        "name": "Chicken breast",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 50,
+        "calories": 83,
+        "protein_g": 15.5,
+        "carbs_g": 0,
+        "fat_g": 1.8
+      },
+      {
+        "name": "Cooked leafy greens",
+        "usda_query": "spinach cooked",
+        "grams": 20,
+        "calories": 5,
+        "protein_g": 0.6,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 579
+  }
+}

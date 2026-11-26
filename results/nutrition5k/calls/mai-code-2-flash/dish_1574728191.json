@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574728191",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3d0ad85d5f155da3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 669,
+    "reasoning_tokens": 582,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9071,
+    "ai_credits": 0.020465
+  },
+  "timestamp": "2026-11-25T00:26:58.658Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"pizza cheese\",\n      \"grams\": 250,\n      \"calories\": 665,\n      \"protein_g\": 30,\n      \"carbs_g\": 78,\n      \"fat_g\": 25\n    }\n  ],\n  \"total_calories\": 665\n}",
+  "latency_ms": 9934,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "pizza cheese",
+        "grams": 250,
+        "calories": 665,
+        "protein_g": 30,
+        "carbs_g": 78,
+        "fat_g": 25
+      }
+    ],
+    "total_calories": 665
+  }
+}

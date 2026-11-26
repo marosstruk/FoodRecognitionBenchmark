@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558544663",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0aac34157a1f3a78",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 586,
+    "reasoning_tokens": 529,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11229,
+    "ai_credits": 0.01839
+  },
+  "timestamp": "2026-11-25T00:21:22.797Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked oatmeal\",\"usda_query\":\"oatmeal cooked\",\"grams\":300,\"calories\":230,\"protein_g\":6,\"carbs_g\":40,\"fat_g\":4}],\"total_calories\":230}",
+  "latency_ms": 12331,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked oatmeal",
+        "usda_query": "oatmeal cooked",
+        "grams": 300,
+        "calories": 230,
+        "protein_g": 6,
+        "carbs_g": 40,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 230
+  }
+}

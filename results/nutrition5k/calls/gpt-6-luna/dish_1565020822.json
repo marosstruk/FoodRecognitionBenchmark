@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565020822",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d4445a255130469a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 786,
+    "reasoning_tokens": 542,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8134,
+    "ai_credits": 0.04678
+  },
+  "timestamp": "2026-11-25T00:32:12.622Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cottage cheese\",\n      \"usda_query\": \"cottage cheese 4% milkfat\",\n      \"grams\": 120,\n      \"calories\": 118,\n      \"protein_g\": 13.3,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 5.2\n    },\n    {\n      \"name\": \"Cooked bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 30,\n      \"calories\": 162,\n      \"protein_g\": 11.1,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 12.6\n    },\n    {\n      \"name\": \"Roasted sweet potato\",\n      \"usda_query\": \"sweet potato cooked roasted\",\n      \"grams\": 70,\n      \"calories\": 63,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 14.5,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 343\n}",
+  "latency_ms": 9002,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cottage cheese",
+        "usda_query": "cottage cheese 4% milkfat",
+        "grams": 120,
+        "calories": 118,
+        "protein_g": 13.3,
+        "carbs_g": 3.6,
+        "fat_g": 5.2
+      },
+      {
+        "name": "Cooked bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 30,
+        "calories": 162,
+        "protein_g": 11.1,
+        "carbs_g": 0.1,
+        "fat_g": 12.6
+      },
+      {
+        "name": "Roasted sweet potato",
+        "usda_query": "sweet potato cooked roasted",
+        "grams": 70,
+        "calories": 63,
+        "protein_g": 1.4,
+        "carbs_g": 14.5,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 343
+  }
+}

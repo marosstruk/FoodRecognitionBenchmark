@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565021714",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8cf7712ba333ab9a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 2059,
+    "reasoning_tokens": 1558,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 9467,
+    "ai_credits": 0.1151525
+  },
+  "timestamp": "2026-11-25T00:10:37.941Z",
+  "raw_text": "{\"items\":[{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":80,\"calories\":26,\"protein_g\":0.6,\"carbs_g\":6.5,\"fat_g\":0.2},{\"name\":\"grapes\",\"usda_query\":\"grapes red or green raw\",\"grams\":50,\"calories\":35,\"protein_g\":0.4,\"carbs_g\":9,\"fat_g\":0.1},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":20,\"calories\":11,\"protein_g\":0.2,\"carbs_g\":2.9,\"fat_g\":0.1},{\"name\":\"cantaloupe\",\"usda_query\":\"cantaloupe raw\",\"grams\":60,\"calories\":20,\"protein_g\":0.5,\"carbs_g\":4.9,\"fat_g\":0.1},{\"name\":\"honeydew melon\",\"usda_query\":\"honeydew melon raw\",\"grams\":50,\"calories\":18,\"protein_g\":0.4,\"carbs_g\":4.5,\"fat_g\":0.1},{\"name\":\"cottage cheese\",\"usda_query\":\"cottage cheese creamed 4% milkfat\",\"grams\":150,\"calories\":147,\"protein_g\":16.5,\"carbs_g\":5.1,\"fat_g\":6.5},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked with skin\",\"grams\":120,\"calories\":119,\"protein_g\":2.2,\"carbs_g\":23.5,\"fat_g\":1.8}],\"total_calories\":376}",
+  "latency_ms": 10342,
+  "parsed": {
+    "items": [
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grapes",
+        "usda_query": "grapes red or green raw",
+        "grams": 50,
+        "calories": 35,
+        "protein_g": 0.4,
+        "carbs_g": 9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 20,
+        "calories": 11,
+        "protein_g": 0.2,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "cantaloupe raw",
+        "grams": 60,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 4.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "honeydew melon",
+        "usda_query": "honeydew melon raw",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 0.4,
+        "carbs_g": 4.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cottage cheese",
+        "usda_query": "cottage cheese creamed 4% milkfat",
+        "grams": 150,
+        "calories": 147,
+        "protein_g": 16.5,
+        "carbs_g": 5.1,
+        "fat_g": 6.5
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked with skin",
+        "grams": 120,
+        "calories": 119,
+        "protein_g": 2.2,
+        "carbs_g": 23.5,
+        "fat_g": 1.8
+      }
+    ],
+    "total_calories": 376
+  }
+}

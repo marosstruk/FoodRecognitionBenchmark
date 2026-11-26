@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561404485",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "086b01ea13f135bd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1722,
+    "reasoning_tokens": 1384,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18241,
+    "ai_credits": 0.04679
+  },
+  "timestamp": "2026-11-25T00:17:19.421Z",
+  "raw_text": "{\"items\":[{\"name\":\"fried potato wedges\",\"usda_query\":\"potato fried\",\"grams\":120,\"calories\":260,\"protein_g\":3.0,\"carbs_g\":31.0,\"fat_g\":14.0},{\"name\":\"braised pork\",\"usda_query\":\"pork shoulder cooked\",\"grams\":160,\"calories\":500,\"protein_g\":35.0,\"carbs_g\":0.0,\"fat_g\":40.0},{\"name\":\"stir-fried tomato\",\"usda_query\":\"tomato cooked\",\"grams\":100,\"calories\":18,\"protein_g\":1.0,\"carbs_g\":4.0,\"fat_g\":0.2},{\"name\":\"stir-fried eggplant\",\"usda_query\":\"eggplant cooked\",\"grams\":130,\"calories\":70,\"protein_g\":2.0,\"carbs_g\":16.0,\"fat_g\":0.5},{\"name\":\"green beans\",\"usda_query\":\"green beans cooked\",\"grams\":100,\"calories\":35,\"protein_g\":2.0,\"carbs_g\":8.0,\"fat_g\":0.2},{\"name\":\"spinach greens\",\"usda_query\":\"spinach cooked\",\"grams\":50,\"calories\":23,\"protein_g\":3.0,\"carbs_g\":3.5,\"fat_g\":0.3},{\"name\":\"cooking oil\",\"usda_query\":\"vegetable oil\",\"grams\":15,\"calories\":133,\"protein_g\":0.0,\"carbs_g\":0.0,\"fat_g\":15.0}],\"total_calories\":1039}",
+  "latency_ms": 19346,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried potato wedges",
+        "usda_query": "potato fried",
+        "grams": 120,
+        "calories": 260,
+        "protein_g": 3,
+        "carbs_g": 31,
+        "fat_g": 14
+      },
+      {
+        "name": "braised pork",
+        "usda_query": "pork shoulder cooked",
+        "grams": 160,
+        "calories": 500,
+        "protein_g": 35,
+        "carbs_g": 0,
+        "fat_g": 40
+      },
+      {
+        "name": "stir-fried tomato",
+        "usda_query": "tomato cooked",
+        "grams": 100,
+        "calories": 18,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "stir-fried eggplant",
+        "usda_query": "eggplant cooked",
+        "grams": 130,
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 16,
+        "fat_g": 0.5
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2,
+        "carbs_g": 8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "spinach greens",
+        "usda_query": "spinach cooked",
+        "grams": 50,
+        "calories": 23,
+        "protein_g": 3,
+        "carbs_g": 3.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 15,
+        "calories": 133,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 1039
+  }
+}

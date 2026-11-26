@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824092",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fd5ccf6737aaec28",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1898,
+    "reasoning_tokens": 1787,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 23023,
+    "ai_credits": 0.05119
+  },
+  "timestamp": "2026-11-25T00:24:13.534Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potato pieces\",\"usda_query\":\"potato roasted\",\"grams\":150,\"calories\":116,\"protein_g\":3.0,\"carbs_g\":26.7,\"fat_g\":0.2},{\"name\":\"grilled bell peppers\",\"usda_query\":\"bell peppers cooked sauteed\",\"grams\":60,\"calories\":19,\"protein_g\":0.6,\"carbs_g\":3.6,\"fat_g\":0.2}],\"total_calories\":135}",
+  "latency_ms": 24112,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato pieces",
+        "usda_query": "potato roasted",
+        "grams": 150,
+        "calories": 116,
+        "protein_g": 3,
+        "carbs_g": 26.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grilled bell peppers",
+        "usda_query": "bell peppers cooked sauteed",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 0.6,
+        "carbs_g": 3.6,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 135
+  }
+}

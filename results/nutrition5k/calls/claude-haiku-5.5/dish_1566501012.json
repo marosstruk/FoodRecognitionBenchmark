@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566501012",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c265aa239bd1fd4b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 702,
+    "reasoning_tokens": 504,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3918,
+    "ai_credits": 0.0473025
+  },
+  "timestamp": "2026-11-25T00:15:07.913Z",
+  "raw_text": "{\"items\":[{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":2,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":70,\"calories\":29,\"protein_g\":1,\"carbs_g\":7,\"fat_g\":0},{\"name\":\"kidney beans\",\"usda_query\":\"kidney beans canned drained\",\"grams\":120,\"calories\":152,\"protein_g\":10,\"carbs_g\":27,\"fat_g\":1}],\"total_calories\":195}",
+  "latency_ms": 5045,
+  "parsed": {
+    "items": [
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 2,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 70,
+        "calories": 29,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "kidney beans",
+        "usda_query": "kidney beans canned drained",
+        "grams": 120,
+        "calories": 152,
+        "protein_g": 10,
+        "carbs_g": 27,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 195
+  }
+}

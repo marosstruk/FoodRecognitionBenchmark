@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559578579",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "af9eee406dffc389",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 742,
+    "reasoning_tokens": 597,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6832,
+    "ai_credits": 0.3888
+  },
+  "timestamp": "2026-11-25T00:40:11.847Z",
+  "raw_text": "{\"items\": [{\"name\": \"cooked bacon\", \"usda_query\": \"bacon cooked pan-fried\", \"grams\": 28, \"calories\": 151, \"protein_g\": 10.4, \"carbs_g\": 0.4, \"fat_g\": 11.8}, {\"name\": \"strawberries\", \"usda_query\": \"strawberries raw\", \"grams\": 60, \"calories\": 19, \"protein_g\": 0.4, \"carbs_g\": 4.6, \"fat_g\": 0.2}], \"total_calories\": 170}",
+  "latency_ms": 7754,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 28,
+        "calories": 151,
+        "protein_g": 10.4,
+        "carbs_g": 0.4,
+        "fat_g": 11.8
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 0.4,
+        "carbs_g": 4.6,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 170
+  }
+}

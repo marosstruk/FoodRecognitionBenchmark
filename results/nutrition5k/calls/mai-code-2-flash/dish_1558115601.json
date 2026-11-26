@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558115601",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d11e359f5b8b6245",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 821,
+    "reasoning_tokens": 757,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12656,
+    "ai_credits": 0.024265
+  },
+  "timestamp": "2026-11-25T00:39:01.309Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potato wedges\",\"usda_query\":\"potato wedges roasted\",\"grams\":160,\"calories\":220,\"protein_g\":4.0,\"carbs_g\":39.0,\"fat_g\":6.0}],\"total_calories\":220}",
+  "latency_ms": 13805,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "potato wedges roasted",
+        "grams": 160,
+        "calories": 220,
+        "protein_g": 4,
+        "carbs_g": 39,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 220
+  }
+}

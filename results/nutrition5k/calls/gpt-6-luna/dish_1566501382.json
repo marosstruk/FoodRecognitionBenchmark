@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566501382",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8947f191b980251f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 726,
+    "reasoning_tokens": 419,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6640,
+    "ai_credits": 0.04378
+  },
+  "timestamp": "2026-11-25T00:39:28.611Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"shredded cooked chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 140,\n      \"calories\": 231,\n      \"protein_g\": 43.4,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"shredded raw carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 45,\n      \"calories\": 18,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"shredded cabbage\",\n      \"usda_query\": \"cabbage raw\",\n      \"grams\": 30,\n      \"calories\": 8,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.7,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 263\n}",
+  "latency_ms": 8176,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded cooked chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 140,
+        "calories": 231,
+        "protein_g": 43.4,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "shredded raw carrot",
+        "usda_query": "carrots raw",
+        "grams": 45,
+        "calories": 18,
+        "protein_g": 0.4,
+        "carbs_g": 4.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage raw",
+        "grams": 30,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 263
+  }
+}

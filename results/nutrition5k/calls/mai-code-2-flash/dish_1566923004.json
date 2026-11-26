@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566923004",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6956c64955230597",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 574,
+    "reasoning_tokens": 476,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7880,
+    "ai_credits": 0.01809
+  },
+  "timestamp": "2026-11-25T00:28:39.247Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"eggs scrambled plain\",\"grams\":140,\"calories\":209,\"protein_g\":14,\"carbs_g\":2,\"fat_g\":15},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked roasted\",\"grams\":100,\"calories\":90,\"protein_g\":2,\"carbs_g\":21,\"fat_g\":0}],\"total_calories\":299}",
+  "latency_ms": 8793,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "eggs scrambled plain",
+        "grams": 140,
+        "calories": 209,
+        "protein_g": 14,
+        "carbs_g": 2,
+        "fat_g": 15
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked roasted",
+        "grams": 100,
+        "calories": 90,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 299
+  }
+}

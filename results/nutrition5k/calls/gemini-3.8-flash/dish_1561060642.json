@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060642",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6ee9ee789c2f028e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1208,
+    "reasoning_tokens": 583,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9577,
+    "ai_credits": 0.56355
+  },
+  "timestamp": "2026-11-25T00:37:06.428Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"steamed bok choy\",\n      \"usda_query\": \"bok choy cooked\",\n      \"grams\": 50,\n      \"calories\": 6,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"fresh pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 80,\n      \"calories\": 40,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 10.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"roasted brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked\",\n      \"grams\": 50,\n      \"calories\": 25,\n      \"protein_g\": 1.7,\n      \"carbs_g\": 4.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"penne pasta with beef\",\n      \"usda_query\": \"pasta with meat sauce\",\n      \"grams\": 110,\n      \"calories\": 175,\n      \"protein_g\": 9.5,\n      \"carbs_g\": 18.0,\n      \"fat_g\": 7.0\n    },\n    {\n      \"name\": \"cheese lasagna\",\n      \"usda_query\": \"lasagna with meat and cheese\",\n      \"grams\": 110,\n      \"calories\": 165,\n      \"protein_g\": 8.5,\n      \"carbs_g\": 14.5,\n      \"fat_g\": 8.2\n    },\n    {\n      \"name\": \"pan-fried tofu cubes\",\n      \"usda_query\": \"tofu fried\",\n      \"grams\": 60,\n      \"calories\": 65,\n      \"protein_g\": 6.2,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 3.8\n    },\n    {\n      \"name\": \"baked fish fillet with crust\",\n      \"usda_query\": \"fish fillet baked\",\n      \"grams\": 80,\n      \"calories\": 145,\n      \"protein_g\": 15.5,\n      \"carbs_g\": 3.0,\n      \"fat_g\": 7.8\n    }\n  ],\n  \"total_calories\": 616\n}",
+  "latency_ms": 10727,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed bok choy",
+        "usda_query": "bok choy cooked",
+        "grams": 50,
+        "calories": 6,
+        "protein_g": 0.8,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fresh pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 80,
+        "calories": 40,
+        "protein_g": 0.4,
+        "carbs_g": 10.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted brussels sprouts",
+        "usda_query": "brussels sprouts cooked",
+        "grams": 50,
+        "calories": 25,
+        "protein_g": 1.7,
+        "carbs_g": 4.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "penne pasta with beef",
+        "usda_query": "pasta with meat sauce",
+        "grams": 110,
+        "calories": 175,
+        "protein_g": 9.5,
+        "carbs_g": 18,
+        "fat_g": 7
+      },
+      {
+        "name": "cheese lasagna",
+        "usda_query": "lasagna with meat and cheese",
+        "grams": 110,
+        "calories": 165,
+        "protein_g": 8.5,
+        "carbs_g": 14.5,
+        "fat_g": 8.2
+      },
+      {
+        "name": "pan-fried tofu cubes",
+        "usda_query": "tofu fried",
+        "grams": 60,
+        "calories": 65,
+        "protein_g": 6.2,
+        "carbs_g": 2,
+        "fat_g": 3.8
+      },
+      {
+        "name": "baked fish fillet with crust",
+        "usda_query": "fish fillet baked",
+        "grams": 80,
+        "calories": 145,
+        "protein_g": 15.5,
+        "carbs_g": 3,
+        "fat_g": 7.8
+      }
+    ],
+    "total_calories": 616
+  }
+}

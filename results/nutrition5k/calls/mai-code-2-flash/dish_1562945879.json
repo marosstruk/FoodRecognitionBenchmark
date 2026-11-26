@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562945879",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "62e9557063b71ff8",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1430,
+    "reasoning_tokens": 921,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14121,
+    "ai_credits": 0.03949
+  },
+  "timestamp": "2026-11-25T00:25:08.774Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed leafy greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 45,\n      \"calories\": 12,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"steamed green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 50,\n      \"calories\": 18,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 40,\n      \"calories\": 6,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 50,\n      \"calories\": 21,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"red bell pepper raw\",\n      \"grams\": 30,\n      \"calories\": 9,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cubed feta cheese\",\n      \"usda_query\": \"feta cheese\",\n      \"grams\": 25,\n      \"calories\": 66,\n      \"protein_g\": 3.6,\n      \"carbs_g\": 1,\n      \"fat_g\": 5.3\n    },\n    {\n      \"name\": \"grilled mushrooms\",\n      \"usda_query\": \"mushrooms cooked\",\n      \"grams\": 50,\n      \"calories\": 16,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 148\n}",
+  "latency_ms": 14962,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 45,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "steamed green beans",
+        "usda_query": "green beans cooked",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 1.9,
+        "carbs_g": 4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 40,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots cooked",
+        "grams": 50,
+        "calories": 21,
+        "protein_g": 0.5,
+        "carbs_g": 4.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "red bell pepper raw",
+        "grams": 30,
+        "calories": 9,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cubed feta cheese",
+        "usda_query": "feta cheese",
+        "grams": 25,
+        "calories": 66,
+        "protein_g": 3.6,
+        "carbs_g": 1,
+        "fat_g": 5.3
+      },
+      {
+        "name": "grilled mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 50,
+        "calories": 16,
+        "protein_g": 1.5,
+        "carbs_g": 2.5,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 148
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562687554",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e83ec9bde000d9af",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1487,
+    "reasoning_tokens": 930,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7121,
+    "ai_credits": 0.0865525
+  },
+  "timestamp": "2026-11-25T00:35:36.321Z",
+  "raw_text": "{\"items\":[{\"name\":\"waffle\",\"usda_query\":\"waffle plain prepared from recipe\",\"grams\":80,\"calories\":230,\"protein_g\":6.5,\"carbs_g\":30,\"fat_g\":9.5},{\"name\":\"apple chunks\",\"usda_query\":\"apples raw with skin\",\"grams\":90,\"calories\":47,\"protein_g\":0.4,\"carbs_g\":12.5,\"fat_g\":0.2},{\"name\":\"seared tofu cube\",\"usda_query\":\"tofu firm prepared pan-fried\",\"grams\":30,\"calories\":45,\"protein_g\":3,\"carbs_g\":1,\"fat_g\":3},{\"name\":\"spinach leaves\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":15,\"calories\":6,\"protein_g\":0.1,\"carbs_g\":1.4,\"fat_g\":0},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":45,\"calories\":8,\"protein_g\":0.4,\"carbs_g\":1.8,\"fat_g\":0.2},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":80,\"calories\":26,\"protein_g\":0.6,\"carbs_g\":6.2,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":30,\"calories\":17,\"protein_g\":0.2,\"carbs_g\":4.3,\"fat_g\":0.1}],\"total_calories\":393}",
+  "latency_ms": 7956,
+  "parsed": {
+    "items": [
+      {
+        "name": "waffle",
+        "usda_query": "waffle plain prepared from recipe",
+        "grams": 80,
+        "calories": 230,
+        "protein_g": 6.5,
+        "carbs_g": 30,
+        "fat_g": 9.5
+      },
+      {
+        "name": "apple chunks",
+        "usda_query": "apples raw with skin",
+        "grams": 90,
+        "calories": 47,
+        "protein_g": 0.4,
+        "carbs_g": 12.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "seared tofu cube",
+        "usda_query": "tofu firm prepared pan-fried",
+        "grams": 30,
+        "calories": 45,
+        "protein_g": 3,
+        "carbs_g": 1,
+        "fat_g": 3
+      },
+      {
+        "name": "spinach leaves",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 45,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6.2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 30,
+        "calories": 17,
+        "protein_g": 0.2,
+        "carbs_g": 4.3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 393
+  }
+}

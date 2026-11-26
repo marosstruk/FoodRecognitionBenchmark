@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562774475",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39935a00892ed664",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 417,
+    "reasoning_tokens": 249,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4953,
+    "ai_credits": 0.02833
+  },
+  "timestamp": "2026-11-25T00:14:48.628Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Small cooked sausages\",\n      \"usda_query\": \"pork sausage cooked\",\n      \"grams\": 75,\n      \"calories\": 225,\n      \"protein_g\": 10.5,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 19.5\n    },\n    {\n      \"name\": \"Roast potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 110,\n      \"calories\": 176,\n      \"protein_g\": 2.8,\n      \"carbs_g\": 25.3,\n      \"fat_g\": 6.6\n    }\n  ],\n  \"total_calories\": 401\n}",
+  "latency_ms": 6042,
+  "parsed": {
+    "items": [
+      {
+        "name": "Small cooked sausages",
+        "usda_query": "pork sausage cooked",
+        "grams": 75,
+        "calories": 225,
+        "protein_g": 10.5,
+        "carbs_g": 1.5,
+        "fat_g": 19.5
+      },
+      {
+        "name": "Roast potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 110,
+        "calories": 176,
+        "protein_g": 2.8,
+        "carbs_g": 25.3,
+        "fat_g": 6.6
+      }
+    ],
+    "total_calories": 401
+  }
+}

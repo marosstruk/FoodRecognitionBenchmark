@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559245848",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d0eb2c58a89d3a92",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 421,
+    "reasoning_tokens": 341,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2871,
+    "ai_credits": 0.0332525
+  },
+  "timestamp": "2026-11-25T00:13:57.245Z",
+  "raw_text": "{\"items\":[{\"name\":\"orange\",\"usda_query\":\"oranges raw navels\",\"grams\":130,\"calories\":61,\"protein_g\":1.2,\"carbs_g\":15.3,\"fat_g\":0.2}],\"total_calories\":61}",
+  "latency_ms": 3727,
+  "parsed": {
+    "items": [
+      {
+        "name": "orange",
+        "usda_query": "oranges raw navels",
+        "grams": 130,
+        "calories": 61,
+        "protein_g": 1.2,
+        "carbs_g": 15.3,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 61
+  }
+}

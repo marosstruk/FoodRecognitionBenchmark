@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559675234",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "35cd3db587d8ff10",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1235,
+    "reasoning_tokens": 858,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12751,
+    "ai_credits": 0.034615
+  },
+  "timestamp": "2026-11-25T00:16:56.780Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"shredded carrot\",\n      \"usda_query\": \"carrots raw shredded\",\n      \"grams\": 70,\n      \"calories\": 29,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 6.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomatoes raw\",\n      \"grams\": 100,\n      \"calories\": 18,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 3.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"peppers sweet green raw\",\n      \"grams\": 50,\n      \"calories\": 10,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 50,\n      \"calories\": 8,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"olive\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 15,\n      \"calories\": 22,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 2.4\n    }\n  ],\n  \"total_calories\": 87\n}",
+  "latency_ms": 13878,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw shredded",
+        "grams": 70,
+        "calories": 29,
+        "protein_g": 0.6,
+        "carbs_g": 6.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes raw",
+        "grams": 100,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 50,
+        "calories": 10,
+        "protein_g": 0.5,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 50,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "olive",
+        "usda_query": "olives ripe canned",
+        "grams": 15,
+        "calories": 22,
+        "protein_g": 0.2,
+        "carbs_g": 0.8,
+        "fat_g": 2.4
+      }
+    ],
+    "total_calories": 87
+  }
+}

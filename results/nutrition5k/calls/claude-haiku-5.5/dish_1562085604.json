@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562085604",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "afe50b1b55ffbca1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 784,
+    "reasoning_tokens": 505,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3426,
+    "ai_credits": 0.0514025
+  },
+  "timestamp": "2026-11-25T00:25:20.323Z",
+  "raw_text": "{\"items\":[{\"name\":\"pineapple chunks\",\"usda_query\":\"pineapple raw\",\"grams\":90,\"calories\":45,\"protein_g\":0.5,\"carbs_g\":11.8,\"fat_g\":0.1},{\"name\":\"mango chunks\",\"usda_query\":\"mangos raw\",\"grams\":70,\"calories\":42,\"protein_g\":0.6,\"carbs_g\":10.5,\"fat_g\":0.3},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":80,\"calories\":26,\"protein_g\":0.5,\"carbs_g\":6.1,\"fat_g\":0.2},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":60,\"calories\":34,\"protein_g\":0.4,\"carbs_g\":8.7,\"fat_g\":0.2}],\"total_calories\":147}",
+  "latency_ms": 4298,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 90,
+        "calories": 45,
+        "protein_g": 0.5,
+        "carbs_g": 11.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "mango chunks",
+        "usda_query": "mangos raw",
+        "grams": 70,
+        "calories": 42,
+        "protein_g": 0.6,
+        "carbs_g": 10.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 0.5,
+        "carbs_g": 6.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 60,
+        "calories": 34,
+        "protein_g": 0.4,
+        "carbs_g": 8.7,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 147
+  }
+}

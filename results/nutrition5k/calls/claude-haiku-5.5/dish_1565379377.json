@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565379377",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ee8019697aa3196f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1072,
+    "reasoning_tokens": 782,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5003,
+    "ai_credits": 0.0658025
+  },
+  "timestamp": "2026-11-25T00:15:21.426Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato roasted with skin\",\"grams\":120,\"calories\":130,\"protein_g\":2,\"carbs_g\":25,\"fat_g\":3},{\"name\":\"shredded braised chicken\",\"usda_query\":\"chicken thigh meat braised shredded\",\"grams\":100,\"calories\":190,\"protein_g\":22,\"carbs_g\":3,\"fat_g\":10},{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce romaine raw\",\"grams\":150,\"calories\":25,\"protein_g\":2,\"carbs_g\":4,\"fat_g\":0},{\"name\":\"creamy Caesar-style dressing\",\"usda_query\":\"salad dressing caesar regular\",\"grams\":30,\"calories\":150,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":15}],\"total_calories\":495}",
+  "latency_ms": 5893,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato roasted with skin",
+        "grams": 120,
+        "calories": 130,
+        "protein_g": 2,
+        "carbs_g": 25,
+        "fat_g": 3
+      },
+      {
+        "name": "shredded braised chicken",
+        "usda_query": "chicken thigh meat braised shredded",
+        "grams": 100,
+        "calories": 190,
+        "protein_g": 22,
+        "carbs_g": 3,
+        "fat_g": 10
+      },
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 150,
+        "calories": 25,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "creamy Caesar-style dressing",
+        "usda_query": "salad dressing caesar regular",
+        "grams": 30,
+        "calories": 150,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 495
+  }
+}

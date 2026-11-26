@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561579505",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ddfe62e40618df13",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 516,
+    "reasoning_tokens": 436,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5798,
+    "ai_credits": 0.30405
+  },
+  "timestamp": "2026-11-25T00:19:36.070Z",
+  "raw_text": "{\"items\": [{\"name\": \"cooked cauliflower\", \"usda_query\": \"cauliflower cooked boiled drained without salt\", \"grams\": 70, \"calories\": 16, \"protein_g\": 1.3, \"carbs_g\": 2.9, \"fat_g\": 0.4}], \"total_calories\": 16}",
+  "latency_ms": 6648,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked cauliflower",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 70,
+        "calories": 16,
+        "protein_g": 1.3,
+        "carbs_g": 2.9,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 16
+  }
+}

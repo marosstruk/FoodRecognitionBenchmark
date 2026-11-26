@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564686657",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a123c67762c25a5f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1271,
+    "reasoning_tokens": 1213,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16955,
+    "ai_credits": 0.035515
+  },
+  "timestamp": "2026-11-25T00:22:57.579Z",
+  "raw_text": "{\"items\":[{\"name\":\"meat lasagna\",\"usda_query\":\"lasagna with meat\",\"grams\":160,\"calories\":216,\"protein_g\":12,\"carbs_g\":21,\"fat_g\":9}],\"total_calories\":216}",
+  "latency_ms": 17904,
+  "parsed": {
+    "items": [
+      {
+        "name": "meat lasagna",
+        "usda_query": "lasagna with meat",
+        "grams": 160,
+        "calories": 216,
+        "protein_g": 12,
+        "carbs_g": 21,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 216
+  }
+}

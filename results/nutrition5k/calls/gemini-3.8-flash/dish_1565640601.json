@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640601",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "47fe1eb34b71fecc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1296,
+    "reasoning_tokens": 849,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 16425,
+    "ai_credits": 0.59655
+  },
+  "timestamp": "2026-11-25T00:21:00.338Z",
+  "raw_text": "{\"items\": [{\"name\": \"roasted pork bites\", \"usda_query\": \"pork loin roasted\", \"grams\": 90, \"calories\": 220, \"protein_g\": 24, \"carbs_g\": 0, \"fat_g\": 13}, {\"name\": \"croutons\", \"usda_query\": \"croutons plain or seasoned\", \"grams\": 20, \"calories\": 80, \"protein_g\": 2, \"carbs_g\": 14, \"fat_g\": 2}, {\"name\": \"mixed salad greens\", \"usda_query\": \"salad greens raw\", \"grams\": 75, \"calories\": 15, \"protein_g\": 1, \"carbs_g\": 3, \"fat_g\": 0.2}, {\"name\": \"vinaigrette dressing\", \"usda_query\": \"salad dressing vinaigrette\", \"grams\": 15, \"calories\": 65, \"protein_g\": 0, \"carbs_g\": 1.5, \"fat_g\": 6.5}, {\"name\": \"cooked asparagus\", \"usda_query\": \"asparagus cooked\", \"grams\": 45, \"calories\": 10, \"protein_g\": 1.1, \"carbs_g\": 1.8, \"fat_g\": 0.1}, {\"name\": \"cooked zucchini\", \"usda_query\": \"zucchini boiled or steamed\", \"grams\": 25, \"calories\": 5, \"protein_g\": 0.3, \"carbs_g\": 0.8, \"fat_g\": 0.1}, {\"name\": \"cherry tomatoes\", \"usda_query\": \"cherry tomato raw\", \"grams\": 20, \"calories\": 4, \"protein_g\": 0.2, \"carbs_g\": 0.8, \"fat_g\": 0}], \"total_calories\": 399}",
+  "latency_ms": 17359,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted pork bites",
+        "usda_query": "pork loin roasted",
+        "grams": 90,
+        "calories": 220,
+        "protein_g": 24,
+        "carbs_g": 0,
+        "fat_g": 13
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons plain or seasoned",
+        "grams": 20,
+        "calories": 80,
+        "protein_g": 2,
+        "carbs_g": 14,
+        "fat_g": 2
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens raw",
+        "grams": 75,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 15,
+        "calories": 65,
+        "protein_g": 0,
+        "carbs_g": 1.5,
+        "fat_g": 6.5
+      },
+      {
+        "name": "cooked asparagus",
+        "usda_query": "asparagus cooked",
+        "grams": 45,
+        "calories": 10,
+        "protein_g": 1.1,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked zucchini",
+        "usda_query": "zucchini boiled or steamed",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 0.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "cherry tomato raw",
+        "grams": 20,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.8,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 399
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563389079",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b1b5d6cee3359f0e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1500,
+    "reasoning_tokens": 1207,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15173,
+    "ai_credits": 0.04124
+  },
+  "timestamp": "2026-11-25T00:28:21.375Z",
+  "raw_text": "{\"items\":[{\"name\":\"mozzarella cheese\",\"usda_query\":\"mozzarella cheese fresh\",\"grams\":30,\"calories\":85,\"protein_g\":6.3,\"carbs_g\":1.1,\"fat_g\":6.5},{\"name\":\"avocado\",\"usda_query\":\"avocado raw\",\"grams\":50,\"calories\":80,\"protein_g\":1.0,\"carbs_g\":4.3,\"fat_g\":7.4},{\"name\":\"tomato\",\"usda_query\":\"tomato red raw\",\"grams\":60,\"calories\":11,\"protein_g\":0.5,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"yellow bell pepper\",\"usda_query\":\"pepper sweet yellow raw\",\"grams\":25,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"red bell pepper\",\"usda_query\":\"pepper sweet red raw\",\"grams\":25,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.6,\"fat_g\":0.1},{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce romaine raw\",\"grams\":15,\"calories\":3,\"protein_g\":0.2,\"carbs_g\":0.6,\"fat_g\":0}],\"total_calories\":195}",
+  "latency_ms": 16043,
+  "parsed": {
+    "items": [
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese fresh",
+        "grams": 30,
+        "calories": 85,
+        "protein_g": 6.3,
+        "carbs_g": 1.1,
+        "fat_g": 6.5
+      },
+      {
+        "name": "avocado",
+        "usda_query": "avocado raw",
+        "grams": 50,
+        "calories": 80,
+        "protein_g": 1,
+        "carbs_g": 4.3,
+        "fat_g": 7.4
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomato red raw",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "pepper sweet yellow raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "pepper sweet red raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 195
+  }
+}

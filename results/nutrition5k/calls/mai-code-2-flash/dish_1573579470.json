@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573579470",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "757533ac3c340db2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1528,
+    "reasoning_tokens": 1241,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16984,
+    "ai_credits": 0.04194
+  },
+  "timestamp": "2026-11-25T00:19:27.367Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"waffle pieces\",\n      \"usda_query\": \"waffle plain\",\n      \"grams\": 170,\n      \"calories\": 492,\n      \"protein_g\": 9,\n      \"carbs_g\": 57,\n      \"fat_g\": 25\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 110,\n      \"calories\": 35,\n      \"protein_g\": 1,\n      \"carbs_g\": 8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"whipped cream\",\n      \"usda_query\": \"whipped cream sweetened\",\n      \"grams\": 55,\n      \"calories\": 112,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"strawberry syrup\",\n      \"usda_query\": \"strawberry syrup\",\n      \"grams\": 30,\n      \"calories\": 75,\n      \"protein_g\": 0,\n      \"carbs_g\": 19,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 714\n}",
+  "latency_ms": 18108,
+  "parsed": {
+    "items": [
+      {
+        "name": "waffle pieces",
+        "usda_query": "waffle plain",
+        "grams": 170,
+        "calories": 492,
+        "protein_g": 9,
+        "carbs_g": 57,
+        "fat_g": 25
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 110,
+        "calories": 35,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "whipped cream",
+        "usda_query": "whipped cream sweetened",
+        "grams": 55,
+        "calories": 112,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 10
+      },
+      {
+        "name": "strawberry syrup",
+        "usda_query": "strawberry syrup",
+        "grams": 30,
+        "calories": 75,
+        "protein_g": 0,
+        "carbs_g": 19,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 714
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563464651",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea3ab57a954ad7d9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 490,
+    "reasoning_tokens": 256,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4854,
+    "ai_credits": 0.03198
+  },
+  "timestamp": "2026-11-25T00:38:12.634Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Plain bagel\",\n      \"usda_query\": \"bagel plain toasted\",\n      \"grams\": 100,\n      \"calories\": 277,\n      \"protein_g\": 10.3,\n      \"carbs_g\": 54.6,\n      \"fat_g\": 1.7\n    },\n    {\n      \"name\": \"Cream cheese\",\n      \"usda_query\": \"cream cheese regular\",\n      \"grams\": 28,\n      \"calories\": 97,\n      \"protein_g\": 1.7,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 9.7\n    },\n    {\n      \"name\": \"Cucumber slices\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 15,\n      \"calories\": 2,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 376\n}",
+  "latency_ms": 5722,
+  "parsed": {
+    "items": [
+      {
+        "name": "Plain bagel",
+        "usda_query": "bagel plain toasted",
+        "grams": 100,
+        "calories": 277,
+        "protein_g": 10.3,
+        "carbs_g": 54.6,
+        "fat_g": 1.7
+      },
+      {
+        "name": "Cream cheese",
+        "usda_query": "cream cheese regular",
+        "grams": 28,
+        "calories": 97,
+        "protein_g": 1.7,
+        "carbs_g": 1.5,
+        "fat_g": 9.7
+      },
+      {
+        "name": "Cucumber slices",
+        "usda_query": "cucumber with peel raw",
+        "grams": 15,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 376
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566316612",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "810f0cdf32f48e66",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1433,
+    "reasoning_tokens": 1162,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16834,
+    "ai_credits": 0.039565
+  },
+  "timestamp": "2026-11-25T00:34:00.461Z",
+  "raw_text": "{\"items\":[{\"name\":\"yellow fried rice\",\"usda_query\":\"fried rice with vegetables\",\"grams\":150,\"calories\":255,\"protein_g\":6,\"carbs_g\":38,\"fat_g\":9},{\"name\":\"braised chicken in soy sauce\",\"usda_query\":\"chicken meat cooked in soy sauce\",\"grams\":110,\"calories\":230,\"protein_g\":25,\"carbs_g\":5,\"fat_g\":12},{\"name\":\"lontong rice cake\",\"usda_query\":\"lontong compressed rice cake\",\"grams\":100,\"calories\":140,\"protein_g\":3,\"carbs_g\":30,\"fat_g\":1},{\"name\":\"stir-fried leafy greens\",\"usda_query\":\"cooked leafy greens\",\"grams\":40,\"calories\":25,\"protein_g\":2,\"carbs_g\":4,\"fat_g\":1},{\"name\":\"crispy fried shallots\",\"usda_query\":\"fried onions\",\"grams\":15,\"calories\":75,\"protein_g\":1,\"carbs_g\":8,\"fat_g\":5},{\"name\":\"red chili sambal\",\"usda_query\":\"chili pepper sauce\",\"grams\":15,\"calories\":25,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":1}],\"total_calories\":750}",
+  "latency_ms": 18133,
+  "parsed": {
+    "items": [
+      {
+        "name": "yellow fried rice",
+        "usda_query": "fried rice with vegetables",
+        "grams": 150,
+        "calories": 255,
+        "protein_g": 6,
+        "carbs_g": 38,
+        "fat_g": 9
+      },
+      {
+        "name": "braised chicken in soy sauce",
+        "usda_query": "chicken meat cooked in soy sauce",
+        "grams": 110,
+        "calories": 230,
+        "protein_g": 25,
+        "carbs_g": 5,
+        "fat_g": 12
+      },
+      {
+        "name": "lontong rice cake",
+        "usda_query": "lontong compressed rice cake",
+        "grams": 100,
+        "calories": 140,
+        "protein_g": 3,
+        "carbs_g": 30,
+        "fat_g": 1
+      },
+      {
+        "name": "stir-fried leafy greens",
+        "usda_query": "cooked leafy greens",
+        "grams": 40,
+        "calories": 25,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 1
+      },
+      {
+        "name": "crispy fried shallots",
+        "usda_query": "fried onions",
+        "grams": 15,
+        "calories": 75,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 5
+      },
+      {
+        "name": "red chili sambal",
+        "usda_query": "chili pepper sauce",
+        "grams": 15,
+        "calories": 25,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 750
+  }
+}

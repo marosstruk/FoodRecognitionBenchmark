@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558460908",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "124bbf4133f212ca",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 874,
+    "reasoning_tokens": 435,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8892,
+    "ai_credits": 0.4383
+  },
+  "timestamp": "2026-11-25T00:40:18.607Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"apple\",\n      \"usda_query\": \"apple raw with skin\",\n      \"grams\": 150,\n      \"calories\": 78,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 20.7,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"almonds\",\n      \"usda_query\": \"almonds\",\n      \"grams\": 35,\n      \"calories\": 203,\n      \"protein_g\": 7.4,\n      \"carbs_g\": 7.6,\n      \"fat_g\": 17.5\n    },\n    {\n      \"name\": \"red grapes\",\n      \"usda_query\": \"grapes red or green raw\",\n      \"grams\": 40,\n      \"calories\": 28,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"grape tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 50,\n      \"calories\": 9,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"baby spinach\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 20,\n      \"calories\": 5,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 323\n}",
+  "latency_ms": 10072,
+  "parsed": {
+    "items": [
+      {
+        "name": "apple",
+        "usda_query": "apple raw with skin",
+        "grams": 150,
+        "calories": 78,
+        "protein_g": 0.4,
+        "carbs_g": 20.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "almonds",
+        "usda_query": "almonds",
+        "grams": 35,
+        "calories": 203,
+        "protein_g": 7.4,
+        "carbs_g": 7.6,
+        "fat_g": 17.5
+      },
+      {
+        "name": "red grapes",
+        "usda_query": "grapes red or green raw",
+        "grams": 40,
+        "calories": 28,
+        "protein_g": 0.3,
+        "carbs_g": 7.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "grape tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 20,
+        "calories": 5,
+        "protein_g": 0.6,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 323
+  }
+}

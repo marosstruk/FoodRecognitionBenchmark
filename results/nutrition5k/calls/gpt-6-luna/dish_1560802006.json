@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560802006",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "797a91205de9f57f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 618,
+    "reasoning_tokens": 455,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6076,
+    "ai_credits": 0.03838
+  },
+  "timestamp": "2026-11-25T00:34:37.654Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked kale\",\n      \"usda_query\": \"kale cooked boiled drained\",\n      \"grams\": 120,\n      \"calories\": 42,\n      \"protein_g\": 3.6,\n      \"carbs_g\": 8.4,\n      \"fat_g\": 0.6\n    },\n    {\n      \"name\": \"garlic\",\n      \"usda_query\": \"garlic raw\",\n      \"grams\": 5,\n      \"calories\": 7,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.7,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 49\n}",
+  "latency_ms": 7257,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked kale",
+        "usda_query": "kale cooked boiled drained",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 3.6,
+        "carbs_g": 8.4,
+        "fat_g": 0.6
+      },
+      {
+        "name": "garlic",
+        "usda_query": "garlic raw",
+        "grams": 5,
+        "calories": 7,
+        "protein_g": 0.3,
+        "carbs_g": 1.7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 49
+  }
+}

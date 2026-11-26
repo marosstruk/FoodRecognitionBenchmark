@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558110385",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "944ecee57807b566",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 350,
+    "reasoning_tokens": 255,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3099,
+    "ai_credits": 0.0297025
+  },
+  "timestamp": "2026-11-25T00:25:51.865Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with milk and butter\",\"grams\":70,\"calories\":104,\"protein_g\":7.0,\"carbs_g\":1.1,\"fat_g\":7.8}],\"total_calories\":104}",
+  "latency_ms": 3960,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with milk and butter",
+        "grams": 70,
+        "calories": 104,
+        "protein_g": 7,
+        "carbs_g": 1.1,
+        "fat_g": 7.8
+      }
+    ],
+    "total_calories": 104
+  }
+}

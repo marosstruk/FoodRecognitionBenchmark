@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558458737",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ae9cbad4350df33b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 180,
+    "reasoning_tokens": 87,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 3952,
+    "ai_credits": 0.01648
+  },
+  "timestamp": "2026-11-25T00:27:18.940Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 125,\n      \"calories\": 163,\n      \"protein_g\": 3.4,\n      \"carbs_g\": 35.3,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 163\n}",
+  "latency_ms": 4815,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 125,
+        "calories": 163,
+        "protein_g": 3.4,
+        "carbs_g": 35.3,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 163
+  }
+}

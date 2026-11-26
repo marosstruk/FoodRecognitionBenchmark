@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561665378",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f032c36f5c8e156f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 675,
+    "reasoning_tokens": 565,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7397,
+    "ai_credits": 0.363675
+  },
+  "timestamp": "2026-11-25T00:17:33.709Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"boiled sweet corn\",\n      \"usda_query\": \"corn sweet yellow cooked boiled drained without salt\",\n      \"grams\": 40,\n      \"calories\": 38,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 8.4,\n      \"fat_g\": 0.6\n    }\n  ],\n  \"total_calories\": 38\n}",
+  "latency_ms": 8516,
+  "parsed": {
+    "items": [
+      {
+        "name": "boiled sweet corn",
+        "usda_query": "corn sweet yellow cooked boiled drained without salt",
+        "grams": 40,
+        "calories": 38,
+        "protein_g": 1.4,
+        "carbs_g": 8.4,
+        "fat_g": 0.6
+      }
+    ],
+    "total_calories": 38
+  }
+}

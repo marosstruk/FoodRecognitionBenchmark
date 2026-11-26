@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560543704",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2d5c9aa5ca675d87",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 843,
+    "reasoning_tokens": 695,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8532,
+    "ai_credits": 0.426675
+  },
+  "timestamp": "2026-11-25T00:27:55.261Z",
+  "raw_text": "{\"items\": [{\"name\": \"roasted potatoes\", \"usda_query\": \"potatoes roasted with oil\", \"grams\": 90, \"calories\": 126, \"protein_g\": 2.1, \"carbs_g\": 18.9, \"fat_g\": 4.8}, {\"name\": \"romanesco broccoli\", \"usda_query\": \"broccoli or romanesco cooked\", \"grams\": 60, \"calories\": 19, \"protein_g\": 1.5, \"carbs_g\": 3.4, \"fat_g\": 0.3}], \"total_calories\": 145}",
+  "latency_ms": 9741,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 90,
+        "calories": 126,
+        "protein_g": 2.1,
+        "carbs_g": 18.9,
+        "fat_g": 4.8
+      },
+      {
+        "name": "romanesco broccoli",
+        "usda_query": "broccoli or romanesco cooked",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 1.5,
+        "carbs_g": 3.4,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 145
+  }
+}

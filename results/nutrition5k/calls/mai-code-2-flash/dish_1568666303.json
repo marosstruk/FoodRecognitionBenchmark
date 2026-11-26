@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568666303",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "52d71a92c0c3e8e3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1251,
+    "reasoning_tokens": 1093,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14820,
+    "ai_credits": 0.035015
+  },
+  "timestamp": "2026-11-25T00:35:28.358Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pan-fried tofu\",\n      \"usda_query\": \"tofu firm cooked\",\n      \"grams\": 210,\n      \"calories\": 302,\n      \"protein_g\": 36,\n      \"carbs_g\": 6,\n      \"fat_g\": 18\n    },\n    {\n      \"name\": \"sautéed bok choy\",\n      \"usda_query\": \"bok choy cooked\",\n      \"grams\": 200,\n      \"calories\": 24,\n      \"protein_g\": 3,\n      \"carbs_g\": 4,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 326\n}",
+  "latency_ms": 15919,
+  "parsed": {
+    "items": [
+      {
+        "name": "pan-fried tofu",
+        "usda_query": "tofu firm cooked",
+        "grams": 210,
+        "calories": 302,
+        "protein_g": 36,
+        "carbs_g": 6,
+        "fat_g": 18
+      },
+      {
+        "name": "sautéed bok choy",
+        "usda_query": "bok choy cooked",
+        "grams": 200,
+        "calories": 24,
+        "protein_g": 3,
+        "carbs_g": 4,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 326
+  }
+}

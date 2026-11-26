@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560453174",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7152141dcbe0def9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1810,
+    "reasoning_tokens": 1274,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13574,
+    "ai_credits": 0.7893
+  },
+  "timestamp": "2026-11-25T00:11:44.172Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted chicken drumstick\",\n      \"usda_query\": \"chicken drumstick meat and skin roasted\",\n      \"grams\": 55,\n      \"calories\": 120,\n      \"protein_g\": 13.0,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 7.5\n    },\n    {\n      \"name\": \"sautéed green beans\",\n      \"usda_query\": \"green beans cooked with oil\",\n      \"grams\": 80,\n      \"calories\": 48,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 6.0,\n      \"fat_g\": 2.5\n    },\n    {\n      \"name\": \"mixed green salad with carrots\",\n      \"usda_query\": \"lettuce spring mix with carrots\",\n      \"grams\": 65,\n      \"calories\": 15,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 3.0,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette\",\n      \"grams\": 15,\n      \"calories\": 62,\n      \"protein_g\": 0.0,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 6.3\n    },\n    {\n      \"name\": \"pumpkin seeds\",\n      \"usda_query\": \"pumpkin seeds roasted\",\n      \"grams\": 8,\n      \"calories\": 46,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 3.9\n    },\n    {\n      \"name\": \"blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 15,\n      \"calories\": 9,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 300\n}",
+  "latency_ms": 14407,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted chicken drumstick",
+        "usda_query": "chicken drumstick meat and skin roasted",
+        "grams": 55,
+        "calories": 120,
+        "protein_g": 13,
+        "carbs_g": 0,
+        "fat_g": 7.5
+      },
+      {
+        "name": "sautéed green beans",
+        "usda_query": "green beans cooked with oil",
+        "grams": 80,
+        "calories": 48,
+        "protein_g": 1.5,
+        "carbs_g": 6,
+        "fat_g": 2.5
+      },
+      {
+        "name": "mixed green salad with carrots",
+        "usda_query": "lettuce spring mix with carrots",
+        "grams": 65,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 15,
+        "calories": 62,
+        "protein_g": 0,
+        "carbs_g": 1.5,
+        "fat_g": 6.3
+      },
+      {
+        "name": "pumpkin seeds",
+        "usda_query": "pumpkin seeds roasted",
+        "grams": 8,
+        "calories": 46,
+        "protein_g": 2.4,
+        "carbs_g": 1.2,
+        "fat_g": 3.9
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 15,
+        "calories": 9,
+        "protein_g": 0.1,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 300
+  }
+}

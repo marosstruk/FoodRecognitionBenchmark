@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558722931",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6968ea2bf302adb2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 697,
+    "reasoning_tokens": 636,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9414,
+    "ai_credits": 0.021165
+  },
+  "timestamp": "2026-11-25T00:36:26.411Z",
+  "raw_text": "{\"items\":[{\"name\":\"almonds\",\"usda_query\":\"almonds raw\",\"grams\":40,\"calories\":231,\"protein_g\":8.4,\"carbs_g\":8.2,\"fat_g\":20.8}],\"total_calories\":231}",
+  "latency_ms": 10831,
+  "parsed": {
+    "items": [
+      {
+        "name": "almonds",
+        "usda_query": "almonds raw",
+        "grams": 40,
+        "calories": 231,
+        "protein_g": 8.4,
+        "carbs_g": 8.2,
+        "fat_g": 20.8
+      }
+    ],
+    "total_calories": 231
+  }
+}

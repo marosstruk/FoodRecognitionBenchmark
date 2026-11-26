@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558639979",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8032b12840d7bccf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 711,
+    "reasoning_tokens": 645,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9931,
+    "ai_credits": 0.021515
+  },
+  "timestamp": "2026-11-25T00:22:34.428Z",
+  "raw_text": "{\"items\":[{\"name\":\"cocktail sausages\",\"usda_query\":\"sausage pork and beef cooked\",\"grams\":270,\"calories\":821,\"protein_g\":35.1,\"carbs_g\":5.4,\"fat_g\":72.9}],\"total_calories\":821}",
+  "latency_ms": 11363,
+  "parsed": {
+    "items": [
+      {
+        "name": "cocktail sausages",
+        "usda_query": "sausage pork and beef cooked",
+        "grams": 270,
+        "calories": 821,
+        "protein_g": 35.1,
+        "carbs_g": 5.4,
+        "fat_g": 72.9
+      }
+    ],
+    "total_calories": 821
+  }
+}

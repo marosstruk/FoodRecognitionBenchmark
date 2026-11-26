@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559233627",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "89ac835c0b570ed6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 383,
+    "reasoning_tokens": 275,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6168,
+    "ai_credits": 0.254175
+  },
+  "timestamp": "2026-11-25T00:16:31.437Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon strip\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 10,\n      \"calories\": 54,\n      \"protein_g\": 3.7,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 4.2\n    }\n  ],\n  \"total_calories\": 54\n}",
+  "latency_ms": 7450,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon strip",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 10,
+        "calories": 54,
+        "protein_g": 3.7,
+        "carbs_g": 0.1,
+        "fat_g": 4.2
+      }
+    ],
+    "total_calories": 54
+  }
+}

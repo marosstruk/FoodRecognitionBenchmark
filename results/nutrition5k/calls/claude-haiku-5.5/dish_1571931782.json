@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1571931782",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "694e12701de7b607",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 696,
+    "reasoning_tokens": 470,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3818,
+    "ai_credits": 0.0470025
+  },
+  "timestamp": "2026-11-25T00:17:00.067Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with butter\",\"grams\":110,\"calories\":210,\"protein_g\":13,\"carbs_g\":2,\"fat_g\":16},{\"name\":\"roasted potato\",\"usda_query\":\"potatoes roasted with oil skin on\",\"grams\":90,\"calories\":150,\"protein_g\":2.5,\"carbs_g\":22,\"fat_g\":6},{\"name\":\"fried chicken pieces\",\"usda_query\":\"chicken breast meat and skin fried batter\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":360}",
+  "latency_ms": 4937,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with butter",
+        "grams": 110,
+        "calories": 210,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 16
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted with oil skin on",
+        "grams": 90,
+        "calories": 150,
+        "protein_g": 2.5,
+        "carbs_g": 22,
+        "fat_g": 6
+      },
+      {
+        "name": "fried chicken pieces",
+        "usda_query": "chicken breast meat and skin fried batter",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 360
+  }
+}

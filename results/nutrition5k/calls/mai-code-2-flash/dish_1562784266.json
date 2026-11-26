@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562784266",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74409fa0912eadd2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1633,
+    "reasoning_tokens": 1534,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 19465,
+    "ai_credits": 0.044565
+  },
+  "timestamp": "2026-11-25T00:12:02.949Z",
+  "raw_text": "{\"items\":[{\"name\":\"round fried fritter\",\"usda_query\":\"vegetable fritter fried\",\"grams\":50,\"calories\":160,\"protein_g\":3,\"carbs_g\":18,\"fat_g\":9},{\"name\":\"fried filled pastry\",\"usda_query\":\"savory pastry fried\",\"grams\":120,\"calories\":340,\"protein_g\":7,\"carbs_g\":35,\"fat_g\":19}],\"total_calories\":500}",
+  "latency_ms": 20353,
+  "parsed": {
+    "items": [
+      {
+        "name": "round fried fritter",
+        "usda_query": "vegetable fritter fried",
+        "grams": 50,
+        "calories": 160,
+        "protein_g": 3,
+        "carbs_g": 18,
+        "fat_g": 9
+      },
+      {
+        "name": "fried filled pastry",
+        "usda_query": "savory pastry fried",
+        "grams": 120,
+        "calories": 340,
+        "protein_g": 7,
+        "carbs_g": 35,
+        "fat_g": 19
+      }
+    ],
+    "total_calories": 500
+  }
+}

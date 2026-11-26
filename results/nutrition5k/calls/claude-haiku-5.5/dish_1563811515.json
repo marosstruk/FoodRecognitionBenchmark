@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563811515",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e08b5be0b315fef0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1720,
+    "reasoning_tokens": 1183,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7732,
+    "ai_credits": 0.0982025
+  },
+  "timestamp": "2026-11-25T00:34:29.964Z",
+  "raw_text": "{\"items\":[{\"name\":\"boiled potatoes\",\"usda_query\":\"potatoes boiled cooked without skin\",\"grams\":120,\"calories\":103,\"protein_g\":2.4,\"carbs_g\":23.6,\"fat_g\":0.1},{\"name\":\"cooked carrots\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":90,\"calories\":32,\"protein_g\":0.7,\"carbs_g\":7.4,\"fat_g\":0.2},{\"name\":\"mashed potatoes\",\"usda_query\":\"potatoes mashed prepared with whole milk and butter\",\"grams\":150,\"calories\":170,\"protein_g\":2.9,\"carbs_g\":24.5,\"fat_g\":6.9},{\"name\":\"steamed cauliflower\",\"usda_query\":\"cauliflower cooked boiled drained without salt\",\"grams\":80,\"calories\":20,\"protein_g\":1.5,\"carbs_g\":4,\"fat_g\":0.2},{\"name\":\"braised beef chunks\",\"usda_query\":\"beef chuck stewed cooked lean and fat\",\"grams\":80,\"calories\":160,\"protein_g\":17.6,\"carbs_g\":0,\"fat_g\":8},{\"name\":\"tomato-based stew gravy\",\"usda_query\":\"gravy beef brown canned\",\"grams\":80,\"calories\":50,\"protein_g\":1,\"carbs_g\":7,\"fat_g\":2},{\"name\":\"smoked sausage slices\",\"usda_query\":\"sausage smoked pork beef link\",\"grams\":50,\"calories\":150,\"protein_g\":7.5,\"carbs_g\":1.5,\"fat_g\":13}],\"total_calories\":685}",
+  "latency_ms": 9250,
+  "parsed": {
+    "items": [
+      {
+        "name": "boiled potatoes",
+        "usda_query": "potatoes boiled cooked without skin",
+        "grams": 120,
+        "calories": 103,
+        "protein_g": 2.4,
+        "carbs_g": 23.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbs_g": 7.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mashed potatoes",
+        "usda_query": "potatoes mashed prepared with whole milk and butter",
+        "grams": 150,
+        "calories": 170,
+        "protein_g": 2.9,
+        "carbs_g": 24.5,
+        "fat_g": 6.9
+      },
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 80,
+        "calories": 20,
+        "protein_g": 1.5,
+        "carbs_g": 4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "braised beef chunks",
+        "usda_query": "beef chuck stewed cooked lean and fat",
+        "grams": 80,
+        "calories": 160,
+        "protein_g": 17.6,
+        "carbs_g": 0,
+        "fat_g": 8
+      },
+      {
+        "name": "tomato-based stew gravy",
+        "usda_query": "gravy beef brown canned",
+        "grams": 80,
+        "calories": 50,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 2
+      },
+      {
+        "name": "smoked sausage slices",
+        "usda_query": "sausage smoked pork beef link",
+        "grams": 50,
+        "calories": 150,
+        "protein_g": 7.5,
+        "carbs_g": 1.5,
+        "fat_g": 13
+      }
+    ],
+    "total_calories": 685
+  }
+}

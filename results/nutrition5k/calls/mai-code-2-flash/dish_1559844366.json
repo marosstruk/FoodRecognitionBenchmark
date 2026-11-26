@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559844366",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "20a3825a8204d012",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1050,
+    "reasoning_tokens": 898,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11678,
+    "ai_credits": 0.02999
+  },
+  "timestamp": "2026-11-25T00:27:32.557Z",
+  "raw_text": "{\"items\":[{\"name\":\"dried prunes\",\"usda_query\":\"prunes dried\",\"grams\":120,\"calories\":289,\"protein_g\":2.4,\"carbs_g\":76.8,\"fat_g\":0.4},{\"name\":\"red grapes\",\"usda_query\":\"grapes red raw\",\"grams\":130,\"calories\":90,\"protein_g\":1.1,\"carbs_g\":23.5,\"fat_g\":0.3},{\"name\":\"raw broccoli\",\"usda_query\":\"broccoli raw\",\"grams\":70,\"calories\":24,\"protein_g\":2.0,\"carbs_g\":4.9,\"fat_g\":0.3}],\"total_calories\":403}",
+  "latency_ms": 12927,
+  "parsed": {
+    "items": [
+      {
+        "name": "dried prunes",
+        "usda_query": "prunes dried",
+        "grams": 120,
+        "calories": 289,
+        "protein_g": 2.4,
+        "carbs_g": 76.8,
+        "fat_g": 0.4
+      },
+      {
+        "name": "red grapes",
+        "usda_query": "grapes red raw",
+        "grams": 130,
+        "calories": 90,
+        "protein_g": 1.1,
+        "carbs_g": 23.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "raw broccoli",
+        "usda_query": "broccoli raw",
+        "grams": 70,
+        "calories": 24,
+        "protein_g": 2,
+        "carbs_g": 4.9,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 403
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561746970",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e8d5b8549a423876",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1577,
+    "reasoning_tokens": 1218,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 17221,
+    "ai_credits": 0.043165
+  },
+  "timestamp": "2026-11-25T00:10:40.222Z",
+  "raw_text": "{\"items\":[{\"name\":\"vegetable lasagna\",\"usda_query\":\"lasagna vegetable\",\"grams\":220,\"calories\":440,\"protein_g\":21,\"carbs_g\":48,\"fat_g\":18},{\"name\":\"mixed leafy greens\",\"usda_query\":\"lettuce raw\",\"grams\":50,\"calories\":10,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"broccoli\",\"usda_query\":\"broccoli cooked\",\"grams\":60,\"calories\":21,\"protein_g\":1.8,\"carbs_g\":4.2,\"fat_g\":0.2},{\"name\":\"tomato\",\"usda_query\":\"tomatoes red raw\",\"grams\":40,\"calories\":7,\"protein_g\":0.3,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"cucumber\",\"usda_query\":\"cucumber with peel raw\",\"grams\":45,\"calories\":7,\"protein_g\":0.3,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":30,\"calories\":9,\"protein_g\":0.3,\"carbs_g\":2.1,\"fat_g\":0.1},{\"name\":\"carrot\",\"usda_query\":\"carrots raw\",\"grams\":30,\"calories\":12,\"protein_g\":0.3,\"carbs_g\":2.9,\"fat_g\":0.1},{\"name\":\"olive oil dressing\",\"usda_query\":\"olive oil\",\"grams\":5,\"calories\":45,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":5}],\"total_calories\":551}",
+  "latency_ms": 18098,
+  "parsed": {
+    "items": [
+      {
+        "name": "vegetable lasagna",
+        "usda_query": "lasagna vegetable",
+        "grams": 220,
+        "calories": 440,
+        "protein_g": 21,
+        "carbs_g": 48,
+        "fat_g": 18
+      },
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "lettuce raw",
+        "grams": 50,
+        "calories": 10,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 1.8,
+        "carbs_g": 4.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 45,
+        "calories": 7,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 30,
+        "calories": 9,
+        "protein_g": 0.3,
+        "carbs_g": 2.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "olive oil dressing",
+        "usda_query": "olive oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 551
+  }
+}

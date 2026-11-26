@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558113941",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9095d9b7e14d35e2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 838,
+    "reasoning_tokens": 563,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8630,
+    "ai_credits": 0.4248
+  },
+  "timestamp": "2026-11-25T00:09:49.304Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"whole almonds\",\n      \"usda_query\": \"almonds raw\",\n      \"grams\": 35,\n      \"calories\": 203,\n      \"protein_g\": 7.4,\n      \"carbs_g\": 7.6,\n      \"fat_g\": 17.5\n    },\n    {\n      \"name\": \"baby spinach salad with carrots\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 25,\n      \"calories\": 6,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette\",\n      \"grams\": 7,\n      \"calories\": 28,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 2.8\n    }\n  ],\n  \"total_calories\": 237\n}",
+  "latency_ms": 9461,
+  "parsed": {
+    "items": [
+      {
+        "name": "whole almonds",
+        "usda_query": "almonds raw",
+        "grams": 35,
+        "calories": 203,
+        "protein_g": 7.4,
+        "carbs_g": 7.6,
+        "fat_g": 17.5
+      },
+      {
+        "name": "baby spinach salad with carrots",
+        "usda_query": "spinach raw",
+        "grams": 25,
+        "calories": 6,
+        "protein_g": 0.7,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 7,
+        "calories": 28,
+        "protein_g": 0.1,
+        "carbs_g": 0.8,
+        "fat_g": 2.8
+      }
+    ],
+    "total_calories": 237
+  }
+}

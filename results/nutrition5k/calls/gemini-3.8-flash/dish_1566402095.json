@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566402095",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74d3d58c97cafee0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 769,
+    "reasoning_tokens": 573,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8112,
+    "ai_credits": 0.398925
+  },
+  "timestamp": "2026-11-25T00:20:00.998Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked egg whites\",\n      \"usda_query\": \"egg white cooked\",\n      \"grams\": 200,\n      \"calories\": 104,\n      \"protein_g\": 21.8,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"baked sweet potato\",\n      \"usda_query\": \"sweet potato cooked baked without fat\",\n      \"grams\": 90,\n      \"calories\": 81,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 18.6,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 185\n}",
+  "latency_ms": 9010,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked egg whites",
+        "usda_query": "egg white cooked",
+        "grams": 200,
+        "calories": 104,
+        "protein_g": 21.8,
+        "carbs_g": 1.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "baked sweet potato",
+        "usda_query": "sweet potato cooked baked without fat",
+        "grams": 90,
+        "calories": 81,
+        "protein_g": 1.8,
+        "carbs_g": 18.6,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 185
+  }
+}

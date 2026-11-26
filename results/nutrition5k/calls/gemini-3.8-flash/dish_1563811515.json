@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563811515",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e08b5be0b315fef0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1401,
+    "reasoning_tokens": 868,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13733,
+    "ai_credits": 0.635925
+  },
+  "timestamp": "2026-11-25T00:34:37.163Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 110,\n      \"calories\": 146,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 22.8,\n      \"fat_g\": 5.4\n    },\n    {\n      \"name\": \"steamed cauliflower\",\n      \"usda_query\": \"cauliflower cooked boiled drained\",\n      \"grams\": 130,\n      \"calories\": 30,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.6\n    },\n    {\n      \"name\": \"boiled carrots\",\n      \"usda_query\": \"carrots boiled drained\",\n      \"grams\": 65,\n      \"calories\": 23,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"beef stew meat\",\n      \"usda_query\": \"beef stew meat braised\",\n      \"grams\": 60,\n      \"calories\": 132,\n      \"protein_g\": 17.5,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 6.8\n    },\n    {\n      \"name\": \"smoked sausage slices\",\n      \"usda_query\": \"smoked sausage pork\",\n      \"grams\": 30,\n      \"calories\": 92,\n      \"protein_g\": 3.6,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 8.3\n    },\n    {\n      \"name\": \"brown gravy\",\n      \"usda_query\": \"gravy beef or brown prepared\",\n      \"grams\": 50,\n      \"calories\": 28,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 3.7,\n      \"fat_g\": 1.1\n    }\n  ],\n  \"total_calories\": 451\n}",
+  "latency_ms": 14609,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 110,
+        "calories": 146,
+        "protein_g": 2.5,
+        "carbs_g": 22.8,
+        "fat_g": 5.4
+      },
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower cooked boiled drained",
+        "grams": 130,
+        "calories": 30,
+        "protein_g": 2.4,
+        "carbs_g": 5.3,
+        "fat_g": 0.6
+      },
+      {
+        "name": "boiled carrots",
+        "usda_query": "carrots boiled drained",
+        "grams": 65,
+        "calories": 23,
+        "protein_g": 0.5,
+        "carbs_g": 5.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "beef stew meat",
+        "usda_query": "beef stew meat braised",
+        "grams": 60,
+        "calories": 132,
+        "protein_g": 17.5,
+        "carbs_g": 0,
+        "fat_g": 6.8
+      },
+      {
+        "name": "smoked sausage slices",
+        "usda_query": "smoked sausage pork",
+        "grams": 30,
+        "calories": 92,
+        "protein_g": 3.6,
+        "carbs_g": 0.8,
+        "fat_g": 8.3
+      },
+      {
+        "name": "brown gravy",
+        "usda_query": "gravy beef or brown prepared",
+        "grams": 50,
+        "calories": 28,
+        "protein_g": 0.8,
+        "carbs_g": 3.7,
+        "fat_g": 1.1
+      }
+    ],
+    "total_calories": 451
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562950895",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9a9171ea4971af48",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 509,
+    "reasoning_tokens": 417,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7174,
+    "ai_credits": 0.03293
+  },
+  "timestamp": "2026-11-25T00:12:19.429Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"fried potato pieces\",\n      \"usda_query\": \"potatoes fried\",\n      \"grams\": 65,\n      \"calories\": 120,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 20,\n      \"fat_g\": 4.2\n    }\n  ],\n  \"total_calories\": 120\n}",
+  "latency_ms": 8028,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried potato pieces",
+        "usda_query": "potatoes fried",
+        "grams": 65,
+        "calories": 120,
+        "protein_g": 2.2,
+        "carbs_g": 20,
+        "fat_g": 4.2
+      }
+    ],
+    "total_calories": 120
+  }
+}

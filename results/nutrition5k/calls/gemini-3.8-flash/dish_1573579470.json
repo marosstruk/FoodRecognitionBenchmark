@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573579470",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "757533ac3c340db2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1124,
+    "reasoning_tokens": 680,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10428,
+    "ai_credits": 0.53205
+  },
+  "timestamp": "2026-11-25T00:19:22.638Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 100,\n      \"calories\": 150,\n      \"protein_g\": 10,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 11\n    },\n    {\n      \"name\": \"crispy bacon\",\n      \"usda_query\": \"bacon cooked\",\n      \"grams\": 25,\n      \"calories\": 135,\n      \"protein_g\": 9,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"home fries\",\n      \"usda_query\": \"potatoes home fries cooked\",\n      \"grams\": 100,\n      \"calories\": 140,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 20,\n      \"fat_g\": 6\n    },\n    {\n      \"name\": \"cauliflower florets\",\n      \"usda_query\": \"cauliflower raw\",\n      \"grams\": 40,\n      \"calories\": 10,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"pico de gallo\",\n      \"usda_query\": \"pico de gallo\",\n      \"grams\": 30,\n      \"calories\": 8,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 443\n}",
+  "latency_ms": 11528,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 100,
+        "calories": 150,
+        "protein_g": 10,
+        "carbs_g": 1.5,
+        "fat_g": 11
+      },
+      {
+        "name": "crispy bacon",
+        "usda_query": "bacon cooked",
+        "grams": 25,
+        "calories": 135,
+        "protein_g": 9,
+        "carbs_g": 0.3,
+        "fat_g": 10.5
+      },
+      {
+        "name": "home fries",
+        "usda_query": "potatoes home fries cooked",
+        "grams": 100,
+        "calories": 140,
+        "protein_g": 2.5,
+        "carbs_g": 20,
+        "fat_g": 6
+      },
+      {
+        "name": "cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 40,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "pico de gallo",
+        "usda_query": "pico de gallo",
+        "grams": 30,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 443
+  }
+}

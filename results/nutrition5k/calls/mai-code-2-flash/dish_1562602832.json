@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562602832",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "da119792e2de2104",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1438,
+    "reasoning_tokens": 1281,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 17362,
+    "ai_credits": 0.03969
+  },
+  "timestamp": "2026-11-25T00:37:44.889Z",
+  "raw_text": "{\"items\":[{\"name\":\"cottage cheese\",\"usda_query\":\"cottage cheese lowfat 2 percent\",\"grams\":115,\"calories\":94,\"protein_g\":14.49,\"carbs_g\":4.37,\"fat_g\":2.76},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":55,\"calories\":18,\"protein_g\":0.38,\"carbs_g\":4.29,\"fat_g\":0.17},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":35,\"calories\":20,\"protein_g\":0.25,\"carbs_g\":5.09,\"fat_g\":0.29}],\"total_calories\":132}",
+  "latency_ms": 18210,
+  "parsed": {
+    "items": [
+      {
+        "name": "cottage cheese",
+        "usda_query": "cottage cheese lowfat 2 percent",
+        "grams": 115,
+        "calories": 94,
+        "protein_g": 14.49,
+        "carbs_g": 4.37,
+        "fat_g": 2.76
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 55,
+        "calories": 18,
+        "protein_g": 0.38,
+        "carbs_g": 4.29,
+        "fat_g": 0.17
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 35,
+        "calories": 20,
+        "protein_g": 0.25,
+        "carbs_g": 5.09,
+        "fat_g": 0.29
+      }
+    ],
+    "total_calories": 132
+  }
+}

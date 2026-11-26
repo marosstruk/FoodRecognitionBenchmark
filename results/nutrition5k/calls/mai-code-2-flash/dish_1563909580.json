@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563909580",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b280c8a80dac30e5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1123,
+    "reasoning_tokens": 901,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15847,
+    "ai_credits": 0.031815
+  },
+  "timestamp": "2026-11-25T00:29:46.715Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"lasagna\",\n      \"usda_query\": \"lasagna with meat and cheese\",\n      \"grams\": 170,\n      \"calories\": 255,\n      \"protein_g\": 13,\n      \"carbs_g\": 24,\n      \"fat_g\": 12\n    },\n    {\n      \"name\": \"sautéed leafy greens\",\n      \"usda_query\": \"spinach cooked with oil\",\n      \"grams\": 160,\n      \"calories\": 70,\n      \"protein_g\": 5,\n      \"carbs_g\": 8,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"seasoned rice\",\n      \"usda_query\": \"rice seasoned cooked\",\n      \"grams\": 150,\n      \"calories\": 195,\n      \"protein_g\": 4,\n      \"carbs_g\": 42,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 520\n}",
+  "latency_ms": 16691,
+  "parsed": {
+    "items": [
+      {
+        "name": "lasagna",
+        "usda_query": "lasagna with meat and cheese",
+        "grams": 170,
+        "calories": 255,
+        "protein_g": 13,
+        "carbs_g": 24,
+        "fat_g": 12
+      },
+      {
+        "name": "sautéed leafy greens",
+        "usda_query": "spinach cooked with oil",
+        "grams": 160,
+        "calories": 70,
+        "protein_g": 5,
+        "carbs_g": 8,
+        "fat_g": 3
+      },
+      {
+        "name": "seasoned rice",
+        "usda_query": "rice seasoned cooked",
+        "grams": 150,
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 42,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 520
+  }
+}

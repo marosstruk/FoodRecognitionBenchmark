@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558720335",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "aaaf08c6098f59b3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 222,
+    "reasoning_tokens": 129,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4208,
+    "ai_credits": 0.01858
+  },
+  "timestamp": "2026-11-25T00:39:08.265Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 40,\n      \"calories\": 16,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 16\n}",
+  "latency_ms": 5310,
+  "parsed": {
+    "items": [
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 16
+  }
+}

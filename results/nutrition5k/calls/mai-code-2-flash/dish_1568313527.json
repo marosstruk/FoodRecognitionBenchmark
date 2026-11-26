@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568313527",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c10873fa5b223b58",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 579,
+    "reasoning_tokens": 483,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7965,
+    "ai_credits": 0.018215
+  },
+  "timestamp": "2026-11-25T00:14:57.478Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce mixed greens raw\",\n      \"grams\": 90,\n      \"calories\": 14,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 2.6,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 14\n}",
+  "latency_ms": 8850,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 90,
+        "calories": 14,
+        "protein_g": 1.2,
+        "carbs_g": 2.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 14
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567526845",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "49e3505220c24509",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 914,
+    "reasoning_tokens": 622,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4615,
+    "ai_credits": 0.0579025
+  },
+  "timestamp": "2026-11-25T00:15:04.673Z",
+  "raw_text": "{\"items\":[{\"name\":\"ricotta cheese\",\"usda_query\":\"ricotta cheese whole milk\",\"grams\":150,\"calories\":261,\"protein_g\":17,\"carbs_g\":4.5,\"fat_g\":19.5},{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":120,\"calories\":36,\"protein_g\":0.7,\"carbs_g\":9.1,\"fat_g\":0.2},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":20,\"calories\":11,\"protein_g\":0.1,\"carbs_g\":2.9,\"fat_g\":0.1},{\"name\":\"sweet potato baked\",\"usda_query\":\"sweet potato cooked baked without skin\",\"grams\":130,\"calories\":117,\"protein_g\":2.6,\"carbs_g\":26.9,\"fat_g\":0.3}],\"total_calories\":425}",
+  "latency_ms": 5460,
+  "parsed": {
+    "items": [
+      {
+        "name": "ricotta cheese",
+        "usda_query": "ricotta cheese whole milk",
+        "grams": 150,
+        "calories": 261,
+        "protein_g": 17,
+        "carbs_g": 4.5,
+        "fat_g": 19.5
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 120,
+        "calories": 36,
+        "protein_g": 0.7,
+        "carbs_g": 9.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 20,
+        "calories": 11,
+        "protein_g": 0.1,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sweet potato baked",
+        "usda_query": "sweet potato cooked baked without skin",
+        "grams": 130,
+        "calories": 117,
+        "protein_g": 2.6,
+        "carbs_g": 26.9,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 425
+  }
+}

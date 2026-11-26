@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562947436",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f2fcd6e975f709e9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 948,
+    "reasoning_tokens": 594,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9874,
+    "ai_credits": 0.46605
+  },
+  "timestamp": "2026-11-25T00:24:18.741Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"smoked sausage\",\n      \"usda_query\": \"smoked sausage pork and beef\",\n      \"grams\": 55,\n      \"calories\": 171,\n      \"protein_g\": 7.2,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 15.3\n    },\n    {\n      \"name\": \"fresh strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 75,\n      \"calories\": 24,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"fresh pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 75,\n      \"calories\": 38,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 9.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 15,\n      \"calories\": 9,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 242\n}",
+  "latency_ms": 10721,
+  "parsed": {
+    "items": [
+      {
+        "name": "smoked sausage",
+        "usda_query": "smoked sausage pork and beef",
+        "grams": 55,
+        "calories": 171,
+        "protein_g": 7.2,
+        "carbs_g": 1.4,
+        "fat_g": 15.3
+      },
+      {
+        "name": "fresh strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 75,
+        "calories": 24,
+        "protein_g": 0.5,
+        "carbs_g": 5.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "fresh pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 75,
+        "calories": 38,
+        "protein_g": 0.4,
+        "carbs_g": 9.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 15,
+        "calories": 9,
+        "protein_g": 0.1,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 242
+  }
+}

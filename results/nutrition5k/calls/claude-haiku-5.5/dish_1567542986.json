@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567542986",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "70bb446c62526512",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1401,
+    "reasoning_tokens": 892,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6532,
+    "ai_credits": 0.0822525
+  },
+  "timestamp": "2026-11-25T00:40:06.366Z",
+  "raw_text": "{\"items\":[{\"name\":\"potatoes roasted\",\"usda_query\":\"potatoes roasted with skin\",\"grams\":120,\"calories\":110,\"protein_g\":2.5,\"carbs_g\":24,\"fat_g\":0.3},{\"name\":\"broccoli steamed\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":110,\"calories\":38,\"protein_g\":3.1,\"carbs_g\":7.7,\"fat_g\":0.4},{\"name\":\"cabbage salad with creamy dressing\",\"usda_query\":\"coleslaw creamy dressing\",\"grams\":120,\"calories\":120,\"protein_g\":2,\"carbs_g\":8,\"fat_g\":9},{\"name\":\"roasted carrots\",\"usda_query\":\"carrots cooked roasted with oil\",\"grams\":70,\"calories\":50,\"protein_g\":0.7,\"carbs_g\":8,\"fat_g\":1.5},{\"name\":\"roast beef sliced\",\"usda_query\":\"beef roast cooked sliced\",\"grams\":100,\"calories\":230,\"protein_g\":26,\"carbs_g\":0.5,\"fat_g\":13},{\"name\":\"pastry piece\",\"usda_query\":\"pastry puff cooked baked\",\"grams\":80,\"calories\":260,\"protein_g\":5,\"carbs_g\":28,\"fat_g\":14},{\"name\":\"cheese tomato pizza slice\",\"usda_query\":\"pizza cheese regular crust baked\",\"grams\":150,\"calories\":400,\"protein_g\":16,\"carbs_g\":45,\"fat_g\":17}],\"total_calories\":1208}",
+  "latency_ms": 7431,
+  "parsed": {
+    "items": [
+      {
+        "name": "potatoes roasted",
+        "usda_query": "potatoes roasted with skin",
+        "grams": 120,
+        "calories": 110,
+        "protein_g": 2.5,
+        "carbs_g": 24,
+        "fat_g": 0.3
+      },
+      {
+        "name": "broccoli steamed",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 110,
+        "calories": 38,
+        "protein_g": 3.1,
+        "carbs_g": 7.7,
+        "fat_g": 0.4
+      },
+      {
+        "name": "cabbage salad with creamy dressing",
+        "usda_query": "coleslaw creamy dressing",
+        "grams": 120,
+        "calories": 120,
+        "protein_g": 2,
+        "carbs_g": 8,
+        "fat_g": 9
+      },
+      {
+        "name": "roasted carrots",
+        "usda_query": "carrots cooked roasted with oil",
+        "grams": 70,
+        "calories": 50,
+        "protein_g": 0.7,
+        "carbs_g": 8,
+        "fat_g": 1.5
+      },
+      {
+        "name": "roast beef sliced",
+        "usda_query": "beef roast cooked sliced",
+        "grams": 100,
+        "calories": 230,
+        "protein_g": 26,
+        "carbs_g": 0.5,
+        "fat_g": 13
+      },
+      {
+        "name": "pastry piece",
+        "usda_query": "pastry puff cooked baked",
+        "grams": 80,
+        "calories": 260,
+        "protein_g": 5,
+        "carbs_g": 28,
+        "fat_g": 14
+      },
+      {
+        "name": "cheese tomato pizza slice",
+        "usda_query": "pizza cheese regular crust baked",
+        "grams": 150,
+        "calories": 400,
+        "protein_g": 16,
+        "carbs_g": 45,
+        "fat_g": 17
+      }
+    ],
+    "total_calories": 1208
+  }
+}

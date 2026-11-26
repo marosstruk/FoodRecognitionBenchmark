@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561749818",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "633f6b6054d72f50",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1757,
+    "reasoning_tokens": 1043,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18379,
+    "ai_credits": 0.047665
+  },
+  "timestamp": "2026-11-25T00:27:25.997Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled salmon\",\n      \"usda_query\": \"salmon cooked\",\n      \"grams\": 140,\n      \"calories\": 291,\n      \"protein_g\": 30.8,\n      \"carbs_g\": 0,\n      \"fat_g\": 17.5\n    },\n    {\n      \"name\": \"grilled eggplant\",\n      \"usda_query\": \"eggplant cooked\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.7,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 130,\n      \"calories\": 44,\n      \"protein_g\": 3,\n      \"carbs_g\": 8.8,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"radish\",\n      \"usda_query\": \"radishes raw\",\n      \"grams\": 55,\n      \"calories\": 9,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 80,\n      \"calories\": 15,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 3.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"peppers sweet red raw\",\n      \"grams\": 60,\n      \"calories\": 19,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 75,\n      \"calories\": 12,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"yellow bell pepper\",\n      \"usda_query\": \"peppers sweet yellow raw\",\n      \"grams\": 35,\n      \"calories\": 17,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 25,\n      \"calories\": 10,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"roasted potato\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 110,\n      \"calories\": 116,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 26,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 568\n}",
+  "latency_ms": 19252,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled salmon",
+        "usda_query": "salmon cooked",
+        "grams": 140,
+        "calories": 291,
+        "protein_g": 30.8,
+        "carbs_g": 0,
+        "fat_g": 17.5
+      },
+      {
+        "name": "grilled eggplant",
+        "usda_query": "eggplant cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 0.8,
+        "carbs_g": 8.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 130,
+        "calories": 44,
+        "protein_g": 3,
+        "carbs_g": 8.8,
+        "fat_g": 0.5
+      },
+      {
+        "name": "radish",
+        "usda_query": "radishes raw",
+        "grams": 55,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 80,
+        "calories": 15,
+        "protein_g": 0.7,
+        "carbs_g": 3.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 0.6,
+        "carbs_g": 3.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 75,
+        "calories": 12,
+        "protein_g": 0.5,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "peppers sweet yellow raw",
+        "grams": 35,
+        "calories": 17,
+        "protein_g": 0.5,
+        "carbs_g": 4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted",
+        "grams": 110,
+        "calories": 116,
+        "protein_g": 2.5,
+        "carbs_g": 26,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 568
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574097587",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "07f85d7fcc447511",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1010,
+    "reasoning_tokens": 712,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5318,
+    "ai_credits": 0.0627025
+  },
+  "timestamp": "2026-11-25T00:25:44.958Z",
+  "raw_text": "{\"items\":[{\"name\":\"bacon, pan-fried\",\"usda_query\":\"bacon cooked pan-fried\",\"grams\":30,\"calories\":162,\"protein_g\":11.1,\"carbs_g\":0.4,\"fat_g\":12.6},{\"name\":\"white rice, cooked\",\"usda_query\":\"rice white cooked\",\"grams\":100,\"calories\":130,\"protein_g\":2.7,\"carbs_g\":28.2,\"fat_g\":0.3},{\"name\":\"green salsa\",\"usda_query\":\"salsa verde\",\"grams\":30,\"calories\":11,\"protein_g\":0.5,\"carbs_g\":1.8,\"fat_g\":0.3},{\"name\":\"pico de gallo\",\"usda_query\":\"salsa pico de gallo tomato onion\",\"grams\":30,\"calories\":5,\"protein_g\":0.3,\"carbs_g\":1.2,\"fat_g\":0.1}],\"total_calories\":308}",
+  "latency_ms": 6163,
+  "parsed": {
+    "items": [
+      {
+        "name": "bacon, pan-fried",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 30,
+        "calories": 162,
+        "protein_g": 11.1,
+        "carbs_g": 0.4,
+        "fat_g": 12.6
+      },
+      {
+        "name": "white rice, cooked",
+        "usda_query": "rice white cooked",
+        "grams": 100,
+        "calories": 130,
+        "protein_g": 2.7,
+        "carbs_g": 28.2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "green salsa",
+        "usda_query": "salsa verde",
+        "grams": 30,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 1.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "pico de gallo",
+        "usda_query": "salsa pico de gallo tomato onion",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 308
+  }
+}

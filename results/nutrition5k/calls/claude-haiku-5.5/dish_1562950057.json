@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562950057",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0eb6cd6b127f5b33",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 735,
+    "reasoning_tokens": 575,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3718,
+    "ai_credits": 0.0489525
+  },
+  "timestamp": "2026-11-25T00:29:11.383Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with butter\",\"grams\":110,\"calories\":164,\"protein_g\":11,\"carbs_g\":2,\"fat_g\":12},{\"name\":\"fried potato\",\"usda_query\":\"potatoes home fries pan fried cooked in oil\",\"grams\":125,\"calories\":180,\"protein_g\":2.5,\"carbs_g\":24,\"fat_g\":7.5}],\"total_calories\":344}",
+  "latency_ms": 4574,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with butter",
+        "grams": 110,
+        "calories": 164,
+        "protein_g": 11,
+        "carbs_g": 2,
+        "fat_g": 12
+      },
+      {
+        "name": "fried potato",
+        "usda_query": "potatoes home fries pan fried cooked in oil",
+        "grams": 125,
+        "calories": 180,
+        "protein_g": 2.5,
+        "carbs_g": 24,
+        "fat_g": 7.5
+      }
+    ],
+    "total_calories": 344
+  }
+}

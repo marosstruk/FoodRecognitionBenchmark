@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565809033",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "545aec334a9623b6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1378,
+    "reasoning_tokens": 1008,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 14691,
+    "ai_credits": 0.6273
+  },
+  "timestamp": "2026-11-25T00:18:06.968Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"canned tuna in water\",\n      \"usda_query\": \"fish tuna light canned in water drained solids\",\n      \"grams\": 220,\n      \"calories\": 255,\n      \"protein\": 56.1,\n      \"protein_g\": 56.1,\n      \"carbs_g\": 0,\n      \"fat_g\": 1.8\n    },\n    {\n      \"name\": \"bell peppers\",\n      \"usda_query\": \"peppers sweet red and green raw\",\n      \"grams\": 60,\n      \"calories\": 18,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"celery\",\n      \"usda_query\": \"celery raw\",\n      \"grams\": 25,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 25,\n      \"calories\": 10,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.3,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 287\n}",
+  "latency_ms": 15834,
+  "parsed": {
+    "items": [
+      {
+        "name": "canned tuna in water",
+        "usda_query": "fish tuna light canned in water drained solids",
+        "grams": 220,
+        "calories": 255,
+        "protein_g": 56.1,
+        "carbs_g": 0,
+        "fat_g": 1.8
+      },
+      {
+        "name": "bell peppers",
+        "usda_query": "peppers sweet red and green raw",
+        "grams": 60,
+        "calories": 18,
+        "protein_g": 0.6,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "celery",
+        "usda_query": "celery raw",
+        "grams": 25,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.8,
+        "fat_g": 0
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 287
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564601528",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1ebe1e64e48c9859",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 713,
+    "reasoning_tokens": 552,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9629,
+    "ai_credits": 0.021565
+  },
+  "timestamp": "2026-11-25T00:30:22.031Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pan-fried pork dumplings\",\n      \"usda_query\": \"pork dumpling pan fried\",\n      \"grams\": 150,\n      \"calories\": 312,\n      \"protein_g\": 12,\n      \"carbs_g\": 36,\n      \"fat_g\": 12\n    },\n    {\n      \"name\": \"shredded cabbage\",\n      \"usda_query\": \"cabbage napa raw\",\n      \"grams\": 20,\n      \"calories\": 4,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 316\n}",
+  "latency_ms": 10570,
+  "parsed": {
+    "items": [
+      {
+        "name": "pan-fried pork dumplings",
+        "usda_query": "pork dumpling pan fried",
+        "grams": 150,
+        "calories": 312,
+        "protein_g": 12,
+        "carbs_g": 36,
+        "fat_g": 12
+      },
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage napa raw",
+        "grams": 20,
+        "calories": 4,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 316
+  }
+}

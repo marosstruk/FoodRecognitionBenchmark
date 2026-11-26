@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565637504",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "989ef2ea06d3b849",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 458,
+    "reasoning_tokens": 378,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3429,
+    "ai_credits": 0.0351025
+  },
+  "timestamp": "2026-11-25T00:24:07.318Z",
+  "raw_text": "{\"items\":[{\"name\":\"mango diced\",\"usda_query\":\"mangos raw\",\"grams\":110,\"calories\":66,\"protein_g\":0.9,\"carbs_g\":16.5,\"fat_g\":0.4}],\"total_calories\":66}",
+  "latency_ms": 4542,
+  "parsed": {
+    "items": [
+      {
+        "name": "mango diced",
+        "usda_query": "mangos raw",
+        "grams": 110,
+        "calories": 66,
+        "protein_g": 0.9,
+        "carbs_g": 16.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 66
+  }
+}

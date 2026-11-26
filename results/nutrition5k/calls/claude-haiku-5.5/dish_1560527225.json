@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560527225",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "19f6580adb879083",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1257,
+    "reasoning_tokens": 715,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5571,
+    "ai_credits": 0.0750525
+  },
+  "timestamp": "2026-11-25T00:18:18.663Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with butter\",\"grams\":130,\"calories\":200,\"protein_g\":13,\"carbs_g\":2,\"fat_g\":15},{\"name\":\"bacon\",\"usda_query\":\"bacon pan-fried cooked\",\"grams\":30,\"calories\":160,\"protein_g\":11,\"carbs_g\":0,\"fat_g\":12},{\"name\":\"pork sausage links\",\"usda_query\":\"pork sausage link cooked\",\"grams\":80,\"calories\":240,\"protein_g\":14,\"carbs_g\":1,\"fat_g\":21},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes home fries cooked with oil\",\"grams\":130,\"calories\":190,\"protein_g\":3,\"carbs_g\":28,\"fat_g\":7},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":70,\"calories\":22,\"protein_g\":0.5,\"carbs_g\":5,\"fat_g\":0.2},{\"name\":\"mixed salad greens\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":40,\"calories\":12,\"protein_g\":0.4,\"carbs_g\":3,\"fat_g\":0.1}],\"total_calories\":846}",
+  "latency_ms": 6668,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with butter",
+        "grams": 130,
+        "calories": 200,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 15
+      },
+      {
+        "name": "bacon",
+        "usda_query": "bacon pan-fried cooked",
+        "grams": 30,
+        "calories": 160,
+        "protein_g": 11,
+        "carbs_g": 0,
+        "fat_g": 12
+      },
+      {
+        "name": "pork sausage links",
+        "usda_query": "pork sausage link cooked",
+        "grams": 80,
+        "calories": 240,
+        "protein_g": 14,
+        "carbs_g": 1,
+        "fat_g": 21
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes home fries cooked with oil",
+        "grams": 130,
+        "calories": 190,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 7
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 70,
+        "calories": 22,
+        "protein_g": 0.5,
+        "carbs_g": 5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 0.4,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 846
+  }
+}

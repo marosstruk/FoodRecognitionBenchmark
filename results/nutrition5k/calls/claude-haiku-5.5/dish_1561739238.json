@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561739238",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c6789721d3646877",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1864,
+    "reasoning_tokens": 1430,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 9186,
+    "ai_credits": 0.1054025
+  },
+  "timestamp": "2026-11-25T00:22:12.382Z",
+  "raw_text": "{\"items\":[{\"name\":\"feta cheese\",\"usda_query\":\"cheese feta\",\"grams\":50,\"calories\":132,\"protein_g\":7.1,\"carbs_g\":2.1,\"fat_g\":10.7},{\"name\":\"black olive\",\"usda_query\":\"olives ripe canned small-extra large\",\"grams\":4,\"calories\":5,\"protein_g\":0.1,\"carbs_g\":0.3,\"fat_g\":0.4},{\"name\":\"shredded fried potato\",\"usda_query\":\"potatoes hash browns home-fried cooked\",\"grams\":80,\"calories\":193,\"protein_g\":2.0,\"carbs_g\":22.0,\"fat_g\":11.0},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked without skin\",\"grams\":130,\"calories\":117,\"protein_g\":2.0,\"carbs_g\":27.3,\"fat_g\":0.3},{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":70,\"calories\":37,\"protein_g\":0.9,\"carbs_g\":8.4,\"fat_g\":0.5},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":30,\"calories\":13,\"protein_g\":0.4,\"carbs_g\":2.9,\"fat_g\":0.1}],\"total_calories\":497}",
+  "latency_ms": 10079,
+  "parsed": {
+    "items": [
+      {
+        "name": "feta cheese",
+        "usda_query": "cheese feta",
+        "grams": 50,
+        "calories": 132,
+        "protein_g": 7.1,
+        "carbs_g": 2.1,
+        "fat_g": 10.7
+      },
+      {
+        "name": "black olive",
+        "usda_query": "olives ripe canned small-extra large",
+        "grams": 4,
+        "calories": 5,
+        "protein_g": 0.1,
+        "carbs_g": 0.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "shredded fried potato",
+        "usda_query": "potatoes hash browns home-fried cooked",
+        "grams": 80,
+        "calories": 193,
+        "protein_g": 2,
+        "carbs_g": 22,
+        "fat_g": 11
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked without skin",
+        "grams": 130,
+        "calories": 117,
+        "protein_g": 2,
+        "carbs_g": 27.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 70,
+        "calories": 37,
+        "protein_g": 0.9,
+        "carbs_g": 8.4,
+        "fat_g": 0.5
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 30,
+        "calories": 13,
+        "protein_g": 0.4,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 497
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561753168",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "276ed8202296c6c4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 538,
+    "reasoning_tokens": 383,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3494,
+    "ai_credits": 0.0391025
+  },
+  "timestamp": "2026-11-25T00:38:58.600Z",
+  "raw_text": "{\"items\":[{\"name\":\"pan-fried white fish fillet\",\"usda_query\":\"fish white fried in batter or breading\",\"grams\":105,\"calories\":215,\"protein_g\":20,\"carbs_g\":6,\"fat_g\":12},{\"name\":\"fresh herb garnish\",\"usda_query\":\"herbs fresh parsley raw\",\"grams\":5,\"calories\":2,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":217}",
+  "latency_ms": 4641,
+  "parsed": {
+    "items": [
+      {
+        "name": "pan-fried white fish fillet",
+        "usda_query": "fish white fried in batter or breading",
+        "grams": 105,
+        "calories": 215,
+        "protein_g": 20,
+        "carbs_g": 6,
+        "fat_g": 12
+      },
+      {
+        "name": "fresh herb garnish",
+        "usda_query": "herbs fresh parsley raw",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 217
+  }
+}

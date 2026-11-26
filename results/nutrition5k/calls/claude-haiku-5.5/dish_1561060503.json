@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060503",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "15c45339d5501c8e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1357,
+    "reasoning_tokens": 1055,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6510,
+    "ai_credits": 0.0800525
+  },
+  "timestamp": "2026-11-25T00:36:50.332Z",
+  "raw_text": "{\"items\":[{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw\",\"grams\":150,\"calories\":75,\"protein_g\":0.8,\"carbs_g\":19.7,\"fat_g\":0.2},{\"name\":\"bok choy\",\"usda_query\":\"bok choy cooked boiled drained\",\"grams\":80,\"calories\":10,\"protein_g\":1.2,\"carbs_g\":1.8,\"fat_g\":0.2},{\"name\":\"green onion\",\"usda_query\":\"spring onion scallion raw\",\"grams\":10,\"calories\":3,\"protein_g\":0.2,\"carbs_g\":0.7,\"fat_g\":0},{\"name\":\"baked cannelloni with tomato sauce and melted cheese\",\"usda_query\":\"pasta baked with cheese and tomato sauce\",\"grams\":150,\"calories\":240,\"protein_g\":10,\"carbs_g\":20,\"fat_g\":11}],\"total_calories\":328}",
+  "latency_ms": 7604,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 150,
+        "calories": 75,
+        "protein_g": 0.8,
+        "carbs_g": 19.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "bok choy",
+        "usda_query": "bok choy cooked boiled drained",
+        "grams": 80,
+        "calories": 10,
+        "protein_g": 1.2,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green onion",
+        "usda_query": "spring onion scallion raw",
+        "grams": 10,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "baked cannelloni with tomato sauce and melted cheese",
+        "usda_query": "pasta baked with cheese and tomato sauce",
+        "grams": 150,
+        "calories": 240,
+        "protein_g": 10,
+        "carbs_g": 20,
+        "fat_g": 11
+      }
+    ],
+    "total_calories": 328
+  }
+}

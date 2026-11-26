@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561663035",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "93d05433bbf1c14d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1489,
+    "reasoning_tokens": 1179,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7306,
+    "ai_credits": 0.0866525
+  },
+  "timestamp": "2026-11-25T00:35:19.941Z",
+  "raw_text": "{\"items\":[{\"name\":\"thin pizza crust\",\"usda_query\":\"pizza crust baked\",\"grams\":60,\"calories\":161,\"protein_g\":5.4,\"carbs_g\":30.0,\"fat_g\":2.1},{\"name\":\"mozzarella cheese\",\"usda_query\":\"mozzarella cheese whole milk\",\"grams\":30,\"calories\":89,\"protein_g\":6.6,\"carbs_g\":0.7,\"fat_g\":6.6},{\"name\":\"cooked pork sausage\",\"usda_query\":\"pork sausage italian cooked pan-fried\",\"grams\":15,\"calories\":51,\"protein_g\":3.0,\"carbs_g\":0.2,\"fat_g\":4.2},{\"name\":\"tomato pizza sauce\",\"usda_query\":\"pizza sauce canned\",\"grams\":15,\"calories\":11,\"protein_g\":0.3,\"carbs_g\":2.0,\"fat_g\":0.2}],\"total_calories\":312}",
+  "latency_ms": 8189,
+  "parsed": {
+    "items": [
+      {
+        "name": "thin pizza crust",
+        "usda_query": "pizza crust baked",
+        "grams": 60,
+        "calories": 161,
+        "protein_g": 5.4,
+        "carbs_g": 30,
+        "fat_g": 2.1
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese whole milk",
+        "grams": 30,
+        "calories": 89,
+        "protein_g": 6.6,
+        "carbs_g": 0.7,
+        "fat_g": 6.6
+      },
+      {
+        "name": "cooked pork sausage",
+        "usda_query": "pork sausage italian cooked pan-fried",
+        "grams": 15,
+        "calories": 51,
+        "protein_g": 3,
+        "carbs_g": 0.2,
+        "fat_g": 4.2
+      },
+      {
+        "name": "tomato pizza sauce",
+        "usda_query": "pizza sauce canned",
+        "grams": 15,
+        "calories": 11,
+        "protein_g": 0.3,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 312
+  }
+}

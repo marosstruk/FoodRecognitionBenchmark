@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414225",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cffa6e4c06b403d2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1085,
+    "reasoning_tokens": 893,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 12278,
+    "ai_credits": 0.517425
+  },
+  "timestamp": "2026-11-25T00:30:14.026Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked couscous\",\n      \"usda_query\": \"couscous cooked\",\n      \"grams\": 60,\n      \"calories\": 67,\n      \"protein_g\": 2.3,\n      \"carbs_g\": 13.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"roasted mixed vegetables\",\n      \"usda_query\": \"vegetables mixed cooked with oil\",\n      \"grams\": 65,\n      \"calories\": 55,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 6.2,\n      \"fat_g\": 3.1\n    }\n  ],\n  \"total_calories\": 122\n}",
+  "latency_ms": 13373,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked couscous",
+        "usda_query": "couscous cooked",
+        "grams": 60,
+        "calories": 67,
+        "protein_g": 2.3,
+        "carbs_g": 13.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted mixed vegetables",
+        "usda_query": "vegetables mixed cooked with oil",
+        "grams": 65,
+        "calories": 55,
+        "protein_g": 1.2,
+        "carbs_g": 6.2,
+        "fat_g": 3.1
+      }
+    ],
+    "total_calories": 122
+  }
+}

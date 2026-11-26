@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558725576",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8723d25439a97ef2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 400,
+    "reasoning_tokens": 340,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8225,
+    "ai_credits": 0.01374
+  },
+  "timestamp": "2026-11-25T00:33:03.830Z",
+  "raw_text": "{\"items\":[{\"name\":\"steamed cauliflower florets\",\"usda_query\":\"cauliflower cooked boiled drained\",\"grams\":150,\"calories\":35,\"protein_g\":3,\"carbs_g\":7,\"fat_g\":1}],\"total_calories\":35}",
+  "latency_ms": 9709,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed cauliflower florets",
+        "usda_query": "cauliflower cooked boiled drained",
+        "grams": 150,
+        "calories": 35,
+        "protein_g": 3,
+        "carbs_g": 7,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 35
+  }
+}

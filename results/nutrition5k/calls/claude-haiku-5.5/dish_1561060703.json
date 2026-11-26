@@ -1,0 +1,135 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060703",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "41ab440adb8f41a2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 2051,
+    "reasoning_tokens": 1171,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8761,
+    "ai_credits": 0.1147525
+  },
+  "timestamp": "2026-11-25T00:24:52.011Z",
+  "raw_text": "{\"items\":[{\"name\":\"pineapple chunks\",\"usda_query\":\"pineapple raw\",\"grams\":120,\"calories\":60,\"protein_g\":0.6,\"carbs_g\":15.6,\"fat_g\":0.2},{\"name\":\"bok choy\",\"usda_query\":\"cabbage chinese pak-choi raw\",\"grams\":60,\"calories\":8,\"protein_g\":0.9,\"carbs_g\":1.3,\"fat_g\":0.1},{\"name\":\"brussels sprouts\",\"usda_query\":\"brussels sprouts cooked boiled\",\"grams\":90,\"calories\":38,\"protein_g\":2.5,\"carbs_g\":8,\"fat_g\":0.3},{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe cherry raw\",\"grams\":30,\"calories\":5,\"protein_g\":0.3,\"carbs_g\":1.2,\"fat_g\":0.1},{\"name\":\"baked pasta with tomato sauce and cheese\",\"usda_query\":\"pasta bake tomato sauce cheese baked\",\"grams\":200,\"calories\":330,\"protein_g\":14,\"carbs_g\":32,\"fat_g\":16},{\"name\":\"pan-fried tofu\",\"usda_query\":\"tofu firm prepared fried\",\"grams\":90,\"calories\":130,\"protein_g\":14,\"carbs_g\":3.5,\"fat_g\":8},{\"name\":\"yellow squash\",\"usda_query\":\"squash summer yellow cooked boiled\",\"grams\":60,\"calories\":10,\"protein_g\":0.7,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"green beans\",\"usda_query\":\"beans snap green cooked boiled\",\"grams\":40,\"calories\":12,\"protein_g\":0.7,\"carbs_g\":2.8,\"fat_g\":0.1},{\"name\":\"sliced roasted meat with gravy\",\"usda_query\":\"beef roasted sliced with gravy\",\"grams\":80,\"calories\":170,\"protein_g\":20,\"carbs_g\":4,\"fat_g\":8},{\"name\":\"roasted carrot\",\"usda_query\":\"carrots cooked boiled\",\"grams\":40,\"calories\":16,\"protein_g\":0.4,\"carbs_g\":3.8,\"fat_g\":0.1},{\"name\":\"herb-crusted fish fillet\",\"usda_query\":\"fish cod baked with breadcrumb herb coating\",\"grams\":120,\"calories\":200,\"protein_g\":24,\"carbs_g\":6,\"fat_g\":9}],\"total_calories\":993}",
+  "latency_ms": 9688,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 0.6,
+        "carbs_g": 15.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "bok choy",
+        "usda_query": "cabbage chinese pak-choi raw",
+        "grams": 60,
+        "calories": 8,
+        "protein_g": 0.9,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled",
+        "grams": 90,
+        "calories": 38,
+        "protein_g": 2.5,
+        "carbs_g": 8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe cherry raw",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "baked pasta with tomato sauce and cheese",
+        "usda_query": "pasta bake tomato sauce cheese baked",
+        "grams": 200,
+        "calories": 330,
+        "protein_g": 14,
+        "carbs_g": 32,
+        "fat_g": 16
+      },
+      {
+        "name": "pan-fried tofu",
+        "usda_query": "tofu firm prepared fried",
+        "grams": 90,
+        "calories": 130,
+        "protein_g": 14,
+        "carbs_g": 3.5,
+        "fat_g": 8
+      },
+      {
+        "name": "yellow squash",
+        "usda_query": "squash summer yellow cooked boiled",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green beans",
+        "usda_query": "beans snap green cooked boiled",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 0.7,
+        "carbs_g": 2.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sliced roasted meat with gravy",
+        "usda_query": "beef roasted sliced with gravy",
+        "grams": 80,
+        "calories": 170,
+        "protein_g": 20,
+        "carbs_g": 4,
+        "fat_g": 8
+      },
+      {
+        "name": "roasted carrot",
+        "usda_query": "carrots cooked boiled",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "herb-crusted fish fillet",
+        "usda_query": "fish cod baked with breadcrumb herb coating",
+        "grams": 120,
+        "calories": 200,
+        "protein_g": 24,
+        "carbs_g": 6,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 993
+  }
+}

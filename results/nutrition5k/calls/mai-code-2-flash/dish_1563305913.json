@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563305913",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a283b5d12f913f31",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1026,
+    "reasoning_tokens": 739,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12226,
+    "ai_credits": 0.02939
+  },
+  "timestamp": "2026-11-25T00:33:33.013Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"beef strips\",\n      \"usda_query\": \"beef stir fry strips cooked\",\n      \"grams\": 150,\n      \"calories\": 309,\n      \"protein_g\": 43,\n      \"carbs_g\": 0,\n      \"fat_g\": 14\n    },\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli steamed\",\n      \"grams\": 120,\n      \"calories\": 41,\n      \"protein_g\": 3,\n      \"carbs_g\": 8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"bell pepper red raw\",\n      \"grams\": 30,\n      \"calories\": 9,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"stir-fry sauce\",\n      \"usda_query\": \"teriyaki sauce\",\n      \"grams\": 20,\n      \"calories\": 35,\n      \"protein_g\": 1,\n      \"carbs_g\": 7,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 394\n}",
+  "latency_ms": 13778,
+  "parsed": {
+    "items": [
+      {
+        "name": "beef strips",
+        "usda_query": "beef stir fry strips cooked",
+        "grams": 150,
+        "calories": 309,
+        "protein_g": 43,
+        "carbs_g": 0,
+        "fat_g": 14
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli steamed",
+        "grams": 120,
+        "calories": 41,
+        "protein_g": 3,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red raw",
+        "grams": 30,
+        "calories": 9,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "stir-fry sauce",
+        "usda_query": "teriyaki sauce",
+        "grams": 20,
+        "calories": 35,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 394
+  }
+}

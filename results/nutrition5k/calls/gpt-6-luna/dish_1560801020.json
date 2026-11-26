@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560801020",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7b43c2a210b7aef3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 783,
+    "reasoning_tokens": 351,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7799,
+    "ai_credits": 0.04663
+  },
+  "timestamp": "2026-11-25T00:25:53.443Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 110,\n      \"calories\": 25,\n      \"protein_g\": 2,\n      \"carbs_g\": 5,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Quinoa\",\n      \"usda_query\": \"quinoa cooked\",\n      \"grams\": 100,\n      \"calories\": 120,\n      \"protein_g\": 4.4,\n      \"carbs_g\": 21.3,\n      \"fat_g\": 1.9\n    },\n    {\n      \"name\": \"Chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 70,\n      \"calories\": 116,\n      \"protein_g\": 21.7,\n      \"carbs_g\": 0,\n      \"fat_g\": 2.5\n    },\n    {\n      \"name\": \"Mixed leafy greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 45,\n      \"calories\": 10,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Beetroot\",\n      \"usda_query\": \"beets cooked\",\n      \"grams\": 45,\n      \"calories\": 20,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 4.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Snap peas\",\n      \"usda_query\": \"snap peas raw\",\n      \"grams\": 25,\n      \"calories\": 10,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 301\n}",
+  "latency_ms": 8945,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 110,
+        "calories": 25,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Quinoa",
+        "usda_query": "quinoa cooked",
+        "grams": 100,
+        "calories": 120,
+        "protein_g": 4.4,
+        "carbs_g": 21.3,
+        "fat_g": 1.9
+      },
+      {
+        "name": "Chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 70,
+        "calories": 116,
+        "protein_g": 21.7,
+        "carbs_g": 0,
+        "fat_g": 2.5
+      },
+      {
+        "name": "Mixed leafy greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 45,
+        "calories": 10,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Beetroot",
+        "usda_query": "beets cooked",
+        "grams": 45,
+        "calories": 20,
+        "protein_g": 0.7,
+        "carbs_g": 4.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Snap peas",
+        "usda_query": "snap peas raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 301
+  }
+}

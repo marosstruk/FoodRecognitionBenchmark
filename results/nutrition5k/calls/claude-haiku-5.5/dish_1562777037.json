@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562777037",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9b0c7718bce1ac45",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1051,
+    "reasoning_tokens": 819,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5089,
+    "ai_credits": 0.0647525
+  },
+  "timestamp": "2026-11-25T00:16:20.826Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with milk and butter\",\"grams\":120,\"calories\":179,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"cheddar cheese\",\"usda_query\":\"cheese cheddar\",\"grams\":10,\"calories\":40,\"protein_g\":2.5,\"carbs_g\":0,\"fat_g\":3.3},{\"name\":\"roasted Brussels sprouts\",\"usda_query\":\"brussels sprouts cooked roasted with oil\",\"grams\":110,\"calories\":55,\"protein_g\":4,\"carbs_g\":10,\"fat_g\":2}],\"total_calories\":274}",
+  "latency_ms": 6517,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with milk and butter",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "cheddar cheese",
+        "usda_query": "cheese cheddar",
+        "grams": 10,
+        "calories": 40,
+        "protein_g": 2.5,
+        "carbs_g": 0,
+        "fat_g": 3.3
+      },
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "brussels sprouts cooked roasted with oil",
+        "grams": 110,
+        "calories": 55,
+        "protein_g": 4,
+        "carbs_g": 10,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 274
+  }
+}

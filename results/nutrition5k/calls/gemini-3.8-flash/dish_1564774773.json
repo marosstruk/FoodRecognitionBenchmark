@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564774773",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "548006e9f91f2152",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 332,
+    "reasoning_tokens": 256,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5072,
+    "ai_credits": 0.23505
+  },
+  "timestamp": "2026-11-25T00:39:50.879Z",
+  "raw_text": "{\"items\": [{\"name\": \"roasted broccoli\", \"usda_query\": \"broccoli cooked with oil\", \"grams\": 75, \"calories\": 41, \"protein_g\": 2.1, \"carbs_g\": 5.4, \"fat_g\": 1.7}], \"total_calories\": 41}",
+  "latency_ms": 6192,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted broccoli",
+        "usda_query": "broccoli cooked with oil",
+        "grams": 75,
+        "calories": 41,
+        "protein_g": 2.1,
+        "carbs_g": 5.4,
+        "fat_g": 1.7
+      }
+    ],
+    "total_calories": 41
+  }
+}

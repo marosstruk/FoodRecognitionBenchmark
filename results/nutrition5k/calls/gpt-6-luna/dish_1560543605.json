@@ -1,0 +1,108 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560543605",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3d1e8956591c26cb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1396,
+    "reasoning_tokens": 753,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9546,
+    "ai_credits": 0.07728
+  },
+  "timestamp": "2026-11-25T00:28:04.990Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Brown rice\",\n      \"usda_query\": \"rice brown cooked\",\n      \"grams\": 165,\n      \"calories\": 183,\n      \"protein_g\": 4.3,\n      \"carbs_g\": 38.2,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"Breaded fried fish\",\n      \"usda_query\": \"fish breaded fried\",\n      \"grams\": 75,\n      \"calories\": 190,\n      \"protein_g\": 14,\n      \"carbs_g\": 13,\n      \"fat_g\": 9\n    },\n    {\n      \"name\": \"Glazed chicken\",\n      \"usda_query\": \"chicken wing roasted meat and skin\",\n      \"grams\": 105,\n      \"calories\": 230,\n      \"protein_g\": 23,\n      \"carbs_g\": 1,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"Barbecue sauce\",\n      \"usda_query\": \"barbecue sauce\",\n      \"grams\": 12,\n      \"calories\": 20,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Leaf lettuce\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 55,\n      \"calories\": 8,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 15,\n      \"calories\": 2,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 70,\n      \"calories\": 13,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Black olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 20,\n      \"calories\": 23,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 2.1\n    },\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 35,\n      \"calories\": 12,\n      \"protein_g\": 1,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 681\n}",
+  "latency_ms": 10771,
+  "parsed": {
+    "items": [
+      {
+        "name": "Brown rice",
+        "usda_query": "rice brown cooked",
+        "grams": 165,
+        "calories": 183,
+        "protein_g": 4.3,
+        "carbs_g": 38.2,
+        "fat_g": 1.5
+      },
+      {
+        "name": "Breaded fried fish",
+        "usda_query": "fish breaded fried",
+        "grams": 75,
+        "calories": 190,
+        "protein_g": 14,
+        "carbs_g": 13,
+        "fat_g": 9
+      },
+      {
+        "name": "Glazed chicken",
+        "usda_query": "chicken wing roasted meat and skin",
+        "grams": 105,
+        "calories": 230,
+        "protein_g": 23,
+        "carbs_g": 1,
+        "fat_g": 15
+      },
+      {
+        "name": "Barbecue sauce",
+        "usda_query": "barbecue sauce",
+        "grams": 12,
+        "calories": 20,
+        "protein_g": 0.1,
+        "carbs_g": 5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Leaf lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 55,
+        "calories": 8,
+        "protein_g": 0.7,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 15,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 70,
+        "calories": 13,
+        "protein_g": 0.6,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 20,
+        "calories": 23,
+        "protein_g": 0.2,
+        "carbs_g": 1.2,
+        "fat_g": 2.1
+      },
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 35,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 681
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640227",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e20f95e7348f2c77",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 793,
+    "reasoning_tokens": 596,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9554,
+    "ai_credits": 0.023565
+  },
+  "timestamp": "2026-11-25T00:39:43.917Z",
+  "raw_text": "{\"items\":[{\"name\":\"lasagna\",\"usda_query\":\"lasagna beef with tomato sauce cheese\",\"grams\":260,\"calories\":390,\"protein_g\":19,\"carbs_g\":39,\"fat_g\":17},{\"name\":\"green bell pepper\",\"usda_query\":\"bell pepper green cooked\",\"grams\":35,\"calories\":12,\"protein_g\":0.4,\"carbs_g\":2.7,\"fat_g\":0.1},{\"name\":\"red bell pepper\",\"usda_query\":\"bell pepper red cooked\",\"grams\":35,\"calories\":17,\"protein_g\":0.5,\"carbs_g\":4.1,\"fat_g\":0.2},{\"name\":\"yellow bell pepper\",\"usda_query\":\"bell pepper yellow cooked\",\"grams\":25,\"calories\":12,\"protein_g\":0.4,\"carbs_g\":2.8,\"fat_g\":0.1}],\"total_calories\":431}",
+  "latency_ms": 10463,
+  "parsed": {
+    "items": [
+      {
+        "name": "lasagna",
+        "usda_query": "lasagna beef with tomato sauce cheese",
+        "grams": 260,
+        "calories": 390,
+        "protein_g": 19,
+        "carbs_g": 39,
+        "fat_g": 17
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "bell pepper green cooked",
+        "grams": 35,
+        "calories": 12,
+        "protein_g": 0.4,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red cooked",
+        "grams": 35,
+        "calories": 17,
+        "protein_g": 0.5,
+        "carbs_g": 4.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "bell pepper yellow cooked",
+        "grams": 25,
+        "calories": 12,
+        "protein_g": 0.4,
+        "carbs_g": 2.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 431
+  }
+}

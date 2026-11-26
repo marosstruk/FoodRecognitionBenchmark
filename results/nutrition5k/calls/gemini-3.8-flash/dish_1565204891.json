@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565204891",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c10ac725e604ef0a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1044,
+    "reasoning_tokens": 762,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9380,
+    "ai_credits": 0.50205
+  },
+  "timestamp": "2026-11-25T00:31:21.810Z",
+  "raw_text": "{\"items\": [{\"name\": \"roasted Brussels sprouts\", \"usda_query\": \"Brussels sprouts cooked with oil\", \"grams\": 85, \"calories\": 55, \"protein_g\": 3.0, \"carbs_g\": 7.5, \"fat_g\": 2.5}, {\"name\": \"cooked chicken breast in sauce\", \"usda_query\": \"chicken breast cooked with sauce\", \"grams\": 80, \"calories\": 130, \"protein_g\": 21.0, \"carbs_g\": 3.0, \"fat_g\": 3.5}, {\"name\": \"sautéed yellow squash\", \"usda_query\": \"summer squash cooked with oil\", \"grams\": 30, \"calories\": 8, \"protein_g\": 0.4, \"carbs_g\": 1.5, \"fat_g\": 0.2}, {\"name\": \"cooked white rice with sauce\", \"usda_query\": \"white rice cooked\", \"grams\": 30, \"calories\": 45, \"protein_g\": 0.8, \"carbs_g\": 9.0, \"fat_g\": 0.5}], \"total_calories\": 238}",
+  "latency_ms": 10529,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "Brussels sprouts cooked with oil",
+        "grams": 85,
+        "calories": 55,
+        "protein_g": 3,
+        "carbs_g": 7.5,
+        "fat_g": 2.5
+      },
+      {
+        "name": "cooked chicken breast in sauce",
+        "usda_query": "chicken breast cooked with sauce",
+        "grams": 80,
+        "calories": 130,
+        "protein_g": 21,
+        "carbs_g": 3,
+        "fat_g": 3.5
+      },
+      {
+        "name": "sautéed yellow squash",
+        "usda_query": "summer squash cooked with oil",
+        "grams": 30,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooked white rice with sauce",
+        "usda_query": "white rice cooked",
+        "grams": 30,
+        "calories": 45,
+        "protein_g": 0.8,
+        "carbs_g": 9,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 238
+  }
+}

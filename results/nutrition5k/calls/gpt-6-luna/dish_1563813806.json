@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563813806",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "85920cee62de8d32",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 674,
+    "reasoning_tokens": 580,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9758,
+    "ai_credits": 0.04118
+  },
+  "timestamp": "2026-11-25T00:23:32.659Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked cauliflower\",\n      \"usda_query\": \"cauliflower cooked boiled drained\",\n      \"grams\": 170,\n      \"calories\": 39,\n      \"protein_g\": 3.1,\n      \"carbs_g\": 7,\n      \"fat_g\": 0.8\n    }\n  ],\n  \"total_calories\": 39\n}",
+  "latency_ms": 10859,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked cauliflower",
+        "usda_query": "cauliflower cooked boiled drained",
+        "grams": 170,
+        "calories": 39,
+        "protein_g": 3.1,
+        "carbs_g": 7,
+        "fat_g": 0.8
+      }
+    ],
+    "total_calories": 39
+  }
+}

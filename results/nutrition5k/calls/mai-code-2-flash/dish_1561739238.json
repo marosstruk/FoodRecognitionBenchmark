@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561739238",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c6789721d3646877",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1215,
+    "reasoning_tokens": 963,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13244,
+    "ai_credits": 0.034115
+  },
+  "timestamp": "2026-11-25T00:22:16.109Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted white potatoes\",\"usda_query\":\"potatoes white roasted\",\"grams\":150,\"calories\":116,\"protein_g\":3.0,\"carbs_g\":26.0,\"fat_g\":0.2},{\"name\":\"roasted sweet potatoes\",\"usda_query\":\"sweet potato baked\",\"grams\":100,\"calories\":90,\"protein_g\":2.0,\"carbs_g\":21.0,\"fat_g\":0.2},{\"name\":\"red cabbage\",\"usda_query\":\"cabbage red cooked\",\"grams\":70,\"calories\":24,\"protein_g\":1.0,\"carbs_g\":5.0,\"fat_g\":0.1},{\"name\":\"sauerkraut\",\"usda_query\":\"sauerkraut canned\",\"grams\":60,\"calories\":11,\"protein_g\":0.7,\"carbs_g\":2.5,\"fat_g\":0.1},{\"name\":\"roasted red bell pepper\",\"usda_query\":\"peppers red cooked\",\"grams\":50,\"calories\":20,\"protein_g\":0.7,\"carbs_g\":4.5,\"fat_g\":0.2}],\"total_calories\":261}",
+  "latency_ms": 14367,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted white potatoes",
+        "usda_query": "potatoes white roasted",
+        "grams": 150,
+        "calories": 116,
+        "protein_g": 3,
+        "carbs_g": 26,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted sweet potatoes",
+        "usda_query": "sweet potato baked",
+        "grams": 100,
+        "calories": 90,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red cabbage",
+        "usda_query": "cabbage red cooked",
+        "grams": 70,
+        "calories": 24,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sauerkraut",
+        "usda_query": "sauerkraut canned",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.7,
+        "carbs_g": 2.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted red bell pepper",
+        "usda_query": "peppers red cooked",
+        "grams": 50,
+        "calories": 20,
+        "protein_g": 0.7,
+        "carbs_g": 4.5,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 261
+  }
+}

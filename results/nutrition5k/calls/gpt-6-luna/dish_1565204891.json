@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565204891",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c10ac725e604ef0a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 837,
+    "reasoning_tokens": 470,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8268,
+    "ai_credits": 0.04933
+  },
+  "timestamp": "2026-11-25T00:31:19.872Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Chicken breast\",\n      \"usda_query\": \"chicken breast cooked roasted\",\n      \"grams\": 100,\n      \"calories\": 165,\n      \"protein_g\": 31,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.6\n    },\n    {\n      \"name\": \"Brussels sprouts\",\n      \"usda_query\": \"Brussels sprouts cooked\",\n      \"grams\": 140,\n      \"calories\": 60,\n      \"protein_g\": 4.7,\n      \"carbs_g\": 12.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"White rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 55,\n      \"calories\": 72,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 15.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Brown cooking sauce\",\n      \"usda_query\": \"brown sauce prepared\",\n      \"grams\": 8,\n      \"calories\": 30,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2,\n      \"fat_g\": 2.2\n    },\n    {\n      \"name\": \"Red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 5,\n      \"calories\": 2,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 329\n}",
+  "latency_ms": 9397,
+  "parsed": {
+    "items": [
+      {
+        "name": "Chicken breast",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      },
+      {
+        "name": "Brussels sprouts",
+        "usda_query": "Brussels sprouts cooked",
+        "grams": 140,
+        "calories": 60,
+        "protein_g": 4.7,
+        "carbs_g": 12.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "White rice",
+        "usda_query": "rice white cooked",
+        "grams": 55,
+        "calories": 72,
+        "protein_g": 1.5,
+        "carbs_g": 15.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Brown cooking sauce",
+        "usda_query": "brown sauce prepared",
+        "grams": 8,
+        "calories": 30,
+        "protein_g": 0.3,
+        "carbs_g": 2,
+        "fat_g": 2.2
+      },
+      {
+        "name": "Red onion",
+        "usda_query": "onions red raw",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 329
+  }
+}

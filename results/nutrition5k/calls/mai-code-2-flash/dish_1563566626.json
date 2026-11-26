@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563566626",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "be4bfd431a1039b0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1359,
+    "reasoning_tokens": 1271,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16865,
+    "ai_credits": 0.037715
+  },
+  "timestamp": "2026-11-25T00:14:21.232Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"dates\",\n      \"usda_query\": \"dates medjool dried\",\n      \"grams\": 120,\n      \"calories\": 332,\n      \"protein_g\": 2,\n      \"carbs_g\": 86,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 332\n}",
+  "latency_ms": 17979,
+  "parsed": {
+    "items": [
+      {
+        "name": "dates",
+        "usda_query": "dates medjool dried",
+        "grams": 120,
+        "calories": 332,
+        "protein_g": 2,
+        "carbs_g": 86,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 332
+  }
+}

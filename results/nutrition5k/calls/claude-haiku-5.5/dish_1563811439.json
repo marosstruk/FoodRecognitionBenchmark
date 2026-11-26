@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563811439",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a7029d0689b0c2e4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 743,
+    "reasoning_tokens": 520,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3880,
+    "ai_credits": 0.0493525
+  },
+  "timestamp": "2026-11-25T00:16:16.249Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots cooked boiled drained without salt\",\n      \"grams\": 80,\n      \"calories\": 33,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 7.6,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cauliflower\",\n      \"usda_query\": \"cauliflower cooked boiled drained without salt\",\n      \"grams\": 150,\n      \"calories\": 35,\n      \"protein_g\": 2.9,\n      \"carbs_g\": 6.2,\n      \"fat_g\": 0.7\n    }\n  ],\n  \"total_calories\": 68\n}",
+  "latency_ms": 5021,
+  "parsed": {
+    "items": [
+      {
+        "name": "carrot",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 80,
+        "calories": 33,
+        "protein_g": 0.7,
+        "carbs_g": 7.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cauliflower",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 150,
+        "calories": 35,
+        "protein_g": 2.9,
+        "carbs_g": 6.2,
+        "fat_g": 0.7
+      }
+    ],
+    "total_calories": 68
+  }
+}

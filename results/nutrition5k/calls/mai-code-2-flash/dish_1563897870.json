@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563897870",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "82dde85c96d49961",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 748,
+    "reasoning_tokens": 659,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9507,
+    "ai_credits": 0.02244
+  },
+  "timestamp": "2026-11-25T00:22:23.012Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"rice porridge\",\n      \"usda_query\": \"rice congee cooked\",\n      \"grams\": 300,\n      \"calories\": 150,\n      \"protein_g\": 3,\n      \"carbs_g\": 33,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 150\n}",
+  "latency_ms": 10623,
+  "parsed": {
+    "items": [
+      {
+        "name": "rice porridge",
+        "usda_query": "rice congee cooked",
+        "grams": 300,
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 33,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 150
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640227",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e20f95e7348f2c77",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 689,
+    "reasoning_tokens": 453,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8029,
+    "ai_credits": 0.04193
+  },
+  "timestamp": "2026-11-25T00:39:42.650Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cheese pizza\",\n      \"usda_query\": \"cheese pizza\",\n      \"grams\": 70,\n      \"calories\": 187,\n      \"protein_g\": 8.8,\n      \"carbs_g\": 22.4,\n      \"fat_g\": 7.7\n    },\n    {\n      \"name\": \"Pepperoni pizza\",\n      \"usda_query\": \"pepperoni pizza\",\n      \"grams\": 75,\n      \"calories\": 224,\n      \"protein_g\": 10.1,\n      \"carbs_g\": 21.3,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"Mixed bell peppers\",\n      \"usda_query\": \"sweet peppers raw\",\n      \"grams\": 50,\n      \"calories\": 14,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 425\n}",
+  "latency_ms": 9154,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cheese pizza",
+        "usda_query": "cheese pizza",
+        "grams": 70,
+        "calories": 187,
+        "protein_g": 8.8,
+        "carbs_g": 22.4,
+        "fat_g": 7.7
+      },
+      {
+        "name": "Pepperoni pizza",
+        "usda_query": "pepperoni pizza",
+        "grams": 75,
+        "calories": 224,
+        "protein_g": 10.1,
+        "carbs_g": 21.3,
+        "fat_g": 10.5
+      },
+      {
+        "name": "Mixed bell peppers",
+        "usda_query": "sweet peppers raw",
+        "grams": 50,
+        "calories": 14,
+        "protein_g": 0.5,
+        "carbs_g": 3.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 425
+  }
+}

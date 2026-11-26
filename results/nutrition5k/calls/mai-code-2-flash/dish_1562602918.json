@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562602918",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "537ee65f73d7fb4e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1839,
+    "reasoning_tokens": 1467,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18730,
+    "ai_credits": 0.049715
+  },
+  "timestamp": "2026-11-25T00:27:57.380Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"chopped tomatoes\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 100,\n      \"calories\": 18,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 3.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"feta cheese\",\n      \"usda_query\": \"cheese feta\",\n      \"grams\": 45,\n      \"calories\": 119,\n      \"protein_g\": 7.5,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"black olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 20,\n      \"calories\": 23,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 2.1\n    },\n    {\n      \"name\": \"shredded cabbage\",\n      \"usda_query\": \"cabbage raw\",\n      \"grams\": 80,\n      \"calories\": 20,\n      \"protein_g\": 1,\n      \"carbs_g\": 4.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"fried potatoes\",\n      \"usda_query\": \"french fries\",\n      \"grams\": 160,\n      \"calories\": 510,\n      \"protein_g\": 5.7,\n      \"carbs_g\": 53.6,\n      \"fat_g\": 24.3\n    }\n  ],\n  \"total_calories\": 690\n}",
+  "latency_ms": 19593,
+  "parsed": {
+    "items": [
+      {
+        "name": "chopped tomatoes",
+        "usda_query": "tomatoes red raw",
+        "grams": 100,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "feta cheese",
+        "usda_query": "cheese feta",
+        "grams": 45,
+        "calories": 119,
+        "protein_g": 7.5,
+        "carbs_g": 1.8,
+        "fat_g": 10
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 20,
+        "calories": 23,
+        "protein_g": 0.2,
+        "carbs_g": 1.6,
+        "fat_g": 2.1
+      },
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage raw",
+        "grams": 80,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 4.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fried potatoes",
+        "usda_query": "french fries",
+        "grams": 160,
+        "calories": 510,
+        "protein_g": 5.7,
+        "carbs_g": 53.6,
+        "fat_g": 24.3
+      }
+    ],
+    "total_calories": 690
+  }
+}

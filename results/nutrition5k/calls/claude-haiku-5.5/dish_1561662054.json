@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561662054",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "326608b63caa43f3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1214,
+    "reasoning_tokens": 782,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5549,
+    "ai_credits": 0.0729025
+  },
+  "timestamp": "2026-11-25T00:23:49.415Z",
+  "raw_text": "{\"items\":[{\"name\":\"baby spinach leaves\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":25,\"calories\":10,\"protein_g\":0.2,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"green beans cooked\",\"usda_query\":\"beans snap green cooked boiled drained\",\"grams\":90,\"calories\":60,\"protein_g\":1.8,\"carbs_g\":7,\"fat_g\":3},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":15,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.6,\"fat_g\":0},{\"name\":\"pan-fried pork with glaze\",\"usda_query\":\"pork loin cooked pan-fried\",\"grams\":110,\"calories\":200,\"protein_g\":28,\"carbs_g\":6,\"fat_g\":8},{\"name\":\"white rice cooked\",\"usda_query\":\"rice white cooked\",\"grams\":90,\"calories\":117,\"protein_g\":2.4,\"carbs_g\":25.6,\"fat_g\":0.2}],\"total_calories\":404}",
+  "latency_ms": 6396,
+  "parsed": {
+    "items": [
+      {
+        "name": "baby spinach leaves",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.2,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green beans cooked",
+        "usda_query": "beans snap green cooked boiled drained",
+        "grams": 90,
+        "calories": 60,
+        "protein_g": 1.8,
+        "carbs_g": 7,
+        "fat_g": 3
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "pan-fried pork with glaze",
+        "usda_query": "pork loin cooked pan-fried",
+        "grams": 110,
+        "calories": 200,
+        "protein_g": 28,
+        "carbs_g": 6,
+        "fat_g": 8
+      },
+      {
+        "name": "white rice cooked",
+        "usda_query": "rice white cooked",
+        "grams": 90,
+        "calories": 117,
+        "protein_g": 2.4,
+        "carbs_g": 25.6,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 404
+  }
+}

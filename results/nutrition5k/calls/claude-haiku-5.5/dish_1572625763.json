@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572625763",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "48d3ad0b233b7268",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 967,
+    "reasoning_tokens": 729,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5356,
+    "ai_credits": 0.0605525
+  },
+  "timestamp": "2026-11-25T00:32:08.993Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled prepared with milk and butter\",\"grams\":130,\"calories\":194,\"protein_g\":13,\"carbs_g\":2,\"fat_g\":14},{\"name\":\"cooked spinach\",\"usda_query\":\"spinach cooked boiled drained without salt\",\"grams\":15,\"calories\":4,\"protein_g\":0.4,\"carbs_g\":0.5,\"fat_g\":0.1},{\"name\":\"diced tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":130,\"calories\":23,\"protein_g\":1.2,\"carbs_g\":5.1,\"fat_g\":0.3}],\"total_calories\":221}",
+  "latency_ms": 6259,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled prepared with milk and butter",
+        "grams": 130,
+        "calories": 194,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 14
+      },
+      {
+        "name": "cooked spinach",
+        "usda_query": "spinach cooked boiled drained without salt",
+        "grams": 15,
+        "calories": 4,
+        "protein_g": 0.4,
+        "carbs_g": 0.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "diced tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 130,
+        "calories": 23,
+        "protein_g": 1.2,
+        "carbs_g": 5.1,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 221
+  }
+}

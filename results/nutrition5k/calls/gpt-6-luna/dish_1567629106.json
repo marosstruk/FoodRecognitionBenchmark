@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567629106",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "38f979a735c2df90",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 522,
+    "reasoning_tokens": 299,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5256,
+    "ai_credits": 0.03358
+  },
+  "timestamp": "2026-11-25T00:27:35.455Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"cheese pizza thin crust\",\n      \"grams\": 145,\n      \"calories\": 390,\n      \"protein_g\": 17,\n      \"carbs_g\": 47,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"lettuce\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 100,\n      \"calories\": 15,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"creamy salad dressing\",\n      \"usda_query\": \"salad dressing creamy\",\n      \"grams\": 15,\n      \"calories\": 70,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1,\n      \"fat_g\": 7\n    }\n  ],\n  \"total_calories\": 475\n}",
+  "latency_ms": 6104,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "cheese pizza thin crust",
+        "grams": 145,
+        "calories": 390,
+        "protein_g": 17,
+        "carbs_g": 47,
+        "fat_g": 15
+      },
+      {
+        "name": "lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 100,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "creamy salad dressing",
+        "usda_query": "salad dressing creamy",
+        "grams": 15,
+        "calories": 70,
+        "protein_g": 0.3,
+        "carbs_g": 1,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 475
+  }
+}

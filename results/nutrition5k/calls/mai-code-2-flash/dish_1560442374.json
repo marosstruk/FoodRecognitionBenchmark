@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560442374",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ca36dbc420eae4da",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 629,
+    "reasoning_tokens": 570,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12708,
+    "ai_credits": 0.019465
+  },
+  "timestamp": "2026-11-25T00:24:10.046Z",
+  "raw_text": "{\"items\":[{\"name\":\"tomato soup\",\"usda_query\":\"soup tomato prepared with water\",\"grams\":250,\"calories\":100,\"protein_g\":4,\"carbs_g\":18,\"fat_g\":2}],\"total_calories\":100}",
+  "latency_ms": 13591,
+  "parsed": {
+    "items": [
+      {
+        "name": "tomato soup",
+        "usda_query": "soup tomato prepared with water",
+        "grams": 250,
+        "calories": 100,
+        "protein_g": 4,
+        "carbs_g": 18,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 100
+  }
+}

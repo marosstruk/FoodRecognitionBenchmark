@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563393244",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5e3c5ec7736f3546",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 896,
+    "reasoning_tokens": 608,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4148,
+    "ai_credits": 0.0570025
+  },
+  "timestamp": "2026-11-25T00:23:05.226Z",
+  "raw_text": "{\"items\":[{\"name\":\"radish sliced\",\"usda_query\":\"radishes raw\",\"grams\":60,\"calories\":10,\"protein_g\":0.4,\"carbs_g\":2.0,\"fat_g\":0.1},{\"name\":\"red onion sliced\",\"usda_query\":\"onions red raw\",\"grams\":40,\"calories\":16,\"protein_g\":0.4,\"carbs_g\":3.7,\"fat_g\":0.0},{\"name\":\"cucumber sliced with peel\",\"usda_query\":\"cucumber with peel raw\",\"grams\":40,\"calories\":6,\"protein_g\":0.3,\"carbs_g\":1.4,\"fat_g\":0.0},{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli raw\",\"grams\":70,\"calories\":24,\"protein_g\":2.0,\"carbs_g\":4.6,\"fat_g\":0.3}],\"total_calories\":56}",
+  "latency_ms": 5709,
+  "parsed": {
+    "items": [
+      {
+        "name": "radish sliced",
+        "usda_query": "radishes raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.4,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red onion sliced",
+        "usda_query": "onions red raw",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.7,
+        "fat_g": 0
+      },
+      {
+        "name": "cucumber sliced with peel",
+        "usda_query": "cucumber with peel raw",
+        "grams": 40,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli raw",
+        "grams": 70,
+        "calories": 24,
+        "protein_g": 2,
+        "carbs_g": 4.6,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 56
+  }
+}

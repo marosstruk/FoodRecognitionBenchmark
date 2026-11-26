@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558468401",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4b9f3086bf4fd33d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 440,
+    "reasoning_tokens": 335,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5351,
+    "ai_credits": 0.27555
+  },
+  "timestamp": "2026-11-25T00:11:55.518Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"avocado slices\",\n      \"usda_query\": \"avocado raw\",\n      \"grams\": 55,\n      \"calories\": 88,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 4.7,\n      \"fat_g\": 8.1\n    }\n  ],\n  \"total_calories\": 88\n}",
+  "latency_ms": 6508,
+  "parsed": {
+    "items": [
+      {
+        "name": "avocado slices",
+        "usda_query": "avocado raw",
+        "grams": 55,
+        "calories": 88,
+        "protein_g": 1.1,
+        "carbs_g": 4.7,
+        "fat_g": 8.1
+      }
+    ],
+    "total_calories": 88
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565711527",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4aef97e277c98070",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1025,
+    "reasoning_tokens": 660,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10318,
+    "ai_credits": 0.05873
+  },
+  "timestamp": "2026-11-25T00:31:57.638Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled cooked\",\n      \"grams\": 170,\n      \"calories\": 255,\n      \"protein_g\": 18.5,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 19\n    },\n    {\n      \"name\": \"Roasted Brussels sprouts\",\n      \"usda_query\": \"Brussels sprouts cooked\",\n      \"grams\": 130,\n      \"calories\": 55,\n      \"protein_g\": 4.4,\n      \"carbs_g\": 11.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 5,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"White rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 150,\n      \"calories\": 195,\n      \"protein_g\": 4,\n      \"carbs_g\": 42.3,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Fried onions\",\n      \"usda_query\": \"onions fried\",\n      \"grams\": 12,\n      \"calories\": 60,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 4.5,\n      \"fat_g\": 4.5\n    }\n  ],\n  \"total_calories\": 610\n}",
+  "latency_ms": 11199,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled cooked",
+        "grams": 170,
+        "calories": 255,
+        "protein_g": 18.5,
+        "carbs_g": 2.5,
+        "fat_g": 19
+      },
+      {
+        "name": "Roasted Brussels sprouts",
+        "usda_query": "Brussels sprouts cooked",
+        "grams": 130,
+        "calories": 55,
+        "protein_g": 4.4,
+        "carbs_g": 11.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "White rice",
+        "usda_query": "rice white cooked",
+        "grams": 150,
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 42.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Fried onions",
+        "usda_query": "onions fried",
+        "grams": 12,
+        "calories": 60,
+        "protein_g": 0.7,
+        "carbs_g": 4.5,
+        "fat_g": 4.5
+      }
+    ],
+    "total_calories": 610
+  }
+}

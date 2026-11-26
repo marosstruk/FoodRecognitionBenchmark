@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573579635",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea0a23147d8e1729",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 926,
+    "reasoning_tokens": 653,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7700,
+    "ai_credits": 0.4578
+  },
+  "timestamp": "2026-11-25T00:08:54.355Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"toasted white bread\",\n      \"usda_query\": \"white bread toasted\",\n      \"grams\": 20,\n      \"calories\": 53,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 10.0,\n      \"fat_g\": 0.7\n    },\n    {\n      \"name\": \"cream cheese spread\",\n      \"usda_query\": \"cream cheese\",\n      \"grams\": 15,\n      \"calories\": 51,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 5.1\n    },\n    {\n      \"name\": \"fruit jam\",\n      \"usda_query\": \"fruit jam or preserves\",\n      \"grams\": 12,\n      \"calories\": 30,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 7.5,\n      \"fat_g\": 0.0\n    }\n  ],\n  \"total_calories\": 134\n}",
+  "latency_ms": 8830,
+  "parsed": {
+    "items": [
+      {
+        "name": "toasted white bread",
+        "usda_query": "white bread toasted",
+        "grams": 20,
+        "calories": 53,
+        "protein_g": 1.8,
+        "carbs_g": 10,
+        "fat_g": 0.7
+      },
+      {
+        "name": "cream cheese spread",
+        "usda_query": "cream cheese",
+        "grams": 15,
+        "calories": 51,
+        "protein_g": 0.9,
+        "carbs_g": 0.8,
+        "fat_g": 5.1
+      },
+      {
+        "name": "fruit jam",
+        "usda_query": "fruit jam or preserves",
+        "grams": 12,
+        "calories": 30,
+        "protein_g": 0.1,
+        "carbs_g": 7.5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 134
+  }
+}

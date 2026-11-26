@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640227",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e20f95e7348f2c77",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 653,
+    "reasoning_tokens": 506,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7844,
+    "ai_credits": 0.355425
+  },
+  "timestamp": "2026-11-25T00:39:44.679Z",
+  "raw_text": "{\"items\": [{\"name\": \"pepperoni pizza\", \"usda_query\": \"pepperoni pizza\", \"grams\": 130, \"calories\": 360, \"protein_g\": 15.0, \"carbs_g\": 42.0, \"fat_g\": 15.0}, {\"name\": \"sliced bell peppers\", \"usda_query\": \"peppers sweet raw\", \"grams\": 50, \"calories\": 15, \"protein_g\": 0.5, \"carbs_g\": 3.0, \"fat_g\": 0.1}], \"total_calories\": 375}",
+  "latency_ms": 8989,
+  "parsed": {
+    "items": [
+      {
+        "name": "pepperoni pizza",
+        "usda_query": "pepperoni pizza",
+        "grams": 130,
+        "calories": 360,
+        "protein_g": 15,
+        "carbs_g": 42,
+        "fat_g": 15
+      },
+      {
+        "name": "sliced bell peppers",
+        "usda_query": "peppers sweet raw",
+        "grams": 50,
+        "calories": 15,
+        "protein_g": 0.5,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 375
+  }
+}

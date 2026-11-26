@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565203094",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "616f29cd79d47bc3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 735,
+    "reasoning_tokens": 430,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7875,
+    "ai_credits": 0.04423
+  },
+  "timestamp": "2026-11-25T00:25:11.195Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"vegetable pizza slice\",\n      \"usda_query\": \"cheese pizza with mushrooms and vegetables\",\n      \"grams\": 105,\n      \"calories\": 280,\n      \"protein_g\": 12,\n      \"carbs_g\": 34,\n      \"fat_g\": 11\n    },\n    {\n      \"name\": \"stir-fried chicken\",\n      \"usda_query\": \"chicken breast cooked stir fried\",\n      \"grams\": 180,\n      \"calories\": 340,\n      \"protein_g\": 42,\n      \"carbs_g\": 9,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"stir-fried vegetables\",\n      \"usda_query\": \"mixed vegetables cooked zucchini broccoli and bell pepper\",\n      \"grams\": 140,\n      \"calories\": 80,\n      \"protein_g\": 4,\n      \"carbs_g\": 14,\n      \"fat_g\": 2\n    },\n    {\n      \"name\": \"stir-fry sauce and oil\",\n      \"usda_query\": \"stir fry sauce with cooking oil\",\n      \"grams\": 25,\n      \"calories\": 90,\n      \"protein_g\": 1,\n      \"carbs_g\": 8,\n      \"fat_g\": 6\n    }\n  ],\n  \"total_calories\": 790\n}",
+  "latency_ms": 8695,
+  "parsed": {
+    "items": [
+      {
+        "name": "vegetable pizza slice",
+        "usda_query": "cheese pizza with mushrooms and vegetables",
+        "grams": 105,
+        "calories": 280,
+        "protein_g": 12,
+        "carbs_g": 34,
+        "fat_g": 11
+      },
+      {
+        "name": "stir-fried chicken",
+        "usda_query": "chicken breast cooked stir fried",
+        "grams": 180,
+        "calories": 340,
+        "protein_g": 42,
+        "carbs_g": 9,
+        "fat_g": 15
+      },
+      {
+        "name": "stir-fried vegetables",
+        "usda_query": "mixed vegetables cooked zucchini broccoli and bell pepper",
+        "grams": 140,
+        "calories": 80,
+        "protein_g": 4,
+        "carbs_g": 14,
+        "fat_g": 2
+      },
+      {
+        "name": "stir-fry sauce and oil",
+        "usda_query": "stir fry sauce with cooking oil",
+        "grams": 25,
+        "calories": 90,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 790
+  }
+}

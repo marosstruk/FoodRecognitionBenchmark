@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563564797",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6a5089fe0284d193",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1334,
+    "reasoning_tokens": 965,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10534,
+    "ai_credits": 0.6108
+  },
+  "timestamp": "2026-11-25T00:32:00.941Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"baked fish fillet with lentils\",\n      \"usda_query\": \"baked fish fillet\",\n      \"grams\": 85,\n      \"calories\": 140,\n      \"protein_g\": 17.0,\n      \"carbs_g\": 3.0,\n      \"fat_g\": 7.0\n    },\n    {\n      \"name\": \"shepherd's pie\",\n      \"usda_query\": \"shepherd's pie\",\n      \"grams\": 80,\n      \"calories\": 125,\n      \"protein_g\": 6.5,\n      \"carbs_g\": 10.0,\n      \"fat_g\": 6.5\n    },\n    {\n      \"name\": \"kale salad with dressing\",\n      \"usda_query\": \"kale salad\",\n      \"grams\": 75,\n      \"calories\": 95,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 7.0\n    },\n    {\n      \"name\": \"sweet corn on the cob\",\n      \"usda_query\": \"boiled sweet corn kernels\",\n      \"grams\": 50,\n      \"calories\": 48,\n      \"protein_g\": 1.7,\n      \"carbs_g\": 10.5,\n      \"fat_g\": 0.7\n    }\n  ],\n  \"total_calories\": 408\n}",
+  "latency_ms": 11414,
+  "parsed": {
+    "items": [
+      {
+        "name": "baked fish fillet with lentils",
+        "usda_query": "baked fish fillet",
+        "grams": 85,
+        "calories": 140,
+        "protein_g": 17,
+        "carbs_g": 3,
+        "fat_g": 7
+      },
+      {
+        "name": "shepherd's pie",
+        "usda_query": "shepherd's pie",
+        "grams": 80,
+        "calories": 125,
+        "protein_g": 6.5,
+        "carbs_g": 10,
+        "fat_g": 6.5
+      },
+      {
+        "name": "kale salad with dressing",
+        "usda_query": "kale salad",
+        "grams": 75,
+        "calories": 95,
+        "protein_g": 2.5,
+        "carbs_g": 5.5,
+        "fat_g": 7
+      },
+      {
+        "name": "sweet corn on the cob",
+        "usda_query": "boiled sweet corn kernels",
+        "grams": 50,
+        "calories": 48,
+        "protein_g": 1.7,
+        "carbs_g": 10.5,
+        "fat_g": 0.7
+      }
+    ],
+    "total_calories": 408
+  }
+}

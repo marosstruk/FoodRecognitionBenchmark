@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567106620",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a04f8997b93b5aaf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1320,
+    "reasoning_tokens": 990,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15446,
+    "ai_credits": 0.03674
+  },
+  "timestamp": "2026-11-25T00:23:46.146Z",
+  "raw_text": "{\"items\":[{\"name\":\"red bell pepper\",\"usda_query\":\"pepper sweet red cooked\",\"grams\":70,\"calories\":31,\"protein_g\":1.0,\"carbs_g\":6.9,\"fat_g\":0.3},{\"name\":\"yellow bell pepper\",\"usda_query\":\"pepper sweet yellow cooked\",\"grams\":40,\"calories\":13,\"protein_g\":0.4,\"carbs_g\":3.1,\"fat_g\":0.2},{\"name\":\"cooked zucchini\",\"usda_query\":\"zucchini cooked\",\"grams\":60,\"calories\":12,\"protein_g\":0.8,\"carbs_g\":2.5,\"fat_g\":0.2},{\"name\":\"cooked eggplant\",\"usda_query\":\"eggplant cooked\",\"grams\":60,\"calories\":20,\"protein_g\":0.8,\"carbs_g\":4.8,\"fat_g\":0.2},{\"name\":\"onion\",\"usda_query\":\"onion cooked\",\"grams\":50,\"calories\":20,\"protein_g\":0.5,\"carbs_g\":4.7,\"fat_g\":0.1},{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce\",\"grams\":120,\"calories\":48,\"protein_g\":2.0,\"carbs_g\":10.1,\"fat_g\":0.2},{\"name\":\"cooking oil\",\"usda_query\":\"oil vegetable\",\"grams\":10,\"calories\":88,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":10}],\"total_calories\":232}",
+  "latency_ms": 16287,
+  "parsed": {
+    "items": [
+      {
+        "name": "red bell pepper",
+        "usda_query": "pepper sweet red cooked",
+        "grams": 70,
+        "calories": 31,
+        "protein_g": 1,
+        "carbs_g": 6.9,
+        "fat_g": 0.3
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "pepper sweet yellow cooked",
+        "grams": 40,
+        "calories": 13,
+        "protein_g": 0.4,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooked zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 0.8,
+        "carbs_g": 2.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooked eggplant",
+        "usda_query": "eggplant cooked",
+        "grams": 60,
+        "calories": 20,
+        "protein_g": 0.8,
+        "carbs_g": 4.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "onion",
+        "usda_query": "onion cooked",
+        "grams": 50,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 4.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce",
+        "grams": 120,
+        "calories": 48,
+        "protein_g": 2,
+        "carbs_g": 10.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "oil vegetable",
+        "grams": 10,
+        "calories": 88,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 232
+  }
+}

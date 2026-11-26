@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562602627",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "903bbf2fa4586a47",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1144,
+    "reasoning_tokens": 838,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5572,
+    "ai_credits": 0.0694025
+  },
+  "timestamp": "2026-11-25T00:32:46.935Z",
+  "raw_text": "{\"items\":[{\"name\":\"fried shredded potatoes\",\"usda_query\":\"potatoes hash browns home fried\",\"grams\":130,\"calories\":312,\"protein_g\":3.9,\"carbs_g\":39,\"fat_g\":15.6},{\"name\":\"smoked sausage\",\"usda_query\":\"pork sausage smoked link cooked\",\"grams\":140,\"calories\":420,\"protein_g\":16.8,\"carbs_g\":2.8,\"fat_g\":37.8},{\"name\":\"sweet corn kernels\",\"usda_query\":\"corn sweet yellow cooked boiled drained\",\"grams\":10,\"calories\":9,\"protein_g\":0.3,\"carbs_g\":2,\"fat_g\":0.1},{\"name\":\"mushroom\",\"usda_query\":\"mushrooms white raw\",\"grams\":15,\"calories\":3,\"protein_g\":0.4,\"carbs_g\":0.5,\"fat_g\":0.0}],\"total_calories\":744}",
+  "latency_ms": 6676,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried shredded potatoes",
+        "usda_query": "potatoes hash browns home fried",
+        "grams": 130,
+        "calories": 312,
+        "protein_g": 3.9,
+        "carbs_g": 39,
+        "fat_g": 15.6
+      },
+      {
+        "name": "smoked sausage",
+        "usda_query": "pork sausage smoked link cooked",
+        "grams": 140,
+        "calories": 420,
+        "protein_g": 16.8,
+        "carbs_g": 2.8,
+        "fat_g": 37.8
+      },
+      {
+        "name": "sweet corn kernels",
+        "usda_query": "corn sweet yellow cooked boiled drained",
+        "grams": 10,
+        "calories": 9,
+        "protein_g": 0.3,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "mushroom",
+        "usda_query": "mushrooms white raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.4,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 744
+  }
+}

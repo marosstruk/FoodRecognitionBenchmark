@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565711498",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "471a2b9eb949eb35",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 961,
+    "reasoning_tokens": 862,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11437,
+    "ai_credits": 0.027765
+  },
+  "timestamp": "2026-11-25T00:34:47.864Z",
+  "raw_text": "{\"items\":[{\"name\":\"fried chicken pieces\",\"usda_query\":\"chicken fried breaded\",\"grams\":120,\"calories\":312,\"protein_g\":20,\"carbs_g\":16,\"fat_g\":18},{\"name\":\"french fries\",\"usda_query\":\"fries french fried potato\",\"grams\":160,\"calories\":499,\"protein_g\":6,\"carbs_g\":63,\"fat_g\":24}],\"total_calories\":811}",
+  "latency_ms": 12559,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried chicken pieces",
+        "usda_query": "chicken fried breaded",
+        "grams": 120,
+        "calories": 312,
+        "protein_g": 20,
+        "carbs_g": 16,
+        "fat_g": 18
+      },
+      {
+        "name": "french fries",
+        "usda_query": "fries french fried potato",
+        "grams": 160,
+        "calories": 499,
+        "protein_g": 6,
+        "carbs_g": 63,
+        "fat_g": 24
+      }
+    ],
+    "total_calories": 811
+  }
+}

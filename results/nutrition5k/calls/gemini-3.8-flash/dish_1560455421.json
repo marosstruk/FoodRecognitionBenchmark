@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455421",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd6182672e759b1e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1210,
+    "reasoning_tokens": 842,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 12633,
+    "ai_credits": 0.5643
+  },
+  "timestamp": "2026-11-25T00:37:53.929Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled salmon fillet\",\n      \"usda_query\": \"salmon cooked dry heat\",\n      \"grams\": 85,\n      \"calories\": 175,\n      \"protein_g\": 19.2,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"corn on the cob\",\n      \"usda_query\": \"corn sweet yellow cooked boiled\",\n      \"grams\": 45,\n      \"calories\": 43,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 9.5,\n      \"fat_g\": 0.7\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce mixed greens raw\",\n      \"grams\": 60,\n      \"calories\": 12,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette commercial\",\n      \"grams\": 14,\n      \"calories\": 50,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 4.9\n    }\n  ],\n  \"total_calories\": 280\n}",
+  "latency_ms": 13743,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled salmon fillet",
+        "usda_query": "salmon cooked dry heat",
+        "grams": 85,
+        "calories": 175,
+        "protein_g": 19.2,
+        "carbs_g": 0,
+        "fat_g": 10.5
+      },
+      {
+        "name": "corn on the cob",
+        "usda_query": "corn sweet yellow cooked boiled",
+        "grams": 45,
+        "calories": 43,
+        "protein_g": 1.5,
+        "carbs_g": 9.5,
+        "fat_g": 0.7
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 0.9,
+        "carbs_g": 2.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette commercial",
+        "grams": 14,
+        "calories": 50,
+        "protein_g": 0.1,
+        "carbs_g": 1.5,
+        "fat_g": 4.9
+      }
+    ],
+    "total_calories": 280
+  }
+}

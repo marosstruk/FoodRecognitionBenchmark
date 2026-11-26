@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565726949",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1d134baf462dbc2d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1252,
+    "reasoning_tokens": 842,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11180,
+    "ai_credits": 0.58005
+  },
+  "timestamp": "2026-11-25T00:12:05.633Z",
+  "raw_text": "{\"items\": [{\"name\": \"roasted pork tenderloin\", \"usda_query\": \"pork tenderloin roasted\", \"grams\": 130, \"calories\": 190, \"protein_g\": 34.0, \"carbs_g\": 0.0, \"fat_g\": 5.0}, {\"name\": \"roasted potatoes\", \"usda_query\": \"potatoes roasted with oil\", \"grams\": 60, \"calories\": 70, \"protein_g\": 1.5, \"carbs_g\": 11.5, \"fat_g\": 2.0}, {\"name\": \"roasted summer squash and zucchini\", \"usda_query\": \"summer squash cooked with oil\", \"grams\": 75, \"calories\": 30, \"protein_g\": 1.0, \"carbs_g\": 3.5, \"fat_g\": 1.5}, {\"name\": \"cooked broccoli\", \"usda_query\": \"broccoli cooked\", \"grams\": 60, \"calories\": 21, \"protein_g\": 1.5, \"carbs_g\": 4.0, \"fat_g\": 0.3}, {\"name\": \"mixed salad greens\", \"usda_query\": \"arugula raw\", \"grams\": 40, \"calories\": 10, \"protein_g\": 1.0, \"carbs_g\": 1.5, \"fat_g\": 0.2}, {\"name\": \"vinaigrette dressing\", \"usda_query\": \"salad dressing vinaigrette\", \"grams\": 10, \"calories\": 45, \"protein_g\": 0.0, \"carbs_g\": 0.5, \"fat_g\": 5.0}], \"total_calories\": 366}",
+  "latency_ms": 12078,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted pork tenderloin",
+        "usda_query": "pork tenderloin roasted",
+        "grams": 130,
+        "calories": 190,
+        "protein_g": 34,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 60,
+        "calories": 70,
+        "protein_g": 1.5,
+        "carbs_g": 11.5,
+        "fat_g": 2
+      },
+      {
+        "name": "roasted summer squash and zucchini",
+        "usda_query": "summer squash cooked with oil",
+        "grams": 75,
+        "calories": 30,
+        "protein_g": 1,
+        "carbs_g": 3.5,
+        "fat_g": 1.5
+      },
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 1.5,
+        "carbs_g": 4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "arugula raw",
+        "grams": 40,
+        "calories": 10,
+        "protein_g": 1,
+        "carbs_g": 1.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 10,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 366
+  }
+}

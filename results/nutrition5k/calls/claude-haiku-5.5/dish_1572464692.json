@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572464692",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b44e7b2e288cef75",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 343,
+    "reasoning_tokens": 256,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3105,
+    "ai_credits": 0.0293525
+  },
+  "timestamp": "2026-11-25T00:28:22.359Z",
+  "raw_text": "{\"items\":[{\"name\":\"cornbread\",\"usda_query\":\"cornbread prepared from home recipe\",\"grams\":30,\"calories\":101,\"protein_g\":2.5,\"carbs_g\":15.5,\"fat_g\":3.6}],\"total_calories\":101}",
+  "latency_ms": 4002,
+  "parsed": {
+    "items": [
+      {
+        "name": "cornbread",
+        "usda_query": "cornbread prepared from home recipe",
+        "grams": 30,
+        "calories": 101,
+        "protein_g": 2.5,
+        "carbs_g": 15.5,
+        "fat_g": 3.6
+      }
+    ],
+    "total_calories": 101
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559838214",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5b5bfcd05e7e0f20",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 763,
+    "reasoning_tokens": 702,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10024,
+    "ai_credits": 0.022815
+  },
+  "timestamp": "2026-11-25T00:37:25.496Z",
+  "raw_text": "{\"items\":[{\"name\":\"tomato sauce\",\"usda_query\":\"ketchup\",\"grams\":25,\"calories\":20,\"protein_g\":0.4,\"carbs_g\":5.2,\"fat_g\":0.1}],\"total_calories\":20}",
+  "latency_ms": 10886,
+  "parsed": {
+    "items": [
+      {
+        "name": "tomato sauce",
+        "usda_query": "ketchup",
+        "grams": 25,
+        "calories": 20,
+        "protein_g": 0.4,
+        "carbs_g": 5.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 20
+  }
+}

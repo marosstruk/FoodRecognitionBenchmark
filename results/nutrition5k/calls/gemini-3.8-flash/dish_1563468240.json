@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563468240",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8330fb105616a051",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 573,
+    "reasoning_tokens": 388,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7397,
+    "ai_credits": 0.325425
+  },
+  "timestamp": "2026-11-25T00:34:37.481Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"watermelon cubes\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 90,\n      \"calories\": 27,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 6.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"pineapple pieces\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 85,\n      \"calories\": 43,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 11.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 70\n}",
+  "latency_ms": 8388,
+  "parsed": {
+    "items": [
+      {
+        "name": "watermelon cubes",
+        "usda_query": "watermelon raw",
+        "grams": 90,
+        "calories": 27,
+        "protein_g": 0.5,
+        "carbs_g": 6.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "pineapple pieces",
+        "usda_query": "pineapple raw",
+        "grams": 85,
+        "calories": 43,
+        "protein_g": 0.5,
+        "carbs_g": 11.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 70
+  }
+}

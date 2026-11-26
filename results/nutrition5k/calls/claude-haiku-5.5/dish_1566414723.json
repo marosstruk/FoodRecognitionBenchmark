@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414723",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "382eab913bf0f3cb",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1308,
+    "reasoning_tokens": 884,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5934,
+    "ai_credits": 0.0776025
+  },
+  "timestamp": "2026-11-25T00:18:11.824Z",
+  "raw_text": "{\"items\":[{\"name\":\"chicken breast cubes\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":120,\"calories\":198,\"protein_g\":37.2,\"carbs_g\":0,\"fat_g\":4.3},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted with oil\",\"grams\":150,\"calories\":180,\"protein_g\":3,\"carbs_g\":28,\"fat_g\":6},{\"name\":\"creamy shredded chicken\",\"usda_query\":\"chicken creamy sauce cooked\",\"grams\":150,\"calories\":245,\"protein_g\":22,\"carbs_g\":5,\"fat_g\":15},{\"name\":\"cooked leafy greens\",\"usda_query\":\"kale cooked boiled drained\",\"grams\":40,\"calories\":15,\"protein_g\":1.2,\"carbs_g\":2.5,\"fat_g\":0.2},{\"name\":\"breaded fried coating\",\"usda_query\":\"chicken breaded fried\",\"grams\":60,\"calories\":180,\"protein_g\":14,\"carbs_g\":8,\"fat_g\":10},{\"name\":\"fresh parsley\",\"usda_query\":\"parsley fresh\",\"grams\":5,\"calories\":2,\"protein_g\":0.2,\"carbs_g\":0.3,\"fat_g\":0},\"total_calories\":820}",
+  "latency_ms": 7054,
+  "error": "Expected ',' or ']' after array element in JSON at position 836 (line 1 column 837)"
+}

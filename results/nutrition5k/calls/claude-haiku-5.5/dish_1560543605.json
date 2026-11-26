@@ -1,0 +1,108 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560543605",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3d1e8956591c26cb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1992,
+    "reasoning_tokens": 1351,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 9233,
+    "ai_credits": 0.1118025
+  },
+  "timestamp": "2026-11-25T00:28:05.325Z",
+  "raw_text": "{\"items\":[{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce romaine raw\",\"grams\":60,\"calories\":10,\"protein_g\":0.7,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"Caesar dressing\",\"usda_query\":\"salad dressing caesar regular\",\"grams\":30,\"calories\":140,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":14},{\"name\":\"croutons\",\"usda_query\":\"croutons plain\",\"grams\":15,\"calories\":60,\"protein_g\":2,\"carbs_g\":10,\"fat_g\":2},{\"name\":\"brown rice\",\"usda_query\":\"rice brown long-grain cooked\",\"grams\":120,\"calories\":148,\"protein_g\":3.1,\"carbs_g\":30.8,\"fat_g\":1},{\"name\":\"quinoa with spinach\",\"usda_query\":\"quinoa cooked spinach\",\"grams\":100,\"calories\":125,\"protein_g\":4.5,\"carbs_g\":21,\"fat_g\":2},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe cherry raw\",\"grams\":80,\"calories\":14,\"protein_g\":0.7,\"carbs_g\":3.1,\"fat_g\":0.2},{\"name\":\"black beans\",\"usda_query\":\"black beans cooked boiled\",\"grams\":40,\"calories\":53,\"protein_g\":3.2,\"carbs_g\":9.5,\"fat_g\":0.2},{\"name\":\"glazed roasted chicken drumstick with skin\",\"usda_query\":\"chicken drumstick meat and skin roasted\",\"grams\":180,\"calories\":387,\"protein_g\":31,\"carbs_g\":5,\"fat_g\":27},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":30,\"calories\":10,\"protein_g\":0.8,\"carbs_g\":2,\"fat_g\":0.1}],\"total_calories\":947}",
+  "latency_ms": 10057,
+  "parsed": {
+    "items": [
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Caesar dressing",
+        "usda_query": "salad dressing caesar regular",
+        "grams": 30,
+        "calories": 140,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 14
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons plain",
+        "grams": 15,
+        "calories": 60,
+        "protein_g": 2,
+        "carbs_g": 10,
+        "fat_g": 2
+      },
+      {
+        "name": "brown rice",
+        "usda_query": "rice brown long-grain cooked",
+        "grams": 120,
+        "calories": 148,
+        "protein_g": 3.1,
+        "carbs_g": 30.8,
+        "fat_g": 1
+      },
+      {
+        "name": "quinoa with spinach",
+        "usda_query": "quinoa cooked spinach",
+        "grams": 100,
+        "calories": 125,
+        "protein_g": 4.5,
+        "carbs_g": 21,
+        "fat_g": 2
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe cherry raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 0.7,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "black beans",
+        "usda_query": "black beans cooked boiled",
+        "grams": 40,
+        "calories": 53,
+        "protein_g": 3.2,
+        "carbs_g": 9.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "glazed roasted chicken drumstick with skin",
+        "usda_query": "chicken drumstick meat and skin roasted",
+        "grams": 180,
+        "calories": 387,
+        "protein_g": 31,
+        "carbs_g": 5,
+        "fat_g": 27
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 30,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 947
+  }
+}

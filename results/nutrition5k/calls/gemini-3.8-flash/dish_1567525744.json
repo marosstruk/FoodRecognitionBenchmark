@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567525744",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3616a6c914f0a503",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1051,
+    "reasoning_tokens": 674,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9753,
+    "ai_credits": 0.504675
+  },
+  "timestamp": "2026-11-25T00:38:03.359Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 110,\n      \"calories\": 165,\n      \"protein_g\": 11.0,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 12.5\n    },\n    {\n      \"name\": \"hash browns\",\n      \"usda_query\": \"potatoes hash brown pan-fried\",\n      \"grams\": 80,\n      \"calories\": 150,\n      \"protein_g\": 2.0,\n      \"carbs_g\": 18.0,\n      \"fat_g\": 8.0\n    },\n    {\n      \"name\": \"crispy bacon\",\n      \"usda_query\": \"pork bacon cooked pan-fried\",\n      \"grams\": 15,\n      \"calories\": 65,\n      \"protein_g\": 4.5,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 5.2\n    },\n    {\n      \"name\": \"spinach salad with light dressing\",\n      \"usda_query\": \"spinach salad with oil and vinegar\",\n      \"grams\": 45,\n      \"calories\": 45,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 4.0\n    }\n  ],\n  \"total_calories\": 425\n}",
+  "latency_ms": 10883,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 110,
+        "calories": 165,
+        "protein_g": 11,
+        "carbs_g": 1.5,
+        "fat_g": 12.5
+      },
+      {
+        "name": "hash browns",
+        "usda_query": "potatoes hash brown pan-fried",
+        "grams": 80,
+        "calories": 150,
+        "protein_g": 2,
+        "carbs_g": 18,
+        "fat_g": 8
+      },
+      {
+        "name": "crispy bacon",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 15,
+        "calories": 65,
+        "protein_g": 4.5,
+        "carbs_g": 0.2,
+        "fat_g": 5.2
+      },
+      {
+        "name": "spinach salad with light dressing",
+        "usda_query": "spinach salad with oil and vinegar",
+        "grams": 45,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 425
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574728191",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3d0ad85d5f155da3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 768,
+    "reasoning_tokens": 615,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4466,
+    "ai_credits": 0.0506025
+  },
+  "timestamp": "2026-11-25T00:26:58.859Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza slice\",\"usda_query\":\"pizza cheese regular crust\",\"grams\":120,\"calories\":320,\"protein_g\":13,\"carbs_g\":36,\"fat_g\":13},{\"name\":\"pizza slice with meat topping\",\"usda_query\":\"pizza meat topping regular crust\",\"grams\":130,\"calories\":340,\"protein_g\":15,\"carbs_g\":38,\"fat_g\":15}],\"total_calories\":660}",
+  "latency_ms": 5340,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza slice",
+        "usda_query": "pizza cheese regular crust",
+        "grams": 120,
+        "calories": 320,
+        "protein_g": 13,
+        "carbs_g": 36,
+        "fat_g": 13
+      },
+      {
+        "name": "pizza slice with meat topping",
+        "usda_query": "pizza meat topping regular crust",
+        "grams": 130,
+        "calories": 340,
+        "protein_g": 15,
+        "carbs_g": 38,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 660
+  }
+}

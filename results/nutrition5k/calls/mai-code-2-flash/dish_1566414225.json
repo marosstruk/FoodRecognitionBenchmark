@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414225",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cffa6e4c06b403d2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1265,
+    "reasoning_tokens": 920,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12969,
+    "ai_credits": 0.035365
+  },
+  "timestamp": "2026-11-25T00:30:09.501Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled steak\",\n      \"usda_query\": \"beef steak grilled\",\n      \"grams\": 100,\n      \"calories\": 250,\n      \"protein_g\": 26,\n      \"carbs_g\": 0,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"rice pilaf\",\n      \"usda_query\": \"rice pilaf cooked\",\n      \"grams\": 160,\n      \"calories\": 208,\n      \"protein_g\": 5,\n      \"carbs_g\": 43,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"diced vegetables\",\n      \"usda_query\": \"mixed vegetables cooked\",\n      \"grams\": 60,\n      \"calories\": 35,\n      \"protein_g\": 2,\n      \"carbs_g\": 7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"bell peppers red cooked\",\n      \"grams\": 25,\n      \"calories\": 12,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"olive oil\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 5,\n      \"calories\": 44,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 549\n}",
+  "latency_ms": 14050,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled steak",
+        "usda_query": "beef steak grilled",
+        "grams": 100,
+        "calories": 250,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 15
+      },
+      {
+        "name": "rice pilaf",
+        "usda_query": "rice pilaf cooked",
+        "grams": 160,
+        "calories": 208,
+        "protein_g": 5,
+        "carbs_g": 43,
+        "fat_g": 3
+      },
+      {
+        "name": "diced vegetables",
+        "usda_query": "mixed vegetables cooked",
+        "grams": 60,
+        "calories": 35,
+        "protein_g": 2,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell peppers red cooked",
+        "grams": 25,
+        "calories": 12,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "olive oil",
+        "usda_query": "olive oil",
+        "grams": 5,
+        "calories": 44,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 549
+  }
+}

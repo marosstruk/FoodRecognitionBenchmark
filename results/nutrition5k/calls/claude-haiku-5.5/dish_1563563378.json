@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563563378",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c5789302e753b64e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 830,
+    "reasoning_tokens": 413,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3708,
+    "ai_credits": 0.0537025
+  },
+  "timestamp": "2026-11-25T00:18:48.883Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat only cooked roasted\",\"grams\":80,\"calories\":132,\"protein_g\":25,\"carbs_g\":0,\"fat_g\":3},{\"name\":\"red onion\",\"usda_query\":\"onions raw\",\"grams\":50,\"calories\":20,\"protein_g\":0.5,\"carbs_g\":4.7,\"fat_g\":0.1},{\"name\":\"carrot\",\"usda_query\":\"carrots raw\",\"grams\":30,\"calories\":12,\"protein_g\":0.3,\"carbs_g\":2.9,\"fat_g\":0.1},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":40,\"calories\":8,\"protein_g\":0.4,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":15,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.6,\"fat_g\":0},{\"name\":\"cucumber\",\"usda_query\":\"cucumber with peel raw\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":175}",
+  "latency_ms": 5216,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 80,
+        "calories": 132,
+        "protein_g": 25,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw",
+        "grams": 50,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 4.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 175
+  }
+}

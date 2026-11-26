@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566849923",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6729c5a9ae692974",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 958,
+    "reasoning_tokens": 866,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11738,
+    "ai_credits": 0.02769
+  },
+  "timestamp": "2026-11-25T00:36:32.921Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"spaghetti with tomato sauce\",\n      \"usda_query\": \"spaghetti pasta tomato sauce\",\n      \"grams\": 550,\n      \"calories\": 770,\n      \"protein_g\": 25,\n      \"carbs_g\": 140,\n      \"fat_g\": 10\n    }\n  ],\n  \"total_calories\": 770\n}",
+  "latency_ms": 12836,
+  "parsed": {
+    "items": [
+      {
+        "name": "spaghetti with tomato sauce",
+        "usda_query": "spaghetti pasta tomato sauce",
+        "grams": 550,
+        "calories": 770,
+        "protein_g": 25,
+        "carbs_g": 140,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 770
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561404485",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "086b01ea13f135bd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1253,
+    "reasoning_tokens": 682,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5569,
+    "ai_credits": 0.0748525
+  },
+  "timestamp": "2026-11-25T00:17:07.957Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 150,\n      \"calories\": 160,\n      \"protein_g\": 3,\n      \"carbs_g\": 28,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"sliced beef\",\n      \"usda_query\": \"beef sirloin steak cooked broiled\",\n      \"grams\": 120,\n      \"calories\": 240,\n      \"protein_g\": 30,\n      \"carbs_g\": 0,\n      \"fat_g\": 13\n    },\n    {\n      \"name\": \"glazed carrots\",\n      \"usda_query\": \"carrots cooked boiled drained with butter or margarine\",\n      \"grams\": 120,\n      \"calories\": 100,\n      \"protein_g\": 1,\n      \"carbs_g\": 18,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"mixed salad leaves\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 100,\n      \"calories\": 25,\n      \"protein_g\": 2,\n      \"carbs_g\": 4,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"sautéed greens\",\n      \"usda_query\": \"spinach cooked boiled drained\",\n      \"grams\": 60,\n      \"calories\": 40,\n      \"protein_g\": 2,\n      \"carbs_g\": 4,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 573\n}",
+  "latency_ms": 6671,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 150,
+        "calories": 160,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 4
+      },
+      {
+        "name": "sliced beef",
+        "usda_query": "beef sirloin steak cooked broiled",
+        "grams": 120,
+        "calories": 240,
+        "protein_g": 30,
+        "carbs_g": 0,
+        "fat_g": 13
+      },
+      {
+        "name": "glazed carrots",
+        "usda_query": "carrots cooked boiled drained with butter or margarine",
+        "grams": 120,
+        "calories": 100,
+        "protein_g": 1,
+        "carbs_g": 18,
+        "fat_g": 3
+      },
+      {
+        "name": "mixed salad leaves",
+        "usda_query": "spinach raw",
+        "grams": 100,
+        "calories": 25,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0.5
+      },
+      {
+        "name": "sautéed greens",
+        "usda_query": "spinach cooked boiled drained",
+        "grams": 60,
+        "calories": 40,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 573
+  }
+}

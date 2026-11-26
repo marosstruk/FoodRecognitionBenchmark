@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367116",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "88f11fc29490022c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1080,
+    "reasoning_tokens": 667,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9170,
+    "ai_credits": 0.06148
+  },
+  "timestamp": "2026-11-25T00:23:56.448Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Roasted chicken\",\n      \"usda_query\": \"chicken roasted\",\n      \"grams\": 55,\n      \"calories\": 115,\n      \"protein_g\": 15,\n      \"carbs_g\": 0,\n      \"fat_g\": 6\n    },\n    {\n      \"name\": \"Cooked couscous\",\n      \"usda_query\": \"couscous cooked\",\n      \"grams\": 25,\n      \"calories\": 28,\n      \"protein_g\": 1,\n      \"carbs_g\": 6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cucumber\",\n      \"usda_query\": \"cucumber raw\",\n      \"grams\": 60,\n      \"calories\": 9,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 45,\n      \"calories\": 8,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Leafy greens\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 20,\n      \"calories\": 3,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Carrot\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 30,\n      \"calories\": 11,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 174\n}",
+  "latency_ms": 10296,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted chicken",
+        "usda_query": "chicken roasted",
+        "grams": 55,
+        "calories": 115,
+        "protein_g": 15,
+        "carbs_g": 0,
+        "fat_g": 6
+      },
+      {
+        "name": "Cooked couscous",
+        "usda_query": "couscous cooked",
+        "grams": 25,
+        "calories": 28,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "Cucumber",
+        "usda_query": "cucumber raw",
+        "grams": 60,
+        "calories": 9,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 45,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "Leafy greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 20,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "Carrot",
+        "usda_query": "carrots cooked",
+        "grams": 30,
+        "calories": 11,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 174
+  }
+}

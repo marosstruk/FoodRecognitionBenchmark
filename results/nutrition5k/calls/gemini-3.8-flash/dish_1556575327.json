@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1556575327",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "36b0e595afbc72c0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 915,
+    "reasoning_tokens": 640,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8676,
+    "ai_credits": 0.453675
+  },
+  "timestamp": "2026-11-25T00:26:58.057Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked Brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked\",\n      \"grams\": 75,\n      \"calories\": 40,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 6.5,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"kalamata olives\",\n      \"usda_query\": \"olives kalamata\",\n      \"grams\": 60,\n      \"calories\": 145,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 3.5,\n      \"fat_g\": 15.0\n    },\n    {\n      \"name\": \"sliced celery\",\n      \"usda_query\": \"celery raw\",\n      \"grams\": 35,\n      \"calories\": 5,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.0,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 190\n}",
+  "latency_ms": 9586,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked Brussels sprouts",
+        "usda_query": "brussels sprouts cooked",
+        "grams": 75,
+        "calories": 40,
+        "protein_g": 2.5,
+        "carbs_g": 6.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "kalamata olives",
+        "usda_query": "olives kalamata",
+        "grams": 60,
+        "calories": 145,
+        "protein_g": 1,
+        "carbs_g": 3.5,
+        "fat_g": 15
+      },
+      {
+        "name": "sliced celery",
+        "usda_query": "celery raw",
+        "grams": 35,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 190
+  }
+}

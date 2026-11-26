@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562687527",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0e15402942ca2b0d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1168,
+    "reasoning_tokens": 689,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5128,
+    "ai_credits": 0.0706025
+  },
+  "timestamp": "2026-11-25T00:18:36.082Z",
+  "raw_text": "{\"items\":[{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":17,\"calories\":3,\"protein_g\":0.2,\"carbs_g\":0.6,\"fat_g\":0.1},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":25,\"calories\":10,\"protein_g\":0.2,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"honeydew melon\",\"usda_query\":\"melons honeydew raw\",\"grams\":150,\"calories\":51,\"protein_g\":0.8,\"carbs_g\":13.2,\"fat_g\":0.2},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":85,\"calories\":27,\"protein_g\":0.6,\"carbs_g\":6.5,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":50,\"calories\":29,\"protein_g\":0.4,\"carbs_g\":7.2,\"fat_g\":0.2},{\"name\":\"granola piece\",\"usda_query\":\"granola homemade\",\"grams\":30,\"calories\":140,\"protein_g\":3,\"carbs_g\":20,\"fat_g\":6}],\"total_calories\":274}",
+  "latency_ms": 6258,
+  "parsed": {
+    "items": [
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 17,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.2,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "honeydew melon",
+        "usda_query": "melons honeydew raw",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 0.8,
+        "carbs_g": 13.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 85,
+        "calories": 27,
+        "protein_g": 0.6,
+        "carbs_g": 6.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 50,
+        "calories": 29,
+        "protein_g": 0.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "granola piece",
+        "usda_query": "granola homemade",
+        "grams": 30,
+        "calories": 140,
+        "protein_g": 3,
+        "carbs_g": 20,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 274
+  }
+}

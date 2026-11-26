@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563468327",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e710fec7c79dfcad",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1876,
+    "reasoning_tokens": 1430,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 17968,
+    "ai_credits": 0.05064
+  },
+  "timestamp": "2026-11-25T00:33:44.713Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"blackberries\",\n      \"usda_query\": \"blackberries raw\",\n      \"grams\": 45,\n      \"calories\": 19,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 4.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 80,\n      \"calories\": 26,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 6.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"watermelon\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 120,\n      \"calories\": 36,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 9.1,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cantaloupe\",\n      \"usda_query\": \"cantaloupe raw\",\n      \"grams\": 70,\n      \"calories\": 24,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 5.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 90,\n      \"calories\": 45,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 11.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cottage cheese\",\n      \"usda_query\": \"cottage cheese 2 percent\",\n      \"grams\": 70,\n      \"calories\": 57,\n      \"protein_g\": 7.8,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 3.0\n    }\n  ],\n  \"total_calories\": 207\n}",
+  "latency_ms": 19096,
+  "parsed": {
+    "items": [
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 45,
+        "calories": 19,
+        "protein_g": 0.6,
+        "carbs_g": 4.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 120,
+        "calories": 36,
+        "protein_g": 0.7,
+        "carbs_g": 9.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "cantaloupe raw",
+        "grams": 70,
+        "calories": 24,
+        "protein_g": 0.6,
+        "carbs_g": 5.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 90,
+        "calories": 45,
+        "protein_g": 0.5,
+        "carbs_g": 11.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cottage cheese",
+        "usda_query": "cottage cheese 2 percent",
+        "grams": 70,
+        "calories": 57,
+        "protein_g": 7.8,
+        "carbs_g": 2.4,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 207
+  }
+}

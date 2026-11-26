@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563563348",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a5afa399ff56ead9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1242,
+    "reasoning_tokens": 966,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11982,
+    "ai_credits": 0.5763
+  },
+  "timestamp": "2026-11-25T00:09:38.292Z",
+  "raw_text": "{\"items\": [{\"name\": \"diced cooked chicken breast\", \"usda_query\": \"chicken breast cooked roasted\", \"grams\": 65, \"calories\": 107, \"protein_g\": 20.2, \"carbs_g\": 0.0, \"fat_g\": 2.3}, {\"name\": \"shredded carrots\", \"usda_query\": \"carrots raw\", \"grams\": 45, \"calories\": 18, \"protein_g\": 0.4, \"carbs_g\": 4.3, \"fat_g\": 0.1}, {\"name\": \"sliced green bell pepper\", \"usda_query\": \"peppers sweet green raw\", \"grams\": 35, \"calories\": 7, \"protein_g\": 0.3, \"carbs_g\": 1.6, \"fat_g\": 0.1}, {\"name\": \"cherry tomato\", \"usda_query\": \"tomatoes cherry raw\", \"grams\": 15, \"calories\": 3, \"protein_g\": 0.1, \"carbs_g\": 0.6, \"fat_g\": 0.0}], \"total_calories\": 135}",
+  "latency_ms": 12844,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced cooked chicken breast",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 65,
+        "calories": 107,
+        "protein_g": 20.2,
+        "carbs_g": 0,
+        "fat_g": 2.3
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw",
+        "grams": 45,
+        "calories": 18,
+        "protein_g": 0.4,
+        "carbs_g": 4.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sliced green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 35,
+        "calories": 7,
+        "protein_g": 0.3,
+        "carbs_g": 1.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 135
+  }
+}

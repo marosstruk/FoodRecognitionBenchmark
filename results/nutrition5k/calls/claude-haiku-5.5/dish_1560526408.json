@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560526408",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "794cedb9bca90cf0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1311,
+    "reasoning_tokens": 941,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6720,
+    "ai_credits": 0.0777525
+  },
+  "timestamp": "2026-11-25T00:22:01.772Z",
+  "raw_text": "{\"items\":[{\"name\":\"red leaf lettuce\",\"usda_query\":\"lettuce red leaf raw\",\"grams\":40,\"calories\":7,\"protein_g\":0.5,\"carbs_g\":1.3,\"fat_g\":0.1},{\"name\":\"arugula\",\"usda_query\":\"arugula rocket raw\",\"grams\":20,\"calories\":5,\"protein_g\":0.5,\"carbs_g\":0.7,\"fat_g\":0.1},{\"name\":\"roasted beetroot\",\"usda_query\":\"beets cooked boiled drained without salt\",\"grams\":30,\"calories\":13,\"protein_g\":0.5,\"carbs_g\":3,\"fat_g\":0.1},{\"name\":\"oil and vinegar dressing\",\"usda_query\":\"salad dressing vinaigrette italian regular\",\"grams\":15,\"calories\":62,\"protein_g\":0.1,\"carbs_g\":2,\"fat_g\":6},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":87}",
+  "latency_ms": 7608,
+  "parsed": {
+    "items": [
+      {
+        "name": "red leaf lettuce",
+        "usda_query": "lettuce red leaf raw",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.5,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "arugula",
+        "usda_query": "arugula rocket raw",
+        "grams": 20,
+        "calories": 5,
+        "protein_g": 0.5,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted beetroot",
+        "usda_query": "beets cooked boiled drained without salt",
+        "grams": 30,
+        "calories": 13,
+        "protein_g": 0.5,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "oil and vinegar dressing",
+        "usda_query": "salad dressing vinaigrette italian regular",
+        "grams": 15,
+        "calories": 62,
+        "protein_g": 0.1,
+        "carbs_g": 2,
+        "fat_g": 6
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 87
+  }
+}

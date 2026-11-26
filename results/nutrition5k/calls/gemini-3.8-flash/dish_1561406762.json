@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561406762",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "75a72e3e5a2e3534",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 419,
+    "reasoning_tokens": 313,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5755,
+    "ai_credits": 0.267675
+  },
+  "timestamp": "2026-11-25T00:16:12.063Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted carrots\",\n      \"usda_query\": \"carrots cooked with oil\",\n      \"grams\": 70,\n      \"calories\": 38,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 1.4\n    }\n  ],\n  \"total_calories\": 38\n}",
+  "latency_ms": 6863,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted carrots",
+        "usda_query": "carrots cooked with oil",
+        "grams": 70,
+        "calories": 38,
+        "protein_g": 0.6,
+        "carbs_g": 5.8,
+        "fat_g": 1.4
+      }
+    ],
+    "total_calories": 38
+  }
+}

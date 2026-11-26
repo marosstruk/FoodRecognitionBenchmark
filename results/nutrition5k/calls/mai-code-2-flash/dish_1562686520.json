@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562686520",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ff5f5477a1b2230e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 711,
+    "reasoning_tokens": 554,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8588,
+    "ai_credits": 0.021515
+  },
+  "timestamp": "2026-11-25T00:28:56.618Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breakfast sausages\",\n      \"usda_query\": \"pork breakfast sausage cooked\",\n      \"grams\": 105,\n      \"calories\": 315,\n      \"protein_g\": 12,\n      \"carbs_g\": 4,\n      \"fat_g\": 27\n    },\n    {\n      \"name\": \"crispy fried potato pieces\",\n      \"usda_query\": \"potatoes fried\",\n      \"grams\": 100,\n      \"calories\": 312,\n      \"protein_g\": 3,\n      \"carbs_g\": 35,\n      \"fat_g\": 17\n    }\n  ],\n  \"total_calories\": 627\n}",
+  "latency_ms": 9759,
+  "parsed": {
+    "items": [
+      {
+        "name": "breakfast sausages",
+        "usda_query": "pork breakfast sausage cooked",
+        "grams": 105,
+        "calories": 315,
+        "protein_g": 12,
+        "carbs_g": 4,
+        "fat_g": 27
+      },
+      {
+        "name": "crispy fried potato pieces",
+        "usda_query": "potatoes fried",
+        "grams": 100,
+        "calories": 312,
+        "protein_g": 3,
+        "carbs_g": 35,
+        "fat_g": 17
+      }
+    ],
+    "total_calories": 627
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565728684",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "531666e3c274cb2f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1846,
+    "reasoning_tokens": 1095,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8005,
+    "ai_credits": 0.1045025
+  },
+  "timestamp": "2026-11-25T00:23:18.448Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":12,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"pineapple chunks\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":80,\"calories\":40,\"protein_g\":0.4,\"carbs_g\":10.8,\"fat_g\":0.1},{\"name\":\"broccoli florets steamed\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":80,\"calories\":28,\"protein_g\":2.3,\"carbs_g\":5.6,\"fat_g\":0.3},{\"name\":\"grilled zucchini\",\"usda_query\":\"squash summer zucchini includes skin cooked grilled\",\"grams\":60,\"calories\":10,\"protein_g\":0.7,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"grilled yellow squash\",\"usda_query\":\"squash summer crookneck straightneck cooked grilled\",\"grams\":60,\"calories\":10,\"protein_g\":0.7,\"carbs_g\":2.1,\"fat_g\":0.2},{\"name\":\"roasted potato\",\"usda_query\":\"potatoes roasted flesh and skin cooked with oil\",\"grams\":60,\"calories\":70,\"protein_g\":1.5,\"carbs_g\":14,\"fat_g\":1.2},{\"name\":\"roasted chicken drumstick\",\"usda_query\":\"chicken drumstick meat and skin roasted\",\"grams\":90,\"calories\":170,\"protein_g\":21,\"carbs_g\":0,\"fat_g\":10},{\"name\":\"roasted chicken thigh\",\"usda_query\":\"chicken thigh meat and skin roasted\",\"grams\":80,\"calories\":160,\"protein_g\":18,\"carbs_g\":0.5,\"fat_g\":10},{\"name\":\"cheese pizza slice\",\"usda_query\":\"pizza cheese regular crust\",\"grams\":100,\"calories\":270,\"protein_g\":11,\"carbs_g\":33,\"fat_g\":10},{\"name\":\"roasted meat piece\",\"usda_query\":\"chicken thigh meat only roasted\",\"grams\":40,\"calories\":80,\"protein_g\":9,\"carbs_g\":0,\"fat_g\":5}],\"total_calories\":850}",
+  "latency_ms": 8827,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 80,
+        "calories": 40,
+        "protein_g": 0.4,
+        "carbs_g": 10.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "broccoli florets steamed",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2.3,
+        "carbs_g": 5.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "grilled zucchini",
+        "usda_query": "squash summer zucchini includes skin cooked grilled",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grilled yellow squash",
+        "usda_query": "squash summer crookneck straightneck cooked grilled",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 2.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted flesh and skin cooked with oil",
+        "grams": 60,
+        "calories": 70,
+        "protein_g": 1.5,
+        "carbs_g": 14,
+        "fat_g": 1.2
+      },
+      {
+        "name": "roasted chicken drumstick",
+        "usda_query": "chicken drumstick meat and skin roasted",
+        "grams": 90,
+        "calories": 170,
+        "protein_g": 21,
+        "carbs_g": 0,
+        "fat_g": 10
+      },
+      {
+        "name": "roasted chicken thigh",
+        "usda_query": "chicken thigh meat and skin roasted",
+        "grams": 80,
+        "calories": 160,
+        "protein_g": 18,
+        "carbs_g": 0.5,
+        "fat_g": 10
+      },
+      {
+        "name": "cheese pizza slice",
+        "usda_query": "pizza cheese regular crust",
+        "grams": 100,
+        "calories": 270,
+        "protein_g": 11,
+        "carbs_g": 33,
+        "fat_g": 10
+      },
+      {
+        "name": "roasted meat piece",
+        "usda_query": "chicken thigh meat only roasted",
+        "grams": 40,
+        "calories": 80,
+        "protein_g": 9,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 850
+  }
+}

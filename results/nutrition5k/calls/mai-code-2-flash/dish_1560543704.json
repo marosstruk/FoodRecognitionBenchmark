@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560543704",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2d5c9aa5ca675d87",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 677,
+    "reasoning_tokens": 454,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6927,
+    "ai_credits": 0.020665
+  },
+  "timestamp": "2026-11-25T00:27:49.361Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"fried chicken pieces\",\n      \"usda_query\": \"chicken fried with coating\",\n      \"grams\": 150,\n      \"calories\": 390,\n      \"protein_g\": 25,\n      \"carbs_g\": 15,\n      \"fat_g\": 25\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 120,\n      \"calories\": 120,\n      \"protein_g\": 3,\n      \"carbs_g\": 23,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"sauteed mixed vegetables\",\n      \"usda_query\": \"vegetables mixed cooked with oil\",\n      \"grams\": 100,\n      \"calories\": 90,\n      \"protein_g\": 3,\n      \"carbs_g\": 14,\n      \"fat_g\": 3\n    }\n  ],\n  \"total_calories\": 600\n}",
+  "latency_ms": 7770,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried chicken pieces",
+        "usda_query": "chicken fried with coating",
+        "grams": 150,
+        "calories": 390,
+        "protein_g": 25,
+        "carbs_g": 15,
+        "fat_g": 25
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potato roasted",
+        "grams": 120,
+        "calories": 120,
+        "protein_g": 3,
+        "carbs_g": 23,
+        "fat_g": 3
+      },
+      {
+        "name": "sauteed mixed vegetables",
+        "usda_query": "vegetables mixed cooked with oil",
+        "grams": 100,
+        "calories": 90,
+        "protein_g": 3,
+        "carbs_g": 14,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 600
+  }
+}

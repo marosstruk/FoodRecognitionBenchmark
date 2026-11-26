@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561392410",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "64537bd283ca79cc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 679,
+    "reasoning_tokens": 453,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6555,
+    "ai_credits": 0.04143
+  },
+  "timestamp": "2026-11-25T00:31:27.567Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 90,\n      \"calories\": 32,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 6.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Meatballs\",\n      \"usda_query\": \"beef meatballs cooked\",\n      \"grams\": 115,\n      \"calories\": 288,\n      \"protein_g\": 18,\n      \"carbs_g\": 6,\n      \"fat_g\": 22\n    },\n    {\n      \"name\": \"Cheese\",\n      \"usda_query\": \"cheddar cheese\",\n      \"grams\": 4,\n      \"calories\": 16,\n      \"protein_g\": 1,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 1.3\n    }\n  ],\n  \"total_calories\": 336\n}",
+  "latency_ms": 7688,
+  "parsed": {
+    "items": [
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 2.2,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Meatballs",
+        "usda_query": "beef meatballs cooked",
+        "grams": 115,
+        "calories": 288,
+        "protein_g": 18,
+        "carbs_g": 6,
+        "fat_g": 22
+      },
+      {
+        "name": "Cheese",
+        "usda_query": "cheddar cheese",
+        "grams": 4,
+        "calories": 16,
+        "protein_g": 1,
+        "carbs_g": 0.1,
+        "fat_g": 1.3
+      }
+    ],
+    "total_calories": 336
+  }
+}

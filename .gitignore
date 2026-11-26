@@ -1,0 +1,19 @@
+node_modules/
+.copilot-runtime/
+.env
+.env.*
+*.tmp.*
+*.log
+*.part
+
+# Downloaded data is not committed (images, USDA zips/index, SNAPMe). Only the sample manifest is,
+# so the exact benchmark sample is reproducible with `prepare nutrition5k --n 400 --seed 42`.
+data/*
+!data/nutrition5k/
+data/nutrition5k/*
+!data/nutrition5k/manifest.jsonl
+
+# Results: only the published Nutrition5k run (reports, CSVs and the text-only cached model replies).
+results/*
+!results/nutrition5k/
+results/nutrition5k/per_image.csv.*

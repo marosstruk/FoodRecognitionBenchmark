@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561062555",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "584bdfe560d559a7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1572,
+    "reasoning_tokens": 1367,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 14162,
+    "ai_credits": 0.70005
+  },
+  "timestamp": "2026-11-25T00:17:22.506Z",
+  "raw_text": "{\"items\":[{\"name\":\"arugula\",\"usda_query\":\"arugula raw\",\"grams\":20,\"calories\":5,\"protein_g\":0.5,\"carbs_g\":0.7,\"fat_g\":0.1},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":10,\"calories\":6,\"protein_g\":0.1,\"carbs_g\":1.4,\"fat_g\":0},{\"name\":\"pomegranate seeds\",\"usda_query\":\"pomegranates raw\",\"grams\":6,\"calories\":5,\"protein_g\":0.1,\"carbs_g\":1.1,\"fat_g\":0.1},{\"name\":\"olive oil dressing\",\"usda_query\":\"salad dressing vinaigrette commercial\",\"grams\":3,\"calories\":15,\"protein_g\":0,\"carbs_g\":0.3,\"fat_g\":1.6}],\"total_calories\":31}",
+  "latency_ms": 15523,
+  "parsed": {
+    "items": [
+      {
+        "name": "arugula",
+        "usda_query": "arugula raw",
+        "grams": 20,
+        "calories": 5,
+        "protein_g": 0.5,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 10,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "pomegranate seeds",
+        "usda_query": "pomegranates raw",
+        "grams": 6,
+        "calories": 5,
+        "protein_g": 0.1,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "olive oil dressing",
+        "usda_query": "salad dressing vinaigrette commercial",
+        "grams": 3,
+        "calories": 15,
+        "protein_g": 0,
+        "carbs_g": 0.3,
+        "fat_g": 1.6
+      }
+    ],
+    "total_calories": 31
+  }
+}

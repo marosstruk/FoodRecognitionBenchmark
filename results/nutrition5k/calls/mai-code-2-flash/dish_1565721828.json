@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565721828",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1d6a105abc5c881a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 893,
+    "reasoning_tokens": 670,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10195,
+    "ai_credits": 0.026065
+  },
+  "timestamp": "2026-11-25T00:17:42.995Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potato\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 110,\n      \"calories\": 220,\n      \"protein_g\": 4.5,\n      \"carbs_g\": 38,\n      \"fat_g\": 6\n    },\n    {\n      \"name\": \"roasted mushrooms\",\n      \"usda_query\": \"mushrooms cooked\",\n      \"grams\": 65,\n      \"calories\": 45,\n      \"protein_g\": 3.5,\n      \"carbs_g\": 7,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"roasted onion\",\n      \"usda_query\": \"onion cooked\",\n      \"grams\": 40,\n      \"calories\": 25,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 6,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 290\n}",
+  "latency_ms": 11724,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato",
+        "usda_query": "potato roasted",
+        "grams": 110,
+        "calories": 220,
+        "protein_g": 4.5,
+        "carbs_g": 38,
+        "fat_g": 6
+      },
+      {
+        "name": "roasted mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 65,
+        "calories": 45,
+        "protein_g": 3.5,
+        "carbs_g": 7,
+        "fat_g": 1
+      },
+      {
+        "name": "roasted onion",
+        "usda_query": "onion cooked",
+        "grams": 40,
+        "calories": 25,
+        "protein_g": 0.6,
+        "carbs_g": 6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 290
+  }
+}

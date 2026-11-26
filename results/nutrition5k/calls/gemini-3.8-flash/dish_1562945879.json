@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562945879",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "62e9557063b71ff8",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1166,
+    "reasoning_tokens": 635,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11915,
+    "ai_credits": 0.5478
+  },
+  "timestamp": "2026-11-25T00:25:08.050Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"salad greens raw\",\n      \"grams\": 40,\n      \"calories\": 6,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"diced honeydew melon\",\n      \"usda_query\": \"honeydew melon raw\",\n      \"grams\": 50,\n      \"calories\": 18,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 4.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"diced cantaloupe\",\n      \"usda_query\": \"cantaloupe raw\",\n      \"grams\": 60,\n      \"calories\": 20,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"corn and black bean salad\",\n      \"usda_query\": \"corn and black bean salad\",\n      \"grams\": 60,\n      \"calories\": 65,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 11.5,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"fresh strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 30,\n      \"calories\": 10,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 2.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"fresh blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 25,\n      \"calories\": 14,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 133\n}",
+  "latency_ms": 12749,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens raw",
+        "grams": 40,
+        "calories": 6,
+        "protein_g": 0.6,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "diced honeydew melon",
+        "usda_query": "honeydew melon raw",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 0.3,
+        "carbs_g": 4.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "diced cantaloupe",
+        "usda_query": "cantaloupe raw",
+        "grams": 60,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 4.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "corn and black bean salad",
+        "usda_query": "corn and black bean salad",
+        "grams": 60,
+        "calories": 65,
+        "protein_g": 2.2,
+        "carbs_g": 11.5,
+        "fat_g": 1.5
+      },
+      {
+        "name": "fresh strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 30,
+        "calories": 10,
+        "protein_g": 0.2,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fresh blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 25,
+        "calories": 14,
+        "protein_g": 0.2,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 133
+  }
+}

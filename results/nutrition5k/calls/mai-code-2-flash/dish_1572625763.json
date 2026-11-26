@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572625763",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "48d3ad0b233b7268",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1935,
+    "reasoning_tokens": 1745,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 22486,
+    "ai_credits": 0.052115
+  },
+  "timestamp": "2026-11-25T00:32:22.599Z",
+  "raw_text": "{\"items\":[{\"name\":\"breaded chicken\",\"usda_query\":\"chicken breast breaded cooked\",\"grams\":170,\"calories\":360,\"protein_g\":36,\"carbs_g\":15,\"fat_g\":17},{\"name\":\"mixed salad greens\",\"usda_query\":\"mixed salad greens raw\",\"grams\":60,\"calories\":13,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0.3},{\"name\":\"diced tomato\",\"usda_query\":\"tomatoes red raw\",\"grams\":80,\"calories\":14,\"protein_g\":0.7,\"carbs_g\":3.1,\"fat_g\":0.2},{\"name\":\"creamy salad dressing\",\"usda_query\":\"creamy salad dressing\",\"grams\":20,\"calories\":100,\"protein_g\":0.2,\"carbs_g\":2,\"fat_g\":10}],\"total_calories\":487}",
+  "latency_ms": 23390,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded chicken",
+        "usda_query": "chicken breast breaded cooked",
+        "grams": 170,
+        "calories": 360,
+        "protein_g": 36,
+        "carbs_g": 15,
+        "fat_g": 17
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 60,
+        "calories": 13,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "diced tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 0.7,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "creamy salad dressing",
+        "usda_query": "creamy salad dressing",
+        "grams": 20,
+        "calories": 100,
+        "protein_g": 0.2,
+        "carbs_g": 2,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 487
+  }
+}

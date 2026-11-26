@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564773976",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "afb822edfc5ebd4d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1038,
+    "reasoning_tokens": 577,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4771,
+    "ai_credits": 0.0641025
+  },
+  "timestamp": "2026-11-25T00:32:48.699Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat only cooked roasted\",\"grams\":130,\"calories\":215,\"protein_g\":40,\"carbs_g\":0,\"fat_g\":4.7},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":120,\"calories\":60,\"protein_g\":0.6,\"carbs_g\":15.6,\"fat_g\":0.1},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":100,\"calories\":18,\"protein_g\":0.9,\"carbs_g\":3.9,\"fat_g\":0.2},{\"name\":\"kalamata olives\",\"usda_query\":\"olives ripe canned or jarred kalamata\",\"grams\":45,\"calories\":90,\"protein_g\":0.7,\"carbs_g\":3.8,\"fat_g\":8.2},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":150,\"calories\":51,\"protein_g\":4.3,\"carbs_g\":10.5,\"fat_g\":0.6},{\"name\":\"egg frittata with vegetables\",\"usda_query\":\"egg omelet or frittata with vegetables cooked\",\"grams\":120,\"calories\":200,\"protein_g\":12,\"carbs_g\":6,\"fat_g\":15}],\"total_calories\":634}",
+  "latency_ms": 6292,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 130,
+        "calories": 215,
+        "protein_g": 40,
+        "carbs_g": 0,
+        "fat_g": 4.7
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 0.6,
+        "carbs_g": 15.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 100,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "kalamata olives",
+        "usda_query": "olives ripe canned or jarred kalamata",
+        "grams": 45,
+        "calories": 90,
+        "protein_g": 0.7,
+        "carbs_g": 3.8,
+        "fat_g": 8.2
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 4.3,
+        "carbs_g": 10.5,
+        "fat_g": 0.6
+      },
+      {
+        "name": "egg frittata with vegetables",
+        "usda_query": "egg omelet or frittata with vegetables cooked",
+        "grams": 120,
+        "calories": 200,
+        "protein_g": 12,
+        "carbs_g": 6,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 634
+  }
+}

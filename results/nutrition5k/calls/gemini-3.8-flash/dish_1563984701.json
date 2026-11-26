@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563984701",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d755a08b0e100d04",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 839,
+    "reasoning_tokens": 758,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10520,
+    "ai_credits": 0.425175
+  },
+  "timestamp": "2026-11-25T00:09:55.544Z",
+  "raw_text": "{\"items\": [{\"name\": \"sliced chicken sausage\", \"usda_query\": \"chicken sausage cooked\", \"grams\": 110, \"calories\": 215, \"protein_g\": 16.5, \"carbs_g\": 2.8, \"fat_g\": 15.4}], \"total_calories\": 215}",
+  "latency_ms": 11381,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced chicken sausage",
+        "usda_query": "chicken sausage cooked",
+        "grams": 110,
+        "calories": 215,
+        "protein_g": 16.5,
+        "carbs_g": 2.8,
+        "fat_g": 15.4
+      }
+    ],
+    "total_calories": 215
+  }
+}

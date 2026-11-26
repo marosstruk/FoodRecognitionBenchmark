@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559667948",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "317e1044caa03225",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 750,
+    "reasoning_tokens": 554,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4242,
+    "ai_credits": 0.0497025
+  },
+  "timestamp": "2026-11-25T00:26:35.591Z",
+  "raw_text": "{\"items\":[{\"name\":\"bagel half\",\"usda_query\":\"bagel plain enriched toasted\",\"grams\":50,\"calories\":135,\"protein_g\":5,\"carbs_g\":27,\"fat_g\":1},{\"name\":\"cream cheese\",\"usda_query\":\"cream cheese regular\",\"grams\":30,\"calories\":103,\"protein_g\":2,\"carbs_g\":1,\"fat_g\":10},{\"name\":\"chives\",\"usda_query\":\"chives raw\",\"grams\":1,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":238}",
+  "latency_ms": 5088,
+  "parsed": {
+    "items": [
+      {
+        "name": "bagel half",
+        "usda_query": "bagel plain enriched toasted",
+        "grams": 50,
+        "calories": 135,
+        "protein_g": 5,
+        "carbs_g": 27,
+        "fat_g": 1
+      },
+      {
+        "name": "cream cheese",
+        "usda_query": "cream cheese regular",
+        "grams": 30,
+        "calories": 103,
+        "protein_g": 2,
+        "carbs_g": 1,
+        "fat_g": 10
+      },
+      {
+        "name": "chives",
+        "usda_query": "chives raw",
+        "grams": 1,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 238
+  }
+}

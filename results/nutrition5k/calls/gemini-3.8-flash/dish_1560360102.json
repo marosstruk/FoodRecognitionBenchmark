@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560360102",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f8e18bbb4c265d3c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 932,
+    "reasoning_tokens": 593,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8400,
+    "ai_credits": 0.46005
+  },
+  "timestamp": "2026-11-25T00:10:55.072Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 130,\n      \"calories\": 195,\n      \"protein_g\": 13,\n      \"carbs_g\": 2,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"cooked sausage slices\",\n      \"usda_query\": \"pork sausage link cooked\",\n      \"grams\": 50,\n      \"calories\": 155,\n      \"protein_g\": 7,\n      \"carbs_g\": 1,\n      \"fat_g\": 14\n    },\n    {\n      \"name\": \"blackberries\",\n      \"usda_query\": \"blackberries raw\",\n      \"grams\": 35,\n      \"calories\": 15,\n      \"protein_g\": 1,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"raspberries\",\n      \"usda_query\": \"raspberries raw\",\n      \"grams\": 25,\n      \"calories\": 13,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 378\n}",
+  "latency_ms": 9268,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 130,
+        "calories": 195,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 15
+      },
+      {
+        "name": "cooked sausage slices",
+        "usda_query": "pork sausage link cooked",
+        "grams": 50,
+        "calories": 155,
+        "protein_g": 7,
+        "carbs_g": 1,
+        "fat_g": 14
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 35,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 25,
+        "calories": 13,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 378
+  }
+}

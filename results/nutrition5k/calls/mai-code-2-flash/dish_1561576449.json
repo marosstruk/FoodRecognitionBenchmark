@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561576449",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74138c10cd6a2ba9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 902,
+    "reasoning_tokens": 674,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10187,
+    "ai_credits": 0.02629
+  },
+  "timestamp": "2026-11-25T00:21:09.534Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potato pieces\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 130,\n      \"calories\": 121,\n      \"protein_g\": 3.25,\n      \"carbs_g\": 27.82,\n      \"fat_g\": 0.13\n    },\n    {\n      \"name\": \"roasted cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 140,\n      \"calories\": 35,\n      \"protein_g\": 2.66,\n      \"carbs_g\": 7.42,\n      \"fat_g\": 0.42\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"oil vegetable\",\n      \"grams\": 12,\n      \"calories\": 106,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 12\n    }\n  ],\n  \"total_calories\": 262\n}",
+  "latency_ms": 11698,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato pieces",
+        "usda_query": "potato roasted",
+        "grams": 130,
+        "calories": 121,
+        "protein_g": 3.25,
+        "carbs_g": 27.82,
+        "fat_g": 0.13
+      },
+      {
+        "name": "roasted cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 140,
+        "calories": 35,
+        "protein_g": 2.66,
+        "carbs_g": 7.42,
+        "fat_g": 0.42
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "oil vegetable",
+        "grams": 12,
+        "calories": 106,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 12
+      }
+    ],
+    "total_calories": 262
+  }
+}

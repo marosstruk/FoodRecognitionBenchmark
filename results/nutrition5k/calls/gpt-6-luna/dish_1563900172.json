@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563900172",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "76cc028ad09b83ec",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 560,
+    "reasoning_tokens": 329,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5880,
+    "ai_credits": 0.03548
+  },
+  "timestamp": "2026-11-25T00:37:03.714Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 150,\n      \"calories\": 225,\n      \"protein_g\": 15.6,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 17.1\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 100,\n      \"calories\": 149,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 26,\n      \"fat_g\": 4.8\n    },\n    {\n      \"name\": \"papaya\",\n      \"usda_query\": \"papaya raw\",\n      \"grams\": 140,\n      \"calories\": 60,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 15.1,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 434\n}",
+  "latency_ms": 6987,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled cooked",
+        "grams": 150,
+        "calories": 225,
+        "protein_g": 15.6,
+        "carbs_g": 2.4,
+        "fat_g": 17.1
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 100,
+        "calories": 149,
+        "protein_g": 2.5,
+        "carbs_g": 26,
+        "fat_g": 4.8
+      },
+      {
+        "name": "papaya",
+        "usda_query": "papaya raw",
+        "grams": 140,
+        "calories": 60,
+        "protein_g": 0.7,
+        "carbs_g": 15.1,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 434
+  }
+}

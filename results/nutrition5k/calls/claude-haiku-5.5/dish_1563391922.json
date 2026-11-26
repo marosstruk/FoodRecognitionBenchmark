@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563391922",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ae91890ee3f42c7f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 780,
+    "reasoning_tokens": 552,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3842,
+    "ai_credits": 0.0512025
+  },
+  "timestamp": "2026-11-25T00:19:40.750Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":80,\"calories\":28,\"protein_g\":2,\"carbs_g\":6,\"fat_g\":0},{\"name\":\"zucchini slices\",\"usda_query\":\"squash summer zucchini includes skin cooked boiled drained\",\"grams\":70,\"calories\":12,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"yellow squash slice\",\"usda_query\":\"squash summer crookneck straightneck raw\",\"grams\":25,\"calories\":4,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":0}],\"total_calories\":44}",
+  "latency_ms": 4674,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "zucchini slices",
+        "usda_query": "squash summer zucchini includes skin cooked boiled drained",
+        "grams": 70,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "yellow squash slice",
+        "usda_query": "squash summer crookneck straightneck raw",
+        "grams": 25,
+        "calories": 4,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 44
+  }
+}

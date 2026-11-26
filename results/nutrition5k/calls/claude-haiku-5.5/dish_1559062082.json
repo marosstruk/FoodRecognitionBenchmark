@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559062082",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8e7317182fd99468",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1155,
+    "reasoning_tokens": 878,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5629,
+    "ai_credits": 0.0699525
+  },
+  "timestamp": "2026-11-25T00:15:30.276Z",
+  "raw_text": "{\"items\":[{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":150,\"calories\":45,\"protein_g\":1,\"carbs_g\":11,\"fat_g\":0},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":170,\"protein_g\":12,\"carbs_g\":1.5,\"fat_g\":13},{\"name\":\"fried potatoes\",\"usda_query\":\"potatoes home fries pan fried\",\"grams\":150,\"calories\":200,\"protein_g\":3,\"carbs_g\":28,\"fat_g\":8},{\"name\":\"bacon\",\"usda_query\":\"bacon pan-fried cooked\",\"grams\":25,\"calories\":130,\"protein_g\":9,\"carbs_g\":0.4,\"fat_g\":10.5}],\"total_calories\":545}",
+  "latency_ms": 6762,
+  "parsed": {
+    "items": [
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 150,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 11,
+        "fat_g": 0
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 170,
+        "protein_g": 12,
+        "carbs_g": 1.5,
+        "fat_g": 13
+      },
+      {
+        "name": "fried potatoes",
+        "usda_query": "potatoes home fries pan fried",
+        "grams": 150,
+        "calories": 200,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 8
+      },
+      {
+        "name": "bacon",
+        "usda_query": "bacon pan-fried cooked",
+        "grams": 25,
+        "calories": 130,
+        "protein_g": 9,
+        "carbs_g": 0.4,
+        "fat_g": 10.5
+      }
+    ],
+    "total_calories": 545
+  }
+}

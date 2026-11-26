@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568056046",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "33c22e9713032b66",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 731,
+    "reasoning_tokens": 459,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6976,
+    "ai_credits": 0.384675
+  },
+  "timestamp": "2026-11-25T00:36:34.300Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"shredded carrots\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 60,\n      \"calories\": 25,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"grape tomatoes\",\n      \"usda_query\": \"tomatoes cherry raw\",\n      \"grams\": 60,\n      \"calories\": 11,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"sliced red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 25,\n      \"calories\": 10,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.3,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 46\n}",
+  "latency_ms": 7881,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw",
+        "grams": 60,
+        "calories": 25,
+        "protein_g": 0.6,
+        "carbs_g": 5.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "grape tomatoes",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sliced red onion",
+        "usda_query": "onions red raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 46
+  }
+}

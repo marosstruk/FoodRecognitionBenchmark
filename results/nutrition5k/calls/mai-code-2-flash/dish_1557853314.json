@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1557853314",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ed4dacb48e6a795e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1103,
+    "reasoning_tokens": 943,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 21333,
+    "ai_credits": 0.031315
+  },
+  "timestamp": "2026-11-25T00:13:08.653Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked chicken pieces\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 170,\n      \"calories\": 281,\n      \"protein_g\": 52.7,\n      \"carbs_g\": 0,\n      \"fat_g\": 6.1\n    },\n    {\n      \"name\": \"orange curry sauce\",\n      \"usda_query\": \"chicken curry sauce prepared\",\n      \"grams\": 140,\n      \"calories\": 210,\n      \"protein_g\": 4,\n      \"carbs_g\": 17,\n      \"fat_g\": 14\n    }\n  ],\n  \"total_calories\": 491\n}",
+  "latency_ms": 22199,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked chicken pieces",
+        "usda_query": "chicken breast cooked",
+        "grams": 170,
+        "calories": 281,
+        "protein_g": 52.7,
+        "carbs_g": 0,
+        "fat_g": 6.1
+      },
+      {
+        "name": "orange curry sauce",
+        "usda_query": "chicken curry sauce prepared",
+        "grams": 140,
+        "calories": 210,
+        "protein_g": 4,
+        "carbs_g": 17,
+        "fat_g": 14
+      }
+    ],
+    "total_calories": 491
+  }
+}

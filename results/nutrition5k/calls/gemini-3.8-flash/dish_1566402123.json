@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566402123",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3c648bb583c6cec6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1021,
+    "reasoning_tokens": 851,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11658,
+    "ai_credits": 0.493425
+  },
+  "timestamp": "2026-11-25T00:30:22.301Z",
+  "raw_text": "{\"items\":[{\"name\":\"hard-boiled egg whites\",\"usda_query\":\"egg white cooked hard-boiled\",\"grams\":220,\"calories\":114,\"protein_g\":23.9,\"carbs_g\":1.6,\"fat_g\":0.4},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked\",\"grams\":110,\"calories\":99,\"protein_g\":2.2,\"carbs_g\":22.8,\"fat_g\":0.2},{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":90,\"calories\":27,\"protein_g\":0.6,\"carbs_g\":6.8,\"fat_g\":0.1}],\"total_calories\":240}",
+  "latency_ms": 12793,
+  "parsed": {
+    "items": [
+      {
+        "name": "hard-boiled egg whites",
+        "usda_query": "egg white cooked hard-boiled",
+        "grams": 220,
+        "calories": 114,
+        "protein_g": 23.9,
+        "carbs_g": 1.6,
+        "fat_g": 0.4
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked",
+        "grams": 110,
+        "calories": 99,
+        "protein_g": 2.2,
+        "carbs_g": 22.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 90,
+        "calories": 27,
+        "protein_g": 0.6,
+        "carbs_g": 6.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 240
+  }
+}

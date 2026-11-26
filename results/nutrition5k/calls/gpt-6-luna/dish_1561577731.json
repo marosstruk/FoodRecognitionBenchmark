@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561577731",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5a445a911f4c1b17",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 940,
+    "reasoning_tokens": 580,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10573,
+    "ai_credits": 0.05448
+  },
+  "timestamp": "2026-11-25T00:29:50.916Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 170,\n      \"calories\": 39,\n      \"protein_g\": 3.1,\n      \"carbs_g\": 7.7,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"Butter sauce\",\n      \"usda_query\": \"butter\",\n      \"grams\": 8,\n      \"calories\": 58,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0,\n      \"fat_g\": 6.5\n    },\n    {\n      \"name\": \"Cooked steak\",\n      \"usda_query\": \"beef steak cooked\",\n      \"grams\": 145,\n      \"calories\": 300,\n      \"protein_g\": 40,\n      \"carbs_g\": 0,\n      \"fat_g\": 14\n    },\n    {\n      \"name\": \"Sautéed mushrooms\",\n      \"usda_query\": \"mushrooms cooked with oil\",\n      \"grams\": 60,\n      \"calories\": 55,\n      \"protein_g\": 2,\n      \"carbs_g\": 3,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Mashed potato\",\n      \"usda_query\": \"mashed potatoes prepared\",\n      \"grams\": 45,\n      \"calories\": 48,\n      \"protein_g\": 1,\n      \"carbs_g\": 8,\n      \"fat_g\": 1.5\n    }\n  ],\n  \"total_calories\": 500\n}",
+  "latency_ms": 11452,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 170,
+        "calories": 39,
+        "protein_g": 3.1,
+        "carbs_g": 7.7,
+        "fat_g": 0.5
+      },
+      {
+        "name": "Butter sauce",
+        "usda_query": "butter",
+        "grams": 8,
+        "calories": 58,
+        "protein_g": 0.1,
+        "carbs_g": 0,
+        "fat_g": 6.5
+      },
+      {
+        "name": "Cooked steak",
+        "usda_query": "beef steak cooked",
+        "grams": 145,
+        "calories": 300,
+        "protein_g": 40,
+        "carbs_g": 0,
+        "fat_g": 14
+      },
+      {
+        "name": "Sautéed mushrooms",
+        "usda_query": "mushrooms cooked with oil",
+        "grams": 60,
+        "calories": 55,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 4
+      },
+      {
+        "name": "Mashed potato",
+        "usda_query": "mashed potatoes prepared",
+        "grams": 45,
+        "calories": 48,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 500
+  }
+}

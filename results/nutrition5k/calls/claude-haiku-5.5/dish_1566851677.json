@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566851677",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c8d1f86cc68d38ce",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1798,
+    "reasoning_tokens": 1319,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8408,
+    "ai_credits": 0.1021025
+  },
+  "timestamp": "2026-11-25T00:31:46.432Z",
+  "raw_text": "{\"items\":[{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce romaine raw\",\"grams\":80,\"calories\":14,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":0},{\"name\":\"Caesar dressing\",\"usda_query\":\"salad dressing caesar creamy\",\"grams\":25,\"calories\":116,\"protein_g\":1,\"carbs_g\":1,\"fat_g\":12},{\"name\":\"parmesan cheese\",\"usda_query\":\"cheese parmesan hard grated\",\"grams\":15,\"calories\":64,\"protein_g\":6,\"carbs_g\":0,\"fat_g\":4},{\"name\":\"croutons\",\"usda_query\":\"croutons plain seasoned\",\"grams\":20,\"calories\":85,\"protein_g\":3,\"carbs_g\":14,\"fat_g\":2},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":100,\"calories\":35,\"protein_g\":2,\"carbs_g\":7,\"fat_g\":0},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat only roasted\",\"grams\":120,\"calories\":198,\"protein_g\":37,\"carbs_g\":0,\"fat_g\":4},{\"name\":\"cheese pizza slice\",\"usda_query\":\"pizza cheese regular crust\",\"grams\":110,\"calories\":293,\"protein_g\":12,\"carbs_g\":36,\"fat_g\":11}],\"total_calories\":805}",
+  "latency_ms": 9539,
+  "parsed": {
+    "items": [
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "Caesar dressing",
+        "usda_query": "salad dressing caesar creamy",
+        "grams": 25,
+        "calories": 116,
+        "protein_g": 1,
+        "carbs_g": 1,
+        "fat_g": 12
+      },
+      {
+        "name": "parmesan cheese",
+        "usda_query": "cheese parmesan hard grated",
+        "grams": 15,
+        "calories": 64,
+        "protein_g": 6,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons plain seasoned",
+        "grams": 20,
+        "calories": 85,
+        "protein_g": 3,
+        "carbs_g": 14,
+        "fat_g": 2
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only roasted",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "cheese pizza slice",
+        "usda_query": "pizza cheese regular crust",
+        "grams": 110,
+        "calories": 293,
+        "protein_g": 12,
+        "carbs_g": 36,
+        "fat_g": 11
+      }
+    ],
+    "total_calories": 805
+  }
+}

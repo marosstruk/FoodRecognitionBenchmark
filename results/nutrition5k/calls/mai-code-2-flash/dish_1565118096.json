@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565118096",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "496490869f68d902",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1659,
+    "reasoning_tokens": 1105,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18909,
+    "ai_credits": 0.045215
+  },
+  "timestamp": "2026-11-25T00:31:33.332Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice pilaf\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 190,\n      \"calories\": 247,\n      \"protein_g\": 5,\n      \"carbs_g\": 54,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"breaded chicken cutlet\",\n      \"usda_query\": \"chicken breast breaded fried\",\n      \"grams\": 170,\n      \"calories\": 390,\n      \"protein_g\": 34,\n      \"carbs_g\": 20,\n      \"fat_g\": 18\n    },\n    {\n      \"name\": \"shredded chicken\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 130,\n      \"calories\": 215,\n      \"protein_g\": 40,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"French fries\",\n      \"usda_query\": \"french fries\",\n      \"grams\": 190,\n      \"calories\": 563,\n      \"protein_g\": 7,\n      \"carbs_g\": 71,\n      \"fat_g\": 28\n    },\n    {\n      \"name\": \"shredded carrots\",\n      \"usda_query\": \"carrots raw shredded\",\n      \"grams\": 90,\n      \"calories\": 37,\n      \"protein_g\": 1,\n      \"carbs_g\": 9,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"shredded cabbage\",\n      \"usda_query\": \"cabbage raw\",\n      \"grams\": 70,\n      \"calories\": 18,\n      \"protein_g\": 1,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"sautéed red and green bell peppers\",\n      \"usda_query\": \"bell peppers cooked\",\n      \"grams\": 110,\n      \"calories\": 55,\n      \"protein_g\": 2,\n      \"carbs_g\": 11,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"sautéed onion\",\n      \"usda_query\": \"onion cooked\",\n      \"grams\": 40,\n      \"calories\": 24,\n      \"protein_g\": 1,\n      \"carbs_g\": 6,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 1549\n}",
+  "latency_ms": 20073,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice pilaf",
+        "usda_query": "rice white cooked",
+        "grams": 190,
+        "calories": 247,
+        "protein_g": 5,
+        "carbs_g": 54,
+        "fat_g": 1
+      },
+      {
+        "name": "breaded chicken cutlet",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 170,
+        "calories": 390,
+        "protein_g": 34,
+        "carbs_g": 20,
+        "fat_g": 18
+      },
+      {
+        "name": "shredded chicken",
+        "usda_query": "chicken breast roasted",
+        "grams": 130,
+        "calories": 215,
+        "protein_g": 40,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "French fries",
+        "usda_query": "french fries",
+        "grams": 190,
+        "calories": 563,
+        "protein_g": 7,
+        "carbs_g": 71,
+        "fat_g": 28
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw shredded",
+        "grams": 90,
+        "calories": 37,
+        "protein_g": 1,
+        "carbs_g": 9,
+        "fat_g": 0
+      },
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage raw",
+        "grams": 70,
+        "calories": 18,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "sautéed red and green bell peppers",
+        "usda_query": "bell peppers cooked",
+        "grams": 110,
+        "calories": 55,
+        "protein_g": 2,
+        "carbs_g": 11,
+        "fat_g": 1
+      },
+      {
+        "name": "sautéed onion",
+        "usda_query": "onion cooked",
+        "grams": 40,
+        "calories": 24,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 1549
+  }
+}

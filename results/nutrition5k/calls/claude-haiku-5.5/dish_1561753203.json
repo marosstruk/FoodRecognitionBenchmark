@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561753203",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d6e43c9a5622c3b1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 791,
+    "reasoning_tokens": 555,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4327,
+    "ai_credits": 0.0517525
+  },
+  "timestamp": "2026-11-25T00:09:06.240Z",
+  "raw_text": "{\"items\":[{\"name\":\"breaded baked white fish fillet\",\"usda_query\":\"fish white baked breaded or coated\",\"grams\":150,\"calories\":250,\"protein_g\":28,\"carbs_g\":12,\"fat_g\":10},{\"name\":\"roasted potato\",\"usda_query\":\"potatoes roasted flesh and skin\",\"grams\":100,\"calories\":130,\"protein_g\":2.5,\"carbs_g\":22,\"fat_g\":3.5},{\"name\":\"roasted zucchini\",\"usda_query\":\"squash summer zucchini cooked boiled drained\",\"grams\":80,\"calories\":25,\"protein_g\":1.5,\"carbs_g\":3.5,\"fat_g\":0.5}],\"total_calories\":405}",
+  "latency_ms": 5198,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded baked white fish fillet",
+        "usda_query": "fish white baked breaded or coated",
+        "grams": 150,
+        "calories": 250,
+        "protein_g": 28,
+        "carbs_g": 12,
+        "fat_g": 10
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted flesh and skin",
+        "grams": 100,
+        "calories": 130,
+        "protein_g": 2.5,
+        "carbs_g": 22,
+        "fat_g": 3.5
+      },
+      {
+        "name": "roasted zucchini",
+        "usda_query": "squash summer zucchini cooked boiled drained",
+        "grams": 80,
+        "calories": 25,
+        "protein_g": 1.5,
+        "carbs_g": 3.5,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 405
+  }
+}

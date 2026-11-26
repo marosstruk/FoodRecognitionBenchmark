@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561392410",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "64537bd283ca79cc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 991,
+    "reasoning_tokens": 717,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9245,
+    "ai_credits": 0.482175
+  },
+  "timestamp": "2026-11-25T00:31:33.220Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked broccoli\",\n      \"usda_query\": \"broccoli cooked from fresh\",\n      \"grams\": 65,\n      \"calories\": 23,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 4.6,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"breakfast sausage\",\n      \"usda_query\": \"pork breakfast sausage cooked\",\n      \"grams\": 75,\n      \"calories\": 235,\n      \"protein_g\": 13.5,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 19.8\n    },\n    {\n      \"name\": \"scrambled egg\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 5,\n      \"calories\": 7,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 0.6\n    }\n  ],\n  \"total_calories\": 265\n}",
+  "latency_ms": 10356,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked from fresh",
+        "grams": 65,
+        "calories": 23,
+        "protein_g": 1.6,
+        "carbs_g": 4.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "breakfast sausage",
+        "usda_query": "pork breakfast sausage cooked",
+        "grams": 75,
+        "calories": 235,
+        "protein_g": 13.5,
+        "carbs_g": 0.8,
+        "fat_g": 19.8
+      },
+      {
+        "name": "scrambled egg",
+        "usda_query": "egg scrambled",
+        "grams": 5,
+        "calories": 7,
+        "protein_g": 0.5,
+        "carbs_g": 0.1,
+        "fat_g": 0.6
+      }
+    ],
+    "total_calories": 265
+  }
+}

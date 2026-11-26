@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573579635",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea0a23147d8e1729",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1006,
+    "reasoning_tokens": 725,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5449,
+    "ai_credits": 0.0625025
+  },
+  "timestamp": "2026-11-25T00:08:51.214Z",
+  "raw_text": "{\"items\":[{\"name\":\"toasted white bread\",\"usda_query\":\"bread white toasted\",\"grams\":35,\"calories\":93,\"protein_g\":3.2,\"carbs_g\":17.2,\"fat_g\":1.1},{\"name\":\"cream cheese spread\",\"usda_query\":\"cream cheese\",\"grams\":15,\"calories\":51,\"protein_g\":0.9,\"carbs_g\":0.6,\"fat_g\":5.1},{\"name\":\"dark fruit spread\",\"usda_query\":\"jams and preserves fruit low sugar\",\"grams\":10,\"calories\":27,\"protein_g\":0,\"carbs_g\":7,\"fat_g\":0},{\"name\":\"fresh herbs\",\"usda_query\":\"chives raw\",\"grams\":3,\"calories\":1,\"protein_g\":0.1,\"carbs_g\":0.2,\"fat_g\":0},\"total_calories\":172}",
+  "latency_ms": 6302,
+  "error": "Expected ',' or ']' after array element in JSON at position 538 (line 1 column 539)"
+}

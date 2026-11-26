@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559233756",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a8b00a8634eb236c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1368,
+    "reasoning_tokens": 1089,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15698,
+    "ai_credits": 0.03794
+  },
+  "timestamp": "2026-11-25T00:14:38.100Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 220,\n      \"calories\": 246,\n      \"protein_g\": 5,\n      \"carbs_g\": 54,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 120,\n      \"calories\": 60,\n      \"protein_g\": 1,\n      \"carbs_g\": 16,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 100,\n      \"calories\": 32,\n      \"protein_g\": 1,\n      \"carbs_g\": 8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"watermelon\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 90,\n      \"calories\": 27,\n      \"protein_g\": 1,\n      \"carbs_g\": 7,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 365\n}",
+  "latency_ms": 16795,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potato roasted",
+        "grams": 220,
+        "calories": 246,
+        "protein_g": 5,
+        "carbs_g": 54,
+        "fat_g": 1
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 1,
+        "carbs_g": 16,
+        "fat_g": 0
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 100,
+        "calories": 32,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 90,
+        "calories": 27,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 365
+  }
+}

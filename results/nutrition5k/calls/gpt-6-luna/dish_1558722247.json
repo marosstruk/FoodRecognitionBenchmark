@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558722247",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea52395662aa9812",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 591,
+    "reasoning_tokens": 443,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7948,
+    "ai_credits": 0.03703
+  },
+  "timestamp": "2026-11-25T00:36:06.126Z",
+  "raw_text": "{\"items\":[{\"name\":\"Apple\",\"usda_query\":\"apple raw with skin\",\"grams\":165,\"calories\":86,\"protein_g\":0.4,\"carbs_g\":22.8,\"fat_g\":0.3},{\"name\":\"Almonds\",\"usda_query\":\"almonds raw\",\"grams\":58,\"calories\":336,\"protein_g\":12.3,\"carbs_g\":12.5,\"fat_g\":29},{\"name\":\"Cauliflower\",\"usda_query\":\"cauliflower raw\",\"grams\":130,\"calories\":33,\"protein_g\":2.5,\"carbs_g\":6.5,\"fat_g\":0.4}],\"total_calories\":455}",
+  "latency_ms": 9497,
+  "parsed": {
+    "items": [
+      {
+        "name": "Apple",
+        "usda_query": "apple raw with skin",
+        "grams": 165,
+        "calories": 86,
+        "protein_g": 0.4,
+        "carbs_g": 22.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Almonds",
+        "usda_query": "almonds raw",
+        "grams": 58,
+        "calories": 336,
+        "protein_g": 12.3,
+        "carbs_g": 12.5,
+        "fat_g": 29
+      },
+      {
+        "name": "Cauliflower",
+        "usda_query": "cauliflower raw",
+        "grams": 130,
+        "calories": 33,
+        "protein_g": 2.5,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 455
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563478751",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "81fae9dc9765a281",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 967,
+    "reasoning_tokens": 680,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5112,
+    "ai_credits": 0.0605525
+  },
+  "timestamp": "2026-11-25T00:35:50.951Z",
+  "raw_text": "{\"items\":[{\"name\":\"penne pasta\",\"usda_query\":\"pasta cooked enriched\",\"grams\":200,\"calories\":262,\"protein_g\":10,\"carbs_g\":50,\"fat_g\":2},{\"name\":\"pan-fried beef chunks\",\"usda_query\":\"beef chuck roast lean and fat cooked pan-fried\",\"grams\":120,\"calories\":300,\"protein_g\":31,\"carbs_g\":0,\"fat_g\":19},{\"name\":\"wilted spinach\",\"usda_query\":\"spinach cooked boiled drained\",\"grams\":60,\"calories\":14,\"protein_g\":2,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"cream sauce\",\"usda_query\":\"cream sauce made with cream\",\"grams\":60,\"calories\":90,\"protein_g\":2,\"carbs_g\":5,\"fat_g\":7}],\"total_calories\":666}",
+  "latency_ms": 6265,
+  "parsed": {
+    "items": [
+      {
+        "name": "penne pasta",
+        "usda_query": "pasta cooked enriched",
+        "grams": 200,
+        "calories": 262,
+        "protein_g": 10,
+        "carbs_g": 50,
+        "fat_g": 2
+      },
+      {
+        "name": "pan-fried beef chunks",
+        "usda_query": "beef chuck roast lean and fat cooked pan-fried",
+        "grams": 120,
+        "calories": 300,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 19
+      },
+      {
+        "name": "wilted spinach",
+        "usda_query": "spinach cooked boiled drained",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 2,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "cream sauce",
+        "usda_query": "cream sauce made with cream",
+        "grams": 60,
+        "calories": 90,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 666
+  }
+}

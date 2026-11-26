@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564589308",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "28df11eee38976f4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 486,
+    "reasoning_tokens": 376,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7604,
+    "ai_credits": 0.2928
+  },
+  "timestamp": "2026-11-25T00:14:10.914Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 115,\n      \"calories\": 155,\n      \"protein_g\": 2.9,\n      \"carbs_g\": 25.3,\n      \"fat_g\": 5.8\n    }\n  ],\n  \"total_calories\": 155\n}",
+  "latency_ms": 8730,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 115,
+        "calories": 155,
+        "protein_g": 2.9,
+        "carbs_g": 25.3,
+        "fat_g": 5.8
+      }
+    ],
+    "total_calories": 155
+  }
+}

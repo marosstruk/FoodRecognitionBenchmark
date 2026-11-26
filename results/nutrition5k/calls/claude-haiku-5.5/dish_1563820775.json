@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563820775",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4fdca95f9c7dabbb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 562,
+    "reasoning_tokens": 396,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3266,
+    "ai_credits": 0.0403025
+  },
+  "timestamp": "2026-11-25T00:12:50.344Z",
+  "raw_text": "{\"items\":[{\"name\":\"zucchini\",\"usda_query\":\"squash summer zucchini includes skin raw\",\"grams\":140,\"calories\":24,\"protein_g\":1.7,\"carbs_g\":4.3,\"fat_g\":0.4},{\"name\":\"yellow summer squash\",\"usda_query\":\"squash summer crookneck and straightneck raw\",\"grams\":110,\"calories\":18,\"protein_g\":1.3,\"carbs_g\":3.7,\"fat_g\":0.2}],\"total_calories\":42}",
+  "latency_ms": 4823,
+  "parsed": {
+    "items": [
+      {
+        "name": "zucchini",
+        "usda_query": "squash summer zucchini includes skin raw",
+        "grams": 140,
+        "calories": 24,
+        "protein_g": 1.7,
+        "carbs_g": 4.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "yellow summer squash",
+        "usda_query": "squash summer crookneck and straightneck raw",
+        "grams": 110,
+        "calories": 18,
+        "protein_g": 1.3,
+        "carbs_g": 3.7,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 42
+  }
+}

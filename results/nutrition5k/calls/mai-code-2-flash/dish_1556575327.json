@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1556575327",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "36b0e595afbc72c0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 850,
+    "reasoning_tokens": 626,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9586,
+    "ai_credits": 0.02499
+  },
+  "timestamp": "2026-11-25T00:26:56.601Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked no salt\",\n      \"grams\": 150,\n      \"calories\": 54,\n      \"protein_g\": 4,\n      \"carbs_g\": 12,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"black olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 60,\n      \"calories\": 69,\n      \"protein_g\": 0,\n      \"carbs_g\": 4,\n      \"fat_g\": 6\n    },\n    {\n      \"name\": \"sautéed bell pepper\",\n      \"usda_query\": \"bell pepper green cooked\",\n      \"grams\": 70,\n      \"calories\": 22,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 145\n}",
+  "latency_ms": 10464,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted brussels sprouts",
+        "usda_query": "brussels sprouts cooked no salt",
+        "grams": 150,
+        "calories": 54,
+        "protein_g": 4,
+        "carbs_g": 12,
+        "fat_g": 1
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 60,
+        "calories": 69,
+        "protein_g": 0,
+        "carbs_g": 4,
+        "fat_g": 6
+      },
+      {
+        "name": "sautéed bell pepper",
+        "usda_query": "bell pepper green cooked",
+        "grams": 70,
+        "calories": 22,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 145
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367333",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8600368ce159eaf9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1495,
+    "reasoning_tokens": 913,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7142,
+    "ai_credits": 0.0869525
+  },
+  "timestamp": "2026-11-25T00:26:06.792Z",
+  "raw_text": "{\"items\":[{\"name\":\"asparagus\",\"usda_query\":\"asparagus cooked boiled drained\",\"grams\":100,\"calories\":22,\"protein_g\":2.4,\"carbs_g\":4.1,\"fat_g\":0.2},{\"name\":\"sauteed mushrooms\",\"usda_query\":\"mushrooms sauteed with oil or butter\",\"grams\":80,\"calories\":90,\"protein_g\":2.4,\"carbs_g\":6,\"fat_g\":6.5},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":90,\"calories\":150,\"protein_g\":28,\"carbs_g\":0,\"fat_g\":3.5},{\"name\":\"seared duck breast\",\"usda_query\":\"duck meat roasted skin on\",\"grams\":80,\"calories\":230,\"protein_g\":16,\"carbs_g\":0,\"fat_g\":18},{\"name\":\"mixed greens salad\",\"usda_query\":\"arugula raw\",\"grams\":60,\"calories\":15,\"protein_g\":1.6,\"carbs_g\":2.2,\"fat_g\":0.4},{\"name\":\"scrambled egg\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":50,\"calories\":75,\"protein_g\":6,\"carbs_g\":0.6,\"fat_g\":5.5},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked in skin flesh\",\"grams\":40,\"calories\":36,\"protein_g\":0.6,\"carbs_g\":8.4,\"fat_g\":0.1},{\"name\":\"braised fennel\",\"usda_query\":\"fennel bulb raw\",\"grams\":50,\"calories\":15,\"protein_g\":0.6,\"carbs_g\":3.5,\"fat_g\":0.2}],\"total_calories\":603}",
+  "latency_ms": 8044,
+  "parsed": {
+    "items": [
+      {
+        "name": "asparagus",
+        "usda_query": "asparagus cooked boiled drained",
+        "grams": 100,
+        "calories": 22,
+        "protein_g": 2.4,
+        "carbs_g": 4.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "sauteed mushrooms",
+        "usda_query": "mushrooms sauteed with oil or butter",
+        "grams": 80,
+        "calories": 90,
+        "protein_g": 2.4,
+        "carbs_g": 6,
+        "fat_g": 6.5
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat roasted",
+        "grams": 90,
+        "calories": 150,
+        "protein_g": 28,
+        "carbs_g": 0,
+        "fat_g": 3.5
+      },
+      {
+        "name": "seared duck breast",
+        "usda_query": "duck meat roasted skin on",
+        "grams": 80,
+        "calories": 230,
+        "protein_g": 16,
+        "carbs_g": 0,
+        "fat_g": 18
+      },
+      {
+        "name": "mixed greens salad",
+        "usda_query": "arugula raw",
+        "grams": 60,
+        "calories": 15,
+        "protein_g": 1.6,
+        "carbs_g": 2.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "scrambled egg",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 50,
+        "calories": 75,
+        "protein_g": 6,
+        "carbs_g": 0.6,
+        "fat_g": 5.5
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked in skin flesh",
+        "grams": 40,
+        "calories": 36,
+        "protein_g": 0.6,
+        "carbs_g": 8.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "braised fennel",
+        "usda_query": "fennel bulb raw",
+        "grams": 50,
+        "calories": 15,
+        "protein_g": 0.6,
+        "carbs_g": 3.5,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 603
+  }
+}

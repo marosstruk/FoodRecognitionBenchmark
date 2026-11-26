@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367715",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "dd04d591133e3bcc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1124,
+    "reasoning_tokens": 767,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5197,
+    "ai_credits": 0.0684025
+  },
+  "timestamp": "2026-11-25T00:08:35.236Z",
+  "raw_text": "{\"items\":[{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":150,\"calories\":195,\"protein_g\":4.0,\"carbs_g\":42.8,\"fat_g\":0.4},{\"name\":\"roasted chicken breast\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":90,\"calories\":149,\"protein_g\":27.9,\"carbs_g\":0,\"fat_g\":3.2},{\"name\":\"fried tofu\",\"usda_query\":\"tofu fried firm\",\"grams\":60,\"calories\":105,\"protein_g\":9.5,\"carbs_g\":2.5,\"fat_g\":6.0},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":100,\"calories\":45,\"protein_g\":2.5,\"carbs_g\":7.5,\"fat_g\":0.6},{\"name\":\"cooked onion\",\"usda_query\":\"onions cooked\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":1.9,\"fat_g\":0.0}],\"total_calories\":502}",
+  "latency_ms": 6325,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 150,
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 42.8,
+        "fat_g": 0.4
+      },
+      {
+        "name": "roasted chicken breast",
+        "usda_query": "chicken breast meat roasted",
+        "grams": 90,
+        "calories": 149,
+        "protein_g": 27.9,
+        "carbs_g": 0,
+        "fat_g": 3.2
+      },
+      {
+        "name": "fried tofu",
+        "usda_query": "tofu fried firm",
+        "grams": 60,
+        "calories": 105,
+        "protein_g": 9.5,
+        "carbs_g": 2.5,
+        "fat_g": 6
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 100,
+        "calories": 45,
+        "protein_g": 2.5,
+        "carbs_g": 7.5,
+        "fat_g": 0.6
+      },
+      {
+        "name": "cooked onion",
+        "usda_query": "onions cooked",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 502
+  }
+}

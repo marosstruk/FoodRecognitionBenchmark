@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561746970",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e8d5b8549a423876",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1658,
+    "reasoning_tokens": 1149,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7624,
+    "ai_credits": 0.0951025
+  },
+  "timestamp": "2026-11-25T00:10:32.313Z",
+  "raw_text": "{\"items\":[{\"name\":\"brown lentils cooked\",\"usda_query\":\"lentils mature seeds cooked boiled without salt\",\"grams\":150,\"calories\":174,\"protein_g\":14,\"carbs_g\":30,\"fat_g\":1},{\"name\":\"salmon fillet roasted\",\"usda_query\":\"fish salmon atlantic farmed cooked dry heat\",\"grams\":120,\"calories\":247,\"protein_g\":26,\"carbs_g\":0,\"fat_g\":14},{\"name\":\"wilted spinach\",\"usda_query\":\"spinach cooked boiled drained\",\"grams\":100,\"calories\":23,\"protein_g\":3,\"carbs_g\":4,\"fat_g\":0},{\"name\":\"roasted red bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":50,\"calories\":16,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":0},{\"name\":\"cucumber slices\",\"usda_query\":\"cucumber peeled raw\",\"grams\":30,\"calories\":5,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":0},{\"name\":\"brussels sprouts cooked\",\"usda_query\":\"brussels sprouts cooked boiled drained\",\"grams\":30,\"calories\":11,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"roasted eggplant\",\"usda_query\":\"eggplant cooked boiled drained without salt\",\"grams\":30,\"calories\":11,\"protein_g\":0,\"carbs_g\":3,\"fat_g\":0}],\"total_calories\":487}",
+  "latency_ms": 8500,
+  "parsed": {
+    "items": [
+      {
+        "name": "brown lentils cooked",
+        "usda_query": "lentils mature seeds cooked boiled without salt",
+        "grams": 150,
+        "calories": 174,
+        "protein_g": 14,
+        "carbs_g": 30,
+        "fat_g": 1
+      },
+      {
+        "name": "salmon fillet roasted",
+        "usda_query": "fish salmon atlantic farmed cooked dry heat",
+        "grams": 120,
+        "calories": 247,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 14
+      },
+      {
+        "name": "wilted spinach",
+        "usda_query": "spinach cooked boiled drained",
+        "grams": 100,
+        "calories": 23,
+        "protein_g": 3,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 50,
+        "calories": 16,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "cucumber slices",
+        "usda_query": "cucumber peeled raw",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "brussels sprouts cooked",
+        "usda_query": "brussels sprouts cooked boiled drained",
+        "grams": 30,
+        "calories": 11,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked boiled drained without salt",
+        "grams": 30,
+        "calories": 11,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 487
+  }
+}

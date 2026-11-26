@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558632198",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6af0c90856319297",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 569,
+    "reasoning_tokens": 411,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3310,
+    "ai_credits": 0.0406525
+  },
+  "timestamp": "2026-11-25T00:12:02.087Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":10,\"protein_g\":0.8,\"carbs_g\":1.8,\"fat_g\":0.2},{\"name\":\"sweet corn\",\"usda_query\":\"sweet yellow corn raw\",\"grams\":4,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.8,\"fat_g\":0.1}],\"total_calories\":13}",
+  "latency_ms": 4195,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "sweet corn",
+        "usda_query": "sweet yellow corn raw",
+        "grams": 4,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 13
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567785622",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ef57c5570bd9bb91",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 620,
+    "reasoning_tokens": 436,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7681,
+    "ai_credits": 0.34305
+  },
+  "timestamp": "2026-11-25T00:14:29.770Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"raw strawberries\",\n      \"grams\": 50,\n      \"calories\": 16,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 3.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"blueberries\",\n      \"usda_query\": \"raw blueberries\",\n      \"grams\": 25,\n      \"calories\": 14,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 30\n}",
+  "latency_ms": 8532,
+  "parsed": {
+    "items": [
+      {
+        "name": "strawberries",
+        "usda_query": "raw strawberries",
+        "grams": 50,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "raw blueberries",
+        "grams": 25,
+        "calories": 14,
+        "protein_g": 0.2,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 30
+  }
+}

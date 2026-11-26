@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563304925",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cbf9c2c67be5191c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1148,
+    "reasoning_tokens": 1007,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10553,
+    "ai_credits": 0.54105
+  },
+  "timestamp": "2026-11-25T00:20:42.973Z",
+  "raw_text": "{\"items\": [{\"name\": \"roasted seasoned chicken\", \"usda_query\": \"chicken meat and skin cooked roasted\", \"grams\": 230, \"calories\": 541, \"protein_g\": 62, \"carbs_g\": 1, \"fat_g\": 31}, {\"name\": \"braised beef pieces\", \"usda_query\": \"beef stew meat braised\", \"grams\": 60, \"calories\": 132, \"protein_g\": 16, \"carbs_g\": 1, \"fat_g\": 7}], \"total_calories\": 673}",
+  "latency_ms": 11689,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted seasoned chicken",
+        "usda_query": "chicken meat and skin cooked roasted",
+        "grams": 230,
+        "calories": 541,
+        "protein_g": 62,
+        "carbs_g": 1,
+        "fat_g": 31
+      },
+      {
+        "name": "braised beef pieces",
+        "usda_query": "beef stew meat braised",
+        "grams": 60,
+        "calories": 132,
+        "protein_g": 16,
+        "carbs_g": 1,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 673
+  }
+}

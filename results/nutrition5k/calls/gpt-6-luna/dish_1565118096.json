@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565118096",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "496490869f68d902",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 989,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8755,
+    "ai_credits": 0.05693
+  },
+  "timestamp": "2026-11-25T00:31:24.807Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"cheese pizza\",\n      \"grams\": 110,\n      \"calories\": 290,\n      \"protein_g\": 13,\n      \"carbs_g\": 36,\n      \"fat_g\": 11\n    },\n    {\n      \"name\": \"cooked chicken\",\n      \"usda_query\": \"chicken breast cooked roasted\",\n      \"grams\": 45,\n      \"calories\": 74,\n      \"protein_g\": 14,\n      \"carbs_g\": 0,\n      \"fat_g\": 2\n    },\n    {\n      \"name\": \"cooked rice\",\n      \"usda_query\": \"white rice cooked\",\n      \"grams\": 90,\n      \"calories\": 117,\n      \"protein_g\": 2,\n      \"carbs_g\": 25,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"shredded carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 55,\n      \"calories\": 23,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomatoes raw\",\n      \"grams\": 50,\n      \"calories\": 9,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"green pepper\",\n      \"usda_query\": \"green bell pepper raw\",\n      \"grams\": 30,\n      \"calories\": 6,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 40,\n      \"calories\": 20,\n      \"protein_g\": 0,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 539\n}",
+  "latency_ms": 9884,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "cheese pizza",
+        "grams": 110,
+        "calories": 290,
+        "protein_g": 13,
+        "carbs_g": 36,
+        "fat_g": 11
+      },
+      {
+        "name": "cooked chicken",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 45,
+        "calories": 74,
+        "protein_g": 14,
+        "carbs_g": 0,
+        "fat_g": 2
+      },
+      {
+        "name": "cooked rice",
+        "usda_query": "white rice cooked",
+        "grams": 90,
+        "calories": 117,
+        "protein_g": 2,
+        "carbs_g": 25,
+        "fat_g": 0
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 55,
+        "calories": 23,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes raw",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "green pepper",
+        "usda_query": "green bell pepper raw",
+        "grams": 30,
+        "calories": 6,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 40,
+        "calories": 20,
+        "protein_g": 0,
+        "carbs_g": 5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 539
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562788760",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9629326d7b2f34fb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1138,
+    "reasoning_tokens": 918,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14952,
+    "ai_credits": 0.03219
+  },
+  "timestamp": "2026-11-25T00:38:30.401Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded fried chicken\",\n      \"usda_query\": \"chicken breast breaded fried\",\n      \"grams\": 180,\n      \"calories\": 477,\n      \"protein_g\": 39,\n      \"carbs_g\": 27,\n      \"fat_g\": 23\n    },\n    {\n      \"name\": \"fried potato pieces\",\n      \"usda_query\": \"potatoes fried\",\n      \"grams\": 100,\n      \"calories\": 312,\n      \"protein_g\": 4,\n      \"carbs_g\": 35,\n      \"fat_g\": 17\n    },\n    {\n      \"name\": \"green vegetable garnish\",\n      \"usda_query\": \"vegetable garnish\",\n      \"grams\": 8,\n      \"calories\": 3,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 792\n}",
+  "latency_ms": 16097,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded fried chicken",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 180,
+        "calories": 477,
+        "protein_g": 39,
+        "carbs_g": 27,
+        "fat_g": 23
+      },
+      {
+        "name": "fried potato pieces",
+        "usda_query": "potatoes fried",
+        "grams": 100,
+        "calories": 312,
+        "protein_g": 4,
+        "carbs_g": 35,
+        "fat_g": 17
+      },
+      {
+        "name": "green vegetable garnish",
+        "usda_query": "vegetable garnish",
+        "grams": 8,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 792
+  }
+}

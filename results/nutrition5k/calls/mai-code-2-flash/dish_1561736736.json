@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561736736",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd9b43396e19be3d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1008,
+    "reasoning_tokens": 845,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12324,
+    "ai_credits": 0.02894
+  },
+  "timestamp": "2026-11-25T00:30:55.240Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"crispy bacon\",\n      \"usda_query\": \"bacon pan fried\",\n      \"grams\": 70,\n      \"calories\": 378,\n      \"protein_g\": 25.93,\n      \"carbs_g\": 1,\n      \"fat_g\": 29.4\n    },\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"eggs scrambled\",\n      \"grams\": 90,\n      \"calories\": 134,\n      \"protein_g\": 8.99,\n      \"carbs_g\": 1.44,\n      \"fat_g\": 9.98\n    }\n  ],\n  \"total_calories\": 512\n}",
+  "latency_ms": 13456,
+  "parsed": {
+    "items": [
+      {
+        "name": "crispy bacon",
+        "usda_query": "bacon pan fried",
+        "grams": 70,
+        "calories": 378,
+        "protein_g": 25.93,
+        "carbs_g": 1,
+        "fat_g": 29.4
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "eggs scrambled",
+        "grams": 90,
+        "calories": 134,
+        "protein_g": 8.99,
+        "carbs_g": 1.44,
+        "fat_g": 9.98
+      }
+    ],
+    "total_calories": 512
+  }
+}

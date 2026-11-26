@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640227",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e20f95e7348f2c77",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 823,
+    "reasoning_tokens": 522,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4206,
+    "ai_credits": 0.0533525
+  },
+  "timestamp": "2026-11-25T00:39:39.236Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza slice\",\"usda_query\":\"pizza cheese regular crust\",\"grams\":100,\"calories\":285,\"protein_g\":12,\"carbs_g\":35,\"fat_g\":10},{\"name\":\"pepperoni pizza slice\",\"usda_query\":\"pizza meat and pepperoni regular crust\",\"grams\":110,\"calories\":310,\"protein_g\":13,\"carbs_g\":34,\"fat_g\":14},{\"name\":\"green bell pepper raw\",\"usda_query\":\"peppers sweet green raw\",\"grams\":50,\"calories\":15,\"protein_g\":0.5,\"carbs_g\":3.7,\"fat_g\":0.1},{\"name\":\"red bell pepper raw\",\"usda_query\":\"peppers sweet red raw\",\"grams\":40,\"calories\":12,\"protein_g\":0.4,\"carbs_g\":2.5,\"fat_g\":0.1}],\"total_calories\":622}",
+  "latency_ms": 5067,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza slice",
+        "usda_query": "pizza cheese regular crust",
+        "grams": 100,
+        "calories": 285,
+        "protein_g": 12,
+        "carbs_g": 35,
+        "fat_g": 10
+      },
+      {
+        "name": "pepperoni pizza slice",
+        "usda_query": "pizza meat and pepperoni regular crust",
+        "grams": 110,
+        "calories": 310,
+        "protein_g": 13,
+        "carbs_g": 34,
+        "fat_g": 14
+      },
+      {
+        "name": "green bell pepper raw",
+        "usda_query": "peppers sweet green raw",
+        "grams": 50,
+        "calories": 15,
+        "protein_g": 0.5,
+        "carbs_g": 3.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper raw",
+        "usda_query": "peppers sweet red raw",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 0.4,
+        "carbs_g": 2.5,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 622
+  }
+}

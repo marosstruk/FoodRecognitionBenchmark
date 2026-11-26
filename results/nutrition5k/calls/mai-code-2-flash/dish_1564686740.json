@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564686740",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "02d3592a5fcf634b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1586,
+    "reasoning_tokens": 1104,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15686,
+    "ai_credits": 0.04339
+  },
+  "timestamp": "2026-11-25T00:35:35.563Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"glazed sliced meatloaf\",\n      \"usda_query\": \"meatloaf\",\n      \"grams\": 190,\n      \"calories\": 480,\n      \"protein_g\": 31,\n      \"carbs_g\": 21,\n      \"fat_g\": 29\n    },\n    {\n      \"name\": \"barbecue or tomato glaze\",\n      \"usda_query\": \"barbecue sauce\",\n      \"grams\": 25,\n      \"calories\": 70,\n      \"protein_g\": 1,\n      \"carbs_g\": 17,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce salad greens\",\n      \"grams\": 70,\n      \"calories\": 14,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"croutons\",\n      \"usda_query\": \"croutons\",\n      \"grams\": 20,\n      \"calories\": 84,\n      \"protein_g\": 2,\n      \"carbs_g\": 12,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes cherry\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 20,\n      \"calories\": 29,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"salad dressing\",\n      \"usda_query\": \"balsamic vinaigrette\",\n      \"grams\": 15,\n      \"calories\": 60,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 742\n}",
+  "latency_ms": 17048,
+  "parsed": {
+    "items": [
+      {
+        "name": "glazed sliced meatloaf",
+        "usda_query": "meatloaf",
+        "grams": 190,
+        "calories": 480,
+        "protein_g": 31,
+        "carbs_g": 21,
+        "fat_g": 29
+      },
+      {
+        "name": "barbecue or tomato glaze",
+        "usda_query": "barbecue sauce",
+        "grams": 25,
+        "calories": 70,
+        "protein_g": 1,
+        "carbs_g": 17,
+        "fat_g": 0
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce salad greens",
+        "grams": 70,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons",
+        "grams": 20,
+        "calories": 84,
+        "protein_g": 2,
+        "carbs_g": 12,
+        "fat_g": 3
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "olives",
+        "usda_query": "olives ripe canned",
+        "grams": 20,
+        "calories": 29,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 3
+      },
+      {
+        "name": "salad dressing",
+        "usda_query": "balsamic vinaigrette",
+        "grams": 15,
+        "calories": 60,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 742
+  }
+}

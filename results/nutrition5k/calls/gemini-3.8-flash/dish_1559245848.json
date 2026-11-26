@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559245848",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d0eb2c58a89d3a92",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 531,
+    "reasoning_tokens": 424,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6961,
+    "ai_credits": 0.309675
+  },
+  "timestamp": "2026-11-25T00:14:03.246Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"tangerine\",\n      \"usda_query\": \"tangerine raw\",\n      \"grams\": 88,\n      \"calories\": 47,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 11.7,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 47\n}",
+  "latency_ms": 8136,
+  "parsed": {
+    "items": [
+      {
+        "name": "tangerine",
+        "usda_query": "tangerine raw",
+        "grams": 88,
+        "calories": 47,
+        "protein_g": 0.7,
+        "carbs_g": 11.7,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 47
+  }
+}

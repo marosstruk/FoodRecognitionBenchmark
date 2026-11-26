@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561665378",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f032c36f5c8e156f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 352,
+    "reasoning_tokens": 257,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5244,
+    "ai_credits": 0.02508
+  },
+  "timestamp": "2026-11-25T00:17:31.264Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"sweet corn kernels\",\n      \"usda_query\": \"corn sweet cooked kernels\",\n      \"grams\": 25,\n      \"calories\": 24,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 24\n}",
+  "latency_ms": 6596,
+  "parsed": {
+    "items": [
+      {
+        "name": "sweet corn kernels",
+        "usda_query": "corn sweet cooked kernels",
+        "grams": 25,
+        "calories": 24,
+        "protein_g": 0.9,
+        "carbs_g": 5.3,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 24
+  }
+}

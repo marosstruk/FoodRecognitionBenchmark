@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561392710",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ab88eca2d3038c90",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 293,
+    "reasoning_tokens": 232,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4801,
+    "ai_credits": 0.011065
+  },
+  "timestamp": "2026-11-25T00:11:26.030Z",
+  "raw_text": "{\"items\":[{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":180,\"calories\":54,\"protein_g\":1.1,\"carbs_g\":13.6,\"fat_g\":0.3}],\"total_calories\":54}",
+  "latency_ms": 5966,
+  "parsed": {
+    "items": [
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 180,
+        "calories": 54,
+        "protein_g": 1.1,
+        "carbs_g": 13.6,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 54
+  }
+}

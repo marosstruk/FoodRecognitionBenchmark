@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567022180",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "402e4f177be49d46",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 941,
+    "reasoning_tokens": 737,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9124,
+    "ai_credits": 0.463425
+  },
+  "timestamp": "2026-11-25T00:13:34.643Z",
+  "raw_text": "{\"items\": [{\"name\": \"shredded carrots\", \"usda_query\": \"carrots raw\", \"grams\": 50, \"calories\": 21, \"protein_g\": 0.5, \"carbs_g\": 4.8, \"fat_g\": 0.1}, {\"name\": \"sliced bell peppers\", \"usda_query\": \"peppers sweet bell raw\", \"grams\": 40, \"calories\": 10, \"protein_g\": 0.4, \"carbs_g\": 2.2, \"fat_g\": 0.1}, {\"name\": \"sliced onion\", \"usda_query\": \"onions raw\", \"grams\": 5, \"calories\": 2, \"protein_g\": 0.1, \"carbs_g\": 0.5, \"fat_g\": 0.0}], \"total_calories\": 33}",
+  "latency_ms": 10194,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw",
+        "grams": 50,
+        "calories": 21,
+        "protein_g": 0.5,
+        "carbs_g": 4.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sliced bell peppers",
+        "usda_query": "peppers sweet bell raw",
+        "grams": 40,
+        "calories": 10,
+        "protein_g": 0.4,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sliced onion",
+        "usda_query": "onions raw",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 33
+  }
+}

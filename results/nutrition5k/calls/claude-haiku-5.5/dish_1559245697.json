@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559245697",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "470f1cc61fc4346f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 846,
+    "reasoning_tokens": 583,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4110,
+    "ai_credits": 0.0545025
+  },
+  "timestamp": "2026-11-25T00:22:23.058Z",
+  "raw_text": "{\"items\":[{\"name\":\"raw spinach\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"raw carrot shreds\",\"usda_query\":\"carrots raw\",\"grams\":15,\"calories\":6,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":0},{\"name\":\"cooked carrot slices\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":120,\"calories\":42,\"protein_g\":1,\"carbs_g\":10,\"fat_g\":0},{\"name\":\"pear\",\"usda_query\":\"pears raw\",\"grams\":166,\"calories\":95,\"protein_g\":1,\"carbs_g\":25,\"fat_g\":0}],\"total_calories\":157}",
+  "latency_ms": 5263,
+  "parsed": {
+    "items": [
+      {
+        "name": "raw spinach",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "raw carrot shreds",
+        "usda_query": "carrots raw",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "cooked carrot slices",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 1,
+        "carbs_g": 10,
+        "fat_g": 0
+      },
+      {
+        "name": "pear",
+        "usda_query": "pears raw",
+        "grams": 166,
+        "calories": 95,
+        "protein_g": 1,
+        "carbs_g": 25,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 157
+  }
+}

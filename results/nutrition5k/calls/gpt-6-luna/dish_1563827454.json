@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563827454",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1e397cd9a9f7b51a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 768,
+    "reasoning_tokens": 390,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6743,
+    "ai_credits": 0.04588
+  },
+  "timestamp": "2026-11-25T00:12:23.678Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Leaf lettuce\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 65,\n      \"calories\": 10,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Boiled potato\",\n      \"usda_query\": \"potatoes boiled cooked\",\n      \"grams\": 100,\n      \"calories\": 87,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 20.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 35,\n      \"calories\": 5,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Chicken pieces\",\n      \"usda_query\": \"chicken breast cooked roasted\",\n      \"grams\": 40,\n      \"calories\": 66,\n      \"protein_g\": 12.4,\n      \"carbs_g\": 0,\n      \"fat_g\": 1.4\n    },\n    {\n      \"name\": \"Creamy salad dressing\",\n      \"usda_query\": \"creamy salad dressing\",\n      \"grams\": 20,\n      \"calories\": 90,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 9.2\n    }\n  ],\n  \"total_calories\": 258\n}",
+  "latency_ms": 7620,
+  "parsed": {
+    "items": [
+      {
+        "name": "Leaf lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 65,
+        "calories": 10,
+        "protein_g": 0.9,
+        "carbs_g": 1.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Boiled potato",
+        "usda_query": "potatoes boiled cooked",
+        "grams": 100,
+        "calories": 87,
+        "protein_g": 1.9,
+        "carbs_g": 20.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 35,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Chicken pieces",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 40,
+        "calories": 66,
+        "protein_g": 12.4,
+        "carbs_g": 0,
+        "fat_g": 1.4
+      },
+      {
+        "name": "Creamy salad dressing",
+        "usda_query": "creamy salad dressing",
+        "grams": 20,
+        "calories": 90,
+        "protein_g": 0.2,
+        "carbs_g": 1.5,
+        "fat_g": 9.2
+      }
+    ],
+    "total_calories": 258
+  }
+}

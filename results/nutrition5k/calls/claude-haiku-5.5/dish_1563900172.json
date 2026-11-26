@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563900172",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "76cc028ad09b83ec",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 768,
+    "reasoning_tokens": 532,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3876,
+    "ai_credits": 0.0506025
+  },
+  "timestamp": "2026-11-25T00:37:02.078Z",
+  "raw_text": "{\"items\": [{\"name\": \"scrambled eggs\", \"usda_query\": \"egg whole cooked scrambled\", \"grams\": 120, \"calories\": 179, \"protein_g\": 12, \"carbs_g\": 2, \"fat_g\": 13}, {\"name\": \"roasted potatoes\", \"usda_query\": \"potatoes home fried in oil\", \"grams\": 130, \"calories\": 195, \"protein_g\": 3, \"carbs_g\": 29, \"fat_g\": 8}, {\"name\": \"cantaloupe\", \"usda_query\": \"cantaloupe raw\", \"grams\": 140, \"calories\": 48, \"protein_g\": 1, \"carbs_g\": 11, \"fat_g\": 0}], \"total_calories\": 422}",
+  "latency_ms": 5032,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes home fried in oil",
+        "grams": 130,
+        "calories": 195,
+        "protein_g": 3,
+        "carbs_g": 29,
+        "fat_g": 8
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "cantaloupe raw",
+        "grams": 140,
+        "calories": 48,
+        "protein_g": 1,
+        "carbs_g": 11,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 422
+  }
+}

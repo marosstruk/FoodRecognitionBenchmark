@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565727875",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "179b1a1abf7110a0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 885,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7341,
+    "ai_credits": 0.05173
+  },
+  "timestamp": "2026-11-25T00:13:12.418Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed leafy greens\",\n      \"usda_query\": \"lettuce mixed raw\",\n      \"grams\": 55,\n      \"calories\": 8,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"kidney beans\",\n      \"usda_query\": \"kidney beans cooked\",\n      \"grams\": 90,\n      \"calories\": 114,\n      \"protein_g\": 7.8,\n      \"carbs_g\": 20.5,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"black beans\",\n      \"usda_query\": \"black beans cooked\",\n      \"grams\": 55,\n      \"calories\": 73,\n      \"protein_g\": 4.9,\n      \"carbs_g\": 13,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"tofu\",\n      \"usda_query\": \"tofu firm\",\n      \"grams\": 70,\n      \"calories\": 101,\n      \"protein_g\": 12.1,\n      \"carbs_g\": 2,\n      \"fat_g\": 6.1\n    }\n  ],\n  \"total_calories\": 331\n}",
+  "latency_ms": 8499,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "lettuce mixed raw",
+        "grams": 55,
+        "calories": 8,
+        "protein_g": 0.8,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "kidney beans",
+        "usda_query": "kidney beans cooked",
+        "grams": 90,
+        "calories": 114,
+        "protein_g": 7.8,
+        "carbs_g": 20.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "black beans",
+        "usda_query": "black beans cooked",
+        "grams": 55,
+        "calories": 73,
+        "protein_g": 4.9,
+        "carbs_g": 13,
+        "fat_g": 0.3
+      },
+      {
+        "name": "tofu",
+        "usda_query": "tofu firm",
+        "grams": 70,
+        "calories": 101,
+        "protein_g": 12.1,
+        "carbs_g": 2,
+        "fat_g": 6.1
+      }
+    ],
+    "total_calories": 331
+  }
+}

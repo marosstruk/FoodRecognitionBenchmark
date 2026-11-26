@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564083534",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "38a60655b3738113",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1202,
+    "reasoning_tokens": 829,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12604,
+    "ai_credits": 0.03379
+  },
+  "timestamp": "2026-11-25T00:29:55.445Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"peppers sweet red cooked\",\n      \"grams\": 70,\n      \"calories\": 22,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 4.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"yellow bell pepper\",\n      \"usda_query\": \"peppers sweet yellow cooked\",\n      \"grams\": 45,\n      \"calories\": 23,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"peppers sweet green cooked\",\n      \"grams\": 40,\n      \"calories\": 11,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"white onion\",\n      \"usda_query\": \"onions cooked\",\n      \"grams\": 55,\n      \"calories\": 24,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 5,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 125\n}",
+  "latency_ms": 13725,
+  "parsed": {
+    "items": [
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red cooked",
+        "grams": 70,
+        "calories": 22,
+        "protein_g": 0.7,
+        "carbs_g": 4.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "peppers sweet yellow cooked",
+        "grams": 45,
+        "calories": 23,
+        "protein_g": 0.7,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green cooked",
+        "grams": 40,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "white onion",
+        "usda_query": "onions cooked",
+        "grams": 55,
+        "calories": 24,
+        "protein_g": 0.6,
+        "carbs_g": 5.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 125
+  }
+}

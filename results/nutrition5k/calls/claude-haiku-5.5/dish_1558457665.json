@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558457665",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "31a60e01e6a7b630",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1058,
+    "reasoning_tokens": 679,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5049,
+    "ai_credits": 0.0651025
+  },
+  "timestamp": "2026-11-25T00:29:35.397Z",
+  "raw_text": "{\"items\":[{\"name\":\"cantaloupe melon\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":150,\"calories\":51,\"protein_g\":1.2,\"carbs_g\":12.3,\"fat_g\":0.3},{\"name\":\"roasted potato\",\"usda_query\":\"potatoes roasted home-prepared flesh and skin cooked with oil\",\"grams\":120,\"calories\":130,\"protein_g\":2.5,\"carbs_g\":22,\"fat_g\":4},{\"name\":\"cauliflower\",\"usda_query\":\"cauliflower cooked boiled drained without salt\",\"grams\":100,\"calories\":30,\"protein_g\":2,\"carbs_g\":5,\"fat_g\":0.3},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":100,\"calories\":160,\"protein_g\":11,\"carbs_g\":1.5,\"fat_g\":12},{\"name\":\"cooked meat pieces\",\"usda_query\":\"chicken thigh meat only roasted\",\"grams\":90,\"calories\":190,\"protein_g\":20,\"carbs_g\":3,\"fat_g\":11}],\"total_calories\":561}",
+  "latency_ms": 5881,
+  "parsed": {
+    "items": [
+      {
+        "name": "cantaloupe melon",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 1.2,
+        "carbs_g": 12.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted home-prepared flesh and skin cooked with oil",
+        "grams": 120,
+        "calories": 130,
+        "protein_g": 2.5,
+        "carbs_g": 22,
+        "fat_g": 4
+      },
+      {
+        "name": "cauliflower",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 100,
+        "calories": 30,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 100,
+        "calories": 160,
+        "protein_g": 11,
+        "carbs_g": 1.5,
+        "fat_g": 12
+      },
+      {
+        "name": "cooked meat pieces",
+        "usda_query": "chicken thigh meat only roasted",
+        "grams": 90,
+        "calories": 190,
+        "protein_g": 20,
+        "carbs_g": 3,
+        "fat_g": 11
+      }
+    ],
+    "total_calories": 561
+  }
+}

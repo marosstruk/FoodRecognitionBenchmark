@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565021141",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "60bf1972a7172b95",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1456,
+    "reasoning_tokens": 1078,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7172,
+    "ai_credits": 0.0850025
+  },
+  "timestamp": "2026-11-25T00:24:46.454Z",
+  "raw_text": "{\"items\":[{\"name\":\"waffle, plain\",\"usda_query\":\"waffles plain prepared from recipe\",\"grams\":130,\"calories\":378,\"protein_g\":10,\"carbs_g\":43,\"fat_g\":18},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole scrambled cooked with milk and butter\",\"grams\":90,\"calories\":134,\"protein_g\":9,\"carbs_g\":1.5,\"fat_g\":10},{\"name\":\"broccoli, cooked\",\"usda_query\":\"broccoli cooked boiled drained without salt\",\"grams\":40,\"calories\":14,\"protein_g\":1,\"carbs_g\":2.9,\"fat_g\":0.2},{\"name\":\"feta cheese\",\"usda_query\":\"cheese feta\",\"grams\":50,\"calories\":132,\"protein_g\":7.1,\"carbs_g\":2,\"fat_g\":10.7},{\"name\":\"pork sausage, cooked\",\"usda_query\":\"pork sausage link fresh cooked pan-fried\",\"grams\":60,\"calories\":203,\"protein_g\":11.4,\"carbs_g\":0.6,\"fat_g\":16.8}],\"total_calories\":861}",
+  "latency_ms": 8049,
+  "parsed": {
+    "items": [
+      {
+        "name": "waffle, plain",
+        "usda_query": "waffles plain prepared from recipe",
+        "grams": 130,
+        "calories": 378,
+        "protein_g": 10,
+        "carbs_g": 43,
+        "fat_g": 18
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole scrambled cooked with milk and butter",
+        "grams": 90,
+        "calories": 134,
+        "protein_g": 9,
+        "carbs_g": 1.5,
+        "fat_g": 10
+      },
+      {
+        "name": "broccoli, cooked",
+        "usda_query": "broccoli cooked boiled drained without salt",
+        "grams": 40,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 2.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "feta cheese",
+        "usda_query": "cheese feta",
+        "grams": 50,
+        "calories": 132,
+        "protein_g": 7.1,
+        "carbs_g": 2,
+        "fat_g": 10.7
+      },
+      {
+        "name": "pork sausage, cooked",
+        "usda_query": "pork sausage link fresh cooked pan-fried",
+        "grams": 60,
+        "calories": 203,
+        "protein_g": 11.4,
+        "carbs_g": 0.6,
+        "fat_g": 16.8
+      }
+    ],
+    "total_calories": 861
+  }
+}

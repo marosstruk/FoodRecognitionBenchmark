@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565884766",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f6ad3941ced48465",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 848,
+    "reasoning_tokens": 580,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9982,
+    "ai_credits": 0.42855
+  },
+  "timestamp": "2026-11-25T00:26:54.081Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"egg whites\",\n      \"usda_query\": \"egg white cooked\",\n      \"grams\": 150,\n      \"calories\": 78,\n      \"protein_g\": 16.4,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"waffle\",\n      \"usda_query\": \"waffle plain\",\n      \"grams\": 50,\n      \"calories\": 145,\n      \"protein_g\": 4,\n      \"carbs_g\": 20.5,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"watermelon cubes\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 70,\n      \"calories\": 21,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 244\n}",
+  "latency_ms": 10854,
+  "parsed": {
+    "items": [
+      {
+        "name": "egg whites",
+        "usda_query": "egg white cooked",
+        "grams": 150,
+        "calories": 78,
+        "protein_g": 16.4,
+        "carbs_g": 1.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "waffle",
+        "usda_query": "waffle plain",
+        "grams": 50,
+        "calories": 145,
+        "protein_g": 4,
+        "carbs_g": 20.5,
+        "fat_g": 5
+      },
+      {
+        "name": "watermelon cubes",
+        "usda_query": "watermelon raw",
+        "grams": 70,
+        "calories": 21,
+        "protein_g": 0.4,
+        "carbs_g": 5.3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 244
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558636980",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "150af38102959cf7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1153,
+    "reasoning_tokens": 775,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10605,
+    "ai_credits": 0.06513
+  },
+  "timestamp": "2026-11-25T00:28:51.796Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Apple\",\n      \"usda_query\": \"apple raw with skin\",\n      \"grams\": 160,\n      \"calories\": 83,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 22.1,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 210,\n      \"calories\": 38,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 8.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Grapes\",\n      \"usda_query\": \"grapes raw\",\n      \"grams\": 115,\n      \"calories\": 79,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 20.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Dried apricots\",\n      \"usda_query\": \"apricots dried\",\n      \"grams\": 90,\n      \"calories\": 217,\n      \"protein_g\": 3.1,\n      \"carbs_g\": 56.3,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"Almonds\",\n      \"usda_query\": \"almonds whole raw\",\n      \"grams\": 25,\n      \"calories\": 145,\n      \"protein_g\": 5.3,\n      \"carbs_g\": 5.4,\n      \"fat_g\": 12.5\n    }\n  ],\n  \"total_calories\": 562\n}",
+  "latency_ms": 11522,
+  "parsed": {
+    "items": [
+      {
+        "name": "Apple",
+        "usda_query": "apple raw with skin",
+        "grams": 160,
+        "calories": 83,
+        "protein_g": 0.4,
+        "carbs_g": 22.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 210,
+        "calories": 38,
+        "protein_g": 1.9,
+        "carbs_g": 8.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Grapes",
+        "usda_query": "grapes raw",
+        "grams": 115,
+        "calories": 79,
+        "protein_g": 0.8,
+        "carbs_g": 20.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Dried apricots",
+        "usda_query": "apricots dried",
+        "grams": 90,
+        "calories": 217,
+        "protein_g": 3.1,
+        "carbs_g": 56.3,
+        "fat_g": 0.5
+      },
+      {
+        "name": "Almonds",
+        "usda_query": "almonds whole raw",
+        "grams": 25,
+        "calories": 145,
+        "protein_g": 5.3,
+        "carbs_g": 5.4,
+        "fat_g": 12.5
+      }
+    ],
+    "total_calories": 562
+  }
+}

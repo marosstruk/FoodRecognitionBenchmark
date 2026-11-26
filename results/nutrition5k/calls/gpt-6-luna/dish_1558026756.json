@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558026756",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74dc993014541c0b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 570,
+    "reasoning_tokens": 329,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6938,
+    "ai_credits": 0.03598
+  },
+  "timestamp": "2026-11-25T00:35:48.306Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 30,\n      \"calories\": 162,\n      \"protein_g\": 11.1,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 12.6\n    },\n    {\n      \"name\": \"cantaloupe\",\n      \"usda_query\": \"cantaloupe raw\",\n      \"grams\": 100,\n      \"calories\": 34,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"honeydew melon\",\n      \"usda_query\": \"honeydew melon raw\",\n      \"grams\": 100,\n      \"calories\": 36,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 9.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 232\n}",
+  "latency_ms": 8050,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 30,
+        "calories": 162,
+        "protein_g": 11.1,
+        "carbs_g": 0.5,
+        "fat_g": 12.6
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "cantaloupe raw",
+        "grams": 100,
+        "calories": 34,
+        "protein_g": 0.8,
+        "carbs_g": 8.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "honeydew melon",
+        "usda_query": "honeydew melon raw",
+        "grams": 100,
+        "calories": 36,
+        "protein_g": 0.5,
+        "carbs_g": 9.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 232
+  }
+}

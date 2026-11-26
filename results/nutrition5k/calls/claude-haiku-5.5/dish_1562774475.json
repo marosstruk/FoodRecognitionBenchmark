@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562774475",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39935a00892ed664",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 700,
+    "reasoning_tokens": 546,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4230,
+    "ai_credits": 0.0472025
+  },
+  "timestamp": "2026-11-25T00:14:48.635Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potato pieces\",\"usda_query\":\"potatoes roasted in oil\",\"grams\":160,\"calories\":240,\"protein_g\":4,\"carbs_g\":35,\"fat_g\":10},{\"name\":\"cooked pork sausage\",\"usda_query\":\"pork sausage link cooked pan-fried\",\"grams\":75,\"calories\":225,\"protein_g\":11,\"carbs_g\":1,\"fat_g\":20}],\"total_calories\":465}",
+  "latency_ms": 5352,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato pieces",
+        "usda_query": "potatoes roasted in oil",
+        "grams": 160,
+        "calories": 240,
+        "protein_g": 4,
+        "carbs_g": 35,
+        "fat_g": 10
+      },
+      {
+        "name": "cooked pork sausage",
+        "usda_query": "pork sausage link cooked pan-fried",
+        "grams": 75,
+        "calories": 225,
+        "protein_g": 11,
+        "carbs_g": 1,
+        "fat_g": 20
+      }
+    ],
+    "total_calories": 465
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562168365",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "30f5e8847f5c973e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 357,
+    "reasoning_tokens": 263,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6827,
+    "ai_credits": 0.02533
+  },
+  "timestamp": "2026-11-25T00:35:13.135Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 100,\n      \"calories\": 50,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 13.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 50\n}",
+  "latency_ms": 7945,
+  "parsed": {
+    "items": [
+      {
+        "name": "Pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 100,
+        "calories": 50,
+        "protein_g": 0.5,
+        "carbs_g": 13.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 50
+  }
+}

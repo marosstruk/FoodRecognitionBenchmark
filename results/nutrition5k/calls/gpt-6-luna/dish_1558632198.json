@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558632198",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6af0c90856319297",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 468,
+    "reasoning_tokens": 306,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6854,
+    "ai_credits": 0.03088
+  },
+  "timestamp": "2026-11-25T00:12:05.054Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 30,\n      \"calories\": 5,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"corn\",\n      \"usda_query\": \"sweet yellow corn cooked\",\n      \"grams\": 2,\n      \"calories\": 2,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 7\n}",
+  "latency_ms": 7727,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.6,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "corn",
+        "usda_query": "sweet yellow corn cooked",
+        "grams": 2,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.4,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 7
+  }
+}

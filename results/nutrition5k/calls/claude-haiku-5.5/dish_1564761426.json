@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564761426",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8390b47c8caf980b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1025,
+    "reasoning_tokens": 790,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5578,
+    "ai_credits": 0.0634525
+  },
+  "timestamp": "2026-11-25T00:20:31.277Z",
+  "raw_text": "{\"items\":[{\"name\":\"feta cheese crumbled\",\"usda_query\":\"cheese feta\",\"grams\":80,\"calories\":211,\"protein_g\":11.4,\"carbs_g\":3.3,\"fat_g\":17.0},{\"name\":\"fried rice with vegetables\",\"usda_query\":\"rice fried with vegetables\",\"grams\":140,\"calories\":228,\"protein_g\":5.6,\"carbs_g\":33.6,\"fat_g\":7.7},{\"name\":\"sweet corn kernels\",\"usda_query\":\"corn sweet yellow cooked boiled\",\"grams\":25,\"calories\":24,\"protein_g\":0.8,\"carbs_g\":5.3,\"fat_g\":0.3}],\"total_calories\":463}",
+  "latency_ms": 6721,
+  "parsed": {
+    "items": [
+      {
+        "name": "feta cheese crumbled",
+        "usda_query": "cheese feta",
+        "grams": 80,
+        "calories": 211,
+        "protein_g": 11.4,
+        "carbs_g": 3.3,
+        "fat_g": 17
+      },
+      {
+        "name": "fried rice with vegetables",
+        "usda_query": "rice fried with vegetables",
+        "grams": 140,
+        "calories": 228,
+        "protein_g": 5.6,
+        "carbs_g": 33.6,
+        "fat_g": 7.7
+      },
+      {
+        "name": "sweet corn kernels",
+        "usda_query": "corn sweet yellow cooked boiled",
+        "grams": 25,
+        "calories": 24,
+        "protein_g": 0.8,
+        "carbs_g": 5.3,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 463
+  }
+}

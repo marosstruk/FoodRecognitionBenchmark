@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060703",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "41ab440adb8f41a2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1774,
+    "reasoning_tokens": 1085,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 18445,
+    "ai_credits": 0.7758
+  },
+  "timestamp": "2026-11-25T00:25:01.651Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 80,\n      \"calories\": 40,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 10.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"steamed bok choy\",\n      \"usda_query\": \"bok choy cooked boiled drained\",\n      \"grams\": 50,\n      \"calories\": 6,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"spinach salad with vinaigrette\",\n      \"usda_query\": \"spinach salad with dressing\",\n      \"grams\": 55,\n      \"calories\": 60,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 5.5\n    },\n    {\n      \"name\": \"roasted Brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked roasted\",\n      \"grams\": 40,\n      \"calories\": 25,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 4,\n      \"fat_g\": 0.8\n    },\n    {\n      \"name\": \"cheese pizza slice\",\n      \"usda_query\": \"cheese pizza regular crust\",\n      \"grams\": 75,\n      \"calories\": 200,\n      \"protein_g\": 8.5,\n      \"carbs_g\": 24,\n      \"fat_g\": 8\n    },\n    {\n      \"name\": \"penne pasta in sauce\",\n      \"usda_query\": \"pasta with sauce\",\n      \"grams\": 60,\n      \"calories\": 90,\n      \"protein_g\": 3.5,\n      \"carbs_g\": 14,\n      \"fat_g\": 2.5\n    },\n    {\n      \"name\": \"baked tofu cubes\",\n      \"usda_query\": \"tofu cooked\",\n      \"grams\": 60,\n      \"calories\": 70,\n      \"protein_g\": 7.5,\n      \"carbs_g\": 2,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"baked crusted fish fillet\",\n      \"usda_query\": \"fish fillet baked\",\n      \"grams\": 80,\n      \"calories\": 140,\n      \"protein_g\": 16,\n      \"carbs_g\": 3,\n      \"fat_g\": 7\n    }\n  ],\n  \"total_calories\": 631\n}",
+  "latency_ms": 19328,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 80,
+        "calories": 40,
+        "protein_g": 0.4,
+        "carbs_g": 10.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "steamed bok choy",
+        "usda_query": "bok choy cooked boiled drained",
+        "grams": 50,
+        "calories": 6,
+        "protein_g": 0.8,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "spinach salad with vinaigrette",
+        "usda_query": "spinach salad with dressing",
+        "grams": 55,
+        "calories": 60,
+        "protein_g": 1.5,
+        "carbs_g": 2.2,
+        "fat_g": 5.5
+      },
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "brussels sprouts cooked roasted",
+        "grams": 40,
+        "calories": 25,
+        "protein_g": 1.5,
+        "carbs_g": 4,
+        "fat_g": 0.8
+      },
+      {
+        "name": "cheese pizza slice",
+        "usda_query": "cheese pizza regular crust",
+        "grams": 75,
+        "calories": 200,
+        "protein_g": 8.5,
+        "carbs_g": 24,
+        "fat_g": 8
+      },
+      {
+        "name": "penne pasta in sauce",
+        "usda_query": "pasta with sauce",
+        "grams": 60,
+        "calories": 90,
+        "protein_g": 3.5,
+        "carbs_g": 14,
+        "fat_g": 2.5
+      },
+      {
+        "name": "baked tofu cubes",
+        "usda_query": "tofu cooked",
+        "grams": 60,
+        "calories": 70,
+        "protein_g": 7.5,
+        "carbs_g": 2,
+        "fat_g": 4
+      },
+      {
+        "name": "baked crusted fish fillet",
+        "usda_query": "fish fillet baked",
+        "grams": 80,
+        "calories": 140,
+        "protein_g": 16,
+        "carbs_g": 3,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 631
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563478751",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "81fae9dc9765a281",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1239,
+    "reasoning_tokens": 804,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12181,
+    "ai_credits": 0.034715
+  },
+  "timestamp": "2026-11-25T00:35:56.623Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"penne pasta\",\n      \"usda_query\": \"pasta penne cooked\",\n      \"grams\": 200,\n      \"calories\": 314,\n      \"protein_g\": 11.2,\n      \"carbs_g\": 63,\n      \"fat_g\": 1.2\n    },\n    {\n      \"name\": \"cooked beef\",\n      \"usda_query\": \"beef cooked\",\n      \"grams\": 80,\n      \"calories\": 204,\n      \"protein_g\": 20,\n      \"carbs_g\": 0,\n      \"fat_g\": 13.6\n    },\n    {\n      \"name\": \"tomato sauce\",\n      \"usda_query\": \"tomato sauce\",\n      \"grams\": 60,\n      \"calories\": 27,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 5.9,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"green bell pepper raw\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"onion\",\n      \"usda_query\": \"onion raw\",\n      \"grams\": 30,\n      \"calories\": 12,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"parsley\",\n      \"usda_query\": \"parsley fresh\",\n      \"grams\": 5,\n      \"calories\": 2,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 564\n}",
+  "latency_ms": 13057,
+  "parsed": {
+    "items": [
+      {
+        "name": "penne pasta",
+        "usda_query": "pasta penne cooked",
+        "grams": 200,
+        "calories": 314,
+        "protein_g": 11.2,
+        "carbs_g": 63,
+        "fat_g": 1.2
+      },
+      {
+        "name": "cooked beef",
+        "usda_query": "beef cooked",
+        "grams": 80,
+        "calories": 204,
+        "protein_g": 20,
+        "carbs_g": 0,
+        "fat_g": 13.6
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce",
+        "grams": 60,
+        "calories": 27,
+        "protein_g": 1.2,
+        "carbs_g": 5.9,
+        "fat_g": 0.3
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "green bell pepper raw",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "onion",
+        "usda_query": "onion raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.8,
+        "fat_g": 0
+      },
+      {
+        "name": "parsley",
+        "usda_query": "parsley fresh",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0.2,
+        "carbs_g": 0.3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 564
+  }
+}

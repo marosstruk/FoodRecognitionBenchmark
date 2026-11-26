@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561481606",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0f9728ecad2e4c23",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1057,
+    "reasoning_tokens": 821,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11465,
+    "ai_credits": 0.030165
+  },
+  "timestamp": "2026-11-25T00:15:56.986Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 100,\n      \"calories\": 149,\n      \"protein_g\": 9.6,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 10.9\n    },\n    {\n      \"name\": \"hash brown potatoes\",\n      \"usda_query\": \"potatoes hash browned\",\n      \"grams\": 140,\n      \"calories\": 342,\n      \"protein_g\": 4.1,\n      \"carbs_g\": 39.2,\n      \"fat_g\": 18.5\n    },\n    {\n      \"name\": \"crispy bacon\",\n      \"usda_query\": \"bacon cooked pan fried\",\n      \"grams\": 75,\n      \"calories\": 351,\n      \"protein_g\": 27.8,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 28.1\n    }\n  ],\n  \"total_calories\": 842\n}",
+  "latency_ms": 12570,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 100,
+        "calories": 149,
+        "protein_g": 9.6,
+        "carbs_g": 1.6,
+        "fat_g": 10.9
+      },
+      {
+        "name": "hash brown potatoes",
+        "usda_query": "potatoes hash browned",
+        "grams": 140,
+        "calories": 342,
+        "protein_g": 4.1,
+        "carbs_g": 39.2,
+        "fat_g": 18.5
+      },
+      {
+        "name": "crispy bacon",
+        "usda_query": "bacon cooked pan fried",
+        "grams": 75,
+        "calories": 351,
+        "protein_g": 27.8,
+        "carbs_g": 1.1,
+        "fat_g": 28.1
+      }
+    ],
+    "total_calories": 842
+  }
+}

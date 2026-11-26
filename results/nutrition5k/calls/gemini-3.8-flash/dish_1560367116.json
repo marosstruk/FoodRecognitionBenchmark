@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367116",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "88f11fc29490022c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 861,
+    "reasoning_tokens": 654,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11111,
+    "ai_credits": 0.433425
+  },
+  "timestamp": "2026-11-25T00:24:01.328Z",
+  "raw_text": "{\"items\": [{\"name\": \"cherry tomatoes\", \"usda_query\": \"cherry tomatoes raw\", \"grams\": 35, \"calories\": 6, \"protein_g\": 0.3, \"carbs_g\": 1.4, \"fat_g\": 0.1}, {\"name\": \"fried tofu\", \"usda_query\": \"fried tofu\", \"grams\": 50, \"calories\": 90, \"protein_g\": 8.5, \"carbs_g\": 2.0, \"fat_g\": 5.5}, {\"name\": \"stir-fried mixed vegetables\", \"usda_query\": \"vegetables stir fry cooked with oil\", \"grams\": 75, \"calories\": 55, \"protein_g\": 1.5, \"carbs_g\": 5.0, \"fat_g\": 3.5}], \"total_calories\": 151}",
+  "latency_ms": 12242,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "cherry tomatoes raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fried tofu",
+        "usda_query": "fried tofu",
+        "grams": 50,
+        "calories": 90,
+        "protein_g": 8.5,
+        "carbs_g": 2,
+        "fat_g": 5.5
+      },
+      {
+        "name": "stir-fried mixed vegetables",
+        "usda_query": "vegetables stir fry cooked with oil",
+        "grams": 75,
+        "calories": 55,
+        "protein_g": 1.5,
+        "carbs_g": 5,
+        "fat_g": 3.5
+      }
+    ],
+    "total_calories": 151
+  }
+}

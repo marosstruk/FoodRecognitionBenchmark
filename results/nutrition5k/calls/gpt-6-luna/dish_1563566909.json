@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563566909",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fd290eccda1f15cf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 920,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7241,
+    "ai_credits": 0.05348
+  },
+  "timestamp": "2026-11-25T00:34:09.591Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Firm tofu\",\n      \"usda_query\": \"tofu firm\",\n      \"grams\": 100,\n      \"calories\": 144,\n      \"protein_g\": 17,\n      \"carbs_g\": 3,\n      \"fat_g\": 9\n    },\n    {\n      \"name\": \"Brown rice\",\n      \"usda_query\": \"rice brown cooked\",\n      \"grams\": 80,\n      \"calories\": 89,\n      \"protein_g\": 2,\n      \"carbs_g\": 18,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"Green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 30,\n      \"calories\": 11,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Carrots\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 35,\n      \"calories\": 12,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 4,\n      \"calories\": 35,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 297\n}",
+  "latency_ms": 8358,
+  "parsed": {
+    "items": [
+      {
+        "name": "Firm tofu",
+        "usda_query": "tofu firm",
+        "grams": 100,
+        "calories": 144,
+        "protein_g": 17,
+        "carbs_g": 3,
+        "fat_g": 9
+      },
+      {
+        "name": "Brown rice",
+        "usda_query": "rice brown cooked",
+        "grams": 80,
+        "calories": 89,
+        "protein_g": 2,
+        "carbs_g": 18,
+        "fat_g": 1
+      },
+      {
+        "name": "Green beans",
+        "usda_query": "green beans cooked",
+        "grams": 30,
+        "calories": 11,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "Carrots",
+        "usda_query": "carrots cooked",
+        "grams": 35,
+        "calories": 12,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "Zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 4,
+        "calories": 35,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 297
+  }
+}

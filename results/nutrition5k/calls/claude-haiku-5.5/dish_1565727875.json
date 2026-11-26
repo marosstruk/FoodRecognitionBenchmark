@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565727875",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "179b1a1abf7110a0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 902,
+    "reasoning_tokens": 543,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4170,
+    "ai_credits": 0.0573025
+  },
+  "timestamp": "2026-11-25T00:13:14.082Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":10,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"broccoli florets steamed\",\"usda_query\":\"broccoli cooked steamed\",\"grams\":70,\"calories\":25,\"protein_g\":2,\"carbs_g\":5,\"fat_g\":0},{\"name\":\"red kidney beans cooked\",\"usda_query\":\"kidney beans red cooked boiled\",\"grams\":80,\"calories\":102,\"protein_g\":7,\"carbs_g\":18,\"fat_g\":0},{\"name\":\"black beans cooked\",\"usda_query\":\"black beans cooked boiled\",\"grams\":60,\"calories\":79,\"protein_g\":5,\"carbs_g\":14,\"fat_g\":0},{\"name\":\"firm tofu cubes\",\"usda_query\":\"tofu raw firm prepared with calcium sulfate\",\"grams\":80,\"calories\":115,\"protein_g\":14,\"carbs_g\":2,\"fat_g\":7}],\"total_calories\":331}",
+  "latency_ms": 5714,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "broccoli florets steamed",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 70,
+        "calories": 25,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "red kidney beans cooked",
+        "usda_query": "kidney beans red cooked boiled",
+        "grams": 80,
+        "calories": 102,
+        "protein_g": 7,
+        "carbs_g": 18,
+        "fat_g": 0
+      },
+      {
+        "name": "black beans cooked",
+        "usda_query": "black beans cooked boiled",
+        "grams": 60,
+        "calories": 79,
+        "protein_g": 5,
+        "carbs_g": 14,
+        "fat_g": 0
+      },
+      {
+        "name": "firm tofu cubes",
+        "usda_query": "tofu raw firm prepared with calcium sulfate",
+        "grams": 80,
+        "calories": 115,
+        "protein_g": 14,
+        "carbs_g": 2,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 331
+  }
+}

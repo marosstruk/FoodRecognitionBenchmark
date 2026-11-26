@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567021831",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f7ec6101a4d4865",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 752,
+    "reasoning_tokens": 541,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4217,
+    "ai_credits": 0.0498025
+  },
+  "timestamp": "2026-11-25T00:19:23.883Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"arugula raw\",\"grams\":60,\"calories\":15,\"protein_g\":1.6,\"carbs_g\":2.2,\"fat_g\":0.4},{\"name\":\"breaded fish fillet\",\"usda_query\":\"fish fillet breaded baked\",\"grams\":120,\"calories\":260,\"protein_g\":22,\"carbs_g\":15,\"fat_g\":12},{\"name\":\"blueberry\",\"usda_query\":\"blueberries raw\",\"grams\":5,\"calories\":3,\"protein_g\":0,\"carbs_g\":0.8,\"fat_g\":0}],\"total_calories\":278}",
+  "latency_ms": 5549,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "arugula raw",
+        "grams": 60,
+        "calories": 15,
+        "protein_g": 1.6,
+        "carbs_g": 2.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "breaded fish fillet",
+        "usda_query": "fish fillet breaded baked",
+        "grams": 120,
+        "calories": 260,
+        "protein_g": 22,
+        "carbs_g": 15,
+        "fat_g": 12
+      },
+      {
+        "name": "blueberry",
+        "usda_query": "blueberries raw",
+        "grams": 5,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 0.8,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 278
+  }
+}

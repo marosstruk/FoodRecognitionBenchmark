@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414342",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "22a4ea6dabd8d346",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1303,
+    "reasoning_tokens": 888,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10249,
+    "ai_credits": 0.07263
+  },
+  "timestamp": "2026-11-25T00:22:43.833Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Roasted potato wedges\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 180,\n      \"calories\": 279,\n      \"protein_g\": 5,\n      \"carbs_g\": 43,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"Shredded cheese\",\n      \"usda_query\": \"cheddar cheese\",\n      \"grams\": 8,\n      \"calories\": 32,\n      \"protein_g\": 2,\n      \"carbs_g\": 0,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"Mixed vegetables\",\n      \"usda_query\": \"tomatoes bell peppers cucumber and red onion\",\n      \"grams\": 90,\n      \"calories\": 30,\n      \"protein_g\": 1,\n      \"carbs_g\": 7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cooked rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 100,\n      \"calories\": 130,\n      \"protein_g\": 3,\n      \"carbs_g\": 28,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Chicken\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 80,\n      \"calories\": 132,\n      \"protein_g\": 25,\n      \"carbs_g\": 0,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"Creamy dressing\",\n      \"usda_query\": \"mayonnaise dressing\",\n      \"grams\": 25,\n      \"calories\": 170,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 19\n    }\n  ],\n  \"total_calories\": 773\n}",
+  "latency_ms": 11359,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted potato wedges",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 180,
+        "calories": 279,
+        "protein_g": 5,
+        "carbs_g": 43,
+        "fat_g": 10
+      },
+      {
+        "name": "Shredded cheese",
+        "usda_query": "cheddar cheese",
+        "grams": 8,
+        "calories": 32,
+        "protein_g": 2,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "Mixed vegetables",
+        "usda_query": "tomatoes bell peppers cucumber and red onion",
+        "grams": 90,
+        "calories": 30,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "Cooked rice",
+        "usda_query": "rice white cooked",
+        "grams": 100,
+        "calories": 130,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 0
+      },
+      {
+        "name": "Chicken",
+        "usda_query": "chicken breast cooked",
+        "grams": 80,
+        "calories": 132,
+        "protein_g": 25,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "Creamy dressing",
+        "usda_query": "mayonnaise dressing",
+        "grams": 25,
+        "calories": 170,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 19
+      }
+    ],
+    "total_calories": 773
+  }
+}

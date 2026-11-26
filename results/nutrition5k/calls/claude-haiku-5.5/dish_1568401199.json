@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568401199",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e8ea1462dc9d57fb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1529,
+    "reasoning_tokens": 950,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6701,
+    "ai_credits": 0.0886525
+  },
+  "timestamp": "2026-11-25T00:28:53.039Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mashed butternut squash\",\n      \"usda_query\": \"squash winter butternut cooked boiled mashed without salt\",\n      \"grams\": 140,\n      \"calories\": 56,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 13.1,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"canned tuna\",\n      \"usda_query\": \"tuna light canned in water drained solids\",\n      \"grams\": 100,\n      \"calories\": 116,\n      \"protein_g\": 25.5,\n      \"carbs_g\": 0,\n      \"fat_g\": 0.8\n    },\n    {\n      \"name\": \"mayonnaise\",\n      \"usda_query\": \"mayonnaise regular\",\n      \"grams\": 15,\n      \"calories\": 102,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 11.3\n    },\n    {\n      \"name\": \"celery\",\n      \"usda_query\": \"celery raw\",\n      \"grams\": 20,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 15,\n      \"calories\": 6,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 10,\n      \"calories\": 4,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 287\n}",
+  "latency_ms": 7556,
+  "parsed": {
+    "items": [
+      {
+        "name": "mashed butternut squash",
+        "usda_query": "squash winter butternut cooked boiled mashed without salt",
+        "grams": 140,
+        "calories": 56,
+        "protein_g": 1.4,
+        "carbs_g": 13.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "canned tuna",
+        "usda_query": "tuna light canned in water drained solids",
+        "grams": 100,
+        "calories": 116,
+        "protein_g": 25.5,
+        "carbs_g": 0,
+        "fat_g": 0.8
+      },
+      {
+        "name": "mayonnaise",
+        "usda_query": "mayonnaise regular",
+        "grams": 15,
+        "calories": 102,
+        "protein_g": 0.1,
+        "carbs_g": 0.1,
+        "fat_g": 11.3
+      },
+      {
+        "name": "celery",
+        "usda_query": "celery raw",
+        "grams": 20,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 287
+  }
+}

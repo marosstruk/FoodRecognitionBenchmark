@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565203094",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "616f29cd79d47bc3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 892,
+    "reasoning_tokens": 612,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9588,
+    "ai_credits": 0.44505
+  },
+  "timestamp": "2026-11-25T00:25:16.992Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"vegetable flatbread pizza slice\",\n      \"usda_query\": \"pizza with vegetables and cheese\",\n      \"grams\": 85,\n      \"calories\": 220,\n      \"protein_g\": 9,\n      \"carbs_g\": 25,\n      \"fat_g\": 9\n    },\n    {\n      \"name\": \"stir-fried chicken pieces\",\n      \"usda_query\": \"chicken stir fry meat only cooked with sauce\",\n      \"grams\": 160,\n      \"calories\": 260,\n      \"protein_g\": 34,\n      \"carbs_g\": 4,\n      \"fat_g\": 12\n    },\n    {\n      \"name\": \"stir-fried vegetables\",\n      \"usda_query\": \"zucchini squash cooked with oil\",\n      \"grams\": 70,\n      \"calories\": 45,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 5,\n      \"fat_g\": 2.5\n    }\n  ],\n  \"total_calories\": 525\n}",
+  "latency_ms": 10482,
+  "parsed": {
+    "items": [
+      {
+        "name": "vegetable flatbread pizza slice",
+        "usda_query": "pizza with vegetables and cheese",
+        "grams": 85,
+        "calories": 220,
+        "protein_g": 9,
+        "carbs_g": 25,
+        "fat_g": 9
+      },
+      {
+        "name": "stir-fried chicken pieces",
+        "usda_query": "chicken stir fry meat only cooked with sauce",
+        "grams": 160,
+        "calories": 260,
+        "protein_g": 34,
+        "carbs_g": 4,
+        "fat_g": 12
+      },
+      {
+        "name": "stir-fried vegetables",
+        "usda_query": "zucchini squash cooked with oil",
+        "grams": 70,
+        "calories": 45,
+        "protein_g": 1.5,
+        "carbs_g": 5,
+        "fat_g": 2.5
+      }
+    ],
+    "total_calories": 525
+  }
+}

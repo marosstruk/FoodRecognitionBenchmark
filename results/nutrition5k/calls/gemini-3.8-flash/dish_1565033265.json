@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565033265",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3b94f17a89b2932d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 997,
+    "reasoning_tokens": 551,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9244,
+    "ai_credits": 0.484425
+  },
+  "timestamp": "2026-11-25T00:28:23.411Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"diced chicken breast\",\n      \"usda_query\": \"chicken breast meat cooked\",\n      \"grams\": 90,\n      \"calories\": 148,\n      \"protein_g\": 28.0,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 3.2\n    },\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli cooked boiled drained\",\n      \"grams\": 110,\n      \"calories\": 39,\n      \"protein_g\": 2.6,\n      \"carbs_g\": 8.0,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"kidney beans\",\n      \"usda_query\": \"red kidney beans canned\",\n      \"grams\": 50,\n      \"calories\": 63,\n      \"protein_g\": 4.4,\n      \"carbs_g\": 11.4,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 50,\n      \"calories\": 8,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"peanut dressing\",\n      \"usda_query\": \"peanut sauce\",\n      \"grams\": 30,\n      \"calories\": 90,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 6.0,\n      \"fat_g\": 6.5\n    }\n  ],\n  \"total_calories\": 348\n}",
+  "latency_ms": 10410,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced chicken breast",
+        "usda_query": "chicken breast meat cooked",
+        "grams": 90,
+        "calories": 148,
+        "protein_g": 28,
+        "carbs_g": 0,
+        "fat_g": 3.2
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 110,
+        "calories": 39,
+        "protein_g": 2.6,
+        "carbs_g": 8,
+        "fat_g": 0.4
+      },
+      {
+        "name": "kidney beans",
+        "usda_query": "red kidney beans canned",
+        "grams": 50,
+        "calories": 63,
+        "protein_g": 4.4,
+        "carbs_g": 11.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 50,
+        "calories": 8,
+        "protein_g": 0.7,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "peanut dressing",
+        "usda_query": "peanut sauce",
+        "grams": 30,
+        "calories": 90,
+        "protein_g": 2.5,
+        "carbs_g": 6,
+        "fat_g": 6.5
+      }
+    ],
+    "total_calories": 348
+  }
+}

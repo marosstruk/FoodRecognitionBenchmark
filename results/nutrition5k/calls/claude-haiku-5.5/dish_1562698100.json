@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562698100",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c383f9566d11bdb7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 772,
+    "reasoning_tokens": 596,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4224,
+    "ai_credits": 0.0508025
+  },
+  "timestamp": "2026-11-25T00:13:25.766Z",
+  "raw_text": "{\"items\":[{\"name\":\"zucchini wedges grilled\",\"usda_query\":\"squash summer zucchini cooked grilled\",\"grams\":180,\"calories\":40,\"protein_g\":2.2,\"carbs_g\":7.5,\"fat_g\":1.5},{\"name\":\"yellow squash pieces grilled\",\"usda_query\":\"squash summer crookneck straightneck cooked\",\"grams\":30,\"calories\":5,\"protein_g\":0.3,\"carbs_g\":1.1,\"fat_g\":0.1}],\"total_calories\":45}",
+  "latency_ms": 5318,
+  "parsed": {
+    "items": [
+      {
+        "name": "zucchini wedges grilled",
+        "usda_query": "squash summer zucchini cooked grilled",
+        "grams": 180,
+        "calories": 40,
+        "protein_g": 2.2,
+        "carbs_g": 7.5,
+        "fat_g": 1.5
+      },
+      {
+        "name": "yellow squash pieces grilled",
+        "usda_query": "squash summer crookneck straightneck cooked",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 45
+  }
+}

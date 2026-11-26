@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560798928",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "196a611d0968fa13",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1745,
+    "reasoning_tokens": 1193,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 15240,
+    "ai_credits": 0.764925
+  },
+  "timestamp": "2026-11-25T00:19:18.328Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"pizza, cheese topping, regular crust\",\n      \"grams\": 130,\n      \"calories\": 325,\n      \"protein_g\": 13.5,\n      \"carbs_g\": 36.0,\n      \"fat_g\": 14.0\n    },\n    {\n      \"name\": \"cooked tempeh\",\n      \"usda_query\": \"tempeh, cooked\",\n      \"grams\": 75,\n      \"calories\": 145,\n      \"protein_g\": 14.5,\n      \"carbs_g\": 6.0,\n      \"fat_g\": 8.5\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"salad greens, raw\",\n      \"grams\": 70,\n      \"calories\": 16,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing, vinaigrette\",\n      \"grams\": 10,\n      \"calories\": 45,\n      \"protein_g\": 0.0,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 5.0\n    },\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli, cooked, boiled, drained, without salt\",\n      \"grams\": 40,\n      \"calories\": 14,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 2.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"steamed cauliflower\",\n      \"usda_query\": \"cauliflower, cooked, boiled, drained, without salt\",\n      \"grams\": 40,\n      \"calories\": 10,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 555\n}",
+  "latency_ms": 16369,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "pizza, cheese topping, regular crust",
+        "grams": 130,
+        "calories": 325,
+        "protein_g": 13.5,
+        "carbs_g": 36,
+        "fat_g": 14
+      },
+      {
+        "name": "cooked tempeh",
+        "usda_query": "tempeh, cooked",
+        "grams": 75,
+        "calories": 145,
+        "protein_g": 14.5,
+        "carbs_g": 6,
+        "fat_g": 8.5
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens, raw",
+        "grams": 70,
+        "calories": 16,
+        "protein_g": 1.5,
+        "carbs_g": 2.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing, vinaigrette",
+        "grams": 10,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 5
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli, cooked, boiled, drained, without salt",
+        "grams": 40,
+        "calories": 14,
+        "protein_g": 1.1,
+        "carbs_g": 2.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower, cooked, boiled, drained, without salt",
+        "grams": 40,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 555
+  }
+}

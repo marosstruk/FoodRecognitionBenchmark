@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565727875",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "179b1a1abf7110a0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1270,
+    "reasoning_tokens": 913,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13562,
+    "ai_credits": 0.03549
+  },
+  "timestamp": "2026-11-25T00:13:15.132Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted beets\",\n      \"usda_query\": \"beets roasted\",\n      \"grams\": 120,\n      \"calories\": 53,\n      \"protein_g\": 2,\n      \"carbs_g\": 12,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"asparagus\",\n      \"usda_query\": \"asparagus cooked\",\n      \"grams\": 70,\n      \"calories\": 15,\n      \"protein_g\": 2.7,\n      \"carbs_g\": 2.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 120,\n      \"calories\": 41,\n      \"protein_g\": 3.4,\n      \"carbs_g\": 8.4,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"grilled chicken\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 100,\n      \"calories\": 165,\n      \"protein_g\": 31,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.6\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 10,\n      \"calories\": 90,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 10\n    }\n  ],\n  \"total_calories\": 364\n}",
+  "latency_ms": 14426,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted beets",
+        "usda_query": "beets roasted",
+        "grams": 120,
+        "calories": 53,
+        "protein_g": 2,
+        "carbs_g": 12,
+        "fat_g": 0
+      },
+      {
+        "name": "asparagus",
+        "usda_query": "asparagus cooked",
+        "grams": 70,
+        "calories": 15,
+        "protein_g": 2.7,
+        "carbs_g": 2.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 120,
+        "calories": 41,
+        "protein_g": 3.4,
+        "carbs_g": 8.4,
+        "fat_g": 0.5
+      },
+      {
+        "name": "grilled chicken",
+        "usda_query": "chicken breast grilled",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "olive oil",
+        "grams": 10,
+        "calories": 90,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 364
+  }
+}

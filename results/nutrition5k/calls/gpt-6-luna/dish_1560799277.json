@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560799277",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74164d171ea35c79",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 445,
+    "reasoning_tokens": 333,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6876,
+    "ai_credits": 0.02973
+  },
+  "timestamp": "2026-11-25T00:29:32.013Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked\",\"grams\":50,\"calories\":18,\"protein_g\":1.2,\"carbs_g\":3.6,\"fat_g\":0.2},{\"name\":\"cheese and tomato pizza slice\",\"usda_query\":\"pizza cheese thin crust\",\"grams\":60,\"calories\":159,\"protein_g\":7.2,\"carbs_g\":19.8,\"fat_g\":6.2}],\"total_calories\":177}",
+  "latency_ms": 8030,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 1.2,
+        "carbs_g": 3.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cheese and tomato pizza slice",
+        "usda_query": "pizza cheese thin crust",
+        "grams": 60,
+        "calories": 159,
+        "protein_g": 7.2,
+        "carbs_g": 19.8,
+        "fat_g": 6.2
+      }
+    ],
+    "total_calories": 177
+  }
+}

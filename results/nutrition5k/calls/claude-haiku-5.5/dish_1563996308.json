@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563996308",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f9194dda3e5e1cbe",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1018,
+    "reasoning_tokens": 648,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4833,
+    "ai_credits": 0.0631025
+  },
+  "timestamp": "2026-11-25T00:11:00.883Z",
+  "raw_text": "{\"items\":[{\"name\":\"chicken breast\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":180,\"calories\":297,\"protein_g\":56,\"carbs_g\":0,\"fat_g\":6.5},{\"name\":\"cream sauce\",\"usda_query\":\"cream sauce white sauce\",\"grams\":60,\"calories\":130,\"protein_g\":2,\"carbs_g\":4,\"fat_g\":13},{\"name\":\"carrots cooked\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":150,\"calories\":52,\"protein_g\":1.4,\"carbs_g\":12,\"fat_g\":0.3},{\"name\":\"cauliflower steamed\",\"usda_query\":\"cauliflower cooked boiled drained without salt\",\"grams\":150,\"calories\":38,\"protein_g\":2.9,\"carbs_g\":5,\"fat_g\":0.4},{\"name\":\"spinach cooked\",\"usda_query\":\"spinach cooked boiled drained without salt\",\"grams\":20,\"calories\":5,\"protein_g\":0.6,\"carbs_g\":0.7,\"fat_g\":0.1}],\"total_calories\":522}",
+  "latency_ms": 5694,
+  "parsed": {
+    "items": [
+      {
+        "name": "chicken breast",
+        "usda_query": "chicken breast meat roasted",
+        "grams": 180,
+        "calories": 297,
+        "protein_g": 56,
+        "carbs_g": 0,
+        "fat_g": 6.5
+      },
+      {
+        "name": "cream sauce",
+        "usda_query": "cream sauce white sauce",
+        "grams": 60,
+        "calories": 130,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 13
+      },
+      {
+        "name": "carrots cooked",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 150,
+        "calories": 52,
+        "protein_g": 1.4,
+        "carbs_g": 12,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cauliflower steamed",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 150,
+        "calories": 38,
+        "protein_g": 2.9,
+        "carbs_g": 5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "spinach cooked",
+        "usda_query": "spinach cooked boiled drained without salt",
+        "grams": 20,
+        "calories": 5,
+        "protein_g": 0.6,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 522
+  }
+}

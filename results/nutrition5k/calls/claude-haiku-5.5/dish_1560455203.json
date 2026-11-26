@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455203",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f6b7da4695d8a493",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1458,
+    "reasoning_tokens": 1034,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6842,
+    "ai_credits": 0.0851025
+  },
+  "timestamp": "2026-11-25T00:28:33.952Z",
+  "raw_text": "{\"items\":[{\"name\":\"honeydew melon\",\"usda_query\":\"melons honeydew raw\",\"grams\":120,\"calories\":43,\"protein_g\":1,\"carbs_g\":11,\"fat_g\":0},{\"name\":\"arugula\",\"usda_query\":\"arugula raw\",\"grams\":60,\"calories\":15,\"protein_g\":1.6,\"carbs_g\":2.2,\"fat_g\":0.4},{\"name\":\"green beans\",\"usda_query\":\"beans snap green cooked boiled drained without salt\",\"grams\":80,\"calories\":28,\"protein_g\":1.5,\"carbs_g\":6.3,\"fat_g\":0.2},{\"name\":\"black olives\",\"usda_query\":\"olives ripe canned small-extra large\",\"grams\":15,\"calories\":17,\"protein_g\":0.1,\"carbs_g\":0.9,\"fat_g\":1.6},{\"name\":\"olive oil dressing\",\"usda_query\":\"oil olive salad or cooking\",\"grams\":8,\"calories\":71,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":8},{\"name\":\"slivered almonds\",\"usda_query\":\"nuts almonds dry roasted\",\"grams\":3,\"calories\":17,\"protein_g\":0.6,\"carbs_g\":0.6,\"fat_g\":1.5}],\"total_calories\":191}",
+  "latency_ms": 7706,
+  "parsed": {
+    "items": [
+      {
+        "name": "honeydew melon",
+        "usda_query": "melons honeydew raw",
+        "grams": 120,
+        "calories": 43,
+        "protein_g": 1,
+        "carbs_g": 11,
+        "fat_g": 0
+      },
+      {
+        "name": "arugula",
+        "usda_query": "arugula raw",
+        "grams": 60,
+        "calories": 15,
+        "protein_g": 1.6,
+        "carbs_g": 2.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "green beans",
+        "usda_query": "beans snap green cooked boiled drained without salt",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 1.5,
+        "carbs_g": 6.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned small-extra large",
+        "grams": 15,
+        "calories": 17,
+        "protein_g": 0.1,
+        "carbs_g": 0.9,
+        "fat_g": 1.6
+      },
+      {
+        "name": "olive oil dressing",
+        "usda_query": "oil olive salad or cooking",
+        "grams": 8,
+        "calories": 71,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 8
+      },
+      {
+        "name": "slivered almonds",
+        "usda_query": "nuts almonds dry roasted",
+        "grams": 3,
+        "calories": 17,
+        "protein_g": 0.6,
+        "carbs_g": 0.6,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 191
+  }
+}

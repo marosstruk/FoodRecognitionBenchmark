@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562602832",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "da119792e2de2104",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 953,
+    "reasoning_tokens": 675,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5161,
+    "ai_credits": 0.0598525
+  },
+  "timestamp": "2026-11-25T00:37:37.645Z",
+  "raw_text": "{\"items\":[{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":100,\"calories\":32,\"protein_g\":0.7,\"carbs_g\":7.7,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":20,\"calories\":11,\"protein_g\":0.1,\"carbs_g\":2.9,\"fat_g\":0.1},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":25,\"calories\":11,\"protein_g\":0.4,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"cooked white rice\",\"usda_query\":\"rice white cooked\",\"grams\":90,\"calories\":117,\"protein_g\":2.4,\"carbs_g\":25.4,\"fat_g\":0.3}],\"total_calories\":171}",
+  "latency_ms": 6288,
+  "parsed": {
+    "items": [
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 100,
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 20,
+        "calories": 11,
+        "protein_g": 0.1,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 25,
+        "calories": 11,
+        "protein_g": 0.4,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked white rice",
+        "usda_query": "rice white cooked",
+        "grams": 90,
+        "calories": 117,
+        "protein_g": 2.4,
+        "carbs_g": 25.4,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 171
+  }
+}

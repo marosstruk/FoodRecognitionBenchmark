@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563389742",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2c8bb208f4ad4d45",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 910,
+    "reasoning_tokens": 556,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4081,
+    "ai_credits": 0.0577025
+  },
+  "timestamp": "2026-11-25T00:34:48.406Z",
+  "raw_text": "{\"items\":[{\"name\":\"red bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":60,\"calories\":19,\"protein_g\":0.6,\"carbs_g\":3.6,\"fat_g\":0.2},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":50,\"calories\":10,\"protein_g\":0.5,\"carbs_g\":2.3,\"fat_g\":0.1},{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":50,\"calories\":20,\"protein_g\":0.6,\"carbs_g\":4.7,\"fat_g\":0.1},{\"name\":\"carrot shredded\",\"usda_query\":\"carrots raw\",\"grams\":30,\"calories\":12,\"protein_g\":0.3,\"carbs_g\":2.9,\"fat_g\":0.1},{\"name\":\"white cabbage shredded\",\"usda_query\":\"cabbage raw\",\"grams\":40,\"calories\":10,\"protein_g\":0.5,\"carbs_g\":2.3,\"fat_g\":0.0}],\"total_calories\":71}",
+  "latency_ms": 5150,
+  "parsed": {
+    "items": [
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 0.6,
+        "carbs_g": 3.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 50,
+        "calories": 10,
+        "protein_g": 0.5,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 50,
+        "calories": 20,
+        "protein_g": 0.6,
+        "carbs_g": 4.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot shredded",
+        "usda_query": "carrots raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "white cabbage shredded",
+        "usda_query": "cabbage raw",
+        "grams": 40,
+        "calories": 10,
+        "protein_g": 0.5,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 71
+  }
+}

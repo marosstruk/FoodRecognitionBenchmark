@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562687554",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e83ec9bde000d9af",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1294,
+    "reasoning_tokens": 749,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11650,
+    "ai_credits": 0.03609
+  },
+  "timestamp": "2026-11-25T00:35:34.101Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"hamburger bun\",\n      \"usda_query\": \"bun hamburger plain\",\n      \"grams\": 100,\n      \"calories\": 280,\n      \"protein_g\": 9,\n      \"carbs_g\": 49,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"beef burger patty\",\n      \"usda_query\": \"beef patty ground 80 percent lean cooked\",\n      \"grams\": 90,\n      \"calories\": 230,\n      \"protein_g\": 23,\n      \"carbs_g\": 0,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"sliced cheese\",\n      \"usda_query\": \"cheddar cheese\",\n      \"grams\": 25,\n      \"calories\": 101,\n      \"protein_g\": 6,\n      \"carbs_g\": 1,\n      \"fat_g\": 8\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomato red raw\",\n      \"grams\": 45,\n      \"calories\": 8,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 70,\n      \"calories\": 27,\n      \"protein_g\": 2,\n      \"carbs_g\": 6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"lettuce\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 20,\n      \"calories\": 3,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"red bell pepper raw\",\n      \"grams\": 25,\n      \"calories\": 8,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrot raw\",\n      \"grams\": 25,\n      \"calories\": 10,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 667\n}",
+  "latency_ms": 13181,
+  "parsed": {
+    "items": [
+      {
+        "name": "hamburger bun",
+        "usda_query": "bun hamburger plain",
+        "grams": 100,
+        "calories": 280,
+        "protein_g": 9,
+        "carbs_g": 49,
+        "fat_g": 5
+      },
+      {
+        "name": "beef burger patty",
+        "usda_query": "beef patty ground 80 percent lean cooked",
+        "grams": 90,
+        "calories": 230,
+        "protein_g": 23,
+        "carbs_g": 0,
+        "fat_g": 15
+      },
+      {
+        "name": "sliced cheese",
+        "usda_query": "cheddar cheese",
+        "grams": 25,
+        "calories": 101,
+        "protein_g": 6,
+        "carbs_g": 1,
+        "fat_g": 8
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomato red raw",
+        "grams": 45,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 70,
+        "calories": 27,
+        "protein_g": 2,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 20,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "red bell pepper raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrot raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 667
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563565454",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "dd6bf13ee935ab0d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1420,
+    "reasoning_tokens": 911,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6753,
+    "ai_credits": 0.0832025
+  },
+  "timestamp": "2026-11-25T00:10:19.354Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"spinach raw\",\"grams\":80,\"calories\":18,\"protein_g\":2.3,\"carbs_g\":2.9,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":30,\"calories\":17,\"protein_g\":0.2,\"carbs_g\":4.3,\"fat_g\":0.1},{\"name\":\"salad dressing\",\"usda_query\":\"salad dressing oil and vinegar\",\"grams\":15,\"calories\":75,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":8},{\"name\":\"cucumber\",\"usda_query\":\"cucumber peeled raw\",\"grams\":40,\"calories\":6,\"protein_g\":0.3,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast roasted meat only\",\"grams\":60,\"calories\":99,\"protein_g\":18.6,\"carbs_g\":0,\"fat_g\":2.2},{\"name\":\"bread stuffing with sauce\",\"usda_query\":\"stuffing bread prepared from dry mix\",\"grams\":70,\"calories\":180,\"protein_g\":4.5,\"carbs_g\":25,\"fat_g\":7},{\"name\":\"sweet corn on the cob\",\"usda_query\":\"sweet yellow corn cooked boiled drained\",\"grams\":140,\"calories\":134,\"protein_g\":4.8,\"carbs_g\":29.4,\"fat_g\":2.1}],\"total_calories\":529}",
+  "latency_ms": 7630,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "spinach raw",
+        "grams": 80,
+        "calories": 18,
+        "protein_g": 2.3,
+        "carbs_g": 2.9,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 30,
+        "calories": 17,
+        "protein_g": 0.2,
+        "carbs_g": 4.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "salad dressing",
+        "usda_query": "salad dressing oil and vinegar",
+        "grams": 15,
+        "calories": 75,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 8
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber peeled raw",
+        "grams": 40,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast roasted meat only",
+        "grams": 60,
+        "calories": 99,
+        "protein_g": 18.6,
+        "carbs_g": 0,
+        "fat_g": 2.2
+      },
+      {
+        "name": "bread stuffing with sauce",
+        "usda_query": "stuffing bread prepared from dry mix",
+        "grams": 70,
+        "calories": 180,
+        "protein_g": 4.5,
+        "carbs_g": 25,
+        "fat_g": 7
+      },
+      {
+        "name": "sweet corn on the cob",
+        "usda_query": "sweet yellow corn cooked boiled drained",
+        "grams": 140,
+        "calories": 134,
+        "protein_g": 4.8,
+        "carbs_g": 29.4,
+        "fat_g": 2.1
+      }
+    ],
+    "total_calories": 529
+  }
+}

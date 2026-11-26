@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640894",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f12d952a3d9f2c7f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1343,
+    "reasoning_tokens": 818,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 12475,
+    "ai_credits": 0.614175
+  },
+  "timestamp": "2026-11-25T00:38:52.023Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"salad greens raw\",\n      \"grams\": 50,\n      \"calories\": 11,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cucumber slices\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 75,\n      \"calories\": 11,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"kalamata olives\",\n      \"usda_query\": \"olives kalamata\",\n      \"grams\": 45,\n      \"calories\": 65,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 6.5\n    },\n    {\n      \"name\": \"shaved parmesan cheese\",\n      \"usda_query\": \"parmesan cheese hard\",\n      \"grams\": 25,\n      \"calories\": 108,\n      \"protein_g\": 9.6,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 7.3\n    },\n    {\n      \"name\": \"grilled chicken breast\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 60,\n      \"calories\": 99,\n      \"protein_g\": 18.6,\n      \"carbs_g\": 0,\n      \"fat_g\": 2.2\n    },\n    {\n      \"name\": \"olive oil dressing\",\n      \"usda_query\": \"oil olive salad or cooking\",\n      \"grams\": 10,\n      \"calories\": 88,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 10.0\n    }\n  ],\n  \"total_calories\": 382\n}",
+  "latency_ms": 13324,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens raw",
+        "grams": 50,
+        "calories": 11,
+        "protein_g": 1.1,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cucumber slices",
+        "usda_query": "cucumber with peel raw",
+        "grams": 75,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "kalamata olives",
+        "usda_query": "olives kalamata",
+        "grams": 45,
+        "calories": 65,
+        "protein_g": 0.5,
+        "carbs_g": 2.5,
+        "fat_g": 6.5
+      },
+      {
+        "name": "shaved parmesan cheese",
+        "usda_query": "parmesan cheese hard",
+        "grams": 25,
+        "calories": 108,
+        "protein_g": 9.6,
+        "carbs_g": 0.8,
+        "fat_g": 7.3
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast grilled",
+        "grams": 60,
+        "calories": 99,
+        "protein_g": 18.6,
+        "carbs_g": 0,
+        "fat_g": 2.2
+      },
+      {
+        "name": "olive oil dressing",
+        "usda_query": "oil olive salad or cooking",
+        "grams": 10,
+        "calories": 88,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 382
+  }
+}

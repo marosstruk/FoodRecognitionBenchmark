@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562170163",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6aafeb83eb46bf70",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 585,
+    "reasoning_tokens": 481,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6355,
+    "ai_credits": 0.329925
+  },
+  "timestamp": "2026-11-25T00:18:08.360Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 80,\n      \"calories\": 40,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 10.5,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 40\n}",
+  "latency_ms": 7447,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 80,
+        "calories": 40,
+        "protein_g": 0.4,
+        "carbs_g": 10.5,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 40
+  }
+}

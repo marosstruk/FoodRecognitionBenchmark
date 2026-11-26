@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565020822",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d4445a255130469a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1079,
+    "reasoning_tokens": 969,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12701,
+    "ai_credits": 0.030715
+  },
+  "timestamp": "2026-11-25T00:32:17.016Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted cauliflower\",\"usda_query\":\"cauliflower cooked roasted\",\"grams\":140,\"calories\":35,\"protein_g\":2.8,\"carbs_g\":7.1,\"fat_g\":0.4},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked roasted\",\"grams\":130,\"calories\":117,\"protein_g\":2.1,\"carbs_g\":27.3,\"fat_g\":0.2}],\"total_calories\":152}",
+  "latency_ms": 13601,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted cauliflower",
+        "usda_query": "cauliflower cooked roasted",
+        "grams": 140,
+        "calories": 35,
+        "protein_g": 2.8,
+        "carbs_g": 7.1,
+        "fat_g": 0.4
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked roasted",
+        "grams": 130,
+        "calories": 117,
+        "protein_g": 2.1,
+        "carbs_g": 27.3,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 152
+  }
+}

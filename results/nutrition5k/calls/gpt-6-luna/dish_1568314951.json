@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568314951",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0f3440a9dec08352",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1175,
+    "reasoning_tokens": 825,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11474,
+    "ai_credits": 0.06623
+  },
+  "timestamp": "2026-11-25T00:08:44.046Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Grilled white fish\",\n      \"usda_query\": \"fish white cooked\",\n      \"grams\": 100,\n      \"calories\": 128,\n      \"protein_g\": 26,\n      \"carbs_g\": 0,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"Grilled beef\",\n      \"usda_query\": \"beef steak grilled cooked\",\n      \"grams\": 100,\n      \"calories\": 250,\n      \"protein_g\": 26,\n      \"carbs_g\": 0,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"Avocado\",\n      \"usda_query\": \"avocado raw\",\n      \"grams\": 85,\n      \"calories\": 136,\n      \"protein_g\": 2,\n      \"carbs_g\": 7,\n      \"fat_g\": 13\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 80,\n      \"calories\": 14,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cilantro garnish\",\n      \"usda_query\": \"coriander leaves raw\",\n      \"grams\": 2,\n      \"calories\": 1,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 529\n}",
+  "latency_ms": 12366,
+  "parsed": {
+    "items": [
+      {
+        "name": "Grilled white fish",
+        "usda_query": "fish white cooked",
+        "grams": 100,
+        "calories": 128,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "Grilled beef",
+        "usda_query": "beef steak grilled cooked",
+        "grams": 100,
+        "calories": 250,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 15
+      },
+      {
+        "name": "Avocado",
+        "usda_query": "avocado raw",
+        "grams": 85,
+        "calories": 136,
+        "protein_g": 2,
+        "carbs_g": 7,
+        "fat_g": 13
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "Cilantro garnish",
+        "usda_query": "coriander leaves raw",
+        "grams": 2,
+        "calories": 1,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 529
+  }
+}

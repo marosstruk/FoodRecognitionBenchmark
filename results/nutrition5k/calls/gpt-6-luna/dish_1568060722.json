@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568060722",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ff66d149385ea8a6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 623,
+    "reasoning_tokens": 327,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6893,
+    "ai_credits": 0.03863
+  },
+  "timestamp": "2026-11-25T00:22:30.832Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 145,\n      \"calories\": 239,\n      \"protein_g\": 45,\n      \"carbs_g\": 0,\n      \"fat_g\": 5.2\n    },\n    {\n      \"name\": \"Avocado\",\n      \"usda_query\": \"avocados raw\",\n      \"grams\": 75,\n      \"calories\": 120,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 6.4,\n      \"fat_g\": 11\n    },\n    {\n      \"name\": \"Mixed salad greens\",\n      \"usda_query\": \"lettuce mixed greens raw\",\n      \"grams\": 40,\n      \"calories\": 8,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Red onion\",\n      \"usda_query\": \"onions raw\",\n      \"grams\": 8,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 370\n}",
+  "latency_ms": 8001,
+  "parsed": {
+    "items": [
+      {
+        "name": "Chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 145,
+        "calories": 239,
+        "protein_g": 45,
+        "carbs_g": 0,
+        "fat_g": 5.2
+      },
+      {
+        "name": "Avocado",
+        "usda_query": "avocados raw",
+        "grams": 75,
+        "calories": 120,
+        "protein_g": 1.5,
+        "carbs_g": 6.4,
+        "fat_g": 11
+      },
+      {
+        "name": "Mixed salad greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 0.8,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Red onion",
+        "usda_query": "onions raw",
+        "grams": 8,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 370
+  }
+}

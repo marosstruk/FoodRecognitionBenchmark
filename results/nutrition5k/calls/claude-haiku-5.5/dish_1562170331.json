@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562170331",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "eccbeb68de4e6db8",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 921,
+    "reasoning_tokens": 497,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3903,
+    "ai_credits": 0.0582525
+  },
+  "timestamp": "2026-11-25T00:26:43.220Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potato wedges\",\"usda_query\":\"potatoes baked flesh and skin without salt\",\"grams\":150,\"calories\":180,\"protein_g\":3.5,\"carbs_g\":30,\"fat_g\":5},{\"name\":\"fresh pineapple\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":150,\"calories\":75,\"protein_g\":0.8,\"carbs_g\":19.6,\"fat_g\":0.2},{\"name\":\"fresh watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":120,\"calories\":36,\"protein_g\":0.7,\"carbs_g\":9,\"fat_g\":0.2},{\"name\":\"fresh strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":120,\"calories\":39,\"protein_g\":0.8,\"carbs_g\":9.2,\"fat_g\":0.4},{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":50,\"calories\":26,\"protein_g\":0.6,\"carbs_g\":6,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":30,\"calories\":17,\"protein_g\":0.2,\"carbs_g\":4.3,\"fat_g\":0.1}],\"total_calories\":373}",
+  "latency_ms": 4771,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "potatoes baked flesh and skin without salt",
+        "grams": 150,
+        "calories": 180,
+        "protein_g": 3.5,
+        "carbs_g": 30,
+        "fat_g": 5
+      },
+      {
+        "name": "fresh pineapple",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 150,
+        "calories": 75,
+        "protein_g": 0.8,
+        "carbs_g": 19.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "fresh watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 120,
+        "calories": 36,
+        "protein_g": 0.7,
+        "carbs_g": 9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "fresh strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 120,
+        "calories": 39,
+        "protein_g": 0.8,
+        "carbs_g": 9.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 50,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 30,
+        "calories": 17,
+        "protein_g": 0.2,
+        "carbs_g": 4.3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 373
+  }
+}

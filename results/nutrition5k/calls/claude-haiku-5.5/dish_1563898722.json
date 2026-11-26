@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563898722",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d3e9975910f66f20",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 533,
+    "reasoning_tokens": 320,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2951,
+    "ai_credits": 0.0388525
+  },
+  "timestamp": "2026-11-25T00:33:05.239Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":130,\"calories\":194,\"protein_g\":13,\"carbs_g\":2,\"fat_g\":14},{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":110,\"calories\":39,\"protein_g\":3,\"carbs_g\":8,\"fat_g\":0},{\"name\":\"butter or oil used in cooking\",\"usda_query\":\"butter salted\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":233}",
+  "latency_ms": 4118,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 130,
+        "calories": 194,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 14
+      },
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 110,
+        "calories": 39,
+        "protein_g": 3,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "butter or oil used in cooking",
+        "usda_query": "butter salted",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 233
+  }
+}

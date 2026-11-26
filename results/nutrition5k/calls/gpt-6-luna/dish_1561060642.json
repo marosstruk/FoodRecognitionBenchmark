@@ -1,0 +1,108 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060642",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6ee9ee789c2f028e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1932,
+    "reasoning_tokens": 1292,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14195,
+    "ai_credits": 0.10408
+  },
+  "timestamp": "2026-11-25T00:37:08.799Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"bok choy\",\n      \"usda_query\": \"bok choy cooked\",\n      \"grams\": 40,\n      \"calories\": 7,\n      \"protein_g\": 1,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 55,\n      \"calories\": 28,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"green bell pepper cooked with oil\",\n      \"grams\": 40,\n      \"calories\": 45,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"stir-fried beef\",\n      \"usda_query\": \"beef stir fried\",\n      \"grams\": 55,\n      \"calories\": 115,\n      \"protein_g\": 10,\n      \"carbs_g\": 2,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"tofu\",\n      \"usda_query\": \"tofu cooked\",\n      \"grams\": 45,\n      \"calories\": 55,\n      \"protein_g\": 5.5,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 3.2\n    },\n    {\n      \"name\": \"green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 12,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"yellow bell pepper\",\n      \"usda_query\": \"yellow bell pepper cooked\",\n      \"grams\": 8,\n      \"calories\": 2,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"baked pasta with tomato and cheese\",\n      \"usda_query\": \"lasagna with meat and cheese\",\n      \"grams\": 65,\n      \"calories\": 110,\n      \"protein_g\": 5,\n      \"carbs_g\": 12,\n      \"fat_g\": 4.5\n    },\n    {\n      \"name\": \"herb-crusted fish\",\n      \"usda_query\": \"baked breaded fish\",\n      \"grams\": 75,\n      \"calories\": 130,\n      \"protein_g\": 16,\n      \"carbs_g\": 4,\n      \"fat_g\": 5.5\n    }\n  ],\n  \"total_calories\": 496\n}",
+  "latency_ms": 15317,
+  "parsed": {
+    "items": [
+      {
+        "name": "bok choy",
+        "usda_query": "bok choy cooked",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 55,
+        "calories": 28,
+        "protein_g": 0.3,
+        "carbs_g": 7.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "green bell pepper cooked with oil",
+        "grams": 40,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 3
+      },
+      {
+        "name": "stir-fried beef",
+        "usda_query": "beef stir fried",
+        "grams": 55,
+        "calories": 115,
+        "protein_g": 10,
+        "carbs_g": 2,
+        "fat_g": 7
+      },
+      {
+        "name": "tofu",
+        "usda_query": "tofu cooked",
+        "grams": 45,
+        "calories": 55,
+        "protein_g": 5.5,
+        "carbs_g": 1.5,
+        "fat_g": 3.2
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 12,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.9,
+        "fat_g": 0
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "yellow bell pepper cooked",
+        "grams": 8,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      },
+      {
+        "name": "baked pasta with tomato and cheese",
+        "usda_query": "lasagna with meat and cheese",
+        "grams": 65,
+        "calories": 110,
+        "protein_g": 5,
+        "carbs_g": 12,
+        "fat_g": 4.5
+      },
+      {
+        "name": "herb-crusted fish",
+        "usda_query": "baked breaded fish",
+        "grams": 75,
+        "calories": 130,
+        "protein_g": 16,
+        "carbs_g": 4,
+        "fat_g": 5.5
+      }
+    ],
+    "total_calories": 496
+  }
+}

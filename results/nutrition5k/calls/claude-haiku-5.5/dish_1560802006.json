@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560802006",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "797a91205de9f57f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 638,
+    "reasoning_tokens": 417,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3361,
+    "ai_credits": 0.0441025
+  },
+  "timestamp": "2026-11-25T00:34:35.298Z",
+  "raw_text": "{\"items\":[{\"name\":\"kale raw\",\"usda_query\":\"kale raw\",\"grams\":80,\"calories\":28,\"protein_g\":2.3,\"carbs_g\":3.5,\"fat_g\":0.4},{\"name\":\"parmesan cheese shaved\",\"usda_query\":\"cheese parmesan hard grated\",\"grams\":15,\"calories\":65,\"protein_g\":5.7,\"carbs_g\":0.6,\"fat_g\":4.3},{\"name\":\"olive oil dressing\",\"usda_query\":\"oil olive salad or cooking\",\"grams\":5,\"calories\":44,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":5}],\"total_calories\":137}",
+  "latency_ms": 4473,
+  "parsed": {
+    "items": [
+      {
+        "name": "kale raw",
+        "usda_query": "kale raw",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2.3,
+        "carbs_g": 3.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "parmesan cheese shaved",
+        "usda_query": "cheese parmesan hard grated",
+        "grams": 15,
+        "calories": 65,
+        "protein_g": 5.7,
+        "carbs_g": 0.6,
+        "fat_g": 4.3
+      },
+      {
+        "name": "olive oil dressing",
+        "usda_query": "oil olive salad or cooking",
+        "grams": 5,
+        "calories": 44,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 137
+  }
+}

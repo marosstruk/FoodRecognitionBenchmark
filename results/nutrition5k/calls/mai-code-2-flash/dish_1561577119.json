@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561577119",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "40b169dbe9282d1e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 967,
+    "reasoning_tokens": 869,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11416,
+    "ai_credits": 0.027915
+  },
+  "timestamp": "2026-11-25T00:35:13.618Z",
+  "raw_text": "{\"items\":[{\"name\":\"paneer cubes\",\"usda_query\":\"paneer cheese\",\"grams\":60,\"calories\":180,\"protein_g\":12,\"carbs_g\":4,\"fat_g\":14},{\"name\":\"paneer in tomato sauce\",\"usda_query\":\"paneer tomato sauce\",\"grams\":85,\"calories\":193,\"protein_g\":11,\"carbs_g\":9,\"fat_g\":13}],\"total_calories\":373}",
+  "latency_ms": 12541,
+  "parsed": {
+    "items": [
+      {
+        "name": "paneer cubes",
+        "usda_query": "paneer cheese",
+        "grams": 60,
+        "calories": 180,
+        "protein_g": 12,
+        "carbs_g": 4,
+        "fat_g": 14
+      },
+      {
+        "name": "paneer in tomato sauce",
+        "usda_query": "paneer tomato sauce",
+        "grams": 85,
+        "calories": 193,
+        "protein_g": 11,
+        "carbs_g": 9,
+        "fat_g": 13
+      }
+    ],
+    "total_calories": 373
+  }
+}

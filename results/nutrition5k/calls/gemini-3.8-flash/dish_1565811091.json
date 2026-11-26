@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565811091",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fba5b61bc0c00533",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1197,
+    "reasoning_tokens": 925,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11484,
+    "ai_credits": 0.559425
+  },
+  "timestamp": "2026-11-25T00:38:17.485Z",
+  "raw_text": "{\"items\": [{\"name\": \"crumbled feta cheese\", \"usda_query\": \"feta cheese\", \"grams\": 60, \"calories\": 158, \"protein_g\": 8.5, \"carbs_g\": 2.5, \"fat_g\": 12.8}, {\"name\": \"steamed broccoli\", \"usda_query\": \"broccoli cooked\", \"grams\": 80, \"calories\": 28, \"protein_g\": 2.0, \"carbs_g\": 5.8, \"fat_g\": 0.3}, {\"name\": \"shredded carrots\", \"usda_query\": \"carrots raw shredded\", \"grams\": 40, \"calories\": 16, \"protein_g\": 0.4, \"carbs_g\": 3.8, \"fat_g\": 0.1}, {\"name\": \"baby spinach\", \"usda_query\": \"spinach raw\", \"grams\": 60, \"calories\": 14, \"protein_g\": 1.7, \"carbs_g\": 2.2, \"fat_g\": 0.2}], \"total_calories\": 216}",
+  "latency_ms": 12813,
+  "parsed": {
+    "items": [
+      {
+        "name": "crumbled feta cheese",
+        "usda_query": "feta cheese",
+        "grams": 60,
+        "calories": 158,
+        "protein_g": 8.5,
+        "carbs_g": 2.5,
+        "fat_g": 12.8
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2,
+        "carbs_g": 5.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw shredded",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 216
+  }
+}

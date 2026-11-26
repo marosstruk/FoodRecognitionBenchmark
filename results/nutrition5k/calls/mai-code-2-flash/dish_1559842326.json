@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559842326",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d347d2aaac2624a1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1019,
+    "reasoning_tokens": 913,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12236,
+    "ai_credits": 0.029215
+  },
+  "timestamp": "2026-11-25T00:19:34.799Z",
+  "raw_text": "{\"items\":[{\"name\":\"fried egg\",\"usda_query\":\"egg whole fried\",\"grams\":55,\"calories\":99,\"protein_g\":6.5,\"carbs_g\":0.6,\"fat_g\":7.5},{\"name\":\"baked beans\",\"usda_query\":\"beans baked canned\",\"grams\":150,\"calories\":155,\"protein_g\":8.1,\"carbs_g\":29.1,\"fat_g\":0.8}],\"total_calories\":254}",
+  "latency_ms": 13373,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried egg",
+        "usda_query": "egg whole fried",
+        "grams": 55,
+        "calories": 99,
+        "protein_g": 6.5,
+        "carbs_g": 0.6,
+        "fat_g": 7.5
+      },
+      {
+        "name": "baked beans",
+        "usda_query": "beans baked canned",
+        "grams": 150,
+        "calories": 155,
+        "protein_g": 8.1,
+        "carbs_g": 29.1,
+        "fat_g": 0.8
+      }
+    ],
+    "total_calories": 254
+  }
+}

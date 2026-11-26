@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563565454",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "dd6bf13ee935ab0d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1572,
+    "reasoning_tokens": 1266,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 17379,
+    "ai_credits": 0.04304
+  },
+  "timestamp": "2026-11-25T00:10:24.539Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 140,\n      \"calories\": 47,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 10.6,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"shredded cabbage\",\n      \"usda_query\": \"cabbage raw\",\n      \"grams\": 60,\n      \"calories\": 16,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 3.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"roasted sweet potato\",\n      \"usda_query\": \"sweet potato cooked baked\",\n      \"grams\": 120,\n      \"calories\": 108,\n      \"protein_g\": 2.0,\n      \"carbs_g\": 25.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"roasted chicken\",\n      \"usda_query\": \"chicken meat cooked\",\n      \"grams\": 100,\n      \"calories\": 165,\n      \"protein_g\": 31.0,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.6\n    }\n  ],\n  \"total_calories\": 336\n}",
+  "latency_ms": 18267,
+  "parsed": {
+    "items": [
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 140,
+        "calories": 47,
+        "protein_g": 2.5,
+        "carbs_g": 10.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage raw",
+        "grams": 60,
+        "calories": 16,
+        "protein_g": 0.8,
+        "carbs_g": 3.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked",
+        "grams": 120,
+        "calories": 108,
+        "protein_g": 2,
+        "carbs_g": 25.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted chicken",
+        "usda_query": "chicken meat cooked",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      }
+    ],
+    "total_calories": 336
+  }
+}

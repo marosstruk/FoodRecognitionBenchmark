@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563308386",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b237780feb846ee1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1187,
+    "reasoning_tokens": 818,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9657,
+    "ai_credits": 0.06683
+  },
+  "timestamp": "2026-11-25T00:32:26.985Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Roasted potato\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 110,\n      \"calories\": 143,\n      \"protein_g\": 2.8,\n      \"carbs_g\": 24.2,\n      \"fat_g\": 3.8\n    },\n    {\n      \"name\": \"Carrot slices\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 95,\n      \"calories\": 39,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 9.1,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Cooked zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 60,\n      \"calories\": 10,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Cooked mushrooms\",\n      \"usda_query\": \"mushrooms cooked\",\n      \"grams\": 45,\n      \"calories\": 12,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 4,\n      \"calories\": 35,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 239\n}",
+  "latency_ms": 10546,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted potato",
+        "usda_query": "potatoes roasted",
+        "grams": 110,
+        "calories": 143,
+        "protein_g": 2.8,
+        "carbs_g": 24.2,
+        "fat_g": 3.8
+      },
+      {
+        "name": "Carrot slices",
+        "usda_query": "carrots raw",
+        "grams": 95,
+        "calories": 39,
+        "protein_g": 0.9,
+        "carbs_g": 9.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Cooked zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Cooked mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 45,
+        "calories": 12,
+        "protein_g": 1.6,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 4,
+        "calories": 35,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 239
+  }
+}

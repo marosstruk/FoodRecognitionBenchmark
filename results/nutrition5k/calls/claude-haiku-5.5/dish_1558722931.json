@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558722931",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6968ea2bf302adb2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 417,
+    "reasoning_tokens": 329,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3318,
+    "ai_credits": 0.0330525
+  },
+  "timestamp": "2026-11-25T00:36:20.457Z",
+  "raw_text": "{\"items\":[{\"name\":\"almonds\",\"usda_query\":\"nuts almonds dry roasted without salt\",\"grams\":48,\"calories\":278,\"protein_g\":10.2,\"carbs_g\":10.4,\"fat_g\":23.9}],\"total_calories\":278}",
+  "latency_ms": 4422,
+  "parsed": {
+    "items": [
+      {
+        "name": "almonds",
+        "usda_query": "nuts almonds dry roasted without salt",
+        "grams": 48,
+        "calories": 278,
+        "protein_g": 10.2,
+        "carbs_g": 10.4,
+        "fat_g": 23.9
+      }
+    ],
+    "total_calories": 278
+  }
+}

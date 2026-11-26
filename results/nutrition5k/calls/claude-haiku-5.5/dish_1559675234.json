@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559675234",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "35cd3db587d8ff10",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1010,
+    "reasoning_tokens": 704,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4968,
+    "ai_credits": 0.0627025
+  },
+  "timestamp": "2026-11-25T00:16:51.875Z",
+  "raw_text": "{\"items\":[{\"name\":\"carrot shredded raw\",\"usda_query\":\"carrots raw\",\"grams\":80,\"calories\":33,\"protein_g\":0.7,\"carbs_g\":7.7,\"fat_g\":0.2},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":65,\"calories\":12,\"protein_g\":0.6,\"carbs_g\":2.5,\"fat_g\":0.1},{\"name\":\"brussels sprouts cooked\",\"usda_query\":\"brussels sprouts cooked boiled\",\"grams\":60,\"calories\":21,\"protein_g\":1.5,\"carbs_g\":4.3,\"fat_g\":0.2},{\"name\":\"green bell pepper raw\",\"usda_query\":\"peppers sweet green raw\",\"grams\":60,\"calories\":12,\"protein_g\":0.5,\"carbs_g\":2.8,\"fat_g\":0.1}],\"total_calories\":78}",
+  "latency_ms": 6528,
+  "parsed": {
+    "items": [
+      {
+        "name": "carrot shredded raw",
+        "usda_query": "carrots raw",
+        "grams": 80,
+        "calories": 33,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 65,
+        "calories": 12,
+        "protein_g": 0.6,
+        "carbs_g": 2.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "brussels sprouts cooked",
+        "usda_query": "brussels sprouts cooked boiled",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 1.5,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green bell pepper raw",
+        "usda_query": "peppers sweet green raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 0.5,
+        "carbs_g": 2.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 78
+  }
+}

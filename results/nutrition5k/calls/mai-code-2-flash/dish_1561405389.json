@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561405389",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "66a25492ac5455c2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1250,
+    "reasoning_tokens": 952,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16656,
+    "ai_credits": 0.03499
+  },
+  "timestamp": "2026-11-25T00:21:25.812Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled chicken breast\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 100,\n      \"calories\": 165,\n      \"protein_g\": 31,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.6\n    },\n    {\n      \"name\": \"mixed leafy greens\",\n      \"usda_query\": \"mixed salad greens\",\n      \"grams\": 45,\n      \"calories\": 11,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"balsamic vinaigrette\",\n      \"usda_query\": \"balsamic vinaigrette\",\n      \"grams\": 15,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 227\n}",
+  "latency_ms": 17790,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast grilled",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      },
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "mixed salad greens",
+        "grams": 45,
+        "calories": 11,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "balsamic vinaigrette",
+        "usda_query": "balsamic vinaigrette",
+        "grams": 15,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 227
+  }
+}

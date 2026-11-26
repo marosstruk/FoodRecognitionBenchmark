@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559838402",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "223697ee68cc4b05",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1502,
+    "reasoning_tokens": 984,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13263,
+    "ai_credits": 0.6738
+  },
+  "timestamp": "2026-11-25T00:09:27.654Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 70,\n      \"calories\": 93,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 14.2,\n      \"fat_g\": 3.6\n    },\n    {\n      \"name\": \"roasted sweet potatoes\",\n      \"usda_query\": \"sweet potato roasted with oil\",\n      \"grams\": 40,\n      \"calories\": 46,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.3,\n      \"fat_g\": 1.3\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 35,\n      \"calories\": 11,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"raspberries\",\n      \"usda_query\": \"raspberries raw\",\n      \"grams\": 40,\n      \"calories\": 21,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.8,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"blackberries\",\n      \"usda_query\": \"blackberries raw\",\n      \"grams\": 5,\n      \"calories\": 2,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"pork bacon cooked\",\n      \"grams\": 15,\n      \"calories\": 81,\n      \"protein_g\": 5.6,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 6.3\n    }\n  ],\n  \"total_calories\": 254\n}",
+  "latency_ms": 14187,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 70,
+        "calories": 93,
+        "protein_g": 1.6,
+        "carbs_g": 14.2,
+        "fat_g": 3.6
+      },
+      {
+        "name": "roasted sweet potatoes",
+        "usda_query": "sweet potato roasted with oil",
+        "grams": 40,
+        "calories": 46,
+        "protein_g": 0.8,
+        "carbs_g": 8.3,
+        "fat_g": 1.3
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 35,
+        "calories": 11,
+        "protein_g": 0.2,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 40,
+        "calories": 21,
+        "protein_g": 0.5,
+        "carbs_g": 4.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      },
+      {
+        "name": "cooked bacon",
+        "usda_query": "pork bacon cooked",
+        "grams": 15,
+        "calories": 81,
+        "protein_g": 5.6,
+        "carbs_g": 0.2,
+        "fat_g": 6.3
+      }
+    ],
+    "total_calories": 254
+  }
+}

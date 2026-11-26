@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573579635",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea0a23147d8e1729",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 794,
+    "reasoning_tokens": 587,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9341,
+    "ai_credits": 0.02359
+  },
+  "timestamp": "2026-11-25T00:08:53.348Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheesecake filling\",\"usda_query\":\"cheesecake prepared from recipe\",\"grams\":105,\"calories\":337,\"protein_g\":5.8,\"carbs_g\":26.8,\"fat_g\":22.1},{\"name\":\"graham cracker crust\",\"usda_query\":\"graham cracker crust\",\"grams\":25,\"calories\":120,\"protein_g\":1.8,\"carbs_g\":17.5,\"fat_g\":5.0},{\"name\":\"strawberry topping\",\"usda_query\":\"strawberry topping\",\"grams\":25,\"calories\":65,\"protein_g\":0.2,\"carbs_g\":16.0,\"fat_g\":0.1},{\"name\":\"whipped cream\",\"usda_query\":\"whipped cream pressurized\",\"grams\":15,\"calories\":52,\"protein_g\":0.4,\"carbs_g\":0.7,\"fat_g\":5.5}],\"total_calories\":574}",
+  "latency_ms": 10247,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheesecake filling",
+        "usda_query": "cheesecake prepared from recipe",
+        "grams": 105,
+        "calories": 337,
+        "protein_g": 5.8,
+        "carbs_g": 26.8,
+        "fat_g": 22.1
+      },
+      {
+        "name": "graham cracker crust",
+        "usda_query": "graham cracker crust",
+        "grams": 25,
+        "calories": 120,
+        "protein_g": 1.8,
+        "carbs_g": 17.5,
+        "fat_g": 5
+      },
+      {
+        "name": "strawberry topping",
+        "usda_query": "strawberry topping",
+        "grams": 25,
+        "calories": 65,
+        "protein_g": 0.2,
+        "carbs_g": 16,
+        "fat_g": 0.1
+      },
+      {
+        "name": "whipped cream",
+        "usda_query": "whipped cream pressurized",
+        "grams": 15,
+        "calories": 52,
+        "protein_g": 0.4,
+        "carbs_g": 0.7,
+        "fat_g": 5.5
+      }
+    ],
+    "total_calories": 574
+  }
+}

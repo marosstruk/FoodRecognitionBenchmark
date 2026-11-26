@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367733",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7a1d00e685671f18",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1723,
+    "reasoning_tokens": 1236,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7936,
+    "ai_credits": 0.0983525
+  },
+  "timestamp": "2026-11-25T00:37:14.856Z",
+  "raw_text": "{\"items\":[{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":150,\"calories\":195,\"protein_g\":4,\"carbs_g\":43,\"fat_g\":0.4},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":120,\"calories\":42,\"protein_g\":3.3,\"carbs_g\":7,\"fat_g\":0.5},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":120,\"calories\":198,\"protein_g\":37.2,\"carbs_g\":0,\"fat_g\":4.3},{\"name\":\"fried tofu cubes\",\"usda_query\":\"tofu fried\",\"grams\":40,\"calories\":108,\"protein_g\":6,\"carbs_g\":3,\"fat_g\":8.5},{\"name\":\"roasted potato wedges\",\"usda_query\":\"potatoes roasted home fries cooked in oil\",\"grams\":150,\"calories\":190,\"protein_g\":3,\"carbs_g\":30,\"fat_g\":6},{\"name\":\"grilled onion\",\"usda_query\":\"onions cooked\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"seared chicken slice\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":50,\"calories\":82,\"protein_g\":15.5,\"carbs_g\":0,\"fat_g\":1.8}],\"total_calories\":823}",
+  "latency_ms": 8789,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 150,
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 43,
+        "fat_g": 0.4
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 3.3,
+        "carbs_g": 7,
+        "fat_g": 0.5
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat roasted",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37.2,
+        "carbs_g": 0,
+        "fat_g": 4.3
+      },
+      {
+        "name": "fried tofu cubes",
+        "usda_query": "tofu fried",
+        "grams": 40,
+        "calories": 108,
+        "protein_g": 6,
+        "carbs_g": 3,
+        "fat_g": 8.5
+      },
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "potatoes roasted home fries cooked in oil",
+        "grams": 150,
+        "calories": 190,
+        "protein_g": 3,
+        "carbs_g": 30,
+        "fat_g": 6
+      },
+      {
+        "name": "grilled onion",
+        "usda_query": "onions cooked",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "seared chicken slice",
+        "usda_query": "chicken breast meat roasted",
+        "grams": 50,
+        "calories": 82,
+        "protein_g": 15.5,
+        "carbs_g": 0,
+        "fat_g": 1.8
+      }
+    ],
+    "total_calories": 823
+  }
+}

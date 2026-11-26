@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558628760",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9eef2ff170e8b1d1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 851,
+    "reasoning_tokens": 476,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6776,
+    "ai_credits": 0.05003
+  },
+  "timestamp": "2026-11-25T00:26:00.624Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Roasted potato\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 100,\n      \"calories\": 160,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 26,\n      \"fat_g\": 5.5\n    },\n    {\n      \"name\": \"Roasted sweet potato\",\n      \"usda_query\": \"sweet potato roasted\",\n      \"grams\": 85,\n      \"calories\": 102,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 20.4,\n      \"fat_g\": 2.1\n    },\n    {\n      \"name\": \"Cooked bacon\",\n      \"usda_query\": \"bacon cooked\",\n      \"grams\": 25,\n      \"calories\": 135,\n      \"protein_g\": 9.3,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"Raspberries\",\n      \"usda_query\": \"raspberries raw\",\n      \"grams\": 55,\n      \"calories\": 29,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 6.6,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Blackberries\",\n      \"usda_query\": \"blackberries raw\",\n      \"grams\": 28,\n      \"calories\": 12,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 438\n}",
+  "latency_ms": 7648,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted potato",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 100,
+        "calories": 160,
+        "protein_g": 2.5,
+        "carbs_g": 26,
+        "fat_g": 5.5
+      },
+      {
+        "name": "Roasted sweet potato",
+        "usda_query": "sweet potato roasted",
+        "grams": 85,
+        "calories": 102,
+        "protein_g": 1.4,
+        "carbs_g": 20.4,
+        "fat_g": 2.1
+      },
+      {
+        "name": "Cooked bacon",
+        "usda_query": "bacon cooked",
+        "grams": 25,
+        "calories": 135,
+        "protein_g": 9.3,
+        "carbs_g": 0.1,
+        "fat_g": 10.5
+      },
+      {
+        "name": "Raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 55,
+        "calories": 29,
+        "protein_g": 0.7,
+        "carbs_g": 6.6,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 28,
+        "calories": 12,
+        "protein_g": 0.4,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 438
+  }
+}

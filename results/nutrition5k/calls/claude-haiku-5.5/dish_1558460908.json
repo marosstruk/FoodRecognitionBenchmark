@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558460908",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "124bbf4133f212ca",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1305,
+    "reasoning_tokens": 948,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6422,
+    "ai_credits": 0.0774525
+  },
+  "timestamp": "2026-11-25T00:40:14.482Z",
+  "raw_text": "{\"items\":[{\"name\":\"almonds\",\"usda_query\":\"almonds raw\",\"grams\":40,\"calories\":232,\"protein_g\":8.5,\"carbs_g\":8.6,\"fat_g\":20.0},{\"name\":\"apple\",\"usda_query\":\"apples raw with skin medium\",\"grams\":180,\"calories\":94,\"protein_g\":0.5,\"carbs_g\":25.1,\"fat_g\":0.3},{\"name\":\"red grapes\",\"usda_query\":\"grapes red or green seedless raw\",\"grams\":60,\"calories\":41,\"protein_g\":0.4,\"carbs_g\":10.6,\"fat_g\":0.2},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":85,\"calories\":15,\"protein_g\":0.8,\"carbs_g\":3.3,\"fat_g\":0.2},{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":40,\"calories\":9,\"protein_g\":1.1,\"carbs_g\":1.5,\"fat_g\":0.2}],\"total_calories\":391}",
+  "latency_ms": 7274,
+  "parsed": {
+    "items": [
+      {
+        "name": "almonds",
+        "usda_query": "almonds raw",
+        "grams": 40,
+        "calories": 232,
+        "protein_g": 8.5,
+        "carbs_g": 8.6,
+        "fat_g": 20
+      },
+      {
+        "name": "apple",
+        "usda_query": "apples raw with skin medium",
+        "grams": 180,
+        "calories": 94,
+        "protein_g": 0.5,
+        "carbs_g": 25.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "red grapes",
+        "usda_query": "grapes red or green seedless raw",
+        "grams": 60,
+        "calories": 41,
+        "protein_g": 0.4,
+        "carbs_g": 10.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 85,
+        "calories": 15,
+        "protein_g": 0.8,
+        "carbs_g": 3.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 40,
+        "calories": 9,
+        "protein_g": 1.1,
+        "carbs_g": 1.5,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 391
+  }
+}

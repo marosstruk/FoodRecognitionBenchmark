@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824092",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fd5ccf6737aaec28",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 750,
+    "reasoning_tokens": 513,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9185,
+    "ai_credits": 0.04498
+  },
+  "timestamp": "2026-11-25T00:24:01.314Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Pan-fried potato pieces\",\n      \"usda_query\": \"potatoes cooked pan fried\",\n      \"grams\": 45,\n      \"calories\": 55,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 9,\n      \"fat_g\": 1.2\n    },\n    {\n      \"name\": \"Yellow squash\",\n      \"usda_query\": \"summer squash yellow cooked\",\n      \"grams\": 30,\n      \"calories\": 5,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 66\n}",
+  "latency_ms": 10312,
+  "parsed": {
+    "items": [
+      {
+        "name": "Pan-fried potato pieces",
+        "usda_query": "potatoes cooked pan fried",
+        "grams": 45,
+        "calories": 55,
+        "protein_g": 1.1,
+        "carbs_g": 9,
+        "fat_g": 1.2
+      },
+      {
+        "name": "Yellow squash",
+        "usda_query": "summer squash yellow cooked",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.4,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0.4,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 66
+  }
+}

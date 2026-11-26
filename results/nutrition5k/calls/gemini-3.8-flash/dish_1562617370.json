@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562617370",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "599dc6b73ac1130c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 412,
+    "reasoning_tokens": 330,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5515,
+    "ai_credits": 0.26505
+  },
+  "timestamp": "2026-11-25T00:19:53.665Z",
+  "raw_text": "{\"items\": [{\"name\": \"pepperoni pizza slice\", \"usda_query\": \"pepperoni pizza regular crust\", \"grams\": 40, \"calories\": 110, \"protein_g\": 4.8, \"carbs_g\": 12.8, \"fat_g\": 4.8}], \"total_calories\": 110}",
+  "latency_ms": 7019,
+  "parsed": {
+    "items": [
+      {
+        "name": "pepperoni pizza slice",
+        "usda_query": "pepperoni pizza regular crust",
+        "grams": 40,
+        "calories": 110,
+        "protein_g": 4.8,
+        "carbs_g": 12.8,
+        "fat_g": 4.8
+      }
+    ],
+    "total_calories": 110
+  }
+}

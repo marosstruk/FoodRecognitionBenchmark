@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565020822",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d4445a255130469a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 796,
+    "reasoning_tokens": 591,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7963,
+    "ai_credits": 0.40905
+  },
+  "timestamp": "2026-11-25T00:32:17.857Z",
+  "raw_text": "{\"items\": [{\"name\": \"roasted sweet potato\", \"usda_query\": \"sweet potato roasted\", \"grams\": 60, \"calories\": 54, \"protein_g\": 1.2, \"carbs_g\": 12.4, \"fat_g\": 0.1}, {\"name\": \"cooked bacon\", \"usda_query\": \"pork bacon cooked\", \"grams\": 16, \"calories\": 86, \"protein_g\": 6.0, \"carbs_g\": 0.2, \"fat_g\": 6.7}, {\"name\": \"goat cheese\", \"usda_query\": \"goat cheese soft\", \"grams\": 45, \"calories\": 121, \"protein_g\": 8.4, \"carbs_g\": 0.5, \"fat_g\": 9.6}], \"total_calories\": 261}",
+  "latency_ms": 8857,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato roasted",
+        "grams": 60,
+        "calories": 54,
+        "protein_g": 1.2,
+        "carbs_g": 12.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked bacon",
+        "usda_query": "pork bacon cooked",
+        "grams": 16,
+        "calories": 86,
+        "protein_g": 6,
+        "carbs_g": 0.2,
+        "fat_g": 6.7
+      },
+      {
+        "name": "goat cheese",
+        "usda_query": "goat cheese soft",
+        "grams": 45,
+        "calories": 121,
+        "protein_g": 8.4,
+        "carbs_g": 0.5,
+        "fat_g": 9.6
+      }
+    ],
+    "total_calories": 261
+  }
+}

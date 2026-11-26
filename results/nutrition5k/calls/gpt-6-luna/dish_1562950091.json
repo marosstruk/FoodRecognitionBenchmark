@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562950091",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bbad50ad2d6eda2a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 807,
+    "reasoning_tokens": 575,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8928,
+    "ai_credits": 0.04783
+  },
+  "timestamp": "2026-11-25T00:33:45.746Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled cooked\",\n      \"grams\": 140,\n      \"calories\": 209,\n      \"protein_g\": 13.6,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 14.3\n    },\n    {\n      \"name\": \"Roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 160,\n      \"calories\": 238,\n      \"protein_g\": 4.3,\n      \"carbs_g\": 36.5,\n      \"fat_g\": 8.3\n    },\n    {\n      \"name\": \"Blood sausage\",\n      \"usda_query\": \"blood sausage cooked\",\n      \"grams\": 55,\n      \"calories\": 190,\n      \"protein_g\": 7,\n      \"carbs_g\": 4,\n      \"fat_g\": 15.5\n    }\n  ],\n  \"total_calories\": 637\n}",
+  "latency_ms": 10122,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled cooked",
+        "grams": 140,
+        "calories": 209,
+        "protein_g": 13.6,
+        "carbs_g": 1.5,
+        "fat_g": 14.3
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 160,
+        "calories": 238,
+        "protein_g": 4.3,
+        "carbs_g": 36.5,
+        "fat_g": 8.3
+      },
+      {
+        "name": "Blood sausage",
+        "usda_query": "blood sausage cooked",
+        "grams": 55,
+        "calories": 190,
+        "protein_g": 7,
+        "carbs_g": 4,
+        "fat_g": 15.5
+      }
+    ],
+    "total_calories": 637
+  }
+}

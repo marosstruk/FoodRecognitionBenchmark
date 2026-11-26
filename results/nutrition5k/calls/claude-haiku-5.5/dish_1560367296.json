@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367296",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "162c6dc35f6fa853",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1604,
+    "reasoning_tokens": 1018,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7331,
+    "ai_credits": 0.0924025
+  },
+  "timestamp": "2026-11-25T00:25:33.497Z",
+  "raw_text": "{\"items\":[{\"name\":\"green asparagus\",\"usda_query\":\"asparagus cooked boiled drained\",\"grams\":90,\"calories\":20,\"protein_g\":2.2,\"carbs_g\":3.7,\"fat_g\":0.2},{\"name\":\"sauteed mushrooms\",\"usda_query\":\"mushrooms cooked sauteed with oil\",\"grams\":100,\"calories\":60,\"protein_g\":2.5,\"carbs_g\":4,\"fat_g\":4.5},{\"name\":\"mixed greens arugula\",\"usda_query\":\"arugula raw\",\"grams\":50,\"calories\":13,\"protein_g\":1.3,\"carbs_g\":1.8,\"fat_g\":0.2},{\"name\":\"vinaigrette dressing\",\"usda_query\":\"salad dressing vinaigrette italian regular\",\"grams\":10,\"calories\":80,\"protein_g\":0,\"carbs_g\":0.5,\"fat_g\":9},{\"name\":\"roasted beetroot\",\"usda_query\":\"beets cooked boiled drained\",\"grams\":60,\"calories\":26,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":0.1},{\"name\":\"roasted carrot\",\"usda_query\":\"carrots cooked roasted\",\"grams\":50,\"calories\":45,\"protein_g\":0.6,\"carbs_g\":10.5,\"fat_g\":0.1},{\"name\":\"braised leek\",\"usda_query\":\"leeks cooked boiled drained\",\"grams\":40,\"calories\":12,\"protein_g\":0.6,\"carbs_g\":2.7,\"fat_g\":0.1},{\"name\":\"pan-fried tofu\",\"usda_query\":\"tofu firm prepared pan-fried\",\"grams\":60,\"calories\":110,\"protein_g\":8,\"carbs_g\":2,\"fat_g\":8}],\"total_calories\":366}",
+  "latency_ms": 8202,
+  "parsed": {
+    "items": [
+      {
+        "name": "green asparagus",
+        "usda_query": "asparagus cooked boiled drained",
+        "grams": 90,
+        "calories": 20,
+        "protein_g": 2.2,
+        "carbs_g": 3.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "sauteed mushrooms",
+        "usda_query": "mushrooms cooked sauteed with oil",
+        "grams": 100,
+        "calories": 60,
+        "protein_g": 2.5,
+        "carbs_g": 4,
+        "fat_g": 4.5
+      },
+      {
+        "name": "mixed greens arugula",
+        "usda_query": "arugula raw",
+        "grams": 50,
+        "calories": 13,
+        "protein_g": 1.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette italian regular",
+        "grams": 10,
+        "calories": 80,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 9
+      },
+      {
+        "name": "roasted beetroot",
+        "usda_query": "beets cooked boiled drained",
+        "grams": 60,
+        "calories": 26,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted carrot",
+        "usda_query": "carrots cooked roasted",
+        "grams": 50,
+        "calories": 45,
+        "protein_g": 0.6,
+        "carbs_g": 10.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "braised leek",
+        "usda_query": "leeks cooked boiled drained",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 0.6,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "pan-fried tofu",
+        "usda_query": "tofu firm prepared pan-fried",
+        "grams": 60,
+        "calories": 110,
+        "protein_g": 8,
+        "carbs_g": 2,
+        "fat_g": 8
+      }
+    ],
+    "total_calories": 366
+  }
+}

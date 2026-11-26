@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563909580",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b280c8a80dac30e5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 605,
+    "reasoning_tokens": 433,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7809,
+    "ai_credits": 0.03773
+  },
+  "timestamp": "2026-11-25T00:29:40.161Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza\",\"usda_query\":\"cheese pizza\",\"grams\":160,\"calories\":450,\"protein_g\":20,\"carbs_g\":52,\"fat_g\":18},{\"name\":\"yellow rice\",\"usda_query\":\"yellow rice cooked\",\"grams\":170,\"calories\":260,\"protein_g\":5,\"carbs_g\":47,\"fat_g\":5},{\"name\":\"green beans\",\"usda_query\":\"green beans cooked with oil\",\"grams\":130,\"calories\":80,\"protein_g\":3,\"carbs_g\":10,\"fat_g\":4},{\"name\":\"spinach\",\"usda_query\":\"spinach cooked\",\"grams\":65,\"calories\":25,\"protein_g\":3,\"carbs_g\":4,\"fat_g\":0}],\"total_calories\":815}",
+  "latency_ms": 8708,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "cheese pizza",
+        "grams": 160,
+        "calories": 450,
+        "protein_g": 20,
+        "carbs_g": 52,
+        "fat_g": 18
+      },
+      {
+        "name": "yellow rice",
+        "usda_query": "yellow rice cooked",
+        "grams": 170,
+        "calories": 260,
+        "protein_g": 5,
+        "carbs_g": 47,
+        "fat_g": 5
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked with oil",
+        "grams": 130,
+        "calories": 80,
+        "protein_g": 3,
+        "carbs_g": 10,
+        "fat_g": 4
+      },
+      {
+        "name": "spinach",
+        "usda_query": "spinach cooked",
+        "grams": 65,
+        "calories": 25,
+        "protein_g": 3,
+        "carbs_g": 4,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 815
+  }
+}

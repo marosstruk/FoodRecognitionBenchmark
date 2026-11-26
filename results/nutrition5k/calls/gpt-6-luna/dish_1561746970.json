@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561746970",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e8d5b8549a423876",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 796,
+    "reasoning_tokens": 429,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7094,
+    "ai_credits": 0.04728
+  },
+  "timestamp": "2026-11-25T00:10:31.566Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked lentils\",\n      \"usda_query\": \"lentils cooked\",\n      \"grams\": 130,\n      \"calories\": 151,\n      \"protein_g\": 11.7,\n      \"carbs_g\": 26.4,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"Cooked salmon\",\n      \"usda_query\": \"salmon cooked\",\n      \"grams\": 110,\n      \"calories\": 227,\n      \"protein_g\": 24.3,\n      \"carbs_g\": 0,\n      \"fat_g\": 13.6\n    },\n    {\n      \"name\": \"Leafy greens\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 70,\n      \"calories\": 16,\n      \"protein_g\": 2,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Cucumber\",\n      \"usda_query\": \"cucumber raw\",\n      \"grams\": 15,\n      \"calories\": 2,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Tomato\",\n      \"usda_query\": \"tomato raw\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 401\n}",
+  "latency_ms": 7961,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked lentils",
+        "usda_query": "lentils cooked",
+        "grams": 130,
+        "calories": 151,
+        "protein_g": 11.7,
+        "carbs_g": 26.4,
+        "fat_g": 0.5
+      },
+      {
+        "name": "Cooked salmon",
+        "usda_query": "salmon cooked",
+        "grams": 110,
+        "calories": 227,
+        "protein_g": 24.3,
+        "carbs_g": 0,
+        "fat_g": 13.6
+      },
+      {
+        "name": "Leafy greens",
+        "usda_query": "spinach raw",
+        "grams": 70,
+        "calories": 16,
+        "protein_g": 2,
+        "carbs_g": 2.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Cucumber",
+        "usda_query": "cucumber raw",
+        "grams": 15,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      },
+      {
+        "name": "Tomato",
+        "usda_query": "tomato raw",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 401
+  }
+}

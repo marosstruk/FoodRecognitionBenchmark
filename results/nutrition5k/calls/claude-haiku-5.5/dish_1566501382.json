@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566501382",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8947f191b980251f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 938,
+    "reasoning_tokens": 647,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4682,
+    "ai_credits": 0.0591025
+  },
+  "timestamp": "2026-11-25T00:39:27.461Z",
+  "raw_text": "{\"items\":[{\"name\":\"canned tuna, drained\",\"usda_query\":\"tuna light canned in water drained solids\",\"grams\":120,\"calories\":139,\"protein_g\":30.6,\"carbs_g\":0,\"fat_g\":1.0},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":60,\"calories\":25,\"protein_g\":0.6,\"carbs_g\":5.8,\"fat_g\":0.1},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":50,\"calories\":9,\"protein_g\":0.4,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"celery\",\"usda_query\":\"celery raw\",\"grams\":15,\"calories\":2,\"protein_g\":0.1,\"carbs_g\":0.4,\"fat_g\":0.1}],\"total_calories\":175}",
+  "latency_ms": 5974,
+  "parsed": {
+    "items": [
+      {
+        "name": "canned tuna, drained",
+        "usda_query": "tuna light canned in water drained solids",
+        "grams": 120,
+        "calories": 139,
+        "protein_g": 30.6,
+        "carbs_g": 0,
+        "fat_g": 1
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 60,
+        "calories": 25,
+        "protein_g": 0.6,
+        "carbs_g": 5.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "celery",
+        "usda_query": "celery raw",
+        "grams": 15,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.4,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 175
+  }
+}

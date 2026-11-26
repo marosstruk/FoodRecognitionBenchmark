@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567106620",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a04f8997b93b5aaf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1062,
+    "reasoning_tokens": 694,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4422,
+    "ai_credits": 0.0653025
+  },
+  "timestamp": "2026-11-25T00:23:37.100Z",
+  "raw_text": "{\"items\":[{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw year round average\",\"grams\":120,\"calories\":22,\"protein_g\":1.1,\"carbs_g\":4.7,\"fat_g\":0.2},{\"name\":\"red bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":60,\"calories\":19,\"protein_g\":0.6,\"carbs_g\":3.6,\"fat_g\":0.2},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":40,\"calories\":8,\"protein_g\":0.4,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"yellow bell pepper\",\"usda_query\":\"peppers sweet yellow raw\",\"grams\":30,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"carrot\",\"usda_query\":\"carrots raw\",\"grams\":5,\"calories\":2,\"protein_g\":0.0,\"carbs_g\":0.5,\"fat_g\":0.0}],\"total_calories\":59}",
+  "latency_ms": 5306,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw year round average",
+        "grams": 120,
+        "calories": 22,
+        "protein_g": 1.1,
+        "carbs_g": 4.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 0.6,
+        "carbs_g": 3.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "peppers sweet yellow raw",
+        "grams": 30,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 59
+  }
+}

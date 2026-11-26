@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563391922",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ae91890ee3f42c7f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1690,
+    "reasoning_tokens": 1534,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 19618,
+    "ai_credits": 0.04599
+  },
+  "timestamp": "2026-11-25T00:19:55.987Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked no salt\",\"grams\":45,\"calories\":16,\"protein_g\":1.1,\"carbs_g\":3.3,\"fat_g\":0.2},{\"name\":\"grilled zucchini\",\"usda_query\":\"zucchini cooked\",\"grams\":80,\"calories\":16,\"protein_g\":1.1,\"carbs_g\":3.1,\"fat_g\":0.3},{\"name\":\"yellow squash\",\"usda_query\":\"summer squash yellow cooked\",\"grams\":50,\"calories\":10,\"protein_g\":0.5,\"carbs_g\":2.0,\"fat_g\":0.1}],\"total_calories\":42}",
+  "latency_ms": 21180,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked no salt",
+        "grams": 45,
+        "calories": 16,
+        "protein_g": 1.1,
+        "carbs_g": 3.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grilled zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 80,
+        "calories": 16,
+        "protein_g": 1.1,
+        "carbs_g": 3.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "yellow squash",
+        "usda_query": "summer squash yellow cooked",
+        "grams": 50,
+        "calories": 10,
+        "protein_g": 0.5,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 42
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564686657",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a123c67762c25a5f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 688,
+    "reasoning_tokens": 580,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7131,
+    "ai_credits": 0.36855
+  },
+  "timestamp": "2026-11-25T00:22:51.829Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"steak and onion flatbread pizza\",\n      \"usda_query\": \"pizza meat and cheese thin crust\",\n      \"grams\": 75,\n      \"calories\": 199,\n      \"protein_g\": 9,\n      \"carbs_g\": 21,\n      \"fat_g\": 9\n    }\n  ],\n  \"total_calories\": 199\n}",
+  "latency_ms": 8245,
+  "parsed": {
+    "items": [
+      {
+        "name": "steak and onion flatbread pizza",
+        "usda_query": "pizza meat and cheese thin crust",
+        "grams": 75,
+        "calories": 199,
+        "protein_g": 9,
+        "carbs_g": 21,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 199
+  }
+}

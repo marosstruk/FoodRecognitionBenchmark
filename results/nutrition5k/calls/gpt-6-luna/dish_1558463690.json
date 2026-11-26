@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558463690",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "791188cde85a0108",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 722,
+    "reasoning_tokens": 487,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6256,
+    "ai_credits": 0.04358
+  },
+  "timestamp": "2026-11-25T00:32:18.127Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Almonds\",\n      \"usda_query\": \"almonds raw\",\n      \"grams\": 36,\n      \"calories\": 208,\n      \"protein_g\": 7.6,\n      \"carbs_g\": 7.8,\n      \"fat_g\": 18\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 130,\n      \"calories\": 23,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 5.1,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Red grapes\",\n      \"usda_query\": \"grapes red or green raw\",\n      \"grams\": 70,\n      \"calories\": 48,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 12.7,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 279\n}",
+  "latency_ms": 7158,
+  "parsed": {
+    "items": [
+      {
+        "name": "Almonds",
+        "usda_query": "almonds raw",
+        "grams": 36,
+        "calories": 208,
+        "protein_g": 7.6,
+        "carbs_g": 7.8,
+        "fat_g": 18
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 130,
+        "calories": 23,
+        "protein_g": 1.2,
+        "carbs_g": 5.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Red grapes",
+        "usda_query": "grapes red or green raw",
+        "grams": 70,
+        "calories": 48,
+        "protein_g": 0.5,
+        "carbs_g": 12.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 279
+  }
+}

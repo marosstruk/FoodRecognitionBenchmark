@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562862550",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39c5c0ea69fac195",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1321,
+    "reasoning_tokens": 962,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11193,
+    "ai_credits": 0.605925
+  },
+  "timestamp": "2026-11-25T00:38:11.850Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 130,\n      \"calories\": 192,\n      \"protein_g\": 13.0,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 14.3\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 70,\n      \"calories\": 22,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.4,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"bagel half\",\n      \"usda_query\": \"bagels plain\",\n      \"grams\": 55,\n      \"calories\": 145,\n      \"protein_g\": 5.5,\n      \"carbs_g\": 28.0,\n      \"fat_g\": 0.8\n    },\n    {\n      \"name\": \"cream cheese\",\n      \"usda_query\": \"cream cheese\",\n      \"grams\": 25,\n      \"calories\": 88,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 8.5\n    }\n  ],\n  \"total_calories\": 447\n}",
+  "latency_ms": 12735,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 130,
+        "calories": 192,
+        "protein_g": 13,
+        "carbs_g": 2.1,
+        "fat_g": 14.3
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 70,
+        "calories": 22,
+        "protein_g": 0.5,
+        "carbs_g": 5.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "bagel half",
+        "usda_query": "bagels plain",
+        "grams": 55,
+        "calories": 145,
+        "protein_g": 5.5,
+        "carbs_g": 28,
+        "fat_g": 0.8
+      },
+      {
+        "name": "cream cheese",
+        "usda_query": "cream cheese",
+        "grams": 25,
+        "calories": 88,
+        "protein_g": 1.5,
+        "carbs_g": 1.4,
+        "fat_g": 8.5
+      }
+    ],
+    "total_calories": 447
+  }
+}

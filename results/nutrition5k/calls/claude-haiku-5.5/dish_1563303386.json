@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563303386",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39fef9e4ab0a01d5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 978,
+    "reasoning_tokens": 686,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5151,
+    "ai_credits": 0.0611025
+  },
+  "timestamp": "2026-11-25T00:10:46.290Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked carrot slices\",\"usda_query\":\"carrots cooked boiled drained\",\"grams\":100,\"calories\":35,\"protein_g\":0.8,\"carbs_g\":8.2,\"fat_g\":0.2},{\"name\":\"breaded baked chicken breast\",\"usda_query\":\"chicken breast meat breaded baked\",\"grams\":130,\"calories\":250,\"protein_g\":27,\"carbs_g\":10,\"fat_g\":11},{\"name\":\"roasted potato wedges\",\"usda_query\":\"potatoes roasted with oil\",\"grams\":150,\"calories\":180,\"protein_g\":3,\"carbs_g\":28,\"fat_g\":6},{\"name\":\"pecan\",\"usda_query\":\"nuts pecans\",\"grams\":4,\"calories\":28,\"protein_g\":0.4,\"carbs_g\":0.6,\"fat_g\":2.8}],\"total_calories\":493}",
+  "latency_ms": 6062,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked carrot slices",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 0.8,
+        "carbs_g": 8.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "breaded baked chicken breast",
+        "usda_query": "chicken breast meat breaded baked",
+        "grams": 130,
+        "calories": 250,
+        "protein_g": 27,
+        "carbs_g": 10,
+        "fat_g": 11
+      },
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 150,
+        "calories": 180,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 6
+      },
+      {
+        "name": "pecan",
+        "usda_query": "nuts pecans",
+        "grams": 4,
+        "calories": 28,
+        "protein_g": 0.4,
+        "carbs_g": 0.6,
+        "fat_g": 2.8
+      }
+    ],
+    "total_calories": 493
+  }
+}

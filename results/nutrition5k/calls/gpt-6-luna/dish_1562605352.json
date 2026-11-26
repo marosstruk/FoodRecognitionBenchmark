@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562605352",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "72b1be286dde1e33",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 462,
+    "reasoning_tokens": 301,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7166,
+    "ai_credits": 0.03058
+  },
+  "timestamp": "2026-11-25T00:31:03.542Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 160,\n      \"calories\": 238,\n      \"protein_g\": 16,\n      \"carbs_g\": 2.6,\n      \"fat_g\": 17.6\n    },\n    {\n      \"name\": \"Brussels sprouts\",\n      \"usda_query\": \"Brussels sprouts cooked\",\n      \"grams\": 65,\n      \"calories\": 27,\n      \"protein_g\": 2,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 265\n}",
+  "latency_ms": 8295,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "egg scrambled cooked",
+        "grams": 160,
+        "calories": 238,
+        "protein_g": 16,
+        "carbs_g": 2.6,
+        "fat_g": 17.6
+      },
+      {
+        "name": "Brussels sprouts",
+        "usda_query": "Brussels sprouts cooked",
+        "grams": 65,
+        "calories": 27,
+        "protein_g": 2,
+        "carbs_g": 5.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 265
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563303386",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39fef9e4ab0a01d5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1534,
+    "reasoning_tokens": 1172,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 12264,
+    "ai_credits": 0.6858
+  },
+  "timestamp": "2026-11-25T00:10:55.183Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted chicken thigh\",\n      \"usda_query\": \"chicken thigh meat only cooked roasted\",\n      \"grams\": 85,\n      \"calories\": 151,\n      \"protein_g\": 20.6,\n      \"carbs_g\": 0,\n      \"fat_g\": 7.1\n    },\n    {\n      \"name\": \"steamed carrots\",\n      \"usda_query\": \"carrots cooked boiled drained without salt\",\n      \"grams\": 90,\n      \"calories\": 32,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 7.4,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 60,\n      \"calories\": 89,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 12.3,\n      \"fat_g\": 3.9\n    },\n    {\n      \"name\": \"pecan half\",\n      \"usda_query\": \"nuts pecans\",\n      \"grams\": 3,\n      \"calories\": 21,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 2.2\n    }\n  ],\n  \"total_calories\": 293\n}",
+  "latency_ms": 13442,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted chicken thigh",
+        "usda_query": "chicken thigh meat only cooked roasted",
+        "grams": 85,
+        "calories": 151,
+        "protein_g": 20.6,
+        "carbs_g": 0,
+        "fat_g": 7.1
+      },
+      {
+        "name": "steamed carrots",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbs_g": 7.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 60,
+        "calories": 89,
+        "protein_g": 1.4,
+        "carbs_g": 12.3,
+        "fat_g": 3.9
+      },
+      {
+        "name": "pecan half",
+        "usda_query": "nuts pecans",
+        "grams": 3,
+        "calories": 21,
+        "protein_g": 0.3,
+        "carbs_g": 0.4,
+        "fat_g": 2.2
+      }
+    ],
+    "total_calories": 293
+  }
+}

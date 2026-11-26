@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560442374",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ca36dbc420eae4da",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 630,
+    "reasoning_tokens": 544,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7705,
+    "ai_credits": 0.3468
+  },
+  "timestamp": "2026-11-25T00:24:09.899Z",
+  "raw_text": "{\"items\": [{\"name\": \"apple juice\", \"usda_query\": \"apple juice 100% unsweetened\", \"grams\": 240, \"calories\": 110, \"protein_g\": 0.2, \"carbs_g\": 28.1, \"fat_g\": 0.3}], \"total_calories\": 110}",
+  "latency_ms": 8578,
+  "parsed": {
+    "items": [
+      {
+        "name": "apple juice",
+        "usda_query": "apple juice 100% unsweetened",
+        "grams": 240,
+        "calories": 110,
+        "protein_g": 0.2,
+        "carbs_g": 28.1,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 110
+  }
+}

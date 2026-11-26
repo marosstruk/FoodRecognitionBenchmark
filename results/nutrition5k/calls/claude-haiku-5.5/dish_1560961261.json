@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560961261",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cd94e2332ef0b3df",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 677,
+    "reasoning_tokens": 450,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3661,
+    "ai_credits": 0.0460525
+  },
+  "timestamp": "2026-11-25T00:13:43.308Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":180,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"broccoli steamed\",\"usda_query\":\"broccoli cooked boiled drained without salt\",\"grams\":80,\"calories\":28,\"protein_g\":2.3,\"carbs_g\":5.4,\"fat_g\":0.3},{\"name\":\"strawberries raw\",\"usda_query\":\"strawberries raw\",\"grams\":120,\"calories\":38,\"protein_g\":0.8,\"carbs_g\":7.7,\"fat_g\":0.4}],\"total_calories\":246}",
+  "latency_ms": 4776,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 180,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "broccoli steamed",
+        "usda_query": "broccoli cooked boiled drained without salt",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2.3,
+        "carbs_g": 5.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "strawberries raw",
+        "usda_query": "strawberries raw",
+        "grams": 120,
+        "calories": 38,
+        "protein_g": 0.8,
+        "carbs_g": 7.7,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 246
+  }
+}

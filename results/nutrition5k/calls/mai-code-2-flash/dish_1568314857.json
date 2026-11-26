@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568314857",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9b690105db665da3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 572,
+    "reasoning_tokens": 434,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7145,
+    "ai_credits": 0.01804
+  },
+  "timestamp": "2026-11-25T00:16:35.379Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled beef steak\",\"usda_query\":\"beef steak grilled\",\"grams\":170,\"calories\":446,\"protein_g\":46,\"carbs_g\":0,\"fat_g\":27},{\"name\":\"french fries\",\"usda_query\":\"potatoes french fried\",\"grams\":150,\"calories\":465,\"protein_g\":6,\"carbs_g\":62,\"fat_g\":23},{\"name\":\"pickled cucumber\",\"usda_query\":\"pickles cucumber dill\",\"grams\":50,\"calories\":7,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":0}],\"total_calories\":918}",
+  "latency_ms": 8022,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled beef steak",
+        "usda_query": "beef steak grilled",
+        "grams": 170,
+        "calories": 446,
+        "protein_g": 46,
+        "carbs_g": 0,
+        "fat_g": 27
+      },
+      {
+        "name": "french fries",
+        "usda_query": "potatoes french fried",
+        "grams": 150,
+        "calories": 465,
+        "protein_g": 6,
+        "carbs_g": 62,
+        "fat_g": 23
+      },
+      {
+        "name": "pickled cucumber",
+        "usda_query": "pickles cucumber dill",
+        "grams": 50,
+        "calories": 7,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 918
+  }
+}

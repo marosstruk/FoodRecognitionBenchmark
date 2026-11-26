@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562947436",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f2fcd6e975f709e9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1342,
+    "reasoning_tokens": 1195,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15868,
+    "ai_credits": 0.03729
+  },
+  "timestamp": "2026-11-25T00:24:22.356Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted beef pieces\",\"usda_query\":\"beef roast cooked\",\"grams\":80,\"calories\":170,\"protein_g\":24,\"carbs_g\":0,\"fat_g\":8},{\"name\":\"tomato\",\"usda_query\":\"tomatoes red raw\",\"grams\":120,\"calories\":22,\"protein_g\":1.1,\"carbs_g\":4.7,\"fat_g\":0.2},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw\",\"grams\":90,\"calories\":45,\"protein_g\":0.5,\"carbs_g\":11.8,\"fat_g\":0.1}],\"total_calories\":237}",
+  "latency_ms": 16977,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted beef pieces",
+        "usda_query": "beef roast cooked",
+        "grams": 80,
+        "calories": 170,
+        "protein_g": 24,
+        "carbs_g": 0,
+        "fat_g": 8
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 120,
+        "calories": 22,
+        "protein_g": 1.1,
+        "carbs_g": 4.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 90,
+        "calories": 45,
+        "protein_g": 0.5,
+        "carbs_g": 11.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 237
+  }
+}

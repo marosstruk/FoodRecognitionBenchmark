@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566501447",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f24f4167eb46668b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 947,
+    "reasoning_tokens": 664,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7612,
+    "ai_credits": 0.465675
+  },
+  "timestamp": "2026-11-25T00:30:56.577Z",
+  "raw_text": "{\"items\": [{\"name\": \"canned tuna in water\", \"usda_query\": \"fish tuna light canned in water drained solids\", \"grams\": 110, \"calories\": 128, \"protein_g\": 28.1, \"carbs_g\": 0.0, \"fat_g\": 1.1}, {\"name\": \"shredded carrots\", \"usda_query\": \"carrots raw shredded\", \"grams\": 40, \"calories\": 16, \"protein_g\": 0.4, \"carbs_g\": 3.8, \"fat_g\": 0.1}, {\"name\": \"cherry tomatoes\", \"usda_query\": \"tomatoes grape or cherry raw\", \"grams\": 40, \"calories\": 7, \"protein_g\": 0.4, \"carbs_g\": 1.6, \"fat_g\": 0.1}, {\"name\": \"black olives\", \"usda_query\": \"olives ripe canned jumbo\", \"grams\": 15, \"calories\": 17, \"protein_g\": 0.1, \"carbs_g\": 0.9, \"fat_g\": 1.6}], \"total_calories\": 168}",
+  "latency_ms": 8720,
+  "parsed": {
+    "items": [
+      {
+        "name": "canned tuna in water",
+        "usda_query": "fish tuna light canned in water drained solids",
+        "grams": 110,
+        "calories": 128,
+        "protein_g": 28.1,
+        "carbs_g": 0,
+        "fat_g": 1.1
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw shredded",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes grape or cherry raw",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.4,
+        "carbs_g": 1.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned jumbo",
+        "grams": 15,
+        "calories": 17,
+        "protein_g": 0.1,
+        "carbs_g": 0.9,
+        "fat_g": 1.6
+      }
+    ],
+    "total_calories": 168
+  }
+}

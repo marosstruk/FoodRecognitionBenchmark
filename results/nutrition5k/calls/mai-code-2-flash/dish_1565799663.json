@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565799663",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "554c71b89663108d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1496,
+    "reasoning_tokens": 1057,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15259,
+    "ai_credits": 0.04114
+  },
+  "timestamp": "2026-11-25T00:09:42.896Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"waffle\",\n      \"usda_query\": \"waffle plain\",\n      \"grams\": 150,\n      \"calories\": 437,\n      \"protein_g\": 11.6,\n      \"carbs_g\": 50.1,\n      \"fat_g\": 21.2\n    },\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 130,\n      \"calories\": 202,\n      \"protein_g\": 12.9,\n      \"carbs_g\": 1.7,\n      \"fat_g\": 15.2\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 70,\n      \"calories\": 22,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"raspberries\",\n      \"usda_query\": \"raspberries raw\",\n      \"grams\": 30,\n      \"calories\": 15,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 3.4,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 40,\n      \"calories\": 23,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"maple syrup\",\n      \"usda_query\": \"maple syrup\",\n      \"grams\": 30,\n      \"calories\": 78,\n      \"protein_g\": 0,\n      \"carbs_g\": 20,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 777\n}",
+  "latency_ms": 16162,
+  "parsed": {
+    "items": [
+      {
+        "name": "waffle",
+        "usda_query": "waffle plain",
+        "grams": 150,
+        "calories": 437,
+        "protein_g": 11.6,
+        "carbs_g": 50.1,
+        "fat_g": 21.2
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 130,
+        "calories": 202,
+        "protein_g": 12.9,
+        "carbs_g": 1.7,
+        "fat_g": 15.2
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 70,
+        "calories": 22,
+        "protein_g": 0.5,
+        "carbs_g": 5.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 30,
+        "calories": 15,
+        "protein_g": 0.5,
+        "carbs_g": 3.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 40,
+        "calories": 23,
+        "protein_g": 0.3,
+        "carbs_g": 5.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "maple syrup",
+        "usda_query": "maple syrup",
+        "grams": 30,
+        "calories": 78,
+        "protein_g": 0,
+        "carbs_g": 20,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 777
+  }
+}

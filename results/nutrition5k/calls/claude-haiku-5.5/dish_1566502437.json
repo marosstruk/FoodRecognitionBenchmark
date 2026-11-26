@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566502437",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "32b58a09849f0ccf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1040,
+    "reasoning_tokens": 714,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5322,
+    "ai_credits": 0.0642025
+  },
+  "timestamp": "2026-11-25T00:15:00.726Z",
+  "raw_text": "{\"items\":[{\"name\":\"spinach, cooked\",\"usda_query\":\"spinach cooked boiled drained without salt\",\"grams\":150,\"calories\":35,\"protein_g\":4.4,\"carbs_g\":5.4,\"fat_g\":0.5},{\"name\":\"broccoli, cooked\",\"usda_query\":\"broccoli cooked boiled drained without salt\",\"grams\":30,\"calories\":10,\"protein_g\":0.8,\"carbs_g\":2.0,\"fat_g\":0.1},{\"name\":\"red bell pepper, raw\",\"usda_query\":\"peppers sweet red raw\",\"grams\":10,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.6,\"fat_g\":0.0},{\"name\":\"sweet corn, cooked\",\"usda_query\":\"corn sweet yellow cooked boiled drained without salt\",\"grams\":10,\"calories\":9,\"protein_g\":0.3,\"carbs_g\":1.9,\"fat_g\":0.1}],\"total_calories\":57}",
+  "latency_ms": 6514,
+  "parsed": {
+    "items": [
+      {
+        "name": "spinach, cooked",
+        "usda_query": "spinach cooked boiled drained without salt",
+        "grams": 150,
+        "calories": 35,
+        "protein_g": 4.4,
+        "carbs_g": 5.4,
+        "fat_g": 0.5
+      },
+      {
+        "name": "broccoli, cooked",
+        "usda_query": "broccoli cooked boiled drained without salt",
+        "grams": 30,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper, raw",
+        "usda_query": "peppers sweet red raw",
+        "grams": 10,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "sweet corn, cooked",
+        "usda_query": "corn sweet yellow cooked boiled drained without salt",
+        "grams": 10,
+        "calories": 9,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 57
+  }
+}

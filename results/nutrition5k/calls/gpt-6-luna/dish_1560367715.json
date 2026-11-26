@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367715",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "dd04d591133e3bcc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 868,
+    "reasoning_tokens": 503,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8052,
+    "ai_credits": 0.05088
+  },
+  "timestamp": "2026-11-25T00:08:37.328Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 170,\n      \"calories\": 221,\n      \"protein_g\": 4.6,\n      \"carbs_g\": 47.9,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 110,\n      \"calories\": 182,\n      \"protein_g\": 34.1,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"fried tofu\",\n      \"usda_query\": \"tofu fried\",\n      \"grams\": 45,\n      \"calories\": 108,\n      \"protein_g\": 7,\n      \"carbs_g\": 2,\n      \"fat_g\": 8.5\n    },\n    {\n      \"name\": \"stir-fry sauce\",\n      \"usda_query\": \"stir fry sauce\",\n      \"grams\": 12,\n      \"calories\": 20,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 3,\n      \"fat_g\": 0.5\n    }\n  ],\n  \"total_calories\": 566\n}",
+  "latency_ms": 9637,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 170,
+        "calories": 221,
+        "protein_g": 4.6,
+        "carbs_g": 47.9,
+        "fat_g": 0.5
+      },
+      {
+        "name": "chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 110,
+        "calories": 182,
+        "protein_g": 34.1,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "fried tofu",
+        "usda_query": "tofu fried",
+        "grams": 45,
+        "calories": 108,
+        "protein_g": 7,
+        "carbs_g": 2,
+        "fat_g": 8.5
+      },
+      {
+        "name": "stir-fry sauce",
+        "usda_query": "stir fry sauce",
+        "grams": 12,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 3,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 566
+  }
+}

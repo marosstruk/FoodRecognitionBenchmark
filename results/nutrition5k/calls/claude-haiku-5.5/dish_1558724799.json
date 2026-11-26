@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558724799",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4e801252951c595d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 624,
+    "reasoning_tokens": 401,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2952,
+    "ai_credits": 0.0434025
+  },
+  "timestamp": "2026-11-25T00:18:22.583Z",
+  "raw_text": "{\"items\":[{\"name\":\"raw cauliflower florets\",\"usda_query\":\"cauliflower raw\",\"grams\":150,\"calories\":38,\"protein_g\":2.9,\"carbs_g\":7.5,\"fat_g\":0.5},{\"name\":\"raw broccoli florets\",\"usda_query\":\"broccoli raw\",\"grams\":170,\"calories\":58,\"protein_g\":4.8,\"carbs_g\":11.2,\"fat_g\":0.7},{\"name\":\"apple with skin\",\"usda_query\":\"apples raw with skin\",\"grams\":182,\"calories\":95,\"protein_g\":0.9,\"carbs_g\":25.1,\"fat_g\":0.4}],\"total_calories\":191}",
+  "latency_ms": 4044,
+  "parsed": {
+    "items": [
+      {
+        "name": "raw cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 150,
+        "calories": 38,
+        "protein_g": 2.9,
+        "carbs_g": 7.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "raw broccoli florets",
+        "usda_query": "broccoli raw",
+        "grams": 170,
+        "calories": 58,
+        "protein_g": 4.8,
+        "carbs_g": 11.2,
+        "fat_g": 0.7
+      },
+      {
+        "name": "apple with skin",
+        "usda_query": "apples raw with skin",
+        "grams": 182,
+        "calories": 95,
+        "protein_g": 0.9,
+        "carbs_g": 25.1,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 191
+  }
+}

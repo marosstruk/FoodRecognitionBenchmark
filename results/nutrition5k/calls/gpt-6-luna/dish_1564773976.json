@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564773976",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "afb822edfc5ebd4d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1396,
+    "reasoning_tokens": 956,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11165,
+    "ai_credits": 0.07728
+  },
+  "timestamp": "2026-11-25T00:32:53.461Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Chicken breast\",\n      \"usda_query\": \"chicken breast cooked roasted\",\n      \"grams\": 100,\n      \"calories\": 165,\n      \"protein_g\": 31,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.6\n    },\n    {\n      \"name\": \"Yellow squash\",\n      \"usda_query\": \"summer squash cooked\",\n      \"grams\": 100,\n      \"calories\": 20,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 90,\n      \"calories\": 32,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 6.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes raw\",\n      \"grams\": 70,\n      \"calories\": 13,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Black olives\",\n      \"usda_query\": \"ripe olives canned\",\n      \"grams\": 35,\n      \"calories\": 41,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 3.8\n    },\n    {\n      \"name\": \"Grilled eggplant\",\n      \"usda_query\": \"eggplant cooked grilled\",\n      \"grams\": 70,\n      \"calories\": 45,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 2.5\n    }\n  ],\n  \"total_calories\": 316\n}",
+  "latency_ms": 12443,
+  "parsed": {
+    "items": [
+      {
+        "name": "Chicken breast",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      },
+      {
+        "name": "Yellow squash",
+        "usda_query": "summer squash cooked",
+        "grams": 100,
+        "calories": 20,
+        "protein_g": 1.2,
+        "carbs_g": 4.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 2.2,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes raw",
+        "grams": 70,
+        "calories": 13,
+        "protein_g": 0.6,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Black olives",
+        "usda_query": "ripe olives canned",
+        "grams": 35,
+        "calories": 41,
+        "protein_g": 0.3,
+        "carbs_g": 2.2,
+        "fat_g": 3.8
+      },
+      {
+        "name": "Grilled eggplant",
+        "usda_query": "eggplant cooked grilled",
+        "grams": 70,
+        "calories": 45,
+        "protein_g": 0.7,
+        "carbs_g": 5.3,
+        "fat_g": 2.5
+      }
+    ],
+    "total_calories": 316
+  }
+}

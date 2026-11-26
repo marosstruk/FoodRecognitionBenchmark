@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562949162",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ca5907385c22a9db",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 691,
+    "reasoning_tokens": 629,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11336,
+    "ai_credits": 0.021015
+  },
+  "timestamp": "2026-11-25T00:30:13.959Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked shrimp\",\"usda_query\":\"shrimp cooked\",\"grams\":60,\"calories\":59,\"protein_g\":14.4,\"carbs_g\":0.2,\"fat_g\":0.8}],\"total_calories\":59}",
+  "latency_ms": 12217,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked shrimp",
+        "usda_query": "shrimp cooked",
+        "grams": 60,
+        "calories": 59,
+        "protein_g": 14.4,
+        "carbs_g": 0.2,
+        "fat_g": 0.8
+      }
+    ],
+    "total_calories": 59
+  }
+}

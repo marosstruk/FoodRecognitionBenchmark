@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558630325",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "168f559d0cb3d81e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 634,
+    "reasoning_tokens": 400,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8659,
+    "ai_credits": 0.03918
+  },
+  "timestamp": "2026-11-25T00:11:32.113Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Almonds\",\n      \"usda_query\": \"almonds raw\",\n      \"grams\": 75,\n      \"calories\": 434,\n      \"protein_g\": 15.9,\n      \"carbs_g\": 16.2,\n      \"fat_g\": 37.4\n    },\n    {\n      \"name\": \"Mixed salad greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Apple\",\n      \"usda_query\": \"apple raw with skin\",\n      \"grams\": 160,\n      \"calories\": 83,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 22.1,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 522\n}",
+  "latency_ms": 9526,
+  "parsed": {
+    "items": [
+      {
+        "name": "Almonds",
+        "usda_query": "almonds raw",
+        "grams": 75,
+        "calories": 434,
+        "protein_g": 15.9,
+        "carbs_g": 16.2,
+        "fat_g": 37.4
+      },
+      {
+        "name": "Mixed salad greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.5,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Apple",
+        "usda_query": "apple raw with skin",
+        "grams": 160,
+        "calories": 83,
+        "protein_g": 0.4,
+        "carbs_g": 22.1,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 522
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568401199",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e8ea1462dc9d57fb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1246,
+    "reasoning_tokens": 810,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9378,
+    "ai_credits": 0.06978
+  },
+  "timestamp": "2026-11-25T00:28:54.392Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mashed sweet potato\",\n      \"usda_query\": \"sweet potato cooked\",\n      \"grams\": 90,\n      \"calories\": 81,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 18.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 55,\n      \"calories\": 72,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 15.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"shredded chicken\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 65,\n      \"calories\": 107,\n      \"protein_g\": 20.2,\n      \"carbs_g\": 0,\n      \"fat_g\": 2.3\n    },\n    {\n      \"name\": \"peas\",\n      \"usda_query\": \"green peas cooked\",\n      \"grams\": 12,\n      \"calories\": 10,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 8,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions raw\",\n      \"grams\": 8,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 276\n}",
+  "latency_ms": 10230,
+  "parsed": {
+    "items": [
+      {
+        "name": "mashed sweet potato",
+        "usda_query": "sweet potato cooked",
+        "grams": 90,
+        "calories": 81,
+        "protein_g": 1.8,
+        "carbs_g": 18.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 55,
+        "calories": 72,
+        "protein_g": 1.5,
+        "carbs_g": 15.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded chicken",
+        "usda_query": "chicken breast cooked",
+        "grams": 65,
+        "calories": 107,
+        "protein_g": 20.2,
+        "carbs_g": 0,
+        "fat_g": 2.3
+      },
+      {
+        "name": "peas",
+        "usda_query": "green peas cooked",
+        "grams": 12,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots cooked",
+        "grams": 8,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw",
+        "grams": 8,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 276
+  }
+}

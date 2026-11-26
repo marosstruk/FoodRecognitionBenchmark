@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573665056",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3cc6eb1f421912b9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 896,
+    "reasoning_tokens": 712,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10996,
+    "ai_credits": 0.44655
+  },
+  "timestamp": "2026-11-25T00:15:40.791Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 130,\n      \"calories\": 194,\n      \"protein_g\": 13,\n      \"carbs_g\": 2,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"smoked sausage\",\n      \"usda_query\": \"smoked sausage cooked\",\n      \"grams\": 60,\n      \"calories\": 182,\n      \"protein_g\": 7,\n      \"carbs_g\": 2,\n      \"fat_g\": 16\n    }\n  ],\n  \"total_calories\": 376\n}",
+  "latency_ms": 11838,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 130,
+        "calories": 194,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 15
+      },
+      {
+        "name": "smoked sausage",
+        "usda_query": "smoked sausage cooked",
+        "grams": 60,
+        "calories": 182,
+        "protein_g": 7,
+        "carbs_g": 2,
+        "fat_g": 16
+      }
+    ],
+    "total_calories": 376
+  }
+}

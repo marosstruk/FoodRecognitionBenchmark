@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565024675",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "21bc8d1676772db3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 608,
+    "reasoning_tokens": 466,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6792,
+    "ai_credits": 0.33855
+  },
+  "timestamp": "2026-11-25T00:20:07.056Z",
+  "raw_text": "{\"items\": [{\"name\": \"turkey bacon\", \"usda_query\": \"turkey bacon cooked\", \"grams\": 30, \"calories\": 114, \"protein_g\": 8.8, \"carbs_g\": 0.7, \"fat_g\": 8.4}, {\"name\": \"scrambled egg\", \"usda_query\": \"egg scrambled cooked\", \"grams\": 5, \"calories\": 7, \"protein_g\": 0.5, \"carbs_g\": 0.1, \"fat_g\": 0.6}], \"total_calories\": 121}",
+  "latency_ms": 7906,
+  "parsed": {
+    "items": [
+      {
+        "name": "turkey bacon",
+        "usda_query": "turkey bacon cooked",
+        "grams": 30,
+        "calories": 114,
+        "protein_g": 8.8,
+        "carbs_g": 0.7,
+        "fat_g": 8.4
+      },
+      {
+        "name": "scrambled egg",
+        "usda_query": "egg scrambled cooked",
+        "grams": 5,
+        "calories": 7,
+        "protein_g": 0.5,
+        "carbs_g": 0.1,
+        "fat_g": 0.6
+      }
+    ],
+    "total_calories": 121
+  }
+}

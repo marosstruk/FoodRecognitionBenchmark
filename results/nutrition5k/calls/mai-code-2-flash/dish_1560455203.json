@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455203",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f6b7da4695d8a493",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1397,
+    "reasoning_tokens": 1246,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16929,
+    "ai_credits": 0.038665
+  },
+  "timestamp": "2026-11-25T00:28:40.477Z",
+  "raw_text": "{\"items\":[{\"name\":\"seasoned seaweed salad\",\"usda_query\":\"seaweed salad\",\"grams\":170,\"calories\":221,\"protein_g\":6.8,\"carbs_g\":34,\"fat_g\":9.4},{\"name\":\"boiled potato\",\"usda_query\":\"potato boiled\",\"grams\":80,\"calories\":62,\"protein_g\":1.6,\"carbs_g\":14.2,\"fat_g\":0.1},{\"name\":\"cucumber\",\"usda_query\":\"cucumber raw\",\"grams\":50,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.9,\"fat_g\":0.1}],\"total_calories\":291}",
+  "latency_ms": 18112,
+  "parsed": {
+    "items": [
+      {
+        "name": "seasoned seaweed salad",
+        "usda_query": "seaweed salad",
+        "grams": 170,
+        "calories": 221,
+        "protein_g": 6.8,
+        "carbs_g": 34,
+        "fat_g": 9.4
+      },
+      {
+        "name": "boiled potato",
+        "usda_query": "potato boiled",
+        "grams": 80,
+        "calories": 62,
+        "protein_g": 1.6,
+        "carbs_g": 14.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber raw",
+        "grams": 50,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 291
+  }
+}

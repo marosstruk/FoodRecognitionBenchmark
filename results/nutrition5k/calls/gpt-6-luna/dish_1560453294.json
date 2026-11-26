@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560453294",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ce95b061a4166856",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 708,
+    "reasoning_tokens": 405,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5899,
+    "ai_credits": 0.04288
+  },
+  "timestamp": "2026-11-25T00:38:34.401Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Kimchi\",\n      \"usda_query\": \"kimchi\",\n      \"grams\": 40,\n      \"calories\": 7,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cooked zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 25,\n      \"calories\": 4,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cooked mushrooms\",\n      \"usda_query\": \"mushrooms cooked\",\n      \"grams\": 15,\n      \"calories\": 4,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cherry tomato\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 18\n}",
+  "latency_ms": 6745,
+  "parsed": {
+    "items": [
+      {
+        "name": "Kimchi",
+        "usda_query": "kimchi",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.6,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cooked zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 25,
+        "calories": 4,
+        "protein_g": 0.3,
+        "carbs_g": 0.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cooked mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 15,
+        "calories": 4,
+        "protein_g": 0.5,
+        "carbs_g": 0.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cherry tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 18
+  }
+}

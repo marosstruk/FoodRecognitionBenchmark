@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563984242",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "337c089e4defe47f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1209,
+    "reasoning_tokens": 915,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6129,
+    "ai_credits": 0.0726525
+  },
+  "timestamp": "2026-11-25T00:24:32.517Z",
+  "raw_text": "{\"items\":[{\"name\":\"fresh mozzarella cheese\",\"usda_query\":\"mozzarella cheese fresh\",\"grams\":120,\"calories\":306,\"protein_g\":21.4,\"carbs_g\":2.6,\"fat_g\":23.4},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw\",\"grams\":80,\"calories\":40,\"protein_g\":0.4,\"carbs_g\":10.5,\"fat_g\":0.1},{\"name\":\"papaya\",\"usda_query\":\"papayas raw\",\"grams\":90,\"calories\":39,\"protein_g\":0.5,\"carbs_g\":9.9,\"fat_g\":0.2},{\"name\":\"roasted eggplant\",\"usda_query\":\"eggplant cooked sauteed\",\"grams\":100,\"calories\":90,\"protein_g\":1.0,\"carbs_g\":8.0,\"fat_g\":6.0}],\"total_calories\":475}",
+  "latency_ms": 7022,
+  "parsed": {
+    "items": [
+      {
+        "name": "fresh mozzarella cheese",
+        "usda_query": "mozzarella cheese fresh",
+        "grams": 120,
+        "calories": 306,
+        "protein_g": 21.4,
+        "carbs_g": 2.6,
+        "fat_g": 23.4
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 80,
+        "calories": 40,
+        "protein_g": 0.4,
+        "carbs_g": 10.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "papaya",
+        "usda_query": "papayas raw",
+        "grams": 90,
+        "calories": 39,
+        "protein_g": 0.5,
+        "carbs_g": 9.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked sauteed",
+        "grams": 100,
+        "calories": 90,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 475
+  }
+}

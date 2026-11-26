@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562703382",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "887178b583d5897f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1624,
+    "reasoning_tokens": 1140,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6924,
+    "ai_credits": 0.0934025
+  },
+  "timestamp": "2026-11-25T00:29:25.932Z",
+  "raw_text": "{\"items\":[{\"name\":\"pizza crust\",\"usda_query\":\"pizza crust baked\",\"grams\":60,\"calories\":160,\"protein_g\":5,\"carbs_g\":30,\"fat_g\":2.5},{\"name\":\"tomato sauce\",\"usda_query\":\"pizza sauce tomato\",\"grams\":20,\"calories\":17,\"protein_g\":0.8,\"carbs_g\":3.6,\"fat_g\":0.2},{\"name\":\"mozzarella cheese\",\"usda_query\":\"cheese mozzarella whole milk\",\"grams\":35,\"calories\":98,\"protein_g\":9.8,\"carbs_g\":0.8,\"fat_g\":6},{\"name\":\"pork sausage crumbles\",\"usda_query\":\"pork sausage italian cooked\",\"grams\":25,\"calories\":85,\"protein_g\":5,\"carbs_g\":0.3,\"fat_g\":7},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":8,\"calories\":2,\"protein_g\":0.1,\"carbs_g\":0.5,\"fat_g\":0},{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":60,\"calories\":31,\"protein_g\":1,\"carbs_g\":7,\"fat_g\":0},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":50,\"calories\":22,\"protein_g\":0.7,\"carbs_g\":4.8,\"fat_g\":0.2}],\"total_calories\":415}",
+  "latency_ms": 7812,
+  "parsed": {
+    "items": [
+      {
+        "name": "pizza crust",
+        "usda_query": "pizza crust baked",
+        "grams": 60,
+        "calories": 160,
+        "protein_g": 5,
+        "carbs_g": 30,
+        "fat_g": 2.5
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "pizza sauce tomato",
+        "grams": 20,
+        "calories": 17,
+        "protein_g": 0.8,
+        "carbs_g": 3.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "cheese mozzarella whole milk",
+        "grams": 35,
+        "calories": 98,
+        "protein_g": 9.8,
+        "carbs_g": 0.8,
+        "fat_g": 6
+      },
+      {
+        "name": "pork sausage crumbles",
+        "usda_query": "pork sausage italian cooked",
+        "grams": 25,
+        "calories": 85,
+        "protein_g": 5,
+        "carbs_g": 0.3,
+        "fat_g": 7
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 8,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 60,
+        "calories": 31,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 50,
+        "calories": 22,
+        "protein_g": 0.7,
+        "carbs_g": 4.8,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 415
+  }
+}

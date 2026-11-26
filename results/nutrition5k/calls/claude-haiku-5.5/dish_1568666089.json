@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568666089",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "525a061069446395",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1841,
+    "reasoning_tokens": 1122,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8582,
+    "ai_credits": 0.1042525
+  },
+  "timestamp": "2026-11-25T00:17:00.952Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza slice\",\"usda_query\":\"pizza cheese thin crust\",\"grams\":120,\"calories\":320,\"protein_g\":12,\"carbs_g\":36,\"fat_g\":14},{\"name\":\"cucumber slices\",\"usda_query\":\"cucumber raw with peel\",\"grams\":60,\"calories\":10,\"protein_g\":0.4,\"carbs_g\":2.3,\"fat_g\":0.1},{\"name\":\"yellow squash cooked\",\"usda_query\":\"squash summer yellow cooked boiled drained without salt\",\"grams\":60,\"calories\":11,\"protein_g\":0.8,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"brussels sprouts cooked\",\"usda_query\":\"brussels sprouts cooked boiled drained without salt\",\"grams\":90,\"calories\":38,\"protein_g\":3,\"carbs_g\":8,\"fat_g\":0.3},{\"name\":\"kale raw\",\"usda_query\":\"kale raw\",\"grams\":80,\"calories\":28,\"protein_g\":2.3,\"carbs_g\":4.4,\"fat_g\":0.5},{\"name\":\"apple raw\",\"usda_query\":\"apples raw with skin\",\"grams\":30,\"calories\":16,\"protein_g\":0.1,\"carbs_g\":4.1,\"fat_g\":0},{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce cos or romaine raw\",\"grams\":80,\"calories\":14,\"protein_g\":1,\"carbs_g\":2.4,\"fat_g\":0.2},{\"name\":\"caesar dressing\",\"usda_query\":\"salad dressing caesar dressing regular\",\"grams\":25,\"calories\":118,\"protein_g\":0.5,\"carbs_g\":1.5,\"fat_g\":12.5},{\"name\":\"chicken breast roasted\",\"usda_query\":\"chicken breast roasted meat only\",\"grams\":70,\"calories\":115,\"protein_g\":21.6,\"carbs_g\":0,\"fat_g\":2.5},{\"name\":\"croutons\",\"usda_query\":\"croutons plain seasoned\",\"grams\":15,\"calories\":60,\"protein_g\":2,\"carbs_g\":10,\"fat_g\":1.5}],\"total_calories\":730}",
+  "latency_ms": 9684,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza slice",
+        "usda_query": "pizza cheese thin crust",
+        "grams": 120,
+        "calories": 320,
+        "protein_g": 12,
+        "carbs_g": 36,
+        "fat_g": 14
+      },
+      {
+        "name": "cucumber slices",
+        "usda_query": "cucumber raw with peel",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.4,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "yellow squash cooked",
+        "usda_query": "squash summer yellow cooked boiled drained without salt",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.8,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "brussels sprouts cooked",
+        "usda_query": "brussels sprouts cooked boiled drained without salt",
+        "grams": 90,
+        "calories": 38,
+        "protein_g": 3,
+        "carbs_g": 8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "kale raw",
+        "usda_query": "kale raw",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2.3,
+        "carbs_g": 4.4,
+        "fat_g": 0.5
+      },
+      {
+        "name": "apple raw",
+        "usda_query": "apples raw with skin",
+        "grams": 30,
+        "calories": 16,
+        "protein_g": 0.1,
+        "carbs_g": 4.1,
+        "fat_g": 0
+      },
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce cos or romaine raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 2.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "caesar dressing",
+        "usda_query": "salad dressing caesar dressing regular",
+        "grams": 25,
+        "calories": 118,
+        "protein_g": 0.5,
+        "carbs_g": 1.5,
+        "fat_g": 12.5
+      },
+      {
+        "name": "chicken breast roasted",
+        "usda_query": "chicken breast roasted meat only",
+        "grams": 70,
+        "calories": 115,
+        "protein_g": 21.6,
+        "carbs_g": 0,
+        "fat_g": 2.5
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons plain seasoned",
+        "grams": 15,
+        "calories": 60,
+        "protein_g": 2,
+        "carbs_g": 10,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 730
+  }
+}

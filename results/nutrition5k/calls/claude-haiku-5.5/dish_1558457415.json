@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558457415",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "28e83997a89fe939",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 718,
+    "reasoning_tokens": 556,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4538,
+    "ai_credits": 0.0481025
+  },
+  "timestamp": "2026-11-25T00:11:41.277Z",
+  "raw_text": "{\"items\":[{\"name\":\"phyllo pastry with cheese filling\",\"usda_query\":\"spanakopita cheese filo pie\",\"grams\":90,\"calories\":225,\"protein_g\":7,\"carbs_g\":22,\"fat_g\":12},{\"name\":\"phyllo pastry with meat filling\",\"usda_query\":\"filo pastry meat filling baked\",\"grams\":45,\"calories\":125,\"protein_g\":6,\"carbs_g\":12,\"fat_g\":6}],\"total_calories\":350}",
+  "latency_ms": 5439,
+  "parsed": {
+    "items": [
+      {
+        "name": "phyllo pastry with cheese filling",
+        "usda_query": "spanakopita cheese filo pie",
+        "grams": 90,
+        "calories": 225,
+        "protein_g": 7,
+        "carbs_g": 22,
+        "fat_g": 12
+      },
+      {
+        "name": "phyllo pastry with meat filling",
+        "usda_query": "filo pastry meat filling baked",
+        "grams": 45,
+        "calories": 125,
+        "protein_g": 6,
+        "carbs_g": 12,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 350
+  }
+}

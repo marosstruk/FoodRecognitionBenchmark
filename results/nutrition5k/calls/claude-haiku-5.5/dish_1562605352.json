@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562605352",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "72b1be286dde1e33",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 811,
+    "reasoning_tokens": 655,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5354,
+    "ai_credits": 0.0527525
+  },
+  "timestamp": "2026-11-25T00:31:03.567Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":150,\"calories\":225,\"protein_g\":15,\"carbs_g\":2,\"fat_g\":16},{\"name\":\"brussels sprouts\",\"usda_query\":\"brussels sprouts cooked boiled drained\",\"grams\":70,\"calories\":27,\"protein_g\":2,\"carbs_g\":4,\"fat_g\":0.3}],\"total_calories\":252}",
+  "latency_ms": 6984,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 150,
+        "calories": 225,
+        "protein_g": 15,
+        "carbs_g": 2,
+        "fat_g": 16
+      },
+      {
+        "name": "brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled drained",
+        "grams": 70,
+        "calories": 27,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 252
+  }
+}

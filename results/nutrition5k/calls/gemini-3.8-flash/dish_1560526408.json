@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560526408",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "794cedb9bca90cf0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 792,
+    "reasoning_tokens": 515,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8575,
+    "ai_credits": 0.40755
+  },
+  "timestamp": "2026-11-25T00:22:04.388Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"seared ahi tuna\",\n      \"usda_query\": \"tuna yellowfin cooked dry heat\",\n      \"grams\": 75,\n      \"calories\": 98,\n      \"protein_g\": 22.3,\n      \"carbs_g\": 0,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"salad greens raw\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette\",\n      \"grams\": 10,\n      \"calories\": 45,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 4.5\n    }\n  ],\n  \"total_calories\": 148\n}",
+  "latency_ms": 9900,
+  "parsed": {
+    "items": [
+      {
+        "name": "seared ahi tuna",
+        "usda_query": "tuna yellowfin cooked dry heat",
+        "grams": 75,
+        "calories": 98,
+        "protein_g": 22.3,
+        "carbs_g": 0,
+        "fat_g": 0.5
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens raw",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 10,
+        "calories": 45,
+        "protein_g": 0.1,
+        "carbs_g": 0.8,
+        "fat_g": 4.5
+      }
+    ],
+    "total_calories": 148
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558639412",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "189bf56ac01cb6dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 565,
+    "reasoning_tokens": 457,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6474,
+    "ai_credits": 0.322425
+  },
+  "timestamp": "2026-11-25T00:10:06.266Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cantaloupe\",\n      \"usda_query\": \"cantaloupe raw\",\n      \"grams\": 140,\n      \"calories\": 48,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 11.4,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 48\n}",
+  "latency_ms": 7332,
+  "parsed": {
+    "items": [
+      {
+        "name": "cantaloupe",
+        "usda_query": "cantaloupe raw",
+        "grams": 140,
+        "calories": 48,
+        "protein_g": 1.2,
+        "carbs_g": 11.4,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 48
+  }
+}

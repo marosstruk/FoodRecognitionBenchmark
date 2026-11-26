@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558457415",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "28e83997a89fe939",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 711,
+    "reasoning_tokens": 620,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9589,
+    "ai_credits": 0.04303
+  },
+  "timestamp": "2026-11-25T00:11:42.590Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Grilled white fish\",\n      \"usda_query\": \"fish white cooked dry heat\",\n      \"grams\": 140,\n      \"calories\": 179,\n      \"protein_g\": 32,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 179\n}",
+  "latency_ms": 10470,
+  "parsed": {
+    "items": [
+      {
+        "name": "Grilled white fish",
+        "usda_query": "fish white cooked dry heat",
+        "grams": 140,
+        "calories": 179,
+        "protein_g": 32,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 179
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558641287",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b68a5c6737a5b8a6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1177,
+    "reasoning_tokens": 1070,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13733,
+    "ai_credits": 0.033165
+  },
+  "timestamp": "2026-11-25T00:13:48.154Z",
+  "raw_text": "{\"items\":[{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes cherry raw\",\"grams\":136,\"calories\":25,\"protein_g\":1.2,\"carbs_g\":5.4,\"fat_g\":0.3},{\"name\":\"yellow condiment\",\"usda_query\":\"mustard prepared\",\"grams\":2,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.2,\"fat_g\":0.1}],\"total_calories\":28}",
+  "latency_ms": 14607,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 136,
+        "calories": 25,
+        "protein_g": 1.2,
+        "carbs_g": 5.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "yellow condiment",
+        "usda_query": "mustard prepared",
+        "grams": 2,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 28
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567106594",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "96665927acaac6b8",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 688,
+    "reasoning_tokens": 626,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9213,
+    "ai_credits": 0.36855
+  },
+  "timestamp": "2026-11-25T00:32:40.402Z",
+  "raw_text": "{\"items\":[{\"name\":\"grape tomatoes\",\"usda_query\":\"grape tomatoes raw\",\"grams\":95,\"calories\":17,\"protein_g\":0.9,\"carbs_g\":3.7,\"fat_g\":0.2}],\"total_calories\":17}",
+  "latency_ms": 10115,
+  "parsed": {
+    "items": [
+      {
+        "name": "grape tomatoes",
+        "usda_query": "grape tomatoes raw",
+        "grams": 95,
+        "calories": 17,
+        "protein_g": 0.9,
+        "carbs_g": 3.7,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 17
+  }
+}

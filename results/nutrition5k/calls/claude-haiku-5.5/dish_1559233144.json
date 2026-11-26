@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559233144",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6be7a25c57c87179",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1016,
+    "reasoning_tokens": 650,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4971,
+    "ai_credits": 0.0630025
+  },
+  "timestamp": "2026-11-25T00:34:44.430Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with milk and butter\",\"grams\":150,\"calories\":224,\"protein_g\":15.0,\"carbs_g\":2.4,\"fat_g\":16.5},{\"name\":\"bacon\",\"usda_query\":\"pork bacon cooked pan-fried\",\"grams\":50,\"calories\":270,\"protein_g\":18.5,\"carbs_g\":0.7,\"fat_g\":21.0},{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":40,\"calories\":9,\"protein_g\":1.1,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"carrot\",\"usda_query\":\"carrots raw shredded\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":15,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.6,\"fat_g\":0.0}],\"total_calories\":514}",
+  "latency_ms": 6253,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with milk and butter",
+        "grams": 150,
+        "calories": 224,
+        "protein_g": 15,
+        "carbs_g": 2.4,
+        "fat_g": 16.5
+      },
+      {
+        "name": "bacon",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 50,
+        "calories": 270,
+        "protein_g": 18.5,
+        "carbs_g": 0.7,
+        "fat_g": 21
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 40,
+        "calories": 9,
+        "protein_g": 1.1,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw shredded",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 514
+  }
+}

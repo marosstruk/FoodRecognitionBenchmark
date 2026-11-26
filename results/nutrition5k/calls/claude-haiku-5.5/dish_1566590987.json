@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566590987",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2a4c643422680d10",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1658,
+    "reasoning_tokens": 1204,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7562,
+    "ai_credits": 0.0951025
+  },
+  "timestamp": "2026-11-25T00:11:13.827Z",
+  "raw_text": "{\"items\":[{\"name\":\"salmon fillet pan-seared\",\"usda_query\":\"fish salmon atlantic farmed cooked dry heat\",\"grams\":120,\"calories\":247,\"protein_g\":26.4,\"carbs_g\":0,\"fat_g\":14.9},{\"name\":\"fried firm tofu\",\"usda_query\":\"tofu fried firm\",\"grams\":150,\"calories\":270,\"protein_g\":25.5,\"carbs_g\":4.5,\"fat_g\":16.5},{\"name\":\"red chili pepper\",\"usda_query\":\"peppers hot chili red raw\",\"grams\":20,\"calories\":8,\"protein_g\":0.4,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"green onion\",\"usda_query\":\"onions spring or scallions raw\",\"grams\":15,\"calories\":5,\"protein_g\":0.4,\"carbs_g\":1.1,\"fat_g\":0.1},{\"name\":\"radish sprouts\",\"usda_query\":\"radishes sprouts raw\",\"grams\":10,\"calories\":3,\"protein_g\":0.3,\"carbs_g\":0.6,\"fat_g\":0.1},{\"name\":\"roasted mixed vegetables\",\"usda_query\":\"tomatoes red roasted with peppers and oil\",\"grams\":100,\"calories\":60,\"protein_g\":1.5,\"carbs_g\":8,\"fat_g\":3}],\"total_calories\":593}",
+  "latency_ms": 8449,
+  "parsed": {
+    "items": [
+      {
+        "name": "salmon fillet pan-seared",
+        "usda_query": "fish salmon atlantic farmed cooked dry heat",
+        "grams": 120,
+        "calories": 247,
+        "protein_g": 26.4,
+        "carbs_g": 0,
+        "fat_g": 14.9
+      },
+      {
+        "name": "fried firm tofu",
+        "usda_query": "tofu fried firm",
+        "grams": 150,
+        "calories": 270,
+        "protein_g": 25.5,
+        "carbs_g": 4.5,
+        "fat_g": 16.5
+      },
+      {
+        "name": "red chili pepper",
+        "usda_query": "peppers hot chili red raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green onion",
+        "usda_query": "onions spring or scallions raw",
+        "grams": 15,
+        "calories": 5,
+        "protein_g": 0.4,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "radish sprouts",
+        "usda_query": "radishes sprouts raw",
+        "grams": 10,
+        "calories": 3,
+        "protein_g": 0.3,
+        "carbs_g": 0.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted mixed vegetables",
+        "usda_query": "tomatoes red roasted with peppers and oil",
+        "grams": 100,
+        "calories": 60,
+        "protein_g": 1.5,
+        "carbs_g": 8,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 593
+  }
+}

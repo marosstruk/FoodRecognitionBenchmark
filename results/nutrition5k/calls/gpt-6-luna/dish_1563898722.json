@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563898722",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d3e9975910f66f20",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 383,
+    "reasoning_tokens": 219,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4366,
+    "ai_credits": 0.02663
+  },
+  "timestamp": "2026-11-25T00:33:05.290Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 180,\n      \"calories\": 266,\n      \"protein_g\": 19.2,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 19.1\n    },\n    {\n      \"name\": \"cooked broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 120,\n      \"calories\": 42,\n      \"protein_g\": 2.9,\n      \"carbs_g\": 8.4,\n      \"fat_g\": 0.5\n    }\n  ],\n  \"total_calories\": 308\n}",
+  "latency_ms": 5431,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled cooked",
+        "grams": 180,
+        "calories": 266,
+        "protein_g": 19.2,
+        "carbs_g": 2.2,
+        "fat_g": 19.1
+      },
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 2.9,
+        "carbs_g": 8.4,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 308
+  }
+}

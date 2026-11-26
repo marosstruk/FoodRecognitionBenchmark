@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559593646",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "42f08e16d22e8f78",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 908,
+    "reasoning_tokens": 653,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8712,
+    "ai_credits": 0.45105
+  },
+  "timestamp": "2026-11-25T00:26:25.295Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"kale and mixed greens\",\n      \"usda_query\": \"kale raw\",\n      \"grams\": 35,\n      \"calories\": 12,\n      \"protein\": 1.0,\n      \"carbs\": 1.6,\n      \"fat\": 0.5\n    },\n    {\n      \"name\": \"mixed salad seeds\",\n      \"usda_query\": \"sunflower seed kernels dried\",\n      \"grams\": 8,\n      \"calories\": 46,\n      \"protein\": 1.7,\n      \"carbs\": 1.6,\n      \"fat\": 4.1\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette\",\n      \"grams\": 5,\n      \"calories\": 22,\n      \"protein\": 0.0,\n      \"carbs\": 0.6,\n      \"fat\": 2.3\n    }\n  ],\n  \"total_calories\": 80\n}",
+  "latency_ms": 9628,
+  "parsed": {
+    "items": [
+      {
+        "name": "kale and mixed greens",
+        "usda_query": "kale raw",
+        "grams": 35,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 1.6,
+        "fat_g": 0.5
+      },
+      {
+        "name": "mixed salad seeds",
+        "usda_query": "sunflower seed kernels dried",
+        "grams": 8,
+        "calories": 46,
+        "protein_g": 1.7,
+        "carbs_g": 1.6,
+        "fat_g": 4.1
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 5,
+        "calories": 22,
+        "protein_g": 0,
+        "carbs_g": 0.6,
+        "fat_g": 2.3
+      }
+    ],
+    "total_calories": 80
+  }
+}

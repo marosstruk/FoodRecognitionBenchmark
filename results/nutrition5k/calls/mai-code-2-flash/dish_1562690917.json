@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562690917",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "11e482235931a256",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 656,
+    "reasoning_tokens": 504,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8886,
+    "ai_credits": 0.02014
+  },
+  "timestamp": "2026-11-25T00:21:31.564Z",
+  "raw_text": "{\"items\":[{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli steamed\",\"grams\":75,\"calories\":26,\"protein_g\":2.1,\"carbs_g\":5.3,\"fat_g\":0.4},{\"name\":\"tomato slices\",\"usda_query\":\"tomato red raw\",\"grams\":120,\"calories\":22,\"protein_g\":1.1,\"carbs_g\":4.8,\"fat_g\":0.2},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":35,\"calories\":20,\"protein_g\":0.3,\"carbs_g\":5.1,\"fat_g\":0.1}],\"total_calories\":68}",
+  "latency_ms": 9819,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli steamed",
+        "grams": 75,
+        "calories": 26,
+        "protein_g": 2.1,
+        "carbs_g": 5.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "tomato slices",
+        "usda_query": "tomato red raw",
+        "grams": 120,
+        "calories": 22,
+        "protein_g": 1.1,
+        "carbs_g": 4.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 35,
+        "calories": 20,
+        "protein_g": 0.3,
+        "carbs_g": 5.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 68
+  }
+}

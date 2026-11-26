@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559844366",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "20a3825a8204d012",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 724,
+    "reasoning_tokens": 447,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7306,
+    "ai_credits": 0.38205
+  },
+  "timestamp": "2026-11-25T00:27:29.665Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"almonds\",\n      \"usda_query\": \"nuts almonds\",\n      \"grams\": 50,\n      \"calories\": 290,\n      \"protein_g\": 10.6,\n      \"carbs_g\": 10.8,\n      \"fat_g\": 25.0\n    },\n    {\n      \"name\": \"red grapes\",\n      \"usda_query\": \"grapes red or green seedless raw\",\n      \"grams\": 70,\n      \"calories\": 48,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 12.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"broccoli florets\",\n      \"usda_query\": \"broccoli raw\",\n      \"grams\": 45,\n      \"calories\": 15,\n      \"protein_g\": 1.3,\n      \"carbs_g\": 3.1,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 353\n}",
+  "latency_ms": 8157,
+  "parsed": {
+    "items": [
+      {
+        "name": "almonds",
+        "usda_query": "nuts almonds",
+        "grams": 50,
+        "calories": 290,
+        "protein_g": 10.6,
+        "carbs_g": 10.8,
+        "fat_g": 25
+      },
+      {
+        "name": "red grapes",
+        "usda_query": "grapes red or green seedless raw",
+        "grams": 70,
+        "calories": 48,
+        "protein_g": 0.5,
+        "carbs_g": 12.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli raw",
+        "grams": 45,
+        "calories": 15,
+        "protein_g": 1.3,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 353
+  }
+}

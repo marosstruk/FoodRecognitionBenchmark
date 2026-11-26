@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565033220",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5ee09ea3cfa1a917",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 982,
+    "reasoning_tokens": 717,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10596,
+    "ai_credits": 0.4788
+  },
+  "timestamp": "2026-11-25T00:27:37.780Z",
+  "raw_text": "{\"items\":[{\"name\":\"diced chicken breast\",\"usda_query\":\"chicken breast roasted skinless\",\"grams\":90,\"calories\":148,\"protein_g\":28,\"carbs_g\":0,\"fat_g\":3.2},{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked steamed\",\"grams\":70,\"calories\":25,\"protein_g\":1.7,\"carbs_g\":5,\"fat_g\":0.3},{\"name\":\"red kidney beans\",\"usda_query\":\"kidney beans mature seeds cooked boiled\",\"grams\":60,\"calories\":76,\"protein_g\":5.2,\"carbs_g\":13.7,\"fat_g\":0.3},{\"name\":\"peanut dressing\",\"usda_query\":\"peanut sauce\",\"grams\":35,\"calories\":110,\"protein_g\":3.5,\"carbs_g\":8,\"fat_g\":7.5},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce salad greens raw\",\"grams\":50,\"calories\":8,\"protein_g\":0.7,\"carbs_g\":1.5,\"fat_g\":0.1}],\"total_calories\":367}",
+  "latency_ms": 11775,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced chicken breast",
+        "usda_query": "chicken breast roasted skinless",
+        "grams": 90,
+        "calories": 148,
+        "protein_g": 28,
+        "carbs_g": 0,
+        "fat_g": 3.2
+      },
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 70,
+        "calories": 25,
+        "protein_g": 1.7,
+        "carbs_g": 5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "red kidney beans",
+        "usda_query": "kidney beans mature seeds cooked boiled",
+        "grams": 60,
+        "calories": 76,
+        "protein_g": 5.2,
+        "carbs_g": 13.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "peanut dressing",
+        "usda_query": "peanut sauce",
+        "grams": 35,
+        "calories": 110,
+        "protein_g": 3.5,
+        "carbs_g": 8,
+        "fat_g": 7.5
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce salad greens raw",
+        "grams": 50,
+        "calories": 8,
+        "protein_g": 0.7,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 367
+  }
+}

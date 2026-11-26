@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565726949",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1d134baf462dbc2d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1231,
+    "reasoning_tokens": 757,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11700,
+    "ai_credits": 0.034515
+  },
+  "timestamp": "2026-11-25T00:12:03.996Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted pork loin\",\n      \"usda_query\": \"pork loin roasted\",\n      \"grams\": 125,\n      \"calories\": 210,\n      \"protein_g\": 35,\n      \"carbs_g\": 0,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 170,\n      \"calories\": 158,\n      \"protein_g\": 4,\n      \"carbs_g\": 36,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"steamed green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 85,\n      \"calories\": 35,\n      \"protein_g\": 2,\n      \"carbs_g\": 8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 60,\n      \"calories\": 21,\n      \"protein_g\": 2,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"mixed greens raw\",\n      \"grams\": 35,\n      \"calories\": 7,\n      \"protein_g\": 1,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"carrots\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 30,\n      \"calories\": 14,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 451\n}",
+  "latency_ms": 12603,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted pork loin",
+        "usda_query": "pork loin roasted",
+        "grams": 125,
+        "calories": 210,
+        "protein_g": 35,
+        "carbs_g": 0,
+        "fat_g": 7
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potato roasted",
+        "grams": 170,
+        "calories": 158,
+        "protein_g": 4,
+        "carbs_g": 36,
+        "fat_g": 1
+      },
+      {
+        "name": "steamed green beans",
+        "usda_query": "green beans cooked",
+        "grams": 85,
+        "calories": 35,
+        "protein_g": 2,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "mixed greens raw",
+        "grams": 35,
+        "calories": 7,
+        "protein_g": 1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "carrots",
+        "usda_query": "carrots cooked",
+        "grams": 30,
+        "calories": 14,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 451
+  }
+}

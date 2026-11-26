@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563205953",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4368616a050b32dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1045,
+    "reasoning_tokens": 680,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8619,
+    "ai_credits": 0.502425
+  },
+  "timestamp": "2026-11-25T00:32:36.804Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mashed potatoes\",\n      \"usda_query\": \"potatoes mashed with milk and butter\",\n      \"grams\": 110,\n      \"calories\": 120,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 17.5,\n      \"fat_g\": 4.8\n    },\n    {\n      \"name\": \"sliced sausage\",\n      \"usda_query\": \"pork sausage cooked\",\n      \"grams\": 45,\n      \"calories\": 145,\n      \"protein_g\": 6.5,\n      \"carbs_g\": 1.0,\n      \"fat_g\": 13.0\n    },\n    {\n      \"name\": \"cooked carrots\",\n      \"usda_query\": \"carrots cooked boiled drained\",\n      \"grams\": 25,\n      \"calories\": 10,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 2.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 120,\n      \"calories\": 60,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 15.7,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 335\n}",
+  "latency_ms": 9472,
+  "parsed": {
+    "items": [
+      {
+        "name": "mashed potatoes",
+        "usda_query": "potatoes mashed with milk and butter",
+        "grams": 110,
+        "calories": 120,
+        "protein_g": 2.2,
+        "carbs_g": 17.5,
+        "fat_g": 4.8
+      },
+      {
+        "name": "sliced sausage",
+        "usda_query": "pork sausage cooked",
+        "grams": 45,
+        "calories": 145,
+        "protein_g": 6.5,
+        "carbs_g": 1,
+        "fat_g": 13
+      },
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.2,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 0.6,
+        "carbs_g": 15.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 335
+  }
+}

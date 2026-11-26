@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561580431",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "210680e68b199cd2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1601,
+    "reasoning_tokens": 1161,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14129,
+    "ai_credits": 0.08753
+  },
+  "timestamp": "2026-11-25T00:13:43.242Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed leafy greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 40,\n      \"calories\": 8,\n      \"protein_g\": 1,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"roasted potato\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 90,\n      \"calories\": 140,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 24,\n      \"fat_g\": 4.5\n    },\n    {\n      \"name\": \"cooked quinoa\",\n      \"usda_query\": \"quinoa cooked\",\n      \"grams\": 45,\n      \"calories\": 54,\n      \"protein_g\": 2,\n      \"carbs_g\": 9.6,\n      \"fat_g\": 0.9\n    },\n    {\n      \"name\": \"tuna\",\n      \"usda_query\": \"tuna cooked\",\n      \"grams\": 50,\n      \"calories\": 66,\n      \"protein_g\": 14.5,\n      \"carbs_g\": 0,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"creamy dressing\",\n      \"usda_query\": \"creamy salad dressing\",\n      \"grams\": 25,\n      \"calories\": 100,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 1,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"roasted yellow bell pepper\",\n      \"usda_query\": \"bell pepper yellow cooked\",\n      \"grams\": 25,\n      \"calories\": 8,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 376\n}",
+  "latency_ms": 15215,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 1,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 90,
+        "calories": 140,
+        "protein_g": 2.5,
+        "carbs_g": 24,
+        "fat_g": 4.5
+      },
+      {
+        "name": "cooked quinoa",
+        "usda_query": "quinoa cooked",
+        "grams": 45,
+        "calories": 54,
+        "protein_g": 2,
+        "carbs_g": 9.6,
+        "fat_g": 0.9
+      },
+      {
+        "name": "tuna",
+        "usda_query": "tuna cooked",
+        "grams": 50,
+        "calories": 66,
+        "protein_g": 14.5,
+        "carbs_g": 0,
+        "fat_g": 0.5
+      },
+      {
+        "name": "creamy dressing",
+        "usda_query": "creamy salad dressing",
+        "grams": 25,
+        "calories": 100,
+        "protein_g": 0.5,
+        "carbs_g": 1,
+        "fat_g": 10.5
+      },
+      {
+        "name": "roasted yellow bell pepper",
+        "usda_query": "bell pepper yellow cooked",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 376
+  }
+}

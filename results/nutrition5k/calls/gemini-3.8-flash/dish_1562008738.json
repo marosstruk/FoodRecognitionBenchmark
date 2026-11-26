@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562008738",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3387d8afe34d65c1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 609,
+    "reasoning_tokens": 466,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6980,
+    "ai_credits": 0.338925
+  },
+  "timestamp": "2026-11-25T00:10:45.796Z",
+  "raw_text": "{\"items\": [{\"name\": \"cauliflower florets\", \"usda_query\": \"cauliflower raw\", \"grams\": 60, \"calories\": 15, \"protein_g\": 1.1, \"carbs_g\": 3.0, \"fat_g\": 0.2}, {\"name\": \"mixed salad greens\", \"usda_query\": \"salad greens mixed raw\", \"grams\": 35, \"calories\": 6, \"protein_g\": 0.5, \"carbs_g\": 1.2, \"fat_g\": 0.1}], \"total_calories\": 21}",
+  "latency_ms": 7849,
+  "parsed": {
+    "items": [
+      {
+        "name": "cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 60,
+        "calories": 15,
+        "protein_g": 1.1,
+        "carbs_g": 3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens mixed raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0.5,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 21
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566835603",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "31283558dc9bb613",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 801,
+    "reasoning_tokens": 585,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4357,
+    "ai_credits": 0.0522525
+  },
+  "timestamp": "2026-11-25T00:21:32.228Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato roasted\",\"grams\":90,\"calories\":85,\"protein_g\":1.6,\"carbs_g\":19,\"fat_g\":0.5},{\"name\":\"chili sauce\",\"usda_query\":\"hot chili sauce\",\"grams\":4,\"calories\":5,\"protein_g\":0.1,\"carbs_g\":1.1,\"fat_g\":0},{\"name\":\"sweet potato browned edges\",\"usda_query\":\"sweet potato roasted\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":90}",
+  "latency_ms": 5262,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato roasted",
+        "grams": 90,
+        "calories": 85,
+        "protein_g": 1.6,
+        "carbs_g": 19,
+        "fat_g": 0.5
+      },
+      {
+        "name": "chili sauce",
+        "usda_query": "hot chili sauce",
+        "grams": 4,
+        "calories": 5,
+        "protein_g": 0.1,
+        "carbs_g": 1.1,
+        "fat_g": 0
+      },
+      {
+        "name": "sweet potato browned edges",
+        "usda_query": "sweet potato roasted",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 90
+  }
+}

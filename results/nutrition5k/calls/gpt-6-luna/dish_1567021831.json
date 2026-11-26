@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567021831",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f7ec6101a4d4865",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 865,
+    "reasoning_tokens": 758,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11263,
+    "ai_credits": 0.05073
+  },
+  "timestamp": "2026-11-25T00:19:29.414Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed leafy greens\",\"usda_query\":\"mixed salad greens raw\",\"grams\":80,\"calories\":18,\"protein_g\":1.8,\"carbs_g\":3.1,\"fat_g\":0.3},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":100,\"calories\":149,\"protein_g\":10,\"carbs_g\":1.6,\"fat_g\":10.3}],\"total_calories\":167}",
+  "latency_ms": 12395,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 80,
+        "calories": 18,
+        "protein_g": 1.8,
+        "carbs_g": 3.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 100,
+        "calories": 149,
+        "protein_g": 10,
+        "carbs_g": 1.6,
+        "fat_g": 10.3
+      }
+    ],
+    "total_calories": 167
+  }
+}

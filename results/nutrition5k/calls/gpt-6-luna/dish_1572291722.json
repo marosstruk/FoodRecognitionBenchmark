@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572291722",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b3d2a8a8ff9a02dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 836,
+    "reasoning_tokens": 602,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10556,
+    "ai_credits": 0.04928
+  },
+  "timestamp": "2026-11-25T00:37:35.682Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Roasted chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 95,\n      \"calories\": 157,\n      \"protein_g\": 29.5,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.4\n    },\n    {\n      \"name\": \"Cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 75,\n      \"calories\": 11,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Breaded fried chicken\",\n      \"usda_query\": \"chicken breaded fried\",\n      \"grams\": 55,\n      \"calories\": 149,\n      \"protein_g\": 11,\n      \"carbs_g\": 8,\n      \"fat_g\": 8.4\n    }\n  ],\n  \"total_calories\": 317\n}",
+  "latency_ms": 11654,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 95,
+        "calories": 157,
+        "protein_g": 29.5,
+        "carbs_g": 0,
+        "fat_g": 3.4
+      },
+      {
+        "name": "Cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 75,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Breaded fried chicken",
+        "usda_query": "chicken breaded fried",
+        "grams": 55,
+        "calories": 149,
+        "protein_g": 11,
+        "carbs_g": 8,
+        "fat_g": 8.4
+      }
+    ],
+    "total_calories": 317
+  }
+}

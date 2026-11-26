@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564761426",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8390b47c8caf980b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 989,
+    "reasoning_tokens": 820,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11542,
+    "ai_credits": 0.028465
+  },
+  "timestamp": "2026-11-25T00:20:34.254Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cauliflower rice\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 160,\n      \"calories\": 41,\n      \"protein_g\": 3.2,\n      \"carbs_g\": 8.0,\n      \"fat_g\": 0.6\n    },\n    {\n      \"name\": \"ground beef crumbles\",\n      \"usda_query\": \"ground beef 85% lean cooked\",\n      \"grams\": 100,\n      \"calories\": 250,\n      \"protein_g\": 26.0,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 15.0\n    }\n  ],\n  \"total_calories\": 291\n}",
+  "latency_ms": 12663,
+  "parsed": {
+    "items": [
+      {
+        "name": "cauliflower rice",
+        "usda_query": "cauliflower cooked",
+        "grams": 160,
+        "calories": 41,
+        "protein_g": 3.2,
+        "carbs_g": 8,
+        "fat_g": 0.6
+      },
+      {
+        "name": "ground beef crumbles",
+        "usda_query": "ground beef 85% lean cooked",
+        "grams": 100,
+        "calories": 250,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 291
+  }
+}

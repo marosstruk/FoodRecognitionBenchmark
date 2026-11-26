@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563217736",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3eb06220a89b4976",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 333,
+    "reasoning_tokens": 240,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2314,
+    "ai_credits": 0.0288525
+  },
+  "timestamp": "2026-11-25T00:33:10.953Z",
+  "raw_text": "{\"items\":[{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained without salt\",\"grams\":90,\"calories\":32,\"protein_g\":2.2,\"carbs_g\":6.5,\"fat_g\":0.4}],\"total_calories\":32}",
+  "latency_ms": 3422,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained without salt",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 2.2,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 32
+  }
+}

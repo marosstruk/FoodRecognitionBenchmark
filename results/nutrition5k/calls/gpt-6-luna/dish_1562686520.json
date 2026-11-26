@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562686520",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ff5f5477a1b2230e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 545,
+    "reasoning_tokens": 382,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4747,
+    "ai_credits": 0.03473
+  },
+  "timestamp": "2026-11-25T00:28:57.138Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 120,\n      \"calories\": 179,\n      \"protein_g\": 12,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 12.1\n    },\n    {\n      \"name\": \"Small cooked potatoes\",\n      \"usda_query\": \"potatoes boiled cooked\",\n      \"grams\": 125,\n      \"calories\": 109,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 25.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 288\n}",
+  "latency_ms": 5624,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "egg scrambled cooked",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 1.9,
+        "fat_g": 12.1
+      },
+      {
+        "name": "Small cooked potatoes",
+        "usda_query": "potatoes boiled cooked",
+        "grams": 125,
+        "calories": 109,
+        "protein_g": 2.4,
+        "carbs_g": 25.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 288
+  }
+}

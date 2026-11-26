@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562008738",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3387d8afe34d65c1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 850,
+    "reasoning_tokens": 562,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4284,
+    "ai_credits": 0.0547025
+  },
+  "timestamp": "2026-11-25T00:10:42.326Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":10,\"protein_g\":0.8,\"carbs_g\":2.0,\"fat_g\":0.1},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":10,\"calories\":4,\"protein_g\":0.1,\"carbs_g\":1.0,\"fat_g\":0.0},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":5,\"calories\":2,\"protein_g\":0.0,\"carbs_g\":0.5,\"fat_g\":0.0},{\"name\":\"cauliflower florets\",\"usda_query\":\"cauliflower raw\",\"grams\":110,\"calories\":28,\"protein_g\":2.1,\"carbs_g\":5.3,\"fat_g\":0.3}],\"total_calories\":44}",
+  "latency_ms": 5151,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      },
+      {
+        "name": "cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 110,
+        "calories": 28,
+        "protein_g": 2.1,
+        "carbs_g": 5.3,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 44
+  }
+}

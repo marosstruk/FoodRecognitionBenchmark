@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568314951",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0f3440a9dec08352",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1470,
+    "reasoning_tokens": 1128,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16250,
+    "ai_credits": 0.04049
+  },
+  "timestamp": "2026-11-25T00:08:47.261Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled chicken breast pieces\",\"usda_query\":\"chicken breast meat grilled\",\"grams\":160,\"calories\":264,\"protein_g\":49.6,\"carbs_g\":0.0,\"fat_g\":5.8},{\"name\":\"grilled pita bread\",\"usda_query\":\"pita bread white cooked\",\"grams\":90,\"calories\":248,\"protein_g\":7.7,\"carbs_g\":50.9,\"fat_g\":1.2},{\"name\":\"grilled steak\",\"usda_query\":\"beef steak grilled\",\"grams\":120,\"calories\":300,\"protein_g\":34.8,\"carbs_g\":0.0,\"fat_g\":16.8},{\"name\":\"French fries\",\"usda_query\":\"French fries fried\",\"grams\":120,\"calories\":365,\"protein_g\":5.0,\"carbs_g\":46.8,\"fat_g\":17.0},{\"name\":\"tomato wedges\",\"usda_query\":\"tomato raw\",\"grams\":80,\"calories\":14,\"protein_g\":0.7,\"carbs_g\":3.1,\"fat_g\":0.2},{\"name\":\"grilled green pepper\",\"usda_query\":\"bell pepper green cooked\",\"grams\":60,\"calories\":19,\"protein_g\":0.6,\"carbs_g\":4.4,\"fat_g\":0.2},{\"name\":\"cooking oil\",\"usda_query\":\"vegetable oil\",\"grams\":8,\"calories\":71,\"protein_g\":0.0,\"carbs_g\":0.0,\"fat_g\":8.0}],\"total_calories\":1281}",
+  "latency_ms": 17130,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast pieces",
+        "usda_query": "chicken breast meat grilled",
+        "grams": 160,
+        "calories": 264,
+        "protein_g": 49.6,
+        "carbs_g": 0,
+        "fat_g": 5.8
+      },
+      {
+        "name": "grilled pita bread",
+        "usda_query": "pita bread white cooked",
+        "grams": 90,
+        "calories": 248,
+        "protein_g": 7.7,
+        "carbs_g": 50.9,
+        "fat_g": 1.2
+      },
+      {
+        "name": "grilled steak",
+        "usda_query": "beef steak grilled",
+        "grams": 120,
+        "calories": 300,
+        "protein_g": 34.8,
+        "carbs_g": 0,
+        "fat_g": 16.8
+      },
+      {
+        "name": "French fries",
+        "usda_query": "French fries fried",
+        "grams": 120,
+        "calories": 365,
+        "protein_g": 5,
+        "carbs_g": 46.8,
+        "fat_g": 17
+      },
+      {
+        "name": "tomato wedges",
+        "usda_query": "tomato raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 0.7,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grilled green pepper",
+        "usda_query": "bell pepper green cooked",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 0.6,
+        "carbs_g": 4.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 8,
+        "calories": 71,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 8
+      }
+    ],
+    "total_calories": 1281
+  }
+}

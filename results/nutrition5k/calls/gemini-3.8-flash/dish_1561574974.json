@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561574974",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3edaedd3a80c2269",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 325,
+    "reasoning_tokens": 219,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5422,
+    "ai_credits": 0.232425
+  },
+  "timestamp": "2026-11-25T00:30:01.736Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted eggplant\",\n      \"usda_query\": \"eggplant cooked with oil\",\n      \"grams\": 85,\n      \"calories\": 73,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 5.6,\n      \"fat_g\": 5.4\n    }\n  ],\n  \"total_calories\": 73\n}",
+  "latency_ms": 6532,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked with oil",
+        "grams": 85,
+        "calories": 73,
+        "protein_g": 0.9,
+        "carbs_g": 5.6,
+        "fat_g": 5.4
+      }
+    ],
+    "total_calories": 73
+  }
+}

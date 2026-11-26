@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560802006",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "797a91205de9f57f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 793,
+    "reasoning_tokens": 523,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7369,
+    "ai_credits": 0.407925
+  },
+  "timestamp": "2026-11-25T00:34:40.442Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"kale\",\n      \"usda_query\": \"kale raw\",\n      \"grams\": 40,\n      \"calories\": 14,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.6\n    },\n    {\n      \"name\": \"caesar dressing\",\n      \"usda_query\": \"salad dressing caesar\",\n      \"grams\": 15,\n      \"calories\": 70,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 7.5\n    },\n    {\n      \"name\": \"shaved parmesan cheese\",\n      \"usda_query\": \"parmesan cheese shredded\",\n      \"grams\": 5,\n      \"calories\": 20,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 1.3\n    }\n  ],\n  \"total_calories\": 104\n}",
+  "latency_ms": 8527,
+  "parsed": {
+    "items": [
+      {
+        "name": "kale",
+        "usda_query": "kale raw",
+        "grams": 40,
+        "calories": 14,
+        "protein_g": 1.2,
+        "carbs_g": 1.8,
+        "fat_g": 0.6
+      },
+      {
+        "name": "caesar dressing",
+        "usda_query": "salad dressing caesar",
+        "grams": 15,
+        "calories": 70,
+        "protein_g": 0.3,
+        "carbs_g": 0.8,
+        "fat_g": 7.5
+      },
+      {
+        "name": "shaved parmesan cheese",
+        "usda_query": "parmesan cheese shredded",
+        "grams": 5,
+        "calories": 20,
+        "protein_g": 1.8,
+        "carbs_g": 0.2,
+        "fat_g": 1.3
+      }
+    ],
+    "total_calories": 104
+  }
+}

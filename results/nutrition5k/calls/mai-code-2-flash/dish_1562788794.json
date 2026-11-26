@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562788794",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a7cf276475a0c5a7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1079,
+    "reasoning_tokens": 930,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16047,
+    "ai_credits": 0.030715
+  },
+  "timestamp": "2026-11-25T00:12:19.032Z",
+  "raw_text": "{\"items\":[{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":140,\"calories\":182,\"protein_g\":3.7,\"carbs_g\":39.5,\"fat_g\":0.5},{\"name\":\"breaded fried chicken\",\"usda_query\":\"chicken breast breaded fried\",\"grams\":130,\"calories\":325,\"protein_g\":35,\"carbs_g\":14,\"fat_g\":15},{\"name\":\"sauce-coated meat and vegetables\",\"usda_query\":\"chicken stir fry with vegetables\",\"grams\":100,\"calories\":180,\"protein_g\":13,\"carbs_g\":14,\"fat_g\":8}],\"total_calories\":687}",
+  "latency_ms": 16939,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 140,
+        "calories": 182,
+        "protein_g": 3.7,
+        "carbs_g": 39.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "breaded fried chicken",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 130,
+        "calories": 325,
+        "protein_g": 35,
+        "carbs_g": 14,
+        "fat_g": 15
+      },
+      {
+        "name": "sauce-coated meat and vegetables",
+        "usda_query": "chicken stir fry with vegetables",
+        "grams": 100,
+        "calories": 180,
+        "protein_g": 13,
+        "carbs_g": 14,
+        "fat_g": 8
+      }
+    ],
+    "total_calories": 687
+  }
+}

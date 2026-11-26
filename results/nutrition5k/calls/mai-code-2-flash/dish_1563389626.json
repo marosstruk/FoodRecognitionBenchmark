@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563389626",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5b423a40c2e03a6f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 661,
+    "reasoning_tokens": 555,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8212,
+    "ai_credits": 0.020265
+  },
+  "timestamp": "2026-11-25T00:19:02.400Z",
+  "raw_text": "{\"items\":[{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce prepared with oil\",\"grams\":350,\"calories\":215,\"protein_g\":7,\"carbs_g\":35,\"fat_g\":6},{\"name\":\"shredded carrots\",\"usda_query\":\"carrots raw shredded\",\"grams\":70,\"calories\":29,\"protein_g\":0.6,\"carbs_g\":6.8,\"fat_g\":0.2}],\"total_calories\":244}",
+  "latency_ms": 9284,
+  "parsed": {
+    "items": [
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce prepared with oil",
+        "grams": 350,
+        "calories": 215,
+        "protein_g": 7,
+        "carbs_g": 35,
+        "fat_g": 6
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw shredded",
+        "grams": 70,
+        "calories": 29,
+        "protein_g": 0.6,
+        "carbs_g": 6.8,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 244
+  }
+}

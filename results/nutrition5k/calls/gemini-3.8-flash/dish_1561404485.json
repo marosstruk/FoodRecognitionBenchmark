@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561404485",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "086b01ea13f135bd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1360,
+    "reasoning_tokens": 905,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 12975,
+    "ai_credits": 0.62055
+  },
+  "timestamp": "2026-11-25T00:17:16.957Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"sliced pork loin\",\n      \"usda_query\": \"pork loin roasted\",\n      \"grams\": 110,\n      \"calories\": 215,\n      \"protein_g\": 28.2,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"cooked carrots\",\n      \"usda_query\": \"carrots cooked boiled drained\",\n      \"grams\": 120,\n      \"calories\": 42,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 9.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 60,\n      \"calories\": 68,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 11.2,\n      \"fat_g\": 2.1\n    },\n    {\n      \"name\": \"sautéed spinach\",\n      \"usda_query\": \"spinach cooked with oil\",\n      \"grams\": 30,\n      \"calories\": 18,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 1.3\n    },\n    {\n      \"name\": \"mixed green salad with dressing\",\n      \"usda_query\": \"salad greens with dressing and fruit\",\n      \"grams\": 70,\n      \"calories\": 65,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 5.2,\n      \"fat_g\": 4.8\n    }\n  ],\n  \"total_calories\": 408\n}",
+  "latency_ms": 14514,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced pork loin",
+        "usda_query": "pork loin roasted",
+        "grams": 110,
+        "calories": 215,
+        "protein_g": 28.2,
+        "carbs_g": 0,
+        "fat_g": 10.5
+      },
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 0.9,
+        "carbs_g": 9.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 60,
+        "calories": 68,
+        "protein_g": 1.4,
+        "carbs_g": 11.2,
+        "fat_g": 2.1
+      },
+      {
+        "name": "sautéed spinach",
+        "usda_query": "spinach cooked with oil",
+        "grams": 30,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 1.1,
+        "fat_g": 1.3
+      },
+      {
+        "name": "mixed green salad with dressing",
+        "usda_query": "salad greens with dressing and fruit",
+        "grams": 70,
+        "calories": 65,
+        "protein_g": 1.1,
+        "carbs_g": 5.2,
+        "fat_g": 4.8
+      }
+    ],
+    "total_calories": 408
+  }
+}

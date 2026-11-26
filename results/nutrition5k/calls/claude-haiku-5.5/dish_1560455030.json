@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455030",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9ff2fef77de63979",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 692,
+    "reasoning_tokens": 468,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3273,
+    "ai_credits": 0.0468025
+  },
+  "timestamp": "2026-11-25T00:13:16.078Z",
+  "raw_text": "{\"items\":[{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":80,\"calories\":33,\"protein_g\":0.7,\"carbs_g\":7.7,\"fat_g\":0.2},{\"name\":\"cucumber slices\",\"usda_query\":\"cucumber raw with peel\",\"grams\":90,\"calories\":14,\"protein_g\":0.6,\"carbs_g\":3.3,\"fat_g\":0.1},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":80,\"calories\":14,\"protein_g\":0.7,\"carbs_g\":3.1,\"fat_g\":0.2}],\"total_calories\":61}",
+  "latency_ms": 4161,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 80,
+        "calories": 33,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cucumber slices",
+        "usda_query": "cucumber raw with peel",
+        "grams": 90,
+        "calories": 14,
+        "protein_g": 0.6,
+        "carbs_g": 3.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 0.7,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 61
+  }
+}

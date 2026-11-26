@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563220171",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2a25f71f9e20d756",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1136,
+    "reasoning_tokens": 594,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10622,
+    "ai_credits": 0.03214
+  },
+  "timestamp": "2026-11-25T00:23:01.052Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded chicken\",\n      \"usda_query\": \"chicken breast breaded fried\",\n      \"grams\": 180,\n      \"calories\": 486,\n      \"protein_g\": 39,\n      \"carbs_g\": 24,\n      \"fat_g\": 17\n    },\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 120,\n      \"calories\": 156,\n      \"protein_g\": 3,\n      \"carbs_g\": 34,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"roasted sweet potato\",\n      \"usda_query\": \"sweet potato cooked roasted\",\n      \"grams\": 150,\n      \"calories\": 135,\n      \"protein_g\": 2,\n      \"carbs_g\": 32,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli cooked steamed\",\n      \"grams\": 90,\n      \"calories\": 31,\n      \"protein_g\": 2,\n      \"carbs_g\": 6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"bell pepper\",\n      \"usda_query\": \"peppers sweet green raw\",\n      \"grams\": 30,\n      \"calories\": 9,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato sauce\",\n      \"usda_query\": \"tomato sauce\",\n      \"grams\": 25,\n      \"calories\": 13,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 843\n}",
+  "latency_ms": 11495,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded chicken",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 180,
+        "calories": 486,
+        "protein_g": 39,
+        "carbs_g": 24,
+        "fat_g": 17
+      },
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 120,
+        "calories": 156,
+        "protein_g": 3,
+        "carbs_g": 34,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked roasted",
+        "grams": 150,
+        "calories": 135,
+        "protein_g": 2,
+        "carbs_g": 32,
+        "fat_g": 0
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 90,
+        "calories": 31,
+        "protein_g": 2,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 30,
+        "calories": 9,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce",
+        "grams": 25,
+        "calories": 13,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 843
+  }
+}

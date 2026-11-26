@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367085",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f7e8f84ae376ccf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1131,
+    "reasoning_tokens": 765,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9198,
+    "ai_credits": 0.534675
+  },
+  "timestamp": "2026-11-25T00:17:53.888Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes grape raw\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"honeydew melon chunks\",\n      \"usda_query\": \"honeydew melon raw\",\n      \"grams\": 50,\n      \"calories\": 18,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 4.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cantaloupe chunks\",\n      \"usda_query\": \"cantaloupe raw\",\n      \"grams\": 30,\n      \"calories\": 10,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"vegetable and tofu stir-fry\",\n      \"usda_query\": \"tofu and vegetable stir fry\",\n      \"grams\": 55,\n      \"calories\": 48,\n      \"protein_g\": 2.8,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 2.6\n    }\n  ],\n  \"total_calories\": 82\n}",
+  "latency_ms": 10072,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes grape raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "honeydew melon chunks",
+        "usda_query": "honeydew melon raw",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 0.3,
+        "carbs_g": 4.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cantaloupe chunks",
+        "usda_query": "cantaloupe raw",
+        "grams": 30,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "vegetable and tofu stir-fry",
+        "usda_query": "tofu and vegetable stir fry",
+        "grams": 55,
+        "calories": 48,
+        "protein_g": 2.8,
+        "carbs_g": 3.8,
+        "fat_g": 2.6
+      }
+    ],
+    "total_calories": 82
+  }
+}

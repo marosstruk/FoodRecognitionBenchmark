@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560527225",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "19f6580adb879083",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1502,
+    "reasoning_tokens": 1000,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10824,
+    "ai_credits": 0.6738
+  },
+  "timestamp": "2026-11-25T00:18:25.411Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 130,\n      \"calories\": 195,\n      \"protein_g\": 13,\n      \"carbs_g\": 2,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"bacon strips\",\n      \"usda_query\": \"pork bacon cooked\",\n      \"grams\": 30,\n      \"calories\": 162,\n      \"protein_g\": 11,\n      \"carbs_g\": 0,\n      \"fat_g\": 13\n    },\n    {\n      \"name\": \"breakfast sausage links\",\n      \"usda_query\": \"pork sausage link cooked\",\n      \"grams\": 70,\n      \"calories\": 224,\n      \"protein_g\": 10,\n      \"carbs_g\": 1,\n      \"fat_g\": 20\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 80,\n      \"calories\": 92,\n      \"protein_g\": 2,\n      \"carbs_g\": 17,\n      \"fat_g\": 2\n    },\n    {\n      \"name\": \"spinach and carrot salad\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 40,\n      \"calories\": 15,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"strawberries and blueberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 50,\n      \"calories\": 20,\n      \"protein_g\": 0,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 708\n}",
+  "latency_ms": 12042,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 130,
+        "calories": 195,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 15
+      },
+      {
+        "name": "bacon strips",
+        "usda_query": "pork bacon cooked",
+        "grams": 30,
+        "calories": 162,
+        "protein_g": 11,
+        "carbs_g": 0,
+        "fat_g": 13
+      },
+      {
+        "name": "breakfast sausage links",
+        "usda_query": "pork sausage link cooked",
+        "grams": 70,
+        "calories": 224,
+        "protein_g": 10,
+        "carbs_g": 1,
+        "fat_g": 20
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 80,
+        "calories": 92,
+        "protein_g": 2,
+        "carbs_g": 17,
+        "fat_g": 2
+      },
+      {
+        "name": "spinach and carrot salad",
+        "usda_query": "spinach raw",
+        "grams": 40,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "strawberries and blueberries",
+        "usda_query": "strawberries raw",
+        "grams": 50,
+        "calories": 20,
+        "protein_g": 0,
+        "carbs_g": 5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 708
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573579406",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9c959ca3d7658609",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 991,
+    "reasoning_tokens": 719,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9944,
+    "ai_credits": 0.482175
+  },
+  "timestamp": "2026-11-25T00:16:08.866Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked\",\n      \"grams\": 35,\n      \"calories\": 189,\n      \"protein_g\": 13,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 60,\n      \"calories\": 30,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 7.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"sautéed bell peppers\",\n      \"usda_query\": \"peppers sweet sauteed\",\n      \"grams\": 30,\n      \"calories\": 20,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 1.2\n    }\n  ],\n  \"total_calories\": 239\n}",
+  "latency_ms": 11062,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked",
+        "grams": 35,
+        "calories": 189,
+        "protein_g": 13,
+        "carbs_g": 0.5,
+        "fat_g": 15
+      },
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 60,
+        "calories": 30,
+        "protein_g": 0.3,
+        "carbs_g": 7.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sautéed bell peppers",
+        "usda_query": "peppers sweet sauteed",
+        "grams": 30,
+        "calories": 20,
+        "protein_g": 0.3,
+        "carbs_g": 2,
+        "fat_g": 1.2
+      }
+    ],
+    "total_calories": 239
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367733",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7a1d00e685671f18",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1179,
+    "reasoning_tokens": 877,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9994,
+    "ai_credits": 0.06643
+  },
+  "timestamp": "2026-11-25T00:37:14.602Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 170,\n      \"calories\": 221,\n      \"protein_g\": 4.6,\n      \"carbs_g\": 47.8,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 130,\n      \"calories\": 215,\n      \"protein_g\": 40.3,\n      \"carbs_g\": 0,\n      \"fat_g\": 4.7\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"roasted potato wedges\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 140,\n      \"calories\": 210,\n      \"protein_g\": 4.4,\n      \"carbs_g\": 32,\n      \"fat_g\": 7.3\n    }\n  ],\n  \"total_calories\": 681\n}",
+  "latency_ms": 10880,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 170,
+        "calories": 221,
+        "protein_g": 4.6,
+        "carbs_g": 47.8,
+        "fat_g": 0.5
+      },
+      {
+        "name": "chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 130,
+        "calories": 215,
+        "protein_g": 40.3,
+        "carbs_g": 0,
+        "fat_g": 4.7
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 140,
+        "calories": 210,
+        "protein_g": 4.4,
+        "carbs_g": 32,
+        "fat_g": 7.3
+      }
+    ],
+    "total_calories": 681
+  }
+}

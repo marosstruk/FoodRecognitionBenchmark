@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573579635",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea0a23147d8e1729",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1039,
+    "reasoning_tokens": 801,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9806,
+    "ai_credits": 0.05943
+  },
+  "timestamp": "2026-11-25T00:08:54.963Z",
+  "raw_text": "{\"items\":[{\"name\":\"pizza crust\",\"usda_query\":\"pizza crust baked\",\"grams\":55,\"calories\":147,\"protein_g\":4.8,\"carbs_g\":28.5,\"fat_g\":1.8},{\"name\":\"mozzarella cheese\",\"usda_query\":\"mozzarella cheese part skim\",\"grams\":24,\"calories\":72,\"protein_g\":5.3,\"carbs_g\":0.7,\"fat_g\":5.4},{\"name\":\"pepperoni\",\"usda_query\":\"pepperoni\",\"grams\":8,\"calories\":41,\"protein_g\":2,\"carbs_g\":0.3,\"fat_g\":3.6},{\"name\":\"tomato sauce\",\"usda_query\":\"pizza sauce canned\",\"grams\":5,\"calories\":3,\"protein_g\":0.2,\"carbs_g\":0.6,\"fat_g\":0},{\"name\":\"herbs\",\"usda_query\":\"basil fresh\",\"grams\":1,\"calories\":1,\"protein_g\":0.1,\"carbs_g\":0.1,\"fat_g\":0}],\"total_calories\":264}",
+  "latency_ms": 10910,
+  "parsed": {
+    "items": [
+      {
+        "name": "pizza crust",
+        "usda_query": "pizza crust baked",
+        "grams": 55,
+        "calories": 147,
+        "protein_g": 4.8,
+        "carbs_g": 28.5,
+        "fat_g": 1.8
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese part skim",
+        "grams": 24,
+        "calories": 72,
+        "protein_g": 5.3,
+        "carbs_g": 0.7,
+        "fat_g": 5.4
+      },
+      {
+        "name": "pepperoni",
+        "usda_query": "pepperoni",
+        "grams": 8,
+        "calories": 41,
+        "protein_g": 2,
+        "carbs_g": 0.3,
+        "fat_g": 3.6
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "pizza sauce canned",
+        "grams": 5,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "herbs",
+        "usda_query": "basil fresh",
+        "grams": 1,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 264
+  }
+}

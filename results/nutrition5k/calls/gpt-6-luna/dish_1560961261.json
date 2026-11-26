@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560961261",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cd94e2332ef0b3df",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 653,
+    "reasoning_tokens": 351,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7923,
+    "ai_credits": 0.04013
+  },
+  "timestamp": "2026-11-25T00:13:45.996Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg whole cooked scrambled\",\n      \"grams\": 110,\n      \"calories\": 163,\n      \"protein_g\": 11.4,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 12\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 45,\n      \"calories\": 16,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"lettuce\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 20,\n      \"calories\": 3,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 90,\n      \"calories\": 29,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 6.9,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 211\n}",
+  "latency_ms": 9003,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 110,
+        "calories": 163,
+        "protein_g": 11.4,
+        "carbs_g": 1.2,
+        "fat_g": 12
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 45,
+        "calories": 16,
+        "protein_g": 1.1,
+        "carbs_g": 3.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 20,
+        "calories": 3,
+        "protein_g": 0.3,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 90,
+        "calories": 29,
+        "protein_g": 0.6,
+        "carbs_g": 6.9,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 211
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824279",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ecc1f90fb0115d82",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 545,
+    "reasoning_tokens": 329,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3341,
+    "ai_credits": 0.0394525
+  },
+  "timestamp": "2026-11-25T00:24:53.805Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"red onion raw\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 60,\n      \"calories\": 24,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 5.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"red kidney beans cooked\",\n      \"usda_query\": \"kidney beans red cooked boiled\",\n      \"grams\": 60,\n      \"calories\": 76,\n      \"protein_g\": 5.2,\n      \"carbs_g\": 13.7,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 100\n}",
+  "latency_ms": 4214,
+  "parsed": {
+    "items": [
+      {
+        "name": "red onion raw",
+        "usda_query": "onions red raw",
+        "grams": 60,
+        "calories": 24,
+        "protein_g": 0.7,
+        "carbs_g": 5.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red kidney beans cooked",
+        "usda_query": "kidney beans red cooked boiled",
+        "grams": 60,
+        "calories": 76,
+        "protein_g": 5.2,
+        "carbs_g": 13.7,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 100
+  }
+}

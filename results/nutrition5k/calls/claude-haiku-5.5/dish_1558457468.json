@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558457468",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "facdd8d9e1a31354",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 252,
+    "reasoning_tokens": 165,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2299,
+    "ai_credits": 0.0248025
+  },
+  "timestamp": "2026-11-25T00:12:38.033Z",
+  "raw_text": "{\"items\":[{\"name\":\"cantaloupe melon\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":120,\"calories\":41,\"protein_g\":1,\"carbs_g\":9.8,\"fat_g\":0.2}],\"total_calories\":41}",
+  "latency_ms": 3155,
+  "parsed": {
+    "items": [
+      {
+        "name": "cantaloupe melon",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 120,
+        "calories": 41,
+        "protein_g": 1,
+        "carbs_g": 9.8,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 41
+  }
+}

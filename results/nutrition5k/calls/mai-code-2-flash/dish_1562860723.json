@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562860723",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "11b62d08a2699685",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 698,
+    "reasoning_tokens": 549,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8542,
+    "ai_credits": 0.02119
+  },
+  "timestamp": "2026-11-25T00:30:42.920Z",
+  "raw_text": "{\"items\":[{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw\",\"grams\":90,\"calories\":45,\"protein_g\":0.5,\"carbs_g\":11.9,\"fat_g\":0.1},{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":130,\"calories\":39,\"protein_g\":0.8,\"carbs_g\":9.8,\"fat_g\":0.2},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":25,\"calories\":14,\"protein_g\":0.2,\"carbs_g\":3.6,\"fat_g\":0.1}],\"total_calories\":98}",
+  "latency_ms": 9662,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 90,
+        "calories": 45,
+        "protein_g": 0.5,
+        "carbs_g": 11.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 130,
+        "calories": 39,
+        "protein_g": 0.8,
+        "carbs_g": 9.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 25,
+        "calories": 14,
+        "protein_g": 0.2,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 98
+  }
+}

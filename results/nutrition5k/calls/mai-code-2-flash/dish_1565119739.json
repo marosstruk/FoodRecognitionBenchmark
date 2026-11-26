@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565119739",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d055d9d7e96bb864",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1525,
+    "reasoning_tokens": 1063,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16727,
+    "ai_credits": 0.041865
+  },
+  "timestamp": "2026-11-25T00:08:37.266Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"sautéed spinach\",\n      \"usda_query\": \"spinach cooked without added fat\",\n      \"grams\": 100,\n      \"calories\": 23,\n      \"protein_g\": 2.9,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"brown rice pilaf\",\n      \"usda_query\": \"rice brown cooked\",\n      \"grams\": 130,\n      \"calories\": 146,\n      \"protein_g\": 3.4,\n      \"carbs_g\": 30.5,\n      \"fat_g\": 1.2\n    },\n    {\n      \"name\": \"grilled beef patty\",\n      \"usda_query\": \"beef ground patty pan broiled\",\n      \"grams\": 150,\n      \"calories\": 397,\n      \"protein_g\": 37.2,\n      \"carbs_g\": 0,\n      \"fat_g\": 26.9\n    },\n    {\n      \"name\": \"roasted yellow squash\",\n      \"usda_query\": \"squash summer yellow cooked\",\n      \"grams\": 120,\n      \"calories\": 35,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 7.9,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"roasted green bell pepper\",\n      \"usda_query\": \"bell pepper green cooked\",\n      \"grams\": 70,\n      \"calories\": 19,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 4.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"roasted eggplant\",\n      \"usda_query\": \"eggplant cooked\",\n      \"grams\": 70,\n      \"calories\": 24,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 644\n}",
+  "latency_ms": 20524,
+  "parsed": {
+    "items": [
+      {
+        "name": "sautéed spinach",
+        "usda_query": "spinach cooked without added fat",
+        "grams": 100,
+        "calories": 23,
+        "protein_g": 2.9,
+        "carbs_g": 3.6,
+        "fat_g": 0.4
+      },
+      {
+        "name": "brown rice pilaf",
+        "usda_query": "rice brown cooked",
+        "grams": 130,
+        "calories": 146,
+        "protein_g": 3.4,
+        "carbs_g": 30.5,
+        "fat_g": 1.2
+      },
+      {
+        "name": "grilled beef patty",
+        "usda_query": "beef ground patty pan broiled",
+        "grams": 150,
+        "calories": 397,
+        "protein_g": 37.2,
+        "carbs_g": 0,
+        "fat_g": 26.9
+      },
+      {
+        "name": "roasted yellow squash",
+        "usda_query": "squash summer yellow cooked",
+        "grams": 120,
+        "calories": 35,
+        "protein_g": 1.8,
+        "carbs_g": 7.9,
+        "fat_g": 0.5
+      },
+      {
+        "name": "roasted green bell pepper",
+        "usda_query": "bell pepper green cooked",
+        "grams": 70,
+        "calories": 19,
+        "protein_g": 0.7,
+        "carbs_g": 4.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked",
+        "grams": 70,
+        "calories": 24,
+        "protein_g": 0.8,
+        "carbs_g": 5.8,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 644
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563827454",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1e397cd9a9f7b51a",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1230,
+    "reasoning_tokens": 918,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5991,
+    "ai_credits": 0.0737025
+  },
+  "timestamp": "2026-11-25T00:12:24.103Z",
+  "raw_text": "{\"items\":[{\"name\":\"green leaf lettuce\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":120,\"calories\":18,\"protein_g\":1.7,\"carbs_g\":3.5,\"fat_g\":0.2},{\"name\":\"oil-based salad dressing\",\"usda_query\":\"salad dressing oil and vinegar\",\"grams\":8,\"calories\":70,\"protein_g\":0,\"carbs_g\":0.5,\"fat_g\":7.5},{\"name\":\"cucumber\",\"usda_query\":\"cucumber peeled raw\",\"grams\":40,\"calories\":6,\"protein_g\":0.3,\"carbs_g\":1.4,\"fat_g\":0.1},{\"name\":\"yellow potato wedges\",\"usda_query\":\"potatoes yellow flesh cooked roasted\",\"grams\":150,\"calories\":140,\"protein_g\":3,\"carbs_g\":31,\"fat_g\":2},{\"items_note\":null}],\"total_calories\":234}",
+  "latency_ms": 7417,
+  "error": "items[4] has no name"
+}

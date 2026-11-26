@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559838402",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "223697ee68cc4b05",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1311,
+    "reasoning_tokens": 1108,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16923,
+    "ai_credits": 0.036515
+  },
+  "timestamp": "2026-11-25T00:09:28.701Z",
+  "raw_text": "{\"items\":[{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":75,\"calories\":24,\"protein_g\":0.5,\"carbs_g\":5.8,\"fat_g\":0.2},{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":45,\"calories\":24,\"protein_g\":0.6,\"carbs_g\":5.4,\"fat_g\":0.3},{\"name\":\"diced roasted sweet potato\",\"usda_query\":\"sweet potato cooked roasted\",\"grams\":110,\"calories\":132,\"protein_g\":2.2,\"carbs_g\":30.7,\"fat_g\":0.5},{\"name\":\"diced roasted potato\",\"usda_query\":\"potato roasted\",\"grams\":85,\"calories\":106,\"protein_g\":2.5,\"carbs_g\":24.0,\"fat_g\":1.0}],\"total_calories\":286}",
+  "latency_ms": 17788,
+  "parsed": {
+    "items": [
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 75,
+        "calories": 24,
+        "protein_g": 0.5,
+        "carbs_g": 5.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 45,
+        "calories": 24,
+        "protein_g": 0.6,
+        "carbs_g": 5.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "diced roasted sweet potato",
+        "usda_query": "sweet potato cooked roasted",
+        "grams": 110,
+        "calories": 132,
+        "protein_g": 2.2,
+        "carbs_g": 30.7,
+        "fat_g": 0.5
+      },
+      {
+        "name": "diced roasted potato",
+        "usda_query": "potato roasted",
+        "grams": 85,
+        "calories": 106,
+        "protein_g": 2.5,
+        "carbs_g": 24,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 286
+  }
+}

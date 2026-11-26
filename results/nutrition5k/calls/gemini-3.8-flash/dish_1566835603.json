@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566835603",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "31283558dc9bb613",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 866,
+    "reasoning_tokens": 757,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10496,
+    "ai_credits": 0.4353
+  },
+  "timestamp": "2026-11-25T00:21:41.454Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted sweet potato cubes\",\n      \"usda_query\": \"sweet potato cooked baked flesh without skin\",\n      \"grams\": 65,\n      \"calories\": 65,\n      \"protein\": 1.2,\n      \"carbs_g\": 13.5,\n      \"fat_g\": 0.8\n    }\n  ],\n  \"total_calories\": 65\n}",
+  "latency_ms": 11636,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato cubes",
+        "usda_query": "sweet potato cooked baked flesh without skin",
+        "grams": 65,
+        "calories": 65,
+        "protein_g": 1.2,
+        "carbs_g": 13.5,
+        "fat_g": 0.8
+      }
+    ],
+    "total_calories": 65
+  }
+}

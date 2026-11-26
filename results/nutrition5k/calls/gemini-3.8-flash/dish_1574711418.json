@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574711418",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2eaccb26e6bdf786",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 597,
+    "reasoning_tokens": 521,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6942,
+    "ai_credits": 0.334425
+  },
+  "timestamp": "2026-11-25T00:20:56.863Z",
+  "raw_text": "{\"items\": [{\"name\": \"steamed broccoli\", \"usda_query\": \"broccoli cooked steamed\", \"grams\": 85, \"calories\": 30, \"protein_g\": 2.0, \"carbs_g\": 6.0, \"fat_g\": 0.3}], \"total_calories\": 30}",
+  "latency_ms": 8021,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 85,
+        "calories": 30,
+        "protein_g": 2,
+        "carbs_g": 6,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 30
+  }
+}

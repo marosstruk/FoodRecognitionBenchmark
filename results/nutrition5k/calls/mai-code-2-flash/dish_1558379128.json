@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558379128",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1be589859c6d0b36",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 300,
+    "reasoning_tokens": 238,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4924,
+    "ai_credits": 0.01124
+  },
+  "timestamp": "2026-11-25T00:12:45.544Z",
+  "raw_text": "{\"items\":[{\"name\":\"red grapes\",\"usda_query\":\"grapes red raw\",\"grams\":35,\"calories\":24,\"protein_g\":0.25,\"carbs_g\":6.3,\"fat_g\":0.06}],\"total_calories\":24}",
+  "latency_ms": 6032,
+  "parsed": {
+    "items": [
+      {
+        "name": "red grapes",
+        "usda_query": "grapes red raw",
+        "grams": 35,
+        "calories": 24,
+        "protein_g": 0.25,
+        "carbs_g": 6.3,
+        "fat_g": 0.06
+      }
+    ],
+    "total_calories": 24
+  }
+}

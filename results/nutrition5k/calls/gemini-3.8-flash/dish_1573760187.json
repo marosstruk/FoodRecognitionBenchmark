@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573760187",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e2ac20ff5f03b095",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1021,
+    "reasoning_tokens": 750,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11139,
+    "ai_credits": 0.493425
+  },
+  "timestamp": "2026-11-25T00:22:43.578Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"braised beef with gravy\",\n      \"usda_query\": \"pot roast with gravy\",\n      \"grams\": 130,\n      \"calories\": 245,\n      \"protein\": 27.5,\n      \"carbs\": 4.2,\n      \"fat\": 12.8\n    },\n    {\n      \"name\": \"mashed potatoes\",\n      \"usda_query\": \"potatoes mashed prepared with butter and milk\",\n      \"grams\": 160,\n      \"calories\": 180,\n      \"protein\": 3.2,\n      \"carbs\": 24.5,\n      \"fat\": 7.8\n    },\n    {\n      \"name\": \"roasted broccolini\",\n      \"usda_query\": \"broccoli cooked fat added\",\n      \"grams\": 75,\n      \"calories\": 50,\n      \"protein\": 2.4,\n      \"carbs\": 4.8,\n      \"fat\": 2.8\n    }\n  ],\n  \"total_calories\": 475\n}",
+  "latency_ms": 12227,
+  "parsed": {
+    "items": [
+      {
+        "name": "braised beef with gravy",
+        "usda_query": "pot roast with gravy",
+        "grams": 130,
+        "calories": 245,
+        "protein_g": 27.5,
+        "carbs_g": 4.2,
+        "fat_g": 12.8
+      },
+      {
+        "name": "mashed potatoes",
+        "usda_query": "potatoes mashed prepared with butter and milk",
+        "grams": 160,
+        "calories": 180,
+        "protein_g": 3.2,
+        "carbs_g": 24.5,
+        "fat_g": 7.8
+      },
+      {
+        "name": "roasted broccolini",
+        "usda_query": "broccoli cooked fat added",
+        "grams": 75,
+        "calories": 50,
+        "protein_g": 2.4,
+        "carbs_g": 4.8,
+        "fat_g": 2.8
+      }
+    ],
+    "total_calories": 475
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561575170",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e3e36dcbbe4c2b49",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 614,
+    "reasoning_tokens": 468,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3682,
+    "ai_credits": 0.0429025
+  },
+  "timestamp": "2026-11-25T00:39:15.906Z",
+  "raw_text": "{\"items\":[{\"name\":\"battered fried cauliflower\",\"usda_query\":\"cauliflower battered deep fried\",\"grams\":150,\"calories\":285,\"protein_g\":6,\"carbs_g\":30,\"fat_g\":15},{\"name\":\"fried parsley\",\"usda_query\":\"parsley fried\",\"grams\":8,\"calories\":25,\"protein_g\":0.5,\"carbs_g\":2,\"fat_g\":2},],\"total_calories\":310}",
+  "latency_ms": 5116,
+  "error": "Unexpected token ']', ...\"fat_g\":2},],\"total_c\"... is not valid JSON"
+}

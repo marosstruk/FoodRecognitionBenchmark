@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560799277",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74164d171ea35c79",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 941,
+    "reasoning_tokens": 721,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5191,
+    "ai_credits": 0.0592525
+  },
+  "timestamp": "2026-11-25T00:29:31.446Z",
+  "raw_text": "{\"items\":[{\"name\":\"pepperoni pizza\",\"usda_query\":\"pizza pepperoni regular crust\",\"grams\":110,\"calories\":293,\"protein_g\":12,\"carbs_g\":36,\"fat_g\":11},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained without salt\",\"grams\":85,\"calories\":30,\"protein_g\":2,\"carbs_g\":6,\"fat_g\":0},{\"name\":\"pizza\",\"usda_query\":\"pizza pepperoni regular crust\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":323}",
+  "latency_ms": 6061,
+  "parsed": {
+    "items": [
+      {
+        "name": "pepperoni pizza",
+        "usda_query": "pizza pepperoni regular crust",
+        "grams": 110,
+        "calories": 293,
+        "protein_g": 12,
+        "carbs_g": 36,
+        "fat_g": 11
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained without salt",
+        "grams": 85,
+        "calories": 30,
+        "protein_g": 2,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "pizza",
+        "usda_query": "pizza pepperoni regular crust",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 323
+  }
+}

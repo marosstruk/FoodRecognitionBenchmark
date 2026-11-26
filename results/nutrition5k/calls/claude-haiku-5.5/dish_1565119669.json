@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565119669",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "57b2c90c41a5a06c",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1182,
+    "reasoning_tokens": 780,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5399,
+    "ai_credits": 0.0713025
+  },
+  "timestamp": "2026-11-25T00:10:10.463Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked kale\",\"usda_query\":\"kale cooked boiled drained without salt\",\"grams\":80,\"calories\":29,\"protein_g\":2.3,\"carbs_g\":6.3,\"fat_g\":0.4},{\"name\":\"cooked red chard stems\",\"usda_query\":\"chard swiss cooked boiled drained without salt\",\"grams\":40,\"calories\":8,\"protein_g\":0.7,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"yellow summer squash sauteed\",\"usda_query\":\"squash summer yellow cooked boiled drained without salt\",\"grams\":120,\"calories\":24,\"protein_g\":1.4,\"carbs_g\":4.8,\"fat_g\":0.4},{\"name\":\"green zucchini sauteed\",\"usda_query\":\"squash summer zucchini includes skin cooked boiled drained without salt\",\"grams\":50,\"calories\":9,\"protein_g\":0.6,\"carbs_g\":1.8,\"fat_g\":0.2},{\"name\":\"olive oil\",\"usda_query\":\"oil olive salad or cooking\",\"grams\":5,\"calories\":44,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":5},],\"total_calories\":114}",
+  "latency_ms": 6268,
+  "error": "Unexpected token ']', ...\"fat_g\":5},],\"total_c\"... is not valid JSON"
+}

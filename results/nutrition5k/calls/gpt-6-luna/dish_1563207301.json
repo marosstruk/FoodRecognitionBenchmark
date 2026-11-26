@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563207301",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e0788f5b852e53bf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1143,
+    "reasoning_tokens": 918,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11745,
+    "ai_credits": 0.06463
+  },
+  "timestamp": "2026-11-25T00:25:30.271Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Roasted carrots\",\n      \"usda_query\": \"carrots roasted\",\n      \"grams\": 75,\n      \"calories\": 45,\n      \"protein_g\": 1,\n      \"carbs_g\": 10,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"Roasted eggplant\",\n      \"usda_query\": \"eggplant cooked\",\n      \"grams\": 20,\n      \"calories\": 10,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Mashed potatoes\",\n      \"usda_query\": \"potatoes mashed with milk\",\n      \"grams\": 90,\n      \"calories\": 100,\n      \"protein_g\": 2,\n      \"carbs_g\": 16,\n      \"fat_g\": 3\n    }\n  ],\n  \"total_calories\": 155\n}",
+  "latency_ms": 12579,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted carrots",
+        "usda_query": "carrots roasted",
+        "grams": 75,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 10,
+        "fat_g": 1
+      },
+      {
+        "name": "Roasted eggplant",
+        "usda_query": "eggplant cooked",
+        "grams": 20,
+        "calories": 10,
+        "protein_g": 0.2,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Mashed potatoes",
+        "usda_query": "potatoes mashed with milk",
+        "grams": 90,
+        "calories": 100,
+        "protein_g": 2,
+        "carbs_g": 16,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 155
+  }
+}

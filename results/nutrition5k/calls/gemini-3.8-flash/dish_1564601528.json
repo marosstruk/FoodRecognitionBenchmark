@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564601528",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1ebe1e64e48c9859",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1055,
+    "reasoning_tokens": 861,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10949,
+    "ai_credits": 0.506175
+  },
+  "timestamp": "2026-11-25T00:30:26.051Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 75,\n      \"calories\": 112,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 14.8,\n      \"fat_g\": 5.2\n    },\n    {\n      \"name\": \"boiled potatoes\",\n      \"usda_query\": \"potatoes boiled without skin\",\n      \"grams\": 60,\n      \"calories\": 52,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 12.0,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 164\n}",
+  "latency_ms": 12085,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 75,
+        "calories": 112,
+        "protein_g": 1.9,
+        "carbs_g": 14.8,
+        "fat_g": 5.2
+      },
+      {
+        "name": "boiled potatoes",
+        "usda_query": "potatoes boiled without skin",
+        "grams": 60,
+        "calories": 52,
+        "protein_g": 1.2,
+        "carbs_g": 12,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 164
+  }
+}

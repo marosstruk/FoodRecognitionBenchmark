@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565711498",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "471a2b9eb949eb35",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 343,
+    "reasoning_tokens": 187,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4305,
+    "ai_credits": 0.02463
+  },
+  "timestamp": "2026-11-25T00:34:41.301Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled\",\n      \"grams\": 170,\n      \"calories\": 255,\n      \"protein_g\": 17,\n      \"carbs_g\": 3,\n      \"fat_g\": 20\n    },\n    {\n      \"name\": \"Roasted Brussels sprouts\",\n      \"usda_query\": \"Brussels sprouts cooked with oil\",\n      \"grams\": 100,\n      \"calories\": 75,\n      \"protein_g\": 3,\n      \"carbs_g\": 9,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 330\n}",
+  "latency_ms": 5733,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled",
+        "grams": 170,
+        "calories": 255,
+        "protein_g": 17,
+        "carbs_g": 3,
+        "fat_g": 20
+      },
+      {
+        "name": "Roasted Brussels sprouts",
+        "usda_query": "Brussels sprouts cooked with oil",
+        "grams": 100,
+        "calories": 75,
+        "protein_g": 3,
+        "carbs_g": 9,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 330
+  }
+}

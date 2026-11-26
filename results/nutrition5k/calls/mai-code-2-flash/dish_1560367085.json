@@ -1,0 +1,108 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367085",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f7e8f84ae376ccf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1821,
+    "reasoning_tokens": 1160,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 17500,
+    "ai_credits": 0.049265
+  },
+  "timestamp": "2026-11-25T00:17:57.382Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 60,\n      \"calories\": 11,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 25,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.0\n    },\n    {\n      \"name\": \"bell pepper\",\n      \"usda_query\": \"peppers sweet red and green raw\",\n      \"grams\": 30,\n      \"calories\": 9,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0.0\n    },\n    {\n      \"name\": \"boiled potato\",\n      \"usda_query\": \"potatoes boiled without skin\",\n      \"grams\": 40,\n      \"calories\": 35,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.0,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"scrambled egg\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 25,\n      \"calories\": 37,\n      \"protein_g\": 3.2,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 2.7\n    },\n    {\n      \"name\": \"mushroom\",\n      \"usda_query\": \"mushrooms raw\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"crumbled cooked meat\",\n      \"usda_query\": \"ground beef cooked\",\n      \"grams\": 20,\n      \"calories\": 50,\n      \"protein_g\": 5.2,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 3.4\n    },\n    {\n      \"name\": \"crumbled cheese\",\n      \"usda_query\": \"cheese cheddar\",\n      \"grams\": 10,\n      \"calories\": 40,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 3.3\n    }\n  ],\n  \"total_calories\": 197\n}",
+  "latency_ms": 18606,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red raw",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 25,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.9,
+        "fat_g": 0
+      },
+      {
+        "name": "bell pepper",
+        "usda_query": "peppers sweet red and green raw",
+        "grams": 30,
+        "calories": 9,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      },
+      {
+        "name": "boiled potato",
+        "usda_query": "potatoes boiled without skin",
+        "grams": 40,
+        "calories": 35,
+        "protein_g": 0.8,
+        "carbs_g": 8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "scrambled egg",
+        "usda_query": "egg scrambled",
+        "grams": 25,
+        "calories": 37,
+        "protein_g": 3.2,
+        "carbs_g": 0.2,
+        "fat_g": 2.7
+      },
+      {
+        "name": "mushroom",
+        "usda_query": "mushrooms raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.5,
+        "carbs_g": 0.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "crumbled cooked meat",
+        "usda_query": "ground beef cooked",
+        "grams": 20,
+        "calories": 50,
+        "protein_g": 5.2,
+        "carbs_g": 0,
+        "fat_g": 3.4
+      },
+      {
+        "name": "crumbled cheese",
+        "usda_query": "cheese cheddar",
+        "grams": 10,
+        "calories": 40,
+        "protein_g": 2.5,
+        "carbs_g": 0.2,
+        "fat_g": 3.3
+      }
+    ],
+    "total_calories": 197
+  }
+}

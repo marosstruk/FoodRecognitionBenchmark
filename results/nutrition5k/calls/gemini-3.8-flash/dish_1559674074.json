@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559674074",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5c053eacf40f1845",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 547,
+    "reasoning_tokens": 440,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7432,
+    "ai_credits": 0.315675
+  },
+  "timestamp": "2026-11-25T00:23:37.776Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"sausage pizza\",\n      \"usda_query\": \"pizza with sausage meat regular crust\",\n      \"grams\": 90,\n      \"calories\": 245,\n      \"protein_g\": 10,\n      \"carbs_g\": 25,\n      \"fat_g\": 11\n    }\n  ],\n  \"total_calories\": 245\n}",
+  "latency_ms": 8520,
+  "parsed": {
+    "items": [
+      {
+        "name": "sausage pizza",
+        "usda_query": "pizza with sausage meat regular crust",
+        "grams": 90,
+        "calories": 245,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 11
+      }
+    ],
+    "total_calories": 245
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1556575327",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "36b0e595afbc72c0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 967,
+    "reasoning_tokens": 738,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5040,
+    "ai_credits": 0.0605525
+  },
+  "timestamp": "2026-11-25T00:26:53.371Z",
+  "raw_text": "{\"items\":[{\"name\":\"Brussels sprouts\",\"usda_query\":\"brussels sprouts cooked boiled drained\",\"grams\":140,\"calories\":49,\"protein_g\":3.5,\"carbs_g\":9.8,\"fat_g\":0.4},{\"name\":\"celery\",\"usda_query\":\"celery raw\",\"grams\":70,\"calories\":11,\"protein_g\":0.5,\"carbs_g\":2.6,\"fat_g\":0.2},{\"name\":\"Kalamata olives\",\"usda_query\":\"olives ripe canned small-extra large\",\"grams\":70,\"calories\":102,\"protein_g\":1.0,\"carbs_g\":4.4,\"fat_g\":10.5}],\"total_calories\":162}",
+  "latency_ms": 5885,
+  "parsed": {
+    "items": [
+      {
+        "name": "Brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled drained",
+        "grams": 140,
+        "calories": 49,
+        "protein_g": 3.5,
+        "carbs_g": 9.8,
+        "fat_g": 0.4
+      },
+      {
+        "name": "celery",
+        "usda_query": "celery raw",
+        "grams": 70,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Kalamata olives",
+        "usda_query": "olives ripe canned small-extra large",
+        "grams": 70,
+        "calories": 102,
+        "protein_g": 1,
+        "carbs_g": 4.4,
+        "fat_g": 10.5
+      }
+    ],
+    "total_calories": 162
+  }
+}

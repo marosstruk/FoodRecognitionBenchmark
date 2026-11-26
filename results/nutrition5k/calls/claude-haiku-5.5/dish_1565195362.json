@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565195362",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "aa34ff470b7832c6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 535,
+    "reasoning_tokens": 449,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3461,
+    "ai_credits": 0.0389525
+  },
+  "timestamp": "2026-11-25T00:24:22.269Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato baked flesh without salt\",\"grams\":130,\"calories\":125,\"protein_g\":2,\"carbs_g\":27,\"fat_g\":1}],\"total_calories\":125}",
+  "latency_ms": 4577,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato baked flesh without salt",
+        "grams": 130,
+        "calories": 125,
+        "protein_g": 2,
+        "carbs_g": 27,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 125
+  }
+}

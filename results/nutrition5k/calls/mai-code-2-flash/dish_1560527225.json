@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560527225",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "19f6580adb879083",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 716,
+    "reasoning_tokens": 401,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7416,
+    "ai_credits": 0.02164
+  },
+  "timestamp": "2026-11-25T00:18:20.077Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole scrambled cooked\",\"grams\":150,\"calories\":230,\"protein_g\":13,\"carbs_g\":3,\"fat_g\":18},{\"name\":\"bacon\",\"usda_query\":\"bacon cooked\",\"grams\":100,\"calories\":541,\"protein_g\":37,\"carbs_g\":2,\"fat_g\":42},{\"name\":\"fried potatoes\",\"usda_query\":\"potatoes pan fried\",\"grams\":180,\"calories\":400,\"protein_g\":5,\"carbs_g\":49,\"fat_g\":20},{\"name\":\"red bell peppers\",\"usda_query\":\"bell pepper red raw\",\"grams\":55,\"calories\":17,\"protein_g\":0.5,\"carbs_g\":3.3,\"fat_g\":0.2},{\"name\":\"green bell peppers\",\"usda_query\":\"bell pepper green raw\",\"grams\":45,\"calories\":15,\"protein_g\":0.6,\"carbs_g\":3.4,\"fat_g\":0.1},{\"name\":\"onion\",\"usda_query\":\"onion raw\",\"grams\":40,\"calories\":16,\"protein_g\":0.4,\"carbs_g\":3.7,\"fat_g\":0.1},{\"name\":\"carrots\",\"usda_query\":\"carrots raw\",\"grams\":30,\"calories\":12,\"protein_g\":0.3,\"carbs_g\":2.9,\"fat_g\":0.1}],\"total_calories\":1231}",
+  "latency_ms": 8293,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole scrambled cooked",
+        "grams": 150,
+        "calories": 230,
+        "protein_g": 13,
+        "carbs_g": 3,
+        "fat_g": 18
+      },
+      {
+        "name": "bacon",
+        "usda_query": "bacon cooked",
+        "grams": 100,
+        "calories": 541,
+        "protein_g": 37,
+        "carbs_g": 2,
+        "fat_g": 42
+      },
+      {
+        "name": "fried potatoes",
+        "usda_query": "potatoes pan fried",
+        "grams": 180,
+        "calories": 400,
+        "protein_g": 5,
+        "carbs_g": 49,
+        "fat_g": 20
+      },
+      {
+        "name": "red bell peppers",
+        "usda_query": "bell pepper red raw",
+        "grams": 55,
+        "calories": 17,
+        "protein_g": 0.5,
+        "carbs_g": 3.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green bell peppers",
+        "usda_query": "bell pepper green raw",
+        "grams": 45,
+        "calories": 15,
+        "protein_g": 0.6,
+        "carbs_g": 3.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "onion",
+        "usda_query": "onion raw",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrots",
+        "usda_query": "carrots raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 1231
+  }
+}

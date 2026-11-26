@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565033220",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5ee09ea3cfa1a917",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 803,
+    "reasoning_tokens": 432,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6812,
+    "ai_credits": 0.04763
+  },
+  "timestamp": "2026-11-25T00:27:31.868Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"leaf lettuce\",\n      \"usda_query\": \"leaf lettuce raw\",\n      \"grams\": 50,\n      \"calories\": 8,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cooked chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 110,\n      \"calories\": 182,\n      \"protein_g\": 34.1,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"kidney beans\",\n      \"usda_query\": \"kidney beans cooked\",\n      \"grams\": 85,\n      \"calories\": 108,\n      \"protein_g\": 7.4,\n      \"carbs_g\": 19.4,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"creamy salad dressing\",\n      \"usda_query\": \"salad dressing creamy\",\n      \"grams\": 40,\n      \"calories\": 160,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4,\n      \"fat_g\": 15.5\n    }\n  ],\n  \"total_calories\": 493\n}",
+  "latency_ms": 7658,
+  "parsed": {
+    "items": [
+      {
+        "name": "leaf lettuce",
+        "usda_query": "leaf lettuce raw",
+        "grams": 50,
+        "calories": 8,
+        "protein_g": 0.7,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 110,
+        "calories": 182,
+        "protein_g": 34.1,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "kidney beans",
+        "usda_query": "kidney beans cooked",
+        "grams": 85,
+        "calories": 108,
+        "protein_g": 7.4,
+        "carbs_g": 19.4,
+        "fat_g": 0.4
+      },
+      {
+        "name": "creamy salad dressing",
+        "usda_query": "salad dressing creamy",
+        "grams": 40,
+        "calories": 160,
+        "protein_g": 0.5,
+        "carbs_g": 4,
+        "fat_g": 15.5
+      }
+    ],
+    "total_calories": 493
+  }
+}

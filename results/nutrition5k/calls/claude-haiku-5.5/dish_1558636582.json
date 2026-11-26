@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558636582",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bdc2c6d9f51ed4ef",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1183,
+    "reasoning_tokens": 893,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5237,
+    "ai_credits": 0.0713525
+  },
+  "timestamp": "2026-11-25T00:33:22.901Z",
+  "raw_text": "{\"items\":[{\"name\":\"almonds\",\"usda_query\":\"nuts almonds raw\",\"grams\":50,\"calories\":290,\"protein_g\":10.6,\"carbs_g\":10.8,\"fat_g\":25.0},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":170,\"calories\":31,\"protein_g\":1.5,\"carbs_g\":6.6,\"fat_g\":0.3},{\"name\":\"apple\",\"usda_query\":\"apples raw with skin\",\"grams\":190,\"calories\":99,\"protein_g\":0.6,\"carbs_g\":26.2,\"fat_g\":0.4},{\"name\":\"cauliflower\",\"usda_query\":\"cauliflower raw\",\"grams\":180,\"calories\":45,\"protein_g\":3.4,\"carbs_g\":9.0,\"fat_g\":0.5}],\"total_calories\":465}",
+  "latency_ms": 6369,
+  "parsed": {
+    "items": [
+      {
+        "name": "almonds",
+        "usda_query": "nuts almonds raw",
+        "grams": 50,
+        "calories": 290,
+        "protein_g": 10.6,
+        "carbs_g": 10.8,
+        "fat_g": 25
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 170,
+        "calories": 31,
+        "protein_g": 1.5,
+        "carbs_g": 6.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "apple",
+        "usda_query": "apples raw with skin",
+        "grams": 190,
+        "calories": 99,
+        "protein_g": 0.6,
+        "carbs_g": 26.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "cauliflower",
+        "usda_query": "cauliflower raw",
+        "grams": 180,
+        "calories": 45,
+        "protein_g": 3.4,
+        "carbs_g": 9,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 465
+  }
+}

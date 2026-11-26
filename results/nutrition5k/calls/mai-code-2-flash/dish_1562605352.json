@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562605352",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "72b1be286dde1e33",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 627,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10323,
+    "ai_credits": 0.019415
+  },
+  "timestamp": "2026-11-25T00:31:05.096Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole scrambled cooked\",\"grams\":140,\"calories\":217,\"protein_g\":13.2,\"carbs_g\":2.5,\"fat_g\":16.8},{\"name\":\"sautéed mushrooms\",\"usda_query\":\"mushrooms sauteed\",\"grams\":45,\"calories\":49,\"protein_g\":3.0,\"carbs_g\":5.4,\"fat_g\":2.0}],\"total_calories\":266}",
+  "latency_ms": 11414,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole scrambled cooked",
+        "grams": 140,
+        "calories": 217,
+        "protein_g": 13.2,
+        "carbs_g": 2.5,
+        "fat_g": 16.8
+      },
+      {
+        "name": "sautéed mushrooms",
+        "usda_query": "mushrooms sauteed",
+        "grams": 45,
+        "calories": 49,
+        "protein_g": 3,
+        "carbs_g": 5.4,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 266
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566417516",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "457a4b1011ed83d9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1423,
+    "reasoning_tokens": 972,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 14044,
+    "ai_credits": 0.644175
+  },
+  "timestamp": "2026-11-25T00:23:21.793Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pan-fried white fish\",\n      \"usda_query\": \"fish fillet battered or breaded fried\",\n      \"grams\": 130,\n      \"calories\": 175,\n      \"protein_g\": 25.0,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 7.5\n    },\n    {\n      \"name\": \"roasted eggplant\",\n      \"usda_query\": \"eggplant cooked with oil\",\n      \"grams\": 90,\n      \"calories\": 65,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 4.8\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 45,\n      \"calories\": 55,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 9.5,\n      \"fat_g\": 1.6\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"salad greens raw\",\n      \"grams\": 50,\n      \"calories\": 10,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette\",\n      \"grams\": 12,\n      \"calories\": 50,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 5.2\n    }\n  ],\n  \"total_calories\": 355\n}",
+  "latency_ms": 15188,
+  "parsed": {
+    "items": [
+      {
+        "name": "pan-fried white fish",
+        "usda_query": "fish fillet battered or breaded fried",
+        "grams": 130,
+        "calories": 175,
+        "protein_g": 25,
+        "carbs_g": 2,
+        "fat_g": 7.5
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked with oil",
+        "grams": 90,
+        "calories": 65,
+        "protein_g": 0.8,
+        "carbs_g": 5.5,
+        "fat_g": 4.8
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 45,
+        "calories": 55,
+        "protein_g": 1.1,
+        "carbs_g": 9.5,
+        "fat_g": 1.6
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "salad greens raw",
+        "grams": 50,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 12,
+        "calories": 50,
+        "protein_g": 0.1,
+        "carbs_g": 1.2,
+        "fat_g": 5.2
+      }
+    ],
+    "total_calories": 355
+  }
+}

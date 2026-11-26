@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560975601",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ab11426376123bb1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1474,
+    "reasoning_tokens": 766,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10421,
+    "ai_credits": 0.08118
+  },
+  "timestamp": "2026-11-25T00:28:40.267Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"lettuce\",\n      \"usda_query\": \"lettuce iceberg raw\",\n      \"grams\": 110,\n      \"calories\": 16,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"creamy salad dressing\",\n      \"usda_query\": \"salad dressing creamy\",\n      \"grams\": 25,\n      \"calories\": 100,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"cooked chicken\",\n      \"usda_query\": \"chicken breast cooked roasted\",\n      \"grams\": 125,\n      \"calories\": 206,\n      \"protein_g\": 38.8,\n      \"carbs_g\": 0,\n      \"fat_g\": 4.5\n    },\n    {\n      \"name\": \"tomato-based sauce\",\n      \"usda_query\": \"tomato sauce prepared\",\n      \"grams\": 45,\n      \"calories\": 40,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 60,\n      \"calories\": 21,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomato cooked\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cooked rice\",\n      \"usda_query\": \"white rice cooked\",\n      \"grams\": 45,\n      \"calories\": 59,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 12.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"potato\",\n      \"usda_query\": \"potato cooked\",\n      \"grams\": 25,\n      \"calories\": 22,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"green bell pepper cooked\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 4,\n      \"calories\": 36,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 508\n}",
+  "latency_ms": 11547,
+  "parsed": {
+    "items": [
+      {
+        "name": "lettuce",
+        "usda_query": "lettuce iceberg raw",
+        "grams": 110,
+        "calories": 16,
+        "protein_g": 1.1,
+        "carbs_g": 3.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "creamy salad dressing",
+        "usda_query": "salad dressing creamy",
+        "grams": 25,
+        "calories": 100,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 10.5
+      },
+      {
+        "name": "cooked chicken",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 125,
+        "calories": 206,
+        "protein_g": 38.8,
+        "carbs_g": 0,
+        "fat_g": 4.5
+      },
+      {
+        "name": "tomato-based sauce",
+        "usda_query": "tomato sauce prepared",
+        "grams": 45,
+        "calories": 40,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 1.5
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 1.4,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomato cooked",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1.1,
+        "fat_g": 0
+      },
+      {
+        "name": "cooked rice",
+        "usda_query": "white rice cooked",
+        "grams": 45,
+        "calories": 59,
+        "protein_g": 1.2,
+        "carbs_g": 12.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "potato",
+        "usda_query": "potato cooked",
+        "grams": 25,
+        "calories": 22,
+        "protein_g": 0.5,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "green bell pepper cooked",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 4,
+        "calories": 36,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 508
+  }
+}

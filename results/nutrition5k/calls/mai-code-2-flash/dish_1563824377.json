@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824377",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "aef49765bd6533ed",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1773,
+    "reasoning_tokens": 1428,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 19797,
+    "ai_credits": 0.048065
+  },
+  "timestamp": "2026-11-25T00:31:10.469Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"paneer\",\n      \"usda_query\": \"paneer cheese\",\n      \"grams\": 250,\n      \"calories\": 663,\n      \"protein_g\": 45,\n      \"carbs_g\": 3,\n      \"fat_g\": 52\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"bell peppers red raw\",\n      \"grams\": 100,\n      \"calories\": 31,\n      \"protein_g\": 1,\n      \"carbs_g\": 6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"bell peppers green raw\",\n      \"grams\": 40,\n      \"calories\": 12,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"onion\",\n      \"usda_query\": \"onions yellow raw\",\n      \"grams\": 30,\n      \"calories\": 12,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 10,\n      \"calories\": 88,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 10\n    }\n  ],\n  \"total_calories\": 806\n}",
+  "latency_ms": 20986,
+  "parsed": {
+    "items": [
+      {
+        "name": "paneer",
+        "usda_query": "paneer cheese",
+        "grams": 250,
+        "calories": 663,
+        "protein_g": 45,
+        "carbs_g": 3,
+        "fat_g": 52
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell peppers red raw",
+        "grams": 100,
+        "calories": 31,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "bell peppers green raw",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "onion",
+        "usda_query": "onions yellow raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 10,
+        "calories": 88,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 806
+  }
+}

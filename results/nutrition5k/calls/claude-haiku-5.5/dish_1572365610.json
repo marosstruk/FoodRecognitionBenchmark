@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572365610",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5e8564f930d06f33",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 884,
+    "reasoning_tokens": 592,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4128,
+    "ai_credits": 0.0564025
+  },
+  "timestamp": "2026-11-25T00:12:14.105Z",
+  "raw_text": "{\"items\":[{\"name\":\"fresh tomato diced\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":90,\"calories\":16,\"protein_g\":0.8,\"carbs_g\":3.5,\"fat_g\":0.2},{\"name\":\"red onion diced\",\"usda_query\":\"onions raw\",\"grams\":25,\"calories\":10,\"protein_g\":0.3,\"carbs_g\":2.3,\"fat_g\":0},{\"name\":\"fresh cilantro\",\"usda_query\":\"coriander leaves raw\",\"grams\":3,\"calories\":1,\"protein_g\":0.1,\"carbs_g\":0.1,\"fat_g\":0},{\"name\":\"yellow bell pepper diced\",\"usda_query\":\"peppers sweet yellow raw\",\"grams\":15,\"calories\":4,\"protein_g\":0.1,\"carbs_g\":1,\"fat_g\":0}],\"total_calories\":31}",
+  "latency_ms": 5239,
+  "parsed": {
+    "items": [
+      {
+        "name": "fresh tomato diced",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 90,
+        "calories": 16,
+        "protein_g": 0.8,
+        "carbs_g": 3.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red onion diced",
+        "usda_query": "onions raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      },
+      {
+        "name": "fresh cilantro",
+        "usda_query": "coriander leaves raw",
+        "grams": 3,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.1,
+        "fat_g": 0
+      },
+      {
+        "name": "yellow bell pepper diced",
+        "usda_query": "peppers sweet yellow raw",
+        "grams": 15,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 31
+  }
+}

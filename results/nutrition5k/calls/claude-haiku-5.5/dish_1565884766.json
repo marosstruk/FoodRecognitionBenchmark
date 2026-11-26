@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565884766",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f6ad3941ced48465",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 647,
+    "reasoning_tokens": 438,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3483,
+    "ai_credits": 0.0445525
+  },
+  "timestamp": "2026-11-25T00:26:46.131Z",
+  "raw_text": "{\"items\":[{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":100,\"calories\":30,\"protein_g\":0.6,\"carbs_g\":7.6,\"fat_g\":0.2},{\"name\":\"feta cheese\",\"usda_query\":\"cheese feta\",\"grams\":120,\"calories\":317,\"protein_g\":17,\"carbs_g\":4.9,\"fat_g\":25.6},{\"name\":\"waffle\",\"usda_query\":\"waffles plain frozen toasted\",\"grams\":70,\"calories\":204,\"protein_g\":5.6,\"carbs_g\":32,\"fat_g\":8},],\"total_calories\":551}",
+  "latency_ms": 4337,
+  "error": "Unexpected token ']', ...\"fat_g\":8},],\"total_c\"... is not valid JSON"
+}

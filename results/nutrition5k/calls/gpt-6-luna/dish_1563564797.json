@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563564797",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6a5089fe0284d193",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1332,
+    "reasoning_tokens": 763,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9098,
+    "ai_credits": 0.07408
+  },
+  "timestamp": "2026-11-25T00:31:58.299Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked fish\",\n      \"usda_query\": \"fish fillet cooked\",\n      \"grams\": 80,\n      \"calories\": 102,\n      \"protein_g\": 20.8,\n      \"carbs_g\": 0,\n      \"fat_g\": 2.1\n    },\n    {\n      \"name\": \"Cooked lentils\",\n      \"usda_query\": \"lentils cooked\",\n      \"grams\": 35,\n      \"calories\": 41,\n      \"protein_g\": 3.2,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Tomato\",\n      \"usda_query\": \"tomato raw\",\n      \"grams\": 10,\n      \"calories\": 2,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 75,\n      \"calories\": 124,\n      \"protein_g\": 23.3,\n      \"carbs_g\": 0,\n      \"fat_g\": 2.7\n    },\n    {\n      \"name\": \"Cooked kale\",\n      \"usda_query\": \"kale cooked\",\n      \"grams\": 100,\n      \"calories\": 28,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 5.6,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 4,\n      \"calories\": 36,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Parmesan cheese\",\n      \"usda_query\": \"parmesan cheese\",\n      \"grams\": 8,\n      \"calories\": 34,\n      \"protein_g\": 3,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 2.2\n    },\n    {\n      \"name\": \"Corn\",\n      \"usda_query\": \"sweet yellow corn cooked\",\n      \"grams\": 80,\n      \"calories\": 77,\n      \"protein_g\": 2.7,\n      \"carbs_g\": 17,\n      \"fat_g\": 1.2\n    }\n  ],\n  \"total_calories\": 444\n}",
+  "latency_ms": 10268,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked fish",
+        "usda_query": "fish fillet cooked",
+        "grams": 80,
+        "calories": 102,
+        "protein_g": 20.8,
+        "carbs_g": 0,
+        "fat_g": 2.1
+      },
+      {
+        "name": "Cooked lentils",
+        "usda_query": "lentils cooked",
+        "grams": 35,
+        "calories": 41,
+        "protein_g": 3.2,
+        "carbs_g": 7.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Tomato",
+        "usda_query": "tomato raw",
+        "grams": 10,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.4,
+        "fat_g": 0
+      },
+      {
+        "name": "Chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 75,
+        "calories": 124,
+        "protein_g": 23.3,
+        "carbs_g": 0,
+        "fat_g": 2.7
+      },
+      {
+        "name": "Cooked kale",
+        "usda_query": "kale cooked",
+        "grams": 100,
+        "calories": 28,
+        "protein_g": 1.9,
+        "carbs_g": 5.6,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 4,
+        "calories": 36,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "Parmesan cheese",
+        "usda_query": "parmesan cheese",
+        "grams": 8,
+        "calories": 34,
+        "protein_g": 3,
+        "carbs_g": 0.3,
+        "fat_g": 2.2
+      },
+      {
+        "name": "Corn",
+        "usda_query": "sweet yellow corn cooked",
+        "grams": 80,
+        "calories": 77,
+        "protein_g": 2.7,
+        "carbs_g": 17,
+        "fat_g": 1.2
+      }
+    ],
+    "total_calories": 444
+  }
+}

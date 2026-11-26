@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572031580",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cef7f147bd5e3a37",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 629,
+    "reasoning_tokens": 520,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7152,
+    "ai_credits": 0.346425
+  },
+  "timestamp": "2026-11-25T00:18:44.332Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed vegetable curry\",\n      \"usda_query\": \"vegetable curry\",\n      \"grams\": 130,\n      \"calories\": 143,\n      \"protein_g\": 3.1,\n      \"carbs_g\": 14.3,\n      \"fat_g\": 8.5\n    }\n  ],\n  \"total_calories\": 143\n}",
+  "latency_ms": 8244,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed vegetable curry",
+        "usda_query": "vegetable curry",
+        "grams": 130,
+        "calories": 143,
+        "protein_g": 3.1,
+        "carbs_g": 14.3,
+        "fat_g": 8.5
+      }
+    ],
+    "total_calories": 143
+  }
+}

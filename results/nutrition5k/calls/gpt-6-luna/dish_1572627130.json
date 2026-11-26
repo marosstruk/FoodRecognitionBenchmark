@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572627130",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "765a1d594913e1f9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 968,
+    "reasoning_tokens": 595,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11206,
+    "ai_credits": 0.05588
+  },
+  "timestamp": "2026-11-25T00:38:34.993Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 110,\n      \"calories\": 143,\n      \"protein_g\": 3,\n      \"carbs_g\": 31.3,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"cooked chicken\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 90,\n      \"calories\": 149,\n      \"protein_g\": 27.9,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.2\n    },\n    {\n      \"name\": \"scrambled egg\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 50,\n      \"calories\": 82,\n      \"protein_g\": 5.7,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 6.3\n    },\n    {\n      \"name\": \"tomato salsa\",\n      \"usda_query\": \"salsa ready to serve\",\n      \"grams\": 50,\n      \"calories\": 18,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 4.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cooked leafy greens\",\n      \"usda_query\": \"spinach cooked\",\n      \"grams\": 15,\n      \"calories\": 4,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 396\n}",
+  "latency_ms": 13051,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 110,
+        "calories": 143,
+        "protein_g": 3,
+        "carbs_g": 31.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cooked chicken",
+        "usda_query": "chicken breast cooked",
+        "grams": 90,
+        "calories": 149,
+        "protein_g": 27.9,
+        "carbs_g": 0,
+        "fat_g": 3.2
+      },
+      {
+        "name": "scrambled egg",
+        "usda_query": "egg scrambled cooked",
+        "grams": 50,
+        "calories": 82,
+        "protein_g": 5.7,
+        "carbs_g": 0.6,
+        "fat_g": 6.3
+      },
+      {
+        "name": "tomato salsa",
+        "usda_query": "salsa ready to serve",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 0.8,
+        "carbs_g": 4.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked leafy greens",
+        "usda_query": "spinach cooked",
+        "grams": 15,
+        "calories": 4,
+        "protein_g": 0.4,
+        "carbs_g": 0.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 396
+  }
+}

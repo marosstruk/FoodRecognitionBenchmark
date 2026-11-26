@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564773976",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "afb822edfc5ebd4d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1508,
+    "reasoning_tokens": 1092,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16300,
+    "ai_credits": 0.04144
+  },
+  "timestamp": "2026-11-25T00:32:58.162Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled chicken pieces\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 120,\n      \"calories\": 198,\n      \"protein_g\": 37,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"grilled chicken strips\",\n      \"usda_query\": \"chicken thigh meat roasted\",\n      \"grams\": 80,\n      \"calories\": 176,\n      \"protein_g\": 19,\n      \"carbs_g\": 0,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"yellow bell pepper\",\n      \"usda_query\": \"bell pepper yellow raw\",\n      \"grams\": 55,\n      \"calories\": 23,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"bell pepper red raw\",\n      \"grams\": 50,\n      \"calories\": 16,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"bell pepper green raw\",\n      \"grams\": 55,\n      \"calories\": 17,\n      \"protein_g\": 1,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"black olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 25,\n      \"calories\": 29,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 3\n    }\n  ],\n  \"total_calories\": 459\n}",
+  "latency_ms": 17372,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken pieces",
+        "usda_query": "chicken breast grilled",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "grilled chicken strips",
+        "usda_query": "chicken thigh meat roasted",
+        "grams": 80,
+        "calories": 176,
+        "protein_g": 19,
+        "carbs_g": 0,
+        "fat_g": 10
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "bell pepper yellow raw",
+        "grams": 55,
+        "calories": 23,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red raw",
+        "grams": 50,
+        "calories": 16,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "bell pepper green raw",
+        "grams": 55,
+        "calories": 17,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 25,
+        "calories": 29,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 459
+  }
+}

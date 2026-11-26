@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558026756",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74dc993014541c0b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 855,
+    "reasoning_tokens": 635,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9289,
+    "ai_credits": 0.025115
+  },
+  "timestamp": "2026-11-25T00:35:48.282Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked pan fried\",\n      \"grams\": 55,\n      \"calories\": 295,\n      \"protein_g\": 20,\n      \"carbs_g\": 1,\n      \"fat_g\": 24\n    },\n    {\n      \"name\": \"cantaloupe\",\n      \"usda_query\": \"cantaloupe melon raw\",\n      \"grams\": 150,\n      \"calories\": 51,\n      \"protein_g\": 1,\n      \"carbs_g\": 12,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber raw peeled\",\n      \"grams\": 140,\n      \"calories\": 21,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 367\n}",
+  "latency_ms": 10402,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked pan fried",
+        "grams": 55,
+        "calories": 295,
+        "protein_g": 20,
+        "carbs_g": 1,
+        "fat_g": 24
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "cantaloupe melon raw",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 1,
+        "carbs_g": 12,
+        "fat_g": 0
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber raw peeled",
+        "grams": 140,
+        "calories": 21,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 367
+  }
+}

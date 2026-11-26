@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563820775",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4fdca95f9c7dabbb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 640,
+    "reasoning_tokens": 442,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6707,
+    "ai_credits": 0.35055
+  },
+  "timestamp": "2026-11-25T00:12:53.421Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked zucchini\",\n      \"usda_query\": \"squash summer zucchini cooked boiled drained\",\n      \"grams\": 60,\n      \"calories\": 10,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cooked yellow summer squash\",\n      \"usda_query\": \"squash summer crookneck and straightneck cooked boiled drained\",\n      \"grams\": 50,\n      \"calories\": 8,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 1.7,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 18\n}",
+  "latency_ms": 7871,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked zucchini",
+        "usda_query": "squash summer zucchini cooked boiled drained",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 1.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooked yellow summer squash",
+        "usda_query": "squash summer crookneck and straightneck cooked boiled drained",
+        "grams": 50,
+        "calories": 8,
+        "protein_g": 0.5,
+        "carbs_g": 1.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 18
+  }
+}

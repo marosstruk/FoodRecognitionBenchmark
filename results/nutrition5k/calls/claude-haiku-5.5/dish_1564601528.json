@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564601528",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1ebe1e64e48c9859",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 733,
+    "reasoning_tokens": 576,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4595,
+    "ai_credits": 0.0488525
+  },
+  "timestamp": "2026-11-25T00:30:19.280Z",
+  "raw_text": "{\"items\":[{\"name\":\"boiled potato\",\"usda_query\":\"potatoes boiled cooked without skin\",\"grams\":110,\"calories\":96,\"protein_g\":2.1,\"carbs_g\":22.1,\"fat_g\":0.1},{\"name\":\"roasted potato with herbs\",\"usda_query\":\"potatoes home fried in oil\",\"grams\":120,\"calories\":170,\"protein_g\":3,\"carbs_g\":24,\"fat_g\":7}],\"total_calories\":266}",
+  "latency_ms": 5510,
+  "parsed": {
+    "items": [
+      {
+        "name": "boiled potato",
+        "usda_query": "potatoes boiled cooked without skin",
+        "grams": 110,
+        "calories": 96,
+        "protein_g": 2.1,
+        "carbs_g": 22.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted potato with herbs",
+        "usda_query": "potatoes home fried in oil",
+        "grams": 120,
+        "calories": 170,
+        "protein_g": 3,
+        "carbs_g": 24,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 266
+  }
+}

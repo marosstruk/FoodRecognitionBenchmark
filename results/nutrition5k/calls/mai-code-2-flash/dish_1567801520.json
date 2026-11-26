@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567801520",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f165bb75775af806",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1216,
+    "reasoning_tokens": 987,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15170,
+    "ai_credits": 0.03414
+  },
+  "timestamp": "2026-11-25T00:29:27.570Z",
+  "raw_text": "{\"items\":[{\"name\":\"stir-fried cabbage\",\"usda_query\":\"cabbage cooked stir fried\",\"grams\":180,\"calories\":72,\"protein_g\":3,\"carbs_g\":13,\"fat_g\":2},{\"name\":\"braised pork strips\",\"usda_query\":\"pork cooked lean and fat\",\"grams\":150,\"calories\":360,\"protein_g\":27,\"carbs_g\":2,\"fat_g\":27},{\"name\":\"green bell pepper\",\"usda_query\":\"bell pepper green raw\",\"grams\":50,\"calories\":15,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":0},{\"name\":\"onion\",\"usda_query\":\"onion cooked\",\"grams\":35,\"calories\":14,\"protein_g\":0,\"carbs_g\":3,\"fat_g\":0},{\"name\":\"stir-fry sauce and cooking oil\",\"usda_query\":\"stir fry sauce cooking oil\",\"grams\":12,\"calories\":96,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":9}],\"total_calories\":557}",
+  "latency_ms": 16010,
+  "parsed": {
+    "items": [
+      {
+        "name": "stir-fried cabbage",
+        "usda_query": "cabbage cooked stir fried",
+        "grams": 180,
+        "calories": 72,
+        "protein_g": 3,
+        "carbs_g": 13,
+        "fat_g": 2
+      },
+      {
+        "name": "braised pork strips",
+        "usda_query": "pork cooked lean and fat",
+        "grams": 150,
+        "calories": 360,
+        "protein_g": 27,
+        "carbs_g": 2,
+        "fat_g": 27
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "bell pepper green raw",
+        "grams": 50,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "onion",
+        "usda_query": "onion cooked",
+        "grams": 35,
+        "calories": 14,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "stir-fry sauce and cooking oil",
+        "usda_query": "stir fry sauce cooking oil",
+        "grams": 12,
+        "calories": 96,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 557
+  }
+}

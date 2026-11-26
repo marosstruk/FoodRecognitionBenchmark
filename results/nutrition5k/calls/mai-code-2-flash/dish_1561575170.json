@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561575170",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e3e36dcbbe4c2b49",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 651,
+    "reasoning_tokens": 499,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10168,
+    "ai_credits": 0.020015
+  },
+  "timestamp": "2026-11-25T00:39:21.480Z",
+  "raw_text": "{\"items\":[{\"name\":\"boiled potato slices\",\"usda_query\":\"potato boiled with skin\",\"grams\":250,\"calories\":193,\"protein_g\":5.0,\"carbs_g\":43.5,\"fat_g\":0.3},{\"name\":\"parsley\",\"usda_query\":\"parsley fresh\",\"grams\":5,\"calories\":2,\"protein_g\":0.2,\"carbs_g\":0.3,\"fat_g\":0.0},{\"name\":\"olive oil\",\"usda_query\":\"olive oil\",\"grams\":9,\"calories\":80,\"protein_g\":0.0,\"carbs_g\":0.0,\"fat_g\":9.0}],\"total_calories\":275}",
+  "latency_ms": 11393,
+  "parsed": {
+    "items": [
+      {
+        "name": "boiled potato slices",
+        "usda_query": "potato boiled with skin",
+        "grams": 250,
+        "calories": 193,
+        "protein_g": 5,
+        "carbs_g": 43.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "parsley",
+        "usda_query": "parsley fresh",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0.2,
+        "carbs_g": 0.3,
+        "fat_g": 0
+      },
+      {
+        "name": "olive oil",
+        "usda_query": "olive oil",
+        "grams": 9,
+        "calories": 80,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 275
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563478751",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "81fae9dc9765a281",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1199,
+    "reasoning_tokens": 838,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11403,
+    "ai_credits": 0.560175
+  },
+  "timestamp": "2026-11-25T00:35:57.373Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"penne pasta\",\n      \"usda_query\": \"penne pasta cooked\",\n      \"grams\": 110,\n      \"calories\": 173,\n      \"protein_g\": 6.4,\n      \"carbs_g\": 33.8,\n      \"fat_g\": 1.0\n    },\n    {\n      \"name\": \"beef tips\",\n      \"usda_query\": \"beef stew meat cooked simmered\",\n      \"grams\": 90,\n      \"calories\": 189,\n      \"protein_g\": 23.4,\n      \"carbs_g\": 0,\n      \"fat_g\": 9.9\n    },\n    {\n      \"name\": \"spinach\",\n      \"usda_query\": \"spinach cooked boiled drained\",\n      \"grams\": 25,\n      \"calories\": 6,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 1.0,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"creamy pan sauce\",\n      \"usda_query\": \"cream sauce\",\n      \"grams\": 40,\n      \"calories\": 48,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 4.0\n    }\n  ],\n  \"total_calories\": 416\n}",
+  "latency_ms": 12300,
+  "parsed": {
+    "items": [
+      {
+        "name": "penne pasta",
+        "usda_query": "penne pasta cooked",
+        "grams": 110,
+        "calories": 173,
+        "protein_g": 6.4,
+        "carbs_g": 33.8,
+        "fat_g": 1
+      },
+      {
+        "name": "beef tips",
+        "usda_query": "beef stew meat cooked simmered",
+        "grams": 90,
+        "calories": 189,
+        "protein_g": 23.4,
+        "carbs_g": 0,
+        "fat_g": 9.9
+      },
+      {
+        "name": "spinach",
+        "usda_query": "spinach cooked boiled drained",
+        "grams": 25,
+        "calories": 6,
+        "protein_g": 0.7,
+        "carbs_g": 1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "creamy pan sauce",
+        "usda_query": "cream sauce",
+        "grams": 40,
+        "calories": 48,
+        "protein_g": 0.8,
+        "carbs_g": 2.4,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 416
+  }
+}

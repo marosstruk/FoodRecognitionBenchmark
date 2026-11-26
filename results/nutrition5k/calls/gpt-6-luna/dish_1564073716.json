@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564073716",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c5ae523b8589b645",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 650,
+    "reasoning_tokens": 416,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6769,
+    "ai_credits": 0.03998
+  },
+  "timestamp": "2026-11-25T00:34:17.278Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 180,\n      \"calories\": 41,\n      \"protein_g\": 3.2,\n      \"carbs_g\": 7.4,\n      \"fat_g\": 0.9\n    },\n    {\n      \"name\": \"Scrambled egg\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 60,\n      \"calories\": 91,\n      \"protein_g\": 6.3,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 6.8\n    },\n    {\n      \"name\": \"Roasted sweet potato\",\n      \"usda_query\": \"sweet potato baked\",\n      \"grams\": 80,\n      \"calories\": 72,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 16.6,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 204\n}",
+  "latency_ms": 7680,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 180,
+        "calories": 41,
+        "protein_g": 3.2,
+        "carbs_g": 7.4,
+        "fat_g": 0.9
+      },
+      {
+        "name": "Scrambled egg",
+        "usda_query": "egg scrambled cooked",
+        "grams": 60,
+        "calories": 91,
+        "protein_g": 6.3,
+        "carbs_g": 0.7,
+        "fat_g": 6.8
+      },
+      {
+        "name": "Roasted sweet potato",
+        "usda_query": "sweet potato baked",
+        "grams": 80,
+        "calories": 72,
+        "protein_g": 1.6,
+        "carbs_g": 16.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 204
+  }
+}

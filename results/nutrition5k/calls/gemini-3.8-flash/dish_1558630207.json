@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558630207",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8bc825ad9e464302",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 606,
+    "reasoning_tokens": 498,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7713,
+    "ai_credits": 0.3378
+  },
+  "timestamp": "2026-11-25T00:20:13.293Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"whole almonds\",\n      \"usda_query\": \"nuts almonds\",\n      \"grams\": 55,\n      \"calories\": 318,\n      \"protein_g\": 11.6,\n      \"carbs_g\": 11.9,\n      \"fat_g\": 27.5\n    }\n  ],\n  \"total_calories\": 318\n}",
+  "latency_ms": 8589,
+  "parsed": {
+    "items": [
+      {
+        "name": "whole almonds",
+        "usda_query": "nuts almonds",
+        "grams": 55,
+        "calories": 318,
+        "protein_g": 11.6,
+        "carbs_g": 11.9,
+        "fat_g": 27.5
+      }
+    ],
+    "total_calories": 318
+  }
+}

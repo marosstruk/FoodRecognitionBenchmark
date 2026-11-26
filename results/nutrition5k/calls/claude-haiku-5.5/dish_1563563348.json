@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563563348",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a5afa399ff56ead9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 804,
+    "reasoning_tokens": 514,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3544,
+    "ai_credits": 0.0524025
+  },
+  "timestamp": "2026-11-25T00:09:29.110Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked chicken breast\",\"usda_query\":\"chicken breast roasted meat only\",\"grams\":80,\"calories\":132,\"protein_g\":25,\"carbs_g\":0,\"fat_g\":3},{\"name\":\"raw carrot, shredded\",\"usda_query\":\"carrots raw\",\"grams\":60,\"calories\":25,\"protein_g\":0.5,\"carbs_g\":6,\"fat_g\":0},{\"name\":\"green bell pepper, raw\",\"usda_query\":\"peppers sweet green raw\",\"grams\":60,\"calories\":12,\"protein_g\":0.5,\"carbs_g\":3,\"fat_g\":0},{\"name\":\"cherry tomato, raw\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":15,\"calories\":3,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":0}],\"total_calories\":172}",
+  "latency_ms": 4392,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked chicken breast",
+        "usda_query": "chicken breast roasted meat only",
+        "grams": 80,
+        "calories": 132,
+        "protein_g": 25,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "raw carrot, shredded",
+        "usda_query": "carrots raw",
+        "grams": 60,
+        "calories": 25,
+        "protein_g": 0.5,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper, raw",
+        "usda_query": "peppers sweet green raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 0.5,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "cherry tomato, raw",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 172
+  }
+}

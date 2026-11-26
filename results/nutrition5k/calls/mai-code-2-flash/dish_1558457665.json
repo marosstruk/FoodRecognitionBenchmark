@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558457665",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "31a60e01e6a7b630",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1684,
+    "reasoning_tokens": 1381,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18539,
+    "ai_credits": 0.04584
+  },
+  "timestamp": "2026-11-25T00:29:47.004Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted sweet potato\",\n      \"usda_query\": \"sweet potato roasted\",\n      \"grams\": 240,\n      \"calories\": 216,\n      \"protein_g\": 4.4,\n      \"carbs_g\": 51.6,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 100,\n      \"calories\": 143,\n      \"protein_g\": 12.6,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 9.5\n    },\n    {\n      \"name\": \"cooked cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 150,\n      \"calories\": 35,\n      \"protein_g\": 2.7,\n      \"carbs_g\": 7.5,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"cooked cabbage\",\n      \"usda_query\": \"cabbage cooked\",\n      \"grams\": 80,\n      \"calories\": 18,\n      \"protein_g\": 1,\n      \"carbs_g\": 4.2,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 412\n}",
+  "latency_ms": 19427,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato roasted",
+        "grams": 240,
+        "calories": 216,
+        "protein_g": 4.4,
+        "carbs_g": 51.6,
+        "fat_g": 0.4
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 100,
+        "calories": 143,
+        "protein_g": 12.6,
+        "carbs_g": 1.1,
+        "fat_g": 9.5
+      },
+      {
+        "name": "cooked cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 150,
+        "calories": 35,
+        "protein_g": 2.7,
+        "carbs_g": 7.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "cooked cabbage",
+        "usda_query": "cabbage cooked",
+        "grams": 80,
+        "calories": 18,
+        "protein_g": 1,
+        "carbs_g": 4.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 412
+  }
+}

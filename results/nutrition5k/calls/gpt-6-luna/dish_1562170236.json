@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562170236",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c0ccb72278b32c0d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 782,
+    "reasoning_tokens": 408,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7956,
+    "ai_credits": 0.04658
+  },
+  "timestamp": "2026-11-25T00:35:44.679Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 120,\n      \"calories\": 60,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 15.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"watermelon\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 70,\n      \"calories\": 21,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 90,\n      \"calories\": 29,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 6.9,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"raspberries\",\n      \"usda_query\": \"raspberries raw\",\n      \"grams\": 60,\n      \"calories\": 31,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 7.1,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 20,\n      \"calories\": 11,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 2.9,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 152\n}",
+  "latency_ms": 9109,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 0.7,
+        "carbs_g": 15.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 70,
+        "calories": 21,
+        "protein_g": 0.4,
+        "carbs_g": 5.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 90,
+        "calories": 29,
+        "protein_g": 0.6,
+        "carbs_g": 6.9,
+        "fat_g": 0.3
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 60,
+        "calories": 31,
+        "protein_g": 0.7,
+        "carbs_g": 7.1,
+        "fat_g": 0.4
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 20,
+        "calories": 11,
+        "protein_g": 0.1,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 152
+  }
+}

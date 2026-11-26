@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562180157",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1ac50c114d6a4ef1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1781,
+    "reasoning_tokens": 1309,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8117,
+    "ai_credits": 0.1012525
+  },
+  "timestamp": "2026-11-25T00:10:58.784Z",
+  "raw_text": "{\"items\":[{\"name\":\"breaded fried chicken\",\"usda_query\":\"chicken breast meat and skin breaded fried\",\"grams\":150,\"calories\":340,\"protein_g\":30,\"carbs_g\":14,\"fat_g\":18},{\"name\":\"bacon\",\"usda_query\":\"pork bacon cooked pan-fried\",\"grams\":40,\"calories\":216,\"protein_g\":15,\"carbs_g\":1,\"fat_g\":17},{\"name\":\"coleslaw\",\"usda_query\":\"coleslaw dressed\",\"grams\":40,\"calories\":59,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":4},{\"name\":\"mixed salad greens\",\"usda_query\":\"spinach raw\",\"grams\":80,\"calories\":20,\"protein_g\":2,\"carbs_g\":3,\"fat_g\":0},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":40,\"calories\":13,\"protein_g\":0,\"carbs_g\":3,\"fat_g\":0},{\"name\":\"roasted yellow squash\",\"usda_query\":\"squash summer yellow cooked boiled\",\"grams\":100,\"calories\":60,\"protein_g\":1,\"carbs_g\":13,\"fat_g\":1},{\"name\":\"roasted eggplant\",\"usda_query\":\"eggplant cooked sauteed\",\"grams\":50,\"calories\":28,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":2}],\"total_calories\":736}",
+  "latency_ms": 9020,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded fried chicken",
+        "usda_query": "chicken breast meat and skin breaded fried",
+        "grams": 150,
+        "calories": 340,
+        "protein_g": 30,
+        "carbs_g": 14,
+        "fat_g": 18
+      },
+      {
+        "name": "bacon",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 40,
+        "calories": 216,
+        "protein_g": 15,
+        "carbs_g": 1,
+        "fat_g": 17
+      },
+      {
+        "name": "coleslaw",
+        "usda_query": "coleslaw dressed",
+        "grams": 40,
+        "calories": 59,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 4
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "spinach raw",
+        "grams": 80,
+        "calories": 20,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 40,
+        "calories": 13,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted yellow squash",
+        "usda_query": "squash summer yellow cooked boiled",
+        "grams": 100,
+        "calories": 60,
+        "protein_g": 1,
+        "carbs_g": 13,
+        "fat_g": 1
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked sauteed",
+        "grams": 50,
+        "calories": 28,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 736
+  }
+}

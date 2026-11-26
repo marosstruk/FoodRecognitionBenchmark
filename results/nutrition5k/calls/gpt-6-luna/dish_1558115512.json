@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558115512",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "47d388c11dca4c98",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 852,
+    "reasoning_tokens": 757,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10459,
+    "ai_credits": 0.05008
+  },
+  "timestamp": "2026-11-25T00:10:11.785Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Roasted baby potatoes\",\n      \"usda_query\": \"potatoes roasted with skin and oil\",\n      \"grams\": 300,\n      \"calories\": 450,\n      \"protein_g\": 7.5,\n      \"carbs_g\": 63,\n      \"fat_g\": 18\n    }\n  ],\n  \"total_calories\": 450\n}",
+  "latency_ms": 11314,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted baby potatoes",
+        "usda_query": "potatoes roasted with skin and oil",
+        "grams": 300,
+        "calories": 450,
+        "protein_g": 7.5,
+        "carbs_g": 63,
+        "fat_g": 18
+      }
+    ],
+    "total_calories": 450
+  }
+}

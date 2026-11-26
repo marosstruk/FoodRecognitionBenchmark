@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574728191",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3d0ad85d5f155da3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 682,
+    "reasoning_tokens": 572,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10085,
+    "ai_credits": 0.3663
+  },
+  "timestamp": "2026-11-25T00:27:04.587Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"pizza cheese regular crust\",\n      \"grams\": 200,\n      \"calories\": 534,\n      \"protein_g\": 22.6,\n      \"carbs_g\": 66.8,\n      \"fat_g\": 19.6\n    }\n  ],\n  \"total_calories\": 534\n}",
+  "latency_ms": 10928,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "pizza cheese regular crust",
+        "grams": 200,
+        "calories": 534,
+        "protein_g": 22.6,
+        "carbs_g": 66.8,
+        "fat_g": 19.6
+      }
+    ],
+    "total_calories": 534
+  }
+}

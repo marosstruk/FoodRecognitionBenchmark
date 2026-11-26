@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563996308",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f9194dda3e5e1cbe",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1059,
+    "reasoning_tokens": 713,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10096,
+    "ai_credits": 0.507675
+  },
+  "timestamp": "2026-11-25T00:11:08.008Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"sliced chicken breast\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 160,\n      \"calories\": 264,\n      \"protein_g\": 50,\n      \"carbs_g\": 0,\n      \"fat_g\": 5.8\n    },\n    {\n      \"name\": \"cream sauce\",\n      \"usda_query\": \"cream sauce\",\n      \"grams\": 35,\n      \"calories\": 45,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 3.5\n    },\n    {\n      \"name\": \"steamed cauliflower\",\n      \"usda_query\": \"cauliflower cooked boiled drained\",\n      \"grams\": 110,\n      \"calories\": 25,\n      \"protein_g\": 2,\n      \"carbs_g\": 5,\n      \"fat_g\": 0.6\n    },\n    {\n      \"name\": \"sliced cooked carrots\",\n      \"usda_query\": \"carrots cooked boiled drained\",\n      \"grams\": 75,\n      \"calories\": 26,\n      \"protein_g\": 1,\n      \"carbs_g\": 6,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 360\n}",
+  "latency_ms": 10951,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced chicken breast",
+        "usda_query": "chicken breast cooked",
+        "grams": 160,
+        "calories": 264,
+        "protein_g": 50,
+        "carbs_g": 0,
+        "fat_g": 5.8
+      },
+      {
+        "name": "cream sauce",
+        "usda_query": "cream sauce",
+        "grams": 35,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 3.5
+      },
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower cooked boiled drained",
+        "grams": 110,
+        "calories": 25,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 0.6
+      },
+      {
+        "name": "sliced cooked carrots",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 75,
+        "calories": 26,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 360
+  }
+}

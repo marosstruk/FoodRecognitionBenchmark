@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561737176",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3814f8268e3fa7e4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 588,
+    "reasoning_tokens": 509,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10603,
+    "ai_credits": 0.33105
+  },
+  "timestamp": "2026-11-25T00:26:18.536Z",
+  "raw_text": "{\"items\": [{\"name\": \"sliced smoked sausage\", \"usda_query\": \"smoked sausage pork and beef\", \"grams\": 75, \"calories\": 236, \"protein\": 9.8, \"carbs_g\": 1.7, \"fat_g\": 21.2}], \"total_calories\": 236}",
+  "latency_ms": 11755,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced smoked sausage",
+        "usda_query": "smoked sausage pork and beef",
+        "grams": 75,
+        "calories": 236,
+        "protein_g": 9.8,
+        "carbs_g": 1.7,
+        "fat_g": 21.2
+      }
+    ],
+    "total_calories": 236
+  }
+}

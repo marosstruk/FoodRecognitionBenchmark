@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563389042",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8674ffdbb584cf50",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 768,
+    "reasoning_tokens": 582,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7903,
+    "ai_credits": 0.39855
+  },
+  "timestamp": "2026-11-25T00:21:59.921Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked carrots\",\n      \"usda_query\": \"carrots cooked boiled drained\",\n      \"grams\": 40,\n      \"calories\": 14,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 3.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cooked broccoli\",\n      \"usda_query\": \"broccoli cooked boiled drained\",\n      \"grams\": 10,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 18\n}",
+  "latency_ms": 9029,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 40,
+        "calories": 14,
+        "protein_g": 0.3,
+        "carbs_g": 3.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 18
+  }
+}

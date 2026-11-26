@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414342",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "22a4ea6dabd8d346",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1146,
+    "reasoning_tokens": 697,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12051,
+    "ai_credits": 0.03239
+  },
+  "timestamp": "2026-11-25T00:22:45.609Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 160,\n      \"calories\": 208,\n      \"protein_g\": 4.3,\n      \"carbs_g\": 45.0,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"chicken pieces\",\n      \"usda_query\": \"chicken meat cooked\",\n      \"grams\": 130,\n      \"calories\": 215,\n      \"protein_g\": 39.0,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 6.5\n    },\n    {\n      \"name\": \"fried potato pieces\",\n      \"usda_query\": \"potato fries fried\",\n      \"grams\": 90,\n      \"calories\": 281,\n      \"protein_g\": 3.1,\n      \"carbs_g\": 40.5,\n      \"fat_g\": 12.6\n    },\n    {\n      \"name\": \"tomato pepper sauce\",\n      \"usda_query\": \"tomato sauce\",\n      \"grams\": 50,\n      \"calories\": 25,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 5.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"bell peppers and onions\",\n      \"usda_query\": \"bell peppers and onions cooked\",\n      \"grams\": 55,\n      \"calories\": 28,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 6.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 12,\n      \"calories\": 106,\n      \"protein_g\": 0.0,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 12.0\n    }\n  ],\n  \"total_calories\": 863\n}",
+  "latency_ms": 13151,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 160,
+        "calories": 208,
+        "protein_g": 4.3,
+        "carbs_g": 45,
+        "fat_g": 0.5
+      },
+      {
+        "name": "chicken pieces",
+        "usda_query": "chicken meat cooked",
+        "grams": 130,
+        "calories": 215,
+        "protein_g": 39,
+        "carbs_g": 0,
+        "fat_g": 6.5
+      },
+      {
+        "name": "fried potato pieces",
+        "usda_query": "potato fries fried",
+        "grams": 90,
+        "calories": 281,
+        "protein_g": 3.1,
+        "carbs_g": 40.5,
+        "fat_g": 12.6
+      },
+      {
+        "name": "tomato pepper sauce",
+        "usda_query": "tomato sauce",
+        "grams": 50,
+        "calories": 25,
+        "protein_g": 1.1,
+        "carbs_g": 5.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "bell peppers and onions",
+        "usda_query": "bell peppers and onions cooked",
+        "grams": 55,
+        "calories": 28,
+        "protein_g": 0.8,
+        "carbs_g": 6.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 12,
+        "calories": 106,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 12
+      }
+    ],
+    "total_calories": 863
+  }
+}

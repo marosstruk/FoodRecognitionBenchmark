@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562789301",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "45dd2fa640645497",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1630,
+    "reasoning_tokens": 1343,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16597,
+    "ai_credits": 0.04449
+  },
+  "timestamp": "2026-11-25T00:39:32.709Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"fried hash brown patties\",\n      \"usda_query\": \"potato hash browns fried\",\n      \"grams\": 105,\n      \"calories\": 275,\n      \"protein_g\": 3,\n      \"carbs_g\": 34,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"sautéed mixed greens\",\n      \"usda_query\": \"cooked leafy greens oil\",\n      \"grams\": 100,\n      \"calories\": 70,\n      \"protein_g\": 5,\n      \"carbs_g\": 9,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"breakfast sausage\",\n      \"usda_query\": \"pork sausage cooked\",\n      \"grams\": 90,\n      \"calories\": 270,\n      \"protein_g\": 13,\n      \"carbs_g\": 2,\n      \"fat_g\": 23\n    },\n    {\n      \"name\": \"toast\",\n      \"usda_query\": \"bread toast\",\n      \"grams\": 30,\n      \"calories\": 80,\n      \"protein_g\": 3,\n      \"carbs_g\": 15,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 695\n}",
+  "latency_ms": 17780,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried hash brown patties",
+        "usda_query": "potato hash browns fried",
+        "grams": 105,
+        "calories": 275,
+        "protein_g": 3,
+        "carbs_g": 34,
+        "fat_g": 15
+      },
+      {
+        "name": "sautéed mixed greens",
+        "usda_query": "cooked leafy greens oil",
+        "grams": 100,
+        "calories": 70,
+        "protein_g": 5,
+        "carbs_g": 9,
+        "fat_g": 3
+      },
+      {
+        "name": "breakfast sausage",
+        "usda_query": "pork sausage cooked",
+        "grams": 90,
+        "calories": 270,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 23
+      },
+      {
+        "name": "toast",
+        "usda_query": "bread toast",
+        "grams": 30,
+        "calories": 80,
+        "protein_g": 3,
+        "carbs_g": 15,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 695
+  }
+}

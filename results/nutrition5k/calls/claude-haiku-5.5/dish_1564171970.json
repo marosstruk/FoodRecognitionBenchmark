@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564171970",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1b42f3c6084fc3cf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1769,
+    "reasoning_tokens": 1191,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8249,
+    "ai_credits": 0.1006525
+  },
+  "timestamp": "2026-11-25T00:20:43.679Z",
+  "raw_text": "{\"items\":[{\"name\":\"wild rice cooked\",\"usda_query\":\"rice wild cooked\",\"grams\":130,\"calories\":131,\"protein_g\":5.2,\"carbs_g\":27.7,\"fat_g\":0.4},{\"name\":\"dried cranberries\",\"usda_query\":\"cranberries dried sweetened\",\"grams\":20,\"calories\":62,\"protein_g\":0.1,\"carbs_g\":16.4,\"fat_g\":0.2},{\"name\":\"baked salmon\",\"usda_query\":\"fish salmon atlantic farmed cooked dry heat\",\"grams\":120,\"calories\":247,\"protein_g\":26.5,\"carbs_g\":0,\"fat_g\":14.9},{\"name\":\"herbed rice pilaf\",\"usda_query\":\"rice white cooked with oil\",\"grams\":100,\"calories\":150,\"protein_g\":3.0,\"carbs_g\":28.0,\"fat_g\":3.5},{\"name\":\"cucumber\",\"usda_query\":\"cucumber peeled raw\",\"grams\":40,\"calories\":6,\"protein_g\":0.3,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"red bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":30,\"calories\":9,\"protein_g\":0.3,\"carbs_g\":2.2,\"fat_g\":0.1},{\"name\":\"green onion\",\"usda_query\":\"onions spring or scallions raw\",\"grams\":15,\"calories\":5,\"protein_g\":0.4,\"carbs_g\":1.1,\"fat_g\":0.1},{\"name\":\"fresh herbs\",\"usda_query\":\"basil fresh\",\"grams\":10,\"calories\":4,\"protein_g\":0.3,\"carbs_g\":0.5,\"fat_g\":0.0}],\"total_calories\":614}",
+  "latency_ms": 9352,
+  "parsed": {
+    "items": [
+      {
+        "name": "wild rice cooked",
+        "usda_query": "rice wild cooked",
+        "grams": 130,
+        "calories": 131,
+        "protein_g": 5.2,
+        "carbs_g": 27.7,
+        "fat_g": 0.4
+      },
+      {
+        "name": "dried cranberries",
+        "usda_query": "cranberries dried sweetened",
+        "grams": 20,
+        "calories": 62,
+        "protein_g": 0.1,
+        "carbs_g": 16.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "baked salmon",
+        "usda_query": "fish salmon atlantic farmed cooked dry heat",
+        "grams": 120,
+        "calories": 247,
+        "protein_g": 26.5,
+        "carbs_g": 0,
+        "fat_g": 14.9
+      },
+      {
+        "name": "herbed rice pilaf",
+        "usda_query": "rice white cooked with oil",
+        "grams": 100,
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 3.5
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber peeled raw",
+        "grams": 40,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 30,
+        "calories": 9,
+        "protein_g": 0.3,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green onion",
+        "usda_query": "onions spring or scallions raw",
+        "grams": 15,
+        "calories": 5,
+        "protein_g": 0.4,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fresh herbs",
+        "usda_query": "basil fresh",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.3,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 614
+  }
+}

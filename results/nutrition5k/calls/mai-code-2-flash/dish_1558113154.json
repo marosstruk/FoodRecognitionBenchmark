@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558113154",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8fcdf1cc4ea31be1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 455,
+    "reasoning_tokens": 303,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6336,
+    "ai_credits": 0.015115
+  },
+  "timestamp": "2026-11-25T00:18:43.742Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"plain yogurt\",\n      \"usda_query\": \"yogurt plain\",\n      \"grams\": 180,\n      \"calories\": 110,\n      \"protein_g\": 6,\n      \"carbs_g\": 8,\n      \"fat_g\": 6\n    },\n    {\n      \"name\": \"red grapes\",\n      \"usda_query\": \"grapes red raw\",\n      \"grams\": 100,\n      \"calories\": 69,\n      \"protein_g\": 1,\n      \"carbs_g\": 18,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 179\n}",
+  "latency_ms": 7594,
+  "parsed": {
+    "items": [
+      {
+        "name": "plain yogurt",
+        "usda_query": "yogurt plain",
+        "grams": 180,
+        "calories": 110,
+        "protein_g": 6,
+        "carbs_g": 8,
+        "fat_g": 6
+      },
+      {
+        "name": "red grapes",
+        "usda_query": "grapes red raw",
+        "grams": 100,
+        "calories": 69,
+        "protein_g": 1,
+        "carbs_g": 18,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 179
+  }
+}

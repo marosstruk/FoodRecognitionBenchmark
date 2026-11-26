@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564171970",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1b42f3c6084fc3cf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1245,
+    "reasoning_tokens": 869,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13717,
+    "ai_credits": 0.06973
+  },
+  "timestamp": "2026-11-25T00:20:49.080Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked lentils\",\n      \"usda_query\": \"lentils cooked\",\n      \"grams\": 175,\n      \"calories\": 203,\n      \"protein_g\": 15.8,\n      \"carbs_g\": 35.1,\n      \"fat_g\": 0.7\n    },\n    {\n      \"name\": \"Cooked salmon\",\n      \"usda_query\": \"salmon cooked\",\n      \"grams\": 110,\n      \"calories\": 227,\n      \"protein_g\": 24.3,\n      \"carbs_g\": 0,\n      \"fat_g\": 13.6\n    },\n    {\n      \"name\": \"Cooked rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 60,\n      \"calories\": 78,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 16.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Cucumber, tomato, and onion salad\",\n      \"usda_query\": \"cucumber tomato onion salad\",\n      \"grams\": 100,\n      \"calories\": 25,\n      \"protein_g\": 1,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Leafy greens\",\n      \"usda_query\": \"lettuce raw\",\n      \"grams\": 5,\n      \"calories\": 1,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 534\n}",
+  "latency_ms": 14819,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked lentils",
+        "usda_query": "lentils cooked",
+        "grams": 175,
+        "calories": 203,
+        "protein_g": 15.8,
+        "carbs_g": 35.1,
+        "fat_g": 0.7
+      },
+      {
+        "name": "Cooked salmon",
+        "usda_query": "salmon cooked",
+        "grams": 110,
+        "calories": 227,
+        "protein_g": 24.3,
+        "carbs_g": 0,
+        "fat_g": 13.6
+      },
+      {
+        "name": "Cooked rice",
+        "usda_query": "rice white cooked",
+        "grams": 60,
+        "calories": 78,
+        "protein_g": 1.4,
+        "carbs_g": 16.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Cucumber, tomato, and onion salad",
+        "usda_query": "cucumber tomato onion salad",
+        "grams": 100,
+        "calories": 25,
+        "protein_g": 1,
+        "carbs_g": 5.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Leafy greens",
+        "usda_query": "lettuce raw",
+        "grams": 5,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 534
+  }
+}

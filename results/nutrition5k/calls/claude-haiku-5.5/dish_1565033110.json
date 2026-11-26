@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565033110",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ba9d8db445d40ec7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 526,
+    "reasoning_tokens": 371,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3089,
+    "ai_credits": 0.0385025
+  },
+  "timestamp": "2026-11-25T00:38:38.575Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli raw\",\"grams\":150,\"calories\":51,\"protein_g\":4.2,\"carbs_g\":9.9,\"fat_g\":0.6},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":80,\"calories\":12,\"protein_g\":1.1,\"carbs_g\":2.3,\"fat_g\":0.2}],\"total_calories\":63}",
+  "latency_ms": 4166,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli raw",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 4.2,
+        "carbs_g": 9.9,
+        "fat_g": 0.6
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 80,
+        "calories": 12,
+        "protein_g": 1.1,
+        "carbs_g": 2.3,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 63
+  }
+}

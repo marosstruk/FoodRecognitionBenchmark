@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562950895",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9a9171ea4971af48",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 799,
+    "reasoning_tokens": 700,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10706,
+    "ai_credits": 0.023715
+  },
+  "timestamp": "2026-11-25T00:12:21.790Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"diced fried potatoes\",\n      \"usda_query\": \"potatoes home prepared hash browns\",\n      \"grams\": 70,\n      \"calories\": 228,\n      \"protein_g\": 2.1,\n      \"carbs_g\": 23.8,\n      \"fat_g\": 14.7\n    }\n  ],\n  \"total_calories\": 228\n}",
+  "latency_ms": 11836,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced fried potatoes",
+        "usda_query": "potatoes home prepared hash browns",
+        "grams": 70,
+        "calories": 228,
+        "protein_g": 2.1,
+        "carbs_g": 23.8,
+        "fat_g": 14.7
+      }
+    ],
+    "total_calories": 228
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558724912",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3a45fc6456a79663",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 416,
+    "reasoning_tokens": 322,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7310,
+    "ai_credits": 0.01414
+  },
+  "timestamp": "2026-11-25T00:39:33.448Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"baby carrots\",\n      \"usda_query\": \"carrots baby raw\",\n      \"grams\": 150,\n      \"calories\": 62,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 14.4,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 62\n}",
+  "latency_ms": 8481,
+  "parsed": {
+    "items": [
+      {
+        "name": "baby carrots",
+        "usda_query": "carrots baby raw",
+        "grams": 150,
+        "calories": 62,
+        "protein_g": 1.4,
+        "carbs_g": 14.4,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 62
+  }
+}

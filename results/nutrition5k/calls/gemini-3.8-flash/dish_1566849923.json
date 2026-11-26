@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566849923",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6729c5a9ae692974",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 2381,
+    "reasoning_tokens": 2109,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 20865,
+    "ai_credits": 1.003425
+  },
+  "timestamp": "2026-11-25T00:36:42.720Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grape tomatoes\",\n      \"usda_query\": \"tomatoes grape raw\",\n      \"grams\": 110,\n      \"calories\": 20,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"shredded carrots\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 80,\n      \"calories\": 33,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 7.7,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"baby spinach\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 25,\n      \"calories\": 6,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 59\n}",
+  "latency_ms": 22015,
+  "parsed": {
+    "items": [
+      {
+        "name": "grape tomatoes",
+        "usda_query": "tomatoes grape raw",
+        "grams": 110,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw",
+        "grams": 80,
+        "calories": 33,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 25,
+        "calories": 6,
+        "protein_g": 0.7,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 59
+  }
+}

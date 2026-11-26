@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561749392",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd710f88de13e8ee",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 900,
+    "reasoning_tokens": 599,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10840,
+    "ai_credits": 0.05248
+  },
+  "timestamp": "2026-11-25T00:34:10.032Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked fish with skin\",\n      \"usda_query\": \"fish cooked dry heat skin on\",\n      \"grams\": 100,\n      \"calories\": 190,\n      \"protein_g\": 24,\n      \"carbs_g\": 0,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"White rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 20,\n      \"calories\": 26,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Tomato and pepper sauce\",\n      \"usda_query\": \"tomato pepper sauce cooked\",\n      \"grams\": 70,\n      \"calories\": 70,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 9,\n      \"fat_g\": 3.5\n    },\n    {\n      \"name\": \"Green pepper garnish\",\n      \"usda_query\": \"green bell pepper raw\",\n      \"grams\": 5,\n      \"calories\": 1,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 287\n}",
+  "latency_ms": 11960,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked fish with skin",
+        "usda_query": "fish cooked dry heat skin on",
+        "grams": 100,
+        "calories": 190,
+        "protein_g": 24,
+        "carbs_g": 0,
+        "fat_g": 10
+      },
+      {
+        "name": "White rice",
+        "usda_query": "rice white cooked",
+        "grams": 20,
+        "calories": 26,
+        "protein_g": 0.5,
+        "carbs_g": 5.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Tomato and pepper sauce",
+        "usda_query": "tomato pepper sauce cooked",
+        "grams": 70,
+        "calories": 70,
+        "protein_g": 1.5,
+        "carbs_g": 9,
+        "fat_g": 3.5
+      },
+      {
+        "name": "Green pepper garnish",
+        "usda_query": "green bell pepper raw",
+        "grams": 5,
+        "calories": 1,
+        "protein_g": 0,
+        "carbs_g": 0.3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 287
+  }
+}

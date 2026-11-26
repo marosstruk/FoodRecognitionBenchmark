@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561393764",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c91d9bbb9cc24395",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1415,
+    "reasoning_tokens": 1106,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18327,
+    "ai_credits": 0.039115
+  },
+  "timestamp": "2026-11-25T00:19:22.292Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked pan fried\",\n      \"grams\": 45,\n      \"calories\": 202,\n      \"protein_g\": 13.2,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 16.7\n    },\n    {\n      \"name\": \"sautéed kale\",\n      \"usda_query\": \"kale cooked boiled drained\",\n      \"grams\": 55,\n      \"calories\": 20,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 3.9,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 45,\n      \"calories\": 70,\n      \"protein_g\": 5.0,\n      \"carbs_g\": 1.0,\n      \"fat_g\": 5.2\n    },\n    {\n      \"name\": \"hash browns\",\n      \"usda_query\": \"hash browns prepared\",\n      \"grams\": 90,\n      \"calories\": 330,\n      \"protein_g\": 3.6,\n      \"carbs_g\": 40.5,\n      \"fat_g\": 16.2\n    }\n  ],\n  \"total_calories\": 622\n}",
+  "latency_ms": 19886,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked pan fried",
+        "grams": 45,
+        "calories": 202,
+        "protein_g": 13.2,
+        "carbs_g": 0.9,
+        "fat_g": 16.7
+      },
+      {
+        "name": "sautéed kale",
+        "usda_query": "kale cooked boiled drained",
+        "grams": 55,
+        "calories": 20,
+        "protein_g": 1.8,
+        "carbs_g": 3.9,
+        "fat_g": 0.5
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 45,
+        "calories": 70,
+        "protein_g": 5,
+        "carbs_g": 1,
+        "fat_g": 5.2
+      },
+      {
+        "name": "hash browns",
+        "usda_query": "hash browns prepared",
+        "grams": 90,
+        "calories": 330,
+        "protein_g": 3.6,
+        "carbs_g": 40.5,
+        "fat_g": 16.2
+      }
+    ],
+    "total_calories": 622
+  }
+}

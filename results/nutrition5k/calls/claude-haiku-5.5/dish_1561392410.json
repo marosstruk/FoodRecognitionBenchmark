@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561392410",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "64537bd283ca79cc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1044,
+    "reasoning_tokens": 827,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5619,
+    "ai_credits": 0.0644025
+  },
+  "timestamp": "2026-11-25T00:31:28.560Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":100,\"calories\":35,\"protein_g\":2.4,\"carbs_g\":7.2,\"fat_g\":0.4},{\"name\":\"meatballs\",\"usda_query\":\"meatballs beef cooked pan-fried\",\"grams\":150,\"calories\":386,\"protein_g\":30,\"carbs_g\":8,\"fat_g\":26},{\"name\":\"cheese sauce\",\"usda_query\":\"cheese sauce\",\"grams\":20,\"calories\":65,\"protein_g\":2,\"carbs_g\":3,\"fat_g\":5}],\"total_calories\":486}",
+  "latency_ms": 6744,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "meatballs",
+        "usda_query": "meatballs beef cooked pan-fried",
+        "grams": 150,
+        "calories": 386,
+        "protein_g": 30,
+        "carbs_g": 8,
+        "fat_g": 26
+      },
+      {
+        "name": "cheese sauce",
+        "usda_query": "cheese sauce",
+        "grams": 20,
+        "calories": 65,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 486
+  }
+}

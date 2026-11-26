@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565379377",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ee8019697aa3196f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 770,
+    "reasoning_tokens": 485,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9007,
+    "ai_credits": 0.3993
+  },
+  "timestamp": "2026-11-25T00:15:26.041Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"shredded pork\",\n      \"usda_query\": \"pork shoulder roasted shredded\",\n      \"grams\": 110,\n      \"calories\": 210,\n      \"protein_g\": 26.2,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 11.1\n    },\n    {\n      \"name\": \"caesar salad with dressing\",\n      \"usda_query\": \"caesar salad with dressing\",\n      \"grams\": 110,\n      \"calories\": 160,\n      \"protein_g\": 3.2,\n      \"carbs_g\": 4.8,\n      \"fat_g\": 14.7\n    },\n    {\n      \"name\": \"roasted carrots\",\n      \"usda_query\": \"carrots cooked with oil\",\n      \"grams\": 85,\n      \"calories\": 45,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 8.2,\n      \"fat_g\": 1.5\n    }\n  ],\n  \"total_calories\": 415\n}",
+  "latency_ms": 9838,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded pork",
+        "usda_query": "pork shoulder roasted shredded",
+        "grams": 110,
+        "calories": 210,
+        "protein_g": 26.2,
+        "carbs_g": 0.8,
+        "fat_g": 11.1
+      },
+      {
+        "name": "caesar salad with dressing",
+        "usda_query": "caesar salad with dressing",
+        "grams": 110,
+        "calories": 160,
+        "protein_g": 3.2,
+        "carbs_g": 4.8,
+        "fat_g": 14.7
+      },
+      {
+        "name": "roasted carrots",
+        "usda_query": "carrots cooked with oil",
+        "grams": 85,
+        "calories": 45,
+        "protein_g": 0.9,
+        "carbs_g": 8.2,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 415
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560888849",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "449de1e0794f5961",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1184,
+    "reasoning_tokens": 877,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6002,
+    "ai_credits": 0.0714025
+  },
+  "timestamp": "2026-11-25T00:37:26.673Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted chicken breast\",\"usda_query\":\"chicken breast roasted skinless\",\"grams\":130,\"calories\":215,\"protein_g\":40.0,\"carbs_g\":0,\"fat_g\":4.7},{\"name\":\"cooked brown lentils\",\"usda_query\":\"lentils mature seeds cooked boiled\",\"grams\":25,\"calories\":29,\"protein_g\":2.3,\"carbs_g\":5.0,\"fat_g\":0.1},{\"name\":\"roasted potato wedges\",\"usda_query\":\"potatoes roasted in oil flesh and skin\",\"grams\":140,\"calories\":196,\"protein_g\":3.0,\"carbs_g\":30.0,\"fat_g\":6.0},{\"name\":\"pecans\",\"usda_query\":\"pecans dried\",\"grams\":15,\"calories\":104,\"protein_g\":1.4,\"carbs_g\":2.1,\"fat_g\":10.8}],\"total_calories\":544}",
+  "latency_ms": 7148,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted chicken breast",
+        "usda_query": "chicken breast roasted skinless",
+        "grams": 130,
+        "calories": 215,
+        "protein_g": 40,
+        "carbs_g": 0,
+        "fat_g": 4.7
+      },
+      {
+        "name": "cooked brown lentils",
+        "usda_query": "lentils mature seeds cooked boiled",
+        "grams": 25,
+        "calories": 29,
+        "protein_g": 2.3,
+        "carbs_g": 5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "potatoes roasted in oil flesh and skin",
+        "grams": 140,
+        "calories": 196,
+        "protein_g": 3,
+        "carbs_g": 30,
+        "fat_g": 6
+      },
+      {
+        "name": "pecans",
+        "usda_query": "pecans dried",
+        "grams": 15,
+        "calories": 104,
+        "protein_g": 1.4,
+        "carbs_g": 2.1,
+        "fat_g": 10.8
+      }
+    ],
+    "total_calories": 544
+  }
+}

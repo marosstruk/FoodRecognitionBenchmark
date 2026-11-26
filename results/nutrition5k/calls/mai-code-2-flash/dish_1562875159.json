@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562875159",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "228acd283e437907",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 852,
+    "reasoning_tokens": 789,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11012,
+    "ai_credits": 0.02504
+  },
+  "timestamp": "2026-11-25T00:17:27.388Z",
+  "raw_text": "{\"items\":[{\"name\":\"glazed fried chicken\",\"usda_query\":\"chicken boneless breaded fried with sauce\",\"grams\":190,\"calories\":480,\"protein_g\":28,\"carbs_g\":30,\"fat_g\":25}],\"total_calories\":480}",
+  "latency_ms": 12551,
+  "parsed": {
+    "items": [
+      {
+        "name": "glazed fried chicken",
+        "usda_query": "chicken boneless breaded fried with sauce",
+        "grams": 190,
+        "calories": 480,
+        "protein_g": 28,
+        "carbs_g": 30,
+        "fat_g": 25
+      }
+    ],
+    "total_calories": 480
+  }
+}

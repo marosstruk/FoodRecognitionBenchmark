@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564516429",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "55fb8c9695cd0143",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 933,
+    "reasoning_tokens": 586,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9125,
+    "ai_credits": 0.05413
+  },
+  "timestamp": "2026-11-25T00:36:12.381Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked white fish\",\n      \"usda_query\": \"cod cooked\",\n      \"grams\": 110,\n      \"calories\": 116,\n      \"protein_g\": 25,\n      \"carbs_g\": 0,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"Herb pesto sauce\",\n      \"usda_query\": \"pesto sauce\",\n      \"grams\": 18,\n      \"calories\": 82,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 8\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 70,\n      \"calories\": 13,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Black olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 35,\n      \"calories\": 41,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Green olive\",\n      \"usda_query\": \"olives green pickled\",\n      \"grams\": 12,\n      \"calories\": 17,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 2\n    }\n  ],\n  \"total_calories\": 269\n}",
+  "latency_ms": 10253,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked white fish",
+        "usda_query": "cod cooked",
+        "grams": 110,
+        "calories": 116,
+        "protein_g": 25,
+        "carbs_g": 0,
+        "fat_g": 1
+      },
+      {
+        "name": "Herb pesto sauce",
+        "usda_query": "pesto sauce",
+        "grams": 18,
+        "calories": 82,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 8
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 70,
+        "calories": 13,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "Black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 35,
+        "calories": 41,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 4
+      },
+      {
+        "name": "Green olive",
+        "usda_query": "olives green pickled",
+        "grams": 12,
+        "calories": 17,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 269
+  }
+}

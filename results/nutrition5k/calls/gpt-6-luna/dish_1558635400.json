@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558635400",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "878204d44e3c5827",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 280,
+    "reasoning_tokens": 184,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4683,
+    "ai_credits": 0.02148
+  },
+  "timestamp": "2026-11-25T00:21:41.420Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"steamed cauliflower\",\n      \"usda_query\": \"cauliflower cooked boiled drained\",\n      \"grams\": 150,\n      \"calories\": 35,\n      \"protein_g\": 2.7,\n      \"carbs_g\": 7.5,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 35\n}",
+  "latency_ms": 5782,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower cooked boiled drained",
+        "grams": 150,
+        "calories": 35,
+        "protein_g": 2.7,
+        "carbs_g": 7.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 35
+  }
+}

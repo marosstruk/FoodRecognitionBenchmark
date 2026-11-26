@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559674074",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5c053eacf40f1845",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 754,
+    "reasoning_tokens": 451,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7678,
+    "ai_credits": 0.04518
+  },
+  "timestamp": "2026-11-25T00:23:36.084Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pizza crust\",\n      \"usda_query\": \"pizza crust baked\",\n      \"grams\": 50,\n      \"calories\": 133,\n      \"protein_g\": 4.4,\n      \"carbs_g\": 25,\n      \"fat_g\": 1.6\n    },\n    {\n      \"name\": \"tomato pizza sauce\",\n      \"usda_query\": \"pizza sauce\",\n      \"grams\": 8,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"mozzarella cheese\",\n      \"usda_query\": \"mozzarella cheese whole milk\",\n      \"grams\": 18,\n      \"calories\": 50,\n      \"protein_g\": 4.5,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 3.8\n    },\n    {\n      \"name\": \"pepperoni\",\n      \"usda_query\": \"pepperoni\",\n      \"grams\": 12,\n      \"calories\": 61,\n      \"protein_g\": 2.6,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 5.4\n    }\n  ],\n  \"total_calories\": 248\n}",
+  "latency_ms": 8776,
+  "parsed": {
+    "items": [
+      {
+        "name": "pizza crust",
+        "usda_query": "pizza crust baked",
+        "grams": 50,
+        "calories": 133,
+        "protein_g": 4.4,
+        "carbs_g": 25,
+        "fat_g": 1.6
+      },
+      {
+        "name": "tomato pizza sauce",
+        "usda_query": "pizza sauce",
+        "grams": 8,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.8,
+        "fat_g": 0
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese whole milk",
+        "grams": 18,
+        "calories": 50,
+        "protein_g": 4.5,
+        "carbs_g": 0.5,
+        "fat_g": 3.8
+      },
+      {
+        "name": "pepperoni",
+        "usda_query": "pepperoni",
+        "grams": 12,
+        "calories": 61,
+        "protein_g": 2.6,
+        "carbs_g": 0.2,
+        "fat_g": 5.4
+      }
+    ],
+    "total_calories": 248
+  }
+}

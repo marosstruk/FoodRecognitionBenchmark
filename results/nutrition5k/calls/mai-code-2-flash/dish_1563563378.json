@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563563378",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c5789302e753b64e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1313,
+    "reasoning_tokens": 983,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14245,
+    "ai_credits": 0.036565
+  },
+  "timestamp": "2026-11-25T00:18:57.130Z",
+  "raw_text": "{\"items\":[{\"name\":\"red onion\",\"usda_query\":\"onion red raw\",\"grams\":70,\"calories\":28,\"protein_g\":0.8,\"carbs_g\":6.5,\"fat_g\":0.1},{\"name\":\"red bell pepper\",\"usda_query\":\"bell pepper red raw\",\"grams\":55,\"calories\":17,\"protein_g\":1.1,\"carbs_g\":3.3,\"fat_g\":0.2},{\"name\":\"green bell pepper\",\"usda_query\":\"bell pepper green raw\",\"grams\":45,\"calories\":14,\"protein_g\":0.8,\"csarbs_g\":2.7,\"fat_g\":0.1},{\"name\":\"yellow bell pepper\",\"usda_query\":\"bell pepper yellow raw\",\"grams\":40,\"calories\":12,\"protein_g\":1.1,\"carbs_g\":2.5,\"fat_g\":0.2},{\"name\":\"tomato\",\"usda_query\":\"tomatoes red raw\",\"grams\":50,\"calories\":9,\"protein_g\":0.8,\"carbs_g\":2.0,\"fat_g\":0.1},{\"name\":\"zucchini\",\"usda_query\":\"zucchini squash raw\",\"grams\":40,\"calories\":7,\"protein_g\":1.1,\"carbs_g\":1.1,\"fat_g\":0.1},{\"name\":\"olive oil\",\"usda_query\":\"oil olive\",\"grams\":10,\"calories\":88,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":10}],\"total_calories\":175}",
+  "latency_ms": 15808,
+  "parsed": {
+    "items": [
+      {
+        "name": "red onion",
+        "usda_query": "onion red raw",
+        "grams": 70,
+        "calories": 28,
+        "protein_g": 0.8,
+        "carbs_g": 6.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red raw",
+        "grams": 55,
+        "calories": 17,
+        "protein_g": 1.1,
+        "carbs_g": 3.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "bell pepper green raw",
+        "grams": 45,
+        "calories": 14,
+        "protein_g": 0.8,
+        "carbs_g": null,
+        "fat_g": 0.1
+      },
+      {
+        "name": "yellow bell pepper",
+        "usda_query": "bell pepper yellow raw",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 1.1,
+        "carbs_g": 2.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0.8,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "zucchini",
+        "usda_query": "zucchini squash raw",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 1.1,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "olive oil",
+        "usda_query": "oil olive",
+        "grams": 10,
+        "calories": 88,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 175
+  }
+}

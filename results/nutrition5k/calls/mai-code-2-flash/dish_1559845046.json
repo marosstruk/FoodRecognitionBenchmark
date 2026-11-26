@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559845046",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "80d461a80a139e42",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 657,
+    "reasoning_tokens": 424,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7343,
+    "ai_credits": 0.020165
+  },
+  "timestamp": "2026-11-25T00:09:22.013Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potato wedges\",\"usda_query\":\"potato roasted with oil\",\"grams\":220,\"calories\":286,\"protein_g\":5,\"carbs_g\":37,\"fat_g\":13},{\"name\":\"grilled sausage pieces\",\"usda_query\":\"pork sausage cooked\",\"grams\":170,\"calories\":510,\"protein_g\":23,\"carbs_g\":4,\"fat_g\":44},{\"name\":\"broccoli\",\"usda_query\":\"broccoli steamed\",\"grams\":80,\"calories\":28,\"protein_g\":2.4,\"carbs_g\":5.6,\"fat_g\":0.4},{\"name\":\"green beans\",\"usda_query\":\"green beans cooked\",\"grams\":60,\"calories\":24,\"protein_g\":1.4,\"carbs_g\":5.4,\"fat_g\":0.2},{\"name\":\"tomato\",\"usda_query\":\"tomatoes red raw\",\"grams\":100,\"calories\":18,\"protein_g\":0.9,\"carbs_g\":3.9,\"fat_g\":0.2}],\"total_calories\":866}",
+  "latency_ms": 8218,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "potato roasted with oil",
+        "grams": 220,
+        "calories": 286,
+        "protein_g": 5,
+        "carbs_g": 37,
+        "fat_g": 13
+      },
+      {
+        "name": "grilled sausage pieces",
+        "usda_query": "pork sausage cooked",
+        "grams": 170,
+        "calories": 510,
+        "protein_g": 23,
+        "carbs_g": 4,
+        "fat_g": 44
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli steamed",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2.4,
+        "carbs_g": 5.6,
+        "fat_g": 0.4
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 60,
+        "calories": 24,
+        "protein_g": 1.4,
+        "carbs_g": 5.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 100,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 866
+  }
+}

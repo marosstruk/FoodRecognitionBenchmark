@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560453294",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ce95b061a4166856",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 976,
+    "reasoning_tokens": 655,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5123,
+    "ai_credits": 0.0610025
+  },
+  "timestamp": "2026-11-25T00:38:35.880Z",
+  "raw_text": "{\"items\":[{\"name\":\"kimchi (napa cabbage)\",\"usda_query\":\"kimchi napa cabbage\",\"grams\":80,\"calories\":20,\"protein_g\":1.5,\"carbs_g\":3.5,\"fat_g\":0.4},{\"name\":\"grilled white fish fillet\",\"usda_query\":\"fish cod atlantic cooked dry heat\",\"grams\":70,\"calories\":74,\"protein_g\":16,\"carbs_g\":0,\"fat_g\":1},{\"name\":\"grilled zucchini\",\"usda_query\":\"squash summer zucchini includes skin cooked grilled\",\"grams\":15,\"calories\":3,\"protein_g\":0.2,\"carbs_g\":0.7,\"fat_g\":0.1},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":20,\"calories\":4,\"protein_g\":0.2,\"carbs_g\":0.8,\"fat_g\":0.1}],\"total_calories\":101}",
+  "latency_ms": 6236,
+  "parsed": {
+    "items": [
+      {
+        "name": "kimchi (napa cabbage)",
+        "usda_query": "kimchi napa cabbage",
+        "grams": 80,
+        "calories": 20,
+        "protein_g": 1.5,
+        "carbs_g": 3.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "grilled white fish fillet",
+        "usda_query": "fish cod atlantic cooked dry heat",
+        "grams": 70,
+        "calories": 74,
+        "protein_g": 16,
+        "carbs_g": 0,
+        "fat_g": 1
+      },
+      {
+        "name": "grilled zucchini",
+        "usda_query": "squash summer zucchini includes skin cooked grilled",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 20,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 101
+  }
+}

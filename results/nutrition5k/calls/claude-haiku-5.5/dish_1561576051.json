@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561576051",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3131372c79beafb2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1722,
+    "reasoning_tokens": 1207,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8121,
+    "ai_credits": 0.0983025
+  },
+  "timestamp": "2026-11-25T00:36:48.283Z",
+  "raw_text": "{\"items\":[{\"name\":\"Kalamata olives\",\"usda_query\":\"olives ripe canned in brine\",\"grams\":40,\"calories\":58,\"protein_g\":0,\"carbs_g\":3,\"fat_g\":5},{\"name\":\"Baked pasta gratin with tomato and cheese\",\"usda_query\":\"lasagna with meat cooked\",\"grams\":150,\"calories\":300,\"protein_g\":12,\"carbs_g\":25,\"fat_g\":16},{\"name\":\"Brown rice pilaf\",\"usda_query\":\"rice brown long-grain cooked with butter\",\"grams\":150,\"calories\":170,\"protein_g\":4,\"carbs_g\":36,\"fat_g\":3},{\"name\":\"Roasted potatoes\",\"usda_query\":\"potatoes roasted with oil\",\"grams\":150,\"calories\":195,\"protein_g\":3,\"carbs_g\":28,\"fat_g\":8},{\"name\":\"Grilled chicken breast\",\"usda_query\":\"chicken breast meat only cooked roasted\",\"grams\":100,\"calories\":165,\"protein_g\":31,\"carbs_g\":0,\"fat_g\":4},{\"name\":\"Hard yellow cheese\",\"usda_query\":\"cheese hard grana or kefalotyri\",\"grams\":35,\"calories\":122,\"protein_g\":8,\"carbs_g\":0,\"fat_g\":10},{\"name\":\"Sauteed leafy greens\",\"usda_query\":\"spinach cooked boiled drained with oil\",\"grams\":50,\"calories\":35,\"protein_g\":2,\"carbs_g\":2,\"fat_g\":3}],\"total_calories\":1045}",
+  "latency_ms": 9237,
+  "parsed": {
+    "items": [
+      {
+        "name": "Kalamata olives",
+        "usda_query": "olives ripe canned in brine",
+        "grams": 40,
+        "calories": 58,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 5
+      },
+      {
+        "name": "Baked pasta gratin with tomato and cheese",
+        "usda_query": "lasagna with meat cooked",
+        "grams": 150,
+        "calories": 300,
+        "protein_g": 12,
+        "carbs_g": 25,
+        "fat_g": 16
+      },
+      {
+        "name": "Brown rice pilaf",
+        "usda_query": "rice brown long-grain cooked with butter",
+        "grams": 150,
+        "calories": 170,
+        "protein_g": 4,
+        "carbs_g": 36,
+        "fat_g": 3
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 150,
+        "calories": 195,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 8
+      },
+      {
+        "name": "Grilled chicken breast",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "Hard yellow cheese",
+        "usda_query": "cheese hard grana or kefalotyri",
+        "grams": 35,
+        "calories": 122,
+        "protein_g": 8,
+        "carbs_g": 0,
+        "fat_g": 10
+      },
+      {
+        "name": "Sauteed leafy greens",
+        "usda_query": "spinach cooked boiled drained with oil",
+        "grams": 50,
+        "calories": 35,
+        "protein_g": 2,
+        "carbs_g": 2,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 1045
+  }
+}

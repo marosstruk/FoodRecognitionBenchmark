@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558724633",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d41beaf4f84c6347",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 487,
+    "reasoning_tokens": 423,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7409,
+    "ai_credits": 0.015915
+  },
+  "timestamp": "2026-11-25T00:29:09.565Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked steamed\",\"grams\":180,\"calories\":62,\"protein_g\":5.0,\"carbs_g\":12.1,\"fat_g\":0.7}],\"total_calories\":62}",
+  "latency_ms": 8262,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 180,
+        "calories": 62,
+        "protein_g": 5,
+        "carbs_g": 12.1,
+        "fat_g": 0.7
+      }
+    ],
+    "total_calories": 62
+  }
+}

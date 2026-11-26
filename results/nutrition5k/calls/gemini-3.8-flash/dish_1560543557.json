@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560543557",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "05402c672e1d382d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1021,
+    "reasoning_tokens": 651,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10546,
+    "ai_credits": 0.493425
+  },
+  "timestamp": "2026-11-25T00:14:42.579Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Caesar salad with dressing\",\n      \"usda_query\": \"Caesar salad with romaine, croutons and dressing\",\n      \"grams\": 90,\n      \"calories\": 130,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 11.0\n    },\n    {\n      \"name\": \"cooked brown rice\",\n      \"usda_query\": \"cooked brown rice\",\n      \"grams\": 55,\n      \"calories\": 65,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 14.0,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"grape tomatoes\",\n      \"usda_query\": \"grape tomatoes raw\",\n      \"grams\": 65,\n      \"calories\": 12,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"kalamata olives\",\n      \"usda_query\": \"kalamata olives\",\n      \"grams\": 25,\n      \"calories\": 38,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 3.8\n    }\n  ],\n  \"total_calories\": 245\n}",
+  "latency_ms": 11657,
+  "parsed": {
+    "items": [
+      {
+        "name": "Caesar salad with dressing",
+        "usda_query": "Caesar salad with romaine, croutons and dressing",
+        "grams": 90,
+        "calories": 130,
+        "protein_g": 2.5,
+        "carbs_g": 5.5,
+        "fat_g": 11
+      },
+      {
+        "name": "cooked brown rice",
+        "usda_query": "cooked brown rice",
+        "grams": 55,
+        "calories": 65,
+        "protein_g": 1.4,
+        "carbs_g": 14,
+        "fat_g": 0.5
+      },
+      {
+        "name": "grape tomatoes",
+        "usda_query": "grape tomatoes raw",
+        "grams": 65,
+        "calories": 12,
+        "protein_g": 0.6,
+        "carbs_g": 2.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "kalamata olives",
+        "usda_query": "kalamata olives",
+        "grams": 25,
+        "calories": 38,
+        "protein_g": 0.3,
+        "carbs_g": 1.4,
+        "fat_g": 3.8
+      }
+    ],
+    "total_calories": 245
+  }
+}

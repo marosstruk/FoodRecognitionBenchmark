@@ -1,0 +1,108 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565726949",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1d134baf462dbc2d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1499,
+    "reasoning_tokens": 872,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9935,
+    "ai_credits": 0.08243
+  },
+  "timestamp": "2026-11-25T00:12:03.601Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted pork\",\n      \"usda_query\": \"pork tenderloin roasted\",\n      \"grams\": 140,\n      \"calories\": 290,\n      \"protein_g\": 38,\n      \"carbs_g\": 0,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 140,\n      \"calories\": 220,\n      \"protein_g\": 4,\n      \"carbs_g\": 32,\n      \"fat_g\": 8\n    },\n    {\n      \"name\": \"arugula\",\n      \"usda_query\": \"arugula raw\",\n      \"grams\": 50,\n      \"calories\": 13,\n      \"protein_g\": 1.3,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 40,\n      \"calories\": 10,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"red bell pepper raw\",\n      \"grams\": 10,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"oil dressing\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 5,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"pine nuts\",\n      \"usda_query\": \"pine nuts\",\n      \"grams\": 5,\n      \"calories\": 34,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 3.4\n    },\n    {\n      \"name\": \"garlic\",\n      \"usda_query\": \"garlic raw\",\n      \"grams\": 3,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 654\n}",
+  "latency_ms": 10837,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted pork",
+        "usda_query": "pork tenderloin roasted",
+        "grams": 140,
+        "calories": 290,
+        "protein_g": 38,
+        "carbs_g": 0,
+        "fat_g": 15
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 140,
+        "calories": 220,
+        "protein_g": 4,
+        "carbs_g": 32,
+        "fat_g": 8
+      },
+      {
+        "name": "arugula",
+        "usda_query": "arugula raw",
+        "grams": 50,
+        "calories": 13,
+        "protein_g": 1.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.4
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 40,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "red bell pepper raw",
+        "grams": 10,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "oil dressing",
+        "usda_query": "olive oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "pine nuts",
+        "usda_query": "pine nuts",
+        "grams": 5,
+        "calories": 34,
+        "protein_g": 0.7,
+        "carbs_g": 0.7,
+        "fat_g": 3.4
+      },
+      {
+        "name": "garlic",
+        "usda_query": "garlic raw",
+        "grams": 3,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 654
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1574097587",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "07f85d7fcc447511",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 903,
+    "reasoning_tokens": 615,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11158,
+    "ai_credits": 0.449175
+  },
+  "timestamp": "2026-11-25T00:25:53.511Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"crispy bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 24,\n      \"calories\": 130,\n      \"protein_g\": 9.0,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 10.1\n    },\n    {\n      \"name\": \"hash browns\",\n      \"usda_query\": \"potatoes hash brown prepared with oil\",\n      \"grams\": 110,\n      \"calories\": 210,\n      \"protein_g\": 2.6,\n      \"carbs_g\": 26.5,\n      \"fat_g\": 11.2\n    },\n    {\n      \"name\": \"salsa and pico de gallo\",\n      \"usda_query\": \"salsa verde\",\n      \"grams\": 30,\n      \"calories\": 10,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 350\n}",
+  "latency_ms": 12350,
+  "parsed": {
+    "items": [
+      {
+        "name": "crispy bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 24,
+        "calories": 130,
+        "protein_g": 9,
+        "carbs_g": 0.3,
+        "fat_g": 10.1
+      },
+      {
+        "name": "hash browns",
+        "usda_query": "potatoes hash brown prepared with oil",
+        "grams": 110,
+        "calories": 210,
+        "protein_g": 2.6,
+        "carbs_g": 26.5,
+        "fat_g": 11.2
+      },
+      {
+        "name": "salsa and pico de gallo",
+        "usda_query": "salsa verde",
+        "grams": 30,
+        "calories": 10,
+        "protein_g": 0.4,
+        "carbs_g": 2.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 350
+  }
+}

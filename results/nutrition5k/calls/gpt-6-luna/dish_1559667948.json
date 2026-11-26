@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559667948",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "317e1044caa03225",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 456,
+    "reasoning_tokens": 350,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8047,
+    "ai_credits": 0.03028
+  },
+  "timestamp": "2026-11-25T00:26:36.724Z",
+  "raw_text": "{\"items\":[{\"name\":\"multigrain bagel\",\"usda_query\":\"bagel multigrain\",\"grams\":85,\"calories\":234,\"protein_g\":8.5,\"carbs_g\":46,\"fat_g\":3},{\"name\":\"cream cheese\",\"usda_query\":\"cream cheese regular\",\"grams\":20,\"calories\":68,\"protein_g\":1.2,\"carbs_g\":0.8,\"fat_g\":6.8}],\"total_calories\":302}",
+  "latency_ms": 8885,
+  "parsed": {
+    "items": [
+      {
+        "name": "multigrain bagel",
+        "usda_query": "bagel multigrain",
+        "grams": 85,
+        "calories": 234,
+        "protein_g": 8.5,
+        "carbs_g": 46,
+        "fat_g": 3
+      },
+      {
+        "name": "cream cheese",
+        "usda_query": "cream cheese regular",
+        "grams": 20,
+        "calories": 68,
+        "protein_g": 1.2,
+        "carbs_g": 0.8,
+        "fat_g": 6.8
+      }
+    ],
+    "total_calories": 302
+  }
+}

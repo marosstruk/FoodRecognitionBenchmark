@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565107143",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "64d8240ed4d3b9dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1039,
+    "reasoning_tokens": 743,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5669,
+    "ai_credits": 0.0641525
+  },
+  "timestamp": "2026-11-25T00:33:39.824Z",
+  "raw_text": "{\"items\":[{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":200,\"calories\":60,\"protein_g\":1.2,\"carbs_g\":15.2,\"fat_g\":0.4},{\"name\":\"pan-fried potatoes\",\"usda_query\":\"potatoes home fried in oil\",\"grams\":120,\"calories\":170,\"protein_g\":2.5,\"carbs_g\":22,\"fat_g\":8},{\"name\":\"mashed sweet potato\",\"usda_query\":\"sweet potato cooked mashed without added fat\",\"grams\":90,\"calories\":80,\"protein_g\":1.5,\"carbs_g\":18,\"fat_g\":0.3},{\"name\":\"fresh white cheese\",\"usda_query\":\"cheese fresh unflavored chunks\",\"grams\":150,\"calories\":220,\"protein_g\":18,\"carbs_g\":4,\"fat_g\":15}],\"total_calories\":530}",
+  "latency_ms": 6804,
+  "parsed": {
+    "items": [
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 200,
+        "calories": 60,
+        "protein_g": 1.2,
+        "carbs_g": 15.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "pan-fried potatoes",
+        "usda_query": "potatoes home fried in oil",
+        "grams": 120,
+        "calories": 170,
+        "protein_g": 2.5,
+        "carbs_g": 22,
+        "fat_g": 8
+      },
+      {
+        "name": "mashed sweet potato",
+        "usda_query": "sweet potato cooked mashed without added fat",
+        "grams": 90,
+        "calories": 80,
+        "protein_g": 1.5,
+        "carbs_g": 18,
+        "fat_g": 0.3
+      },
+      {
+        "name": "fresh white cheese",
+        "usda_query": "cheese fresh unflavored chunks",
+        "grams": 150,
+        "calories": 220,
+        "protein_g": 18,
+        "carbs_g": 4,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 530
+  }
+}

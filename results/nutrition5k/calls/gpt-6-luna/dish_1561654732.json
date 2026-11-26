@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561654732",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2d63915a08f934ec",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1126,
+    "reasoning_tokens": 971,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12809,
+    "ai_credits": 0.06378
+  },
+  "timestamp": "2026-11-25T00:31:19.011Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled cooked\",\n      \"grams\": 210,\n      \"calories\": 305,\n      \"protein_g\": 20,\n      \"carbs_g\": 2,\n      \"fat_g\": 23\n    },\n    {\n      \"name\": \"Fried chicken pieces\",\n      \"usda_query\": \"chicken meat fried\",\n      \"grams\": 100,\n      \"calories\": 270,\n      \"protein_g\": 25,\n      \"carbs_g\": 8,\n      \"fat_g\": 15\n    }\n  ],\n  \"total_calories\": 575\n}",
+  "latency_ms": 13908,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled cooked",
+        "grams": 210,
+        "calories": 305,
+        "protein_g": 20,
+        "carbs_g": 2,
+        "fat_g": 23
+      },
+      {
+        "name": "Fried chicken pieces",
+        "usda_query": "chicken meat fried",
+        "grams": 100,
+        "calories": 270,
+        "protein_g": 25,
+        "carbs_g": 8,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 575
+  }
+}

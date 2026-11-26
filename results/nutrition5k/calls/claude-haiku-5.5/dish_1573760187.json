@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573760187",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e2ac20ff5f03b095",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 807,
+    "reasoning_tokens": 519,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3795,
+    "ai_credits": 0.0525525
+  },
+  "timestamp": "2026-11-25T00:22:36.646Z",
+  "raw_text": "{\"items\":[{\"name\":\"mashed potatoes\",\"usda_query\":\"potatoes mashed prepared with whole milk and butter\",\"grams\":180,\"calories\":203,\"protein_g\":3.5,\"carbs_g\":17,\"fat_g\":7},{\"name\":\"braised beef\",\"usda_query\":\"beef chuck roast braised\",\"grams\":100,\"calories\":250,\"protein_g\":26,\"carbs_g\":0,\"fat_g\":15},{\"name\":\"brown gravy\",\"usda_query\":\"gravy beef brown canned\",\"grams\":50,\"calories\":30,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":1.5},{\"name\":\"broccolini\",\"usda_query\":\"broccoli raab cooked boiled drained\",\"grams\":100,\"calories\":35,\"protein_g\":3,\"carbs_g\":7,\"fat_g\":0.4}],\"total_calories\":518}",
+  "latency_ms": 5356,
+  "parsed": {
+    "items": [
+      {
+        "name": "mashed potatoes",
+        "usda_query": "potatoes mashed prepared with whole milk and butter",
+        "grams": 180,
+        "calories": 203,
+        "protein_g": 3.5,
+        "carbs_g": 17,
+        "fat_g": 7
+      },
+      {
+        "name": "braised beef",
+        "usda_query": "beef chuck roast braised",
+        "grams": 100,
+        "calories": 250,
+        "protein_g": 26,
+        "carbs_g": 0,
+        "fat_g": 15
+      },
+      {
+        "name": "brown gravy",
+        "usda_query": "gravy beef brown canned",
+        "grams": 50,
+        "calories": 30,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 1.5
+      },
+      {
+        "name": "broccolini",
+        "usda_query": "broccoli raab cooked boiled drained",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 3,
+        "carbs_g": 7,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 518
+  }
+}

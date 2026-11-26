@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568314857",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9b690105db665da3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1117,
+    "reasoning_tokens": 738,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6040,
+    "ai_credits": 0.0680525
+  },
+  "timestamp": "2026-11-25T00:16:36.678Z",
+  "raw_text": "{\"items\":[{\"name\":\"beef steak strips\",\"usda_query\":\"beef top sirloin steak pan-broiled lean and fat cooked\",\"grams\":110,\"calories\":230,\"protein_g\":30,\"carbs_g\":0,\"fat_g\":12},{\"name\":\"green bell pepper strip\",\"usda_query\":\"peppers sweet green raw\",\"grams\":15,\"calories\":3,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":0},{\"name\":\"grilled zucchini slices\",\"usda_query\":\"squash summer zucchini includes skin cooked grilled\",\"grams\":130,\"calories\":45,\"protein_g\":1.5,\"carbs_g\":4,\"fat_g\":3.5},{\"name\":\"sauteed garlic and onion\",\"usda_query\":\"onions raw and garlic sauteed\",\"grams\":15,\"calories\":20,\"protein_g\":0.5,\"carbs_g\":4,\"fat_g\":1},{\"name\":\"cooking oil\",\"usda_query\":\"oil olive salad or cooking\",\"grams\":5,\"calories\":40,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":4.5}],\"total_calories\":338}",
+  "latency_ms": 7121,
+  "parsed": {
+    "items": [
+      {
+        "name": "beef steak strips",
+        "usda_query": "beef top sirloin steak pan-broiled lean and fat cooked",
+        "grams": 110,
+        "calories": 230,
+        "protein_g": 30,
+        "carbs_g": 0,
+        "fat_g": 12
+      },
+      {
+        "name": "green bell pepper strip",
+        "usda_query": "peppers sweet green raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "grilled zucchini slices",
+        "usda_query": "squash summer zucchini includes skin cooked grilled",
+        "grams": 130,
+        "calories": 45,
+        "protein_g": 1.5,
+        "carbs_g": 4,
+        "fat_g": 3.5
+      },
+      {
+        "name": "sauteed garlic and onion",
+        "usda_query": "onions raw and garlic sauteed",
+        "grams": 15,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 4,
+        "fat_g": 1
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "oil olive salad or cooking",
+        "grams": 5,
+        "calories": 40,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 4.5
+      }
+    ],
+    "total_calories": 338
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565034281",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e540cbfe88ccb118",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 572,
+    "reasoning_tokens": 343,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7542,
+    "ai_credits": 0.03608
+  },
+  "timestamp": "2026-11-25T00:13:00.654Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 145,\n      \"calories\": 34,\n      \"protein_g\": 2.7,\n      \"carbs_g\": 6.1,\n      \"fat_g\": 0.6\n    },\n    {\n      \"name\": \"cooked eggplant\",\n      \"usda_query\": \"eggplant cooked\",\n      \"grams\": 90,\n      \"calories\": 32,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 7.4,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 5,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 111\n}",
+  "latency_ms": 8450,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 145,
+        "calories": 34,
+        "protein_g": 2.7,
+        "carbs_g": 6.1,
+        "fat_g": 0.6
+      },
+      {
+        "name": "cooked eggplant",
+        "usda_query": "eggplant cooked",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 0.8,
+        "carbs_g": 7.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 111
+  }
+}

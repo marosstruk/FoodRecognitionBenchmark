@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565204891",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c10ac725e604ef0a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1525,
+    "reasoning_tokens": 1032,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6795,
+    "ai_credits": 0.0884525
+  },
+  "timestamp": "2026-11-25T00:31:18.837Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted Brussels sprouts\",\"usda_query\":\"brussels sprouts cooked boiled drained\",\"grams\":110,\"calories\":60,\"protein_g\":4,\"carbs_g\":11.5,\"fat_g\":2},{\"name\":\"sauteed yellow summer squash\",\"usda_query\":\"squash summer zucchini yellow cooked sauteed\",\"grams\":60,\"calories\":15,\"protein_g\":1,\"carbs_g\":2.5,\"fat_g\":0.5},{\"name\":\"chicken breast\",\"usda_query\":\"chicken breast meat only cooked roasted\",\"grams\":110,\"calories\":180,\"protein_g\":34,\"carbs_g\":0,\"fat_g\":4},{\"name\":\"soy-based glaze\",\"usda_query\":\"teriyaki sauce\",\"grams\":20,\"calories\":25,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":0.3},{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":120,\"calories\":156,\"protein_g\":2.9,\"carbs_g\":34,\"fat_g\":0.3},{\"name\":\"radish\",\"usda_query\":\"radishes raw\",\"grams\":10,\"calories\":2,\"protein_g\":0.1,\"carbs_g\":0.4,\"fat_g\":0},{\"name\":\"leafy greens\",\"usda_query\":\"kale raw\",\"grams\":5,\"calories\":1,\"protein_g\":0.1,\"carbs_g\":0.2,\"fat_g\":0}],\"total_calories\":439}",
+  "latency_ms": 7675,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled drained",
+        "grams": 110,
+        "calories": 60,
+        "protein_g": 4,
+        "carbs_g": 11.5,
+        "fat_g": 2
+      },
+      {
+        "name": "sauteed yellow summer squash",
+        "usda_query": "squash summer zucchini yellow cooked sauteed",
+        "grams": 60,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 2.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "chicken breast",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 110,
+        "calories": 180,
+        "protein_g": 34,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "soy-based glaze",
+        "usda_query": "teriyaki sauce",
+        "grams": 20,
+        "calories": 25,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 120,
+        "calories": 156,
+        "protein_g": 2.9,
+        "carbs_g": 34,
+        "fat_g": 0.3
+      },
+      {
+        "name": "radish",
+        "usda_query": "radishes raw",
+        "grams": 10,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.4,
+        "fat_g": 0
+      },
+      {
+        "name": "leafy greens",
+        "usda_query": "kale raw",
+        "grams": 5,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 439
+  }
+}

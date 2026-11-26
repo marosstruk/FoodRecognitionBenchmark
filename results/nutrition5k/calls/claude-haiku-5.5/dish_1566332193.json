@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566332193",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "38183f6ca581e465",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 818,
+    "reasoning_tokens": 525,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4209,
+    "ai_credits": 0.0531025
+  },
+  "timestamp": "2026-11-25T00:24:17.685Z",
+  "raw_text": "{\"items\":[{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":40,\"calories\":9,\"protein_g\":1.1,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat only roasted\",\"grams\":100,\"calories\":165,\"protein_g\":31,\"carbs_g\":0,\"fat_g\":3.6},{\"name\":\"avocado\",\"usda_query\":\"avocados raw all commercial varieties\",\"grams\":80,\"calories\":128,\"protein_g\":1.6,\"carbs_g\":6.8,\"fat_g\":11.8},{\"name\":\"kidney beans\",\"usda_query\":\"red kidney beans canned drained solids\",\"grams\":50,\"calories\":67,\"protein_g\":4.3,\"carbs_g\":11.4,\"fat_g\":0.3}],\"total_calories\":369}",
+  "latency_ms": 5390,
+  "parsed": {
+    "items": [
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 40,
+        "calories": 9,
+        "protein_g": 1.1,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only roasted",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      },
+      {
+        "name": "avocado",
+        "usda_query": "avocados raw all commercial varieties",
+        "grams": 80,
+        "calories": 128,
+        "protein_g": 1.6,
+        "carbs_g": 6.8,
+        "fat_g": 11.8
+      },
+      {
+        "name": "kidney beans",
+        "usda_query": "red kidney beans canned drained solids",
+        "grams": 50,
+        "calories": 67,
+        "protein_g": 4.3,
+        "carbs_g": 11.4,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 369
+  }
+}

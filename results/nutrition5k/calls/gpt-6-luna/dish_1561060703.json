@@ -1,0 +1,126 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060703",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "41ab440adb8f41a2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1717,
+    "reasoning_tokens": 927,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13052,
+    "ai_credits": 0.09333
+  },
+  "timestamp": "2026-11-25T00:24:55.294Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 85,\n      \"calories\": 43,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 11.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Iceberg lettuce\",\n      \"usda_query\": \"lettuce iceberg raw\",\n      \"grams\": 45,\n      \"calories\": 6,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Leafy green salad\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 50,\n      \"calories\": 12,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Salad dressing\",\n      \"usda_query\": \"oil based salad dressing\",\n      \"grams\": 8,\n      \"calories\": 35,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 3.8\n    },\n    {\n      \"name\": \"Cherry tomato\",\n      \"usda_query\": \"tomatoes raw\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked\",\n      \"grams\": 45,\n      \"calories\": 32,\n      \"protein_g\": 2.3,\n      \"carbs_g\": 6.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Sautéed mushrooms and onions\",\n      \"usda_query\": \"mushrooms and onions cooked with oil\",\n      \"grams\": 55,\n      \"calories\": 55,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 4.5,\n      \"fat_g\": 3.2\n    },\n    {\n      \"name\": \"Firm tofu\",\n      \"usda_query\": \"tofu firm\",\n      \"grams\": 55,\n      \"calories\": 79,\n      \"protein_g\": 8.7,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 4.8\n    },\n    {\n      \"name\": \"Green bean\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 10,\n      \"calories\": 3,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Herb-baked white fish\",\n      \"usda_query\": \"white fish baked\",\n      \"grams\": 80,\n      \"calories\": 105,\n      \"protein_g\": 19,\n      \"carbs_g\": 0,\n      \"fat_g\": 2.4\n    },\n    {\n      \"name\": \"Cheese pizza\",\n      \"usda_query\": \"cheese pizza\",\n      \"grams\": 65,\n      \"calories\": 175,\n      \"protein_g\": 7,\n      \"carbs_g\": 22,\n      \"fat_g\": 7\n    }\n  ],\n  \"total_calories\": 548\n}",
+  "latency_ms": 13934,
+  "parsed": {
+    "items": [
+      {
+        "name": "Pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 85,
+        "calories": 43,
+        "protein_g": 0.5,
+        "carbs_g": 11.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Iceberg lettuce",
+        "usda_query": "lettuce iceberg raw",
+        "grams": 45,
+        "calories": 6,
+        "protein_g": 0.4,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Leafy green salad",
+        "usda_query": "spinach raw",
+        "grams": 50,
+        "calories": 12,
+        "protein_g": 1.5,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Salad dressing",
+        "usda_query": "oil based salad dressing",
+        "grams": 8,
+        "calories": 35,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 3.8
+      },
+      {
+        "name": "Cherry tomato",
+        "usda_query": "tomatoes raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "Brussels sprouts",
+        "usda_query": "brussels sprouts cooked",
+        "grams": 45,
+        "calories": 32,
+        "protein_g": 2.3,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Sautéed mushrooms and onions",
+        "usda_query": "mushrooms and onions cooked with oil",
+        "grams": 55,
+        "calories": 55,
+        "protein_g": 1.8,
+        "carbs_g": 4.5,
+        "fat_g": 3.2
+      },
+      {
+        "name": "Firm tofu",
+        "usda_query": "tofu firm",
+        "grams": 55,
+        "calories": 79,
+        "protein_g": 8.7,
+        "carbs_g": 1.2,
+        "fat_g": 4.8
+      },
+      {
+        "name": "Green bean",
+        "usda_query": "green beans cooked",
+        "grams": 10,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "Herb-baked white fish",
+        "usda_query": "white fish baked",
+        "grams": 80,
+        "calories": 105,
+        "protein_g": 19,
+        "carbs_g": 0,
+        "fat_g": 2.4
+      },
+      {
+        "name": "Cheese pizza",
+        "usda_query": "cheese pizza",
+        "grams": 65,
+        "calories": 175,
+        "protein_g": 7,
+        "carbs_g": 22,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 548
+  }
+}

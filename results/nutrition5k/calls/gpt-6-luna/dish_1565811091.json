@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565811091",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fba5b61bc0c00533",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 716,
+    "reasoning_tokens": 413,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5383,
+    "ai_credits": 0.04328
+  },
+  "timestamp": "2026-11-25T00:38:10.269Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Spinach\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 65,\n      \"calories\": 15,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli raw\",\n      \"grams\": 110,\n      \"calories\": 37,\n      \"protein_g\": 3.1,\n      \"carbs_g\": 7.3,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Shredded carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 60,\n      \"calories\": 25,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Feta cheese\",\n      \"usda_query\": \"cheese feta\",\n      \"grams\": 55,\n      \"calories\": 145,\n      \"protein_g\": 7.8,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 11.7\n    }\n  ],\n  \"total_calories\": 222\n}",
+  "latency_ms": 6902,
+  "parsed": {
+    "items": [
+      {
+        "name": "Spinach",
+        "usda_query": "spinach raw",
+        "grams": 65,
+        "calories": 15,
+        "protein_g": 1.9,
+        "carbs_g": 2.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli raw",
+        "grams": 110,
+        "calories": 37,
+        "protein_g": 3.1,
+        "carbs_g": 7.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 60,
+        "calories": 25,
+        "protein_g": 0.6,
+        "carbs_g": 5.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Feta cheese",
+        "usda_query": "cheese feta",
+        "grams": 55,
+        "calories": 145,
+        "protein_g": 7.8,
+        "carbs_g": 2.2,
+        "fat_g": 11.7
+      }
+    ],
+    "total_calories": 222
+  }
+}

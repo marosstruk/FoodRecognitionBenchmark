@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563220171",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2a25f71f9e20d756",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1119,
+    "reasoning_tokens": 660,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9221,
+    "ai_credits": 0.530175
+  },
+  "timestamp": "2026-11-25T00:23:03.745Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded chicken cutlet\",\n      \"usda_query\": \"chicken breast cutlet breaded fried\",\n      \"grams\": 110,\n      \"calories\": 251,\n      \"protein_g\": 24.2,\n      \"carbs_g\": 12.1,\n      \"fat_g\": 11.4\n    },\n    {\n      \"name\": \"pepperoni pizza\",\n      \"usda_query\": \"pepperoni pizza regular crust\",\n      \"grams\": 70,\n      \"calories\": 188,\n      \"protein_g\": 8.1,\n      \"carbs_g\": 21.8,\n      \"fat_g\": 7.6\n    },\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli cooked boiled drained\",\n      \"grams\": 65,\n      \"calories\": 23,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 4.6,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"roasted winter squash\",\n      \"usda_query\": \"winter squash cooked baked\",\n      \"grams\": 65,\n      \"calories\": 37,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 8.6,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"rice and greens salad\",\n      \"usda_query\": \"brown rice with vegetables cooked\",\n      \"grams\": 45,\n      \"calories\": 62,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 11.2,\n      \"fat_g\": 1.2\n    }\n  ],\n  \"total_calories\": 561\n}",
+  "latency_ms": 10313,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded chicken cutlet",
+        "usda_query": "chicken breast cutlet breaded fried",
+        "grams": 110,
+        "calories": 251,
+        "protein_g": 24.2,
+        "carbs_g": 12.1,
+        "fat_g": 11.4
+      },
+      {
+        "name": "pepperoni pizza",
+        "usda_query": "pepperoni pizza regular crust",
+        "grams": 70,
+        "calories": 188,
+        "protein_g": 8.1,
+        "carbs_g": 21.8,
+        "fat_g": 7.6
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 65,
+        "calories": 23,
+        "protein_g": 1.5,
+        "carbs_g": 4.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "roasted winter squash",
+        "usda_query": "winter squash cooked baked",
+        "grams": 65,
+        "calories": 37,
+        "protein_g": 1.1,
+        "carbs_g": 8.6,
+        "fat_g": 0.5
+      },
+      {
+        "name": "rice and greens salad",
+        "usda_query": "brown rice with vegetables cooked",
+        "grams": 45,
+        "calories": 62,
+        "protein_g": 1.6,
+        "carbs_g": 11.2,
+        "fat_g": 1.2
+      }
+    ],
+    "total_calories": 561
+  }
+}

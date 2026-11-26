@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558724633",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d41beaf4f84c6347",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 472,
+    "reasoning_tokens": 391,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3245,
+    "ai_credits": 0.0358025
+  },
+  "timestamp": "2026-11-25T00:29:07.206Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli raw\",\"grams\":150,\"calories\":51,\"protein_g\":4.2,\"carbs_g\":10,\"fat_g\":0.6}],\"total_calories\":51}",
+  "latency_ms": 4162,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli raw",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 4.2,
+        "carbs_g": 10,
+        "fat_g": 0.6
+      }
+    ],
+    "total_calories": 51
+  }
+}

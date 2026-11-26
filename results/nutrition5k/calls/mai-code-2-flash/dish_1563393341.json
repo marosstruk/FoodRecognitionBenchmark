@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563393341",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c959b8aea56281c2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1427,
+    "reasoning_tokens": 1049,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14143,
+    "ai_credits": 0.039415
+  },
+  "timestamp": "2026-11-25T00:20:29.593Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"steamed or roasted broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 55,\n      \"calories\": 19,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 35,\n      \"calories\": 14,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 3.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"yellow squash\",\n      \"usda_query\": \"summer squash cooked\",\n      \"grams\": 35,\n      \"calories\": 8,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"peppers sweet red cooked\",\n      \"grams\": 18,\n      \"calories\": 6,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"peppers sweet green cooked\",\n      \"grams\": 25,\n      \"calories\": 8,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 55\n}",
+  "latency_ms": 16293,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed or roasted broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 55,
+        "calories": 19,
+        "protein_g": 1.9,
+        "carbs_g": 3.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots cooked",
+        "grams": 35,
+        "calories": 14,
+        "protein_g": 0.3,
+        "carbs_g": 3.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "yellow squash",
+        "usda_query": "summer squash cooked",
+        "grams": 35,
+        "calories": 8,
+        "protein_g": 0.6,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red cooked",
+        "grams": 18,
+        "calories": 6,
+        "protein_g": 0.2,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green cooked",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 55
+  }
+}

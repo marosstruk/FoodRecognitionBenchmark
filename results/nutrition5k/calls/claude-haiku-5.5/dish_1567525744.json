@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567525744",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3616a6c914f0a503",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1010,
+    "reasoning_tokens": 650,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5243,
+    "ai_credits": 0.0627025
+  },
+  "timestamp": "2026-11-25T00:37:58.170Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with butter\",\"grams\":110,\"calories\":180,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"fried rice\",\"usda_query\":\"rice white fried with egg\",\"grams\":150,\"calories\":240,\"protein_g\":5,\"carbs_g\":36,\"fat_g\":8},{\"name\":\"sautéed spinach\",\"usda_query\":\"spinach cooked boiled drained with oil\",\"grams\":80,\"calories\":60,\"protein_g\":3,\"carbs_g\":5,\"fat_g\":4},{\"name\":\"bacon\",\"usda_query\":\"pork bacon cooked pan-fried crispy\",\"grams\":15,\"calories\":81,\"protein_g\":5.6,\"carbs_g\":0,\"fat_g\":6.3},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":10,\"calories\":4,\"protein_g\":0.1,\"carbs_g\":1,\"fat_g\":0}],\"total_calories\":565}",
+  "latency_ms": 6118,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with butter",
+        "grams": 110,
+        "calories": 180,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "fried rice",
+        "usda_query": "rice white fried with egg",
+        "grams": 150,
+        "calories": 240,
+        "protein_g": 5,
+        "carbs_g": 36,
+        "fat_g": 8
+      },
+      {
+        "name": "sautéed spinach",
+        "usda_query": "spinach cooked boiled drained with oil",
+        "grams": 80,
+        "calories": 60,
+        "protein_g": 3,
+        "carbs_g": 5,
+        "fat_g": 4
+      },
+      {
+        "name": "bacon",
+        "usda_query": "pork bacon cooked pan-fried crispy",
+        "grams": 15,
+        "calories": 81,
+        "protein_g": 5.6,
+        "carbs_g": 0,
+        "fat_g": 6.3
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 565
+  }
+}

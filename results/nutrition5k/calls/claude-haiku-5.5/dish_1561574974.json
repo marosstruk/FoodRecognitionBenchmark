@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561574974",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3edaedd3a80c2269",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1022,
+    "reasoning_tokens": 733,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5298,
+    "ai_credits": 0.0633025
+  },
+  "timestamp": "2026-11-25T00:30:00.646Z",
+  "raw_text": "{\"items\":[{\"name\":\"fried eggplant\",\"usda_query\":\"eggplant fried in oil\",\"grams\":120,\"calories\":170,\"protein_g\":1,\"carbs_g\":9,\"fat_g\":14},{\"name\":\"pan-fried potato\",\"usda_query\":\"potatoes pan fried in oil\",\"grams\":60,\"calories\":102,\"protein_g\":2,\"carbs_g\":15,\"fat_g\":4},{\"name\":\"cooked onion and green pepper\",\"usda_query\":\"onions cooked and sweet green peppers sauteed\",\"grams\":15,\"calories\":8,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"cooking oil and glaze residue\",\"usda_query\":\"vegetable oil\",\"grams\":7,\"calories\":67,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":7}],\"total_calories\":347}",
+  "latency_ms": 6414,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried eggplant",
+        "usda_query": "eggplant fried in oil",
+        "grams": 120,
+        "calories": 170,
+        "protein_g": 1,
+        "carbs_g": 9,
+        "fat_g": 14
+      },
+      {
+        "name": "pan-fried potato",
+        "usda_query": "potatoes pan fried in oil",
+        "grams": 60,
+        "calories": 102,
+        "protein_g": 2,
+        "carbs_g": 15,
+        "fat_g": 4
+      },
+      {
+        "name": "cooked onion and green pepper",
+        "usda_query": "onions cooked and sweet green peppers sauteed",
+        "grams": 15,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "cooking oil and glaze residue",
+        "usda_query": "vegetable oil",
+        "grams": 7,
+        "calories": 67,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 347
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558109907",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d6a3aeb9560c99c6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 692,
+    "reasoning_tokens": 532,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4437,
+    "ai_credits": 0.0468025
+  },
+  "timestamp": "2026-11-25T00:25:14.333Z",
+  "raw_text": "{\"items\":[{\"name\":\"red seedless grapes\",\"usda_query\":\"grapes red or green seedless raw\",\"grams\":75,\"calories\":52,\"protein_g\":0.5,\"carbs_g\":13.6,\"fat_g\":0.1},{\"name\":\"green seedless grapes\",\"usda_query\":\"grapes red or green seedless raw\",\"grams\":8,\"calories\":6,\"protein_g\":0.1,\"carbs_g\":1.4,\"fat_g\":0}],\"total_calories\":58}",
+  "latency_ms": 5284,
+  "parsed": {
+    "items": [
+      {
+        "name": "red seedless grapes",
+        "usda_query": "grapes red or green seedless raw",
+        "grams": 75,
+        "calories": 52,
+        "protein_g": 0.5,
+        "carbs_g": 13.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green seedless grapes",
+        "usda_query": "grapes red or green seedless raw",
+        "grams": 8,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 58
+  }
+}

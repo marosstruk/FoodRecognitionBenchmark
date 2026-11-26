@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562170163",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6aafeb83eb46bf70",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 596,
+    "reasoning_tokens": 536,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8519,
+    "ai_credits": 0.01864
+  },
+  "timestamp": "2026-11-25T00:18:07.925Z",
+  "raw_text": "{\"items\":[{\"name\":\"sweet potato wedges\",\"usda_query\":\"sweet potato cooked\",\"grams\":150,\"calories\":135,\"protein_g\":3,\"carbs_g\":31.5,\"fat_g\":0.3}],\"total_calories\":135}",
+  "latency_ms": 9622,
+  "parsed": {
+    "items": [
+      {
+        "name": "sweet potato wedges",
+        "usda_query": "sweet potato cooked",
+        "grams": 150,
+        "calories": 135,
+        "protein_g": 3,
+        "carbs_g": 31.5,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 135
+  }
+}

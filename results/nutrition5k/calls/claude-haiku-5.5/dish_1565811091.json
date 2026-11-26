@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565811091",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fba5b61bc0c00533",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1314,
+    "reasoning_tokens": 963,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6228,
+    "ai_credits": 0.0779025
+  },
+  "timestamp": "2026-11-25T00:38:11.136Z",
+  "raw_text": "{\"items\":[{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"broccoli\",\"usda_query\":\"broccoli raw\",\"grams\":80,\"calories\":27,\"protein_g\":2.3,\"carbs_g\":5.6,\"fat_g\":0.3},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":50,\"calories\":20,\"protein_g\":0.5,\"carbs_g\":4.8,\"fat_g\":0.1},{\"name\":\"feta cheese\",\"usda_query\":\"cheese feta\",\"grams\":60,\"calories\":158,\"protein_g\":8.5,\"carbs_g\":2.5,\"fat_g\":12.8},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat cooked roasted\",\"grams\":70,\"calories\":116,\"protein_g\":21.7,\"carbs_g\":0,\"fat_g\":2.5}],\"total_calories\":335}",
+  "latency_ms": 7345,
+  "parsed": {
+    "items": [
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli raw",
+        "grams": 80,
+        "calories": 27,
+        "protein_g": 2.3,
+        "carbs_g": 5.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 50,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 4.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "feta cheese",
+        "usda_query": "cheese feta",
+        "grams": 60,
+        "calories": 158,
+        "protein_g": 8.5,
+        "carbs_g": 2.5,
+        "fat_g": 12.8
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat cooked roasted",
+        "grams": 70,
+        "calories": 116,
+        "protein_g": 21.7,
+        "carbs_g": 0,
+        "fat_g": 2.5
+      }
+    ],
+    "total_calories": 335
+  }
+}

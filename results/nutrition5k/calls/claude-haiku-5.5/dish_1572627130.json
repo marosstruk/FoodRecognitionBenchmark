@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572627130",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "765a1d594913e1f9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1451,
+    "reasoning_tokens": 1084,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6608,
+    "ai_credits": 0.0847525
+  },
+  "timestamp": "2026-11-25T00:38:30.682Z",
+  "raw_text": "{\"items\":[{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":150,\"calories\":195,\"protein_g\":4.0,\"carbs_g\":42.9,\"fat_g\":0.6},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat only cooked roasted\",\"grams\":100,\"calories\":165,\"protein_g\":31.0,\"carbs_g\":0,\"fat_g\":3.6},{\"name\":\"cooked spinach\",\"usda_query\":\"spinach cooked boiled drained\",\"grams\":50,\"calories\":12,\"protein_g\":1.5,\"carbs_g\":1.8,\"fat_g\":0.2},{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce canned\",\"grams\":60,\"calories\":19,\"protein_g\":1.0,\"carbs_g\":4.4,\"fat_g\":0.2},{\"name\":\"diced tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":20,\"calories\":4,\"protein_g\":0.2,\"carbs_g\":0.8,\"fat_g\":0.1}],\"total_calories\":395}",
+  "latency_ms": 7731,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 150,
+        "calories": 195,
+        "protein_g": 4,
+        "carbs_g": 42.9,
+        "fat_g": 0.6
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      },
+      {
+        "name": "cooked spinach",
+        "usda_query": "spinach cooked boiled drained",
+        "grams": 50,
+        "calories": 12,
+        "protein_g": 1.5,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce canned",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 1,
+        "carbs_g": 4.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "diced tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 20,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 395
+  }
+}

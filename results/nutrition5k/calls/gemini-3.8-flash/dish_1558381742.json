@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558381742",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ef87381548c29d68",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 814,
+    "reasoning_tokens": 704,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8820,
+    "ai_credits": 0.4158
+  },
+  "timestamp": "2026-11-25T00:39:10.783Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Kalamata olives\",\n      \"usda_query\": \"kalamata olives\",\n      \"grams\": 65,\n      \"calories\": 155,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 3.9,\n      \"fat_g\": 14.3\n    }\n  ],\n  \"total_calories\": 155\n}",
+  "latency_ms": 9893,
+  "parsed": {
+    "items": [
+      {
+        "name": "Kalamata olives",
+        "usda_query": "kalamata olives",
+        "grams": 65,
+        "calories": 155,
+        "protein_g": 1,
+        "carbs_g": 3.9,
+        "fat_g": 14.3
+      }
+    ],
+    "total_calories": 155
+  }
+}

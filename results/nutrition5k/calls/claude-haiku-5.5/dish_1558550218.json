@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558550218",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0f4396c7592f1988",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 641,
+    "reasoning_tokens": 430,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3895,
+    "ai_credits": 0.0442525
+  },
+  "timestamp": "2026-11-25T00:14:21.298Z",
+  "raw_text": "{\"items\":[{\"name\":\"almonds\",\"usda_query\":\"almonds raw\",\"grams\":35,\"calories\":202,\"protein_g\":7.4,\"carbs_g\":7.6,\"fat_g\":17.4},{\"name\":\"red grapes\",\"usda_query\":\"grapes red seedless raw\",\"grams\":70,\"calories\":48,\"protein_g\":0.5,\"carbs_g\":12.7,\"fat_g\":0.1},{\"name\":\"apple\",\"usda_query\":\"apples raw with skin\",\"grams\":180,\"calories\":94,\"protein_g\":0.5,\"carbs_g\":24.9,\"fat_g\":0.3}],\"total_calories\":344}",
+  "latency_ms": 4756,
+  "parsed": {
+    "items": [
+      {
+        "name": "almonds",
+        "usda_query": "almonds raw",
+        "grams": 35,
+        "calories": 202,
+        "protein_g": 7.4,
+        "carbs_g": 7.6,
+        "fat_g": 17.4
+      },
+      {
+        "name": "red grapes",
+        "usda_query": "grapes red seedless raw",
+        "grams": 70,
+        "calories": 48,
+        "protein_g": 0.5,
+        "carbs_g": 12.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "apple",
+        "usda_query": "apples raw with skin",
+        "grams": 180,
+        "calories": 94,
+        "protein_g": 0.5,
+        "carbs_g": 24.9,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 344
+  }
+}

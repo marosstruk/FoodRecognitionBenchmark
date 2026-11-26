@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559674074",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5c053eacf40f1845",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 418,
+    "reasoning_tokens": 328,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5610,
+    "ai_credits": 0.01419
+  },
+  "timestamp": "2026-11-25T00:23:32.602Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pepperoni pizza\",\n      \"usda_query\": \"pepperoni pizza\",\n      \"grams\": 150,\n      \"calories\": 386,\n      \"protein_g\": 16,\n      \"carbs_g\": 49,\n      \"fat_g\": 16\n    }\n  ],\n  \"total_calories\": 386\n}",
+  "latency_ms": 6486,
+  "parsed": {
+    "items": [
+      {
+        "name": "pepperoni pizza",
+        "usda_query": "pepperoni pizza",
+        "grams": 150,
+        "calories": 386,
+        "protein_g": 16,
+        "carbs_g": 49,
+        "fat_g": 16
+      }
+    ],
+    "total_calories": 386
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561580431",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "210680e68b199cd2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1107,
+    "reasoning_tokens": 582,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10729,
+    "ai_credits": 0.525675
+  },
+  "timestamp": "2026-11-25T00:13:43.615Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"sliced beef steak\",\n      \"usda_query\": \"beef steak cooked\",\n      \"grams\": 60,\n      \"calories\": 140,\n      \"protein_g\": 16.2,\n      \"carbs_g\": 0,\n      \"fat_g\": 8.1\n    },\n    {\n      \"name\": \"penne pasta\",\n      \"usda_query\": \"pasta cooked unenriched\",\n      \"grams\": 40,\n      \"calories\": 63,\n      \"protein_g\": 2.3,\n      \"carbs_g\": 12.4,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"creamy potato salad\",\n      \"usda_query\": \"potato salad with mayonnaise\",\n      \"grams\": 75,\n      \"calories\": 105,\n      \"protein_g\": 1.7,\n      \"carbs_g\": 12.8,\n      \"fat_g\": 5.4\n    },\n    {\n      \"name\": \"baby spinach\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 25,\n      \"calories\": 6,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"quinoa\",\n      \"usda_query\": \"quinoa cooked\",\n      \"grams\": 20,\n      \"calories\": 24,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"creamy dressing\",\n      \"usda_query\": \"salad dressing caesar\",\n      \"grams\": 20,\n      \"calories\": 95,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 10.2\n    }\n  ],\n  \"total_calories\": 433\n}",
+  "latency_ms": 11824,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced beef steak",
+        "usda_query": "beef steak cooked",
+        "grams": 60,
+        "calories": 140,
+        "protein_g": 16.2,
+        "carbs_g": 0,
+        "fat_g": 8.1
+      },
+      {
+        "name": "penne pasta",
+        "usda_query": "pasta cooked unenriched",
+        "grams": 40,
+        "calories": 63,
+        "protein_g": 2.3,
+        "carbs_g": 12.4,
+        "fat_g": 0.4
+      },
+      {
+        "name": "creamy potato salad",
+        "usda_query": "potato salad with mayonnaise",
+        "grams": 75,
+        "calories": 105,
+        "protein_g": 1.7,
+        "carbs_g": 12.8,
+        "fat_g": 5.4
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 25,
+        "calories": 6,
+        "protein_g": 0.7,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "quinoa",
+        "usda_query": "quinoa cooked",
+        "grams": 20,
+        "calories": 24,
+        "protein_g": 0.9,
+        "carbs_g": 4.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "creamy dressing",
+        "usda_query": "salad dressing caesar",
+        "grams": 20,
+        "calories": 95,
+        "protein_g": 0.4,
+        "carbs_g": 1.1,
+        "fat_g": 10.2
+      }
+    ],
+    "total_calories": 433
+  }
+}

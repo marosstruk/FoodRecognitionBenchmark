@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563389079",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b1b5d6cee3359f0e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1070,
+    "reasoning_tokens": 711,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9414,
+    "ai_credits": 0.5118
+  },
+  "timestamp": "2026-11-25T00:28:18.601Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli cooked from fresh\",\n      \"grams\": 35,\n      \"calories\": 12,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cooked carrots\",\n      \"usda_query\": \"carrots cooked boiled\",\n      \"grams\": 45,\n      \"calories\": 16,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 3.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"yellow summer squash\",\n      \"usda_query\": \"squash summer yellow cooked boiled\",\n      \"grams\": 30,\n      \"calories\": 5,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"roasted potato wedge\",\n      \"usda_query\": \"potato baked flesh and skin\",\n      \"grams\": 25,\n      \"calories\": 23,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 56\n}",
+  "latency_ms": 10554,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked from fresh",
+        "grams": 35,
+        "calories": 12,
+        "protein_g": 0.8,
+        "carbs_g": 2.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked boiled",
+        "grams": 45,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "yellow summer squash",
+        "usda_query": "squash summer yellow cooked boiled",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted potato wedge",
+        "usda_query": "potato baked flesh and skin",
+        "grams": 25,
+        "calories": 23,
+        "protein_g": 0.5,
+        "carbs_g": 5.3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 56
+  }
+}

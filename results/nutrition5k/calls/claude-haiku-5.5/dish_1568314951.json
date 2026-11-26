@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568314951",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0f3440a9dec08352",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1390,
+    "reasoning_tokens": 938,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6695,
+    "ai_credits": 0.0817025
+  },
+  "timestamp": "2026-11-25T00:08:43.095Z",
+  "raw_text": "{\"items\":[{\"name\":\"sliced beef steak\",\"usda_query\":\"beef sirloin steak cooked broiled\",\"grams\":120,\"calories\":300,\"protein_g\":31,\"carbs_g\":0,\"fat_g\":18},{\"name\":\"baked white fish fillet with cream cheese and herbs\",\"usda_query\":\"fish cod baked with cream cheese sauce\",\"grams\":150,\"calories\":280,\"protein_g\":25,\"carbs_g\":4,\"fat_g\":17},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":100,\"calories\":18,\"protein_g\":0.9,\"carbs_g\":3.9,\"fat_g\":0.2},{\"name\":\"avocado slices\",\"usda_query\":\"avocados raw all commercial varieties\",\"grams\":120,\"calories\":192,\"protein_g\":2.4,\"carbs_g\":10.2,\"fat_g\":17.6},{\"name\":\"grilled eggplant\",\"usda_query\":\"eggplant cooked grilled without salt\",\"grams\":60,\"calories\":40,\"protein_g\":0.7,\"carbs_g\":4,\"fat_g\":2.5},{\"name\":\"fresh basil leaves\",\"usda_query\":\"basil fresh\",\"grams\":2,\"calories\":1,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":831}",
+  "latency_ms": 7851,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced beef steak",
+        "usda_query": "beef sirloin steak cooked broiled",
+        "grams": 120,
+        "calories": 300,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 18
+      },
+      {
+        "name": "baked white fish fillet with cream cheese and herbs",
+        "usda_query": "fish cod baked with cream cheese sauce",
+        "grams": 150,
+        "calories": 280,
+        "protein_g": 25,
+        "carbs_g": 4,
+        "fat_g": 17
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 100,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "avocado slices",
+        "usda_query": "avocados raw all commercial varieties",
+        "grams": 120,
+        "calories": 192,
+        "protein_g": 2.4,
+        "carbs_g": 10.2,
+        "fat_g": 17.6
+      },
+      {
+        "name": "grilled eggplant",
+        "usda_query": "eggplant cooked grilled without salt",
+        "grams": 60,
+        "calories": 40,
+        "protein_g": 0.7,
+        "carbs_g": 4,
+        "fat_g": 2.5
+      },
+      {
+        "name": "fresh basil leaves",
+        "usda_query": "basil fresh",
+        "grams": 2,
+        "calories": 1,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 831
+  }
+}

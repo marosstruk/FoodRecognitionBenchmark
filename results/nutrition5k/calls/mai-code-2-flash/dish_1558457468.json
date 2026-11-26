@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558457468",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "facdd8d9e1a31354",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 638,
+    "reasoning_tokens": 576,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9542,
+    "ai_credits": 0.01969
+  },
+  "timestamp": "2026-11-25T00:12:43.784Z",
+  "raw_text": "{\"items\":[{\"name\":\"papaya chunks\",\"usda_query\":\"papaya raw\",\"grams\":140,\"calories\":60,\"protein_g\":0.7,\"carbs_g\":15.1,\"fat_g\":0.4}],\"total_calories\":60}",
+  "latency_ms": 10709,
+  "parsed": {
+    "items": [
+      {
+        "name": "papaya chunks",
+        "usda_query": "papaya raw",
+        "grams": 140,
+        "calories": 60,
+        "protein_g": 0.7,
+        "carbs_g": 15.1,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 60
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562875159",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "228acd283e437907",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1076,
+    "reasoning_tokens": 919,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6406,
+    "ai_credits": 0.0660025
+  },
+  "timestamp": "2026-11-25T00:17:24.485Z",
+  "raw_text": "{\"items\":[{\"name\":\"pizza slice with ham and mozzarella\",\"usda_query\":\"pizza cheese and ham topping thin crust\",\"grams\":130,\"calories\":376,\"protein_g\":16,\"carbs_g\":42,\"fat_g\":16},{\"name\":\"pesto sauce\",\"usda_query\":\"pesto sauce basil\",\"grams\":15,\"calories\":62,\"protein_g\":1,\"carbs_g\":1,\"fat_g\":6}],\"total_calories\":438}",
+  "latency_ms": 7521,
+  "parsed": {
+    "items": [
+      {
+        "name": "pizza slice with ham and mozzarella",
+        "usda_query": "pizza cheese and ham topping thin crust",
+        "grams": 130,
+        "calories": 376,
+        "protein_g": 16,
+        "carbs_g": 42,
+        "fat_g": 16
+      },
+      {
+        "name": "pesto sauce",
+        "usda_query": "pesto sauce basil",
+        "grams": 15,
+        "calories": 62,
+        "protein_g": 1,
+        "carbs_g": 1,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 438
+  }
+}

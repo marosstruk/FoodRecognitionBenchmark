@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568318361",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3e8358925689accf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1264,
+    "reasoning_tokens": 821,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12851,
+    "ai_credits": 0.03534
+  },
+  "timestamp": "2026-11-25T00:23:26.109Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed leafy greens\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 90,\n      \"calories\": 14,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"roasted broccoli\",\n      \"usda_query\": \"broccoli cooked boiled drained\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 2.8,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 60,\n      \"calories\": 11,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"peppers sweet red raw\",\n      \"grams\": 70,\n      \"calories\": 22,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"grilled beef\",\n      \"usda_query\": \"beef grilled cooked\",\n      \"grams\": 120,\n      \"calories\": 306,\n      \"protein_g\": 31.2,\n      \"carbs_g\": 0,\n      \"fat_g\": 19.2\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 8,\n      \"calories\": 71,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 8\n    }\n  ],\n  \"total_calories\": 459\n}",
+  "latency_ms": 13968,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 90,
+        "calories": 14,
+        "protein_g": 1.2,
+        "carbs_g": 2.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.8,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red raw",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 70,
+        "calories": 22,
+        "protein_g": 0.7,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grilled beef",
+        "usda_query": "beef grilled cooked",
+        "grams": 120,
+        "calories": 306,
+        "protein_g": 31.2,
+        "carbs_g": 0,
+        "fat_g": 19.2
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "olive oil",
+        "grams": 8,
+        "calories": 71,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 8
+      }
+    ],
+    "total_calories": 459
+  }
+}

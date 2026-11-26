@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564516429",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "55fb8c9695cd0143",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1381,
+    "reasoning_tokens": 1030,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13453,
+    "ai_credits": 0.628425
+  },
+  "timestamp": "2026-11-25T00:36:20.698Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked fish fillet\",\n      \"usda_query\": \"fish fillet cooked\",\n      \"grams\": 70,\n      \"calories\": 110,\n      \"protein_g\": 15,\n      \"carbs_g\": 0,\n      \"fat_g\": 5.5\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes cherry raw\",\n      \"grams\": 60,\n      \"calories\": 11,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"black olives\",\n      \"usda_query\": \"olives ripe canned jumbo\",\n      \"grams\": 30,\n      \"calories\": 35,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 3.2\n    },\n    {\n      \"name\": \"white beans\",\n      \"usda_query\": \"white beans cooked\",\n      \"grams\": 10,\n      \"calories\": 14,\n      \"protein_g\": 1,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 170\n}",
+  "latency_ms": 14565,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked fish fillet",
+        "usda_query": "fish fillet cooked",
+        "grams": 70,
+        "calories": 110,
+        "protein_g": 15,
+        "carbs_g": 0,
+        "fat_g": 5.5
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned jumbo",
+        "grams": 30,
+        "calories": 35,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 3.2
+      },
+      {
+        "name": "white beans",
+        "usda_query": "white beans cooked",
+        "grams": 10,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 2.5,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 170
+  }
+}

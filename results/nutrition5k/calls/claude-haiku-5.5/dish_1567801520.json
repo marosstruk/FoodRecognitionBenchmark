@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567801520",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f165bb75775af806",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1225,
+    "reasoning_tokens": 752,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5246,
+    "ai_credits": 0.0734525
+  },
+  "timestamp": "2026-11-25T00:29:20.264Z",
+  "raw_text": "{\"items\":[{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce romaine raw\",\"grams\":100,\"calories\":17,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":0},{\"name\":\"Caesar dressing\",\"usda_query\":\"salad dressing caesar regular\",\"grams\":30,\"calories\":145,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":15},{\"name\":\"parmesan cheese\",\"usda_query\":\"cheese parmesan grated\",\"grams\":15,\"calories\":65,\"protein_g\":5,\"carbs_g\":1,\"fat_g\":4},{\"name\":\"croutons\",\"usda_query\":\"croutons plain seasoned\",\"grams\":15,\"calories\":60,\"protein_g\":2,\"carbs_g\":10,\"fat_g\":2},{\"name\":\"glazed chicken pieces\",\"usda_query\":\"chicken breast stir-fried with sauce\",\"grams\":150,\"calories\":265,\"protein_g\":40,\"carbs_g\":6,\"fat_g\":9},{\"name\":\"broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":60,\"calories\":21,\"protein_g\":2,\"carbs_g\":4,\"fat_g\":0},{\"name\":\"carrot and bell pepper\",\"usda_query\":\"carrots raw\",\"grams\":20,\"calories\":8,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":0}],\"total_calories\":581}",
+  "latency_ms": 6124,
+  "parsed": {
+    "items": [
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 100,
+        "calories": 17,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "Caesar dressing",
+        "usda_query": "salad dressing caesar regular",
+        "grams": 30,
+        "calories": 145,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 15
+      },
+      {
+        "name": "parmesan cheese",
+        "usda_query": "cheese parmesan grated",
+        "grams": 15,
+        "calories": 65,
+        "protein_g": 5,
+        "carbs_g": 1,
+        "fat_g": 4
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons plain seasoned",
+        "grams": 15,
+        "calories": 60,
+        "protein_g": 2,
+        "carbs_g": 10,
+        "fat_g": 2
+      },
+      {
+        "name": "glazed chicken pieces",
+        "usda_query": "chicken breast stir-fried with sauce",
+        "grams": 150,
+        "calories": 265,
+        "protein_g": 40,
+        "carbs_g": 6,
+        "fat_g": 9
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "carrot and bell pepper",
+        "usda_query": "carrots raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 581
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562959766",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "95444d9daec77550",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1219,
+    "reasoning_tokens": 860,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11578,
+    "ai_credits": 0.06843
+  },
+  "timestamp": "2026-11-25T00:08:31.673Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Stir-fried wheat noodles\",\n      \"usda_query\": \"noodles wheat cooked\",\n      \"grams\": 120,\n      \"calories\": 190,\n      \"protein_g\": 7,\n      \"carbs_g\": 34,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Shredded cabbage and vegetables\",\n      \"usda_query\": \"cabbage carrots mixed vegetables cooked\",\n      \"grams\": 55,\n      \"calories\": 20,\n      \"protein_g\": 1,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Fried tofu\",\n      \"usda_query\": \"tofu fried\",\n      \"grams\": 75,\n      \"calories\": 180,\n      \"protein_g\": 13,\n      \"carbs_g\": 5,\n      \"fat_g\": 12\n    },\n    {\n      \"name\": \"Chicken pieces with sauce\",\n      \"usda_query\": \"chicken stir fried with sauce\",\n      \"grams\": 80,\n      \"calories\": 175,\n      \"protein_g\": 20,\n      \"carbs_g\": 4,\n      \"fat_g\": 9\n    },\n    {\n      \"name\": \"Fried rice\",\n      \"usda_query\": \"rice fried\",\n      \"grams\": 45,\n      \"calories\": 75,\n      \"protein_g\": 2,\n      \"carbs_g\": 12,\n      \"fat_g\": 2\n    }\n  ],\n  \"total_calories\": 640\n}",
+  "latency_ms": 14930,
+  "parsed": {
+    "items": [
+      {
+        "name": "Stir-fried wheat noodles",
+        "usda_query": "noodles wheat cooked",
+        "grams": 120,
+        "calories": 190,
+        "protein_g": 7,
+        "carbs_g": 34,
+        "fat_g": 4
+      },
+      {
+        "name": "Shredded cabbage and vegetables",
+        "usda_query": "cabbage carrots mixed vegetables cooked",
+        "grams": 55,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "Fried tofu",
+        "usda_query": "tofu fried",
+        "grams": 75,
+        "calories": 180,
+        "protein_g": 13,
+        "carbs_g": 5,
+        "fat_g": 12
+      },
+      {
+        "name": "Chicken pieces with sauce",
+        "usda_query": "chicken stir fried with sauce",
+        "grams": 80,
+        "calories": 175,
+        "protein_g": 20,
+        "carbs_g": 4,
+        "fat_g": 9
+      },
+      {
+        "name": "Fried rice",
+        "usda_query": "rice fried",
+        "grams": 45,
+        "calories": 75,
+        "protein_g": 2,
+        "carbs_g": 12,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 640
+  }
+}

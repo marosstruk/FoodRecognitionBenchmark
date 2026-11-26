@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558724031",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "79f2578da888cfa2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 797,
+    "reasoning_tokens": 619,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10121,
+    "ai_credits": 0.023665
+  },
+  "timestamp": "2026-11-25T00:34:04.198Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted red bell pepper\",\"usda_query\":\"red bell pepper roasted\",\"grams\":90,\"calories\":32,\"protein_g\":1,\"carbs_g\":7,\"fat_g\":0},{\"name\":\"cauliflower\",\"usda_query\":\"cauliflower cooked\",\"grams\":50,\"calories\":12,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"mushrooms\",\"usda_query\":\"mushrooms cooked\",\"grams\":75,\"calories\":27,\"protein_g\":3,\"carbs_g\":5,\"fat_g\":1},{\"name\":\"roasted squash\",\"usda_query\":\"butternut squash cooked\",\"grams\":160,\"calories\":82,\"protein_g\":2,\"carbs_g\":21,\"fat_g\":0}],\"total_calories\":153}",
+  "latency_ms": 11639,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted red bell pepper",
+        "usda_query": "red bell pepper roasted",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 50,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 75,
+        "calories": 27,
+        "protein_g": 3,
+        "carbs_g": 5,
+        "fat_g": 1
+      },
+      {
+        "name": "roasted squash",
+        "usda_query": "butternut squash cooked",
+        "grams": 160,
+        "calories": 82,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 153
+  }
+}

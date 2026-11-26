@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560874751",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cc8d5a5bf04bc415",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1429,
+    "reasoning_tokens": 924,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11866,
+    "ai_credits": 0.07893
+  },
+  "timestamp": "2026-11-25T00:13:11.910Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Bagel\",\n      \"usda_query\": \"bagel plain\",\n      \"grams\": 70,\n      \"calories\": 195,\n      \"protein_g\": 7,\n      \"carbs_g\": 38,\n      \"fat_g\": 1.2\n    },\n    {\n      \"name\": \"Cream cheese\",\n      \"usda_query\": \"cream cheese regular\",\n      \"grams\": 35,\n      \"calories\": 120,\n      \"protein_g\": 2.1,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 11.8\n    },\n    {\n      \"name\": \"Strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 100,\n      \"calories\": 32,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 7.7,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 15,\n      \"calories\": 9,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 35,\n      \"calories\": 190,\n      \"protein_g\": 12.9,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 14.7\n    },\n    {\n      \"name\": \"Roasted sweet potato\",\n      \"usda_query\": \"sweet potato cooked roasted\",\n      \"grams\": 140,\n      \"calories\": 126,\n      \"protein_g\": 2.8,\n      \"carbs_g\": 29.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 5,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 717\n}",
+  "latency_ms": 12990,
+  "parsed": {
+    "items": [
+      {
+        "name": "Bagel",
+        "usda_query": "bagel plain",
+        "grams": 70,
+        "calories": 195,
+        "protein_g": 7,
+        "carbs_g": 38,
+        "fat_g": 1.2
+      },
+      {
+        "name": "Cream cheese",
+        "usda_query": "cream cheese regular",
+        "grams": 35,
+        "calories": 120,
+        "protein_g": 2.1,
+        "carbs_g": 1.4,
+        "fat_g": 11.8
+      },
+      {
+        "name": "Strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 100,
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 15,
+        "calories": 9,
+        "protein_g": 0.1,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 35,
+        "calories": 190,
+        "protein_g": 12.9,
+        "carbs_g": 0.5,
+        "fat_g": 14.7
+      },
+      {
+        "name": "Roasted sweet potato",
+        "usda_query": "sweet potato cooked roasted",
+        "grams": 140,
+        "calories": 126,
+        "protein_g": 2.8,
+        "carbs_g": 29.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 717
+  }
+}

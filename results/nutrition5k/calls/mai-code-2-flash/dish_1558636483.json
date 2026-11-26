@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558636483",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f8d5f5d4fab6a0f0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 172,
+    "reasoning_tokens": 108,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 3581,
+    "ai_credits": 0.00804
+  },
+  "timestamp": "2026-11-25T00:23:05.762Z",
+  "raw_text": "{\"items\":[{\"name\":\"red apple\",\"usda_query\":\"apple red delicious with skin raw\",\"grams\":182,\"calories\":95,\"protein_g\":0.5,\"carbs_g\":25.1,\"fat_g\":0.3}],\"total_calories\":95}",
+  "latency_ms": 4704,
+  "parsed": {
+    "items": [
+      {
+        "name": "red apple",
+        "usda_query": "apple red delicious with skin raw",
+        "grams": 182,
+        "calories": 95,
+        "protein_g": 0.5,
+        "carbs_g": 25.1,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 95
+  }
+}

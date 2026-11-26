@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563566909",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fd290eccda1f15cf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1146,
+    "reasoning_tokens": 795,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12195,
+    "ai_credits": 0.03239
+  },
+  "timestamp": "2026-11-25T00:34:14.565Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potato chunks\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 55,\n      \"calories\": 95,\n      \"protein_g\": 2,\n      \"carbs_g\": 17,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"roasted red pepper\",\n      \"usda_query\": \"red bell pepper cooked\",\n      \"grams\": 35,\n      \"calories\": 14,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 25,\n      \"calories\": 9,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"roasted or grilled meat\",\n      \"usda_query\": \"beef cooked roasted\",\n      \"grams\": 45,\n      \"calories\": 107,\n      \"protein_g\": 13,\n      \"carbs_g\": 0,\n      \"fat_g\": 6\n    },\n    {\n      \"name\": \"bread or crouton\",\n      \"usda_query\": \"bread wheat toasted\",\n      \"grams\": 20,\n      \"calories\": 55,\n      \"protein_g\": 2,\n      \"carbs_g\": 10,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 280\n}",
+  "latency_ms": 13732,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato chunks",
+        "usda_query": "potato roasted",
+        "grams": 55,
+        "calories": 95,
+        "protein_g": 2,
+        "carbs_g": 17,
+        "fat_g": 3
+      },
+      {
+        "name": "roasted red pepper",
+        "usda_query": "red bell pepper cooked",
+        "grams": 35,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 25,
+        "calories": 9,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted or grilled meat",
+        "usda_query": "beef cooked roasted",
+        "grams": 45,
+        "calories": 107,
+        "protein_g": 13,
+        "carbs_g": 0,
+        "fat_g": 6
+      },
+      {
+        "name": "bread or crouton",
+        "usda_query": "bread wheat toasted",
+        "grams": 20,
+        "calories": 55,
+        "protein_g": 2,
+        "carbs_g": 10,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 280
+  }
+}

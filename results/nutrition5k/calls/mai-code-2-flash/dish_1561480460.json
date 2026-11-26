@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561480460",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fa2542ce54e31a85",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 969,
+    "reasoning_tokens": 596,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10198,
+    "ai_credits": 0.027965
+  },
+  "timestamp": "2026-11-25T00:13:53.510Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled plain\",\n      \"grams\": 130,\n      \"calories\": 168,\n      \"protein_g\": 11.2,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 12.5\n    },\n    {\n      \"name\": \"pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 100,\n      \"calories\": 50,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 13.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"watermelon\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 80,\n      \"calories\": 24,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"grapes\",\n      \"usda_query\": \"grapes raw\",\n      \"grams\": 60,\n      \"calories\": 41,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 10.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cantaloupe\",\n      \"usda_query\": \"cantaloupe melon raw\",\n      \"grams\": 70,\n      \"calories\": 25,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 6.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 308\n}",
+  "latency_ms": 11776,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled plain",
+        "grams": 130,
+        "calories": 168,
+        "protein_g": 11.2,
+        "carbs_g": 1.8,
+        "fat_g": 12.5
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 100,
+        "calories": 50,
+        "protein_g": 0.5,
+        "carbs_g": 13.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 80,
+        "calories": 24,
+        "protein_g": 0.5,
+        "carbs_g": 5.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grapes",
+        "usda_query": "grapes raw",
+        "grams": 60,
+        "calories": 41,
+        "protein_g": 0.4,
+        "carbs_g": 10.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "cantaloupe melon raw",
+        "grams": 70,
+        "calories": 25,
+        "protein_g": 0.6,
+        "carbs_g": 6.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 308
+  }
+}

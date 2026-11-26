@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455203",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f6b7da4695d8a493",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 723,
+    "reasoning_tokens": 357,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5809,
+    "ai_credits": 0.04363
+  },
+  "timestamp": "2026-11-25T00:28:30.386Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cucumber\",\n      \"usda_query\": \"cucumber peeled raw\",\n      \"grams\": 100,\n      \"calories\": 15,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Arugula\",\n      \"usda_query\": \"arugula raw\",\n      \"grams\": 55,\n      \"calories\": 14,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 7.9,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Black olives\",\n      \"usda_query\": \"ripe canned olives\",\n      \"grams\": 10,\n      \"calories\": 12,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 1.1\n    },\n    {\n      \"name\": \"Olive oil dressing\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 5,\n      \"calories\": 44,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 120\n}",
+  "latency_ms": 6968,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cucumber",
+        "usda_query": "cucumber peeled raw",
+        "grams": 100,
+        "calories": 15,
+        "protein_g": 0.7,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Arugula",
+        "usda_query": "arugula raw",
+        "grams": 55,
+        "calories": 14,
+        "protein_g": 1.4,
+        "carbs_g": 2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Green beans",
+        "usda_query": "green beans cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 1.9,
+        "carbs_g": 7.9,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Black olives",
+        "usda_query": "ripe canned olives",
+        "grams": 10,
+        "calories": 12,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 1.1
+      },
+      {
+        "name": "Olive oil dressing",
+        "usda_query": "olive oil",
+        "grams": 5,
+        "calories": 44,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 120
+  }
+}

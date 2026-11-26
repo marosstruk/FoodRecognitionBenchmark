@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568314951",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0f3440a9dec08352",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 857,
+    "reasoning_tokens": 495,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7799,
+    "ai_credits": 0.431925
+  },
+  "timestamp": "2026-11-25T00:08:45.517Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked white fish fillet\",\n      \"usda_query\": \"fish fillet cooked dry heat\",\n      \"grams\": 90,\n      \"calories\": 95,\n      \"protein_g\": 19.5,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"cooked beef steak\",\n      \"usda_query\": \"beef steak cooked\",\n      \"grams\": 75,\n      \"calories\": 160,\n      \"protein_g\": 20.0,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 8.5\n    },\n    {\n      \"name\": \"avocado slices\",\n      \"usda_query\": \"avocado raw\",\n      \"grams\": 45,\n      \"calories\": 72,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 6.6\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 55,\n      \"calories\": 10,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 337\n}",
+  "latency_ms": 8903,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked white fish fillet",
+        "usda_query": "fish fillet cooked dry heat",
+        "grams": 90,
+        "calories": 95,
+        "protein_g": 19.5,
+        "carbs_g": 0,
+        "fat_g": 1.5
+      },
+      {
+        "name": "cooked beef steak",
+        "usda_query": "beef steak cooked",
+        "grams": 75,
+        "calories": 160,
+        "protein_g": 20,
+        "carbs_g": 0,
+        "fat_g": 8.5
+      },
+      {
+        "name": "avocado slices",
+        "usda_query": "avocado raw",
+        "grams": 45,
+        "calories": 72,
+        "protein_g": 0.9,
+        "carbs_g": 3.8,
+        "fat_g": 6.6
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 55,
+        "calories": 10,
+        "protein_g": 0.5,
+        "carbs_g": 2.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 337
+  }
+}

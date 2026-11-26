@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367085",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f7e8f84ae376ccf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1316,
+    "reasoning_tokens": 805,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16885,
+    "ai_credits": 0.07328
+  },
+  "timestamp": "2026-11-25T00:18:00.906Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cucumber\",\n      \"usda_query\": \"cucumber peeled raw\",\n      \"grams\": 65,\n      \"calories\": 10,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 50,\n      \"calories\": 9,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Green bell pepper\",\n      \"usda_query\": \"peppers sweet green raw\",\n      \"grams\": 20,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 10,\n      \"calories\": 3,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cooked couscous\",\n      \"usda_query\": \"couscous cooked\",\n      \"grams\": 15,\n      \"calories\": 17,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 3.5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cooked chicken\",\n      \"usda_query\": \"chicken breast cooked roasted\",\n      \"grams\": 12,\n      \"calories\": 20,\n      \"protein_g\": 3.7,\n      \"carbs_g\": 0,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 71\n}",
+  "latency_ms": 17962,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cucumber",
+        "usda_query": "cucumber peeled raw",
+        "grams": 65,
+        "calories": 10,
+        "protein_g": 0.4,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Carrot",
+        "usda_query": "carrots raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      },
+      {
+        "name": "Green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 20,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.9,
+        "fat_g": 0
+      },
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 10,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "Cooked couscous",
+        "usda_query": "couscous cooked",
+        "grams": 15,
+        "calories": 17,
+        "protein_g": 0.6,
+        "carbs_g": 3.5,
+        "fat_g": 0
+      },
+      {
+        "name": "Cooked chicken",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 12,
+        "calories": 20,
+        "protein_g": 3.7,
+        "carbs_g": 0,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 71
+  }
+}

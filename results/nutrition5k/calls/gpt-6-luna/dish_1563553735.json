@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563553735",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "285f8e864a12e175",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1061,
+    "reasoning_tokens": 693,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11203,
+    "ai_credits": 0.06053
+  },
+  "timestamp": "2026-11-25T00:16:04.819Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce and mixed salad greens raw\",\n      \"grams\": 55,\n      \"calories\": 10,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"grilled chicken\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 25,\n      \"calories\": 41,\n      \"protein_g\": 7.8,\n      \"carbs_g\": 0,\n      \"fat_g\": 0.9\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 25,\n      \"calories\": 8,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"blackberries\",\n      \"usda_query\": \"blackberries raw\",\n      \"grams\": 10,\n      \"calories\": 4,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"salad dressing\",\n      \"usda_query\": \"vinaigrette dressing\",\n      \"grams\": 5,\n      \"calories\": 20,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 2.1\n    }\n  ],\n  \"total_calories\": 83\n}",
+  "latency_ms": 12076,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce and mixed salad greens raw",
+        "grams": 55,
+        "calories": 10,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grilled chicken",
+        "usda_query": "chicken breast grilled",
+        "grams": 25,
+        "calories": 41,
+        "protein_g": 7.8,
+        "carbs_g": 0,
+        "fat_g": 0.9
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "salad dressing",
+        "usda_query": "vinaigrette dressing",
+        "grams": 5,
+        "calories": 20,
+        "protein_g": 0,
+        "carbs_g": 0.3,
+        "fat_g": 2.1
+      }
+    ],
+    "total_calories": 83
+  }
+}

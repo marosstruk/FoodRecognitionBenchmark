@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561661972",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "426e61943c4fd0de",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 666,
+    "reasoning_tokens": 572,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4060,
+    "ai_credits": 0.0455025
+  },
+  "timestamp": "2026-11-25T00:10:23.806Z",
+  "raw_text": "{\"items\":[{\"name\":\"green beans sautéed\",\"usda_query\":\"beans snap green cooked boiled drained with oil\",\"grams\":90,\"calories\":59,\"protein_g\":1.6,\"carbs_g\":7.1,\"fat_g\":3.2}],\"total_calories\":59}",
+  "latency_ms": 4932,
+  "parsed": {
+    "items": [
+      {
+        "name": "green beans sautéed",
+        "usda_query": "beans snap green cooked boiled drained with oil",
+        "grams": 90,
+        "calories": 59,
+        "protein_g": 1.6,
+        "carbs_g": 7.1,
+        "fat_g": 3.2
+      }
+    ],
+    "total_calories": 59
+  }
+}

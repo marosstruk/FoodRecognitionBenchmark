@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572365610",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5e8564f930d06f33",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 339,
+    "reasoning_tokens": 229,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5912,
+    "ai_credits": 0.237675
+  },
+  "timestamp": "2026-11-25T00:12:16.051Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pico de gallo\",\n      \"usda_query\": \"pico de gallo\",\n      \"grams\": 130,\n      \"calories\": 36,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 7.5,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 36\n}",
+  "latency_ms": 6763,
+  "parsed": {
+    "items": [
+      {
+        "name": "pico de gallo",
+        "usda_query": "pico de gallo",
+        "grams": 130,
+        "calories": 36,
+        "protein_g": 1.5,
+        "carbs_g": 7.5,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 36
+  }
+}

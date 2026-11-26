@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564686657",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a123c67762c25a5f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1090,
+    "reasoning_tokens": 743,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5269,
+    "ai_credits": 0.0667025
+  },
+  "timestamp": "2026-11-25T00:22:49.311Z",
+  "raw_text": "{\"items\":[{\"name\":\"thin pizza crust\",\"usda_query\":\"pizza crust baked thin\",\"grams\":90,\"calories\":245,\"protein_g\":8,\"carbs_g\":46,\"fat_g\":3.5},{\"name\":\"mozzarella cheese\",\"usda_query\":\"mozzarella cheese whole milk\",\"grams\":35,\"calories\":98,\"protein_g\":7,\"carbs_g\":1,\"fat_g\":7.5},{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce canned\",\"grams\":20,\"calories\":17,\"protein_g\":0.4,\"carbs_g\":3.5,\"fat_g\":0.2},{\"name\":\"red onion\",\"usda_query\":\"onions raw red\",\"grams\":10,\"calories\":4,\"protein_g\":0.1,\"carbs_g\":1,\"fat_g\":0},{\"name\":\"black olives\",\"usda_query\":\"olives ripe canned\",\"grams\":10,\"calories\":12,\"protein_g\":0.1,\"carbs_g\":0.6,\"fat_g\":1.1}],\"total_calories\":376}",
+  "latency_ms": 6841,
+  "parsed": {
+    "items": [
+      {
+        "name": "thin pizza crust",
+        "usda_query": "pizza crust baked thin",
+        "grams": 90,
+        "calories": 245,
+        "protein_g": 8,
+        "carbs_g": 46,
+        "fat_g": 3.5
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese whole milk",
+        "grams": 35,
+        "calories": 98,
+        "protein_g": 7,
+        "carbs_g": 1,
+        "fat_g": 7.5
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce canned",
+        "grams": 20,
+        "calories": 17,
+        "protein_g": 0.4,
+        "carbs_g": 3.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw red",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 10,
+        "calories": 12,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 1.1
+      }
+    ],
+    "total_calories": 376
+  }
+}

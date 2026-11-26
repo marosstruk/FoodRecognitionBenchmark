@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566416421",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6181585d0c2bb98d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1016,
+    "reasoning_tokens": 718,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5288,
+    "ai_credits": 0.0630025
+  },
+  "timestamp": "2026-11-25T00:32:59.853Z",
+  "raw_text": "{\"items\":[{\"name\":\"green beans\",\"usda_query\":\"green beans cooked boiled drained without salt\",\"grams\":150,\"calories\":53,\"protein_g\":2.9,\"carbs_g\":11.9,\"fat_g\":0.2},{\"name\":\"roasted potato cubes\",\"usda_query\":\"potatoes roasted with oil and skin\",\"grams\":150,\"calories\":180,\"protein_g\":3,\"carbs_g\":25,\"fat_g\":7},{\"name\":\"roasted eggplant\",\"usda_query\":\"eggplant cooked sauteed with oil\",\"grams\":80,\"calories\":90,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":7},{\"name\":\"roasted chicken breast\",\"usda_query\":\"chicken breast meat only roasted\",\"grams\":120,\"calories\":198,\"protein_g\":37,\"carbs_g\":0,\"fat_g\":4.3}],\"total_calories\":521}",
+  "latency_ms": 6382,
+  "parsed": {
+    "items": [
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked boiled drained without salt",
+        "grams": 150,
+        "calories": 53,
+        "protein_g": 2.9,
+        "carbs_g": 11.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted potato cubes",
+        "usda_query": "potatoes roasted with oil and skin",
+        "grams": 150,
+        "calories": 180,
+        "protein_g": 3,
+        "carbs_g": 25,
+        "fat_g": 7
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked sauteed with oil",
+        "grams": 80,
+        "calories": 90,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 7
+      },
+      {
+        "name": "roasted chicken breast",
+        "usda_query": "chicken breast meat only roasted",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4.3
+      }
+    ],
+    "total_calories": 521
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558640008",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "71d7fd044fec7e86",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 987,
+    "reasoning_tokens": 709,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8475,
+    "ai_credits": 0.480675
+  },
+  "timestamp": "2026-11-25T00:40:01.152Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"whole almonds\",\n      \"usda_query\": \"almonds raw\",\n      \"grams\": 55,\n      \"calories\": 318,\n      \"protein_g\": 11.6,\n      \"carbs_g\": 11.9,\n      \"fat_g\": 27.5\n    },\n    {\n      \"name\": \"grape tomatoes\",\n      \"usda_query\": \"tomatoes grape raw\",\n      \"grams\": 85,\n      \"calories\": 15,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 3.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cantaloupe melon\",\n      \"usda_query\": \"cantaloupe raw\",\n      \"grams\": 60,\n      \"calories\": 20,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.9,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 353\n}",
+  "latency_ms": 9343,
+  "parsed": {
+    "items": [
+      {
+        "name": "whole almonds",
+        "usda_query": "almonds raw",
+        "grams": 55,
+        "calories": 318,
+        "protein_g": 11.6,
+        "carbs_g": 11.9,
+        "fat_g": 27.5
+      },
+      {
+        "name": "grape tomatoes",
+        "usda_query": "tomatoes grape raw",
+        "grams": 85,
+        "calories": 15,
+        "protein_g": 0.8,
+        "carbs_g": 3.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cantaloupe melon",
+        "usda_query": "cantaloupe raw",
+        "grams": 60,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 4.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 353
+  }
+}

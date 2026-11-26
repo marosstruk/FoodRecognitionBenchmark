@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562691383",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bb00dee9a75dc280",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 705,
+    "reasoning_tokens": 610,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10373,
+    "ai_credits": 0.04273
+  },
+  "timestamp": "2026-11-25T00:20:18.164Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted sweet potato\",\n      \"usda_query\": \"sweet potato baked\",\n      \"grams\": 90,\n      \"calories\": 81,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 18.6,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 81\n}",
+  "latency_ms": 11302,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato baked",
+        "grams": 90,
+        "calories": 81,
+        "protein_g": 1.8,
+        "carbs_g": 18.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 81
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455203",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f6b7da4695d8a493",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1336,
+    "reasoning_tokens": 972,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11652,
+    "ai_credits": 0.61155
+  },
+  "timestamp": "2026-11-25T00:28:39.262Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"honeydew melon\",\n      \"usda_query\": \"melon honeydew raw\",\n      \"grams\": 75,\n      \"calories\": 27,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 6.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"arugula\",\n      \"usda_query\": \"arugula raw\",\n      \"grams\": 35,\n      \"calories\": 9,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette\",\n      \"grams\": 10,\n      \"calories\": 45,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1.0,\n      \"fat_g\": 4.5\n    },\n    {\n      \"name\": \"sautéed green beans\",\n      \"usda_query\": \"green beans cooked with oil\",\n      \"grams\": 65,\n      \"calories\": 48,\n      \"protein_g\": 1.3,\n      \"carbs_g\": 5.1,\n      \"fat_g\": 2.8\n    }\n  ],\n  \"total_calories\": 129\n}",
+  "latency_ms": 12499,
+  "parsed": {
+    "items": [
+      {
+        "name": "honeydew melon",
+        "usda_query": "melon honeydew raw",
+        "grams": 75,
+        "calories": 27,
+        "protein_g": 0.4,
+        "carbs_g": 6.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "arugula",
+        "usda_query": "arugula raw",
+        "grams": 35,
+        "calories": 9,
+        "protein_g": 0.9,
+        "carbs_g": 1.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 10,
+        "calories": 45,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 4.5
+      },
+      {
+        "name": "sautéed green beans",
+        "usda_query": "green beans cooked with oil",
+        "grams": 65,
+        "calories": 48,
+        "protein_g": 1.3,
+        "carbs_g": 5.1,
+        "fat_g": 2.8
+      }
+    ],
+    "total_calories": 129
+  }
+}

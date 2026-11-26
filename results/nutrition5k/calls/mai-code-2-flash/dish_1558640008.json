@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558640008",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "71d7fd044fec7e86",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1137,
+    "reasoning_tokens": 901,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14112,
+    "ai_credits": 0.032165
+  },
+  "timestamp": "2026-11-25T00:40:04.086Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked lima beans\",\n      \"usda_query\": \"lima beans cooked\",\n      \"grams\": 100,\n      \"calories\": 115,\n      \"protein_g\": 7.8,\n      \"carbs_g\": 20.9,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"cheddar cheese\",\n      \"usda_query\": \"cheddar cheese\",\n      \"grams\": 70,\n      \"calories\": 282,\n      \"protein_g\": 17.5,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 23.2\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes cherry\",\n      \"grams\": 45,\n      \"calories\": 8,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.7,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 405\n}",
+  "latency_ms": 14975,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked lima beans",
+        "usda_query": "lima beans cooked",
+        "grams": 100,
+        "calories": 115,
+        "protein_g": 7.8,
+        "carbs_g": 20.9,
+        "fat_g": 0.4
+      },
+      {
+        "name": "cheddar cheese",
+        "usda_query": "cheddar cheese",
+        "grams": 70,
+        "calories": 282,
+        "protein_g": 17.5,
+        "carbs_g": 0.9,
+        "fat_g": 23.2
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry",
+        "grams": 45,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 405
+  }
+}

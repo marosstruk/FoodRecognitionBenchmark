@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562862550",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39c5c0ea69fac195",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 865,
+    "reasoning_tokens": 593,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4498,
+    "ai_credits": 0.0554525
+  },
+  "timestamp": "2026-11-25T00:38:03.783Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with butter\",\"grams\":120,\"calories\":200,\"protein_g\":13,\"carbs_g\":2,\"fat_g\":15},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":100,\"calories\":32,\"protein_g\":0.7,\"carbs_g\":7.7,\"fat_g\":0.3},{\"name\":\"bagel\",\"usda_query\":\"bagel plain toasted\",\"grams\":60,\"calories\":165,\"protein_g\":6,\"carbs_g\":32,\"fat_g\":1},{\"name\":\"cream cheese\",\"usda_query\":\"cream cheese regular\",\"grams\":30,\"calories\":100,\"protein_g\":2,\"carbs_g\":1,\"fat_g\":10}],\"total_calories\":497}",
+  "latency_ms": 5606,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with butter",
+        "grams": 120,
+        "calories": 200,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 15
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 100,
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "bagel",
+        "usda_query": "bagel plain toasted",
+        "grams": 60,
+        "calories": 165,
+        "protein_g": 6,
+        "carbs_g": 32,
+        "fat_g": 1
+      },
+      {
+        "name": "cream cheese",
+        "usda_query": "cream cheese regular",
+        "grams": 30,
+        "calories": 100,
+        "protein_g": 2,
+        "carbs_g": 1,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 497
+  }
+}

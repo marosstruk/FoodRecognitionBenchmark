@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560801020",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7b43c2a210b7aef3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1538,
+    "reasoning_tokens": 1089,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7161,
+    "ai_credits": 0.0891025
+  },
+  "timestamp": "2026-11-25T00:25:52.969Z",
+  "raw_text": "{\"items\":[{\"name\":\"Roasted cauliflower\",\"usda_query\":\"cauliflower cooked boiled drained\",\"grams\":100,\"calories\":25,\"protein_g\":1.9,\"carbs_g\":5,\"fat_g\":0.3},{\"name\":\"Bulgur wheat\",\"usda_query\":\"bulgur wheat cooked\",\"grams\":100,\"calories\":83,\"protein_g\":3.1,\"carbs_g\":18.6,\"fat_g\":0.2},{\"name\":\"Mixed salad greens\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"Roasted beetroot\",\"usda_query\":\"beets cooked boiled drained\",\"grams\":60,\"calories\":26,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":0.1},{\"name\":\"Pan-fried tofu\",\"usda_query\":\"tofu firm pan-fried\",\"grams\":50,\"calories\":85,\"protein_g\":6,\"carbs_g\":2.5,\"fat_g\":6},{\"name\":\"Vinaigrette dressing\",\"usda_query\":\"salad dressing vinaigrette italian regular\",\"grams\":10,\"calories\":45,\"protein_g\":0.1,\"carbs_g\":2,\"fat_g\":4.5}],\"total_calories\":278}",
+  "latency_ms": 8004,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted cauliflower",
+        "usda_query": "cauliflower cooked boiled drained",
+        "grams": 100,
+        "calories": 25,
+        "protein_g": 1.9,
+        "carbs_g": 5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Bulgur wheat",
+        "usda_query": "bulgur wheat cooked",
+        "grams": 100,
+        "calories": 83,
+        "protein_g": 3.1,
+        "carbs_g": 18.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Mixed salad greens",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Roasted beetroot",
+        "usda_query": "beets cooked boiled drained",
+        "grams": 60,
+        "calories": 26,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Pan-fried tofu",
+        "usda_query": "tofu firm pan-fried",
+        "grams": 50,
+        "calories": 85,
+        "protein_g": 6,
+        "carbs_g": 2.5,
+        "fat_g": 6
+      },
+      {
+        "name": "Vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette italian regular",
+        "grams": 10,
+        "calories": 45,
+        "protein_g": 0.1,
+        "carbs_g": 2,
+        "fat_g": 4.5
+      }
+    ],
+    "total_calories": 278
+  }
+}

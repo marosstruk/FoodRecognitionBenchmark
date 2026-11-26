@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560888849",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "449de1e0794f5961",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1290,
+    "reasoning_tokens": 1112,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 19422,
+    "ai_credits": 0.03599
+  },
+  "timestamp": "2026-11-25T00:37:37.546Z",
+  "raw_text": "{\"items\":[{\"name\":\"breaded chicken cutlet\",\"usda_query\":\"chicken breast breaded fried\",\"grams\":150,\"calories\":320,\"protein_g\":30,\"carbs_g\":18,\"fat_g\":14},{\"name\":\"fried potato wedge\",\"usda_query\":\"potato wedge fried\",\"grams\":70,\"calories\":150,\"protein_g\":3,\"carbs_g\":24,\"fat_g\":5},{\"name\":\"chopped fried onions\",\"usda_query\":\"onions fried\",\"grams\":25,\"calories\":35,\"protein_g\":1,\"carbs_g\":5,\"fat_g\":2},{\"name\":\"brown gravy\",\"usda_query\":\"brown gravy\",\"grams\":15,\"calories\":20,\"protein_g\":0,\"carbs_g\":3,\"fat_g\":1}],\"total_calories\":525}",
+  "latency_ms": 20537,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded chicken cutlet",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 150,
+        "calories": 320,
+        "protein_g": 30,
+        "carbs_g": 18,
+        "fat_g": 14
+      },
+      {
+        "name": "fried potato wedge",
+        "usda_query": "potato wedge fried",
+        "grams": 70,
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 24,
+        "fat_g": 5
+      },
+      {
+        "name": "chopped fried onions",
+        "usda_query": "onions fried",
+        "grams": 25,
+        "calories": 35,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 2
+      },
+      {
+        "name": "brown gravy",
+        "usda_query": "brown gravy",
+        "grams": 15,
+        "calories": 20,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 525
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561480460",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fa2542ce54e31a85",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1169,
+    "reasoning_tokens": 816,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5363,
+    "ai_credits": 0.0706525
+  },
+  "timestamp": "2026-11-25T00:13:49.756Z",
+  "raw_text": "{\"items\":[{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":90,\"calories\":47,\"protein_g\":1.1,\"carbs_g\":10.7,\"fat_g\":0.6},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":60,\"calories\":26,\"protein_g\":0.8,\"carbs_g\":5.8,\"fat_g\":0.3},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":179,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"cantaloupe\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":120,\"calories\":41,\"protein_g\":1,\"carbs_g\":9.8,\"fat_g\":0.2},{\"name\":\"pork sausage slices\",\"usda_query\":\"pork sausage patty cooked pan-fried\",\"grams\":60,\"calories\":180,\"protein_g\":11,\"carbs_g\":1,\"fat_g\":15}],\"total_calories\":473}",
+  "latency_ms": 6442,
+  "parsed": {
+    "items": [
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 90,
+        "calories": 47,
+        "protein_g": 1.1,
+        "carbs_g": 10.7,
+        "fat_g": 0.6
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 60,
+        "calories": 26,
+        "protein_g": 0.8,
+        "carbs_g": 5.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 120,
+        "calories": 41,
+        "protein_g": 1,
+        "carbs_g": 9.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "pork sausage slices",
+        "usda_query": "pork sausage patty cooked pan-fried",
+        "grams": 60,
+        "calories": 180,
+        "protein_g": 11,
+        "carbs_g": 1,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 473
+  }
+}

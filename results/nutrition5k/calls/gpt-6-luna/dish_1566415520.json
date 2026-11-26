@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566415520",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f8b1a045ba723ae",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 348,
+    "reasoning_tokens": 251,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5748,
+    "ai_credits": 0.02488
+  },
+  "timestamp": "2026-11-25T00:29:16.202Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked green beans\",\n      \"usda_query\": \"green beans cooked boiled drained\",\n      \"grams\": 140,\n      \"calories\": 49,\n      \"protein_g\": 2.7,\n      \"carbs_g\": 11.1,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 49\n}",
+  "latency_ms": 6629,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked green beans",
+        "usda_query": "green beans cooked boiled drained",
+        "grams": 140,
+        "calories": 49,
+        "protein_g": 2.7,
+        "carbs_g": 11.1,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 49
+  }
+}

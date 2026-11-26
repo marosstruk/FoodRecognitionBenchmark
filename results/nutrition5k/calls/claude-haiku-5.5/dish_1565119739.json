@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565119739",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d055d9d7e96bb864",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1321,
+    "reasoning_tokens": 947,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7404,
+    "ai_credits": 0.0782525
+  },
+  "timestamp": "2026-11-25T00:08:27.684Z",
+  "raw_text": "{\"items\":[{\"name\":\"sliced beef steak\",\"usda_query\":\"beef top sirloin steak cooked broiled\",\"grams\":100,\"calories\":215,\"protein_g\":27,\"carbs_g\":0,\"fat_g\":11},{\"name\":\"pearl couscous with raisins\",\"usda_query\":\"couscous cooked with raisins\",\"grams\":150,\"calories\":180,\"protein_g\":6,\"carbs_g\":36,\"fat_g\":1.5},{\"name\":\"sautéed kale\",\"usda_query\":\"kale cooked boiled drained with oil\",\"grams\":100,\"calories\":80,\"protein_g\":3,\"carbs_g\":7,\"fat_g\":5},{\"name\":\"sautéed yellow squash\",\"usda_query\":\"squash summer yellow cooked sauteed\",\"grams\":100,\"calories\":50,\"protein_g\":2,\"carbs_g\":6,\"fat_g\":2.5},{\"name\":\"sautéed zucchini\",\"usda_query\":\"squash summer zucchini cooked sauteed\",\"grams\":50,\"calories\":15,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":0.5}],\"total_calories\":540}",
+  "latency_ms": 10941,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced beef steak",
+        "usda_query": "beef top sirloin steak cooked broiled",
+        "grams": 100,
+        "calories": 215,
+        "protein_g": 27,
+        "carbs_g": 0,
+        "fat_g": 11
+      },
+      {
+        "name": "pearl couscous with raisins",
+        "usda_query": "couscous cooked with raisins",
+        "grams": 150,
+        "calories": 180,
+        "protein_g": 6,
+        "carbs_g": 36,
+        "fat_g": 1.5
+      },
+      {
+        "name": "sautéed kale",
+        "usda_query": "kale cooked boiled drained with oil",
+        "grams": 100,
+        "calories": 80,
+        "protein_g": 3,
+        "carbs_g": 7,
+        "fat_g": 5
+      },
+      {
+        "name": "sautéed yellow squash",
+        "usda_query": "squash summer yellow cooked sauteed",
+        "grams": 100,
+        "calories": 50,
+        "protein_g": 2,
+        "carbs_g": 6,
+        "fat_g": 2.5
+      },
+      {
+        "name": "sautéed zucchini",
+        "usda_query": "squash summer zucchini cooked sauteed",
+        "grams": 50,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 540
+  }
+}

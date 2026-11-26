@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564073716",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c5ae523b8589b645",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1063,
+    "reasoning_tokens": 829,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5153,
+    "ai_credits": 0.0653525
+  },
+  "timestamp": "2026-11-25T00:34:16.019Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole scrambled cooked\",\"grams\":100,\"calories\":149,\"protein_g\":10,\"carbs_g\":2,\"fat_g\":11},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked in skin flesh\",\"grams\":80,\"calories\":72,\"protein_g\":2,\"carbs_g\":17,\"fat_g\":0},{\"name\":\"mashed white potato\",\"usda_query\":\"potatoes mashed prepared from fresh flesh and skin cooked\",\"grams\":150,\"calories\":130,\"protein_g\":3,\"carbs_g\":30,\"fat_g\":0}],\"total_calories\":351}",
+  "latency_ms": 6027,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole scrambled cooked",
+        "grams": 100,
+        "calories": 149,
+        "protein_g": 10,
+        "carbs_g": 2,
+        "fat_g": 11
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked in skin flesh",
+        "grams": 80,
+        "calories": 72,
+        "protein_g": 2,
+        "carbs_g": 17,
+        "fat_g": 0
+      },
+      {
+        "name": "mashed white potato",
+        "usda_query": "potatoes mashed prepared from fresh flesh and skin cooked",
+        "grams": 150,
+        "calories": 130,
+        "protein_g": 3,
+        "carbs_g": 30,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 351
+  }
+}

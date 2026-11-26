@@ -1,0 +1,126 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640601",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "47fe1eb34b71fecc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1988,
+    "reasoning_tokens": 1251,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18498,
+    "ai_credits": 0.05344
+  },
+  "timestamp": "2026-11-25T00:20:56.063Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled chicken pieces\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 120,\n      \"calories\": 198,\n      \"protein_g\": 37,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce mixed greens raw\",\n      \"grams\": 70,\n      \"calories\": 16,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 60,\n      \"calories\": 22,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"asparagus\",\n      \"usda_query\": \"asparagus cooked\",\n      \"grams\": 50,\n      \"calories\": 22,\n      \"protein_g\": 2,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomatoes\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 50,\n      \"calories\": 9,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 40,\n      \"calories\": 17,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"bell pepper\",\n      \"usda_query\": \"bell pepper red raw\",\n      \"grams\": 30,\n      \"calories\": 9,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 80,\n      \"calories\": 70,\n      \"protein_g\": 2,\n      \"carbs_g\": 15,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"creamy salad dressing\",\n      \"usda_query\": \"creamy salad dressing\",\n      \"grams\": 25,\n      \"calories\": 125,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 13\n    },\n    {\n      \"name\": \"balsamic vinaigrette\",\n      \"usda_query\": \"balsamic vinaigrette\",\n      \"grams\": 15,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 4,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 541\n}",
+  "latency_ms": 19628,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken pieces",
+        "usda_query": "chicken breast grilled",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 70,
+        "calories": 16,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 60,
+        "calories": 22,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "asparagus",
+        "usda_query": "asparagus cooked",
+        "grams": 50,
+        "calories": 22,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "tomatoes",
+        "usda_query": "tomatoes red raw",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 40,
+        "calories": 17,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "bell pepper",
+        "usda_query": "bell pepper red raw",
+        "grams": 30,
+        "calories": 9,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 80,
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 15,
+        "fat_g": 1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "creamy salad dressing",
+        "usda_query": "creamy salad dressing",
+        "grams": 25,
+        "calories": 125,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 13
+      },
+      {
+        "name": "balsamic vinaigrette",
+        "usda_query": "balsamic vinaigrette",
+        "grams": 15,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 4,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 541
+  }
+}

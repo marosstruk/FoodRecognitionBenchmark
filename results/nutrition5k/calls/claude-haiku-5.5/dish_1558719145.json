@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558719145",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "27ee793652394dd6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 741,
+    "reasoning_tokens": 454,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3394,
+    "ai_credits": 0.0492525
+  },
+  "timestamp": "2026-11-25T00:08:44.906Z",
+  "raw_text": "{\"items\":[{\"name\":\"apple\",\"usda_query\":\"apples raw with skin\",\"grams\":182,\"calories\":95,\"protein_g\":0.5,\"carbs_g\":25,\"fat_g\":0.3},{\"name\":\"cantaloupe\",\"usda_query\":\"cantaloupe raw\",\"grams\":150,\"calories\":51,\"protein_g\":1.2,\"carbs_g\":12.3,\"fat_g\":0.3},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":150,\"calories\":27,\"protein_g\":1.3,\"carbs_g\":5.8,\"fat_g\":0.3},{\"name\":\"almonds\",\"usda_query\":\"almonds raw\",\"grams\":40,\"calories\":232,\"protein_g\":8.5,\"carbs_g\":8.6,\"fat_g\":20.0}],\"total_calories\":405}",
+  "latency_ms": 4266,
+  "parsed": {
+    "items": [
+      {
+        "name": "apple",
+        "usda_query": "apples raw with skin",
+        "grams": 182,
+        "calories": 95,
+        "protein_g": 0.5,
+        "carbs_g": 25,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "cantaloupe raw",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 1.2,
+        "carbs_g": 12.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 150,
+        "calories": 27,
+        "protein_g": 1.3,
+        "carbs_g": 5.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "almonds",
+        "usda_query": "almonds raw",
+        "grams": 40,
+        "calories": 232,
+        "protein_g": 8.5,
+        "carbs_g": 8.6,
+        "fat_g": 20
+      }
+    ],
+    "total_calories": 405
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568056217",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "53b9a5591ff15410",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 876,
+    "reasoning_tokens": 531,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4119,
+    "ai_credits": 0.0560025
+  },
+  "timestamp": "2026-11-25T00:36:14.366Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked chicken breast\",\"usda_query\":\"chicken breast roasted skinless meat only\",\"grams\":150,\"calories\":248,\"protein_g\":46.5,\"carbs_g\":0,\"fat_g\":5.4},{\"name\":\"raw carrot, shredded\",\"usda_query\":\"carrots raw\",\"grams\":60,\"calories\":25,\"protein_g\":0.5,\"carbs_g\":5.8,\"fat_g\":0.1},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":80,\"calories\":14,\"protein_g\":0.7,\"carbs_g\":3.1,\"fat_g\":0.2},{\"name\":\"raw red onion\",\"usda_query\":\"onions raw\",\"grams\":10,\"calories\":4,\"protein_g\":0.1,\"carbs_g\":0.9,\"fat_g\":0},{\"name\":\"\",\"usda_query\":\"\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":291}",
+  "latency_ms": 5264,
+  "error": "items[4] has no name"
+}

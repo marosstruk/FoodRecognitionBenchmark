@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572291722",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b3d2a8a8ff9a02dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 791,
+    "reasoning_tokens": 565,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4272,
+    "ai_credits": 0.0517525
+  },
+  "timestamp": "2026-11-25T00:37:31.350Z",
+  "raw_text": "{\"items\":[{\"name\":\"sliced roasted chicken breast\",\"usda_query\":\"chicken breast meat roasted no skin\",\"grams\":120,\"calories\":198,\"protein_g\":37,\"carbs_g\":0,\"fat_g\":4},{\"name\":\"cucumber slices\",\"usda_query\":\"cucumber raw with peel\",\"grams\":100,\"calories\":15,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":0},{\"name\":\"mashed sweet potato\",\"usda_query\":\"sweet potato cooked baked mashed without skin\",\"grams\":80,\"calories\":72,\"protein_g\":2,\"carbs_g\":17,\"fat_g\":0}],\"total_calories\":285}",
+  "latency_ms": 5847,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced roasted chicken breast",
+        "usda_query": "chicken breast meat roasted no skin",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "cucumber slices",
+        "usda_query": "cucumber raw with peel",
+        "grams": 100,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "mashed sweet potato",
+        "usda_query": "sweet potato cooked baked mashed without skin",
+        "grams": 80,
+        "calories": 72,
+        "protein_g": 2,
+        "carbs_g": 17,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 285
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558636928",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1c2f13ccd528102e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 349,
+    "reasoning_tokens": 259,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3116,
+    "ai_credits": 0.0296525
+  },
+  "timestamp": "2026-11-25T00:09:58.927Z",
+  "raw_text": "{\"items\":[{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":180,\"calories\":32,\"protein_g\":1.6,\"carbs_g\":7.0,\"fat_g\":0.4}],\"total_calories\":32}",
+  "latency_ms": 4020,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 180,
+        "calories": 32,
+        "protein_g": 1.6,
+        "carbs_g": 7,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 32
+  }
+}

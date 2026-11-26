@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559320019",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "227039a6a70b98aa",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1624,
+    "reasoning_tokens": 1161,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6975,
+    "ai_credits": 0.0934025
+  },
+  "timestamp": "2026-11-25T00:16:42.895Z",
+  "raw_text": "{\"items\":[{\"name\":\"bacon\",\"usda_query\":\"bacon pan-fried cooked\",\"grams\":30,\"calories\":162,\"protein_g\":11,\"carbs_g\":0,\"fat_g\":13},{\"name\":\"French toast cubes\",\"usda_query\":\"french toast homemade\",\"grams\":150,\"calories\":345,\"protein_g\":12,\"carbs_g\":39,\"fat_g\":16.5},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw\",\"grams\":50,\"calories\":25,\"protein_g\":0.3,\"carbs_g\":6.6,\"fat_g\":0.1},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":80,\"calories\":26,\"protein_g\":0.6,\"carbs_g\":6.2,\"fat_g\":0.3},{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":30,\"calories\":16,\"protein_g\":0.4,\"carbs_g\":3.6,\"fat_g\":0.2},{\"name\":\"blackberry\",\"usda_query\":\"blackberries raw\",\"grams\":6,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.6,\"fat_g\":0},{\"name\":\"blackberry\",\"usda_query\":\"blackberries raw\",\"grams\":6,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.6,\"fat_g\":0}],\"total_calories\":580}",
+  "latency_ms": 8099,
+  "parsed": {
+    "items": [
+      {
+        "name": "bacon",
+        "usda_query": "bacon pan-fried cooked",
+        "grams": 30,
+        "calories": 162,
+        "protein_g": 11,
+        "carbs_g": 0,
+        "fat_g": 13
+      },
+      {
+        "name": "French toast cubes",
+        "usda_query": "french toast homemade",
+        "grams": 150,
+        "calories": 345,
+        "protein_g": 12,
+        "carbs_g": 39,
+        "fat_g": 16.5
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 50,
+        "calories": 25,
+        "protein_g": 0.3,
+        "carbs_g": 6.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6.2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 30,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blackberry",
+        "usda_query": "blackberries raw",
+        "grams": 6,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "blackberry",
+        "usda_query": "blackberries raw",
+        "grams": 6,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 580
+  }
+}

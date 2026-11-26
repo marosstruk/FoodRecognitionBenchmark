@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565728684",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "531666e3c274cb2f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1556,
+    "reasoning_tokens": 1250,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15787,
+    "ai_credits": 0.04264
+  },
+  "timestamp": "2026-11-25T00:23:23.951Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed leafy greens\",\"usda_query\":\"lettuce mixed greens raw\",\"grams\":60,\"calories\":10,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"breaded fried chicken\",\"usda_query\":\"chicken breast breaded fried\",\"grams\":180,\"calories\":504,\"protein_g\":36,\"carbs_g\":25,\"fat_g\":29},{\"name\":\"pineapple chunks\",\"usda_query\":\"pineapple raw\",\"grams\":60,\"calories\":30,\"protein_g\":0,\"carbs_g\":8,\"fat_g\":0},{\"name\":\"roasted potatoes\",\"usda_query\":\"potato roasted with oil\",\"grams\":120,\"calories\":180,\"protein_g\":4,\"carbs_g\":32,\"fat_g\":5},{\"name\":\"roasted zucchini\",\"usda_query\":\"zucchini cooked with oil\",\"grams\":80,\"calories\":48,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":3},{\"name\":\"roasted eggplant\",\"usda_query\":\"eggplant cooked with oil\",\"grams\":70,\"calories\":42,\"protein_g\":1,\"carbs_g\":7,\"fat_g\":2},{\"name\":\"oil-based dressing\",\"usda_query\":\"vinaigrette salad dressing\",\"grams\":15,\"calories\":60,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":6}],\"total_calories\":874}",
+  "latency_ms": 16900,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "breaded fried chicken",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 180,
+        "calories": 504,
+        "protein_g": 36,
+        "carbs_g": 25,
+        "fat_g": 29
+      },
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 60,
+        "calories": 30,
+        "protein_g": 0,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potato roasted with oil",
+        "grams": 120,
+        "calories": 180,
+        "protein_g": 4,
+        "carbs_g": 32,
+        "fat_g": 5
+      },
+      {
+        "name": "roasted zucchini",
+        "usda_query": "zucchini cooked with oil",
+        "grams": 80,
+        "calories": 48,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 3
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked with oil",
+        "grams": 70,
+        "calories": 42,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 2
+      },
+      {
+        "name": "oil-based dressing",
+        "usda_query": "vinaigrette salad dressing",
+        "grams": 15,
+        "calories": 60,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 874
+  }
+}

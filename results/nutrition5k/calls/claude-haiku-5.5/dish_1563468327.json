@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563468327",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e710fec7c79dfcad",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1670,
+    "reasoning_tokens": 1102,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7240,
+    "ai_credits": 0.0957025
+  },
+  "timestamp": "2026-11-25T00:33:35.113Z",
+  "raw_text": "{\"items\":[{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":60,\"calories\":31,\"protein_g\":0.7,\"carbs_g\":7.1,\"fat_g\":0.4},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":45,\"calories\":19,\"protein_g\":0.6,\"carbs_g\":4.3,\"fat_g\":0.2},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":5,\"calories\":3,\"protein_g\":0,\"carbs_g\":0.7,\"fat_g\":0},{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":150,\"calories\":45,\"protein_g\":0.9,\"carbs_g\":11.4,\"fat_g\":0.3},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":120,\"calories\":60,\"protein_g\":0.6,\"carbs_g\":15.7,\"fat_g\":0.1},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato baked flesh without skin\",\"grams\":80,\"calories\":75,\"protein_g\":1.6,\"carbs_g\":17,\"fat_g\":0.5},{\"name\":\"mixed roasted root vegetables\",\"usda_query\":\"vegetables mixed roasted with oil\",\"grams\":60,\"calories\":80,\"protein_g\":1.2,\"carbs_g\":13,\"fat_g\":2.5},{\"name\":\"cottage cheese\",\"usda_query\":\"cottage cheese lowfat 2% milkfat\",\"grams\":110,\"calories\":89,\"protein_g\":13,\"carbs_g\":3.7,\"fat_g\":2.5}],\"total_calories\":402}",
+  "latency_ms": 8119,
+  "parsed": {
+    "items": [
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 60,
+        "calories": 31,
+        "protein_g": 0.7,
+        "carbs_g": 7.1,
+        "fat_g": 0.4
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 45,
+        "calories": 19,
+        "protein_g": 0.6,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 5,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 150,
+        "calories": 45,
+        "protein_g": 0.9,
+        "carbs_g": 11.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 0.6,
+        "carbs_g": 15.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato baked flesh without skin",
+        "grams": 80,
+        "calories": 75,
+        "protein_g": 1.6,
+        "carbs_g": 17,
+        "fat_g": 0.5
+      },
+      {
+        "name": "mixed roasted root vegetables",
+        "usda_query": "vegetables mixed roasted with oil",
+        "grams": 60,
+        "calories": 80,
+        "protein_g": 1.2,
+        "carbs_g": 13,
+        "fat_g": 2.5
+      },
+      {
+        "name": "cottage cheese",
+        "usda_query": "cottage cheese lowfat 2% milkfat",
+        "grams": 110,
+        "calories": 89,
+        "protein_g": 13,
+        "carbs_g": 3.7,
+        "fat_g": 2.5
+      }
+    ],
+    "total_calories": 402
+  }
+}

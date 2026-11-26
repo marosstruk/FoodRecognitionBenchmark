@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559578579",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "af9eee406dffc389",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 412,
+    "reasoning_tokens": 244,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7047,
+    "ai_credits": 0.02808
+  },
+  "timestamp": "2026-11-25T00:40:08.529Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 25,\n      \"calories\": 135,\n      \"protein_g\": 9.3,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 10.5\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 75,\n      \"calories\": 24,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 5.8,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 159\n}",
+  "latency_ms": 7977,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 25,
+        "calories": 135,
+        "protein_g": 9.3,
+        "carbs_g": 0.1,
+        "fat_g": 10.5
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 75,
+        "calories": 24,
+        "protein_g": 0.5,
+        "carbs_g": 5.8,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 159
+  }
+}

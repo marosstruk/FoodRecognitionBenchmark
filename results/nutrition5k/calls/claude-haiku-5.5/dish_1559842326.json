@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559842326",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d347d2aaac2624a1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 522,
+    "reasoning_tokens": 367,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3056,
+    "ai_credits": 0.0383025
+  },
+  "timestamp": "2026-11-25T00:19:26.843Z",
+  "raw_text": "{\"items\":[{\"name\":\"almonds\",\"usda_query\":\"nuts almonds raw\",\"grams\":36,\"calories\":208,\"protein_g\":7.6,\"carbs_g\":7.8,\"fat_g\":18.0},{\"name\":\"mandarin orange\",\"usda_query\":\"tangerines mandarin orange raw\",\"grams\":80,\"calories\":42,\"protein_g\":0.6,\"carbs_g\":10.6,\"fat_g\":0.2}],\"total_calories\":250}",
+  "latency_ms": 4198,
+  "parsed": {
+    "items": [
+      {
+        "name": "almonds",
+        "usda_query": "nuts almonds raw",
+        "grams": 36,
+        "calories": 208,
+        "protein_g": 7.6,
+        "carbs_g": 7.8,
+        "fat_g": 18
+      },
+      {
+        "name": "mandarin orange",
+        "usda_query": "tangerines mandarin orange raw",
+        "grams": 80,
+        "calories": 42,
+        "protein_g": 0.6,
+        "carbs_g": 10.6,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 250
+  }
+}

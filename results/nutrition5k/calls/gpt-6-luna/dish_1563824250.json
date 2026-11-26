@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824250",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0f649792b0fec5e4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 168,
+    "reasoning_tokens": 75,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 3994,
+    "ai_credits": 0.01588
+  },
+  "timestamp": "2026-11-25T00:11:44.483Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"sliced red onion\",\n      \"usda_query\": \"onions raw\",\n      \"grams\": 45,\n      \"calories\": 18,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.2,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 18\n}",
+  "latency_ms": 5162,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced red onion",
+        "usda_query": "onions raw",
+        "grams": 45,
+        "calories": 18,
+        "protein_g": 0.5,
+        "carbs_g": 4.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 18
+  }
+}

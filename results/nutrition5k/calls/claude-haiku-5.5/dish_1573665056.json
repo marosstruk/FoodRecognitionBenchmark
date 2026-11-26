@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573665056",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3cc6eb1f421912b9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 654,
+    "reasoning_tokens": 503,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4377,
+    "ai_credits": 0.0449025
+  },
+  "timestamp": "2026-11-25T00:15:34.105Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":175,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"pork sausage\",\"usda_query\":\"pork sausage link cooked pan-fried\",\"grams\":100,\"calories\":300,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":27}],\"total_calories\":475}",
+  "latency_ms": 5504,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 175,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "pork sausage",
+        "usda_query": "pork sausage link cooked pan-fried",
+        "grams": 100,
+        "calories": 300,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 27
+      }
+    ],
+    "total_calories": 475
+  }
+}

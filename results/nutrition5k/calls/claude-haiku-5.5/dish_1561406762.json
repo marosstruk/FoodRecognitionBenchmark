@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561406762",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "75a72e3e5a2e3534",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 440,
+    "reasoning_tokens": 341,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3323,
+    "ai_credits": 0.0342025
+  },
+  "timestamp": "2026-11-25T00:16:09.243Z",
+  "raw_text": "{\"items\": [{\"name\": \"glazed carrots\", \"usda_query\": \"carrots cooked boiled drained with butter and sugar\", \"grams\": 120, \"calories\": 95, \"protein_g\": 1, \"carbs_g\": 18, \"fat_g\": 2.5}], \"total_calories\": 95}",
+  "latency_ms": 4417,
+  "parsed": {
+    "items": [
+      {
+        "name": "glazed carrots",
+        "usda_query": "carrots cooked boiled drained with butter and sugar",
+        "grams": 120,
+        "calories": 95,
+        "protein_g": 1,
+        "carbs_g": 18,
+        "fat_g": 2.5
+      }
+    ],
+    "total_calories": 95
+  }
+}

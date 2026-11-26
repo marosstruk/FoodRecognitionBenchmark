@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563811463",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bb7083248016d4c2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1156,
+    "reasoning_tokens": 639,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11258,
+    "ai_credits": 0.03264
+  },
+  "timestamp": "2026-11-25T00:22:16.759Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mashed potatoes\",\n      \"usda_query\": \"mashed potatoes prepared\",\n      \"grams\": 160,\n      \"calories\": 173,\n      \"protein_g\": 4.3,\n      \"carbs_g\": 27.2,\n      \"fat_g\": 5.8\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 120,\n      \"calories\": 170,\n      \"protein_g\": 3.6,\n      \"carbs_g\": 30.0,\n      \"fat_g\": 4.7\n    },\n    {\n      \"name\": \"cooked carrots\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 80,\n      \"calories\": 35,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.1,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"braised beef\",\n      \"usda_query\": \"beef chuck braised\",\n      \"grams\": 90,\n      \"calories\": 219,\n      \"protein_g\": 20.2,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 15.1\n    },\n    {\n      \"name\": \"cooked cabbage\",\n      \"usda_query\": \"cabbage cooked\",\n      \"grams\": 70,\n      \"calories\": 16,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"brown gravy\",\n      \"usda_query\": \"brown gravy prepared\",\n      \"grams\": 30,\n      \"calories\": 20,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 0.8\n    },\n    {\n      \"name\": \"tomato soup\",\n      \"usda_query\": \"tomato soup\",\n      \"grams\": 180,\n      \"calories\": 91,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 13.9,\n      \"fat_g\": 3.1\n    }\n  ],\n  \"total_calories\": 724\n}",
+  "latency_ms": 12364,
+  "parsed": {
+    "items": [
+      {
+        "name": "mashed potatoes",
+        "usda_query": "mashed potatoes prepared",
+        "grams": 160,
+        "calories": 173,
+        "protein_g": 4.3,
+        "carbs_g": 27.2,
+        "fat_g": 5.8
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 120,
+        "calories": 170,
+        "protein_g": 3.6,
+        "carbs_g": 30,
+        "fat_g": 4.7
+      },
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked",
+        "grams": 80,
+        "calories": 35,
+        "protein_g": 0.8,
+        "carbs_g": 8.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "braised beef",
+        "usda_query": "beef chuck braised",
+        "grams": 90,
+        "calories": 219,
+        "protein_g": 20.2,
+        "carbs_g": 0,
+        "fat_g": 15.1
+      },
+      {
+        "name": "cooked cabbage",
+        "usda_query": "cabbage cooked",
+        "grams": 70,
+        "calories": 16,
+        "protein_g": 0.8,
+        "carbs_g": 3.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "brown gravy",
+        "usda_query": "brown gravy prepared",
+        "grams": 30,
+        "calories": 20,
+        "protein_g": 0.9,
+        "carbs_g": 2.7,
+        "fat_g": 0.8
+      },
+      {
+        "name": "tomato soup",
+        "usda_query": "tomato soup",
+        "grams": 180,
+        "calories": 91,
+        "protein_g": 2.5,
+        "carbs_g": 13.9,
+        "fat_g": 3.1
+      }
+    ],
+    "total_calories": 724
+  }
+}

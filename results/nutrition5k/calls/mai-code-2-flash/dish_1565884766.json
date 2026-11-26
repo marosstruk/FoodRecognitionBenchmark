@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565884766",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f6ad3941ced48465",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1102,
+    "reasoning_tokens": 870,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13265,
+    "ai_credits": 0.03129
+  },
+  "timestamp": "2026-11-25T00:26:53.513Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"plain waffle\",\n      \"usda_query\": \"waffle plain\",\n      \"grams\": 140,\n      \"calories\": 407,\n      \"protein_g\": 10,\n      \"carbs_g\": 46,\n      \"fat_g\": 16\n    },\n    {\n      \"name\": \"whipped cream\",\n      \"usda_query\": \"whipped cream sweetened\",\n      \"grams\": 70,\n      \"calories\": 146,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 13.9\n    },\n    {\n      \"name\": \"diced strawberries\",\n      \"usda_query\": \"strawberries raw diced\",\n      \"grams\": 55,\n      \"calories\": 18,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 571\n}",
+  "latency_ms": 14135,
+  "parsed": {
+    "items": [
+      {
+        "name": "plain waffle",
+        "usda_query": "waffle plain",
+        "grams": 140,
+        "calories": 407,
+        "protein_g": 10,
+        "carbs_g": 46,
+        "fat_g": 16
+      },
+      {
+        "name": "whipped cream",
+        "usda_query": "whipped cream sweetened",
+        "grams": 70,
+        "calories": 146,
+        "protein_g": 0.8,
+        "carbs_g": 5.3,
+        "fat_g": 13.9
+      },
+      {
+        "name": "diced strawberries",
+        "usda_query": "strawberries raw diced",
+        "grams": 55,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 571
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562950091",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bbad50ad2d6eda2a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 949,
+    "reasoning_tokens": 666,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9455,
+    "ai_credits": 0.466425
+  },
+  "timestamp": "2026-11-25T00:33:52.553Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 100,\n      \"calories\": 148,\n      \"protein_g\": 10.0,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 11.0\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 120,\n      \"calories\": 112,\n      \"protein_g\": 2.3,\n      \"carbs_g\": 20.6,\n      \"fat_g\": 2.8\n    },\n    {\n      \"name\": \"smoked sausage\",\n      \"usda_query\": \"smoked sausage pork and beef\",\n      \"grams\": 60,\n      \"calories\": 194,\n      \"protein_g\": 7.8,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 17.3\n    }\n  ],\n  \"total_calories\": 454\n}",
+  "latency_ms": 10553,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 100,
+        "calories": 148,
+        "protein_g": 10,
+        "carbs_g": 1.6,
+        "fat_g": 11
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 120,
+        "calories": 112,
+        "protein_g": 2.3,
+        "carbs_g": 20.6,
+        "fat_g": 2.8
+      },
+      {
+        "name": "smoked sausage",
+        "usda_query": "smoked sausage pork and beef",
+        "grams": 60,
+        "calories": 194,
+        "protein_g": 7.8,
+        "carbs_g": 1.6,
+        "fat_g": 17.3
+      }
+    ],
+    "total_calories": 454
+  }
+}

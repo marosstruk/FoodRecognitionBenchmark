@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562959766",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "95444d9daec77550",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1292,
+    "reasoning_tokens": 803,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6156,
+    "ai_credits": 0.0768025
+  },
+  "timestamp": "2026-11-25T00:08:26.194Z",
+  "raw_text": "{\"items\":[{\"name\":\"stir-fried egg noodles\",\"usda_query\":\"noodles egg cooked stir-fried\",\"grams\":180,\"calories\":260,\"protein_g\":8,\"carbs_g\":42,\"fat_g\":7},{\"name\":\"stir-fried cabbage\",\"usda_query\":\"cabbage red raw\",\"grams\":60,\"calories\":25,\"protein_g\":1,\"carbs_g\":4,\"fat_g\":1},{\"name\":\"carrot\",\"usda_query\":\"carrots raw\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"spring onion\",\"usda_query\":\"onions spring or scallions raw\",\"grams\":10,\"calories\":3,\"protein_g\":0.2,\"carbs_g\":0.7,\"fat_g\":0},{\"name\":\"pan-fried tofu\",\"usda_query\":\"tofu fried firm\",\"grams\":120,\"calories\":180,\"protein_g\":14,\"carbs_g\":4,\"fat_g\":12},{\"name\":\"glazed meat pieces\",\"usda_query\":\"chicken thigh meat cooked pan-fried\",\"grams\":130,\"calories\":260,\"protein_g\":24,\"carbs_g\":8,\"fat_g\":14},{\"name\":\"soy-based sauce\",\"usda_query\":\"soy sauce made from soybeans and wheat\",\"grams\":15,\"calories\":15,\"protein_g\":0.5,\"carbs_g\":3,\"fat_g\":0},],\"total_calories\":751}",
+  "latency_ms": 9450,
+  "error": "Unexpected token ']', ...\"fat_g\":0},],\"total_c\"... is not valid JSON"
+}

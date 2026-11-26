@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561749392",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd710f88de13e8ee",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1102,
+    "reasoning_tokens": 818,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11911,
+    "ai_credits": 0.03129
+  },
+  "timestamp": "2026-11-25T00:34:09.985Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"braised beef\",\n      \"usda_query\": \"beef chuck braised\",\n      \"grams\": 130,\n      \"calories\": 286,\n      \"protein_g\": 27,\n      \"carbs_g\": 2,\n      \"fat_g\": 19\n    },\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 55,\n      \"calories\": 71,\n      \"protein_g\": 1,\n      \"carbs_g\": 16,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"shredded cabbage\",\n      \"usda_query\": \"cabbage raw shredded\",\n      \"grams\": 30,\n      \"calories\": 8,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato sauce\",\n      \"usda_query\": \"tomato sauce\",\n      \"grams\": 40,\n      \"calories\": 24,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 389\n}",
+  "latency_ms": 13013,
+  "parsed": {
+    "items": [
+      {
+        "name": "braised beef",
+        "usda_query": "beef chuck braised",
+        "grams": 130,
+        "calories": 286,
+        "protein_g": 27,
+        "carbs_g": 2,
+        "fat_g": 19
+      },
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 55,
+        "calories": 71,
+        "protein_g": 1,
+        "carbs_g": 16,
+        "fat_g": 0
+      },
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage raw shredded",
+        "grams": 30,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce",
+        "grams": 40,
+        "calories": 24,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 389
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560975601",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ab11426376123bb1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1770,
+    "reasoning_tokens": 1169,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7787,
+    "ai_credits": 0.1007025
+  },
+  "timestamp": "2026-11-25T00:28:38.056Z",
+  "raw_text": "{\"items\":[{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce romaine raw\",\"grams\":90,\"calories\":15,\"protein_g\":1.1,\"carbs_g\":3.1,\"fat_g\":0.2},{\"name\":\"creamy dressing\",\"usda_query\":\"salad dressing creamy caesar\",\"grams\":20,\"calories\":90,\"protein_g\":0.5,\"carbs_g\":1.5,\"fat_g\":9.5},{\"name\":\"chicken in tomato sauce\",\"usda_query\":\"chicken thigh meat braised with tomato sauce\",\"grams\":150,\"calories\":210,\"protein_g\":22,\"carbs_g\":8,\"fat_g\":9},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":130,\"calories\":45,\"protein_g\":3.7,\"carbs_g\":9.1,\"fat_g\":0.5},{\"name\":\"cooked brown rice\",\"usda_query\":\"rice brown long-grain cooked\",\"grams\":80,\"calories\":110,\"protein_g\":2.6,\"carbs_g\":23,\"fat_g\":0.9},{\"name\":\"bell pepper\",\"usda_query\":\"peppers sweet green red sauteed\",\"grams\":40,\"calories\":12,\"protein_g\":0.4,\"carbs_g\":2.8,\"fat_g\":0.1},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":25,\"calories\":5,\"protein_g\":0.2,\"carbs_g\":1,\"fat_g\":0.1},{\"name\":\"firm tofu\",\"usda_query\":\"tofu firm prepared with calcium sulfate\",\"grams\":25,\"calories\":35,\"protein_g\":3.9,\"carbs_g\":0.5,\"fat_g\":2.2}],\"total_calories\":522}",
+  "latency_ms": 8670,
+  "parsed": {
+    "items": [
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 90,
+        "calories": 15,
+        "protein_g": 1.1,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "creamy dressing",
+        "usda_query": "salad dressing creamy caesar",
+        "grams": 20,
+        "calories": 90,
+        "protein_g": 0.5,
+        "carbs_g": 1.5,
+        "fat_g": 9.5
+      },
+      {
+        "name": "chicken in tomato sauce",
+        "usda_query": "chicken thigh meat braised with tomato sauce",
+        "grams": 150,
+        "calories": 210,
+        "protein_g": 22,
+        "carbs_g": 8,
+        "fat_g": 9
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 130,
+        "calories": 45,
+        "protein_g": 3.7,
+        "carbs_g": 9.1,
+        "fat_g": 0.5
+      },
+      {
+        "name": "cooked brown rice",
+        "usda_query": "rice brown long-grain cooked",
+        "grams": 80,
+        "calories": 110,
+        "protein_g": 2.6,
+        "carbs_g": 23,
+        "fat_g": 0.9
+      },
+      {
+        "name": "bell pepper",
+        "usda_query": "peppers sweet green red sauteed",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 0.4,
+        "carbs_g": 2.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "firm tofu",
+        "usda_query": "tofu firm prepared with calcium sulfate",
+        "grams": 25,
+        "calories": 35,
+        "protein_g": 3.9,
+        "carbs_g": 0.5,
+        "fat_g": 2.2
+      }
+    ],
+    "total_calories": 522
+  }
+}

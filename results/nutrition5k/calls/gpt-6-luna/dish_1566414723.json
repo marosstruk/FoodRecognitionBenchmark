@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414723",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "382eab913bf0f3cb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1096,
+    "reasoning_tokens": 870,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12924,
+    "ai_credits": 0.06228
+  },
+  "timestamp": "2026-11-25T00:18:16.432Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Diced cooked chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 110,\n      \"calories\": 182,\n      \"protein_g\": 34,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 180,\n      \"calories\": 270,\n      \"protein_g\": 5,\n      \"carbs_g\": 40,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"Creamy chicken salad with herbs\",\n      \"usda_query\": \"chicken salad with mayonnaise\",\n      \"grams\": 140,\n      \"calories\": 260,\n      \"protein_g\": 20,\n      \"carbs_g\": 5,\n      \"fat_g\": 18\n    }\n  ],\n  \"total_calories\": 712\n}",
+  "latency_ms": 14077,
+  "parsed": {
+    "items": [
+      {
+        "name": "Diced cooked chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 110,
+        "calories": 182,
+        "protein_g": 34,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 180,
+        "calories": 270,
+        "protein_g": 5,
+        "carbs_g": 40,
+        "fat_g": 10
+      },
+      {
+        "name": "Creamy chicken salad with herbs",
+        "usda_query": "chicken salad with mayonnaise",
+        "grams": 140,
+        "calories": 260,
+        "protein_g": 20,
+        "carbs_g": 5,
+        "fat_g": 18
+      }
+    ],
+    "total_calories": 712
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563389742",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2c8bb208f4ad4d45",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 973,
+    "reasoning_tokens": 769,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11155,
+    "ai_credits": 0.028065
+  },
+  "timestamp": "2026-11-25T00:34:53.382Z",
+  "raw_text": "{\"items\":[{\"name\":\"diced tomatoes\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":90,\"calories\":16,\"protein_g\":0.8,\"carbs_g\":3.5,\"fat_g\":0.2},{\"name\":\"shredded cabbage\",\"usda_query\":\"cabbage green raw\",\"grams\":50,\"calories\":13,\"protein_g\":1.2,\"carbs_g\":3.0,\"fat_g\":0.1},{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":40,\"calories\":16,\"protein_g\":0.4,\"carbs_g\":3.7,\"fat_g\":0.0},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":40,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.8,\"fat_g\":0.1}],\"total_calories\":53}",
+  "latency_ms": 12075,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 90,
+        "calories": 16,
+        "protein_g": 0.8,
+        "carbs_g": 3.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage green raw",
+        "grams": 50,
+        "calories": 13,
+        "protein_g": 1.2,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.7,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 53
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565107143",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "64d8240ed4d3b9dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1378,
+    "reasoning_tokens": 1034,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12101,
+    "ai_credits": 0.07638
+  },
+  "timestamp": "2026-11-25T00:33:42.322Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled\",\n      \"grams\": 100,\n      \"calories\": 149,\n      \"protein_g\": 10,\n      \"carbs_g\": 1,\n      \"fat_g\": 11\n    },\n    {\n      \"name\": \"Cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 140,\n      \"calories\": 32,\n      \"protein_g\": 3,\n      \"carbs_g\": 6,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"Watermelon\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 60,\n      \"calories\": 18,\n      \"protein_g\": 0,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cooked potatoes\",\n      \"usda_query\": \"potatoes cooked fried\",\n      \"grams\": 90,\n      \"calories\": 150,\n      \"protein_g\": 2,\n      \"carbs_g\": 20,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"Cooked mushrooms\",\n      \"usda_query\": \"mushrooms cooked\",\n      \"grams\": 50,\n      \"calories\": 30,\n      \"protein_g\": 2,\n      \"carbs_g\": 3,\n      \"fat_g\": 2\n    }\n  ],\n  \"total_calories\": 379\n}",
+  "latency_ms": 13171,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled",
+        "grams": 100,
+        "calories": 149,
+        "protein_g": 10,
+        "carbs_g": 1,
+        "fat_g": 11
+      },
+      {
+        "name": "Cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 140,
+        "calories": 32,
+        "protein_g": 3,
+        "carbs_g": 6,
+        "fat_g": 1
+      },
+      {
+        "name": "Watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 60,
+        "calories": 18,
+        "protein_g": 0,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "Cooked potatoes",
+        "usda_query": "potatoes cooked fried",
+        "grams": 90,
+        "calories": 150,
+        "protein_g": 2,
+        "carbs_g": 20,
+        "fat_g": 7
+      },
+      {
+        "name": "Cooked mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 50,
+        "calories": 30,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 379
+  }
+}

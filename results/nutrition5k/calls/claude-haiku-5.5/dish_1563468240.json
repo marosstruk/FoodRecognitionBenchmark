@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563468240",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8330fb105616a051",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 436,
+    "reasoning_tokens": 286,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3092,
+    "ai_credits": 0.0340025
+  },
+  "timestamp": "2026-11-25T00:34:29.086Z",
+  "raw_text": "{\"items\":[{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":150,\"calories\":45,\"protein_g\":0.9,\"carbs_g\":11.4,\"fat_g\":0.3},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":150,\"calories\":75,\"protein_g\":0.8,\"carbs_g\":19.7,\"fat_g\":0.2}],\"total_calories\":120}",
+  "latency_ms": 4227,
+  "parsed": {
+    "items": [
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 150,
+        "calories": 45,
+        "protein_g": 0.9,
+        "carbs_g": 11.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 150,
+        "calories": 75,
+        "protein_g": 0.8,
+        "carbs_g": 19.7,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 120
+  }
+}

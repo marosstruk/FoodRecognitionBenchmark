@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567022180",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "402e4f177be49d46",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 685,
+    "reasoning_tokens": 393,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2917,
+    "ai_credits": 0.0464525
+  },
+  "timestamp": "2026-11-25T00:13:28.020Z",
+  "raw_text": "{\"items\":[{\"name\":\"carrot shredded raw\",\"usda_query\":\"carrots raw\",\"grams\":120,\"calories\":49,\"protein_g\":1.1,\"carbs_g\":11.5,\"fat_g\":0.3},{\"name\":\"green bell pepper raw\",\"usda_query\":\"peppers sweet green raw\",\"grams\":40,\"calories\":8,\"protein_g\":0.4,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"red bell pepper raw\",\"usda_query\":\"peppers sweet red raw\",\"grams\":40,\"calories\":12,\"protein_g\":0.4,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"white onion raw\",\"usda_query\":\"onions raw\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":1.9,\"fat_g\":0.0}],\"total_calories\":77}",
+  "latency_ms": 4321,
+  "parsed": {
+    "items": [
+      {
+        "name": "carrot shredded raw",
+        "usda_query": "carrots raw",
+        "grams": 120,
+        "calories": 49,
+        "protein_g": 1.1,
+        "carbs_g": 11.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "green bell pepper raw",
+        "usda_query": "peppers sweet green raw",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper raw",
+        "usda_query": "peppers sweet red raw",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 0.4,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "white onion raw",
+        "usda_query": "onions raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 77
+  }
+}

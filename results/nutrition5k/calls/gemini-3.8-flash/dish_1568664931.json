@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568664931",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d0358c1def875fe7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 757,
+    "reasoning_tokens": 565,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9854,
+    "ai_credits": 0.394425
+  },
+  "timestamp": "2026-11-25T00:38:00.201Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed baby salad greens\",\n      \"usda_query\": \"salad greens raw baby spinach arugula\",\n      \"grams\": 40,\n      \"calories\": 9,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"shredded carrots\",\n      \"usda_query\": \"carrots raw shredded\",\n      \"grams\": 10,\n      \"calories\": 4,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1.0,\n      \"fat_g\": 0.0\n    }\n  ],\n  \"total_calories\": 13\n}",
+  "latency_ms": 10726,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed baby salad greens",
+        "usda_query": "salad greens raw baby spinach arugula",
+        "grams": 40,
+        "calories": 9,
+        "protein_g": 0.9,
+        "carbs_g": 1.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw shredded",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 13
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565638323",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "86c7faa6c3258abf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1643,
+    "reasoning_tokens": 1266,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16765,
+    "ai_credits": 0.044815
+  },
+  "timestamp": "2026-11-25T00:30:41.778Z",
+  "raw_text": "{\"items\":[{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":190,\"calories\":247,\"protein_g\":5.0,\"carbs_g\":54.0,\"fat_g\":0.6},{\"name\":\"cooked chicken\",\"usda_query\":\"chicken breast roasted\",\"grams\":150,\"calories\":248,\"protein_g\":46.0,\"carbs_g\":0.0,\"fat_g\":5.4},{\"name\":\"green bell pepper\",\"usda_query\":\"pepper green bell raw\",\"grams\":25,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"carrot\",\"usda_query\":\"carrot cooked\",\"grams\":25,\"calories\":10,\"protein_g\":0.2,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"cabbage\",\"usda_query\":\"cabbage cooked\",\"grams\":40,\"calories\":10,\"protein_g\":0.5,\"carbs_g\":2.4,\"fat_g\":0.1},{\"name\":\"tomato\",\"usda_query\":\"tomato red raw\",\"grams\":35,\"calories\":6,\"protein_g\":0.3,\"carbs_g\":1.4,\"fat_g\":0.1},{\"name\":\"onion\",\"usda_query\":\"onion cooked\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":1.9,\"fat_g\":0.0},{\"name\":\"brown sauce\",\"usda_query\":\"brown gravy prepared\",\"grams\":20,\"calories\":40,\"protein_g\":1.0,\"carbs_g\":4.0,\"fat_g\":2.0}],\"total_calories\":577}",
+  "latency_ms": 18308,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 190,
+        "calories": 247,
+        "protein_g": 5,
+        "carbs_g": 54,
+        "fat_g": 0.6
+      },
+      {
+        "name": "cooked chicken",
+        "usda_query": "chicken breast roasted",
+        "grams": 150,
+        "calories": 248,
+        "protein_g": 46,
+        "carbs_g": 0,
+        "fat_g": 5.4
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "pepper green bell raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrot cooked",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.2,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cabbage",
+        "usda_query": "cabbage cooked",
+        "grams": 40,
+        "calories": 10,
+        "protein_g": 0.5,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomato red raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "onion",
+        "usda_query": "onion cooked",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      },
+      {
+        "name": "brown sauce",
+        "usda_query": "brown gravy prepared",
+        "grams": 20,
+        "calories": 40,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 577
+  }
+}

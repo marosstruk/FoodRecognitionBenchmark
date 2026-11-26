@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559233756",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a8b00a8634eb236c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1663,
+    "reasoning_tokens": 1303,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8240,
+    "ai_credits": 0.0953525
+  },
+  "timestamp": "2026-11-25T00:14:32.247Z",
+  "raw_text": "{\"items\":[{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":90,\"calories\":29,\"protein_g\":0.6,\"carbs_g\":6.9,\"fat_g\":0.3},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw\",\"grams\":80,\"calories\":40,\"protein_g\":0.4,\"carbs_g\":10.5,\"fat_g\":0.1},{\"name\":\"bacon\",\"usda_query\":\"bacon pan-fried cooked\",\"grams\":15,\"calories\":81,\"protein_g\":5.6,\"carbs_g\":0.2,\"fat_g\":6.3},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted in oil\",\"grams\":120,\"calories\":154,\"protein_g\":2.4,\"carbs_g\":24,\"fat_g\":5.4},{\"name\":\"roasted mushrooms\",\"usda_query\":\"mushrooms cooked sauteed\",\"grams\":60,\"calories\":45,\"protein_g\":1.9,\"carbs_g\":3.6,\"fat_g\":2.5}],\"total_calories\":349}",
+  "latency_ms": 9349,
+  "parsed": {
+    "items": [
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 90,
+        "calories": 29,
+        "protein_g": 0.6,
+        "carbs_g": 6.9,
+        "fat_g": 0.3
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 80,
+        "calories": 40,
+        "protein_g": 0.4,
+        "carbs_g": 10.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "bacon",
+        "usda_query": "bacon pan-fried cooked",
+        "grams": 15,
+        "calories": 81,
+        "protein_g": 5.6,
+        "carbs_g": 0.2,
+        "fat_g": 6.3
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted in oil",
+        "grams": 120,
+        "calories": 154,
+        "protein_g": 2.4,
+        "carbs_g": 24,
+        "fat_g": 5.4
+      },
+      {
+        "name": "roasted mushrooms",
+        "usda_query": "mushrooms cooked sauteed",
+        "grams": 60,
+        "calories": 45,
+        "protein_g": 1.9,
+        "carbs_g": 3.6,
+        "fat_g": 2.5
+      }
+    ],
+    "total_calories": 349
+  }
+}

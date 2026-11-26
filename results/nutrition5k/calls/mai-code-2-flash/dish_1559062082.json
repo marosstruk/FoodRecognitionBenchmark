@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559062082",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8e7317182fd99468",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 958,
+    "reasoning_tokens": 651,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10226,
+    "ai_credits": 0.02769
+  },
+  "timestamp": "2026-11-25T00:15:32.780Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 170,\n      \"calories\": 253,\n      \"protein_g\": 17.0,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 18.7\n    },\n    {\n      \"name\": \"breakfast home fries\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 160,\n      \"calories\": 208,\n      \"protein_g\": 4.0,\n      \"carbs_g\": 38.0,\n      \"fat_g\": 5.6\n    },\n    {\n      \"name\": \"bacon\",\n      \"usda_query\": \"bacon cooked pan fried\",\n      \"grams\": 65,\n      \"calories\": 352,\n      \"protein_g\": 24.1,\n      \"carbs_g\": 1.0,\n      \"fat_g\": 27.3\n    },\n    {\n      \"name\": \"tomato slices\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 80,\n      \"calories\": 14,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 3.1,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 827\n}",
+  "latency_ms": 11347,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 170,
+        "calories": 253,
+        "protein_g": 17,
+        "carbs_g": 3.2,
+        "fat_g": 18.7
+      },
+      {
+        "name": "breakfast home fries",
+        "usda_query": "potatoes roasted",
+        "grams": 160,
+        "calories": 208,
+        "protein_g": 4,
+        "carbs_g": 38,
+        "fat_g": 5.6
+      },
+      {
+        "name": "bacon",
+        "usda_query": "bacon cooked pan fried",
+        "grams": 65,
+        "calories": 352,
+        "protein_g": 24.1,
+        "carbs_g": 1,
+        "fat_g": 27.3
+      },
+      {
+        "name": "tomato slices",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 0.7,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 827
+  }
+}

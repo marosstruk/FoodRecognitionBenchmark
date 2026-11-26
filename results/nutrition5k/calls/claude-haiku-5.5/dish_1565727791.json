@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565727791",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ffa1ae574b977320",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 953,
+    "reasoning_tokens": 716,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5518,
+    "ai_credits": 0.0598525
+  },
+  "timestamp": "2026-11-25T00:21:38.848Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":9,\"protein_g\":0.8,\"carbs_g\":1.7,\"fat_g\":0.1},{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":100,\"calories\":35,\"protein_g\":2.4,\"carbs_g\":7.2,\"fat_g\":0.4},{\"name\":\"parmesan cheese shaved\",\"usda_query\":\"cheese parmesan hard grated\",\"grams\":20,\"calories\":86,\"protein_g\":7.6,\"carbs_g\":0.6,\"fat_g\":5.7}],\"total_calories\":130}",
+  "latency_ms": 6613,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 9,
+        "protein_g": 0.8,
+        "carbs_g": 1.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "parmesan cheese shaved",
+        "usda_query": "cheese parmesan hard grated",
+        "grams": 20,
+        "calories": 86,
+        "protein_g": 7.6,
+        "carbs_g": 0.6,
+        "fat_g": 5.7
+      }
+    ],
+    "total_calories": 130
+  }
+}

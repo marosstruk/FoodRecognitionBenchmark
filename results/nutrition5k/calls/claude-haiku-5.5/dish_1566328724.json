@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566328724",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f1284effb473ced1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 265,
+    "reasoning_tokens": 177,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2613,
+    "ai_credits": 0.0254525
+  },
+  "timestamp": "2026-11-25T00:35:52.034Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat only roasted\",\"grams\":150,\"calories\":248,\"protein_g\":46.5,\"carbs_g\":0,\"fat_g\":5.4}],\"total_calories\":248}",
+  "latency_ms": 3721,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only roasted",
+        "grams": 150,
+        "calories": 248,
+        "protein_g": 46.5,
+        "carbs_g": 0,
+        "fat_g": 5.4
+      }
+    ],
+    "total_calories": 248
+  }
+}

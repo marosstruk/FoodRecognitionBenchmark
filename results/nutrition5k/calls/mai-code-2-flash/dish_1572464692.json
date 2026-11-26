@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572464692",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b44e7b2e288cef75",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 398,
+    "reasoning_tokens": 307,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5981,
+    "ai_credits": 0.01369
+  },
+  "timestamp": "2026-11-25T00:28:22.221Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded fried chicken\",\n      \"usda_query\": \"chicken breaded fried\",\n      \"grams\": 85,\n      \"calories\": 230,\n      \"protein_g\": 17,\n      \"carbs_g\": 10,\n      \"fat_g\": 13\n    }\n  ],\n  \"total_calories\": 230\n}",
+  "latency_ms": 6883,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded fried chicken",
+        "usda_query": "chicken breaded fried",
+        "grams": 85,
+        "calories": 230,
+        "protein_g": 17,
+        "carbs_g": 10,
+        "fat_g": 13
+      }
+    ],
+    "total_calories": 230
+  }
+}

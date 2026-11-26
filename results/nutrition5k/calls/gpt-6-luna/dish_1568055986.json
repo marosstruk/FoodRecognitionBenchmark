@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568055986",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b3aa2d58c13a39f7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 466,
+    "reasoning_tokens": 358,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7198,
+    "ai_credits": 0.03078
+  },
+  "timestamp": "2026-11-25T00:14:40.725Z",
+  "raw_text": "{\"items\":[{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":60,\"calories\":24,\"protein_g\":0.7,\"carbs_g\":5.6,\"fat_g\":0.1},{\"name\":\"black olives\",\"usda_query\":\"olives ripe canned drained\",\"grams\":35,\"calories\":41,\"protein_g\":0.3,\"carbs_g\":2.2,\"fat_g\":3.8}],\"total_calories\":65}",
+  "latency_ms": 8264,
+  "parsed": {
+    "items": [
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 60,
+        "calories": 24,
+        "protein_g": 0.7,
+        "carbs_g": 5.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned drained",
+        "grams": 35,
+        "calories": 41,
+        "protein_g": 0.3,
+        "carbs_g": 2.2,
+        "fat_g": 3.8
+      }
+    ],
+    "total_calories": 65
+  }
+}

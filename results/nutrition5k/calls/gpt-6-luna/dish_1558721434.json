@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558721434",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4acca1141812acd2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 988,
+    "reasoning_tokens": 684,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10690,
+    "ai_credits": 0.05688
+  },
+  "timestamp": "2026-11-25T00:21:07.648Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cauliflower\",\n      \"usda_query\": \"cauliflower raw\",\n      \"grams\": 150,\n      \"calories\": 38,\n      \"protein_g\": 2.9,\n      \"carbs_g\": 7.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 140,\n      \"calories\": 25,\n      \"protein_g\": 1.3,\n      \"carbs_g\": 5.4,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Carrots\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 170,\n      \"calories\": 70,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 16.3,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Cantaloupe\",\n      \"usda_query\": \"cantaloupe raw\",\n      \"grams\": 130,\n      \"calories\": 44,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 10.6,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 177\n}",
+  "latency_ms": 11578,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cauliflower",
+        "usda_query": "cauliflower raw",
+        "grams": 150,
+        "calories": 38,
+        "protein_g": 2.9,
+        "carbs_g": 7.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 140,
+        "calories": 25,
+        "protein_g": 1.3,
+        "carbs_g": 5.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Carrots",
+        "usda_query": "carrots raw",
+        "grams": 170,
+        "calories": 70,
+        "protein_g": 1.6,
+        "carbs_g": 16.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Cantaloupe",
+        "usda_query": "cantaloupe raw",
+        "grams": 130,
+        "calories": 44,
+        "protein_g": 1.1,
+        "carbs_g": 10.6,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 177
+  }
+}

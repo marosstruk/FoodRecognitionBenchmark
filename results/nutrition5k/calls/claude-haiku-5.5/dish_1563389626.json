@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563389626",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5b423a40c2e03a6f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 737,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3676,
+    "ai_credits": 0.0490525
+  },
+  "timestamp": "2026-11-25T00:19:01.951Z",
+  "raw_text": "{\"items\":[{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":120,\"calories\":49,\"protein_g\":1.1,\"carbs_g\":11.6,\"fat_g\":0.3},{\"name\":\"white cheese chunks\",\"usda_query\":\"cheese feta\",\"grams\":30,\"calories\":79,\"protein_g\":4.3,\"carbs_g\":1.2,\"fat_g\":6.4},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":25,\"calories\":5,\"protein_g\":0.2,\"carbs_g\":1.0,\"fat_g\":0.1}],\"total_calories\":133}",
+  "latency_ms": 4814,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 120,
+        "calories": 49,
+        "protein_g": 1.1,
+        "carbs_g": 11.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "white cheese chunks",
+        "usda_query": "cheese feta",
+        "grams": 30,
+        "calories": 79,
+        "protein_g": 4.3,
+        "carbs_g": 1.2,
+        "fat_g": 6.4
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 133
+  }
+}

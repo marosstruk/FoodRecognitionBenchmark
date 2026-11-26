@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565020822",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d4445a255130469a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 717,
+    "reasoning_tokens": 488,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3877,
+    "ai_credits": 0.0480525
+  },
+  "timestamp": "2026-11-25T00:32:10.963Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked in skin flesh\",\"grams\":110,\"calories\":99,\"protein_g\":2.2,\"carbs_g\":22.8,\"fat_g\":0.2},{\"name\":\"bacon\",\"usda_query\":\"bacon cooked pan-fried\",\"grams\":25,\"calories\":135,\"protein_g\":9.3,\"carbs_g\":0.4,\"fat_g\":10.5},{\"name\":\"feta cheese\",\"usda_query\":\"cheese feta\",\"grams\":60,\"calories\":158,\"protein_g\":8.5,\"carbs_g\":2.5,\"fat_g\":12.8}],\"total_calories\":392}",
+  "latency_ms": 4754,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked in skin flesh",
+        "grams": 110,
+        "calories": 99,
+        "protein_g": 2.2,
+        "carbs_g": 22.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 25,
+        "calories": 135,
+        "protein_g": 9.3,
+        "carbs_g": 0.4,
+        "fat_g": 10.5
+      },
+      {
+        "name": "feta cheese",
+        "usda_query": "cheese feta",
+        "grams": 60,
+        "calories": 158,
+        "protein_g": 8.5,
+        "carbs_g": 2.5,
+        "fat_g": 12.8
+      }
+    ],
+    "total_calories": 392
+  }
+}

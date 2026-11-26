@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563295360",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d7ec90f43971fc91",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 790,
+    "reasoning_tokens": 559,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3909,
+    "ai_credits": 0.0517025
+  },
+  "timestamp": "2026-11-25T00:20:00.810Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":110,\"calories\":164,\"protein_g\":11.0,\"carbs_g\":2.0,\"fat_g\":12.0},{\"name\":\"bacon\",\"usda_query\":\"pork bacon cooked pan-fried\",\"grams\":35,\"calories\":189,\"protein_g\":13.0,\"carbs_g\":0.5,\"fat_g\":15.0},{\"name\":\"broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":90,\"calories\":32,\"protein_g\":2.2,\"carbs_g\":6.5,\"fat_g\":0.4}],\"total_calories\":385}",
+  "latency_ms": 5456,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 110,
+        "calories": 164,
+        "protein_g": 11,
+        "carbs_g": 2,
+        "fat_g": 12
+      },
+      {
+        "name": "bacon",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 35,
+        "calories": 189,
+        "protein_g": 13,
+        "carbs_g": 0.5,
+        "fat_g": 15
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 2.2,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 385
+  }
+}

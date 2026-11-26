@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567629106",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "38f979a735c2df90",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1054,
+    "reasoning_tokens": 952,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13739,
+    "ai_credits": 0.03009
+  },
+  "timestamp": "2026-11-25T00:27:41.584Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza pieces\",\"usda_query\":\"pizza cheese\",\"grams\":210,\"calories\":550,\"protein_g\":25,\"carbs_g\":69,\"fat_g\":21},{\"name\":\"sauteed cabbage and leafy greens\",\"usda_query\":\"cabbage cooked fat added\",\"grams\":150,\"calories\":58,\"protein_g\":3,\"carbs_g\":11,\"fat_g\":1}],\"total_calories\":608}",
+  "latency_ms": 14584,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza pieces",
+        "usda_query": "pizza cheese",
+        "grams": 210,
+        "calories": 550,
+        "protein_g": 25,
+        "carbs_g": 69,
+        "fat_g": 21
+      },
+      {
+        "name": "sauteed cabbage and leafy greens",
+        "usda_query": "cabbage cooked fat added",
+        "grams": 150,
+        "calories": 58,
+        "protein_g": 3,
+        "carbs_g": 11,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 608
+  }
+}

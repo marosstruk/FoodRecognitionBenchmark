@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060531",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3eba62272f16796e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1152,
+    "reasoning_tokens": 780,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10131,
+    "ai_credits": 0.06508
+  },
+  "timestamp": "2026-11-25T00:22:56.865Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 75,\n      \"calories\": 38,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 9.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cooked chayote\",\n      \"usda_query\": \"chayote cooked\",\n      \"grams\": 45,\n      \"calories\": 9,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cooked green pepper\",\n      \"usda_query\": \"green bell pepper cooked\",\n      \"grams\": 35,\n      \"calories\": 7,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Tofu\",\n      \"usda_query\": \"tofu firm\",\n      \"grams\": 65,\n      \"calories\": 94,\n      \"protein_g\": 10,\n      \"carbs_g\": 2,\n      \"fat_g\": 5.5\n    },\n    {\n      \"name\": \"Tomato sauce\",\n      \"usda_query\": \"tomato sauce\",\n      \"grams\": 8,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 151\n}",
+  "latency_ms": 11250,
+  "parsed": {
+    "items": [
+      {
+        "name": "Pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 75,
+        "calories": 38,
+        "protein_g": 0.4,
+        "carbs_g": 9.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cooked chayote",
+        "usda_query": "chayote cooked",
+        "grams": 45,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 2.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cooked green pepper",
+        "usda_query": "green bell pepper cooked",
+        "grams": 35,
+        "calories": 7,
+        "protein_g": 0.3,
+        "carbs_g": 1.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Tofu",
+        "usda_query": "tofu firm",
+        "grams": 65,
+        "calories": 94,
+        "protein_g": 10,
+        "carbs_g": 2,
+        "fat_g": 5.5
+      },
+      {
+        "name": "Tomato sauce",
+        "usda_query": "tomato sauce",
+        "grams": 8,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 151
+  }
+}

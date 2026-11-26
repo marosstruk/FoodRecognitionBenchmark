@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560526408",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "794cedb9bca90cf0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 861,
+    "reasoning_tokens": 560,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10025,
+    "ai_credits": 0.025265
+  },
+  "timestamp": "2026-11-25T00:22:02.703Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"stir-fried beef\",\n      \"usda_query\": \"beef strips stir-fried\",\n      \"grams\": 110,\n      \"calories\": 214,\n      \"protein_g\": 27,\n      \"carbs_g\": 3,\n      \"fat_g\": 11\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"peppers sweet green raw\",\n      \"grams\": 45,\n      \"calories\": 14,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 3.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"onion\",\n      \"usda_query\": \"onions cooked\",\n      \"grams\": 30,\n      \"calories\": 17,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"brown stir-fry sauce\",\n      \"usda_query\": \"soy sauce\",\n      \"grams\": 20,\n      \"calories\": 12,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 257\n}",
+  "latency_ms": 11555,
+  "parsed": {
+    "items": [
+      {
+        "name": "stir-fried beef",
+        "usda_query": "beef strips stir-fried",
+        "grams": 110,
+        "calories": 214,
+        "protein_g": 27,
+        "carbs_g": 3,
+        "fat_g": 11
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 45,
+        "calories": 14,
+        "protein_g": 0.5,
+        "carbs_g": 3.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "onion",
+        "usda_query": "onions cooked",
+        "grams": 30,
+        "calories": 17,
+        "protein_g": 0.5,
+        "carbs_g": 4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "brown stir-fry sauce",
+        "usda_query": "soy sauce",
+        "grams": 20,
+        "calories": 12,
+        "protein_g": 1.2,
+        "carbs_g": 1.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 257
+  }
+}

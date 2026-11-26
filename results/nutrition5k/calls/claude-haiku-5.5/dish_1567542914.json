@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567542914",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9c29a6ea4547aa1a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1110,
+    "reasoning_tokens": 747,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5201,
+    "ai_credits": 0.0677025
+  },
+  "timestamp": "2026-11-25T00:19:46.639Z",
+  "raw_text": "{\"items\":[{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":100,\"calories\":35,\"protein_g\":2.8,\"carbs_g\":7,\"fat_g\":0.4},{\"name\":\"sliced roast beef\",\"usda_query\":\"beef roasted sliced lean and fat\",\"grams\":100,\"calories\":240,\"protein_g\":26,\"carbs_g\":0.5,\"fat_g\":15},{\"name\":\"roasted carrots\",\"usda_query\":\"carrots cooked roasted with oil\",\"grams\":80,\"calories\":55,\"protein_g\":0.8,\"carbs_g\":10,\"fat_g\":1.8},{\"name\":\"filled pastry\",\"usda_query\":\"puff pastry baked meat filled\",\"grams\":80,\"calories\":280,\"protein_g\":6,\"carbs_g\":30,\"fat_g\":15},{\"name\":\"cheese pizza\",\"usda_query\":\"pizza cheese regular crust baked\",\"grams\":220,\"calories\":600,\"protein_g\":26,\"carbs_g\":72,\"fat_g\":25}],\"total_calories\":1210}",
+  "latency_ms": 6279,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.8,
+        "carbs_g": 7,
+        "fat_g": 0.4
+      },
+      {
+        "name": "sliced roast beef",
+        "usda_query": "beef roasted sliced lean and fat",
+        "grams": 100,
+        "calories": 240,
+        "protein_g": 26,
+        "carbs_g": 0.5,
+        "fat_g": 15
+      },
+      {
+        "name": "roasted carrots",
+        "usda_query": "carrots cooked roasted with oil",
+        "grams": 80,
+        "calories": 55,
+        "protein_g": 0.8,
+        "carbs_g": 10,
+        "fat_g": 1.8
+      },
+      {
+        "name": "filled pastry",
+        "usda_query": "puff pastry baked meat filled",
+        "grams": 80,
+        "calories": 280,
+        "protein_g": 6,
+        "carbs_g": 30,
+        "fat_g": 15
+      },
+      {
+        "name": "cheese pizza",
+        "usda_query": "pizza cheese regular crust baked",
+        "grams": 220,
+        "calories": 600,
+        "protein_g": 26,
+        "carbs_g": 72,
+        "fat_g": 25
+      }
+    ],
+    "total_calories": 1210
+  }
+}

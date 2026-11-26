@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563820775",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4fdca95f9c7dabbb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 273,
+    "reasoning_tokens": 208,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4810,
+    "ai_credits": 0.02113
+  },
+  "timestamp": "2026-11-25T00:12:49.784Z",
+  "raw_text": "{\"items\":[{\"name\":\"Cooked zucchini\",\"usda_query\":\"zucchini cooked boiled drained\",\"grams\":120,\"calories\":20,\"protein_g\":1.4,\"carbs_g\":3.7,\"fat_g\":0.4}],\"total_calories\":20}",
+  "latency_ms": 5978,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked zucchini",
+        "usda_query": "zucchini cooked boiled drained",
+        "grams": 120,
+        "calories": 20,
+        "protein_g": 1.4,
+        "carbs_g": 3.7,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 20
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565021714",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8cf7712ba333ab9a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1659,
+    "reasoning_tokens": 1283,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 17132,
+    "ai_credits": 0.045215
+  },
+  "timestamp": "2026-11-25T00:10:42.562Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"shredded cabbage\",\n      \"usda_query\": \"cabbage raw shredded\",\n      \"grams\": 170,\n      \"calories\": 43,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 10.0,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"bell pepper red raw\",\n      \"grams\": 90,\n      \"calories\": 28,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 5.4,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrot raw\",\n      \"grams\": 70,\n      \"calories\": 29,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 6.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"beet\",\n      \"usda_query\": \"beetroot cooked\",\n      \"grams\": 50,\n      \"calories\": 22,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 5.0,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 70,\n      \"calories\": 35,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 9.2,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 157\n}",
+  "latency_ms": 18016,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage raw shredded",
+        "grams": 170,
+        "calories": 43,
+        "protein_g": 2.2,
+        "carbs_g": 10,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red raw",
+        "grams": 90,
+        "calories": 28,
+        "protein_g": 0.9,
+        "carbs_g": 5.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrot raw",
+        "grams": 70,
+        "calories": 29,
+        "protein_g": 0.7,
+        "carbs_g": 6.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "beet",
+        "usda_query": "beetroot cooked",
+        "grams": 50,
+        "calories": 22,
+        "protein_g": 0.8,
+        "carbs_g": 5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 70,
+        "calories": 35,
+        "protein_g": 0.4,
+        "carbs_g": 9.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 157
+  }
+}

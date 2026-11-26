@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561577119",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "40b169dbe9282d1e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 809,
+    "reasoning_tokens": 630,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7938,
+    "ai_credits": 0.413925
+  },
+  "timestamp": "2026-11-25T00:35:11.388Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"firm tofu\",\n      \"usda_query\": \"tofu firm raw\",\n      \"grams\": 60,\n      \"calories\": 50,\n      \"protein_g\": 6,\n      \"carbs_g\": 2,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"pizza cheese regular crust\",\n      \"grams\": 70,\n      \"calories\": 186,\n      \"protein_g\": 8,\n      \"carbs_g\": 23,\n      \"fat_g\": 7\n    }\n  ],\n  \"total_calories\": 236\n}",
+  "latency_ms": 8809,
+  "parsed": {
+    "items": [
+      {
+        "name": "firm tofu",
+        "usda_query": "tofu firm raw",
+        "grams": 60,
+        "calories": 50,
+        "protein_g": 6,
+        "carbs_g": 2,
+        "fat_g": 3
+      },
+      {
+        "name": "cheese pizza",
+        "usda_query": "pizza cheese regular crust",
+        "grams": 70,
+        "calories": 186,
+        "protein_g": 8,
+        "carbs_g": 23,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 236
+  }
+}

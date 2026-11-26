@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563308353",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "12d62cc455927d71",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 617,
+    "reasoning_tokens": 455,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3777,
+    "ai_credits": 0.0430525
+  },
+  "timestamp": "2026-11-25T00:11:17.495Z",
+  "raw_text": "{\"items\":[{\"name\":\"carrot slices cooked\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":120,\"calories\":42,\"protein_g\":1,\"carbs_g\":10,\"fat_g\":0},{\"name\":\"pan-fried tofu\",\"usda_query\":\"tofu firm prepared with calcium sulfate fried\",\"grams\":90,\"calories\":160,\"protein_g\":16,\"carbs_g\":3,\"fat_g\":10}],\"total_calories\":202}",
+  "latency_ms": 4656,
+  "parsed": {
+    "items": [
+      {
+        "name": "carrot slices cooked",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 1,
+        "carbs_g": 10,
+        "fat_g": 0
+      },
+      {
+        "name": "pan-fried tofu",
+        "usda_query": "tofu firm prepared with calcium sulfate fried",
+        "grams": 90,
+        "calories": 160,
+        "protein_g": 16,
+        "carbs_g": 3,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 202
+  }
+}

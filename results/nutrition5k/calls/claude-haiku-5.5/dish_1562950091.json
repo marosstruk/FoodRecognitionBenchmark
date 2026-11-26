@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562950091",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bbad50ad2d6eda2a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 842,
+    "reasoning_tokens": 610,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4259,
+    "ai_credits": 0.0543025
+  },
+  "timestamp": "2026-11-25T00:33:45.230Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with milk and butter\",\"grams\":110,\"calories\":165,\"protein_g\":11,\"carbs_g\":2,\"fat_g\":12},{\"name\":\"pan-fried potatoes\",\"usda_query\":\"potatoes home fries pan fried in oil\",\"grams\":180,\"calories\":215,\"protein_g\":3.5,\"carbs_g\":33,\"fat_g\":8},{\"name\":\"cooked pork sausage\",\"usda_query\":\"pork sausage cooked pan fried\",\"grams\":80,\"calories\":250,\"protein_g\":14,\"carbs_g\":2,\"fat_g\":22}],\"total_calories\":630}",
+  "latency_ms": 5400,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with milk and butter",
+        "grams": 110,
+        "calories": 165,
+        "protein_g": 11,
+        "carbs_g": 2,
+        "fat_g": 12
+      },
+      {
+        "name": "pan-fried potatoes",
+        "usda_query": "potatoes home fries pan fried in oil",
+        "grams": 180,
+        "calories": 215,
+        "protein_g": 3.5,
+        "carbs_g": 33,
+        "fat_g": 8
+      },
+      {
+        "name": "cooked pork sausage",
+        "usda_query": "pork sausage cooked pan fried",
+        "grams": 80,
+        "calories": 250,
+        "protein_g": 14,
+        "carbs_g": 2,
+        "fat_g": 22
+      }
+    ],
+    "total_calories": 630
+  }
+}

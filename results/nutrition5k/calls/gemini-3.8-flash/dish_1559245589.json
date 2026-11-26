@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559245589",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4cff108a0664f4fe",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 626,
+    "reasoning_tokens": 518,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10009,
+    "ai_credits": 0.3453
+  },
+  "timestamp": "2026-11-25T00:27:17.231Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked glazed carrots\",\n      \"usda_query\": \"carrots cooked with butter\",\n      \"grams\": 110,\n      \"calories\": 54,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 9.1,\n      \"fat_g\": 1.7\n    }\n  ],\n  \"total_calories\": 54\n}",
+  "latency_ms": 11193,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked glazed carrots",
+        "usda_query": "carrots cooked with butter",
+        "grams": 110,
+        "calories": 54,
+        "protein_g": 0.9,
+        "carbs_g": 9.1,
+        "fat_g": 1.7
+      }
+    ],
+    "total_calories": 54
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561579505",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ddfe62e40618df13",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 360,
+    "reasoning_tokens": 261,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2494,
+    "ai_credits": 0.0302025
+  },
+  "timestamp": "2026-11-25T00:19:31.024Z",
+  "raw_text": "{\"items\":[{\"name\":\"mashed potatoes\",\"usda_query\":\"potatoes mashed prepared from fresh whole milk and butter\",\"grams\":70,\"calories\":79,\"protein_g\":1.4,\"carbs_g\":11.4,\"fat_g\":3.2}],\"total_calories\":79}",
+  "latency_ms": 3649,
+  "parsed": {
+    "items": [
+      {
+        "name": "mashed potatoes",
+        "usda_query": "potatoes mashed prepared from fresh whole milk and butter",
+        "grams": 70,
+        "calories": 79,
+        "protein_g": 1.4,
+        "carbs_g": 11.4,
+        "fat_g": 3.2
+      }
+    ],
+    "total_calories": 79
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562776497",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "be6a0fc5d0f1fbb2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 731,
+    "reasoning_tokens": 450,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7092,
+    "ai_credits": 0.384675
+  },
+  "timestamp": "2026-11-25T00:09:18.679Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 110,\n      \"calories\": 165,\n      \"protein_g\": 11.0,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 12.0\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"roasted potatoes with oil\",\n      \"grams\": 130,\n      \"calories\": 170,\n      \"protein_g\": 3.0,\n      \"carbs_g\": 26.0,\n      \"fat_g\": 6.0\n    },\n    {\n      \"name\": \"roasted Brussels sprouts\",\n      \"usda_query\": \"roasted Brussels sprouts\",\n      \"grams\": 90,\n      \"calories\": 55,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 7.5,\n      \"fat_g\": 2.5\n    }\n  ],\n  \"total_calories\": 390\n}",
+  "latency_ms": 8274,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 110,
+        "calories": 165,
+        "protein_g": 11,
+        "carbs_g": 1.5,
+        "fat_g": 12
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "roasted potatoes with oil",
+        "grams": 130,
+        "calories": 170,
+        "protein_g": 3,
+        "carbs_g": 26,
+        "fat_g": 6
+      },
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "roasted Brussels sprouts",
+        "grams": 90,
+        "calories": 55,
+        "protein_g": 2.5,
+        "carbs_g": 7.5,
+        "fat_g": 2.5
+      }
+    ],
+    "total_calories": 390
+  }
+}

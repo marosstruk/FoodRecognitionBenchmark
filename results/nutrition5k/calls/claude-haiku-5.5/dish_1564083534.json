@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564083534",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "38a60655b3738113",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1050,
+    "reasoning_tokens": 712,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5090,
+    "ai_credits": 0.0647025
+  },
+  "timestamp": "2026-11-25T00:29:53.122Z",
+  "raw_text": "{\"items\":[{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":120,\"calories\":26,\"protein_g\":1,\"carbs_g\":5,\"fat_g\":0},{\"name\":\"red bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":60,\"calories\":19,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":0},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":50,\"calories\":10,\"protein_g\":0,\"carbs_g\":5,\"fat_g\":0},{\"name\":\"cooked chicken breast\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":100,\"calories\":165,\"protein_g\":31,\"carbs_g\":0,\"fat_g\":4},{\"name\":\"black olives\",\"usda_query\":\"olives ripe canned\",\"grams\":30,\"calories\":35,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":3}],\"total_calories\":255}",
+  "latency_ms": 6400,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 120,
+        "calories": 26,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 60,
+        "calories": 19,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 50,
+        "calories": 10,
+        "protein_g": 0,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "cooked chicken breast",
+        "usda_query": "chicken breast meat roasted",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 30,
+        "calories": 35,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 255
+  }
+}

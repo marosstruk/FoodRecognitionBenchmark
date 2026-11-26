@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559751710",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a33f92e246a9d2ba",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1107,
+    "reasoning_tokens": 892,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5363,
+    "ai_credits": 0.0675525
+  },
+  "timestamp": "2026-11-25T00:33:56.820Z",
+  "raw_text": "{\"items\":[{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":60,\"calories\":31,\"protein_g\":0.7,\"carbs_g\":7.1,\"fat_g\":0.4},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":55,\"calories\":24,\"protein_g\":0.8,\"carbs_g\":5.3,\"fat_g\":0.3},{\"name\":\"cheese crumbs\",\"usda_query\":\"cheese cheddar\",\"grams\":3,\"calories\":12,\"protein_g\":0.8,\"carbs_g\":0.1,\"fat_g\":1.0}],\"total_calories\":67}",
+  "latency_ms": 6876,
+  "parsed": {
+    "items": [
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 60,
+        "calories": 31,
+        "protein_g": 0.7,
+        "carbs_g": 7.1,
+        "fat_g": 0.4
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 55,
+        "calories": 24,
+        "protein_g": 0.8,
+        "carbs_g": 5.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cheese crumbs",
+        "usda_query": "cheese cheddar",
+        "grams": 3,
+        "calories": 12,
+        "protein_g": 0.8,
+        "carbs_g": 0.1,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 67
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572627130",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "765a1d594913e1f9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 603,
+    "reasoning_tokens": 405,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7831,
+    "ai_credits": 0.336675
+  },
+  "timestamp": "2026-11-25T00:38:32.865Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs with vegetables\",\n      \"usda_query\": \"scrambled eggs with vegetables\",\n      \"grams\": 180,\n      \"calories\": 252,\n      \"protein_g\": 18.2,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 18.1\n    },\n    {\n      \"name\": \"tomato salsa\",\n      \"usda_query\": \"salsa, red\",\n      \"grams\": 45,\n      \"calories\": 16,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 268\n}",
+  "latency_ms": 8936,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs with vegetables",
+        "usda_query": "scrambled eggs with vegetables",
+        "grams": 180,
+        "calories": 252,
+        "protein_g": 18.2,
+        "carbs_g": 3.8,
+        "fat_g": 18.1
+      },
+      {
+        "name": "tomato salsa",
+        "usda_query": "salsa, red",
+        "grams": 45,
+        "calories": 16,
+        "protein_g": 0.7,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 268
+  }
+}

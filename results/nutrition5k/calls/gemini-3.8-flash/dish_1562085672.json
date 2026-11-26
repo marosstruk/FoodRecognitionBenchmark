@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562085672",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "497851ec813a1160",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 473,
+    "reasoning_tokens": 396,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5613,
+    "ai_credits": 0.287925
+  },
+  "timestamp": "2026-11-25T00:12:38.877Z",
+  "raw_text": "{\"items\": [{\"name\": \"white bread\", \"usda_query\": \"bread white commercially prepared\", \"grams\": 45, \"calories\": 120, \"protein_g\": 4, \"carbs_g\": 22.3, \"fat_g\": 1.5}], \"total_calories\": 120}",
+  "latency_ms": 6745,
+  "parsed": {
+    "items": [
+      {
+        "name": "white bread",
+        "usda_query": "bread white commercially prepared",
+        "grams": 45,
+        "calories": 120,
+        "protein_g": 4,
+        "carbs_g": 22.3,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 120
+  }
+}

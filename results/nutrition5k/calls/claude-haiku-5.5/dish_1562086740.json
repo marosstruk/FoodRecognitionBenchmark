@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562086740",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0c852eb7b0517826",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 584,
+    "reasoning_tokens": 420,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3310,
+    "ai_credits": 0.0414025
+  },
+  "timestamp": "2026-11-25T00:17:33.512Z",
+  "raw_text": "{\"items\":[{\"name\":\"bacon\",\"usda_query\":\"pork bacon cooked pan-fried\",\"grams\":20,\"calories\":108,\"protein_g\":7.4,\"carbs_g\":0.3,\"fat_g\":8.4},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole scrambled cooked with milk and butter\",\"grams\":150,\"calories\":224,\"protein_g\":15,\"carbs_g\":2.4,\"fat_g\":16.5}],\"total_calories\":332}",
+  "latency_ms": 4420,
+  "parsed": {
+    "items": [
+      {
+        "name": "bacon",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 20,
+        "calories": 108,
+        "protein_g": 7.4,
+        "carbs_g": 0.3,
+        "fat_g": 8.4
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole scrambled cooked with milk and butter",
+        "grams": 150,
+        "calories": 224,
+        "protein_g": 15,
+        "carbs_g": 2.4,
+        "fat_g": 16.5
+      }
+    ],
+    "total_calories": 332
+  }
+}

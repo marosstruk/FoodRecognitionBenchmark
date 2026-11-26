@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558641442",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9df46161510d2f53",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 870,
+    "reasoning_tokens": 634,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4349,
+    "ai_credits": 0.0557025
+  },
+  "timestamp": "2026-11-25T00:39:36.382Z",
+  "raw_text": "{\"items\":[{\"name\":\"raw cauliflower florets\",\"usda_query\":\"cauliflower raw\",\"grams\":150,\"calories\":38,\"protein_g\":2.9,\"carbs_g\":7.5,\"fat_g\":0.4},{\"name\":\"cantaloupe melon\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":200,\"calories\":68,\"protein_g\":1.7,\"carbs_g\":16.3,\"fat_g\":0.4},{\"name\":\"yellow bell pepper slice\",\"usda_query\":\"peppers sweet yellow raw\",\"grams\":50,\"calories\":14,\"protein_g\":0.5,\"carbs_g\":3.0,\"fat_g\":0.1}],\"total_calories\":120}",
+  "latency_ms": 5229,
+  "parsed": {
+    "items": [
+      {
+        "name": "raw cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 150,
+        "calories": 38,
+        "protein_g": 2.9,
+        "carbs_g": 7.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "cantaloupe melon",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 200,
+        "calories": 68,
+        "protein_g": 1.7,
+        "carbs_g": 16.3,
+        "fat_g": 0.4
+      },
+      {
+        "name": "yellow bell pepper slice",
+        "usda_query": "peppers sweet yellow raw",
+        "grams": 50,
+        "calories": 14,
+        "protein_g": 0.5,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 120
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060503",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "15c45339d5501c8e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 766,
+    "reasoning_tokens": 620,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9700,
+    "ai_credits": 0.02289
+  },
+  "timestamp": "2026-11-25T00:36:52.854Z",
+  "raw_text": "{\"items\":[{\"name\":\"meat and cheese lasagna\",\"usda_query\":\"lasagna with meat and cheese\",\"grams\":180,\"calories\":350,\"protein_g\":18,\"carbs_g\":38,\"fat_g\":14},{\"name\":\"roasted potato cubes\",\"usda_query\":\"potatoes roasted with oil\",\"grams\":110,\"calories\":150,\"protein_g\":3,\"carbs_g\":27,\"fat_g\":3},{\"name\":\"steamed leeks\",\"usda_query\":\"leeks cooked boiled drained\",\"grams\":80,\"calories\":26,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":0}],\"total_calories\":526}",
+  "latency_ms": 10844,
+  "parsed": {
+    "items": [
+      {
+        "name": "meat and cheese lasagna",
+        "usda_query": "lasagna with meat and cheese",
+        "grams": 180,
+        "calories": 350,
+        "protein_g": 18,
+        "carbs_g": 38,
+        "fat_g": 14
+      },
+      {
+        "name": "roasted potato cubes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 110,
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 27,
+        "fat_g": 3
+      },
+      {
+        "name": "steamed leeks",
+        "usda_query": "leeks cooked boiled drained",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 526
+  }
+}

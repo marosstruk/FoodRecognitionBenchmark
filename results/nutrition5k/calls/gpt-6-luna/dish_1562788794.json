@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562788794",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a7cf276475a0c5a7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 536,
+    "reasoning_tokens": 306,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7550,
+    "ai_credits": 0.03428
+  },
+  "timestamp": "2026-11-25T00:12:11.394Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 140,\n      \"calories\": 182,\n      \"protein_g\": 3.8,\n      \"carbs_g\": 39.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"grilled chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 125,\n      \"calories\": 206,\n      \"protein_g\": 38.8,\n      \"carbs_g\": 0,\n      \"fat_g\": 4.5\n    },\n    {\n      \"name\": \"vegetable omelet\",\n      \"usda_query\": \"egg omelet with vegetables\",\n      \"grams\": 60,\n      \"calories\": 100,\n      \"protein_g\": 6,\n      \"carbs_g\": 3,\n      \"fat_g\": 7\n    }\n  ],\n  \"total_calories\": 488\n}",
+  "latency_ms": 8439,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 140,
+        "calories": 182,
+        "protein_g": 3.8,
+        "carbs_g": 39.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 125,
+        "calories": 206,
+        "protein_g": 38.8,
+        "carbs_g": 0,
+        "fat_g": 4.5
+      },
+      {
+        "name": "vegetable omelet",
+        "usda_query": "egg omelet with vegetables",
+        "grams": 60,
+        "calories": 100,
+        "protein_g": 6,
+        "carbs_g": 3,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 488
+  }
+}

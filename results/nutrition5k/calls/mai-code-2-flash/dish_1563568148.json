@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563568148",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cc563150e112b0df",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1689,
+    "reasoning_tokens": 1404,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 18746,
+    "ai_credits": 0.045965
+  },
+  "timestamp": "2026-11-25T00:15:55.015Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded chicken\",\n      \"usda_query\": \"chicken breast breaded fried\",\n      \"grams\": 170,\n      \"calories\": 416,\n      \"protein_g\": 35,\n      \"carbs_g\": 25,\n      \"fat_g\": 21\n    },\n    {\n      \"name\": \"mashed potatoes\",\n      \"usda_query\": \"mashed potatoes prepared\",\n      \"grams\": 120,\n      \"calories\": 115,\n      \"protein_g\": 3,\n      \"carbs_g\": 17,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked steamed\",\n      \"grams\": 80,\n      \"calories\": 28,\n      \"protein_g\": 2,\n      \"carbs_g\": 6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"brown gravy\",\n      \"usda_query\": \"brown gravy ready to serve\",\n      \"grams\": 30,\n      \"calories\": 25,\n      \"protein_g\": 1,\n      \"carbs_g\": 4,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 584\n}",
+  "latency_ms": 20165,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded chicken",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 170,
+        "calories": 416,
+        "protein_g": 35,
+        "carbs_g": 25,
+        "fat_g": 21
+      },
+      {
+        "name": "mashed potatoes",
+        "usda_query": "mashed potatoes prepared",
+        "grams": 120,
+        "calories": 115,
+        "protein_g": 3,
+        "carbs_g": 17,
+        "fat_g": 4
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "brown gravy",
+        "usda_query": "brown gravy ready to serve",
+        "grams": 30,
+        "calories": 25,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 584
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455421",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd6182672e759b1e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 994,
+    "reasoning_tokens": 626,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9312,
+    "ai_credits": 0.05718
+  },
+  "timestamp": "2026-11-25T00:37:50.272Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Grilled fish fillet\",\n      \"usda_query\": \"fish fillet cooked\",\n      \"grams\": 90,\n      \"calories\": 180,\n      \"protein_g\": 20,\n      \"carbs_g\": 1,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"Mixed salad greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 80,\n      \"calories\": 16,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 2.8,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 10,\n      \"calories\": 4,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Corn on the cob\",\n      \"usda_query\": \"sweet yellow corn cooked\",\n      \"grams\": 65,\n      \"calories\": 62,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 13.5,\n      \"fat_g\": 0.8\n    },\n    {\n      \"name\": \"Oil-based salad dressing\",\n      \"usda_query\": \"salad dressing oil based\",\n      \"grams\": 5,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 307\n}",
+  "latency_ms": 10884,
+  "parsed": {
+    "items": [
+      {
+        "name": "Grilled fish fillet",
+        "usda_query": "fish fillet cooked",
+        "grams": 90,
+        "calories": 180,
+        "protein_g": 20,
+        "carbs_g": 1,
+        "fat_g": 10
+      },
+      {
+        "name": "Mixed salad greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 80,
+        "calories": 16,
+        "protein_g": 1.5,
+        "carbs_g": 2.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Carrot",
+        "usda_query": "carrots raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "Corn on the cob",
+        "usda_query": "sweet yellow corn cooked",
+        "grams": 65,
+        "calories": 62,
+        "protein_g": 2.2,
+        "carbs_g": 13.5,
+        "fat_g": 0.8
+      },
+      {
+        "name": "Oil-based salad dressing",
+        "usda_query": "salad dressing oil based",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0.2,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 307
+  }
+}

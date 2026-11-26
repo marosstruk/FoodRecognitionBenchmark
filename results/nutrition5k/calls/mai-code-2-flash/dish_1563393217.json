@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563393217",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "46054d12d7f77922",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 796,
+    "reasoning_tokens": 425,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6965,
+    "ai_credits": 0.02364
+  },
+  "timestamp": "2026-11-25T00:38:52.143Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 85,\n      \"calories\": 29,\n      \"protein_g\": 2.1,\n      \"carbs_g\": 5.7,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 35,\n      \"calories\": 14,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 3.3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber peeled raw\",\n      \"grams\": 45,\n      \"calories\": 7,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 30,\n      \"calories\": 12,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"peppers sweet green raw\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 67\n}",
+  "latency_ms": 8110,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 85,
+        "calories": 29,
+        "protein_g": 2.1,
+        "carbs_g": 5.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 35,
+        "calories": 14,
+        "protein_g": 0.4,
+        "carbs_g": 3.3,
+        "fat_g": 0
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber peeled raw",
+        "grams": 45,
+        "calories": 7,
+        "protein_g": 0.3,
+        "carbs_g": 1.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 67
+  }
+}

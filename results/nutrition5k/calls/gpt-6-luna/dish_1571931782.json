@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1571931782",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "694e12701de7b607",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 732,
+    "reasoning_tokens": 579,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12369,
+    "ai_credits": 0.04408
+  },
+  "timestamp": "2026-11-25T00:17:06.976Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 160,\n      \"calories\": 240,\n      \"protein_g\": 15,\n      \"carbs_g\": 2,\n      \"fat_g\": 18\n    },\n    {\n      \"name\": \"breaded chicken nuggets\",\n      \"usda_query\": \"chicken nuggets cooked\",\n      \"grams\": 70,\n      \"calories\": 207,\n      \"protein_g\": 11,\n      \"carbs_g\": 14,\n      \"fat_g\": 12\n    }\n  ],\n  \"total_calories\": 447\n}",
+  "latency_ms": 13491,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 160,
+        "calories": 240,
+        "protein_g": 15,
+        "carbs_g": 2,
+        "fat_g": 18
+      },
+      {
+        "name": "breaded chicken nuggets",
+        "usda_query": "chicken nuggets cooked",
+        "grams": 70,
+        "calories": 207,
+        "protein_g": 11,
+        "carbs_g": 14,
+        "fat_g": 12
+      }
+    ],
+    "total_calories": 447
+  }
+}

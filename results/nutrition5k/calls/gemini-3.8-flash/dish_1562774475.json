@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562774475",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39935a00892ed664",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 747,
+    "reasoning_tokens": 551,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9498,
+    "ai_credits": 0.390675
+  },
+  "timestamp": "2026-11-25T00:14:54.121Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked sausage pieces\",\n      \"usda_query\": \"pork sausage link cooked\",\n      \"grams\": 65,\n      \"calories\": 221,\n      \"protein_g\": 9.1,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 20.2\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 75,\n      \"calories\": 112,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 16.5,\n      \"fat_g\": 4.5\n    }\n  ],\n  \"total_calories\": 333\n}",
+  "latency_ms": 10673,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked sausage pieces",
+        "usda_query": "pork sausage link cooked",
+        "grams": 65,
+        "calories": 221,
+        "protein_g": 9.1,
+        "carbs_g": 0.7,
+        "fat_g": 20.2
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 75,
+        "calories": 112,
+        "protein_g": 1.9,
+        "carbs_g": 16.5,
+        "fat_g": 4.5
+      }
+    ],
+    "total_calories": 333
+  }
+}

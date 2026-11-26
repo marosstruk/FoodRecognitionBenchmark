@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564686657",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a123c67762c25a5f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 848,
+    "reasoning_tokens": 479,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6675,
+    "ai_credits": 0.04988
+  },
+  "timestamp": "2026-11-25T00:22:49.550Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"thin pizza crust\",\n      \"usda_query\": \"pizza crust thin baked\",\n      \"grams\": 45,\n      \"calories\": 120,\n      \"protein_g\": 4,\n      \"carbs_g\": 23,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"mozzarella cheese\",\n      \"usda_query\": \"mozzarella cheese whole milk\",\n      \"grams\": 30,\n      \"calories\": 84,\n      \"protein_g\": 5.4,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 6.3\n    },\n    {\n      \"name\": \"tomato pizza sauce\",\n      \"usda_query\": \"pizza sauce canned\",\n      \"grams\": 15,\n      \"calories\": 8,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions raw\",\n      \"grams\": 4,\n      \"calories\": 2,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"green bell pepper\",\n      \"usda_query\": \"peppers sweet green raw\",\n      \"grams\": 2,\n      \"calories\": 1,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 215\n}",
+  "latency_ms": 8268,
+  "parsed": {
+    "items": [
+      {
+        "name": "thin pizza crust",
+        "usda_query": "pizza crust thin baked",
+        "grams": 45,
+        "calories": 120,
+        "protein_g": 4,
+        "carbs_g": 23,
+        "fat_g": 1.5
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese whole milk",
+        "grams": 30,
+        "calories": 84,
+        "protein_g": 5.4,
+        "carbs_g": 0.9,
+        "fat_g": 6.3
+      },
+      {
+        "name": "tomato pizza sauce",
+        "usda_query": "pizza sauce canned",
+        "grams": 15,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw",
+        "grams": 4,
+        "calories": 2,
+        "protein_g": 0,
+        "carbs_g": 0.4,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 2,
+        "calories": 1,
+        "protein_g": 0,
+        "carbs_g": 0.1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 215
+  }
+}

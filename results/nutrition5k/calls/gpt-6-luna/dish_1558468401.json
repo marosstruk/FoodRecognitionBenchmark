@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558468401",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4b9f3086bf4fd33d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 721,
+    "reasoning_tokens": 621,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9948,
+    "ai_credits": 0.04353
+  },
+  "timestamp": "2026-11-25T00:11:57.884Z",
+  "raw_text": "{\"items\":[{\"name\":\"Cooked zucchini\",\"usda_query\":\"zucchini cooked\",\"grams\":70,\"calories\":12,\"protein_g\":0.9,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"Cooking oil\",\"usda_query\":\"olive oil\",\"grams\":2,\"calories\":18,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":2}],\"total_calories\":30}",
+  "latency_ms": 11108,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 70,
+        "calories": 12,
+        "protein_g": 0.9,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "olive oil",
+        "grams": 2,
+        "calories": 18,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 30
+  }
+}

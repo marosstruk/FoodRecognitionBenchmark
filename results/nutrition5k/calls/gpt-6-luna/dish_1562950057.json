@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562950057",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0eb6cd6b127f5b33",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 491,
+    "reasoning_tokens": 336,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6958,
+    "ai_credits": 0.03203
+  },
+  "timestamp": "2026-11-25T00:29:14.133Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"eggs scrambled cooked\",\n      \"grams\": 110,\n      \"calories\": 180,\n      \"protein_g\": 12,\n      \"carbs_g\": 2,\n      \"fat_g\": 14\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 140,\n      \"calories\": 210,\n      \"protein_g\": 4,\n      \"carbs_g\": 34,\n      \"fat_g\": 7\n    }\n  ],\n  \"total_calories\": 390\n}",
+  "latency_ms": 7829,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "eggs scrambled cooked",
+        "grams": 110,
+        "calories": 180,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 14
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 140,
+        "calories": 210,
+        "protein_g": 4,
+        "carbs_g": 34,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 390
+  }
+}

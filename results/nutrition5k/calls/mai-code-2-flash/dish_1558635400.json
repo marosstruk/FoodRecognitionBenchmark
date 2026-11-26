@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558635400",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "878204d44e3c5827",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 566,
+    "reasoning_tokens": 408,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6627,
+    "ai_credits": 0.01789
+  },
+  "timestamp": "2026-11-25T00:21:43.273Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"raw cauliflower florets\",\n      \"usda_query\": \"cauliflower raw\",\n      \"grams\": 180,\n      \"calories\": 45,\n      \"protein_g\": 3.5,\n      \"carbs_g\": 9,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"red chili pepper\",\n      \"usda_query\": \"pepper red raw\",\n      \"grams\": 1,\n      \"calories\": 1,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 46\n}",
+  "latency_ms": 7712,
+  "parsed": {
+    "items": [
+      {
+        "name": "raw cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 180,
+        "calories": 45,
+        "protein_g": 3.5,
+        "carbs_g": 9,
+        "fat_g": 0.5
+      },
+      {
+        "name": "red chili pepper",
+        "usda_query": "pepper red raw",
+        "grams": 1,
+        "calories": 1,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 46
+  }
+}

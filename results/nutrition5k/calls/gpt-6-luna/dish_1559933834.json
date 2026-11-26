@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559933834",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "814f99c3ffea5e01",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 940,
+    "reasoning_tokens": 563,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8934,
+    "ai_credits": 0.05448
+  },
+  "timestamp": "2026-11-25T00:33:20.874Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Grilled salmon\",\n      \"usda_query\": \"salmon Atlantic cooked dry heat\",\n      \"grams\": 150,\n      \"calories\": 309,\n      \"protein_g\": 33,\n      \"carbs_g\": 0,\n      \"fat_g\": 18.6\n    },\n    {\n      \"name\": \"Roasted Brussels sprouts\",\n      \"usda_query\": \"Brussels sprouts cooked roasted with oil\",\n      \"grams\": 120,\n      \"calories\": 100,\n      \"protein_g\": 4.1,\n      \"carbs_g\": 11,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"Leaf lettuce\",\n      \"usda_query\": \"leaf lettuce raw\",\n      \"grams\": 35,\n      \"calories\": 5,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Shredded cabbage and carrot\",\n      \"usda_query\": \"cabbage and carrots raw\",\n      \"grams\": 20,\n      \"calories\": 7,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Vinaigrette dressing\",\n      \"usda_query\": \"vinaigrette salad dressing\",\n      \"grams\": 8,\n      \"calories\": 35,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 3.5\n    }\n  ],\n  \"total_calories\": 456\n}",
+  "latency_ms": 10052,
+  "parsed": {
+    "items": [
+      {
+        "name": "Grilled salmon",
+        "usda_query": "salmon Atlantic cooked dry heat",
+        "grams": 150,
+        "calories": 309,
+        "protein_g": 33,
+        "carbs_g": 0,
+        "fat_g": 18.6
+      },
+      {
+        "name": "Roasted Brussels sprouts",
+        "usda_query": "Brussels sprouts cooked roasted with oil",
+        "grams": 120,
+        "calories": 100,
+        "protein_g": 4.1,
+        "carbs_g": 11,
+        "fat_g": 5
+      },
+      {
+        "name": "Leaf lettuce",
+        "usda_query": "leaf lettuce raw",
+        "grams": 35,
+        "calories": 5,
+        "protein_g": 0.5,
+        "carbs_g": 1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Shredded cabbage and carrot",
+        "usda_query": "cabbage and carrots raw",
+        "grams": 20,
+        "calories": 7,
+        "protein_g": 0.3,
+        "carbs_g": 1.6,
+        "fat_g": 0
+      },
+      {
+        "name": "Vinaigrette dressing",
+        "usda_query": "vinaigrette salad dressing",
+        "grams": 8,
+        "calories": 35,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 3.5
+      }
+    ],
+    "total_calories": 456
+  }
+}

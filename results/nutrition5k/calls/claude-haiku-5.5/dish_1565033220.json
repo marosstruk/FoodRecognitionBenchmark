@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565033220",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5ee09ea3cfa1a917",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 979,
+    "reasoning_tokens": 505,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4535,
+    "ai_credits": 0.0611525
+  },
+  "timestamp": "2026-11-25T00:27:30.883Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 60,\n      \"calories\": 10,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"broccoli florets\",\n      \"usda_query\": \"broccoli raw\",\n      \"grams\": 100,\n      \"calories\": 34,\n      \"protein_g\": 3,\n      \"carbs_g\": 7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"grilled chicken breast cubes\",\n      \"usda_query\": \"chicken breast meat only roasted\",\n      \"grams\": 90,\n      \"calories\": 149,\n      \"protein_g\": 28,\n      \"carbs_g\": 0,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"red kidney beans\",\n      \"usda_query\": \"kidney beans red canned drained\",\n      \"grams\": 60,\n      \"calories\": 80,\n      \"protein_g\": 5,\n      \"carbs_g\": 14,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"peanut dressing\",\n      \"usda_query\": \"peanut sauce\",\n      \"grams\": 40,\n      \"calories\": 150,\n      \"protein_g\": 4,\n      \"carbs_g\": 8,\n      \"fat_g\": 11\n    }\n  ],\n  \"total_calories\": 423\n}",
+  "latency_ms": 5419,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli raw",
+        "grams": 100,
+        "calories": 34,
+        "protein_g": 3,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "grilled chicken breast cubes",
+        "usda_query": "chicken breast meat only roasted",
+        "grams": 90,
+        "calories": 149,
+        "protein_g": 28,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "red kidney beans",
+        "usda_query": "kidney beans red canned drained",
+        "grams": 60,
+        "calories": 80,
+        "protein_g": 5,
+        "carbs_g": 14,
+        "fat_g": 0
+      },
+      {
+        "name": "peanut dressing",
+        "usda_query": "peanut sauce",
+        "grams": 40,
+        "calories": 150,
+        "protein_g": 4,
+        "carbs_g": 8,
+        "fat_g": 11
+      }
+    ],
+    "total_calories": 423
+  }
+}

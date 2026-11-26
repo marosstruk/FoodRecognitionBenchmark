@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566328724",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f1284effb473ced1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 400,
+    "reasoning_tokens": 316,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5590,
+    "ai_credits": 0.26055
+  },
+  "timestamp": "2026-11-25T00:35:57.665Z",
+  "raw_text": "{\"items\": [{\"name\": \"diced cooked chicken breast\", \"usda_query\": \"chicken breast roasted skinless\", \"grams\": 120, \"calories\": 198, \"protein_g\": 37.2, \"carbs_g\": 0.0, \"fat_g\": 4.3}], \"total_calories\": 198}",
+  "latency_ms": 6707,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced cooked chicken breast",
+        "usda_query": "chicken breast roasted skinless",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37.2,
+        "carbs_g": 0,
+        "fat_g": 4.3
+      }
+    ],
+    "total_calories": 198
+  }
+}

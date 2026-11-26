@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1571931782",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "694e12701de7b607",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 972,
+    "reasoning_tokens": 868,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13519,
+    "ai_credits": 0.02804
+  },
+  "timestamp": "2026-11-25T00:17:06.706Z",
+  "raw_text": "{\"items\":[{\"name\":\"fried potato pieces\",\"usda_query\":\"potatoes fried\",\"grams\":150,\"calories\":345,\"protein_g\":4.5,\"carbs_g\":39,\"fat_g\":18},{\"name\":\"fried chicken pieces\",\"usda_query\":\"chicken fried breast\",\"grams\":90,\"calories\":207,\"protein_g\":18.9,\"carbs_g\":5.4,\"fat_g\":11.7}],\"total_calories\":552}",
+  "latency_ms": 14382,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried potato pieces",
+        "usda_query": "potatoes fried",
+        "grams": 150,
+        "calories": 345,
+        "protein_g": 4.5,
+        "carbs_g": 39,
+        "fat_g": 18
+      },
+      {
+        "name": "fried chicken pieces",
+        "usda_query": "chicken fried breast",
+        "grams": 90,
+        "calories": 207,
+        "protein_g": 18.9,
+        "carbs_g": 5.4,
+        "fat_g": 11.7
+      }
+    ],
+    "total_calories": 552
+  }
+}

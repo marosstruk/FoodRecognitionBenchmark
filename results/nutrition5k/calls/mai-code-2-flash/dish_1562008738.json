@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562008738",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3387d8afe34d65c1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 775,
+    "reasoning_tokens": 668,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9738,
+    "ai_credits": 0.023115
+  },
+  "timestamp": "2026-11-25T00:10:42.238Z",
+  "raw_text": "{\"items\":[{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli steamed\",\"grams\":170,\"calories\":58,\"protein_g\":4.8,\"carbs_g\":11.3,\"fat_g\":0.6},{\"name\":\"steamed cauliflower\",\"usda_query\":\"cauliflower cooked\",\"grams\":130,\"calories\":33,\"protein_g\":2.5,\"carbs_g\":6.5,\"fat_g\":0.4}],\"total_calories\":91}",
+  "latency_ms": 10665,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli steamed",
+        "grams": 170,
+        "calories": 58,
+        "protein_g": 4.8,
+        "carbs_g": 11.3,
+        "fat_g": 0.6
+      },
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 130,
+        "calories": 33,
+        "protein_g": 2.5,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 91
+  }
+}

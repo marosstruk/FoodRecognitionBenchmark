@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566328776",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "00180376b74f79d1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 939,
+    "reasoning_tokens": 716,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5028,
+    "ai_credits": 0.0591525
+  },
+  "timestamp": "2026-11-25T00:30:35.971Z",
+  "raw_text": "{\"items\":[{\"name\":\"ham and pineapple pizza\",\"usda_query\":\"pizza ham and pineapple cheese\",\"grams\":280,\"calories\":728,\"protein_g\":31,\"carbs_g\":90,\"fat_g\":28},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":150,\"calories\":248,\"protein_g\":47,\"carbs_g\":0,\"fat_g\":5},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":120,\"calories\":22,\"protein_g\":1,\"carbs_g\":5,\"fat_g\":0}],\"total_calories\":998}",
+  "latency_ms": 6579,
+  "parsed": {
+    "items": [
+      {
+        "name": "ham and pineapple pizza",
+        "usda_query": "pizza ham and pineapple cheese",
+        "grams": 280,
+        "calories": 728,
+        "protein_g": 31,
+        "carbs_g": 90,
+        "fat_g": 28
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat roasted",
+        "grams": 150,
+        "calories": 248,
+        "protein_g": 47,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 120,
+        "calories": 22,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 998
+  }
+}

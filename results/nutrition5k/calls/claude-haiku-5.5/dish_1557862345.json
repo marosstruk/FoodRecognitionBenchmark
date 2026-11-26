@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1557862345",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7c5862203770ef82",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 621,
+    "reasoning_tokens": 461,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3872,
+    "ai_credits": 0.0432525
+  },
+  "timestamp": "2026-11-25T00:20:56.107Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked chicken meat\",\"usda_query\":\"chicken breast meat roasted\",\"grams\":60,\"calories\":99,\"protein_g\":18.6,\"carbs_g\":0,\"fat_g\":2.2},{\"name\":\"cooked carrot\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":15,\"calories\":5,\"protein_g\":0.1,\"carbs_g\":1.2,\"fat_g\":0}],\"total_calories\":104}",
+  "latency_ms": 4952,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked chicken meat",
+        "usda_query": "chicken breast meat roasted",
+        "grams": 60,
+        "calories": 99,
+        "protein_g": 18.6,
+        "carbs_g": 0,
+        "fat_g": 2.2
+      },
+      {
+        "name": "cooked carrot",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 15,
+        "calories": 5,
+        "protein_g": 0.1,
+        "carbs_g": 1.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 104
+  }
+}

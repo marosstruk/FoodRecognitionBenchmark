@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561577731",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5a445a911f4c1b17",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1171,
+    "reasoning_tokens": 853,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5812,
+    "ai_credits": 0.0707525
+  },
+  "timestamp": "2026-11-25T00:29:47.289Z",
+  "raw_text": "{\"items\":[{\"name\":\"roast beef\",\"usda_query\":\"beef roast sirloin cooked medium-rare lean and fat\",\"grams\":120,\"calories\":252,\"protein_g\":32,\"carbs_g\":0,\"fat_g\":13},{\"name\":\"steamed cauliflower\",\"usda_query\":\"cauliflower cooked boiled drained without salt\",\"grams\":150,\"calories\":38,\"protein_g\":3,\"carbs_g\":7.5,\"fat_g\":0.5},{\"name\":\"creamy mushrooms\",\"usda_query\":\"mushrooms cooked sauteed with cream sauce\",\"grams\":90,\"calories\":100,\"protein_g\":2.5,\"carbs_g\":4,\"fat_g\":9},{\"name\":\"boiled potato\",\"usda_query\":\"potatoes boiled cooked flesh without skin\",\"grams\":80,\"calories\":70,\"protein_g\":1.6,\"carbs_g\":16,\"fat_g\":0.1}],\"total_calories\":460}",
+  "latency_ms": 7121,
+  "parsed": {
+    "items": [
+      {
+        "name": "roast beef",
+        "usda_query": "beef roast sirloin cooked medium-rare lean and fat",
+        "grams": 120,
+        "calories": 252,
+        "protein_g": 32,
+        "carbs_g": 0,
+        "fat_g": 13
+      },
+      {
+        "name": "steamed cauliflower",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 150,
+        "calories": 38,
+        "protein_g": 3,
+        "carbs_g": 7.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "creamy mushrooms",
+        "usda_query": "mushrooms cooked sauteed with cream sauce",
+        "grams": 90,
+        "calories": 100,
+        "protein_g": 2.5,
+        "carbs_g": 4,
+        "fat_g": 9
+      },
+      {
+        "name": "boiled potato",
+        "usda_query": "potatoes boiled cooked flesh without skin",
+        "grams": 80,
+        "calories": 70,
+        "protein_g": 1.6,
+        "carbs_g": 16,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 460
+  }
+}

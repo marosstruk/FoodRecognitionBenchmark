@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562784266",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74409fa0912eadd2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1549,
+    "reasoning_tokens": 1209,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7440,
+    "ai_credits": 0.0896525
+  },
+  "timestamp": "2026-11-25T00:11:52.758Z",
+  "raw_text": "{\"items\":[{\"name\":\"sweet corn\",\"usda_query\":\"corn sweet yellow cooked boiled drained\",\"grams\":60,\"calories\":58,\"protein_g\":2,\"carbs_g\":13,\"fat_g\":1},{\"name\":\"pizza crust\",\"usda_query\":\"pizza crust baked\",\"grams\":45,\"calories\":120,\"protein_g\":4,\"carbs_g\":22,\"fat_g\":1},{\"name\":\"tomato sauce\",\"usda_query\":\"pizza sauce canned\",\"grams\":25,\"calories\":10,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"mozzarella cheese\",\"usda_query\":\"cheese mozzarella whole milk\",\"grams\":15,\"calories\":42,\"protein_g\":3,\"carbs_g\":0,\"fat_g\":3},{\"name\":\"fresh herbs\",\"usda_query\":\"parsley fresh\",\"grams\":3,\"calories\":4,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":0}],\"total_calories\":234}",
+  "latency_ms": 8578,
+  "parsed": {
+    "items": [
+      {
+        "name": "sweet corn",
+        "usda_query": "corn sweet yellow cooked boiled drained",
+        "grams": 60,
+        "calories": 58,
+        "protein_g": 2,
+        "carbs_g": 13,
+        "fat_g": 1
+      },
+      {
+        "name": "pizza crust",
+        "usda_query": "pizza crust baked",
+        "grams": 45,
+        "calories": 120,
+        "protein_g": 4,
+        "carbs_g": 22,
+        "fat_g": 1
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "pizza sauce canned",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "cheese mozzarella whole milk",
+        "grams": 15,
+        "calories": 42,
+        "protein_g": 3,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "fresh herbs",
+        "usda_query": "parsley fresh",
+        "grams": 3,
+        "calories": 4,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 234
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568318361",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3e8358925689accf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 954,
+    "reasoning_tokens": 659,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10830,
+    "ai_credits": 0.05518
+  },
+  "timestamp": "2026-11-25T00:23:27.301Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked beef steak\",\n      \"usda_query\": \"beef steak cooked grilled\",\n      \"grams\": 125,\n      \"calories\": 286,\n      \"protein_g\": 32,\n      \"carbs_g\": 0,\n      \"fat_g\": 17\n    },\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 100,\n      \"calories\": 35,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 7,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Mixed leafy greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 70,\n      \"calories\": 12,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Bean sprouts\",\n      \"usda_query\": \"mung bean sprouts raw\",\n      \"grams\": 25,\n      \"calories\": 8,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 341\n}",
+  "latency_ms": 12004,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked beef steak",
+        "usda_query": "beef steak cooked grilled",
+        "grams": 125,
+        "calories": 286,
+        "protein_g": 32,
+        "carbs_g": 0,
+        "fat_g": 17
+      },
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 2.4,
+        "carbs_g": 7,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Mixed leafy greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 70,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Bean sprouts",
+        "usda_query": "mung bean sprouts raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.8,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 341
+  }
+}

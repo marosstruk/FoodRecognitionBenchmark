@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572887017",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "633ae0b98cbff893",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1159,
+    "reasoning_tokens": 804,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11452,
+    "ai_credits": 0.06543
+  },
+  "timestamp": "2026-11-25T00:36:04.595Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Corn tortilla pieces\",\n      \"usda_query\": \"tortilla corn\",\n      \"grams\": 85,\n      \"calories\": 187,\n      \"protein_g\": 5,\n      \"carbs_g\": 38,\n      \"fat_g\": 2\n    },\n    {\n      \"name\": \"Tomato salsa\",\n      \"usda_query\": \"salsa ready-to-serve\",\n      \"grams\": 60,\n      \"calories\": 22,\n      \"protein_g\": 1,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Pico de gallo\",\n      \"usda_query\": \"tomato onion cilantro salsa\",\n      \"grams\": 45,\n      \"calories\": 14,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Queso fresco\",\n      \"usda_query\": \"cheese queso fresco\",\n      \"grams\": 20,\n      \"calories\": 53,\n      \"protein_g\": 4,\n      \"carbs_g\": 1,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Refried beans\",\n      \"usda_query\": \"beans refried canned\",\n      \"grams\": 35,\n      \"calories\": 45,\n      \"protein_g\": 3,\n      \"carbs_g\": 7,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 321\n}",
+  "latency_ms": 12554,
+  "parsed": {
+    "items": [
+      {
+        "name": "Corn tortilla pieces",
+        "usda_query": "tortilla corn",
+        "grams": 85,
+        "calories": 187,
+        "protein_g": 5,
+        "carbs_g": 38,
+        "fat_g": 2
+      },
+      {
+        "name": "Tomato salsa",
+        "usda_query": "salsa ready-to-serve",
+        "grams": 60,
+        "calories": 22,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "Pico de gallo",
+        "usda_query": "tomato onion cilantro salsa",
+        "grams": 45,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "Queso fresco",
+        "usda_query": "cheese queso fresco",
+        "grams": 20,
+        "calories": 53,
+        "protein_g": 4,
+        "carbs_g": 1,
+        "fat_g": 4
+      },
+      {
+        "name": "Refried beans",
+        "usda_query": "beans refried canned",
+        "grams": 35,
+        "calories": 45,
+        "protein_g": 3,
+        "carbs_g": 7,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 321
+  }
+}

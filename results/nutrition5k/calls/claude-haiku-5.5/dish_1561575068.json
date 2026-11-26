@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561575068",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e0a7883468736a3d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1685,
+    "reasoning_tokens": 1179,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7694,
+    "ai_credits": 0.0964525
+  },
+  "timestamp": "2026-11-25T00:14:48.622Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat only grilled\",\"grams\":100,\"calories\":165,\"protein_g\":31,\"carbs_g\":0,\"fat_g\":3.6},{\"name\":\"cooked farro\",\"usda_query\":\"farro cooked\",\"grams\":120,\"calories\":152,\"protein_g\":6.4,\"carbs_g\":31.6,\"fat_g\":1.1},{\"name\":\"feta cheese\",\"usda_query\":\"cheese feta\",\"grams\":30,\"calories\":75,\"protein_g\":4.3,\"carbs_g\":1.2,\"fat_g\":6},{\"name\":\"kalamata olives\",\"usda_query\":\"olives ripe canned small-extra large\",\"grams\":40,\"calories\":46,\"protein_g\":0.4,\"carbs_g\":2.5,\"fat_g\":4.3},{\"name\":\"mixed salad greens\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe cherry raw\",\"grams\":50,\"calories\":9,\"protein_g\":0.4,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"vinaigrette dressing\",\"usda_query\":\"salad dressing vinaigrette regular\",\"grams\":20,\"calories\":90,\"protein_g\":0,\"carbs_g\":1.5,\"fat_g\":9.5}],\"total_calories\":551}",
+  "latency_ms": 8581,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only grilled",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      },
+      {
+        "name": "cooked farro",
+        "usda_query": "farro cooked",
+        "grams": 120,
+        "calories": 152,
+        "protein_g": 6.4,
+        "carbs_g": 31.6,
+        "fat_g": 1.1
+      },
+      {
+        "name": "feta cheese",
+        "usda_query": "cheese feta",
+        "grams": 30,
+        "calories": 75,
+        "protein_g": 4.3,
+        "carbs_g": 1.2,
+        "fat_g": 6
+      },
+      {
+        "name": "kalamata olives",
+        "usda_query": "olives ripe canned small-extra large",
+        "grams": 40,
+        "calories": 46,
+        "protein_g": 0.4,
+        "carbs_g": 2.5,
+        "fat_g": 4.3
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe cherry raw",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette regular",
+        "grams": 20,
+        "calories": 90,
+        "protein_g": 0,
+        "carbs_g": 1.5,
+        "fat_g": 9.5
+      }
+    ],
+    "total_calories": 551
+  }
+}

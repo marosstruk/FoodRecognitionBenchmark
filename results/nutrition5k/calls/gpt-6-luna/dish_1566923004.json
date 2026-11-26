@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566923004",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6956c64955230597",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 769,
+    "reasoning_tokens": 660,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9055,
+    "ai_credits": 0.04593
+  },
+  "timestamp": "2026-11-25T00:28:44.155Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":60,\"calories\":89,\"protein_g\":6.6,\"carbs_g\":0.6,\"fat_g\":6.8},{\"name\":\"potato chunks\",\"usda_query\":\"potato cooked boiled\",\"grams\":50,\"calories\":44,\"protein_g\":1.0,\"carbs_g\":10.1,\"fat_g\":0.1}],\"total_calories\":133}",
+  "latency_ms": 10197,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 60,
+        "calories": 89,
+        "protein_g": 6.6,
+        "carbs_g": 0.6,
+        "fat_g": 6.8
+      },
+      {
+        "name": "potato chunks",
+        "usda_query": "potato cooked boiled",
+        "grams": 50,
+        "calories": 44,
+        "protein_g": 1,
+        "carbs_g": 10.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 133
+  }
+}

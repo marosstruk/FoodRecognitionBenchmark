@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564073716",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c5ae523b8589b645",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 987,
+    "reasoning_tokens": 705,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11233,
+    "ai_credits": 0.480675
+  },
+  "timestamp": "2026-11-25T00:34:22.782Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled egg whites\",\n      \"usda_query\": \"egg white cooked\",\n      \"grams\": 160,\n      \"calories\": 83,\n      \"protein_g\": 17.4,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"cooked egg yolks\",\n      \"usda_query\": \"egg yolk cooked\",\n      \"grams\": 45,\n      \"calories\": 145,\n      \"protein_g\": 7.2,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 11.9\n    },\n    {\n      \"name\": \"roasted sweet potatoes\",\n      \"usda_query\": \"sweet potato cooked baked in skin\",\n      \"grams\": 60,\n      \"calories\": 65,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 12.6,\n      \"fat_g\": 1.5\n    }\n  ],\n  \"total_calories\": 293\n}",
+  "latency_ms": 12744,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled egg whites",
+        "usda_query": "egg white cooked",
+        "grams": 160,
+        "calories": 83,
+        "protein_g": 17.4,
+        "carbs_g": 1.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cooked egg yolks",
+        "usda_query": "egg yolk cooked",
+        "grams": 45,
+        "calories": 145,
+        "protein_g": 7.2,
+        "carbs_g": 1.6,
+        "fat_g": 11.9
+      },
+      {
+        "name": "roasted sweet potatoes",
+        "usda_query": "sweet potato cooked baked in skin",
+        "grams": 60,
+        "calories": 65,
+        "protein_g": 1.2,
+        "carbs_g": 12.6,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 293
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561749818",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "633f6b6054d72f50",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1279,
+    "reasoning_tokens": 682,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10776,
+    "ai_credits": 0.07143
+  },
+  "timestamp": "2026-11-25T00:27:21.501Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked salmon\",\n      \"usda_query\": \"salmon cooked\",\n      \"grams\": 130,\n      \"calories\": 270,\n      \"protein_g\": 29,\n      \"carbs_g\": 0,\n      \"fat_g\": 16\n    },\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 120,\n      \"calories\": 42,\n      \"protein_g\": 3,\n      \"carbs_g\": 9,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cherry tomatoes\",\n      \"usda_query\": \"tomatoes raw\",\n      \"grams\": 90,\n      \"calories\": 16,\n      \"protein_g\": 1,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Cucumber\",\n      \"usda_query\": \"cucumber raw with peel\",\n      \"grams\": 55,\n      \"calories\": 8,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Celery\",\n      \"usda_query\": \"celery raw\",\n      \"grams\": 30,\n      \"calories\": 4,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Green bell pepper\",\n      \"usda_query\": \"green bell pepper raw\",\n      \"grams\": 25,\n      \"calories\": 5,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Radishes\",\n      \"usda_query\": \"radishes raw\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Red onion\",\n      \"usda_query\": \"red onion raw\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Feta cheese\",\n      \"usda_query\": \"feta cheese\",\n      \"grams\": 20,\n      \"calories\": 53,\n      \"protein_g\": 3,\n      \"carbs_g\": 1,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 412\n}",
+  "latency_ms": 11742,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked salmon",
+        "usda_query": "salmon cooked",
+        "grams": 130,
+        "calories": 270,
+        "protein_g": 29,
+        "carbs_g": 0,
+        "fat_g": 16
+      },
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 3,
+        "carbs_g": 9,
+        "fat_g": 0
+      },
+      {
+        "name": "Cherry tomatoes",
+        "usda_query": "tomatoes raw",
+        "grams": 90,
+        "calories": 16,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "Cucumber",
+        "usda_query": "cucumber raw with peel",
+        "grams": 55,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "Celery",
+        "usda_query": "celery raw",
+        "grams": 30,
+        "calories": 4,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "Green bell pepper",
+        "usda_query": "green bell pepper raw",
+        "grams": 25,
+        "calories": 5,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "Radishes",
+        "usda_query": "radishes raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "Red onion",
+        "usda_query": "red onion raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "Feta cheese",
+        "usda_query": "feta cheese",
+        "grams": 20,
+        "calories": 53,
+        "protein_g": 3,
+        "carbs_g": 1,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 412
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562605315",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5ec98f62a554b96a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 267,
+    "reasoning_tokens": 184,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2807,
+    "ai_credits": 0.0255525
+  },
+  "timestamp": "2026-11-25T00:32:52.220Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":179,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13}],\"total_calories\":179}",
+  "latency_ms": 3945,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      }
+    ],
+    "total_calories": 179
+  }
+}

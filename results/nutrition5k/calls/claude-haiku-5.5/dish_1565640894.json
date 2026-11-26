@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640894",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f12d952a3d9f2c7f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1517,
+    "reasoning_tokens": 1078,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6981,
+    "ai_credits": 0.0880525
+  },
+  "timestamp": "2026-11-25T00:38:46.695Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.7,\"carbs_g\":2.6,\"fat_g\":0.3},{\"name\":\"cucumber\",\"usda_query\":\"cucumber with peel raw\",\"grams\":80,\"calories\":12,\"protein_g\":0.5,\"carbs_g\":2.9,\"fat_g\":0.1},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":30,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"kalamata olives\",\"usda_query\":\"olives ripe canned small size\",\"grams\":35,\"calories\":40,\"protein_g\":0.3,\"carbs_g\":2.1,\"fat_g\":3.7},{\"name\":\"parmesan cheese shaved\",\"usda_query\":\"cheese parmesan hard grated\",\"grams\":20,\"calories\":86,\"protein_g\":7.6,\"carbs_g\":0.8,\"fat_g\":5.7},{\"name\":\"croutons\",\"usda_query\":\"croutons plain seasoned\",\"grams\":15,\"calories\":61,\"protein_g\":1.8,\"carbs_g\":10.8,\"fat_g\":0.8}],\"total_calories\":221}",
+  "latency_ms": 8112,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1.7,
+        "carbs_g": 2.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 80,
+        "calories": 12,
+        "protein_g": 0.5,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 30,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "kalamata olives",
+        "usda_query": "olives ripe canned small size",
+        "grams": 35,
+        "calories": 40,
+        "protein_g": 0.3,
+        "carbs_g": 2.1,
+        "fat_g": 3.7
+      },
+      {
+        "name": "parmesan cheese shaved",
+        "usda_query": "cheese parmesan hard grated",
+        "grams": 20,
+        "calories": 86,
+        "protein_g": 7.6,
+        "carbs_g": 0.8,
+        "fat_g": 5.7
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons plain seasoned",
+        "grams": 15,
+        "calories": 61,
+        "protein_g": 1.8,
+        "carbs_g": 10.8,
+        "fat_g": 0.8
+      }
+    ],
+    "total_calories": 221
+  }
+}

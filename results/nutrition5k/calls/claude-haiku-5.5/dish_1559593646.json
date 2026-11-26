@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559593646",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "42f08e16d22e8f78",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 846,
+    "reasoning_tokens": 611,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4228,
+    "ai_credits": 0.0545025
+  },
+  "timestamp": "2026-11-25T00:26:20.179Z",
+  "raw_text": "{\"items\":[{\"name\":\"kale raw\",\"usda_query\":\"kale raw\",\"grams\":80,\"calories\":28,\"protein_g\":2.3,\"carbs_g\":3.6,\"fat_g\":0.5},{\"name\":\"red bell pepper raw\",\"usda_query\":\"peppers sweet red raw\",\"grams\":10,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.6,\"fat_g\":0.0},{\"name\":\"pumpkin seeds roasted\",\"usda_query\":\"seeds pumpkin and squash seed kernels dried\",\"grams\":10,\"calories\":56,\"protein_g\":3.0,\"carbs_g\":1.5,\"fat_g\":4.9}],\"total_calories\":87}",
+  "latency_ms": 5446,
+  "parsed": {
+    "items": [
+      {
+        "name": "kale raw",
+        "usda_query": "kale raw",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 2.3,
+        "carbs_g": 3.6,
+        "fat_g": 0.5
+      },
+      {
+        "name": "red bell pepper raw",
+        "usda_query": "peppers sweet red raw",
+        "grams": 10,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "pumpkin seeds roasted",
+        "usda_query": "seeds pumpkin and squash seed kernels dried",
+        "grams": 10,
+        "calories": 56,
+        "protein_g": 3,
+        "carbs_g": 1.5,
+        "fat_g": 4.9
+      }
+    ],
+    "total_calories": 87
+  }
+}

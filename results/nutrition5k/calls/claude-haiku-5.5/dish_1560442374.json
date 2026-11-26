@@ -1,0 +1,26 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560442374",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ca36dbc420eae4da",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 330,
+    "reasoning_tokens": 313,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2807,
+    "ai_credits": 0.0287025
+  },
+  "timestamp": "2026-11-25T00:24:02.086Z",
+  "raw_text": "{\"items\": [], \"total_calories\": 0}",
+  "latency_ms": 3689,
+  "parsed": {
+    "items": [],
+    "total_calories": 0
+  }
+}

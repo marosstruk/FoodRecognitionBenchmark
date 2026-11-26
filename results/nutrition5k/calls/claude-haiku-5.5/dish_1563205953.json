@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563205953",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4368616a050b32dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1021,
+    "reasoning_tokens": 654,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4575,
+    "ai_credits": 0.0632525
+  },
+  "timestamp": "2026-11-25T00:32:32.472Z",
+  "raw_text": "{\"items\":[{\"name\":\"boiled potato\",\"usda_query\":\"potatoes boiled cooked without skin\",\"grams\":150,\"calories\":130,\"protein_g\":3,\"carbs_g\":30,\"fat_g\":0.2},{\"name\":\"pork sausage slices\",\"usda_query\":\"pork sausage cooked pan-fried\",\"grams\":80,\"calories\":240,\"protein_g\":14,\"carbs_g\":2,\"fat_g\":20},{\"name\":\"cooked carrot\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":50,\"calories\":18,\"protein_g\":0.4,\"carbs_g\":4,\"fat_g\":0.2},{\"name\":\"roasted parsnip\",\"usda_query\":\"parsnips cooked roasted\",\"grams\":30,\"calories\":22,\"protein_g\":0.5,\"carbs_g\":5,\"fat_g\":0.4},{\"name\":\"fresh pineapple\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":150,\"calories\":75,\"protein_g\":0.8,\"carbs_g\":20,\"fat_g\":0.2}],\"total_calories\":485}",
+  "latency_ms": 5481,
+  "parsed": {
+    "items": [
+      {
+        "name": "boiled potato",
+        "usda_query": "potatoes boiled cooked without skin",
+        "grams": 150,
+        "calories": 130,
+        "protein_g": 3,
+        "carbs_g": 30,
+        "fat_g": 0.2
+      },
+      {
+        "name": "pork sausage slices",
+        "usda_query": "pork sausage cooked pan-fried",
+        "grams": 80,
+        "calories": 240,
+        "protein_g": 14,
+        "carbs_g": 2,
+        "fat_g": 20
+      },
+      {
+        "name": "cooked carrot",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 0.4,
+        "carbs_g": 4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "roasted parsnip",
+        "usda_query": "parsnips cooked roasted",
+        "grams": 30,
+        "calories": 22,
+        "protein_g": 0.5,
+        "carbs_g": 5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "fresh pineapple",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 150,
+        "calories": 75,
+        "protein_g": 0.8,
+        "carbs_g": 20,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 485
+  }
+}

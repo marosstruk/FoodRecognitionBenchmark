@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568405466",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ef986356ad277ffc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1130,
+    "reasoning_tokens": 772,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4996,
+    "ai_credits": 0.0687025
+  },
+  "timestamp": "2026-11-25T00:24:28.374Z",
+  "raw_text": "{\"items\":[{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":60,\"calories\":14,\"protein_g\":1.0,\"carbs_g\":1.3,\"fat_g\":0.1},{\"name\":\"red bell pepper\",\"usda_query\":\"sweet red pepper raw\",\"grams\":20,\"calories\":6,\"protein_g\":0.2,\"carbs_g\":1.2,\"fat_g\":0.1},{\"name\":\"shredded white cabbage\",\"usda_query\":\"cabbage raw\",\"grams\":70,\"calories\":17,\"protein_g\":0.7,\"carbs_g\":4.1,\"fat_g\":0.1},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":30,\"calories\":12,\"protein_g\":0.3,\"carbs_g\":2.9,\"fat_g\":0.1},{\"name\":\"pineapple chunks\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":150,\"calories\":75,\"protein_g\":0.8,\"carbs_g\":19.7,\"fat_g\":0.2}],\"total_calories\":124}",
+  "latency_ms": 6098,
+  "parsed": {
+    "items": [
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 60,
+        "calories": 14,
+        "protein_g": 1,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "sweet red pepper raw",
+        "grams": 20,
+        "calories": 6,
+        "protein_g": 0.2,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "shredded white cabbage",
+        "usda_query": "cabbage raw",
+        "grams": 70,
+        "calories": 17,
+        "protein_g": 0.7,
+        "carbs_g": 4.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 150,
+        "calories": 75,
+        "protein_g": 0.8,
+        "carbs_g": 19.7,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 124
+  }
+}

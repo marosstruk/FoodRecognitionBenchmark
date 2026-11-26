@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558026623",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bdc23d96070519fd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 498,
+    "reasoning_tokens": 388,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6060,
+    "ai_credits": 0.2973
+  },
+  "timestamp": "2026-11-25T00:30:47.850Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"honeydew melon\",\n      \"usda_query\": \"honeydew melon raw\",\n      \"grams\": 130,\n      \"calories\": 47,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 11.8,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 47\n}",
+  "latency_ms": 7163,
+  "parsed": {
+    "items": [
+      {
+        "name": "honeydew melon",
+        "usda_query": "honeydew melon raw",
+        "grams": 130,
+        "calories": 47,
+        "protein_g": 0.7,
+        "carbs_g": 11.8,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 47
+  }
+}

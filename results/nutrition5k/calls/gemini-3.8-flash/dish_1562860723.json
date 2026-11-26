@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562860723",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "11b62d08a2699685",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 611,
+    "reasoning_tokens": 410,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7147,
+    "ai_credits": 0.339675
+  },
+  "timestamp": "2026-11-25T00:30:45.611Z",
+  "raw_text": "{\"items\": [{\"name\": \"pineapple chunks\", \"usda_query\": \"pineapple raw\", \"grams\": 85, \"calories\": 43, \"protein_g\": 0.5, \"carbs_g\": 11.1, \"fat_g\": 0.1}, {\"name\": \"sliced strawberries\", \"usda_query\": \"strawberries raw\", \"grams\": 80, \"calories\": 26, \"protein_g\": 0.6, \"carbs_g\": 6.2, \"fat_g\": 0.2}, {\"name\": \"blueberries\", \"usda_query\": \"blueberries raw\", \"grams\": 25, \"calories\": 14, \"protein_g\": 0.2, \"carbs_g\": 3.6, \"fat_g\": 0.1}], \"total_calories\": 83}",
+  "latency_ms": 8769,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 85,
+        "calories": 43,
+        "protein_g": 0.5,
+        "carbs_g": 11.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sliced strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 25,
+        "calories": 14,
+        "protein_g": 0.2,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 83
+  }
+}

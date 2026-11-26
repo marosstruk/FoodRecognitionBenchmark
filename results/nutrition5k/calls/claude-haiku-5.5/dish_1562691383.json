@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562691383",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bb00dee9a75dc280",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 653,
+    "reasoning_tokens": 432,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3550,
+    "ai_credits": 0.0448525
+  },
+  "timestamp": "2026-11-25T00:20:11.708Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato baked flesh without skin\",\"grams\":140,\"calories\":126,\"protein_g\":2.8,\"carbs_g\":29,\"fat_g\":0.2},{\"name\":\"sweet potato glaze residue\",\"usda_query\":\"honey\",\"grams\":5,\"calories\":15,\"protein_g\":0,\"carbs_g\":4,\"fat_g\":0},{\"name\":\"spiced sauce residue\",\"usda_query\":\"barbecue sauce\",\"grams\":5,\"calories\":10,\"protein_g\":0.1,\"carbs_g\":2.2,\"fat_g\":0.1}],\"total_calories\":151}",
+  "latency_ms": 4645,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato baked flesh without skin",
+        "grams": 140,
+        "calories": 126,
+        "protein_g": 2.8,
+        "carbs_g": 29,
+        "fat_g": 0.2
+      },
+      {
+        "name": "sweet potato glaze residue",
+        "usda_query": "honey",
+        "grams": 5,
+        "calories": 15,
+        "protein_g": 0,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "spiced sauce residue",
+        "usda_query": "barbecue sauce",
+        "grams": 5,
+        "calories": 10,
+        "protein_g": 0.1,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 151
+  }
+}

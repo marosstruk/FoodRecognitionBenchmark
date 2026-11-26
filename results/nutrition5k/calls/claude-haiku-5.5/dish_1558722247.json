@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558722247",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea52395662aa9812",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 707,
+    "reasoning_tokens": 489,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3809,
+    "ai_credits": 0.0475525
+  },
+  "timestamp": "2026-11-25T00:36:02.121Z",
+  "raw_text": "{\"items\":[{\"name\":\"almonds\",\"usda_query\":\"nuts almonds raw\",\"grams\":100,\"calories\":579,\"protein_g\":21.2,\"carbs_g\":21.6,\"fat_g\":49.9},{\"name\":\"red apple\",\"usda_query\":\"apples raw with skin red delicious\",\"grams\":182,\"calories\":95,\"protein_g\":0.5,\"carbs_g\":25.1,\"fat_g\":0.3},{\"name\":\"cauliflower\",\"usda_query\":\"cauliflower raw\",\"grams\":150,\"calories\":38,\"protein_g\":2.9,\"carbs_g\":7.5,\"fat_g\":0.4}],\"total_calories\":712}",
+  "latency_ms": 4938,
+  "parsed": {
+    "items": [
+      {
+        "name": "almonds",
+        "usda_query": "nuts almonds raw",
+        "grams": 100,
+        "calories": 579,
+        "protein_g": 21.2,
+        "carbs_g": 21.6,
+        "fat_g": 49.9
+      },
+      {
+        "name": "red apple",
+        "usda_query": "apples raw with skin red delicious",
+        "grams": 182,
+        "calories": 95,
+        "protein_g": 0.5,
+        "carbs_g": 25.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cauliflower",
+        "usda_query": "cauliflower raw",
+        "grams": 150,
+        "calories": 38,
+        "protein_g": 2.9,
+        "carbs_g": 7.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 712
+  }
+}

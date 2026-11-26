@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561481634",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8339d6dada1c083d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1065,
+    "reasoning_tokens": 844,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5234,
+    "ai_credits": 0.0654525
+  },
+  "timestamp": "2026-11-25T00:14:16.534Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":180,\"protein_g\":14,\"carbs_g\":2,\"fat_g\":12},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked in skin without salt\",\"grams\":150,\"calories\":165,\"protein_g\":2,\"carbs_g\":30,\"fat_g\":4},{\"name\":\"bacon\",\"usda_query\":\"pork bacon cooked pan-fried\",\"grams\":60,\"calories\":324,\"protein_g\":22,\"carbs_g\":1,\"fat_g\":25}],\"total_calories\":669}",
+  "latency_ms": 6334,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 180,
+        "protein_g": 14,
+        "carbs_g": 2,
+        "fat_g": 12
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked in skin without salt",
+        "grams": 150,
+        "calories": 165,
+        "protein_g": 2,
+        "carbs_g": 30,
+        "fat_g": 4
+      },
+      {
+        "name": "bacon",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 60,
+        "calories": 324,
+        "protein_g": 22,
+        "carbs_g": 1,
+        "fat_g": 25
+      }
+    ],
+    "total_calories": 669
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563205877",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fb5f5e123cf10d42",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 424,
+    "reasoning_tokens": 335,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6091,
+    "ai_credits": 0.26955
+  },
+  "timestamp": "2026-11-25T00:36:59.398Z",
+  "raw_text": "{\"items\": [{\"name\": \"sliced cooked sausage\", \"usda_query\": \"pork sausage link cooked\", \"grams\": 40, \"calories\": 132, \"protein\": 5.8, \"protein_g\": 5.8, \"carbs_g\": 0.5, \"fat_g\": 11.8}], \"total_calories\": 132}",
+  "latency_ms": 7185,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced cooked sausage",
+        "usda_query": "pork sausage link cooked",
+        "grams": 40,
+        "calories": 132,
+        "protein_g": 5.8,
+        "carbs_g": 0.5,
+        "fat_g": 11.8
+      }
+    ],
+    "total_calories": 132
+  }
+}

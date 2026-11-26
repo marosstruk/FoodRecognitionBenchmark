@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563566626",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "be4bfd431a1039b0",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 618,
+    "reasoning_tokens": 473,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3984,
+    "ai_credits": 0.0431025
+  },
+  "timestamp": "2026-11-25T00:14:09.986Z",
+  "raw_text": "{\"items\":[{\"name\":\"dates\",\"usda_query\":\"dates medjool dried\",\"grams\":100,\"calories\":277,\"protein_g\":1.8,\"carbs_g\":75,\"fat_g\":0.2},{\"name\":\"fresh mint leaf\",\"usda_query\":\"spearmint fresh\",\"grams\":2,\"calories\":1,\"protein_g\":0.1,\"carbs_g\":0.1,\"fat_g\":0},\"total_calories\":278}",
+  "latency_ms": 5089,
+  "error": "Expected ',' or ']' after array element in JSON at position 267 (line 1 column 268)"
+}

@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561575068",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e0a7883468736a3d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 984,
+    "reasoning_tokens": 464,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8125,
+    "ai_credits": 0.05668
+  },
+  "timestamp": "2026-11-25T00:14:48.876Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 80,\n      \"calories\": 132,\n      \"protein_g\": 24.8,\n      \"carbs_g\": 0,\n      \"fat_g\": 2.9\n    },\n    {\n      \"name\": \"cooked quinoa\",\n      \"usda_query\": \"quinoa cooked\",\n      \"grams\": 50,\n      \"calories\": 60,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 10.7,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"feta cheese\",\n      \"usda_query\": \"cheese feta\",\n      \"grams\": 20,\n      \"calories\": 53,\n      \"protein_g\": 2.8,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 4.3\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce and mixed salad greens raw\",\n      \"grams\": 45,\n      \"calories\": 9,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 30,\n      \"calories\": 5,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"black olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 25,\n      \"calories\": 29,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 2.7\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette\",\n      \"grams\": 8,\n      \"calories\": 35,\n      \"protein_g\": 0,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 3.7\n    }\n  ],\n  \"total_calories\": 323\n}",
+  "latency_ms": 9241,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 80,
+        "calories": 132,
+        "protein_g": 24.8,
+        "carbs_g": 0,
+        "fat_g": 2.9
+      },
+      {
+        "name": "cooked quinoa",
+        "usda_query": "quinoa cooked",
+        "grams": 50,
+        "calories": 60,
+        "protein_g": 2.2,
+        "carbs_g": 10.7,
+        "fat_g": 1
+      },
+      {
+        "name": "feta cheese",
+        "usda_query": "cheese feta",
+        "grams": 20,
+        "calories": 53,
+        "protein_g": 2.8,
+        "carbs_g": 0.8,
+        "fat_g": 4.3
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce and mixed salad greens raw",
+        "grams": 45,
+        "calories": 9,
+        "protein_g": 0.9,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 1.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 25,
+        "calories": 29,
+        "protein_g": 0.2,
+        "carbs_g": 1.5,
+        "fat_g": 2.7
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette",
+        "grams": 8,
+        "calories": 35,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 3.7
+      }
+    ],
+    "total_calories": 323
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560543605",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3d1e8956591c26cb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1790,
+    "reasoning_tokens": 1375,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 17554,
+    "ai_credits": 0.04849
+  },
+  "timestamp": "2026-11-25T00:28:11.562Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"fried rice\",\n      \"usda_query\": \"fried rice\",\n      \"grams\": 250,\n      \"calories\": 383,\n      \"protein_g\": 11,\n      \"carbs_g\": 55,\n      \"fat_g\": 14\n    },\n    {\n      \"name\": \"battered fried chicken\",\n      \"usda_query\": \"chicken fried batter breaded\",\n      \"grams\": 150,\n      \"calories\": 390,\n      \"protein_g\": 21,\n      \"carbs_g\": 18,\n      \"fat_g\": 27\n    },\n    {\n      \"name\": \"barbecue glazed chicken\",\n      \"usda_query\": \"chicken with barbecue sauce\",\n      \"grams\": 170,\n      \"calories\": 357,\n      \"protein_g\": 27,\n      \"carbs_g\": 17,\n      \"fat_g\": 20\n    },\n    {\n      \"name\": \"mixed green salad\",\n      \"usda_query\": \"lettuce salad\",\n      \"grams\": 80,\n      \"calories\": 12,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomato red ripe\",\n      \"grams\": 60,\n      \"calories\": 11,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"barbecue sauce\",\n      \"usda_query\": \"barbecue sauce\",\n      \"grams\": 30,\n      \"calories\": 85,\n      \"protein_g\": 0,\n      \"carbs_g\": 20,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 1238\n}",
+  "latency_ms": 18419,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried rice",
+        "usda_query": "fried rice",
+        "grams": 250,
+        "calories": 383,
+        "protein_g": 11,
+        "carbs_g": 55,
+        "fat_g": 14
+      },
+      {
+        "name": "battered fried chicken",
+        "usda_query": "chicken fried batter breaded",
+        "grams": 150,
+        "calories": 390,
+        "protein_g": 21,
+        "carbs_g": 18,
+        "fat_g": 27
+      },
+      {
+        "name": "barbecue glazed chicken",
+        "usda_query": "chicken with barbecue sauce",
+        "grams": 170,
+        "calories": 357,
+        "protein_g": 27,
+        "carbs_g": 17,
+        "fat_g": 20
+      },
+      {
+        "name": "mixed green salad",
+        "usda_query": "lettuce salad",
+        "grams": 80,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomato red ripe",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "barbecue sauce",
+        "usda_query": "barbecue sauce",
+        "grams": 30,
+        "calories": 85,
+        "protein_g": 0,
+        "carbs_g": 20,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 1238
+  }
+}

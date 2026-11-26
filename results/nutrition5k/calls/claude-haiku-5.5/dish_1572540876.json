@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572540876",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1be7fb8f2ff24d13",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 483,
+    "reasoning_tokens": 328,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2936,
+    "ai_credits": 0.0363525
+  },
+  "timestamp": "2026-11-25T00:12:25.856Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potato cubes\",\"usda_query\":\"potatoes roasted home fried in oil\",\"grams\":110,\"calories\":165,\"protein_g\":3,\"carbs_g\":24,\"fat_g\":6.5},{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce canned\",\"grams\":15,\"calories\":13,\"protein_g\":0.3,\"carbs_g\":3,\"fat_g\":0.1}],\"total_calories\":178}",
+  "latency_ms": 4060,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato cubes",
+        "usda_query": "potatoes roasted home fried in oil",
+        "grams": 110,
+        "calories": 165,
+        "protein_g": 3,
+        "carbs_g": 24,
+        "fat_g": 6.5
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce canned",
+        "grams": 15,
+        "calories": 13,
+        "protein_g": 0.3,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 178
+  }
+}

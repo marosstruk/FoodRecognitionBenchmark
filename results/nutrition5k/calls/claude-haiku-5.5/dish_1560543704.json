@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560543704",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2d5c9aa5ca675d87",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1237,
+    "reasoning_tokens": 918,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6033,
+    "ai_credits": 0.0740525
+  },
+  "timestamp": "2026-11-25T00:27:52.708Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted with skin cooked in oil\",\"grams\":160,\"calories\":224,\"protein_g\":3.2,\"carbs_g\":26,\"fat_g\":7},{\"name\":\"romanesco broccoli\",\"usda_query\":\"romanesco broccoli cooked boiled drained\",\"grams\":60,\"calories\":20,\"protein_g\":1.5,\"carbs_g\":4,\"fat_g\":0.3},{\"name\":\"cooked savoy cabbage\",\"usda_query\":\"cabbage savoy cooked sauteed\",\"grams\":100,\"calories\":35,\"protein_g\":1.6,\"carbs_g\":5.5,\"fat_g\":1},{\"name\":\"cooked green leafy vegetable\",\"usda_query\":\"cabbage green cooked boiled drained\",\"grams\":60,\"calories\":15,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":0.2}],\"total_calories\":294}",
+  "latency_ms": 7192,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with skin cooked in oil",
+        "grams": 160,
+        "calories": 224,
+        "protein_g": 3.2,
+        "carbs_g": 26,
+        "fat_g": 7
+      },
+      {
+        "name": "romanesco broccoli",
+        "usda_query": "romanesco broccoli cooked boiled drained",
+        "grams": 60,
+        "calories": 20,
+        "protein_g": 1.5,
+        "carbs_g": 4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cooked savoy cabbage",
+        "usda_query": "cabbage savoy cooked sauteed",
+        "grams": 100,
+        "calories": 35,
+        "protein_g": 1.6,
+        "carbs_g": 5.5,
+        "fat_g": 1
+      },
+      {
+        "name": "cooked green leafy vegetable",
+        "usda_query": "cabbage green cooked boiled drained",
+        "grams": 60,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 294
+  }
+}

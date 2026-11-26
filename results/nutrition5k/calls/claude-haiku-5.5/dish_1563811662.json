@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563811662",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ce45e63710908338",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 716,
+    "reasoning_tokens": 486,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3587,
+    "ai_credits": 0.0480025
+  },
+  "timestamp": "2026-11-25T00:12:28.639Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":179,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":80,\"calories\":26,\"protein_g\":0.6,\"carbs_g\":6.1,\"fat_g\":0.2},{\"name\":\"brussels sprouts cooked with oil\",\"usda_query\":\"brussels sprouts cooked boiled drained with oil\",\"grams\":100,\"calories\":60,\"protein_g\":3,\"carbs_g\":7.5,\"fat_g\":3}],\"total_calories\":265}",
+  "latency_ms": 4412,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 80,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "brussels sprouts cooked with oil",
+        "usda_query": "brussels sprouts cooked boiled drained with oil",
+        "grams": 100,
+        "calories": 60,
+        "protein_g": 3,
+        "carbs_g": 7.5,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 265
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561749392",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd710f88de13e8ee",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1143,
+    "reasoning_tokens": 792,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9918,
+    "ai_credits": 0.539175
+  },
+  "timestamp": "2026-11-25T00:34:11.876Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked fish fillet\",\n      \"usda_query\": \"fish fillet cooked\",\n      \"grams\": 80,\n      \"calories\": 160,\n      \"protein_g\": 18,\n      \"carbs_g\": 0,\n      \"fat_g\": 9.5\n    },\n    {\n      \"name\": \"stewed vegetables\",\n      \"usda_query\": \"ratatouille cooked\",\n      \"grams\": 70,\n      \"calories\": 45,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 2.2\n    },\n    {\n      \"name\": \"cooked white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 25,\n      \"calories\": 33,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 7.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"fresh arugula\",\n      \"usda_query\": \"arugula raw\",\n      \"grams\": 3,\n      \"calories\": 1,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 239\n}",
+  "latency_ms": 11408,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked fish fillet",
+        "usda_query": "fish fillet cooked",
+        "grams": 80,
+        "calories": 160,
+        "protein_g": 18,
+        "carbs_g": 0,
+        "fat_g": 9.5
+      },
+      {
+        "name": "stewed vegetables",
+        "usda_query": "ratatouille cooked",
+        "grams": 70,
+        "calories": 45,
+        "protein_g": 1.1,
+        "carbs_g": 5.5,
+        "fat_g": 2.2
+      },
+      {
+        "name": "cooked white rice",
+        "usda_query": "rice white cooked",
+        "grams": 25,
+        "calories": 33,
+        "protein_g": 0.7,
+        "carbs_g": 7.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fresh arugula",
+        "usda_query": "arugula raw",
+        "grams": 3,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 239
+  }
+}

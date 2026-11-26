@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563565454",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "dd6bf13ee935ab0d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 817,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10485,
+    "ai_credits": 0.04833
+  },
+  "timestamp": "2026-11-25T00:10:22.117Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked leafy greens and bok choy\",\n      \"usda_query\": \"bok choy cooked\",\n      \"grams\": 120,\n      \"calories\": 25,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 4.7,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Cooking oil\",\n      \"usda_query\": \"vegetable oil\",\n      \"grams\": 5,\n      \"calories\": 45,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"Cooked chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 90,\n      \"calories\": 149,\n      \"protein_g\": 27.9,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.2\n    },\n    {\n      \"name\": \"Corn on the cob\",\n      \"usda_query\": \"sweet yellow corn cooked\",\n      \"grams\": 70,\n      \"calories\": 67,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 15,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 286\n}",
+  "latency_ms": 11647,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked leafy greens and bok choy",
+        "usda_query": "bok choy cooked",
+        "grams": 120,
+        "calories": 25,
+        "protein_g": 2.4,
+        "carbs_g": 4.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Cooking oil",
+        "usda_query": "vegetable oil",
+        "grams": 5,
+        "calories": 45,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "Cooked chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 90,
+        "calories": 149,
+        "protein_g": 27.9,
+        "carbs_g": 0,
+        "fat_g": 3.2
+      },
+      {
+        "name": "Corn on the cob",
+        "usda_query": "sweet yellow corn cooked",
+        "grams": 70,
+        "calories": 67,
+        "protein_g": 2.4,
+        "carbs_g": 15,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 286
+  }
+}

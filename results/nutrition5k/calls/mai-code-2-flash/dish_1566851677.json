@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566851677",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c8d1f86cc68d38ce",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 931,
+    "reasoning_tokens": 786,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11667,
+    "ai_credits": 0.027015
+  },
+  "timestamp": "2026-11-25T00:31:48.990Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza\",\"usda_query\":\"cheese pizza\",\"grams\":150,\"calories\":390,\"protein_g\":19,\"carbs_g\":48,\"fat_g\":17},{\"name\":\"mixed cooked leafy greens\",\"usda_query\":\"mixed leafy vegetables cooked\",\"grams\":120,\"calories\":35,\"protein_g\":2.6,\"carbs_g\":7,\"fat_g\":0.6},{\"name\":\"grilled mushrooms\",\"usda_query\":\"mushrooms grilled\",\"grams\":70,\"calories\":42,\"protein_g\":3.7,\"carbs_g\":6,\"fat_g\":1.7}],\"total_calories\":467}",
+  "latency_ms": 13089,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "cheese pizza",
+        "grams": 150,
+        "calories": 390,
+        "protein_g": 19,
+        "carbs_g": 48,
+        "fat_g": 17
+      },
+      {
+        "name": "mixed cooked leafy greens",
+        "usda_query": "mixed leafy vegetables cooked",
+        "grams": 120,
+        "calories": 35,
+        "protein_g": 2.6,
+        "carbs_g": 7,
+        "fat_g": 0.6
+      },
+      {
+        "name": "grilled mushrooms",
+        "usda_query": "mushrooms grilled",
+        "grams": 70,
+        "calories": 42,
+        "protein_g": 3.7,
+        "carbs_g": 6,
+        "fat_g": 1.7
+      }
+    ],
+    "total_calories": 467
+  }
+}

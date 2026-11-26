@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572365610",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5e8564f930d06f33",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1421,
+    "reasoning_tokens": 1222,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15949,
+    "ai_credits": 0.039265
+  },
+  "timestamp": "2026-11-25T00:12:22.147Z",
+  "raw_text": "{\"items\":[{\"name\":\"diced tomatoes\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":150,\"calories\":27,\"protein_g\":1.35,\"carbs_g\":5.85,\"fat_g\":0.3},{\"name\":\"white cheese\",\"usda_query\":\"cheese feta\",\"grams\":50,\"calories\":132,\"protein_g\":7.05,\"carbs_g\":1.95,\"fat_g\":10.65},{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":30,\"calories\":12,\"protein_g\":0.33,\"carbs_g\":2.82,\"fat_g\":0.03},{\"name\":\"chopped green herbs\",\"usda_query\":\"parsley fresh\",\"grams\":10,\"calories\":4,\"protein_g\":0.3,\"carbs_g\":0.64,\"fat_g\":0.08}],\"total_calories\":175}",
+  "latency_ms": 17087,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 150,
+        "calories": 27,
+        "protein_g": 1.35,
+        "carbs_g": 5.85,
+        "fat_g": 0.3
+      },
+      {
+        "name": "white cheese",
+        "usda_query": "cheese feta",
+        "grams": 50,
+        "calories": 132,
+        "protein_g": 7.05,
+        "carbs_g": 1.95,
+        "fat_g": 10.65
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.33,
+        "carbs_g": 2.82,
+        "fat_g": 0.03
+      },
+      {
+        "name": "chopped green herbs",
+        "usda_query": "parsley fresh",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.3,
+        "carbs_g": 0.64,
+        "fat_g": 0.08
+      }
+    ],
+    "total_calories": 175
+  }
+}

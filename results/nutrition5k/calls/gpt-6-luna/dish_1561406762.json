@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561406762",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "75a72e3e5a2e3534",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 409,
+    "reasoning_tokens": 347,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8361,
+    "ai_credits": 0.02793
+  },
+  "timestamp": "2026-11-25T00:16:12.904Z",
+  "raw_text": "{\"items\":[{\"name\":\"Cooked carrots\",\"usda_query\":\"carrots cooked\",\"grams\":65,\"calories\":23,\"protein_g\":0.5,\"carbs_g\":5.3,\"fat_g\":0.1}],\"total_calories\":23}",
+  "latency_ms": 9485,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked carrots",
+        "usda_query": "carrots cooked",
+        "grams": 65,
+        "calories": 23,
+        "protein_g": 0.5,
+        "carbs_g": 5.3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 23
+  }
+}

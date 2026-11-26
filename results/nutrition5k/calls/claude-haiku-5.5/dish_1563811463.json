@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563811463",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bb7083248016d4c2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 838,
+    "reasoning_tokens": 554,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4148,
+    "ai_credits": 0.0541025
+  },
+  "timestamp": "2026-11-25T00:22:13.179Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted with oil\",\"grams\":140,\"calories\":180,\"protein_g\":3,\"carbs_g\":28,\"fat_g\":6},{\"name\":\"roasted squash\",\"usda_query\":\"squash winter butternut baked\",\"grams\":100,\"calories\":45,\"protein_g\":1,\"carbs_g\":11,\"fat_g\":0.5},{\"name\":\"mashed potatoes\",\"usda_query\":\"potatoes mashed prepared with whole milk and butter\",\"grams\":130,\"calories\":150,\"protein_g\":3,\"carbs_g\":22,\"fat_g\":6},{\"name\":\"brown gravy\",\"usda_query\":\"gravy beef brown canned\",\"grams\":60,\"calories\":50,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":2}],\"total_calories\":425}",
+  "latency_ms": 5250,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 140,
+        "calories": 180,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 6
+      },
+      {
+        "name": "roasted squash",
+        "usda_query": "squash winter butternut baked",
+        "grams": 100,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 11,
+        "fat_g": 0.5
+      },
+      {
+        "name": "mashed potatoes",
+        "usda_query": "potatoes mashed prepared with whole milk and butter",
+        "grams": 130,
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 22,
+        "fat_g": 6
+      },
+      {
+        "name": "brown gravy",
+        "usda_query": "gravy beef brown canned",
+        "grams": 60,
+        "calories": 50,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 425
+  }
+}

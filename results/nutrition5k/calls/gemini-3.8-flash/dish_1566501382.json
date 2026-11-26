@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566501382",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8947f191b980251f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1419,
+    "reasoning_tokens": 972,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11442,
+    "ai_credits": 0.642675
+  },
+  "timestamp": "2026-11-25T00:39:35.683Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"canned tuna in water\",\n      \"usda_query\": \"tuna light canned in water drained solids\",\n      \"grams\": 120,\n      \"calories\": 132,\n      \"protein_g\": 30.6,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 1.0\n    },\n    {\n      \"name\": \"shredded carrots\",\n      \"usda_query\": \"carrots shredded raw\",\n      \"grams\": 50,\n      \"calories\": 21,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"cherry tomatoes raw\",\n      \"grams\": 40,\n      \"calories\": 7,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"black olives\",\n      \"usda_query\": \"ripe black olives canned\",\n      \"grams\": 15,\n      \"calories\": 17,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 1.6\n    },\n    {\n      \"name\": \"sliced white onion\",\n      \"usda_query\": \"onions raw sliced\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0.0\n    }\n  ],\n  \"total_calories\": 185\n}",
+  "latency_ms": 12325,
+  "parsed": {
+    "items": [
+      {
+        "name": "canned tuna in water",
+        "usda_query": "tuna light canned in water drained solids",
+        "grams": 120,
+        "calories": 132,
+        "protein_g": 30.6,
+        "carbs_g": 0,
+        "fat_g": 1
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots shredded raw",
+        "grams": 50,
+        "calories": 21,
+        "protein_g": 0.5,
+        "carbs_g": 4.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "cherry tomatoes raw",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.4,
+        "carbs_g": 1.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "black olives",
+        "usda_query": "ripe black olives canned",
+        "grams": 15,
+        "calories": 17,
+        "protein_g": 0.1,
+        "carbs_g": 0.9,
+        "fat_g": 1.6
+      },
+      {
+        "name": "sliced white onion",
+        "usda_query": "onions raw sliced",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 185
+  }
+}

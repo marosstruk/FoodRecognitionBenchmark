@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367715",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "dd04d591133e3bcc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1191,
+    "reasoning_tokens": 945,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14145,
+    "ai_credits": 0.033515
+  },
+  "timestamp": "2026-11-25T00:08:41.437Z",
+  "raw_text": "{\"items\":[{\"name\":\"steamed white rice\",\"usda_query\":\"rice white cooked\",\"grams\":220,\"calories\":286,\"protein_g\":5.3,\"carbs_g\":62.7,\"fat_g\":0.5},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast roasted\",\"grams\":140,\"calories\":231,\"protein_g\":43.4,\"carbs_g\":0,\"fat_g\":5.0},{\"name\":\"broccoli\",\"usda_query\":\"broccoli cooked steamed\",\"grams\":55,\"calories\":19,\"protein_g\":1.9,\"carbs_g\":3.7,\"fat_g\":0.2},{\"name\":\"carrot\",\"usda_query\":\"carrots cooked boiled\",\"grams\":35,\"calories\":14,\"protein_g\":0.3,\"carbs_g\":3.3,\"fat_g\":0.1},{\"name\":\"brown stir-fry sauce\",\"usda_query\":\"teriyaki sauce\",\"grams\":30,\"calories\":45,\"protein_g\":1.0,\"carbs_g\":11.0,\"fat_g\":0.0}],\"total_calories\":595}",
+  "latency_ms": 15236,
+  "parsed": {
+    "items": [
+      {
+        "name": "steamed white rice",
+        "usda_query": "rice white cooked",
+        "grams": 220,
+        "calories": 286,
+        "protein_g": 5.3,
+        "carbs_g": 62.7,
+        "fat_g": 0.5
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 140,
+        "calories": 231,
+        "protein_g": 43.4,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 55,
+        "calories": 19,
+        "protein_g": 1.9,
+        "carbs_g": 3.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots cooked boiled",
+        "grams": 35,
+        "calories": 14,
+        "protein_g": 0.3,
+        "carbs_g": 3.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "brown stir-fry sauce",
+        "usda_query": "teriyaki sauce",
+        "grams": 30,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 11,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 595
+  }
+}

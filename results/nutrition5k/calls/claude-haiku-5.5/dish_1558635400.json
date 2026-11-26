@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558635400",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "878204d44e3c5827",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 447,
+    "reasoning_tokens": 356,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3283,
+    "ai_credits": 0.0345525
+  },
+  "timestamp": "2026-11-25T00:21:43.272Z",
+  "raw_text": "{\"items\":[{\"name\":\"cauliflower florets\",\"usda_query\":\"cauliflower boiled drained without salt\",\"grams\":200,\"calories\":46,\"protein_g\":3.6,\"carbs_g\":8.2,\"fat_g\":1.0}],\"total_calories\":46}",
+  "latency_ms": 4417,
+  "parsed": {
+    "items": [
+      {
+        "name": "cauliflower florets",
+        "usda_query": "cauliflower boiled drained without salt",
+        "grams": 200,
+        "calories": 46,
+        "protein_g": 3.6,
+        "carbs_g": 8.2,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 46
+  }
+}

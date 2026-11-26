@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558548666",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "080f2e04d1cb272e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 255,
+    "reasoning_tokens": 192,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 3666,
+    "ai_credits": 0.010115
+  },
+  "timestamp": "2026-11-25T00:18:11.777Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked white rice\",\"usda_query\":\"rice white cooked\",\"grams\":200,\"calories\":260,\"protein_g\":5.4,\"carbs_g\":56.4,\"fat_g\":0.6}],\"total_calories\":260}",
+  "latency_ms": 4802,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked white rice",
+        "usda_query": "rice white cooked",
+        "grams": 200,
+        "calories": 260,
+        "protein_g": 5.4,
+        "carbs_g": 56.4,
+        "fat_g": 0.6
+      }
+    ],
+    "total_calories": 260
+  }
+}

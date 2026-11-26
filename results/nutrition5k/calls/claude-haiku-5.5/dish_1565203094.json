@@ -1,0 +1,135 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565203094",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "616f29cd79d47bc3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 3052,
+    "reasoning_tokens": 2190,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 12860,
+    "ai_credits": 0.1648025
+  },
+  "timestamp": "2026-11-25T00:25:16.715Z",
+  "raw_text": "{\"items\":[{\"name\":\"pizza crust\",\"usda_query\":\"pizza crust baked\",\"grams\":70,\"calories\":195,\"protein_g\":6.3,\"carbs_g\":37,\"fat_g\":2.5},{\"name\":\"mozzarella cheese\",\"usda_query\":\"cheese mozzarella whole milk\",\"grams\":30,\"calories\":85,\"protein_g\":6.3,\"carbs_g\":0.6,\"fat_g\":6.3},{\"name\":\"tomato pizza sauce\",\"usda_query\":\"pizza sauce canned\",\"grams\":25,\"calories\":26,\"protein_g\":1,\"carbs_g\":5,\"fat_g\":0.2},{\"name\":\"mushrooms\",\"usda_query\":\"mushrooms cooked\",\"grams\":20,\"calories\":6,\"protein_g\":0.6,\"carbs_g\":0.7,\"fat_g\":0.1},{\"name\":\"red onion\",\"usda_query\":\"onions raw\",\"grams\":10,\"calories\":4,\"protein_g\":0.1,\"carbs_g\":0.9,\"fat_g\":0},{\"name\":\"black olives\",\"usda_query\":\"olives ripe canned\",\"grams\":8,\"calories\":10,\"protein_g\":0.1,\"carbs_g\":0.5,\"fat_g\":0.9},{\"name\":\"chicken breast stir-fried\",\"usda_query\":\"chicken breast meat only cooked roasted\",\"grams\":170,\"calories\":270,\"protein_g\":53,\"carbs_g\":0,\"fat_g\":6},{\"name\":\"sweet savory glaze sauce\",\"usda_query\":\"teriyaki sauce\",\"grams\":25,\"calories\":40,\"protein_g\":0.5,\"carbs_g\":9,\"fat_g\":0.2},{\"name\":\"brussels sprouts cooked\",\"usda_query\":\"brussels sprouts cooked boiled\",\"grams\":60,\"calories\":31,\"protein_g\":1.9,\"carbs_g\":5.4,\"fat_g\":0.2},{\"name\":\"zucchini cooked\",\"usda_query\":\"squash summer zucchini cooked\",\"grams\":40,\"calories\":9,\"protein_g\":0.5,\"carbs_g\":1.2,\"fat_g\":0.2},{\"name\":\"yellow squash cooked\",\"usda_query\":\"squash summer crookneck straightneck cooked\",\"grams\":40,\"calories\":8,\"protein_g\":0.4,\"carbs_g\":1.4,\"fat_g\":0.1},{\"name\":\"bell pepper cooked\",\"usda_query\":\"peppers sweet green cooked\",\"grams\":15,\"calories\":4,\"protein_g\":0.2,\"carbs_g\":0.9,\"fat_g\":0}],\"total_calories\":688}",
+  "latency_ms": 13754,
+  "parsed": {
+    "items": [
+      {
+        "name": "pizza crust",
+        "usda_query": "pizza crust baked",
+        "grams": 70,
+        "calories": 195,
+        "protein_g": 6.3,
+        "carbs_g": 37,
+        "fat_g": 2.5
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "cheese mozzarella whole milk",
+        "grams": 30,
+        "calories": 85,
+        "protein_g": 6.3,
+        "carbs_g": 0.6,
+        "fat_g": 6.3
+      },
+      {
+        "name": "tomato pizza sauce",
+        "usda_query": "pizza sauce canned",
+        "grams": 25,
+        "calories": 26,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 20,
+        "calories": 6,
+        "protein_g": 0.6,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 0.9,
+        "fat_g": 0
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 8,
+        "calories": 10,
+        "protein_g": 0.1,
+        "carbs_g": 0.5,
+        "fat_g": 0.9
+      },
+      {
+        "name": "chicken breast stir-fried",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 170,
+        "calories": 270,
+        "protein_g": 53,
+        "carbs_g": 0,
+        "fat_g": 6
+      },
+      {
+        "name": "sweet savory glaze sauce",
+        "usda_query": "teriyaki sauce",
+        "grams": 25,
+        "calories": 40,
+        "protein_g": 0.5,
+        "carbs_g": 9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "brussels sprouts cooked",
+        "usda_query": "brussels sprouts cooked boiled",
+        "grams": 60,
+        "calories": 31,
+        "protein_g": 1.9,
+        "carbs_g": 5.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "zucchini cooked",
+        "usda_query": "squash summer zucchini cooked",
+        "grams": 40,
+        "calories": 9,
+        "protein_g": 0.5,
+        "carbs_g": 1.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "yellow squash cooked",
+        "usda_query": "squash summer crookneck straightneck cooked",
+        "grams": 40,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "bell pepper cooked",
+        "usda_query": "peppers sweet green cooked",
+        "grams": 15,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.9,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 688
+  }
+}

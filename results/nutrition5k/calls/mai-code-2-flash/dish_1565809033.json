@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565809033",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "545aec334a9623b6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1230,
+    "reasoning_tokens": 985,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14515,
+    "ai_credits": 0.03449
+  },
+  "timestamp": "2026-11-25T00:17:59.292Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked white rice\",\"usda_query\":\"rice white cooked\",\"grams\":220,\"calories\":286,\"protein_g\":5.3,\"carbs_g\":62.9,\"fat_g\":0.5},{\"name\":\"cabbage\",\"usda_query\":\"cabbage cooked\",\"grams\":50,\"calories\":13,\"protein_g\":0.7,\"carbs_g\":3.0,\"fat_g\":0.1},{\"name\":\"red bell pepper\",\"usda_query\":\"bell pepper red raw\",\"grams\":25,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"green bell pepper\",\"usda_query\":\"bell pepper green raw\",\"grams\":25,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"onion\",\"usda_query\":\"onion cooked\",\"grams\":25,\"calories\":10,\"protein_g\":0.3,\"carbs_g\":2.3,\"fat_g\":0.0}],\"total_calories\":325}",
+  "latency_ms": 15400,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked white rice",
+        "usda_query": "rice white cooked",
+        "grams": 220,
+        "calories": 286,
+        "protein_g": 5.3,
+        "carbs_g": 62.9,
+        "fat_g": 0.5
+      },
+      {
+        "name": "cabbage",
+        "usda_query": "cabbage cooked",
+        "grams": 50,
+        "calories": 13,
+        "protein_g": 0.7,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "bell pepper green raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "onion",
+        "usda_query": "onion cooked",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 325
+  }
+}

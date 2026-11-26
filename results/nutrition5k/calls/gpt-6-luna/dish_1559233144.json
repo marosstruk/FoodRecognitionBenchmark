@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559233144",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6be7a25c57c87179",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 699,
+    "reasoning_tokens": 418,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6285,
+    "ai_credits": 0.04243
+  },
+  "timestamp": "2026-11-25T00:34:45.075Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled cooked\",\n      \"grams\": 210,\n      \"calories\": 300,\n      \"protein_g\": 20,\n      \"carbs_g\": 3,\n      \"fat_g\": 22\n    },\n    {\n      \"name\": \"Bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 40,\n      \"calories\": 217,\n      \"protein_g\": 15,\n      \"carbs_g\": 0,\n      \"fat_g\": 17\n    },\n    {\n      \"name\": \"Spinach\",\n      \"usda_query\": \"spinach raw\",\n      \"grams\": 30,\n      \"calories\": 7,\n      \"protein_g\": 1,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Carrot\",\n      \"usda_query\": \"carrots raw\",\n      \"grams\": 8,\n      \"calories\": 3,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 527\n}",
+  "latency_ms": 7415,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled cooked",
+        "grams": 210,
+        "calories": 300,
+        "protein_g": 20,
+        "carbs_g": 3,
+        "fat_g": 22
+      },
+      {
+        "name": "Bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 40,
+        "calories": 217,
+        "protein_g": 15,
+        "carbs_g": 0,
+        "fat_g": 17
+      },
+      {
+        "name": "Spinach",
+        "usda_query": "spinach raw",
+        "grams": 30,
+        "calories": 7,
+        "protein_g": 1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "Carrot",
+        "usda_query": "carrots raw",
+        "grams": 8,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 527
+  }
+}

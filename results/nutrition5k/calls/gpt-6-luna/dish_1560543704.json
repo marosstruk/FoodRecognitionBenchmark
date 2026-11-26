@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560543704",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2d5c9aa5ca675d87",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 951,
+    "reasoning_tokens": 667,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9638,
+    "ai_credits": 0.05503
+  },
+  "timestamp": "2026-11-25T00:27:53.136Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Roasted potato wedges\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 130,\n      \"calories\": 200,\n      \"protein_g\": 4,\n      \"carbs_g\": 32,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"Roasted chicken\",\n      \"usda_query\": \"chicken meat roasted\",\n      \"grams\": 50,\n      \"calories\": 105,\n      \"protein_g\": 16,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Romanesco cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 65,\n      \"calories\": 16,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Leafy greens\",\n      \"usda_query\": \"lettuce raw\",\n      \"grams\": 15,\n      \"calories\": 2,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 323\n}",
+  "latency_ms": 10513,
+  "parsed": {
+    "items": [
+      {
+        "name": "Roasted potato wedges",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 130,
+        "calories": 200,
+        "protein_g": 4,
+        "carbs_g": 32,
+        "fat_g": 7
+      },
+      {
+        "name": "Roasted chicken",
+        "usda_query": "chicken meat roasted",
+        "grams": 50,
+        "calories": 105,
+        "protein_g": 16,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "Romanesco cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 65,
+        "calories": 16,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "Leafy greens",
+        "usda_query": "lettuce raw",
+        "grams": 15,
+        "calories": 2,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 323
+  }
+}

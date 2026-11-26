@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824377",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "aef49765bd6533ed",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1060,
+    "reasoning_tokens": 652,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5057,
+    "ai_credits": 0.0652025
+  },
+  "timestamp": "2026-11-25T00:30:59.448Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked chicken breast\",\n      \"usda_query\": \"chicken breast meat cooked roasted\",\n      \"grams\": 150,\n      \"calories\": 248,\n      \"protein_g\": 46.5,\n      \"carbs_g\": 0,\n      \"fat_g\": 5.4\n    },\n    {\n      \"name\": \"Cherry tomato\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 80,\n      \"calories\": 14,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 3.1,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Green bell pepper\",\n      \"usda_query\": \"peppers sweet green raw\",\n      \"grams\": 40,\n      \"calories\": 10,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Red onion\",\n      \"usda_query\": \"onions red raw\",\n      \"grams\": 30,\n      \"calories\": 12,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.8,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 284\n}",
+  "latency_ms": 6165,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked chicken breast",
+        "usda_query": "chicken breast meat cooked roasted",
+        "grams": 150,
+        "calories": 248,
+        "protein_g": 46.5,
+        "carbs_g": 0,
+        "fat_g": 5.4
+      },
+      {
+        "name": "Cherry tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 0.7,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 40,
+        "calories": 10,
+        "protein_g": 0.4,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Red onion",
+        "usda_query": "onions red raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.8,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 284
+  }
+}

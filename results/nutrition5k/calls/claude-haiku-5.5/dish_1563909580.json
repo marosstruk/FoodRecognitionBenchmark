@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563909580",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b280c8a80dac30e5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1346,
+    "reasoning_tokens": 975,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6525,
+    "ai_credits": 0.0795025
+  },
+  "timestamp": "2026-11-25T00:29:39.457Z",
+  "raw_text": "{\"items\":[{\"name\":\"green beans, sautéed\",\"usda_query\":\"green beans cooked boiled drained without salt\",\"grams\":120,\"calories\":82,\"protein_g\":2.2,\"carbs_g\":8.4,\"fat_g\":5.2},{\"name\":\"spinach, wilted\",\"usda_query\":\"spinach cooked boiled drained without salt\",\"grams\":80,\"calories\":45,\"protein_g\":2.3,\"carbs_g\":2.9,\"fat_g\":3.3},{\"name\":\"garlic\",\"usda_query\":\"garlic raw\",\"grams\":5,\"calories\":7,\"protein_g\":0.3,\"carbs_g\":1.6,\"fat_g\":0},{\"name\":\"yellow rice\",\"usda_query\":\"rice white long-grain cooked with oil and turmeric\",\"grams\":180,\"calories\":280,\"protein_g\":5,\"carbs_g\":47,\"fat_g\":6},{\"name\":\"cheese lasagna\",\"usda_query\":\"lasagna with meat and sauce baked\",\"grams\":200,\"calories\":330,\"protein_g\":15,\"carbs_g\":30,\"fat_g\":16}],\"total_calories\":744}",
+  "latency_ms": 7437,
+  "parsed": {
+    "items": [
+      {
+        "name": "green beans, sautéed",
+        "usda_query": "green beans cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 82,
+        "protein_g": 2.2,
+        "carbs_g": 8.4,
+        "fat_g": 5.2
+      },
+      {
+        "name": "spinach, wilted",
+        "usda_query": "spinach cooked boiled drained without salt",
+        "grams": 80,
+        "calories": 45,
+        "protein_g": 2.3,
+        "carbs_g": 2.9,
+        "fat_g": 3.3
+      },
+      {
+        "name": "garlic",
+        "usda_query": "garlic raw",
+        "grams": 5,
+        "calories": 7,
+        "protein_g": 0.3,
+        "carbs_g": 1.6,
+        "fat_g": 0
+      },
+      {
+        "name": "yellow rice",
+        "usda_query": "rice white long-grain cooked with oil and turmeric",
+        "grams": 180,
+        "calories": 280,
+        "protein_g": 5,
+        "carbs_g": 47,
+        "fat_g": 6
+      },
+      {
+        "name": "cheese lasagna",
+        "usda_query": "lasagna with meat and sauce baked",
+        "grams": 200,
+        "calories": 330,
+        "protein_g": 15,
+        "carbs_g": 30,
+        "fat_g": 16
+      }
+    ],
+    "total_calories": 744
+  }
+}

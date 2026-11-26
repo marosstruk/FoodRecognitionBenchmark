@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564686740",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "02d3592a5fcf634b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 2043,
+    "reasoning_tokens": 1349,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8802,
+    "ai_credits": 0.1143525
+  },
+  "timestamp": "2026-11-25T00:35:29.617Z",
+  "raw_text": "{\"items\":[{\"name\":\"thin flatbread pizza crust\",\"usda_query\":\"pizza crust thin baked\",\"grams\":120,\"calories\":324,\"protein_g\":10.8,\"carbs_g\":60,\"fat_g\":4},{\"name\":\"tomato pizza sauce\",\"usda_query\":\"pizza sauce canned\",\"grams\":20,\"calories\":6,\"protein_g\":0.3,\"carbs_g\":1.5,\"fat_g\":0.2},{\"name\":\"mozzarella cheese\",\"usda_query\":\"mozzarella cheese whole milk\",\"grams\":40,\"calories\":112,\"protein_g\":9,\"carbs_g\":1,\"fat_g\":8},{\"name\":\"sausage pizza topping\",\"usda_query\":\"pork sausage topping cooked\",\"grams\":25,\"calories\":75,\"protein_g\":5,\"carbs_g\":1,\"fat_g\":6},{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":15,\"calories\":6,\"protein_g\":0.2,\"carbs_g\":1.4,\"fat_g\":0},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce mixed greens raw\",\"grams\":80,\"calories\":12,\"protein_g\":1.2,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"cucumber slices\",\"usda_query\":\"cucumber raw with peel\",\"grams\":30,\"calories\":4,\"protein_g\":0.2,\"carbs_g\":1,\"fat_g\":0},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":15,\"calories\":6,\"protein_g\":0.1,\"carbs_g\":1.4,\"fat_g\":0},{\"name\":\"pickled gherkin\",\"usda_query\":\"pickles cucumber dill\",\"grams\":30,\"calories\":4,\"protein_g\":0.3,\"carbs_g\":2.2,\"fat_g\":0},{\"name\":\"Kalamata olives\",\"usda_query\":\"olives kalamata\",\"grams\":40,\"calories\":46,\"protein_g\":0.4,\"carbs_g\":2.4,\"fat_g\":4.2}],\"total_calories\":595}",
+  "latency_ms": 9669,
+  "parsed": {
+    "items": [
+      {
+        "name": "thin flatbread pizza crust",
+        "usda_query": "pizza crust thin baked",
+        "grams": 120,
+        "calories": 324,
+        "protein_g": 10.8,
+        "carbs_g": 60,
+        "fat_g": 4
+      },
+      {
+        "name": "tomato pizza sauce",
+        "usda_query": "pizza sauce canned",
+        "grams": 20,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese whole milk",
+        "grams": 40,
+        "calories": 112,
+        "protein_g": 9,
+        "carbs_g": 1,
+        "fat_g": 8
+      },
+      {
+        "name": "sausage pizza topping",
+        "usda_query": "pork sausage topping cooked",
+        "grams": 25,
+        "calories": 75,
+        "protein_g": 5,
+        "carbs_g": 1,
+        "fat_g": 6
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.2,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 80,
+        "calories": 12,
+        "protein_g": 1.2,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cucumber slices",
+        "usda_query": "cucumber raw with peel",
+        "grams": 30,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "pickled gherkin",
+        "usda_query": "pickles cucumber dill",
+        "grams": 30,
+        "calories": 4,
+        "protein_g": 0.3,
+        "carbs_g": 2.2,
+        "fat_g": 0
+      },
+      {
+        "name": "Kalamata olives",
+        "usda_query": "olives kalamata",
+        "grams": 40,
+        "calories": 46,
+        "protein_g": 0.4,
+        "carbs_g": 2.4,
+        "fat_g": 4.2
+      }
+    ],
+    "total_calories": 595
+  }
+}

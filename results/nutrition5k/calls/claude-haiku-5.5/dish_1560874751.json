@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560874751",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cc8d5a5bf04bc415",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1433,
+    "reasoning_tokens": 1012,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6848,
+    "ai_credits": 0.0838525
+  },
+  "timestamp": "2026-11-25T00:13:08.668Z",
+  "raw_text": "{\"items\":[{\"name\":\"bagel half\",\"usda_query\":\"bagels plain enriched\",\"grams\":50,\"calories\":125,\"protein_g\":4.5,\"carbs_g\":24.5,\"fat_g\":0.8},{\"name\":\"cream cheese\",\"usda_query\":\"cream cheese regular\",\"grams\":30,\"calories\":103,\"protein_g\":1.8,\"carbs_g\":1.2,\"fat_g\":10.3},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":110,\"calories\":35,\"protein_g\":0.7,\"carbs_g\":8,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":25,\"calories\":14,\"protein_g\":0.2,\"carbs_g\":3.6,\"fat_g\":0.1},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato baked in skin without salt\",\"grams\":110,\"calories\":120,\"protein_g\":2.2,\"carbs_g\":22.8,\"fat_g\":2.5},{\"name\":\"bacon\",\"usda_query\":\"bacon pan-fried cooked\",\"grams\":35,\"calories\":189,\"protein_g\":13,\"carbs_g\":0.5,\"fat_g\":14.7}],\"total_calories\":586}",
+  "latency_ms": 8440,
+  "parsed": {
+    "items": [
+      {
+        "name": "bagel half",
+        "usda_query": "bagels plain enriched",
+        "grams": 50,
+        "calories": 125,
+        "protein_g": 4.5,
+        "carbs_g": 24.5,
+        "fat_g": 0.8
+      },
+      {
+        "name": "cream cheese",
+        "usda_query": "cream cheese regular",
+        "grams": 30,
+        "calories": 103,
+        "protein_g": 1.8,
+        "carbs_g": 1.2,
+        "fat_g": 10.3
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 110,
+        "calories": 35,
+        "protein_g": 0.7,
+        "carbs_g": 8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 25,
+        "calories": 14,
+        "protein_g": 0.2,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato baked in skin without salt",
+        "grams": 110,
+        "calories": 120,
+        "protein_g": 2.2,
+        "carbs_g": 22.8,
+        "fat_g": 2.5
+      },
+      {
+        "name": "bacon",
+        "usda_query": "bacon pan-fried cooked",
+        "grams": 35,
+        "calories": 189,
+        "protein_g": 13,
+        "carbs_g": 0.5,
+        "fat_g": 14.7
+      }
+    ],
+    "total_calories": 586
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565727791",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ffa1ae574b977320",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 928,
+    "reasoning_tokens": 649,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9441,
+    "ai_credits": 0.02694
+  },
+  "timestamp": "2026-11-25T00:21:41.906Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted broccoli\",\n      \"usda_query\": \"broccoli cooked roasted\",\n      \"grams\": 180,\n      \"calories\": 63,\n      \"protein_g\": 5,\n      \"carbs_g\": 12,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"kale\",\n      \"usda_query\": \"kale cooked\",\n      \"grams\": 55,\n      \"calories\": 24,\n      \"protein_g\": 2,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"shaved Parmesan\",\n      \"usda_query\": \"parmesan cheese\",\n      \"grams\": 15,\n      \"calories\": 63,\n      \"protein_g\": 6,\n      \"carbs_g\": 1,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"olive oil\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 10,\n      \"calories\": 88,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 10\n    }\n  ],\n  \"total_calories\": 238\n}",
+  "latency_ms": 10335,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted broccoli",
+        "usda_query": "broccoli cooked roasted",
+        "grams": 180,
+        "calories": 63,
+        "protein_g": 5,
+        "carbs_g": 12,
+        "fat_g": 1
+      },
+      {
+        "name": "kale",
+        "usda_query": "kale cooked",
+        "grams": 55,
+        "calories": 24,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "shaved Parmesan",
+        "usda_query": "parmesan cheese",
+        "grams": 15,
+        "calories": 63,
+        "protein_g": 6,
+        "carbs_g": 1,
+        "fat_g": 4
+      },
+      {
+        "name": "olive oil",
+        "usda_query": "olive oil",
+        "grams": 10,
+        "calories": 88,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 238
+  }
+}

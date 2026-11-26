@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566415520",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f8b1a045ba723ae",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 275,
+    "reasoning_tokens": 194,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2487,
+    "ai_credits": 0.0259525
+  },
+  "timestamp": "2026-11-25T00:29:14.193Z",
+  "raw_text": "{\"items\":[{\"name\":\"green beans\",\"usda_query\":\"beans snap green raw\",\"grams\":120,\"calories\":37,\"protein_g\":2.2,\"carbs_g\":8.4,\"fat_g\":0.2}],\"total_calories\":37}",
+  "latency_ms": 3360,
+  "parsed": {
+    "items": [
+      {
+        "name": "green beans",
+        "usda_query": "beans snap green raw",
+        "grams": 120,
+        "calories": 37,
+        "protein_g": 2.2,
+        "carbs_g": 8.4,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 37
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563220171",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2a25f71f9e20d756",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1286,
+    "reasoning_tokens": 872,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11195,
+    "ai_credits": 0.07178
+  },
+  "timestamp": "2026-11-25T00:23:02.892Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded fried chicken\",\n      \"usda_query\": \"chicken breast breaded fried\",\n      \"grams\": 120,\n      \"calories\": 320,\n      \"protein_g\": 28,\n      \"carbs_g\": 15,\n      \"fat_g\": 17\n    },\n    {\n      \"name\": \"pepperoni pizza\",\n      \"usda_query\": \"pepperoni pizza\",\n      \"grams\": 115,\n      \"calories\": 310,\n      \"protein_g\": 13,\n      \"carbs_g\": 34,\n      \"fat_g\": 13\n    },\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 30,\n      \"calories\": 39,\n      \"protein_g\": 1,\n      \"carbs_g\": 8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"roasted squash\",\n      \"usda_query\": \"winter squash cooked roasted\",\n      \"grams\": 85,\n      \"calories\": 70,\n      \"protein_g\": 2,\n      \"carbs_g\": 12,\n      \"fat_g\": 2\n    },\n    {\n      \"name\": \"broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 75,\n      \"calories\": 26,\n      \"protein_g\": 2,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"leafy herb garnish\",\n      \"usda_query\": \"fresh herbs mixed\",\n      \"grams\": 5,\n      \"calories\": 2,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 767\n}",
+  "latency_ms": 12326,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded fried chicken",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 120,
+        "calories": 320,
+        "protein_g": 28,
+        "carbs_g": 15,
+        "fat_g": 17
+      },
+      {
+        "name": "pepperoni pizza",
+        "usda_query": "pepperoni pizza",
+        "grams": 115,
+        "calories": 310,
+        "protein_g": 13,
+        "carbs_g": 34,
+        "fat_g": 13
+      },
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 30,
+        "calories": 39,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "roasted squash",
+        "usda_query": "winter squash cooked roasted",
+        "grams": 85,
+        "calories": 70,
+        "protein_g": 2,
+        "carbs_g": 12,
+        "fat_g": 2
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 75,
+        "calories": 26,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "leafy herb garnish",
+        "usda_query": "fresh herbs mixed",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 767
+  }
+}

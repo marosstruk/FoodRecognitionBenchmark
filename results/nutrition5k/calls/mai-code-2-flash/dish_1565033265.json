@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565033265",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3b94f17a89b2932d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1489,
+    "reasoning_tokens": 1261,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16207,
+    "ai_credits": 0.040965
+  },
+  "timestamp": "2026-11-25T00:28:26.239Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled chicken with barbecue sauce\",\"usda_query\":\"chicken breast grilled with barbecue sauce\",\"grams\":180,\"calories\":386,\"protein_g\":45,\"carbs_g\":22,\"fat_g\":12},{\"name\":\"broccoli\",\"usda_query\":\"broccoli cooked\",\"grams\":90,\"calories\":31,\"protein_g\":3,\"carbs_g\":6,\"fat_g\":0.4},{\"name\":\"mixed leafy greens\",\"usda_query\":\"lettuce mixed greens raw\",\"grams\":70,\"calories\":12,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"bread croutons\",\"usda_query\":\"croutons seasoned\",\"grams\":50,\"calories\":196,\"protein_g\":6,\"carbs_g\":32,\"fat_g\":6},{\"name\":\"barbecue sauce\",\"usda_query\":\"barbecue sauce\",\"grams\":25,\"calories\":63,\"protein_g\":0,\"carbs_g\":16,\"fat_g\":0.5}],\"total_calories\":688}",
+  "latency_ms": 17081,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken with barbecue sauce",
+        "usda_query": "chicken breast grilled with barbecue sauce",
+        "grams": 180,
+        "calories": 386,
+        "protein_g": 45,
+        "carbs_g": 22,
+        "fat_g": 12
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 90,
+        "calories": 31,
+        "protein_g": 3,
+        "carbs_g": 6,
+        "fat_g": 0.4
+      },
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 70,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "bread croutons",
+        "usda_query": "croutons seasoned",
+        "grams": 50,
+        "calories": 196,
+        "protein_g": 6,
+        "carbs_g": 32,
+        "fat_g": 6
+      },
+      {
+        "name": "barbecue sauce",
+        "usda_query": "barbecue sauce",
+        "grams": 25,
+        "calories": 63,
+        "protein_g": 0,
+        "carbs_g": 16,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 688
+  }
+}

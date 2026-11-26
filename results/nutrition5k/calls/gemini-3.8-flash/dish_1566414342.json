@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414342",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "22a4ea6dabd8d346",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1181,
+    "reasoning_tokens": 885,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 12749,
+    "ai_credits": 0.553425
+  },
+  "timestamp": "2026-11-25T00:22:50.559Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 130,\n      \"calories\": 170,\n      \"protein_g\": 3.0,\n      \"carbs_g\": 26.0,\n      \"fat_g\": 6.5\n    },\n    {\n      \"name\": \"couscous salad with roasted vegetables\",\n      \"usda_query\": \"couscous cooked with vegetables\",\n      \"grams\": 90,\n      \"calories\": 105,\n      \"protein_g\": 3.2,\n      \"carbs_g\": 19.5,\n      \"fat_g\": 1.8\n    },\n    {\n      \"name\": \"creamy chicken and spinach with grains\",\n      \"usda_query\": \"chicken casserole with vegetables and cream sauce\",\n      \"grams\": 170,\n      \"calories\": 255,\n      \"protein_g\": 22.0,\n      \"carbs_g\": 15.0,\n      \"fat_g\": 12.0\n    }\n  ],\n  \"total_calories\": 530\n}",
+  "latency_ms": 13906,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 130,
+        "calories": 170,
+        "protein_g": 3,
+        "carbs_g": 26,
+        "fat_g": 6.5
+      },
+      {
+        "name": "couscous salad with roasted vegetables",
+        "usda_query": "couscous cooked with vegetables",
+        "grams": 90,
+        "calories": 105,
+        "protein_g": 3.2,
+        "carbs_g": 19.5,
+        "fat_g": 1.8
+      },
+      {
+        "name": "creamy chicken and spinach with grains",
+        "usda_query": "chicken casserole with vegetables and cream sauce",
+        "grams": 170,
+        "calories": 255,
+        "protein_g": 22,
+        "carbs_g": 15,
+        "fat_g": 12
+      }
+    ],
+    "total_calories": 530
+  }
+}

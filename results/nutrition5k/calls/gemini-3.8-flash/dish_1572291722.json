@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572291722",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b3d2a8a8ff9a02dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 858,
+    "reasoning_tokens": 588,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8814,
+    "ai_credits": 0.4323
+  },
+  "timestamp": "2026-11-25T00:37:36.227Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked chicken breast\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 110,\n      \"calories\": 182,\n      \"protein_g\": 34.1,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"cucumber slices\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 65,\n      \"calories\": 10,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 2.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"hummus\",\n      \"usda_query\": \"hummus commercial\",\n      \"grams\": 40,\n      \"calories\": 95,\n      \"protein_g\": 3.2,\n      \"carbs_g\": 5.7,\n      \"fat_g\": 6.8\n    }\n  ],\n  \"total_calories\": 287\n}",
+  "latency_ms": 9966,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked chicken breast",
+        "usda_query": "chicken breast cooked",
+        "grams": 110,
+        "calories": 182,
+        "protein_g": 34.1,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "cucumber slices",
+        "usda_query": "cucumber with peel raw",
+        "grams": 65,
+        "calories": 10,
+        "protein_g": 0.4,
+        "carbs_g": 2.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "hummus",
+        "usda_query": "hummus commercial",
+        "grams": 40,
+        "calories": 95,
+        "protein_g": 3.2,
+        "carbs_g": 5.7,
+        "fat_g": 6.8
+      }
+    ],
+    "total_calories": 287
+  }
+}

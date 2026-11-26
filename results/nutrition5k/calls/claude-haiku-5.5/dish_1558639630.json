@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558639630",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "418a55b3cd33309a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 597,
+    "reasoning_tokens": 507,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3839,
+    "ai_credits": 0.0420525
+  },
+  "timestamp": "2026-11-25T00:29:01.297Z",
+  "raw_text": "{\"items\":[{\"name\":\"sweet corn on the cob\",\"usda_query\":\"corn sweet yellow cooked boiled drained\",\"grams\":120,\"calories\":115,\"protein_g\":4,\"carbs_g\":25,\"fat_g\":2}],\"total_calories\":115}",
+  "latency_ms": 4671,
+  "parsed": {
+    "items": [
+      {
+        "name": "sweet corn on the cob",
+        "usda_query": "corn sweet yellow cooked boiled drained",
+        "grams": 120,
+        "calories": 115,
+        "protein_g": 4,
+        "carbs_g": 25,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 115
+  }
+}

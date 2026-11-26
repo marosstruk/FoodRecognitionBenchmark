@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565711527",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4aef97e277c98070",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 830,
+    "reasoning_tokens": 590,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4347,
+    "ai_credits": 0.0537025
+  },
+  "timestamp": "2026-11-25T00:31:52.371Z",
+  "raw_text": "{\"items\":[{\"name\":\"Brussels sprouts pan-fried\",\"usda_query\":\"brussels sprouts cooked fried in oil\",\"grams\":100,\"calories\":70,\"protein_g\":3,\"carbs_g\":8,\"fat_g\":3},{\"name\":\"Scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled with butter\",\"grams\":120,\"calories\":179,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"Shredded fried potatoes with onion\",\"usda_query\":\"potatoes hash browns home fried in oil\",\"grams\":130,\"calories\":221,\"protein_g\":3,\"carbs_g\":29,\"fat_g\":10}],\"total_calories\":470}",
+  "latency_ms": 5476,
+  "parsed": {
+    "items": [
+      {
+        "name": "Brussels sprouts pan-fried",
+        "usda_query": "brussels sprouts cooked fried in oil",
+        "grams": 100,
+        "calories": 70,
+        "protein_g": 3,
+        "carbs_g": 8,
+        "fat_g": 3
+      },
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "egg whole cooked scrambled with butter",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "Shredded fried potatoes with onion",
+        "usda_query": "potatoes hash browns home fried in oil",
+        "grams": 130,
+        "calories": 221,
+        "protein_g": 3,
+        "carbs_g": 29,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 470
+  }
+}

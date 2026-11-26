@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566847483",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b9298a14e8608429",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 876,
+    "reasoning_tokens": 677,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5506,
+    "ai_credits": 0.0560025
+  },
+  "timestamp": "2026-11-25T00:24:38.398Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted chicken\",\"usda_query\":\"chicken roasted meat and skin\",\"grams\":150,\"calories\":324,\"protein_g\":40,\"carbs_g\":0,\"fat_g\":18},{\"name\":\"mixed salad greens\",\"usda_query\":\"arugula raw\",\"grams\":80,\"calories\":16,\"protein_g\":2,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"red onion\",\"usda_query\":\"onions raw\",\"grams\":10,\"calories\":4,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":0}],\"total_calories\":344}",
+  "latency_ms": 6370,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted chicken",
+        "usda_query": "chicken roasted meat and skin",
+        "grams": 150,
+        "calories": 324,
+        "protein_g": 40,
+        "carbs_g": 0,
+        "fat_g": 18
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "arugula raw",
+        "grams": 80,
+        "calories": 16,
+        "protein_g": 2,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 344
+  }
+}

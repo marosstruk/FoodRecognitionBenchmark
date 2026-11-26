@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566402123",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3c648bb583c6cec6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 751,
+    "reasoning_tokens": 515,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3899,
+    "ai_credits": 0.0497525
+  },
+  "timestamp": "2026-11-25T00:30:13.763Z",
+  "raw_text": "{\"items\":[{\"name\":\"cauliflower cooked\",\"usda_query\":\"cauliflower cooked boiled drained without salt\",\"grams\":200,\"calories\":46,\"protein_g\":3.6,\"carbs_g\":8.2,\"fat_g\":1.0},{\"name\":\"sweet potato roasted\",\"usda_query\":\"sweet potato baked flesh without skin\",\"grams\":150,\"calories\":135,\"protein_g\":3.0,\"carbs_g\":31.0,\"fat_g\":0.2},{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":150,\"calories\":45,\"protein_g\":0.9,\"carbs_g\":11.4,\"fat_g\":0.3}],\"total_calories\":226}",
+  "latency_ms": 5030,
+  "parsed": {
+    "items": [
+      {
+        "name": "cauliflower cooked",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 200,
+        "calories": 46,
+        "protein_g": 3.6,
+        "carbs_g": 8.2,
+        "fat_g": 1
+      },
+      {
+        "name": "sweet potato roasted",
+        "usda_query": "sweet potato baked flesh without skin",
+        "grams": 150,
+        "calories": 135,
+        "protein_g": 3,
+        "carbs_g": 31,
+        "fat_g": 0.2
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 150,
+        "calories": 45,
+        "protein_g": 0.9,
+        "carbs_g": 11.4,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 226
+  }
+}

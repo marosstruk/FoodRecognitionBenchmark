@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565024675",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "21bc8d1676772db3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 720,
+    "reasoning_tokens": 553,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4331,
+    "ai_credits": 0.0482025
+  },
+  "timestamp": "2026-11-25T00:20:02.913Z",
+  "raw_text": "{\"items\":[{\"name\":\"bacon, pan-fried\",\"usda_query\":\"pork cured bacon cooked pan-fried\",\"grams\":40,\"calories\":216,\"protein_g\":14.8,\"carbs_g\":0.6,\"fat_g\":16.8},{\"name\":\"scrambled egg\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":10,\"calories\":15,\"protein_g\":1.0,\"carbs_g\":0.2,\"fat_g\":1.1}],\"total_calories\":231}",
+  "latency_ms": 5220,
+  "parsed": {
+    "items": [
+      {
+        "name": "bacon, pan-fried",
+        "usda_query": "pork cured bacon cooked pan-fried",
+        "grams": 40,
+        "calories": 216,
+        "protein_g": 14.8,
+        "carbs_g": 0.6,
+        "fat_g": 16.8
+      },
+      {
+        "name": "scrambled egg",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 10,
+        "calories": 15,
+        "protein_g": 1,
+        "carbs_g": 0.2,
+        "fat_g": 1.1
+      }
+    ],
+    "total_calories": 231
+  }
+}

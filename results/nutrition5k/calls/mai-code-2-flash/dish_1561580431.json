@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561580431",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "210680e68b199cd2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 908,
+    "reasoning_tokens": 624,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10077,
+    "ai_credits": 0.02644
+  },
+  "timestamp": "2026-11-25T00:13:36.986Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled steak strips\",\n      \"usda_query\": \"beef steak grilled\",\n      \"grams\": 180,\n      \"calories\": 468,\n      \"protein_g\": 50,\n      \"carbs_g\": 0,\n      \"fat_g\": 29\n    },\n    {\n      \"name\": \"mashed potatoes\",\n      \"usda_query\": \"mashed potatoes with milk and butter\",\n      \"grams\": 150,\n      \"calories\": 218,\n      \"protein_g\": 4,\n      \"carbs_g\": 35,\n      \"fat_g\": 8\n    },\n    {\n      \"name\": \"French fries\",\n      \"usda_query\": \"French fries\",\n      \"grams\": 140,\n      \"calories\": 438,\n      \"protein_g\": 5,\n      \"carbs_g\": 55,\n      \"fat_g\": 22\n    },\n    {\n      \"name\": \"green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 80,\n      \"calories\": 35,\n      \"protein_g\": 2,\n      \"carbs_g\": 8,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 1159\n}",
+  "latency_ms": 11213,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled steak strips",
+        "usda_query": "beef steak grilled",
+        "grams": 180,
+        "calories": 468,
+        "protein_g": 50,
+        "carbs_g": 0,
+        "fat_g": 29
+      },
+      {
+        "name": "mashed potatoes",
+        "usda_query": "mashed potatoes with milk and butter",
+        "grams": 150,
+        "calories": 218,
+        "protein_g": 4,
+        "carbs_g": 35,
+        "fat_g": 8
+      },
+      {
+        "name": "French fries",
+        "usda_query": "French fries",
+        "grams": 140,
+        "calories": 438,
+        "protein_g": 5,
+        "carbs_g": 55,
+        "fat_g": 22
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 80,
+        "calories": 35,
+        "protein_g": 2,
+        "carbs_g": 8,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 1159
+  }
+}

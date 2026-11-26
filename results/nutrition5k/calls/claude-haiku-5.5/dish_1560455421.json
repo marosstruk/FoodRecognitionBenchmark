@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560455421",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bd6182672e759b1e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1117,
+    "reasoning_tokens": 749,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5223,
+    "ai_credits": 0.0680525
+  },
+  "timestamp": "2026-11-25T00:37:46.375Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled salmon fillet\",\"usda_query\":\"salmon atlantic farmed cooked dry heat\",\"grams\":120,\"calories\":250,\"protein_g\":30,\"carbs_g\":0,\"fat_g\":14},{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":40,\"calories\":9,\"protein_g\":1.1,\"carbs_g\":1.5,\"fat_g\":0.2},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":12,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"sweet corn on the cob\",\"usda_query\":\"sweet corn yellow cooked boiled drained\",\"grams\":100,\"calories\":96,\"protein_g\":3.4,\"carbs_g\":21,\"fat_g\":1.5}],\"total_calories\":375}",
+  "latency_ms": 6748,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled salmon fillet",
+        "usda_query": "salmon atlantic farmed cooked dry heat",
+        "grams": 120,
+        "calories": 250,
+        "protein_g": 30,
+        "carbs_g": 0,
+        "fat_g": 14
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 40,
+        "calories": 9,
+        "protein_g": 1.1,
+        "carbs_g": 1.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sweet corn on the cob",
+        "usda_query": "sweet corn yellow cooked boiled drained",
+        "grams": 100,
+        "calories": 96,
+        "protein_g": 3.4,
+        "carbs_g": 21,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 375
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558718610",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7eaa0fa20a22a71b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 370,
+    "reasoning_tokens": 303,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7751,
+    "ai_credits": 0.02598
+  },
+  "timestamp": "2026-11-25T00:18:32.088Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked yellow corn kernels\",\"usda_query\":\"corn sweet yellow cooked boiled kernels\",\"grams\":45,\"calories\":43,\"protein_g\":1.5,\"carbs_g\":9.5,\"fat_g\":0.7}],\"total_calories\":43}",
+  "latency_ms": 8925,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked yellow corn kernels",
+        "usda_query": "corn sweet yellow cooked boiled kernels",
+        "grams": 45,
+        "calories": 43,
+        "protein_g": 1.5,
+        "carbs_g": 9.5,
+        "fat_g": 0.7
+      }
+    ],
+    "total_calories": 43
+  }
+}

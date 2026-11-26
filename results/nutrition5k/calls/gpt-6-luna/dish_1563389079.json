@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563389079",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b1b5d6cee3359f0e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 889,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8136,
+    "ai_credits": 0.05193
+  },
+  "timestamp": "2026-11-25T00:28:15.331Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked carrots\",\n      \"usda_query\": \"carrots cooked boiled drained\",\n      \"grams\": 45,\n      \"calories\": 16,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 3.7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Cooked broccoli\",\n      \"usda_query\": \"broccoli cooked boiled drained\",\n      \"grams\": 30,\n      \"calories\": 10,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Yellow squash\",\n      \"usda_query\": \"summer squash cooked boiled drained\",\n      \"grams\": 40,\n      \"calories\": 7,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Boiled potato\",\n      \"usda_query\": \"potatoes boiled cooked\",\n      \"grams\": 18,\n      \"calories\": 16,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Parsley\",\n      \"usda_query\": \"parsley fresh\",\n      \"grams\": 3,\n      \"calories\": 1,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.2,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 50\n}",
+  "latency_ms": 8997,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked carrots",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 45,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Cooked broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 30,
+        "calories": 10,
+        "protein_g": 0.7,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Yellow squash",
+        "usda_query": "summer squash cooked boiled drained",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.4,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Boiled potato",
+        "usda_query": "potatoes boiled cooked",
+        "grams": 18,
+        "calories": 16,
+        "protein_g": 0.4,
+        "carbs_g": 3.6,
+        "fat_g": 0
+      },
+      {
+        "name": "Parsley",
+        "usda_query": "parsley fresh",
+        "grams": 3,
+        "calories": 1,
+        "protein_g": 0.1,
+        "carbs_g": 0.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 50
+  }
+}

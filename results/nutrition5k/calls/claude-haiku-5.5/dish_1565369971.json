@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565369971",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7da9b1e187184820",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 731,
+    "reasoning_tokens": 572,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4145,
+    "ai_credits": 0.0487525
+  },
+  "timestamp": "2026-11-25T00:13:20.644Z",
+  "raw_text": "{\"items\":[{\"name\":\"green beans\",\"usda_query\":\"green beans cooked boiled drained without salt\",\"grams\":150,\"calories\":47,\"protein_g\":2.8,\"carbs_g\":10.5,\"fat_g\":0.3},{\"name\":\"bacon\",\"usda_query\":\"pork bacon cooked pan-fried\",\"grams\":35,\"calories\":189,\"protein_g\":13.0,\"carbs_g\":0.5,\"fat_g\":14.7}],\"total_calories\":236}",
+  "latency_ms": 5542,
+  "parsed": {
+    "items": [
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked boiled drained without salt",
+        "grams": 150,
+        "calories": 47,
+        "protein_g": 2.8,
+        "carbs_g": 10.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "bacon",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 35,
+        "calories": 189,
+        "protein_g": 13,
+        "carbs_g": 0.5,
+        "fat_g": 14.7
+      }
+    ],
+    "total_calories": 236
+  }
+}

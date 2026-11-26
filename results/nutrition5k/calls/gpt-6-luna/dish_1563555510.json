@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563555510",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5998dc721863ff25",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 230,
+    "reasoning_tokens": 138,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4054,
+    "ai_credits": 0.01898
+  },
+  "timestamp": "2026-11-25T00:20:13.756Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 105,\n      \"calories\": 155,\n      \"protein_g\": 10.1,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 12\n    }\n  ],\n  \"total_calories\": 155\n}",
+  "latency_ms": 5157,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled cooked",
+        "grams": 105,
+        "calories": 155,
+        "protein_g": 10.1,
+        "carbs_g": 1.1,
+        "fat_g": 12
+      }
+    ],
+    "total_calories": 155
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567106620",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a04f8997b93b5aaf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 525,
+    "reasoning_tokens": 384,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7127,
+    "ai_credits": 0.307425
+  },
+  "timestamp": "2026-11-25T00:23:40.832Z",
+  "raw_text": "{\"items\": [{\"name\": \"cherry tomatoes\", \"usda_query\": \"tomatoes cherry raw\", \"grams\": 70, \"calories\": 13, \"protein_g\": 0.6, \"carbs_g\": 2.7, \"fat_g\": 0.1}, {\"name\": \"mixed bell peppers\", \"usda_query\": \"peppers sweet raw\", \"grams\": 50, \"calories\": 13, \"protein_g\": 0.5, \"carbs_g\": 2.7, \"fat_g\": 0.1}], \"total_calories\": 26}",
+  "latency_ms": 8223,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 70,
+        "calories": 13,
+        "protein_g": 0.6,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "mixed bell peppers",
+        "usda_query": "peppers sweet raw",
+        "grams": 50,
+        "calories": 13,
+        "protein_g": 0.5,
+        "carbs_g": 2.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 26
+  }
+}

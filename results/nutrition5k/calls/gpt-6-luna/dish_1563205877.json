@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563205877",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fb5f5e123cf10d42",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 479,
+    "reasoning_tokens": 420,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6465,
+    "ai_credits": 0.03143
+  },
+  "timestamp": "2026-11-25T00:36:56.720Z",
+  "raw_text": "{\"items\":[{\"name\":\"falafel\",\"usda_query\":\"falafel prepared\",\"grams\":90,\"calories\":300,\"protein_g\":12,\"carbs_g\":28.6,\"fat_g\":16.2}],\"total_calories\":300}",
+  "latency_ms": 7323,
+  "parsed": {
+    "items": [
+      {
+        "name": "falafel",
+        "usda_query": "falafel prepared",
+        "grams": 90,
+        "calories": 300,
+        "protein_g": 12,
+        "carbs_g": 28.6,
+        "fat_g": 16.2
+      }
+    ],
+    "total_calories": 300
+  }
+}

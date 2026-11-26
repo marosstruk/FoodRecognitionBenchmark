@@ -1,0 +1,108 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563220171",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2a25f71f9e20d756",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 2342,
+    "reasoning_tokens": 1723,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 10103,
+    "ai_credits": 0.1293025
+  },
+  "timestamp": "2026-11-25T00:23:03.046Z",
+  "raw_text": "{\"items\":[{\"name\":\"breaded chicken breast\",\"usda_query\":\"chicken breast breaded baked\",\"grams\":150,\"calories\":290,\"protein_g\":33,\"carbs_g\":14,\"fat_g\":11},{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce canned\",\"grams\":50,\"calories\":55,\"protein_g\":1.5,\"carbs_g\":6,\"fat_g\":2},{\"name\":\"mozzarella cheese\",\"usda_query\":\"mozzarella cheese whole milk\",\"grams\":30,\"calories\":85,\"protein_g\":7,\"carbs_g\":1,\"fat_g\":6},{\"name\":\"pepperoni\",\"usda_query\":\"pepperoni pork beef dry\",\"grams\":15,\"calories\":70,\"protein_g\":3.5,\"carbs_g\":0.5,\"fat_g\":6},{\"name\":\"fresh spinach\",\"usda_query\":\"spinach raw\",\"grams\":15,\"calories\":4,\"protein_g\":0.4,\"carbs_g\":0.5,\"fat_g\":0.1},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked steamed\",\"grams\":120,\"calories\":50,\"protein_g\":3.3,\"carbs_g\":8.1,\"fat_g\":0.5},{\"name\":\"roasted squash\",\"usda_query\":\"squash winter roasted\",\"grams\":120,\"calories\":110,\"protein_g\":2,\"carbs_g\":20,\"fat_g\":3},{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":100,\"calories\":130,\"protein_g\":2.7,\"carbs_g\":28,\"fat_g\":0.3},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked flesh\",\"grams\":50,\"calories\":45,\"protein_g\":1,\"carbs_g\":10,\"fat_g\":0.1}],\"total_calories\":839}",
+  "latency_ms": 11210,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded chicken breast",
+        "usda_query": "chicken breast breaded baked",
+        "grams": 150,
+        "calories": 290,
+        "protein_g": 33,
+        "carbs_g": 14,
+        "fat_g": 11
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce canned",
+        "grams": 50,
+        "calories": 55,
+        "protein_g": 1.5,
+        "carbs_g": 6,
+        "fat_g": 2
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese whole milk",
+        "grams": 30,
+        "calories": 85,
+        "protein_g": 7,
+        "carbs_g": 1,
+        "fat_g": 6
+      },
+      {
+        "name": "pepperoni",
+        "usda_query": "pepperoni pork beef dry",
+        "grams": 15,
+        "calories": 70,
+        "protein_g": 3.5,
+        "carbs_g": 0.5,
+        "fat_g": 6
+      },
+      {
+        "name": "fresh spinach",
+        "usda_query": "spinach raw",
+        "grams": 15,
+        "calories": 4,
+        "protein_g": 0.4,
+        "carbs_g": 0.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 120,
+        "calories": 50,
+        "protein_g": 3.3,
+        "carbs_g": 8.1,
+        "fat_g": 0.5
+      },
+      {
+        "name": "roasted squash",
+        "usda_query": "squash winter roasted",
+        "grams": 120,
+        "calories": 110,
+        "protein_g": 2,
+        "carbs_g": 20,
+        "fat_g": 3
+      },
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 100,
+        "calories": 130,
+        "protein_g": 2.7,
+        "carbs_g": 28,
+        "fat_g": 0.3
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked flesh",
+        "grams": 50,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 10,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 839
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559062082",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8e7317182fd99468",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 523,
+    "reasoning_tokens": 225,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4845,
+    "ai_credits": 0.03363
+  },
+  "timestamp": "2026-11-25T00:15:28.595Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled cooked\",\n      \"grams\": 170,\n      \"calories\": 253,\n      \"protein_g\": 17.5,\n      \"carbs_g\": 2.7,\n      \"fat_g\": 19.5\n    },\n    {\n      \"name\": \"Tomato\",\n      \"usda_query\": \"tomato raw\",\n      \"grams\": 120,\n      \"calories\": 22,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 4.7,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"Roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 130,\n      \"calories\": 200,\n      \"protein_g\": 4,\n      \"carbs_g\": 31,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"Bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 40,\n      \"calories\": 216,\n      \"protein_g\": 15,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 17\n    }\n  ],\n  \"total_calories\": 691\n}",
+  "latency_ms": 6042,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled cooked",
+        "grams": 170,
+        "calories": 253,
+        "protein_g": 17.5,
+        "carbs_g": 2.7,
+        "fat_g": 19.5
+      },
+      {
+        "name": "Tomato",
+        "usda_query": "tomato raw",
+        "grams": 120,
+        "calories": 22,
+        "protein_g": 1.1,
+        "carbs_g": 4.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 130,
+        "calories": 200,
+        "protein_g": 4,
+        "carbs_g": 31,
+        "fat_g": 7
+      },
+      {
+        "name": "Bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 40,
+        "calories": 216,
+        "protein_g": 15,
+        "carbs_g": 0.6,
+        "fat_g": 17
+      }
+    ],
+    "total_calories": 691
+  }
+}

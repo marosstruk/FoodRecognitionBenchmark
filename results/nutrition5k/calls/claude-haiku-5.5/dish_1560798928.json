@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560798928",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "196a611d0968fa13",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1496,
+    "reasoning_tokens": 1152,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7212,
+    "ai_credits": 0.0870025
+  },
+  "timestamp": "2026-11-25T00:19:09.252Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":80,\"calories\":20,\"protein_g\":2,\"carbs_g\":3.5,\"fat_g\":0.3},{\"name\":\"broccoli\",\"usda_query\":\"broccoli raw\",\"grams\":50,\"calories\":17,\"protein_g\":1.4,\"carbs_g\":3.3,\"fat_g\":0.2},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":10,\"calories\":4,\"protein_g\":0.1,\"carbs_g\":1,\"fat_g\":0},{\"name\":\"baked tempeh\",\"usda_query\":\"tempeh cooked\",\"grams\":100,\"calories\":200,\"protein_g\":19,\"carbs_g\":8,\"fat_g\":11},{\"name\":\"cheese pizza slice\",\"usda_query\":\"pizza cheese regular crust baked\",\"grams\":130,\"calories\":350,\"protein_g\":15,\"carbs_g\":43,\"fat_g\":13}],\"total_calories\":591}",
+  "latency_ms": 8076,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 80,
+        "calories": 20,
+        "protein_g": 2,
+        "carbs_g": 3.5,
+        "fat_g": 0.3
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli raw",
+        "grams": 50,
+        "calories": 17,
+        "protein_g": 1.4,
+        "carbs_g": 3.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "baked tempeh",
+        "usda_query": "tempeh cooked",
+        "grams": 100,
+        "calories": 200,
+        "protein_g": 19,
+        "carbs_g": 8,
+        "fat_g": 11
+      },
+      {
+        "name": "cheese pizza slice",
+        "usda_query": "pizza cheese regular crust baked",
+        "grams": 130,
+        "calories": 350,
+        "protein_g": 15,
+        "carbs_g": 43,
+        "fat_g": 13
+      }
+    ],
+    "total_calories": 591
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563984296",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "324fabfeb6805870",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 790,
+    "reasoning_tokens": 423,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7151,
+    "ai_credits": 0.04698
+  },
+  "timestamp": "2026-11-25T00:36:36.852Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 200,\n      \"calories\": 260,\n      \"protein_g\": 5.4,\n      \"carbs_g\": 56.3,\n      \"fat_g\": 0.6\n    },\n    {\n      \"name\": \"tomato-based sauce\",\n      \"usda_query\": \"tomato sauce\",\n      \"grams\": 60,\n      \"calories\": 60,\n      \"protein_g\": 1,\n      \"carbs_g\": 9,\n      \"fat_g\": 2.5\n    },\n    {\n      \"name\": \"pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 80,\n      \"calories\": 40,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 10.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"papaya\",\n      \"usda_query\": \"papaya raw\",\n      \"grams\": 100,\n      \"calories\": 43,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 10.8,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"cooked eggplant\",\n      \"usda_query\": \"eggplant cooked with oil\",\n      \"grams\": 100,\n      \"calories\": 90,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 9,\n      \"fat_g\": 5\n    }\n  ],\n  \"total_calories\": 493\n}",
+  "latency_ms": 8287,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 200,
+        "calories": 260,
+        "protein_g": 5.4,
+        "carbs_g": 56.3,
+        "fat_g": 0.6
+      },
+      {
+        "name": "tomato-based sauce",
+        "usda_query": "tomato sauce",
+        "grams": 60,
+        "calories": 60,
+        "protein_g": 1,
+        "carbs_g": 9,
+        "fat_g": 2.5
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 80,
+        "calories": 40,
+        "protein_g": 0.4,
+        "carbs_g": 10.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "papaya",
+        "usda_query": "papaya raw",
+        "grams": 100,
+        "calories": 43,
+        "protein_g": 0.5,
+        "carbs_g": 10.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cooked eggplant",
+        "usda_query": "eggplant cooked with oil",
+        "grams": 100,
+        "calories": 90,
+        "protein_g": 1.2,
+        "carbs_g": 9,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 493
+  }
+}

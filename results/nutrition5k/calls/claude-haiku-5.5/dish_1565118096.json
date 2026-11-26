@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565118096",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "496490869f68d902",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1739,
+    "reasoning_tokens": 1364,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7828,
+    "ai_credits": 0.0991525
+  },
+  "timestamp": "2026-11-25T00:31:28.062Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza flatbread\",\"usda_query\":\"pizza cheese flatbread thin crust\",\"grams\":150,\"calories\":390,\"protein_g\":16.5,\"carbs_g\":49.5,\"fat_g\":15},{\"name\":\"shredded chicken\",\"usda_query\":\"chicken breast roasted meat only\",\"grams\":130,\"calories\":215,\"protein_g\":40.3,\"carbs_g\":0,\"fat_g\":4.7},{\"name\":\"bell pepper mixed raw\",\"usda_query\":\"peppers sweet red and green raw\",\"grams\":80,\"calories\":25,\"protein_g\":0.8,\"carbs_g\":4.8,\"fat_g\":0.2},{\"name\":\"carrot shredded raw\",\"usda_query\":\"carrots raw\",\"grams\":100,\"calories\":41,\"protein_g\":0.9,\"carbs_g\":9.6,\"fat_g\":0.2},{\"name\":\"apple slices raw\",\"usda_query\":\"apples raw with skin\",\"grams\":70,\"calories\":36,\"protein_g\":0.2,\"carbs_g\":9.7,\"fat_g\":0.1}],\"total_calories\":707}",
+  "latency_ms": 9218,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza flatbread",
+        "usda_query": "pizza cheese flatbread thin crust",
+        "grams": 150,
+        "calories": 390,
+        "protein_g": 16.5,
+        "carbs_g": 49.5,
+        "fat_g": 15
+      },
+      {
+        "name": "shredded chicken",
+        "usda_query": "chicken breast roasted meat only",
+        "grams": 130,
+        "calories": 215,
+        "protein_g": 40.3,
+        "carbs_g": 0,
+        "fat_g": 4.7
+      },
+      {
+        "name": "bell pepper mixed raw",
+        "usda_query": "peppers sweet red and green raw",
+        "grams": 80,
+        "calories": 25,
+        "protein_g": 0.8,
+        "carbs_g": 4.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "carrot shredded raw",
+        "usda_query": "carrots raw",
+        "grams": 100,
+        "calories": 41,
+        "protein_g": 0.9,
+        "carbs_g": 9.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "apple slices raw",
+        "usda_query": "apples raw with skin",
+        "grams": 70,
+        "calories": 36,
+        "protein_g": 0.2,
+        "carbs_g": 9.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 707
+  }
+}

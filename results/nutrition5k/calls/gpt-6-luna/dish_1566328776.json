@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566328776",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "00180376b74f79d1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1270,
+    "reasoning_tokens": 695,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9615,
+    "ai_credits": 0.07098
+  },
+  "timestamp": "2026-11-25T00:30:39.031Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"baked pizza crust\",\n      \"usda_query\": \"pizza crust baked\",\n      \"grams\": 175,\n      \"calories\": 462,\n      \"protein_g\": 15.8,\n      \"carbs_g\": 95,\n      \"fat_g\": 3.8\n    },\n    {\n      \"name\": \"mozzarella cheese\",\n      \"usda_query\": \"mozzarella cheese whole milk\",\n      \"grams\": 60,\n      \"calories\": 170,\n      \"protein_g\": 13,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 12.7\n    },\n    {\n      \"name\": \"tomato pizza sauce\",\n      \"usda_query\": \"pizza sauce canned\",\n      \"grams\": 35,\n      \"calories\": 15,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"ham\",\n      \"usda_query\": \"ham cooked\",\n      \"grams\": 25,\n      \"calories\": 36,\n      \"protein_g\": 5.2,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 1.3\n    },\n    {\n      \"name\": \"pineapple\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 15,\n      \"calories\": 8,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"onions raw\",\n      \"grams\": 10,\n      \"calories\": 4,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"cooked chicken breast\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 170,\n      \"calories\": 281,\n      \"protein_g\": 52.7,\n      \"carbs_g\": 0,\n      \"fat_g\": 6.1\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes red ripe raw\",\n      \"grams\": 110,\n      \"calories\": 20,\n      \"protein_g\": 1,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.2\n    }\n  ],\n  \"total_calories\": 996\n}",
+  "latency_ms": 10735,
+  "parsed": {
+    "items": [
+      {
+        "name": "baked pizza crust",
+        "usda_query": "pizza crust baked",
+        "grams": 175,
+        "calories": 462,
+        "protein_g": 15.8,
+        "carbs_g": 95,
+        "fat_g": 3.8
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese whole milk",
+        "grams": 60,
+        "calories": 170,
+        "protein_g": 13,
+        "carbs_g": 1.5,
+        "fat_g": 12.7
+      },
+      {
+        "name": "tomato pizza sauce",
+        "usda_query": "pizza sauce canned",
+        "grams": 35,
+        "calories": 15,
+        "protein_g": 0.7,
+        "carbs_g": 3.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "ham",
+        "usda_query": "ham cooked",
+        "grams": 25,
+        "calories": 36,
+        "protein_g": 5.2,
+        "carbs_g": 0.4,
+        "fat_g": 1.3
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw",
+        "grams": 15,
+        "calories": 8,
+        "protein_g": 0.1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 0.9,
+        "fat_g": 0
+      },
+      {
+        "name": "cooked chicken breast",
+        "usda_query": "chicken breast roasted",
+        "grams": 170,
+        "calories": 281,
+        "protein_g": 52.7,
+        "carbs_g": 0,
+        "fat_g": 6.1
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 110,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 996
+  }
+}

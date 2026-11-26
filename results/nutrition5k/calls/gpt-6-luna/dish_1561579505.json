@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561579505",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ddfe62e40618df13",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 387,
+    "reasoning_tokens": 295,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7155,
+    "ai_credits": 0.02683
+  },
+  "timestamp": "2026-11-25T00:19:34.889Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled egg\",\n      \"usda_query\": \"egg scrambled cooked\",\n      \"grams\": 90,\n      \"calories\": 134,\n      \"protein_g\": 9,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 9.5\n    }\n  ],\n  \"total_calories\": 134\n}",
+  "latency_ms": 8038,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled egg",
+        "usda_query": "egg scrambled cooked",
+        "grams": 90,
+        "calories": 134,
+        "protein_g": 9,
+        "carbs_g": 1.4,
+        "fat_g": 9.5
+      }
+    ],
+    "total_calories": 134
+  }
+}

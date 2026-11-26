@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564170010",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "665ea2a7d7222cc6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1785,
+    "reasoning_tokens": 1090,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8075,
+    "ai_credits": 0.1014525
+  },
+  "timestamp": "2026-11-25T00:26:27.833Z",
+  "raw_text": "{\"items\":[{\"name\":\"shredded chicken in tomato sauce\",\"usda_query\":\"chicken stewed with tomato sauce\",\"grams\":120,\"calories\":200,\"protein_g\":18,\"carbs_g\":8,\"fat_g\":11},{\"name\":\"fried plantain\",\"usda_query\":\"plantains cooked fried\",\"grams\":80,\"calories\":150,\"protein_g\":1,\"carbs_g\":25,\"fat_g\":6},{\"name\":\"grilled zucchini\",\"usda_query\":\"squash summer zucchini cooked fried\",\"grams\":60,\"calories\":20,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":1},{\"name\":\"baked fish fillet with tomato\",\"usda_query\":\"fish cooked dry heat tilapia\",\"grams\":120,\"calories\":230,\"protein_g\":25,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"white rice with fried onion\",\"usda_query\":\"rice white cooked\",\"grams\":50,\"calories\":65,\"protein_g\":1.4,\"carbs_g\":14,\"fat_g\":0.3},{\"name\":\"cucumber\",\"usda_query\":\"cucumber raw with peel\",\"grams\":50,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":40,\"calories\":7,\"protein_g\":0.4,\"carbs_g\":1.6,\"fat_g\":0.1},{\"name\":\"leafy greens\",\"usda_query\":\"kale raw\",\"grams\":40,\"calories\":12,\"protein_g\":1.2,\"carbs_g\":2,\"fat_g\":0.2},{\"name\":\"boiled potato\",\"usda_query\":\"potatoes boiled cooked without skin flesh\",\"grams\":30,\"calories\":26,\"protein_g\":0.6,\"carbs_g\":6,\"fat_g\":0},{\"name\":\"fried plantain\",\"usda_query\":\"plantains cooked fried\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":718}",
+  "latency_ms": 8957,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded chicken in tomato sauce",
+        "usda_query": "chicken stewed with tomato sauce",
+        "grams": 120,
+        "calories": 200,
+        "protein_g": 18,
+        "carbs_g": 8,
+        "fat_g": 11
+      },
+      {
+        "name": "fried plantain",
+        "usda_query": "plantains cooked fried",
+        "grams": 80,
+        "calories": 150,
+        "protein_g": 1,
+        "carbs_g": 25,
+        "fat_g": 6
+      },
+      {
+        "name": "grilled zucchini",
+        "usda_query": "squash summer zucchini cooked fried",
+        "grams": 60,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 1
+      },
+      {
+        "name": "baked fish fillet with tomato",
+        "usda_query": "fish cooked dry heat tilapia",
+        "grams": 120,
+        "calories": 230,
+        "protein_g": 25,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "white rice with fried onion",
+        "usda_query": "rice white cooked",
+        "grams": 50,
+        "calories": 65,
+        "protein_g": 1.4,
+        "carbs_g": 14,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber raw with peel",
+        "grams": 50,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0.4,
+        "carbs_g": 1.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "leafy greens",
+        "usda_query": "kale raw",
+        "grams": 40,
+        "calories": 12,
+        "protein_g": 1.2,
+        "carbs_g": 2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "boiled potato",
+        "usda_query": "potatoes boiled cooked without skin flesh",
+        "grams": 30,
+        "calories": 26,
+        "protein_g": 0.6,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "fried plantain",
+        "usda_query": "plantains cooked fried",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 718
+  }
+}

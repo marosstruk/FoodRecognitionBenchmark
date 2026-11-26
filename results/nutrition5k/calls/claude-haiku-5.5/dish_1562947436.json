@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562947436",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f2fcd6e975f709e9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1356,
+    "reasoning_tokens": 1071,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7003,
+    "ai_credits": 0.0800025
+  },
+  "timestamp": "2026-11-25T00:24:15.431Z",
+  "raw_text": "{\"items\":[{\"name\":\"chocolate truffle\",\"usda_query\":\"chocolate candy dark\",\"grams\":45,\"calories\":240,\"protein_g\":3.6,\"carbs_g\":26.5,\"fat_g\":13.5},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":150,\"calories\":75,\"protein_g\":0.8,\"carbs_g\":19.7,\"fat_g\":0.2},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":150,\"calories\":48,\"protein_g\":1.0,\"carbs_g\":11.6,\"fat_g\":0.5},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":35,\"calories\":20,\"protein_g\":0.2,\"carbs_g\":5.1,\"fat_g\":0.1}],\"total_calories\":383}",
+  "latency_ms": 8107,
+  "parsed": {
+    "items": [
+      {
+        "name": "chocolate truffle",
+        "usda_query": "chocolate candy dark",
+        "grams": 45,
+        "calories": 240,
+        "protein_g": 3.6,
+        "carbs_g": 26.5,
+        "fat_g": 13.5
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 150,
+        "calories": 75,
+        "protein_g": 0.8,
+        "carbs_g": 19.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 150,
+        "calories": 48,
+        "protein_g": 1,
+        "carbs_g": 11.6,
+        "fat_g": 0.5
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 35,
+        "calories": 20,
+        "protein_g": 0.2,
+        "carbs_g": 5.1,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 383
+  }
+}

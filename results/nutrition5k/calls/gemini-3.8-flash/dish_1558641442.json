@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558641442",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9df46161510d2f53",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 745,
+    "reasoning_tokens": 466,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6261,
+    "ai_credits": 0.389925
+  },
+  "timestamp": "2026-11-25T00:39:40.077Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"raw cauliflower florets\",\n      \"usda_query\": \"cauliflower raw\",\n      \"grams\": 85,\n      \"calories\": 21,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 4.2,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"cantaloupe chunks\",\n      \"usda_query\": \"cantaloupe raw\",\n      \"grams\": 110,\n      \"calories\": 37,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 9.0,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"sweet corn on the cob\",\n      \"usda_query\": \"sweet corn yellow boiled\",\n      \"grams\": 40,\n      \"calories\": 38,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 8.4,\n      \"fat_g\": 0.6\n    }\n  ],\n  \"total_calories\": 96\n}",
+  "latency_ms": 7361,
+  "parsed": {
+    "items": [
+      {
+        "name": "raw cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 85,
+        "calories": 21,
+        "protein_g": 1.6,
+        "carbs_g": 4.2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "cantaloupe chunks",
+        "usda_query": "cantaloupe raw",
+        "grams": 110,
+        "calories": 37,
+        "protein_g": 0.9,
+        "carbs_g": 9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "sweet corn on the cob",
+        "usda_query": "sweet corn yellow boiled",
+        "grams": 40,
+        "calories": 38,
+        "protein_g": 1.4,
+        "carbs_g": 8.4,
+        "fat_g": 0.6
+      }
+    ],
+    "total_calories": 96
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565203094",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "616f29cd79d47bc3",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1023,
+    "reasoning_tokens": 800,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11440,
+    "ai_credits": 0.029315
+  },
+  "timestamp": "2026-11-25T00:25:14.677Z",
+  "raw_text": "{\"items\":[{\"name\":\"meat and cheese pizza slice\",\"usda_query\":\"pizza cheese and meat\",\"grams\":180,\"calories\":500,\"protein_g\":21,\"carbs_g\":54,\"fat_g\":22},{\"name\":\"roasted potato cubes\",\"usda_query\":\"potatoes roasted\",\"grams\":180,\"calories\":210,\"protein_g\":5,\"carbs_g\":38,\"fat_g\":5},{\"name\":\"grilled chicken pieces\",\"usda_query\":\"chicken breast roasted\",\"grams\":150,\"calories\":248,\"protein_g\":47,\"carbs_g\":0,\"fat_g\":5},{\"name\":\"mushrooms\",\"usda_query\":\"mushrooms cooked no fat\",\"grams\":70,\"calories\":21,\"protein_g\":3,\"carbs_g\":4,\"fat_g\":0},{\"name\":\"onions\",\"usda_query\":\"onions cooked no fat\",\"grams\":30,\"calories\":12,\"protein_g\":0,\"carbs_g\":3,\"fat_g\":0}],\"total_calories\":991}",
+  "latency_ms": 12689,
+  "parsed": {
+    "items": [
+      {
+        "name": "meat and cheese pizza slice",
+        "usda_query": "pizza cheese and meat",
+        "grams": 180,
+        "calories": 500,
+        "protein_g": 21,
+        "carbs_g": 54,
+        "fat_g": 22
+      },
+      {
+        "name": "roasted potato cubes",
+        "usda_query": "potatoes roasted",
+        "grams": 180,
+        "calories": 210,
+        "protein_g": 5,
+        "carbs_g": 38,
+        "fat_g": 5
+      },
+      {
+        "name": "grilled chicken pieces",
+        "usda_query": "chicken breast roasted",
+        "grams": 150,
+        "calories": 248,
+        "protein_g": 47,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "mushrooms",
+        "usda_query": "mushrooms cooked no fat",
+        "grams": 70,
+        "calories": 21,
+        "protein_g": 3,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "onions",
+        "usda_query": "onions cooked no fat",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 991
+  }
+}

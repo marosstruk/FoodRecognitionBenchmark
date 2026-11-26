@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566417516",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "457a4b1011ed83d9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 796,
+    "reasoning_tokens": 445,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3997,
+    "ai_credits": 0.0520025
+  },
+  "timestamp": "2026-11-25T00:23:11.398Z",
+  "raw_text": "{\"items\":[{\"name\":\"breaded fried fish\",\"usda_query\":\"fish fried batter or breaded cooked\",\"grams\":120,\"calories\":280,\"protein_g\":20,\"carbs_g\":15,\"fat_g\":16},{\"name\":\"roasted eggplant\",\"usda_query\":\"eggplant cooked roasted with oil\",\"grams\":90,\"calories\":80,\"protein_g\":1,\"carbs_g\":8,\"fat_g\":5},{\"name\":\"roasted potato\",\"usda_query\":\"potatoes roasted with oil\",\"grams\":80,\"calories\":130,\"protein_g\":2,\"carbs_g\":20,\"fat_g\":5},{\"name\":\"boiled potato\",\"usda_query\":\"potatoes boiled cooked without skin\",\"grams\":40,\"calories\":35,\"protein_g\":1,\"carbs_g\":8,\"fat_g\":0},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":12,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":0}],\"total_calories\":537}",
+  "latency_ms": 5320,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded fried fish",
+        "usda_query": "fish fried batter or breaded cooked",
+        "grams": 120,
+        "calories": 280,
+        "protein_g": 20,
+        "carbs_g": 15,
+        "fat_g": 16
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked roasted with oil",
+        "grams": 90,
+        "calories": 80,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 5
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 80,
+        "calories": 130,
+        "protein_g": 2,
+        "carbs_g": 20,
+        "fat_g": 5
+      },
+      {
+        "name": "boiled potato",
+        "usda_query": "potatoes boiled cooked without skin",
+        "grams": 40,
+        "calories": 35,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 537
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565034281",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e540cbfe88ccb118",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1137,
+    "reasoning_tokens": 887,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5724,
+    "ai_credits": 0.0690525
+  },
+  "timestamp": "2026-11-25T00:13:00.699Z",
+  "raw_text": "{\"items\":[{\"name\":\"cauliflower boiled\",\"usda_query\":\"cauliflower cooked boiled drained without salt\",\"grams\":160,\"calories\":37,\"protein_g\":3.0,\"carbs_g\":6.6,\"fat_g\":0.8},{\"name\":\"eggplant pan-fried\",\"usda_query\":\"eggplant cooked sauteed with oil\",\"grams\":90,\"calories\":110,\"protein_g\":1.0,\"carbs_g\":7.0,\"fat_g\":8.5},{\"name\":\"fried potato\",\"usda_query\":\"potatoes fried in vegetable oil home-prepared\",\"grams\":25,\"calories\":40,\"protein_g\":0.5,\"carbs_g\":5.0,\"fat_g\":2.0}],\"total_calories\":187}",
+  "latency_ms": 7271,
+  "parsed": {
+    "items": [
+      {
+        "name": "cauliflower boiled",
+        "usda_query": "cauliflower cooked boiled drained without salt",
+        "grams": 160,
+        "calories": 37,
+        "protein_g": 3,
+        "carbs_g": 6.6,
+        "fat_g": 0.8
+      },
+      {
+        "name": "eggplant pan-fried",
+        "usda_query": "eggplant cooked sauteed with oil",
+        "grams": 90,
+        "calories": 110,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 8.5
+      },
+      {
+        "name": "fried potato",
+        "usda_query": "potatoes fried in vegetable oil home-prepared",
+        "grams": 25,
+        "calories": 40,
+        "protein_g": 0.5,
+        "carbs_g": 5,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 187
+  }
+}

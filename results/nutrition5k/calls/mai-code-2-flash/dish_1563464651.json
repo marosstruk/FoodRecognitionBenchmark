@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563464651",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ea3ab57a954ad7d9",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1390,
+    "reasoning_tokens": 1172,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 15002,
+    "ai_credits": 0.03849
+  },
+  "timestamp": "2026-11-25T00:38:21.934Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"toasted bagel\",\n      \"usda_query\": \"bagel plain toasted\",\n      \"grams\": 150,\n      \"calories\": 386,\n      \"protein_g\": 15,\n      \"carbs_g\": 76,\n      \"fat_g\": 2\n    },\n    {\n      \"name\": \"cream cheese\",\n      \"usda_query\": \"cream cheese regular\",\n      \"grams\": 30,\n      \"calories\": 96,\n      \"protein_g\": 2,\n      \"carbs_g\": 2,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"dill pickle\",\n      \"usda_query\": \"pickles cucumber dill\",\n      \"grams\": 22,\n      \"calories\": 3,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 485\n}",
+  "latency_ms": 15884,
+  "parsed": {
+    "items": [
+      {
+        "name": "toasted bagel",
+        "usda_query": "bagel plain toasted",
+        "grams": 150,
+        "calories": 386,
+        "protein_g": 15,
+        "carbs_g": 76,
+        "fat_g": 2
+      },
+      {
+        "name": "cream cheese",
+        "usda_query": "cream cheese regular",
+        "grams": 30,
+        "calories": 96,
+        "protein_g": 2,
+        "carbs_g": 2,
+        "fat_g": 10
+      },
+      {
+        "name": "dill pickle",
+        "usda_query": "pickles cucumber dill",
+        "grams": 22,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 485
+  }
+}

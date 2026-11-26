@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559838214",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5b5bfcd05e7e0f20",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 441,
+    "reasoning_tokens": 334,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5785,
+    "ai_credits": 0.275925
+  },
+  "timestamp": "2026-11-25T00:37:23.348Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 10,\n      \"calories\": 54,\n      \"protein_g\": 3.7,\n      \"carbs_g\": 0.1,\n      \"fat_g\": 4.2\n    }\n  ],\n  \"total_calories\": 54\n}",
+  "latency_ms": 6966,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 10,
+        "calories": 54,
+        "protein_g": 3.7,
+        "carbs_g": 0.1,
+        "fat_g": 4.2
+      }
+    ],
+    "total_calories": 54
+  }
+}

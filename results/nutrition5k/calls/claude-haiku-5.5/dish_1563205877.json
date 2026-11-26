@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563205877",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fb5f5e123cf10d42",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 908,
+    "reasoning_tokens": 827,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5593,
+    "ai_credits": 0.0576025
+  },
+  "timestamp": "2026-11-25T00:36:57.036Z",
+  "raw_text": "{\"items\":[{\"name\":\"breaded fried patties\",\"usda_query\":\"fish cake fried\" ,\"grams\":84,\"calories\":185,\"protein_g\":12,\"carbs_g\":12,\"fat_g\":10}],\"total_calories\":185}",
+  "latency_ms": 6696,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded fried patties",
+        "usda_query": "fish cake fried",
+        "grams": 84,
+        "calories": 185,
+        "protein_g": 12,
+        "carbs_g": 12,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 185
+  }
+}

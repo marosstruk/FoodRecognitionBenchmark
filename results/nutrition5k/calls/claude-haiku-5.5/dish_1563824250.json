@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824250",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0f649792b0fec5e4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 205,
+    "reasoning_tokens": 122,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 1746,
+    "ai_credits": 0.0224525
+  },
+  "timestamp": "2026-11-25T00:11:43.919Z",
+  "raw_text": "{\"items\":[{\"name\":\"red onion raw sliced\",\"usda_query\":\"onions raw\",\"grams\":60,\"calories\":24,\"protein_g\":0.7,\"carbs_g\":5.6,\"fat_g\":0.1}],\"total_calories\":24}",
+  "latency_ms": 2635,
+  "parsed": {
+    "items": [
+      {
+        "name": "red onion raw sliced",
+        "usda_query": "onions raw",
+        "grams": 60,
+        "calories": 24,
+        "protein_g": 0.7,
+        "carbs_g": 5.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 24
+  }
+}

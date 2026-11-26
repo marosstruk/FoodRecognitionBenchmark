@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562686520",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ff5f5477a1b2230e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 757,
+    "reasoning_tokens": 534,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4065,
+    "ai_credits": 0.0500525
+  },
+  "timestamp": "2026-11-25T00:28:57.040Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg whole cooked scrambled prepared with butter\",\n      \"grams\": 120,\n      \"calories\": 180,\n      \"protein_g\": 12,\n      \"carbs_g\": 2,\n      \"fat_g\": 13\n    },\n    {\n      \"name\": \"sautéed mushrooms\",\n      \"usda_query\": \"mushrooms white cooked sauteed without added fat\",\n      \"grams\": 90,\n      \"calories\": 45,\n      \"protein_g\": 2,\n      \"carbs_g\": 4,\n      \"fat_g\": 2\n    }\n  ],\n  \"total_calories\": 225\n}",
+  "latency_ms": 5237,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled prepared with butter",
+        "grams": 120,
+        "calories": 180,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "sautéed mushrooms",
+        "usda_query": "mushrooms white cooked sauteed without added fat",
+        "grams": 90,
+        "calories": 45,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 225
+  }
+}

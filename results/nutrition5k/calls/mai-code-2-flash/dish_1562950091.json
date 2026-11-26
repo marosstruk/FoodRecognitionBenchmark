@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562950091",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bbad50ad2d6eda2a",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 780,
+    "reasoning_tokens": 564,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9532,
+    "ai_credits": 0.02324
+  },
+  "timestamp": "2026-11-25T00:33:45.799Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 105,\n      \"calories\": 168,\n      \"protein_g\": 11,\n      \"carbs_g\": 2,\n      \"fat_g\": 13\n    },\n    {\n      \"name\": \"fried potato cubes\",\n      \"usda_query\": \"potatoes fried\",\n      \"grams\": 150,\n      \"calories\": 270,\n      \"protein_g\": 4,\n      \"carbs_g\": 30,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"breakfast sausage\",\n      \"usda_query\": \"sausage breakfast cooked\",\n      \"grams\": 55,\n      \"calories\": 190,\n      \"protein_g\": 8,\n      \"carbs_g\": 1,\n      \"fat_g\": 17\n    }\n  ],\n  \"total_calories\": 628\n}",
+  "latency_ms": 10680,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 105,
+        "calories": 168,
+        "protein_g": 11,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "fried potato cubes",
+        "usda_query": "potatoes fried",
+        "grams": 150,
+        "calories": 270,
+        "protein_g": 4,
+        "carbs_g": 30,
+        "fat_g": 15
+      },
+      {
+        "name": "breakfast sausage",
+        "usda_query": "sausage breakfast cooked",
+        "grams": 55,
+        "calories": 190,
+        "protein_g": 8,
+        "carbs_g": 1,
+        "fat_g": 17
+      }
+    ],
+    "total_calories": 628
+  }
+}

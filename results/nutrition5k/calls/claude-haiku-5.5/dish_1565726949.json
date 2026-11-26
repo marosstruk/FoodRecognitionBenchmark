@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565726949",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "1d134baf462dbc2d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1779,
+    "reasoning_tokens": 1067,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7830,
+    "ai_credits": 0.1011525
+  },
+  "timestamp": "2026-11-25T00:12:01.484Z",
+  "raw_text": "{\"items\":[{\"name\":\"roast beef tenderloin\",\"usda_query\":\"beef tenderloin roasted lean and fat\",\"grams\":150,\"calories\":280,\"protein_g\":38,\"carbs_g\":0,\"fat_g\":13},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted in oil\",\"grams\":120,\"calories\":180,\"protein_g\":3,\"carbs_g\":28,\"fat_g\":6},{\"name\":\"roasted yellow squash\",\"usda_query\":\"squash summer yellow cooked fried\",\"grams\":60,\"calories\":50,\"protein_g\":1,\"carbs_g\":10,\"fat_g\":1},{\"name\":\"roasted parsnip\",\"usda_query\":\"parsnips cooked boiled drained\",\"grams\":60,\"calories\":60,\"protein_g\":1,\"carbs_g\":13,\"fat_g\":0.5},{\"name\":\"grilled zucchini\",\"usda_query\":\"squash zucchini cooked grilled\",\"grams\":40,\"calories\":20,\"protein_g\":1,\"carbs_g\":2,\"fat_g\":1},{\"name\":\"roasted red bell pepper\",\"usda_query\":\"peppers sweet red roasted\",\"grams\":15,\"calories\":5,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":0},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":120,\"calories\":42,\"protein_g\":3.4,\"carbs_g\":8,\"fat_g\":0.5},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":80,\"calories\":20,\"protein_g\":2,\"carbs_g\":3,\"fat_g\":0.3},{\"name\":\"vinaigrette dressing\",\"usda_query\":\"salad dressing vinaigrette italian regular\",\"grams\":15,\"calories\":80,\"protein_g\":0,\"carbs_g\":1,\"fat_g\":8},{\"name\":\"walnuts\",\"usda_query\":\"nuts walnuts english dried\",\"grams\":10,\"calories\":65,\"protein_g\":1.5,\"carbs_g\":1.4,\"fat_g\":6.5}],\"total_calories\":802}",
+  "latency_ms": 8710,
+  "parsed": {
+    "items": [
+      {
+        "name": "roast beef tenderloin",
+        "usda_query": "beef tenderloin roasted lean and fat",
+        "grams": 150,
+        "calories": 280,
+        "protein_g": 38,
+        "carbs_g": 0,
+        "fat_g": 13
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted in oil",
+        "grams": 120,
+        "calories": 180,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 6
+      },
+      {
+        "name": "roasted yellow squash",
+        "usda_query": "squash summer yellow cooked fried",
+        "grams": 60,
+        "calories": 50,
+        "protein_g": 1,
+        "carbs_g": 10,
+        "fat_g": 1
+      },
+      {
+        "name": "roasted parsnip",
+        "usda_query": "parsnips cooked boiled drained",
+        "grams": 60,
+        "calories": 60,
+        "protein_g": 1,
+        "carbs_g": 13,
+        "fat_g": 0.5
+      },
+      {
+        "name": "grilled zucchini",
+        "usda_query": "squash zucchini cooked grilled",
+        "grams": 40,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 1
+      },
+      {
+        "name": "roasted red bell pepper",
+        "usda_query": "peppers sweet red roasted",
+        "grams": 15,
+        "calories": 5,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 120,
+        "calories": 42,
+        "protein_g": 3.4,
+        "carbs_g": 8,
+        "fat_g": 0.5
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 80,
+        "calories": 20,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette italian regular",
+        "grams": 15,
+        "calories": 80,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 8
+      },
+      {
+        "name": "walnuts",
+        "usda_query": "nuts walnuts english dried",
+        "grams": 10,
+        "calories": 65,
+        "protein_g": 1.5,
+        "carbs_g": 1.4,
+        "fat_g": 6.5
+      }
+    ],
+    "total_calories": 802
+  }
+}

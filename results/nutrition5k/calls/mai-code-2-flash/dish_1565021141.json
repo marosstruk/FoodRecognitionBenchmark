@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565021141",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "60bf1972a7172b95",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1120,
+    "reasoning_tokens": 836,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12150,
+    "ai_credits": 0.03174
+  },
+  "timestamp": "2026-11-25T00:24:45.584Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"waffle\",\n      \"usda_query\": \"waffle plain\",\n      \"grams\": 180,\n      \"calories\": 540,\n      \"protein_g\": 15,\n      \"carbs_g\": 59,\n      \"fat_g\": 25\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 70,\n      \"calories\": 22,\n      \"protein_g\": 0,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"whipped cream\",\n      \"usda_query\": \"whipped cream sweetened\",\n      \"grams\": 60,\n      \"calories\": 154,\n      \"protein_g\": 2,\n      \"carbs_g\": 8,\n      \"fat_g\": 13\n    },\n    {\n      \"name\": \"maple syrup\",\n      \"usda_query\": \"maple syrup\",\n      \"grams\": 30,\n      \"calories\": 78,\n      \"protein_g\": 0,\n      \"carbs_g\": 20,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 794\n}",
+  "latency_ms": 13061,
+  "parsed": {
+    "items": [
+      {
+        "name": "waffle",
+        "usda_query": "waffle plain",
+        "grams": 180,
+        "calories": 540,
+        "protein_g": 15,
+        "carbs_g": 59,
+        "fat_g": 25
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 70,
+        "calories": 22,
+        "protein_g": 0,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "whipped cream",
+        "usda_query": "whipped cream sweetened",
+        "grams": 60,
+        "calories": 154,
+        "protein_g": 2,
+        "carbs_g": 8,
+        "fat_g": 13
+      },
+      {
+        "name": "maple syrup",
+        "usda_query": "maple syrup",
+        "grams": 30,
+        "calories": 78,
+        "protein_g": 0,
+        "carbs_g": 20,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 794
+  }
+}

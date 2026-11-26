@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558468401",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4b9f3086bf4fd33d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 458,
+    "reasoning_tokens": 372,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3201,
+    "ai_credits": 0.0351025
+  },
+  "timestamp": "2026-11-25T00:11:51.386Z",
+  "raw_text": "{\"items\":[{\"name\":\"avocado\",\"usda_query\":\"avocados raw all commercial varieties\",\"grams\":135,\"calories\":216,\"protein_g\":2.7,\"carbs_g\":11.5,\"fat_g\":19.8}],\"total_calories\":216}",
+  "latency_ms": 4116,
+  "parsed": {
+    "items": [
+      {
+        "name": "avocado",
+        "usda_query": "avocados raw all commercial varieties",
+        "grams": 135,
+        "calories": 216,
+        "protein_g": 2.7,
+        "carbs_g": 11.5,
+        "fat_g": 19.8
+      }
+    ],
+    "total_calories": 216
+  }
+}

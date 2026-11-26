@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563568148",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cc563150e112b0df",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 579,
+    "reasoning_tokens": 419,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3698,
+    "ai_credits": 0.0411525
+  },
+  "timestamp": "2026-11-25T00:15:42.487Z",
+  "raw_text": "{\"items\":[{\"name\":\"pan-fried white fish fillet\",\"usda_query\":\"fish cod cooked dry heat\",\"grams\":150,\"calories\":210,\"protein_g\":31,\"carbs_g\":0,\"fat_g\":8.5},{\"name\":\"bok choy\",\"usda_query\":\"pak-choi cooked boiled drained without salt\",\"grams\":120,\"calories\":20,\"protein_g\":2,\"carbs_g\":3,\"fat_g\":0.3}],\"total_calories\":230}",
+  "latency_ms": 4851,
+  "parsed": {
+    "items": [
+      {
+        "name": "pan-fried white fish fillet",
+        "usda_query": "fish cod cooked dry heat",
+        "grams": 150,
+        "calories": 210,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 8.5
+      },
+      {
+        "name": "bok choy",
+        "usda_query": "pak-choi cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 20,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 230
+  }
+}

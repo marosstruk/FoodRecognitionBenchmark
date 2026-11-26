@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565809033",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "545aec334a9623b6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1134,
+    "reasoning_tokens": 719,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5214,
+    "ai_credits": 0.0689025
+  },
+  "timestamp": "2026-11-25T00:17:56.681Z",
+  "raw_text": "{\"items\":[{\"name\":\"canned tuna\",\"usda_query\":\"tuna light canned in water drained solids\",\"grams\":200,\"calories\":232,\"protein_g\":51.0,\"carbs_g\":0,\"fat_g\":1.6},{\"name\":\"mayonnaise\",\"usda_query\":\"mayonnaise regular\",\"grams\":20,\"calories\":136,\"protein_g\":0.2,\"carbs_g\":0.6,\"fat_g\":15.0},{\"name\":\"red bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":25,\"calories\":8,\"protein_g\":0.3,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"green bell pepper\",\"usda_query\":\"peppers sweet green raw\",\"grams\":20,\"calories\":4,\"protein_g\":0.2,\"carbs_g\":0.9,\"fat_g\":0.1},{\"name\":\"red onion\",\"usda_query\":\"onions raw red\",\"grams\":15,\"calories\":6,\"protein_g\":0.2,\"carbs_g\":1.4,\"fat_g\":0},{\"name\":\"celery\",\"usda_query\":\"celery raw\",\"grams\":15,\"calories\":2,\"protein_g\":0.1,\"carbs_g\":0.4,\"fat_g\":0}],\"total_calories\":388}",
+  "latency_ms": 6783,
+  "parsed": {
+    "items": [
+      {
+        "name": "canned tuna",
+        "usda_query": "tuna light canned in water drained solids",
+        "grams": 200,
+        "calories": 232,
+        "protein_g": 51,
+        "carbs_g": 0,
+        "fat_g": 1.6
+      },
+      {
+        "name": "mayonnaise",
+        "usda_query": "mayonnaise regular",
+        "grams": 20,
+        "calories": 136,
+        "protein_g": 0.2,
+        "carbs_g": 0.6,
+        "fat_g": 15
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.3,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers sweet green raw",
+        "grams": 20,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw red",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.2,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "celery",
+        "usda_query": "celery raw",
+        "grams": 15,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.4,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 388
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563205953",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4368616a050b32dd",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1356,
+    "reasoning_tokens": 1053,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13404,
+    "ai_credits": 0.07528
+  },
+  "timestamp": "2026-11-25T00:32:41.012Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked cauliflower\",\n      \"usda_query\": \"cauliflower cooked\",\n      \"grams\": 85,\n      \"calories\": 21,\n      \"protein_g\": 1.7,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 105,\n      \"calories\": 137,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 24,\n      \"fat_g\": 4.3\n    },\n    {\n      \"name\": \"Pork sausage\",\n      \"usda_query\": \"pork sausage cooked\",\n      \"grams\": 75,\n      \"calories\": 228,\n      \"protein_g\": 10.5,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 19.5\n    },\n    {\n      \"name\": \"Cooked carrots\",\n      \"usda_query\": \"carrots cooked\",\n      \"grams\": 20,\n      \"calories\": 8,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 394\n}",
+  "latency_ms": 14259,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked cauliflower",
+        "usda_query": "cauliflower cooked",
+        "grams": 85,
+        "calories": 21,
+        "protein_g": 1.7,
+        "carbs_g": 4.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 105,
+        "calories": 137,
+        "protein_g": 2.5,
+        "carbs_g": 24,
+        "fat_g": 4.3
+      },
+      {
+        "name": "Pork sausage",
+        "usda_query": "pork sausage cooked",
+        "grams": 75,
+        "calories": 228,
+        "protein_g": 10.5,
+        "carbs_g": 1.5,
+        "fat_g": 19.5
+      },
+      {
+        "name": "Cooked carrots",
+        "usda_query": "carrots cooked",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.8,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 394
+  }
+}

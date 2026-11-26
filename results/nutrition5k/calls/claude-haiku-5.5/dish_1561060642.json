@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060642",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6ee9ee789c2f028e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 2254,
+    "reasoning_tokens": 1522,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 9724,
+    "ai_credits": 0.1249025
+  },
+  "timestamp": "2026-11-25T00:37:06.059Z",
+  "raw_text": "{\"items\":[{\"name\":\"pineapple chunks\",\"usda_query\":\"pineapple raw\",\"grams\":120,\"calories\":60,\"protein_g\":0.6,\"carbs_g\":15.8,\"fat_g\":0.1},{\"name\":\"bok choy\",\"usda_query\":\"bok choy cooked boiled drained\",\"grams\":80,\"calories\":11,\"protein_g\":1.2,\"carbs_g\":1.8,\"fat_g\":0.2},{\"name\":\"green beans\",\"usda_query\":\"green beans cooked boiled drained\",\"grams\":40,\"calories\":14,\"protein_g\":0.8,\"carbs_g\":3.2,\"fat_g\":0.2},{\"name\":\"brussels sprouts roasted\",\"usda_query\":\"brussels sprouts cooked boiled drained\",\"grams\":110,\"calories\":60,\"protein_g\":3.5,\"carbs_g\":9,\"fat_g\":1.5},{\"name\":\"penne pasta\",\"usda_query\":\"pasta cooked enriched\",\"grams\":120,\"calories\":156,\"protein_g\":5.5,\"carbs_g\":31,\"fat_g\":1.5},{\"name\":\"meat sauce\",\"usda_query\":\"meat sauce beef tomato\",\"grams\":80,\"calories\":130,\"protein_g\":8,\"carbs_g\":5,\"fat_g\":9},{\"name\":\"baked cheese pasta with tomato sauce\",\"usda_query\":\"lasagna cheese tomato sauce baked\",\"grams\":200,\"calories\":300,\"protein_g\":14,\"carbs_g\":28,\"fat_g\":14},{\"name\":\"pan-fried tofu\",\"usda_query\":\"tofu firm fried\",\"grams\":100,\"calories\":145,\"protein_g\":14,\"carbs_g\":3,\"fat_g\":9},{\"name\":\"zucchini yellow squash\",\"usda_query\":\"squash summer zucchini cooked sauteed\",\"grams\":50,\"calories\":15,\"protein_g\":0.6,\"carbs_g\":1.6,\"fat_g\":0.5},{\"name\":\"baked white fish with herb crust\",\"usda_query\":\"fish cod baked with breadcrumb herb coating\",\"grams\":120,\"calories\":190,\"protein_g\":24,\"carbs_g\":5,\"fat_g\":8}],\"total_calories\":1081}",
+  "latency_ms": 10845,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 0.6,
+        "carbs_g": 15.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "bok choy",
+        "usda_query": "bok choy cooked boiled drained",
+        "grams": 80,
+        "calories": 11,
+        "protein_g": 1.2,
+        "carbs_g": 1.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked boiled drained",
+        "grams": 40,
+        "calories": 14,
+        "protein_g": 0.8,
+        "carbs_g": 3.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "brussels sprouts roasted",
+        "usda_query": "brussels sprouts cooked boiled drained",
+        "grams": 110,
+        "calories": 60,
+        "protein_g": 3.5,
+        "carbs_g": 9,
+        "fat_g": 1.5
+      },
+      {
+        "name": "penne pasta",
+        "usda_query": "pasta cooked enriched",
+        "grams": 120,
+        "calories": 156,
+        "protein_g": 5.5,
+        "carbs_g": 31,
+        "fat_g": 1.5
+      },
+      {
+        "name": "meat sauce",
+        "usda_query": "meat sauce beef tomato",
+        "grams": 80,
+        "calories": 130,
+        "protein_g": 8,
+        "carbs_g": 5,
+        "fat_g": 9
+      },
+      {
+        "name": "baked cheese pasta with tomato sauce",
+        "usda_query": "lasagna cheese tomato sauce baked",
+        "grams": 200,
+        "calories": 300,
+        "protein_g": 14,
+        "carbs_g": 28,
+        "fat_g": 14
+      },
+      {
+        "name": "pan-fried tofu",
+        "usda_query": "tofu firm fried",
+        "grams": 100,
+        "calories": 145,
+        "protein_g": 14,
+        "carbs_g": 3,
+        "fat_g": 9
+      },
+      {
+        "name": "zucchini yellow squash",
+        "usda_query": "squash summer zucchini cooked sauteed",
+        "grams": 50,
+        "calories": 15,
+        "protein_g": 0.6,
+        "carbs_g": 1.6,
+        "fat_g": 0.5
+      },
+      {
+        "name": "baked white fish with herb crust",
+        "usda_query": "fish cod baked with breadcrumb herb coating",
+        "grams": 120,
+        "calories": 190,
+        "protein_g": 24,
+        "carbs_g": 5,
+        "fat_g": 8
+      }
+    ],
+    "total_calories": 1081
+  }
+}

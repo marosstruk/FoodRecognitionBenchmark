@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560975601",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ab11426376123bb1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1759,
+    "reasoning_tokens": 1345,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 14213,
+    "ai_credits": 0.770175
+  },
+  "timestamp": "2026-11-25T00:28:45.476Z",
+  "raw_text": "{\"items\": [{\"name\": \"romaine lettuce\", \"usda_query\": \"lettuce romaine raw\", \"grams\": 70, \"calories\": 12, \"protein_g\": 0.9, \"carbs_g\": 2.3, \"fat_g\": 0.2}, {\"name\": \"caesar dressing\", \"usda_query\": \"salad dressing caesar\", \"grams\": 25, \"calories\": 120, \"protein_g\": 0.5, \"carbs_g\": 1.0, \"fat_g\": 13.0}, {\"name\": \"chicken in tomato sauce\", \"usda_query\": \"chicken in tomato sauce cooked\", \"grams\": 130, \"calories\": 215, \"protein_g\": 24.0, \"carbs_g\": 4.5, \"fat_g\": 11.0}, {\"name\": \"cooked broccoli\", \"usda_query\": \"broccoli cooked boiled drained\", \"grams\": 60, \"calories\": 21, \"protein_g\": 1.4, \"carbs_g\": 4.3, \"fat_g\": 0.2}, {\"name\": \"brown rice\", \"usda_query\": \"rice brown cooked\", \"grams\": 40, \"calories\": 45, \"protein_g\": 1.0, \"carbs_g\": 9.5, \"fat_g\": 0.4}, {\"name\": \"sauteed peppers and tomatoes\", \"usda_query\": \"peppers sweet and tomatoes cooked with oil\", \"grams\": 35, \"calories\": 20, \"protein_g\": 0.5, \"carbs_g\": 3.0, \"fat_g\": 0.8}], \"total_calories\": 433}",
+  "latency_ms": 15083,
+  "parsed": {
+    "items": [
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 70,
+        "calories": 12,
+        "protein_g": 0.9,
+        "carbs_g": 2.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "caesar dressing",
+        "usda_query": "salad dressing caesar",
+        "grams": 25,
+        "calories": 120,
+        "protein_g": 0.5,
+        "carbs_g": 1,
+        "fat_g": 13
+      },
+      {
+        "name": "chicken in tomato sauce",
+        "usda_query": "chicken in tomato sauce cooked",
+        "grams": 130,
+        "calories": 215,
+        "protein_g": 24,
+        "carbs_g": 4.5,
+        "fat_g": 11
+      },
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 1.4,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "brown rice",
+        "usda_query": "rice brown cooked",
+        "grams": 40,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 9.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "sauteed peppers and tomatoes",
+        "usda_query": "peppers sweet and tomatoes cooked with oil",
+        "grams": 35,
+        "calories": 20,
+        "protein_g": 0.5,
+        "carbs_g": 3,
+        "fat_g": 0.8
+      }
+    ],
+    "total_calories": 433
+  }
+}

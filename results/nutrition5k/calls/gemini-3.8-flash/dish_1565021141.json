@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565021141",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "60bf1972a7172b95",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1464,
+    "reasoning_tokens": 1182,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 14315,
+    "ai_credits": 0.65955
+  },
+  "timestamp": "2026-11-25T00:24:55.265Z",
+  "raw_text": "{\"items\": [{\"name\": \"plain waffle\", \"usda_query\": \"waffles plain prepared\", \"grams\": 75, \"calories\": 218, \"protein_g\": 4.5, \"carbs_g\": 28.5, \"fat_g\": 9.8}, {\"name\": \"smoked sausage slices\", \"usda_query\": \"smoked sausage pork cooked\", \"grams\": 45, \"calories\": 135, \"protein_g\": 5.9, \"carbs_g\": 1.4, \"fat_g\": 12.2}, {\"name\": \"scrambled eggs with vegetables\", \"usda_query\": \"scrambled eggs with vegetables\", \"grams\": 70, \"calories\": 90, \"protein_g\": 6.5, \"carbs_g\": 2.1, \"fat_g\": 6.3}, {\"name\": \"fresh mozzarella\", \"usda_query\": \"mozzarella cheese fresh\", \"grams\": 40, \"calories\": 112, \"protein_g\": 8.8, \"carbs_g\": 0.9, \"fat_g\": 8.5}], \"total_calories\": 555}",
+  "latency_ms": 15130,
+  "parsed": {
+    "items": [
+      {
+        "name": "plain waffle",
+        "usda_query": "waffles plain prepared",
+        "grams": 75,
+        "calories": 218,
+        "protein_g": 4.5,
+        "carbs_g": 28.5,
+        "fat_g": 9.8
+      },
+      {
+        "name": "smoked sausage slices",
+        "usda_query": "smoked sausage pork cooked",
+        "grams": 45,
+        "calories": 135,
+        "protein_g": 5.9,
+        "carbs_g": 1.4,
+        "fat_g": 12.2
+      },
+      {
+        "name": "scrambled eggs with vegetables",
+        "usda_query": "scrambled eggs with vegetables",
+        "grams": 70,
+        "calories": 90,
+        "protein_g": 6.5,
+        "carbs_g": 2.1,
+        "fat_g": 6.3
+      },
+      {
+        "name": "fresh mozzarella",
+        "usda_query": "mozzarella cheese fresh",
+        "grams": 40,
+        "calories": 112,
+        "protein_g": 8.8,
+        "carbs_g": 0.9,
+        "fat_g": 8.5
+      }
+    ],
+    "total_calories": 555
+  }
+}

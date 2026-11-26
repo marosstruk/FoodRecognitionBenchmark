@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567526845",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "49e3505220c24509",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1694,
+    "reasoning_tokens": 1258,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 14688,
+    "ai_credits": 0.7458
+  },
+  "timestamp": "2026-11-25T00:15:15.527Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked egg whites\",\n      \"usda_query\": \"egg white cooked\",\n      \"grams\": 250,\n      \"calories\": 130,\n      \"protein_g\": 27.2,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"roasted sweet potato\",\n      \"usda_query\": \"sweet potato baked or roasted without fat\",\n      \"grams\": 75,\n      \"calories\": 68,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 15.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"watermelon\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 80,\n      \"calories\": 24,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 40,\n      \"calories\": 13,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 3.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 10,\n      \"calories\": 6,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 241\n}",
+  "latency_ms": 15812,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked egg whites",
+        "usda_query": "egg white cooked",
+        "grams": 250,
+        "calories": 130,
+        "protein_g": 27.2,
+        "carbs_g": 1.8,
+        "fat_g": 0.4
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato baked or roasted without fat",
+        "grams": 75,
+        "calories": 68,
+        "protein_g": 1.5,
+        "carbs_g": 15.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 80,
+        "calories": 24,
+        "protein_g": 0.5,
+        "carbs_g": 6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 40,
+        "calories": 13,
+        "protein_g": 0.3,
+        "carbs_g": 3.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 10,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 241
+  }
+}

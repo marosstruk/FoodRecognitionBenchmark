@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562602918",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "537ee65f73d7fb4e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1272,
+    "reasoning_tokens": 790,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5803,
+    "ai_credits": 0.0758025
+  },
+  "timestamp": "2026-11-25T00:27:45.509Z",
+  "raw_text": "{\"items\":[{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":100,\"calories\":30,\"protein_g\":0.6,\"carbs_g\":7.6,\"fat_g\":0.2},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":90,\"calories\":29,\"protein_g\":0.7,\"carbs_g\":6.9,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":15,\"calories\":9,\"protein_g\":0.1,\"carbs_g\":2.1,\"fat_g\":0.1},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":30,\"calories\":15,\"protein_g\":0.4,\"carbs_g\":3.6,\"fat_g\":0.2},{\"name\":\"feta cheese\",\"usda_query\":\"feta cheese\",\"grams\":80,\"calories\":211,\"protein_g\":11.5,\"carbs_g\":4.1,\"fat_g\":17.0},{\"name\":\"cooked quinoa\",\"usda_query\":\"quinoa cooked\",\"grams\":100,\"calories\":120,\"protein_g\":4.4,\"carbs_g\":21.3,\"fat_g\":1.9},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted in oil\",\"grams\":120,\"calories\":156,\"protein_g\":2.6,\"carbs_g\":22.0,\"fat_g\":6.0}],\"total_calories\":570}",
+  "latency_ms": 6641,
+  "parsed": {
+    "items": [
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 100,
+        "calories": 30,
+        "protein_g": 0.6,
+        "carbs_g": 7.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 90,
+        "calories": 29,
+        "protein_g": 0.7,
+        "carbs_g": 6.9,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 15,
+        "calories": 9,
+        "protein_g": 0.1,
+        "carbs_g": 2.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 30,
+        "calories": 15,
+        "protein_g": 0.4,
+        "carbs_g": 3.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "feta cheese",
+        "usda_query": "feta cheese",
+        "grams": 80,
+        "calories": 211,
+        "protein_g": 11.5,
+        "carbs_g": 4.1,
+        "fat_g": 17
+      },
+      {
+        "name": "cooked quinoa",
+        "usda_query": "quinoa cooked",
+        "grams": 100,
+        "calories": 120,
+        "protein_g": 4.4,
+        "carbs_g": 21.3,
+        "fat_g": 1.9
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted in oil",
+        "grams": 120,
+        "calories": 156,
+        "protein_g": 2.6,
+        "carbs_g": 22,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 570
+  }
+}

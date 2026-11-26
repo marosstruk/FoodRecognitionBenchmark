@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562617370",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "599dc6b73ac1130c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 340,
+    "reasoning_tokens": 243,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2598,
+    "ai_credits": 0.0292025
+  },
+  "timestamp": "2026-11-25T00:19:49.749Z",
+  "raw_text": "{\"items\":[{\"name\":\"pepperoni pizza\",\"usda_query\":\"pizza cheese and pepperoni topping regular crust\",\"grams\":105,\"calories\":279,\"protein_g\":11.9,\"carbs_g\":34.7,\"fat_g\":10.5}],\"total_calories\":279}",
+  "latency_ms": 3713,
+  "parsed": {
+    "items": [
+      {
+        "name": "pepperoni pizza",
+        "usda_query": "pizza cheese and pepperoni topping regular crust",
+        "grams": 105,
+        "calories": 279,
+        "protein_g": 11.9,
+        "carbs_g": 34.7,
+        "fat_g": 10.5
+      }
+    ],
+    "total_calories": 279
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566416421",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6181585d0c2bb98d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 818,
+    "reasoning_tokens": 455,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6492,
+    "ai_credits": 0.04838
+  },
+  "timestamp": "2026-11-25T00:32:59.811Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Green beans\",\n      \"usda_query\": \"green beans cooked\",\n      \"grams\": 150,\n      \"calories\": 47,\n      \"protein_g\": 2.8,\n      \"carbs_g\": 10.5,\n      \"fat_g\": 0.5\n    },\n    {\n      \"name\": \"Grilled chicken breast\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 100,\n      \"calories\": 165,\n      \"protein_g\": 31,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.6\n    },\n    {\n      \"name\": \"Roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 130,\n      \"calories\": 190,\n      \"protein_g\": 3.5,\n      \"carbs_g\": 35,\n      \"fat_g\": 4.5\n    },\n    {\n      \"name\": \"Roasted eggplant\",\n      \"usda_query\": \"eggplant roasted\",\n      \"grams\": 50,\n      \"calories\": 35,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"Roasted mushrooms\",\n      \"usda_query\": \"mushrooms roasted\",\n      \"grams\": 50,\n      \"calories\": 35,\n      \"protein_g\": 2,\n      \"carbs_g\": 3,\n      \"fat_g\": 2\n    }\n  ],\n  \"total_calories\": 472\n}",
+  "latency_ms": 7585,
+  "parsed": {
+    "items": [
+      {
+        "name": "Green beans",
+        "usda_query": "green beans cooked",
+        "grams": 150,
+        "calories": 47,
+        "protein_g": 2.8,
+        "carbs_g": 10.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "Grilled chicken breast",
+        "usda_query": "chicken breast grilled",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 3.6
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 130,
+        "calories": 190,
+        "protein_g": 3.5,
+        "carbs_g": 35,
+        "fat_g": 4.5
+      },
+      {
+        "name": "Roasted eggplant",
+        "usda_query": "eggplant roasted",
+        "grams": 50,
+        "calories": 35,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 1.5
+      },
+      {
+        "name": "Roasted mushrooms",
+        "usda_query": "mushrooms roasted",
+        "grams": 50,
+        "calories": 35,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 472
+  }
+}

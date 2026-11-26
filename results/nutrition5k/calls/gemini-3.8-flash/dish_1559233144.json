@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559233144",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6be7a25c57c87179",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1040,
+    "reasoning_tokens": 754,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8303,
+    "ai_credits": 0.50055
+  },
+  "timestamp": "2026-11-25T00:34:49.845Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 130,\n      \"calories\": 195,\n      \"protein_g\": 13.0,\n      \"carbs_g\": 2.0,\n      \"fat_g\": 14.5\n    },\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"pork bacon cooked\",\n      \"grams\": 45,\n      \"calories\": 243,\n      \"protein_g\": 16.2,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 18.8\n    },\n    {\n      \"name\": \"spinach salad with light dressing\",\n      \"usda_query\": \"spinach salad with dressing\",\n      \"grams\": 40,\n      \"calories\": 32,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 2.4\n    }\n  ],\n  \"total_calories\": 470\n}",
+  "latency_ms": 9397,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 130,
+        "calories": 195,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 14.5
+      },
+      {
+        "name": "cooked bacon",
+        "usda_query": "pork bacon cooked",
+        "grams": 45,
+        "calories": 243,
+        "protein_g": 16.2,
+        "carbs_g": 0.6,
+        "fat_g": 18.8
+      },
+      {
+        "name": "spinach salad with light dressing",
+        "usda_query": "spinach salad with dressing",
+        "grams": 40,
+        "calories": 32,
+        "protein_g": 0.9,
+        "carbs_g": 1.8,
+        "fat_g": 2.4
+      }
+    ],
+    "total_calories": 470
+  }
+}

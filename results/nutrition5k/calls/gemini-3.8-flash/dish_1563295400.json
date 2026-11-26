@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563295400",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "5f93c3270530980d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1325,
+    "reasoning_tokens": 869,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13475,
+    "ai_credits": 0.607425
+  },
+  "timestamp": "2026-11-25T00:37:26.254Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 110,\n      \"calories\": 165,\n      \"protein_g\": 11.0,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 12.5\n    },\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 30,\n      \"calories\": 160,\n      \"protein_g\": 11.1,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 12.5\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 55,\n      \"calories\": 80,\n      \"protein_g\": 1.3,\n      \"carbs_g\": 11.2,\n      \"fat_g\": 3.5\n    },\n    {\n      \"name\": \"roasted sweet potatoes and carrots\",\n      \"usda_query\": \"sweet potato roasted\",\n      \"grams\": 55,\n      \"calories\": 60,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 10.1,\n      \"fat_g\": 1.9\n    },\n    {\n      \"name\": \"cooked broccoli\",\n      \"usda_query\": \"broccoli cooked boiled drained with salt\",\n      \"grams\": 60,\n      \"calories\": 25,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 3.5,\n      \"fat_g\": 0.8\n    }\n  ],\n  \"total_calories\": 490\n}",
+  "latency_ms": 14631,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 110,
+        "calories": 165,
+        "protein_g": 11,
+        "carbs_g": 1.5,
+        "fat_g": 12.5
+      },
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 30,
+        "calories": 160,
+        "protein_g": 11.1,
+        "carbs_g": 0.4,
+        "fat_g": 12.5
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 55,
+        "calories": 80,
+        "protein_g": 1.3,
+        "carbs_g": 11.2,
+        "fat_g": 3.5
+      },
+      {
+        "name": "roasted sweet potatoes and carrots",
+        "usda_query": "sweet potato roasted",
+        "grams": 55,
+        "calories": 60,
+        "protein_g": 0.9,
+        "carbs_g": 10.1,
+        "fat_g": 1.9
+      },
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked boiled drained with salt",
+        "grams": 60,
+        "calories": 25,
+        "protein_g": 1.5,
+        "carbs_g": 3.5,
+        "fat_g": 0.8
+      }
+    ],
+    "total_calories": 490
+  }
+}

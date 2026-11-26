@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566488981",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "bbd367a2f8afdc0c",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 667,
+    "reasoning_tokens": 444,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3796,
+    "ai_credits": 0.0455525
+  },
+  "timestamp": "2026-11-25T00:35:35.577Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted potato\",\"usda_query\":\"potatoes roasted with skin\",\"grams\":120,\"calories\":150,\"protein_g\":3,\"carbs_g\":26,\"fat_g\":4},{\"name\":\"cooked carrot\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":90,\"calories\":37,\"protein_g\":0.8,\"carbs_g\":8.6,\"fat_g\":0.2},{\"name\":\"scrambled egg\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":180,\"protein_g\":12,\"carbs_g\":1.5,\"fat_g\":14},],\"total_calories\":367}",
+  "latency_ms": 5121,
+  "error": "Unexpected token ']', ...\"at_g\":14},],\"total_c\"... is not valid JSON"
+}

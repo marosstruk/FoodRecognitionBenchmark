@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566333228",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4d809e99442447b1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1949,
+    "reasoning_tokens": 1444,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 8910,
+    "ai_credits": 0.1096525
+  },
+  "timestamp": "2026-11-25T00:39:49.056Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza slice\",\"usda_query\":\"pizza cheese regular crust baked\",\"grams\":220,\"calories\":585,\"protein_g\":25,\"carbs_g\":73,\"fat_g\":22},{\"name\":\"romaine lettuce\",\"usda_query\":\"lettuce romaine raw\",\"grams\":120,\"calories\":20,\"protein_g\":1.4,\"carbs_g\":4,\"fat_g\":0.4},{\"name\":\"caesar dressing\",\"usda_query\":\"salad dressing caesar creamy\",\"grams\":30,\"calories\":141,\"protein_g\":0.5,\"carbs_g\":1.5,\"fat_g\":14.7},{\"name\":\"parmesan cheese\",\"usda_query\":\"cheese parmesan hard grated\",\"grams\":10,\"calories\":43,\"protein_g\":3.8,\"carbs_g\":0.4,\"fat_g\":2.9},{\"name\":\"breaded fried meat\",\"usda_query\":\"chicken breaded fried\",\"grams\":60,\"calories\":150,\"protein_g\":12,\"carbs_g\":7,\"fat_g\":8},{\"name\":\"roasted chicken drumstick\",\"usda_query\":\"chicken drumstick meat and skin roasted\",\"grams\":110,\"calories\":231,\"protein_g\":29,\"carbs_g\":0,\"fat_g\":12},{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce canned\",\"grams\":15,\"calories\":13,\"protein_g\":0.3,\"carbs_g\":3,\"fat_g\":0.1}],\"total_calories\":1183}",
+  "latency_ms": 10291,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza slice",
+        "usda_query": "pizza cheese regular crust baked",
+        "grams": 220,
+        "calories": 585,
+        "protein_g": 25,
+        "carbs_g": 73,
+        "fat_g": 22
+      },
+      {
+        "name": "romaine lettuce",
+        "usda_query": "lettuce romaine raw",
+        "grams": 120,
+        "calories": 20,
+        "protein_g": 1.4,
+        "carbs_g": 4,
+        "fat_g": 0.4
+      },
+      {
+        "name": "caesar dressing",
+        "usda_query": "salad dressing caesar creamy",
+        "grams": 30,
+        "calories": 141,
+        "protein_g": 0.5,
+        "carbs_g": 1.5,
+        "fat_g": 14.7
+      },
+      {
+        "name": "parmesan cheese",
+        "usda_query": "cheese parmesan hard grated",
+        "grams": 10,
+        "calories": 43,
+        "protein_g": 3.8,
+        "carbs_g": 0.4,
+        "fat_g": 2.9
+      },
+      {
+        "name": "breaded fried meat",
+        "usda_query": "chicken breaded fried",
+        "grams": 60,
+        "calories": 150,
+        "protein_g": 12,
+        "carbs_g": 7,
+        "fat_g": 8
+      },
+      {
+        "name": "roasted chicken drumstick",
+        "usda_query": "chicken drumstick meat and skin roasted",
+        "grams": 110,
+        "calories": 231,
+        "protein_g": 29,
+        "carbs_g": 0,
+        "fat_g": 12
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce canned",
+        "grams": 15,
+        "calories": 13,
+        "protein_g": 0.3,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 1183
+  }
+}

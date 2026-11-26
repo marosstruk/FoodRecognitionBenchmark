@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573579406",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9c959ca3d7658609",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 904,
+    "reasoning_tokens": 667,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5059,
+    "ai_credits": 0.0574025
+  },
+  "timestamp": "2026-11-25T00:16:03.412Z",
+  "raw_text": "{\"items\":[{\"name\":\"bacon, pan-fried\",\"usda_query\":\"bacon cooked pan-fried\",\"grams\":45,\"calories\":243,\"protein_g\":16.5,\"carbs_g\":0.6,\"fat_g\":19},{\"name\":\"fried potatoes\",\"usda_query\":\"potatoes home fries pan-fried\",\"grams\":110,\"calories\":187,\"protein_g\":2.6,\"carbs_g\":24,\"fat_g\":8.5},{\"name\":\"sauteed bell peppers\",\"usda_query\":\"peppers sweet green red yellow sauteed\",\"grams\":50,\"calories\":40,\"protein_g\":0.7,\"carbs_g\":7,\"fat_g\":1.5}],\"total_calories\":470}",
+  "latency_ms": 6170,
+  "parsed": {
+    "items": [
+      {
+        "name": "bacon, pan-fried",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 45,
+        "calories": 243,
+        "protein_g": 16.5,
+        "carbs_g": 0.6,
+        "fat_g": 19
+      },
+      {
+        "name": "fried potatoes",
+        "usda_query": "potatoes home fries pan-fried",
+        "grams": 110,
+        "calories": 187,
+        "protein_g": 2.6,
+        "carbs_g": 24,
+        "fat_g": 8.5
+      },
+      {
+        "name": "sauteed bell peppers",
+        "usda_query": "peppers sweet green red yellow sauteed",
+        "grams": 50,
+        "calories": 40,
+        "protein_g": 0.7,
+        "carbs_g": 7,
+        "fat_g": 1.5
+      }
+    ],
+    "total_calories": 470
+  }
+}

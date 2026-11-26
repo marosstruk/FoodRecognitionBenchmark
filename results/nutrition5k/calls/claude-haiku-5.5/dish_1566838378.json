@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566838378",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3a035767d3194222",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1163,
+    "reasoning_tokens": 810,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5001,
+    "ai_credits": 0.0703525
+  },
+  "timestamp": "2026-11-25T00:17:43.886Z",
+  "raw_text": "{\"items\":[{\"name\":\"watermelon\",\"usda_query\":\"watermelon raw\",\"grams\":150,\"calories\":45,\"protein_g\":0.9,\"carbs_g\":11.4,\"fat_g\":0.3},{\"name\":\"pineapple\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":120,\"calories\":60,\"protein_g\":0.6,\"carbs_g\":15.7,\"fat_g\":0.1},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":70,\"calories\":30,\"protein_g\":1.0,\"carbs_g\":6.7,\"fat_g\":0.3},{\"name\":\"raspberries\",\"usda_query\":\"raspberries raw\",\"grams\":40,\"calories\":21,\"protein_g\":0.5,\"carbs_g\":4.8,\"fat_g\":0.3},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":179,\"protein_g\":12.0,\"carbs_g\":2.0,\"fat_g\":13.2}],\"total_calories\":335}",
+  "latency_ms": 6094,
+  "parsed": {
+    "items": [
+      {
+        "name": "watermelon",
+        "usda_query": "watermelon raw",
+        "grams": 150,
+        "calories": 45,
+        "protein_g": 0.9,
+        "carbs_g": 11.4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "pineapple",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 0.6,
+        "carbs_g": 15.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 70,
+        "calories": 30,
+        "protein_g": 1,
+        "carbs_g": 6.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 40,
+        "calories": 21,
+        "protein_g": 0.5,
+        "carbs_g": 4.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13.2
+      }
+    ],
+    "total_calories": 335
+  }
+}

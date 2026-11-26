@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562698100",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c383f9566d11bdb7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 420,
+    "reasoning_tokens": 312,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 6327,
+    "ai_credits": 0.26805
+  },
+  "timestamp": "2026-11-25T00:13:28.113Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked zucchini\",\n      \"usda_query\": \"zucchini cooked boiled drained with salt\",\n      \"grams\": 90,\n      \"calories\": 25,\n      \"protein_g\": 1.1,\n      \"carbs_g\": 3.0,\n      \"fat_g\": 1.2\n    }\n  ],\n  \"total_calories\": 25\n}",
+  "latency_ms": 7461,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked zucchini",
+        "usda_query": "zucchini cooked boiled drained with salt",
+        "grams": 90,
+        "calories": 25,
+        "protein_g": 1.1,
+        "carbs_g": 3,
+        "fat_g": 1.2
+      }
+    ],
+    "total_calories": 25
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1572625763",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "48d3ad0b233b7268",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 782,
+    "reasoning_tokens": 548,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9038,
+    "ai_credits": 0.04658
+  },
+  "timestamp": "2026-11-25T00:32:11.129Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"eggs scrambled cooked\",\n      \"grams\": 120,\n      \"calories\": 180,\n      \"protein_g\": 12.1,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 13.3\n    },\n    {\n      \"name\": \"spinach\",\n      \"usda_query\": \"spinach cooked\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"tomato salsa\",\n      \"usda_query\": \"tomato salsa\",\n      \"grams\": 45,\n      \"calories\": 15,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 3.2,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 198\n}",
+  "latency_ms": 10182,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "eggs scrambled cooked",
+        "grams": 120,
+        "calories": 180,
+        "protein_g": 12.1,
+        "carbs_g": 1.9,
+        "fat_g": 13.3
+      },
+      {
+        "name": "spinach",
+        "usda_query": "spinach cooked",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.4,
+        "carbs_g": 0.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "tomato salsa",
+        "usda_query": "tomato salsa",
+        "grams": 45,
+        "calories": 15,
+        "protein_g": 0.6,
+        "carbs_g": 3.2,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 198
+  }
+}

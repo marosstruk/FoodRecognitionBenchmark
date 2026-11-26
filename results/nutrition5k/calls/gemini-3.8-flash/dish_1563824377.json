@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824377",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "aef49765bd6533ed",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 810,
+    "reasoning_tokens": 540,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7638,
+    "ai_credits": 0.4143
+  },
+  "timestamp": "2026-11-25T00:31:02.313Z",
+  "raw_text": "{\"items\": [{\"name\": \"cooked diced chicken breast\", \"usda_query\": \"chicken breast cooked\", \"grams\": 110, \"calories\": 182, \"protein_g\": 34.1, \"carbs_g\": 0.0, \"fat_g\": 3.9}, {\"name\": \"cherry tomatoes\", \"usda_query\": \"cherry tomatoes raw\", \"grams\": 45, \"calories\": 8, \"protein_g\": 0.4, \"carbs_g\": 1.8, \"fat_g\": 0.1}, {\"name\": \"red onion\", \"usda_query\": \"onion red raw\", \"grams\": 20, \"calories\": 8, \"protein_g\": 0.2, \"carbs_g\": 1.9, \"fat_g\": 0.0}, {\"name\": \"green bell pepper\", \"usda_query\": \"peppers bell green raw\", \"grams\": 15, \"calories\": 3, \"protein_g\": 0.1, \"carbs_g\": 0.7, \"fat_g\": 0.0}], \"total_calories\": 201}",
+  "latency_ms": 8723,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked diced chicken breast",
+        "usda_query": "chicken breast cooked",
+        "grams": 110,
+        "calories": 182,
+        "protein_g": 34.1,
+        "carbs_g": 0,
+        "fat_g": 3.9
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "cherry tomatoes raw",
+        "grams": 45,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onion red raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      },
+      {
+        "name": "green bell pepper",
+        "usda_query": "peppers bell green raw",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 201
+  }
+}

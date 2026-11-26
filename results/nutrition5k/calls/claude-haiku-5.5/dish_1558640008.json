@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558640008",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "71d7fd044fec7e86",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 926,
+    "reasoning_tokens": 696,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5504,
+    "ai_credits": 0.0585025
+  },
+  "timestamp": "2026-11-25T00:39:57.264Z",
+  "raw_text": "{\"items\":[{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw year round average\",\"grams\":120,\"calories\":22,\"protein_g\":1.1,\"carbs_g\":4.7,\"fat_g\":0.2},{\"name\":\"almonds\",\"usda_query\":\"nuts almonds raw\",\"grams\":90,\"calories\":521,\"protein_g\":19.1,\"carbs_g\":19.4,\"fat_g\":44.9},{\"name\":\"cantaloupe\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":150,\"calories\":51,\"protein_g\":1.3,\"carbs_g\":12.2,\"fat_g\":0.3}],\"total_calories\":594}",
+  "latency_ms": 6379,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw year round average",
+        "grams": 120,
+        "calories": 22,
+        "protein_g": 1.1,
+        "carbs_g": 4.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "almonds",
+        "usda_query": "nuts almonds raw",
+        "grams": 90,
+        "calories": 521,
+        "protein_g": 19.1,
+        "carbs_g": 19.4,
+        "fat_g": 44.9
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 1.3,
+        "carbs_g": 12.2,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 594
+  }
+}

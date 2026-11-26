@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568313527",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c10873fa5b223b58",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 612,
+    "reasoning_tokens": 447,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9183,
+    "ai_credits": 0.03808
+  },
+  "timestamp": "2026-11-25T00:14:58.723Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed leafy greens\",\n      \"usda_query\": \"lettuce mixed greens raw\",\n      \"grams\": 60,\n      \"calories\": 12,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 25,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0\n    }\n  ],\n  \"total_calories\": 16\n}",
+  "latency_ms": 10088,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 1.2,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 25,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.9,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 16
+  }
+}

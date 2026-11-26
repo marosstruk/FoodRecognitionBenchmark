@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563565454",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "dd6bf13ee935ab0d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 2158,
+    "reasoning_tokens": 1731,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 17031,
+    "ai_credits": 0.9198
+  },
+  "timestamp": "2026-11-25T00:10:29.698Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"stir-fried bok choy\",\n      \"usda_query\": \"bok choy cooked\",\n      \"grams\": 90,\n      \"calories\": 45,\n      \"protein_g\": 2,\n      \"carbs_g\": 3,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"spinach and blackberry salad\",\n      \"usda_query\": \"spinach salad with berries and dressing\",\n      \"grams\": 65,\n      \"calories\": 45,\n      \"protein_g\": 1,\n      \"carbs_g\": 6,\n      \"fat_g\": 2\n    },\n    {\n      \"name\": \"baked white fish fillet\",\n      \"usda_query\": \"fish fillet baked\",\n      \"grams\": 90,\n      \"calories\": 95,\n      \"protein_g\": 20,\n      \"carbs_g\": 0,\n      \"fat_g\": 2\n    },\n    {\n      \"name\": \"meatloaf\",\n      \"usda_query\": \"meatloaf baked\",\n      \"grams\": 85,\n      \"calories\": 185,\n      \"protein_g\": 13,\n      \"carbs_g\": 7,\n      \"fat_g\": 12\n    },\n    {\n      \"name\": \"corn on the cob\",\n      \"usda_query\": \"sweet corn on the cob boiled\",\n      \"grams\": 65,\n      \"calories\": 62,\n      \"protein_g\": 2,\n      \"carbs_g\": 14,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 432\n}",
+  "latency_ms": 17906,
+  "parsed": {
+    "items": [
+      {
+        "name": "stir-fried bok choy",
+        "usda_query": "bok choy cooked",
+        "grams": 90,
+        "calories": 45,
+        "protein_g": 2,
+        "carbs_g": 3,
+        "fat_g": 3
+      },
+      {
+        "name": "spinach and blackberry salad",
+        "usda_query": "spinach salad with berries and dressing",
+        "grams": 65,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 2
+      },
+      {
+        "name": "baked white fish fillet",
+        "usda_query": "fish fillet baked",
+        "grams": 90,
+        "calories": 95,
+        "protein_g": 20,
+        "carbs_g": 0,
+        "fat_g": 2
+      },
+      {
+        "name": "meatloaf",
+        "usda_query": "meatloaf baked",
+        "grams": 85,
+        "calories": 185,
+        "protein_g": 13,
+        "carbs_g": 7,
+        "fat_g": 12
+      },
+      {
+        "name": "corn on the cob",
+        "usda_query": "sweet corn on the cob boiled",
+        "grams": 65,
+        "calories": 62,
+        "protein_g": 2,
+        "carbs_g": 14,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 432
+  }
+}

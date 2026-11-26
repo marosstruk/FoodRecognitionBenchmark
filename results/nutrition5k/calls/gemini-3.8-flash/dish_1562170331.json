@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562170331",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "eccbeb68de4e6db8",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1322,
+    "reasoning_tokens": 801,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13524,
+    "ai_credits": 0.6063
+  },
+  "timestamp": "2026-11-25T00:26:53.653Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted potato wedges\",\n      \"usda_query\": \"roasted potatoes with oil and peel\",\n      \"grams\": 90,\n      \"calories\": 131,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 18.5,\n      \"fat_g\": 5.5\n    },\n    {\n      \"name\": \"fresh pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 80,\n      \"calories\": 40,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 10.5,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"watermelon pieces\",\n      \"usda_query\": \"watermelon raw\",\n      \"grams\": 70,\n      \"calories\": 21,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"sliced strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 50,\n      \"calories\": 16,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 3.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"raspberries\",\n      \"usda_query\": \"raspberries raw\",\n      \"grams\": 40,\n      \"calories\": 21,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.8,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 25,\n      \"calories\": 14,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 243\n}",
+  "latency_ms": 14366,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "roasted potatoes with oil and peel",
+        "grams": 90,
+        "calories": 131,
+        "protein_g": 2.2,
+        "carbs_g": 18.5,
+        "fat_g": 5.5
+      },
+      {
+        "name": "fresh pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 80,
+        "calories": 40,
+        "protein_g": 0.4,
+        "carbs_g": 10.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "watermelon pieces",
+        "usda_query": "watermelon raw",
+        "grams": 70,
+        "calories": 21,
+        "protein_g": 0.4,
+        "carbs_g": 5.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sliced strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 50,
+        "calories": 16,
+        "protein_g": 0.3,
+        "carbs_g": 3.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "raspberries",
+        "usda_query": "raspberries raw",
+        "grams": 40,
+        "calories": 21,
+        "protein_g": 0.5,
+        "carbs_g": 4.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 25,
+        "calories": 14,
+        "protein_g": 0.2,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 243
+  }
+}

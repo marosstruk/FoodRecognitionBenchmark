@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562875159",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "228acd283e437907",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 578,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8382,
+    "ai_credits": 0.03638
+  },
+  "timestamp": "2026-11-25T00:17:25.186Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese and tomato pizza\",\"usda_query\":\"thin crust cheese pizza with tomato sauce\",\"grams\":65,\"calories\":180,\"protein_g\":8,\"carbs_g\":23,\"fat_g\":7}],\"total_calories\":180}",
+  "latency_ms": 9928,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese and tomato pizza",
+        "usda_query": "thin crust cheese pizza with tomato sauce",
+        "grams": 65,
+        "calories": 180,
+        "protein_g": 8,
+        "carbs_g": 23,
+        "fat_g": 7
+      }
+    ],
+    "total_calories": 180
+  }
+}

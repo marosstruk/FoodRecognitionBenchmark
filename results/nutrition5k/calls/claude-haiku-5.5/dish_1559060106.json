@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559060106",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "98d3ebe873c04c22",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 791,
+    "reasoning_tokens": 577,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3934,
+    "ai_credits": 0.0517525
+  },
+  "timestamp": "2026-11-25T00:21:23.155Z",
+  "raw_text": "{\"items\":[{\"name\":\"bacon, cooked\",\"usda_query\":\"bacon cooked pan-fried\",\"grams\":25,\"calories\":135,\"protein_g\":9,\"carbs_g\":0,\"fat_g\":10},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes home fries roasted with oil\",\"grams\":140,\"calories\":210,\"protein_g\":4,\"carbs_g\":31,\"fat_g\":8},{\"name\":\"strawberries, raw\",\"usda_query\":\"strawberries raw\",\"grams\":130,\"calories\":42,\"protein_g\":1,\"carbs_g\":10,\"fat_g\":0}],\"total_calories\":387}",
+  "latency_ms": 5216,
+  "parsed": {
+    "items": [
+      {
+        "name": "bacon, cooked",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 25,
+        "calories": 135,
+        "protein_g": 9,
+        "carbs_g": 0,
+        "fat_g": 10
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes home fries roasted with oil",
+        "grams": 140,
+        "calories": 210,
+        "protein_g": 4,
+        "carbs_g": 31,
+        "fat_g": 8
+      },
+      {
+        "name": "strawberries, raw",
+        "usda_query": "strawberries raw",
+        "grams": 130,
+        "calories": 42,
+        "protein_g": 1,
+        "carbs_g": 10,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 387
+  }
+}

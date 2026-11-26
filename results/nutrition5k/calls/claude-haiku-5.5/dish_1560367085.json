@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367085",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7f7e8f84ae376ccf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1618,
+    "reasoning_tokens": 1026,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7308,
+    "ai_credits": 0.0931025
+  },
+  "timestamp": "2026-11-25T00:17:51.185Z",
+  "raw_text": "{\"items\":[{\"name\":\"honeydew melon\",\"usda_query\":\"melons honeydew raw\",\"grams\":80,\"calories\":27,\"protein_g\":0.6,\"carbs_g\":6.5,\"fat_g\":0.1},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":60,\"calories\":11,\"protein_g\":0.5,\"carbs_g\":2.3,\"fat_g\":0.1},{\"name\":\"cantaloupe\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":50,\"calories\":17,\"protein_g\":0.4,\"carbs_g\":4.1,\"fat_g\":0.1},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":30,\"calories\":10,\"protein_g\":0.9,\"carbs_g\":2,\"fat_g\":0.1},{\"name\":\"red bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":25,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":1.9,\"fat_g\":0.1},{\"name\":\"crumbled savory meat mixture\",\"usda_query\":\"beef ground 85% lean meat cooked pan-browned\",\"grams\":40,\"calories\":85,\"protein_g\":10,\"carbs_g\":0,\"fat_g\":4.8},{\"name\":\"cornbread\",\"usda_query\":\"cornbread prepared from recipe\",\"grams\":25,\"calories\":80,\"protein_g\":2,\"carbs_g\":13,\"fat_g\":2.5},{\"name\":\"zucchini\",\"usda_query\":\"squash summer zucchini cooked boiled drained\",\"grams\":30,\"calories\":5,\"protein_g\":0.9,\"carbs_g\":1.9,\"fat_g\":0.2}],\"total_calories\":243}",
+  "latency_ms": 8183,
+  "parsed": {
+    "items": [
+      {
+        "name": "honeydew melon",
+        "usda_query": "melons honeydew raw",
+        "grams": 80,
+        "calories": 27,
+        "protein_g": 0.6,
+        "carbs_g": 6.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 60,
+        "calories": 11,
+        "protein_g": 0.5,
+        "carbs_g": 2.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cantaloupe",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 50,
+        "calories": 17,
+        "protein_g": 0.4,
+        "carbs_g": 4.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 30,
+        "calories": 10,
+        "protein_g": 0.9,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "crumbled savory meat mixture",
+        "usda_query": "beef ground 85% lean meat cooked pan-browned",
+        "grams": 40,
+        "calories": 85,
+        "protein_g": 10,
+        "carbs_g": 0,
+        "fat_g": 4.8
+      },
+      {
+        "name": "cornbread",
+        "usda_query": "cornbread prepared from recipe",
+        "grams": 25,
+        "calories": 80,
+        "protein_g": 2,
+        "carbs_g": 13,
+        "fat_g": 2.5
+      },
+      {
+        "name": "zucchini",
+        "usda_query": "squash summer zucchini cooked boiled drained",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.9,
+        "carbs_g": 1.9,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 243
+  }
+}

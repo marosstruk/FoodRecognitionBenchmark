@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561663035",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "93d05433bbf1c14d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 432,
+    "reasoning_tokens": 350,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 4965,
+    "ai_credits": 0.27255
+  },
+  "timestamp": "2026-11-25T00:35:18.508Z",
+  "raw_text": "{\"items\": [{\"name\": \"pizza slice with bacon\", \"usda_query\": \"pizza with meat thin crust\", \"grams\": 65, \"calories\": 176, \"protein_g\": 7.2, \"carbs_g\": 18.9, \"fat_g\": 7.8}], \"total_calories\": 176}",
+  "latency_ms": 6169,
+  "parsed": {
+    "items": [
+      {
+        "name": "pizza slice with bacon",
+        "usda_query": "pizza with meat thin crust",
+        "grams": 65,
+        "calories": 176,
+        "protein_g": 7.2,
+        "carbs_g": 18.9,
+        "fat_g": 7.8
+      }
+    ],
+    "total_calories": 176
+  }
+}

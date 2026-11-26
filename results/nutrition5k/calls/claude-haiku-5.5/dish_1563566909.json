@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563566909",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fd290eccda1f15cf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1469,
+    "reasoning_tokens": 1046,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6647,
+    "ai_credits": 0.0856525
+  },
+  "timestamp": "2026-11-25T00:34:11.951Z",
+  "raw_text": "{\"items\":[{\"name\":\"brown rice\",\"usda_query\":\"rice brown long-grain cooked\",\"grams\":120,\"calories\":133,\"protein_g\":3.1,\"carbs_g\":27.6,\"fat_g\":1.1},{\"name\":\"firm tofu\",\"usda_query\":\"tofu firm raw\",\"grams\":100,\"calories\":144,\"protein_g\":17.3,\"carbs_g\":2.8,\"fat_g\":8.7},{\"name\":\"carrot\",\"usda_query\":\"carrots cooked boiled drained\",\"grams\":50,\"calories\":18,\"protein_g\":0.4,\"carbs_g\":4.1,\"fat_g\":0.1},{\"name\":\"green beans\",\"usda_query\":\"beans snap green cooked boiled drained\",\"grams\":40,\"calories\":14,\"protein_g\":0.3,\"carbs_g\":3.2,\"fat_g\":0.1},{\"name\":\"onion\",\"usda_query\":\"onions cooked boiled drained\",\"grams\":30,\"calories\":12,\"protein_g\":0.3,\"carbs_g\":2.8,\"fat_g\":0.1},{\"name\":\"cooking oil\",\"usda_query\":\"oil vegetable soybean\",\"grams\":5,\"calories\":44,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":5}],\"total_calories\":365}",
+  "latency_ms": 7746,
+  "parsed": {
+    "items": [
+      {
+        "name": "brown rice",
+        "usda_query": "rice brown long-grain cooked",
+        "grams": 120,
+        "calories": 133,
+        "protein_g": 3.1,
+        "carbs_g": 27.6,
+        "fat_g": 1.1
+      },
+      {
+        "name": "firm tofu",
+        "usda_query": "tofu firm raw",
+        "grams": 100,
+        "calories": 144,
+        "protein_g": 17.3,
+        "carbs_g": 2.8,
+        "fat_g": 8.7
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 50,
+        "calories": 18,
+        "protein_g": 0.4,
+        "carbs_g": 4.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green beans",
+        "usda_query": "beans snap green cooked boiled drained",
+        "grams": 40,
+        "calories": 14,
+        "protein_g": 0.3,
+        "carbs_g": 3.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "onion",
+        "usda_query": "onions cooked boiled drained",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 2.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "oil vegetable soybean",
+        "grams": 5,
+        "calories": 44,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 5
+      }
+    ],
+    "total_calories": 365
+  }
+}

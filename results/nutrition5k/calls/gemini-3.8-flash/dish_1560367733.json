@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367733",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7a1d00e685671f18",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1019,
+    "reasoning_tokens": 576,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9246,
+    "ai_credits": 0.492675
+  },
+  "timestamp": "2026-11-25T00:37:17.002Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"white rice cooked\",\n      \"grams\": 140,\n      \"calories\": 182,\n      \"protein_g\": 3.8,\n      \"carbs_g\": 39.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"roasted potato wedges\",\n      \"usda_query\": \"roasted potato wedges with oil\",\n      \"grams\": 85,\n      \"calories\": 115,\n      \"protein_g\": 2.1,\n      \"carbs_g\": 18.2,\n      \"fat_g\": 4.1\n    },\n    {\n      \"name\": \"roasted pork loin\",\n      \"usda_query\": \"pork loin roasted\",\n      \"grams\": 80,\n      \"calories\": 132,\n      \"protein_g\": 21,\n      \"carbs_g\": 0,\n      \"fat_g\": 4.8\n    },\n    {\n      \"name\": \"cooked broccoli\",\n      \"usda_query\": \"broccoli cooked with oil\",\n      \"grams\": 70,\n      \"calories\": 35,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 4.2,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"fried tofu cubes\",\n      \"usda_query\": \"tofu fried\",\n      \"grams\": 30,\n      \"calories\": 55,\n      \"protein_g\": 4.5,\n      \"carbs_g\": 1.8,\n      \"fat_g\": 3.5\n    }\n  ],\n  \"total_calories\": 519\n}",
+  "latency_ms": 10565,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "white rice cooked",
+        "grams": 140,
+        "calories": 182,
+        "protein_g": 3.8,
+        "carbs_g": 39.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "roasted potato wedges with oil",
+        "grams": 85,
+        "calories": 115,
+        "protein_g": 2.1,
+        "carbs_g": 18.2,
+        "fat_g": 4.1
+      },
+      {
+        "name": "roasted pork loin",
+        "usda_query": "pork loin roasted",
+        "grams": 80,
+        "calories": 132,
+        "protein_g": 21,
+        "carbs_g": 0,
+        "fat_g": 4.8
+      },
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked with oil",
+        "grams": 70,
+        "calories": 35,
+        "protein_g": 1.8,
+        "carbs_g": 4.2,
+        "fat_g": 1.5
+      },
+      {
+        "name": "fried tofu cubes",
+        "usda_query": "tofu fried",
+        "grams": 30,
+        "calories": 55,
+        "protein_g": 4.5,
+        "carbs_g": 1.8,
+        "fat_g": 3.5
+      }
+    ],
+    "total_calories": 519
+  }
+}

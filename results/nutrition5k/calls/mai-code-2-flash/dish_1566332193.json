@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566332193",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "38183f6ca581e465",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 667,
+    "reasoning_tokens": 428,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9130,
+    "ai_credits": 0.020415
+  },
+  "timestamp": "2026-11-25T00:24:19.897Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted chicken\",\"usda_query\":\"chicken breast roasted\",\"grams\":140,\"calories\":231,\"protein_g\":43.4,\"carbs_g\":0,\"fat_g\":5.0},{\"name\":\"green beans\",\"usda_query\":\"green beans cooked\",\"grams\":150,\"calories\":47,\"protein_g\":2.7,\"carbs_g\":10.5,\"fat_g\":0.5},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted\",\"grams\":120,\"calories\":174,\"protein_g\":3.6,\"carbs_g\":35.4,\"fat_g\":2.4},{\"name\":\"red bell pepper\",\"usda_query\":\"bell pepper red raw\",\"grams\":50,\"calories\":16,\"protein_g\":0.5,\"carbs_g\":3.8,\"fat_g\":0.2},{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":25,\"calories\":10,\"protein_g\":0.3,\"carbs_g\":2.3,\"fat_g\":0}],\"total_calories\":478}",
+  "latency_ms": 9991,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted chicken",
+        "usda_query": "chicken breast roasted",
+        "grams": 140,
+        "calories": 231,
+        "protein_g": 43.4,
+        "carbs_g": 0,
+        "fat_g": 5
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 150,
+        "calories": 47,
+        "protein_g": 2.7,
+        "carbs_g": 10.5,
+        "fat_g": 0.5
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 120,
+        "calories": 174,
+        "protein_g": 3.6,
+        "carbs_g": 35.4,
+        "fat_g": 2.4
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red raw",
+        "grams": 50,
+        "calories": 16,
+        "protein_g": 0.5,
+        "carbs_g": 3.8,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 478
+  }
+}

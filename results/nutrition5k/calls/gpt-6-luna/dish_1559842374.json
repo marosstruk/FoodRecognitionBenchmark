@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559842374",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "fe7c27d41e358e49",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 512,
+    "reasoning_tokens": 283,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5293,
+    "ai_credits": 0.03308
+  },
+  "timestamp": "2026-11-25T00:20:24.549Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli raw\",\n      \"grams\": 70,\n      \"calories\": 24,\n      \"protein_g\": 2,\n      \"carbs_g\": 4.6,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Mandarin\",\n      \"usda_query\": \"mandarin orange raw\",\n      \"grams\": 85,\n      \"calories\": 45,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 11.3,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Almonds\",\n      \"usda_query\": \"almonds raw\",\n      \"grams\": 40,\n      \"calories\": 232,\n      \"protein_g\": 8.5,\n      \"carbs_g\": 8.6,\n      \"fat_g\": 20\n    }\n  ],\n  \"total_calories\": 301\n}",
+  "latency_ms": 6379,
+  "parsed": {
+    "items": [
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli raw",
+        "grams": 70,
+        "calories": 24,
+        "protein_g": 2,
+        "carbs_g": 4.6,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Mandarin",
+        "usda_query": "mandarin orange raw",
+        "grams": 85,
+        "calories": 45,
+        "protein_g": 0.7,
+        "carbs_g": 11.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Almonds",
+        "usda_query": "almonds raw",
+        "grams": 40,
+        "calories": 232,
+        "protein_g": 8.5,
+        "carbs_g": 8.6,
+        "fat_g": 20
+      }
+    ],
+    "total_calories": 301
+  }
+}

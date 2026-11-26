@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558721533",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b9ace44f9db8cc28",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 752,
+    "reasoning_tokens": 662,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9045,
+    "ai_credits": 0.02254
+  },
+  "timestamp": "2026-11-25T00:32:42.401Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mango chunks\",\n      \"usda_query\": \"mango raw\",\n      \"grams\": 120,\n      \"calories\": 72,\n      \"protein_g\": 1,\n      \"carbs_g\": 18,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 72\n}",
+  "latency_ms": 9923,
+  "parsed": {
+    "items": [
+      {
+        "name": "mango chunks",
+        "usda_query": "mango raw",
+        "grams": 120,
+        "calories": 72,
+        "protein_g": 1,
+        "carbs_g": 18,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 72
+  }
+}

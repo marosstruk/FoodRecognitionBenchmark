@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562777068",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6ec86b05069a8796",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1025,
+    "reasoning_tokens": 675,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5286,
+    "ai_credits": 0.0634525
+  },
+  "timestamp": "2026-11-25T00:29:04.026Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":120,\"calories\":179,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":13},{\"name\":\"roasted brussels sprouts\",\"usda_query\":\"brussels sprouts cooked boiled with oil added\",\"grams\":90,\"calories\":80,\"protein_g\":2.5,\"carbs_g\":8,\"fat_g\":4.8},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":100,\"calories\":32,\"protein_g\":0.7,\"carbs_g\":7.7,\"fat_g\":0.3},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":5,\"calories\":3,\"protein_g\":0,\"carbs_g\":0.7,\"fat_g\":0},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":5,\"calories\":3,\"protein_g\":0,\"carbs_g\":0.7,\"fat_g\":0}],\"total_calories\":297}",
+  "latency_ms": 6455,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 120,
+        "calories": 179,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 13
+      },
+      {
+        "name": "roasted brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled with oil added",
+        "grams": 90,
+        "calories": 80,
+        "protein_g": 2.5,
+        "carbs_g": 8,
+        "fat_g": 4.8
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 100,
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.3
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 5,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 5,
+        "calories": 3,
+        "protein_g": 0,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 297
+  }
+}

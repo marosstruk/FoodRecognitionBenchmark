@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558633221",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "8086c4e7a3f735fc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 944,
+    "reasoning_tokens": 493,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7790,
+    "ai_credits": 0.46455
+  },
+  "timestamp": "2026-11-25T00:19:40.353Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"red apple\",\n      \"usda_query\": \"apple raw with skin\",\n      \"grams\": 160,\n      \"calories\": 83,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 22.1,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"grape tomatoes\",\n      \"usda_query\": \"tomatoes grape raw\",\n      \"grams\": 110,\n      \"calories\": 20,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 4.3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cooked sliced carrots\",\n      \"usda_query\": \"carrots cooked boiled drained\",\n      \"grams\": 80,\n      \"calories\": 28,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 6.6,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"raw cauliflower florets\",\n      \"usda_query\": \"cauliflower raw\",\n      \"grams\": 70,\n      \"calories\": 18,\n      \"protein_g\": 1.3,\n      \"carbs_g\": 3.5,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"sweet corn on the cob slice\",\n      \"usda_query\": \"corn sweet yellow boiled drained\",\n      \"grams\": 30,\n      \"calories\": 29,\n      \"protein_g\": 1.0,\n      \"carbs_g\": 6.3,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 178\n}",
+  "latency_ms": 9322,
+  "parsed": {
+    "items": [
+      {
+        "name": "red apple",
+        "usda_query": "apple raw with skin",
+        "grams": 160,
+        "calories": 83,
+        "protein_g": 0.4,
+        "carbs_g": 22.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "grape tomatoes",
+        "usda_query": "tomatoes grape raw",
+        "grams": 110,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 4.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooked sliced carrots",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 0.6,
+        "carbs_g": 6.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "raw cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 70,
+        "calories": 18,
+        "protein_g": 1.3,
+        "carbs_g": 3.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "sweet corn on the cob slice",
+        "usda_query": "corn sweet yellow boiled drained",
+        "grams": 30,
+        "calories": 29,
+        "protein_g": 1,
+        "carbs_g": 6.3,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 178
+  }
+}

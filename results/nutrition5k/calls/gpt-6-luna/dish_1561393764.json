@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561393764",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "c91d9bbb9cc24395",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 696,
+    "reasoning_tokens": 464,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6928,
+    "ai_credits": 0.04228
+  },
+  "timestamp": "2026-11-25T00:19:11.103Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 90,\n      \"calories\": 32,\n      \"protein_g\": 2.1,\n      \"carbs_g\": 6.5,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"eggs scrambled\",\n      \"grams\": 115,\n      \"calories\": 170,\n      \"protein_g\": 11.9,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 12.3\n    },\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked\",\n      \"grams\": 35,\n      \"calories\": 189,\n      \"protein_g\": 13,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 14.7\n    }\n  ],\n  \"total_calories\": 391\n}",
+  "latency_ms": 7781,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 2.1,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "eggs scrambled",
+        "grams": 115,
+        "calories": 170,
+        "protein_g": 11.9,
+        "carbs_g": 1.6,
+        "fat_g": 12.3
+      },
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked",
+        "grams": 35,
+        "calories": 189,
+        "protein_g": 13,
+        "carbs_g": 0.5,
+        "fat_g": 14.7
+      }
+    ],
+    "total_calories": 391
+  }
+}

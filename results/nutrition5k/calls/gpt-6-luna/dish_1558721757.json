@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558721757",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d3127f8b681d5e96",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 428,
+    "reasoning_tokens": 333,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8597,
+    "ai_credits": 0.02888
+  },
+  "timestamp": "2026-11-25T00:15:40.420Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted almonds\",\n      \"usda_query\": \"almonds dry roasted\",\n      \"grams\": 90,\n      \"calories\": 538,\n      \"protein_g\": 19.1,\n      \"carbs_g\": 19.4,\n      \"fat_g\": 47.3\n    }\n  ],\n  \"total_calories\": 538\n}",
+  "latency_ms": 10137,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted almonds",
+        "usda_query": "almonds dry roasted",
+        "grams": 90,
+        "calories": 538,
+        "protein_g": 19.1,
+        "carbs_g": 19.4,
+        "fat_g": 47.3
+      }
+    ],
+    "total_calories": 538
+  }
+}

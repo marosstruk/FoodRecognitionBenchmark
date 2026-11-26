@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568666089",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "525a061069446395",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1422,
+    "reasoning_tokens": 1086,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 11942,
+    "ai_credits": 0.6438
+  },
+  "timestamp": "2026-11-25T00:17:04.720Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese pizza\",\"usda_query\":\"cheese pizza\",\"grams\":65,\"calories\":175,\"protein_g\":7.5,\"carbs_g\":20.5,\"fat_g\":7.0},{\"name\":\"sautéed zucchini and yellow squash\",\"usda_query\":\"squash summer cooked boiled drained without salt\",\"grams\":80,\"calories\":16,\"protein_g\":1.0,\"carbs_g\":3.1,\"fat_g\":0.3},{\"name\":\"roasted Brussels sprouts\",\"usda_query\":\"brussels sprouts cooked boiled drained\",\"grams\":35,\"calories\":16,\"protein_g\":1.2,\"carbs_g\":3.1,\"fat_g\":0.2},{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast grilled without skin\",\"grams\":45,\"calories\":74,\"protein_g\":14.0,\"carbs_g\":0.0,\"fat_g\":1.6},{\"name\":\"Caesar salad with dressing\",\"usda_query\":\"caesar salad with dressing\",\"grams\":85,\"calories\":125,\"protein_g\":2.0,\"carbs_g\":3.8,\"fat_g\":11.5},{\"name\":\"chopped kale salad\",\"usda_query\":\"kale cooked boiled drained without salt\",\"grams\":50,\"calories\":38,\"protein_g\":1.5,\"carbs_g\":4.2,\"fat_g\":1.8}],\"total_calories\":444}",
+  "latency_ms": 12839,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "cheese pizza",
+        "grams": 65,
+        "calories": 175,
+        "protein_g": 7.5,
+        "carbs_g": 20.5,
+        "fat_g": 7
+      },
+      {
+        "name": "sautéed zucchini and yellow squash",
+        "usda_query": "squash summer cooked boiled drained without salt",
+        "grams": 80,
+        "calories": 16,
+        "protein_g": 1,
+        "carbs_g": 3.1,
+        "fat_g": 0.3
+      },
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled drained",
+        "grams": 35,
+        "calories": 16,
+        "protein_g": 1.2,
+        "carbs_g": 3.1,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast grilled without skin",
+        "grams": 45,
+        "calories": 74,
+        "protein_g": 14,
+        "carbs_g": 0,
+        "fat_g": 1.6
+      },
+      {
+        "name": "Caesar salad with dressing",
+        "usda_query": "caesar salad with dressing",
+        "grams": 85,
+        "calories": 125,
+        "protein_g": 2,
+        "carbs_g": 3.8,
+        "fat_g": 11.5
+      },
+      {
+        "name": "chopped kale salad",
+        "usda_query": "kale cooked boiled drained without salt",
+        "grams": 50,
+        "calories": 38,
+        "protein_g": 1.5,
+        "carbs_g": 4.2,
+        "fat_g": 1.8
+      }
+    ],
+    "total_calories": 444
+  }
+}

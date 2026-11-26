@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561577119",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "40b169dbe9282d1e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 933,
+    "reasoning_tokens": 626,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10157,
+    "ai_credits": 0.05413
+  },
+  "timestamp": "2026-11-25T00:35:12.333Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pizza crust\",\n      \"usda_query\": \"pizza crust baked\",\n      \"grams\": 35,\n      \"calories\": 93,\n      \"protein_g\": 3.1,\n      \"carbs_g\": 18.5,\n      \"fat_g\": 1.2\n    },\n    {\n      \"name\": \"tomato pizza sauce\",\n      \"usda_query\": \"tomato pizza sauce\",\n      \"grams\": 10,\n      \"calories\": 5,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"mozzarella cheese\",\n      \"usda_query\": \"mozzarella cheese whole milk\",\n      \"grams\": 12,\n      \"calories\": 34,\n      \"protein_g\": 2.6,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 2.6\n    },\n    {\n      \"name\": \"tofu\",\n      \"usda_query\": \"tofu raw regular\",\n      \"grams\": 30,\n      \"calories\": 23,\n      \"protein_g\": 2.4,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 1.4\n    }\n  ],\n  \"total_calories\": 155\n}",
+  "latency_ms": 11255,
+  "parsed": {
+    "items": [
+      {
+        "name": "pizza crust",
+        "usda_query": "pizza crust baked",
+        "grams": 35,
+        "calories": 93,
+        "protein_g": 3.1,
+        "carbs_g": 18.5,
+        "fat_g": 1.2
+      },
+      {
+        "name": "tomato pizza sauce",
+        "usda_query": "tomato pizza sauce",
+        "grams": 10,
+        "calories": 5,
+        "protein_g": 0.2,
+        "carbs_g": 1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "mozzarella cheese",
+        "usda_query": "mozzarella cheese whole milk",
+        "grams": 12,
+        "calories": 34,
+        "protein_g": 2.6,
+        "carbs_g": 0.3,
+        "fat_g": 2.6
+      },
+      {
+        "name": "tofu",
+        "usda_query": "tofu raw regular",
+        "grams": 30,
+        "calories": 23,
+        "protein_g": 2.4,
+        "carbs_g": 0.6,
+        "fat_g": 1.4
+      }
+    ],
+    "total_calories": 155
+  }
+}

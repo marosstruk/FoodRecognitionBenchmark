@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563308386",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b237780feb846ee1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 779,
+    "reasoning_tokens": 501,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 7991,
+    "ai_credits": 0.402675
+  },
+  "timestamp": "2026-11-25T00:32:26.747Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked carrots\",\n      \"usda_query\": \"carrots cooked boiled drained without salt\",\n      \"grams\": 60,\n      \"calories\": 21,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 4.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 50,\n      \"calories\": 65,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 10.0,\n      \"fat_g\": 2.2\n    },\n    {\n      \"name\": \"roasted eggplant\",\n      \"usda_query\": \"eggplant cooked with oil\",\n      \"grams\": 45,\n      \"calories\": 32,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 3.5,\n      \"fat_g\": 1.8\n    }\n  ],\n  \"total_calories\": 118\n}",
+  "latency_ms": 8883,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 60,
+        "calories": 21,
+        "protein_g": 0.5,
+        "carbs_g": 4.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 50,
+        "calories": 65,
+        "protein_g": 1.2,
+        "carbs_g": 10,
+        "fat_g": 2.2
+      },
+      {
+        "name": "roasted eggplant",
+        "usda_query": "eggplant cooked with oil",
+        "grams": 45,
+        "calories": 32,
+        "protein_g": 0.5,
+        "carbs_g": 3.5,
+        "fat_g": 1.8
+      }
+    ],
+    "total_calories": 118
+  }
+}

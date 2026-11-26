@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561654732",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2d63915a08f934ec",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1267,
+    "reasoning_tokens": 1047,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 14262,
+    "ai_credits": 0.035415
+  },
+  "timestamp": "2026-11-25T00:31:18.958Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"fried potatoes with onions\",\n      \"usda_query\": \"potatoes fried with onions\",\n      \"grams\": 220,\n      \"calories\": 485,\n      \"protein_g\": 6,\n      \"carbs_g\": 43,\n      \"fat_g\": 32\n    },\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"scrambled eggs\",\n      \"grams\": 150,\n      \"calories\": 224,\n      \"protein_g\": 13,\n      \"carbs_g\": 2,\n      \"fat_g\": 18\n    },\n    {\n      \"name\": \"breakfast sausage\",\n      \"usda_query\": \"breakfast sausage cooked\",\n      \"grams\": 75,\n      \"calories\": 260,\n      \"protein_g\": 11,\n      \"carbs_g\": 2,\n      \"fat_g\": 24\n    }\n  ],\n  \"total_calories\": 969\n}",
+  "latency_ms": 15385,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried potatoes with onions",
+        "usda_query": "potatoes fried with onions",
+        "grams": 220,
+        "calories": 485,
+        "protein_g": 6,
+        "carbs_g": 43,
+        "fat_g": 32
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "scrambled eggs",
+        "grams": 150,
+        "calories": 224,
+        "protein_g": 13,
+        "carbs_g": 2,
+        "fat_g": 18
+      },
+      {
+        "name": "breakfast sausage",
+        "usda_query": "breakfast sausage cooked",
+        "grams": 75,
+        "calories": 260,
+        "protein_g": 11,
+        "carbs_g": 2,
+        "fat_g": 24
+      }
+    ],
+    "total_calories": 969
+  }
+}

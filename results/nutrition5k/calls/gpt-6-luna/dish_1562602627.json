@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562602627",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "903bbf2fa4586a47",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 501,
+    "reasoning_tokens": 332,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7691,
+    "ai_credits": 0.03253
+  },
+  "timestamp": "2026-11-25T00:32:48.269Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"shredded fried potatoes\",\n      \"usda_query\": \"hash brown potatoes prepared\",\n      \"grams\": 150,\n      \"calories\": 225,\n      \"protein_g\": 3.8,\n      \"carbs_g\": 34.5,\n      \"fat_g\": 8.4\n    },\n    {\n      \"name\": \"smoked sausage\",\n      \"usda_query\": \"pork smoked sausage cooked\",\n      \"grams\": 105,\n      \"calories\": 315,\n      \"protein_g\": 13.1,\n      \"carbs_g\": 1.6,\n      \"fat_g\": 28.4\n    }\n  ],\n  \"total_calories\": 540\n}",
+  "latency_ms": 8561,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded fried potatoes",
+        "usda_query": "hash brown potatoes prepared",
+        "grams": 150,
+        "calories": 225,
+        "protein_g": 3.8,
+        "carbs_g": 34.5,
+        "fat_g": 8.4
+      },
+      {
+        "name": "smoked sausage",
+        "usda_query": "pork smoked sausage cooked",
+        "grams": 105,
+        "calories": 315,
+        "protein_g": 13.1,
+        "carbs_g": 1.6,
+        "fat_g": 28.4
+      }
+    ],
+    "total_calories": 540
+  }
+}

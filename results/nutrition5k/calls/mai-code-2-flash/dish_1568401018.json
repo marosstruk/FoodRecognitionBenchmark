@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568401018",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "abdbe6c8ea94e3ba",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1757,
+    "reasoning_tokens": 1314,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16908,
+    "ai_credits": 0.047665
+  },
+  "timestamp": "2026-11-25T00:38:29.637Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled chicken\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 120,\n      \"calories\": 198,\n      \"protein_g\": 37.2,\n      \"carbs_g\": 0,\n      \"fat_g\": 4.3\n    },\n    {\n      \"name\": \"romaine lettuce\",\n      \"usda_query\": \"romaine lettuce raw\",\n      \"grams\": 100,\n      \"calories\": 17,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 3.3,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"croutons\",\n      \"usda_query\": \"croutons seasoned\",\n      \"grams\": 35,\n      \"calories\": 140,\n      \"protein_g\": 4.1,\n      \"carbs_g\": 22.1,\n      \"fat_g\": 4.2\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes cherry raw\",\n      \"grams\": 30,\n      \"calories\": 5,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Parmesan cheese\",\n      \"usda_query\": \"parmesan cheese\",\n      \"grams\": 10,\n      \"calories\": 43,\n      \"protein_g\": 3.8,\n      \"carbs_g\": 0.4,\n      \"fat_g\": 2.9\n    },\n    {\n      \"name\": \"Caesar dressing\",\n      \"usda_query\": \"caesar salad dressing\",\n      \"grams\": 25,\n      \"calories\": 160,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 16\n    }\n  ],\n  \"total_calories\": 563\n}",
+  "latency_ms": 18493,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken",
+        "usda_query": "chicken breast grilled",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37.2,
+        "carbs_g": 0,
+        "fat_g": 4.3
+      },
+      {
+        "name": "romaine lettuce",
+        "usda_query": "romaine lettuce raw",
+        "grams": 100,
+        "calories": 17,
+        "protein_g": 1.2,
+        "carbs_g": 3.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons seasoned",
+        "grams": 35,
+        "calories": 140,
+        "protein_g": 4.1,
+        "carbs_g": 22.1,
+        "fat_g": 4.2
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 30,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Parmesan cheese",
+        "usda_query": "parmesan cheese",
+        "grams": 10,
+        "calories": 43,
+        "protein_g": 3.8,
+        "carbs_g": 0.4,
+        "fat_g": 2.9
+      },
+      {
+        "name": "Caesar dressing",
+        "usda_query": "caesar salad dressing",
+        "grams": 25,
+        "calories": 160,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 16
+      }
+    ],
+    "total_calories": 563
+  }
+}

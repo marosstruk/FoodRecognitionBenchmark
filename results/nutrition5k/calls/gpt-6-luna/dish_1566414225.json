@@ -1,0 +1,99 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414225",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cffa6e4c06b403d2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1161,
+    "reasoning_tokens": 593,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8823,
+    "ai_credits": 0.06553
+  },
+  "timestamp": "2026-11-25T00:30:06.277Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked couscous\",\n      \"usda_query\": \"couscous cooked\",\n      \"grams\": 70,\n      \"calories\": 79,\n      \"protein_g\": 2.7,\n      \"carbs_g\": 16.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"eggplant\",\n      \"usda_query\": \"eggplant cooked\",\n      \"grams\": 25,\n      \"calories\": 9,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 20,\n      \"calories\": 3,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"red bell pepper cooked\",\n      \"grams\": 12,\n      \"calories\": 4,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red onion\",\n      \"usda_query\": \"red onion cooked\",\n      \"grams\": 15,\n      \"calories\": 6,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomato cooked\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"yellow squash\",\n      \"usda_query\": \"yellow squash cooked\",\n      \"grams\": 15,\n      \"calories\": 3,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"olive oil\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 3,\n      \"calories\": 27,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 3\n    }\n  ],\n  \"total_calories\": 134\n}",
+  "latency_ms": 9698,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked couscous",
+        "usda_query": "couscous cooked",
+        "grams": 70,
+        "calories": 79,
+        "protein_g": 2.7,
+        "carbs_g": 16.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "eggplant",
+        "usda_query": "eggplant cooked",
+        "grams": 25,
+        "calories": 9,
+        "protein_g": 0.2,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 20,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "red bell pepper cooked",
+        "grams": 12,
+        "calories": 4,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0
+      },
+      {
+        "name": "red onion",
+        "usda_query": "red onion cooked",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.2,
+        "carbs_g": 1.4,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomato cooked",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "yellow squash",
+        "usda_query": "yellow squash cooked",
+        "grams": 15,
+        "calories": 3,
+        "protein_g": 0.2,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "olive oil",
+        "usda_query": "olive oil",
+        "grams": 3,
+        "calories": 27,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 134
+  }
+}

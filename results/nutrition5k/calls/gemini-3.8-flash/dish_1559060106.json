@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559060106",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "98d3ebe873c04c22",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 971,
+    "reasoning_tokens": 694,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 9533,
+    "ai_credits": 0.474675
+  },
+  "timestamp": "2026-11-25T00:21:31.613Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"pork bacon pan-fried cooked\",\n      \"grams\": 22,\n      \"calories\": 119,\n      \"protein_g\": 8.1,\n      \"carbs_g\": 0.3,\n      \"fat_g\": 9.2\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 90,\n      \"calories\": 125,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 18,\n      \"fat_g\": 5.2\n    },\n    {\n      \"name\": \"fresh strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 100,\n      \"calories\": 32,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 7.7,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 276\n}",
+  "latency_ms": 10407,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "pork bacon pan-fried cooked",
+        "grams": 22,
+        "calories": 119,
+        "protein_g": 8.1,
+        "carbs_g": 0.3,
+        "fat_g": 9.2
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 90,
+        "calories": 125,
+        "protein_g": 2.2,
+        "carbs_g": 18,
+        "fat_g": 5.2
+      },
+      {
+        "name": "fresh strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 100,
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 276
+  }
+}

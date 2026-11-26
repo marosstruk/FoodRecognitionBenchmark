@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560798928",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "196a611d0968fa13",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1020,
+    "reasoning_tokens": 654,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10822,
+    "ai_credits": 0.02924
+  },
+  "timestamp": "2026-11-25T00:19:11.019Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce mixed greens raw\",\n      \"grams\": 70,\n      \"calories\": 16,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 3,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"shredded carrots\",\n      \"usda_query\": \"carrots raw shredded\",\n      \"grams\": 15,\n      \"calories\": 6,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 1.4,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"red cabbage\",\n      \"usda_query\": \"cabbage red raw shredded\",\n      \"grams\": 15,\n      \"calories\": 5,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"breaded fried chicken\",\n      \"usda_query\": \"chicken breast breaded fried\",\n      \"grams\": 125,\n      \"calories\": 330,\n      \"protein_g\": 24,\n      \"carbs_g\": 18,\n      \"fat_g\": 18\n    },\n    {\n      \"name\": \"lasagna\",\n      \"usda_query\": \"lasagna beef baked\",\n      \"grams\": 230,\n      \"calories\": 360,\n      \"protein_g\": 18,\n      \"carbs_g\": 34,\n      \"fat_g\": 16\n    }\n  ],\n  \"total_calories\": 717\n}",
+  "latency_ms": 11926,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce mixed greens raw",
+        "grams": 70,
+        "calories": 16,
+        "protein_g": 1.2,
+        "carbs_g": 3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "shredded carrots",
+        "usda_query": "carrots raw shredded",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red cabbage",
+        "usda_query": "cabbage red raw shredded",
+        "grams": 15,
+        "calories": 5,
+        "protein_g": 0.3,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "breaded fried chicken",
+        "usda_query": "chicken breast breaded fried",
+        "grams": 125,
+        "calories": 330,
+        "protein_g": 24,
+        "carbs_g": 18,
+        "fat_g": 18
+      },
+      {
+        "name": "lasagna",
+        "usda_query": "lasagna beef baked",
+        "grams": 230,
+        "calories": 360,
+        "protein_g": 18,
+        "carbs_g": 34,
+        "fat_g": 16
+      }
+    ],
+    "total_calories": 717
+  }
+}

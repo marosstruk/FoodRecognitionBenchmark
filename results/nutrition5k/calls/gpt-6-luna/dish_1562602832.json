@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562602832",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "da119792e2de2104",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 887,
+    "reasoning_tokens": 690,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8574,
+    "ai_credits": 0.05183
+  },
+  "timestamp": "2026-11-25T00:37:39.381Z",
+  "raw_text": "{\"items\":[{\"name\":\"cottage cheese\",\"usda_query\":\"cottage cheese 4% milkfat\",\"grams\":100,\"calories\":98,\"protein_g\":11.1,\"carbs_g\":3.4,\"fat_g\":4.3},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":70,\"calories\":22,\"protein_g\":0.5,\"carbs_g\":5.4,\"fat_g\":0.2},{\"name\":\"blueberries\",\"usda_query\":\"blueberries raw\",\"grams\":4,\"calories\":2,\"protein_g\":0,\"carbs_g\":0.6,\"fat_g\":0},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":20,\"calories\":9,\"protein_g\":0.3,\"carbs_g\":1.9,\"fat_g\":0.1}],\"total_calories\":131}",
+  "latency_ms": 9687,
+  "parsed": {
+    "items": [
+      {
+        "name": "cottage cheese",
+        "usda_query": "cottage cheese 4% milkfat",
+        "grams": 100,
+        "calories": 98,
+        "protein_g": 11.1,
+        "carbs_g": 3.4,
+        "fat_g": 4.3
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 70,
+        "calories": 22,
+        "protein_g": 0.5,
+        "carbs_g": 5.4,
+        "fat_g": 0.2
+      },
+      {
+        "name": "blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 4,
+        "calories": 2,
+        "protein_g": 0,
+        "carbs_g": 0.6,
+        "fat_g": 0
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 20,
+        "calories": 9,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 131
+  }
+}

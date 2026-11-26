@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563984296",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "324fabfeb6805870",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1189,
+    "reasoning_tokens": 776,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 12433,
+    "ai_credits": 0.033465
+  },
+  "timestamp": "2026-11-25T00:36:42.002Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"breaded chicken pieces\",\n      \"usda_query\": \"chicken nuggets breaded cooked\",\n      \"grams\": 180,\n      \"calories\": 486,\n      \"protein_g\": 27,\n      \"carbs_g\": 35,\n      \"fat_g\": 27\n    },\n    {\n      \"name\": \"French fries\",\n      \"usda_query\": \"French fries fried\",\n      \"grams\": 170,\n      \"calories\": 493,\n      \"protein_g\": 6,\n      \"carbs_g\": 63,\n      \"fat_g\": 23\n    },\n    {\n      \"name\": \"shredded cabbage\",\n      \"usda_query\": \"cabbage raw\",\n      \"grams\": 80,\n      \"calories\": 20,\n      \"protein_g\": 1,\n      \"carbs_g\": 5,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"tomato ketchup\",\n      \"usda_query\": \"ketchup\",\n      \"grams\": 55,\n      \"calories\": 64,\n      \"protein_g\": 1,\n      \"carbs_g\": 17,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"mayonnaise\",\n      \"usda_query\": \"mayonnaise\",\n      \"grams\": 30,\n      \"calories\": 200,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 22\n    },\n    {\n      \"name\": \"shredded cheddar cheese\",\n      \"usda_query\": \"cheddar cheese\",\n      \"grams\": 35,\n      \"calories\": 143,\n      \"protein_g\": 9,\n      \"carbs_g\": 1,\n      \"fat_g\": 12\n    }\n  ],\n  \"total_calories\": 1406\n}",
+  "latency_ms": 13580,
+  "parsed": {
+    "items": [
+      {
+        "name": "breaded chicken pieces",
+        "usda_query": "chicken nuggets breaded cooked",
+        "grams": 180,
+        "calories": 486,
+        "protein_g": 27,
+        "carbs_g": 35,
+        "fat_g": 27
+      },
+      {
+        "name": "French fries",
+        "usda_query": "French fries fried",
+        "grams": 170,
+        "calories": 493,
+        "protein_g": 6,
+        "carbs_g": 63,
+        "fat_g": 23
+      },
+      {
+        "name": "shredded cabbage",
+        "usda_query": "cabbage raw",
+        "grams": 80,
+        "calories": 20,
+        "protein_g": 1,
+        "carbs_g": 5,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato ketchup",
+        "usda_query": "ketchup",
+        "grams": 55,
+        "calories": 64,
+        "protein_g": 1,
+        "carbs_g": 17,
+        "fat_g": 0
+      },
+      {
+        "name": "mayonnaise",
+        "usda_query": "mayonnaise",
+        "grams": 30,
+        "calories": 200,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 22
+      },
+      {
+        "name": "shredded cheddar cheese",
+        "usda_query": "cheddar cheese",
+        "grams": 35,
+        "calories": 143,
+        "protein_g": 9,
+        "carbs_g": 1,
+        "fat_g": 12
+      }
+    ],
+    "total_calories": 1406
+  }
+}

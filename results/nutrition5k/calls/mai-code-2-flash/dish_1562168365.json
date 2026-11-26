@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562168365",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "30f5e8847f5c973e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 485,
+    "reasoning_tokens": 423,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6700,
+    "ai_credits": 0.015865
+  },
+  "timestamp": "2026-11-25T00:35:12.433Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheddar cheese\",\"usda_query\":\"cheddar cheese\",\"grams\":85,\"calories\":343,\"protein_g\":21.0,\"carbs_g\":2.7,\"fat_g\":28.2}],\"total_calories\":343}",
+  "latency_ms": 7833,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheddar cheese",
+        "usda_query": "cheddar cheese",
+        "grams": 85,
+        "calories": 343,
+        "protein_g": 21,
+        "carbs_g": 2.7,
+        "fat_g": 28.2
+      }
+    ],
+    "total_calories": 343
+  }
+}

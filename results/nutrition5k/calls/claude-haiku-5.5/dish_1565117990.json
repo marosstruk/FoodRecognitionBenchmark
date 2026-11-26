@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565117990",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3d9a1cd366138536",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1035,
+    "reasoning_tokens": 674,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4510,
+    "ai_credits": 0.0639525
+  },
+  "timestamp": "2026-11-25T00:09:36.875Z",
+  "raw_text": "{\"items\":[{\"name\":\"cheese and tomato sauce tortilla\",\"usda_query\":\"flour tortilla with cheese and tomato sauce\",\"grams\":200,\"calories\":450,\"protein_g\":18,\"carbs_g\":40,\"fat_g\":22},{\"name\":\"shredded chicken breast\",\"usda_query\":\"chicken breast meat cooked roasted\",\"grams\":120,\"calories\":198,\"protein_g\":37,\"carbs_g\":0,\"fat_g\":4},{\"name\":\"cubed chicken\",\"usda_query\":\"chicken breast meat cooked\",\"grams\":40,\"calories\":66,\"protein_g\":12,\"carbs_g\":0,\"fat_g\":1},{\"name\":\"green and red bell pepper strips\",\"usda_query\":\"peppers sweet green and red raw\",\"grams\":90,\"calories\":25,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":0},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":30,\"calories\":12,\"protein_g\":0,\"carbs_g\":3,\"fat_g\":0}],\"total_calories\":751}",
+  "latency_ms": 5361,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese and tomato sauce tortilla",
+        "usda_query": "flour tortilla with cheese and tomato sauce",
+        "grams": 200,
+        "calories": 450,
+        "protein_g": 18,
+        "carbs_g": 40,
+        "fat_g": 22
+      },
+      {
+        "name": "shredded chicken breast",
+        "usda_query": "chicken breast meat cooked roasted",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "cubed chicken",
+        "usda_query": "chicken breast meat cooked",
+        "grams": 40,
+        "calories": 66,
+        "protein_g": 12,
+        "carbs_g": 0,
+        "fat_g": 1
+      },
+      {
+        "name": "green and red bell pepper strips",
+        "usda_query": "peppers sweet green and red raw",
+        "grams": 90,
+        "calories": 25,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 751
+  }
+}

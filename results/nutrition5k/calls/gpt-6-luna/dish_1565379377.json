@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565379377",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ee8019697aa3196f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 935,
+    "reasoning_tokens": 516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8928,
+    "ai_credits": 0.05423
+  },
+  "timestamp": "2026-11-25T00:15:23.544Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Grilled chicken\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 100,\n      \"calories\": 165,\n      \"protein_g\": 31,\n      \"carbs_g\": 0,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Rice pilaf\",\n      \"usda_query\": \"rice pilaf cooked\",\n      \"grams\": 100,\n      \"calories\": 150,\n      \"protein_g\": 3,\n      \"carbs_g\": 28,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"Roasted sweet potato\",\n      \"usda_query\": \"sweet potato cooked roasted\",\n      \"grams\": 100,\n      \"calories\": 90,\n      \"protein_g\": 2,\n      \"carbs_g\": 21,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Lettuce\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 120,\n      \"calories\": 18,\n      \"protein_g\": 1,\n      \"carbs_g\": 4,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"Creamy salad dressing\",\n      \"usda_query\": \"caesar dressing creamy\",\n      \"grams\": 25,\n      \"calories\": 110,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 11\n    },\n    {\n      \"name\": \"Parmesan cheese\",\n      \"usda_query\": \"parmesan cheese grated\",\n      \"grams\": 8,\n      \"calories\": 34,\n      \"protein_g\": 3,\n      \"carbs_g\": 0,\n      \"fat_g\": 2\n    }\n  ],\n  \"total_calories\": 567\n}",
+  "latency_ms": 10204,
+  "parsed": {
+    "items": [
+      {
+        "name": "Grilled chicken",
+        "usda_query": "chicken breast grilled",
+        "grams": 100,
+        "calories": 165,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 4
+      },
+      {
+        "name": "Rice pilaf",
+        "usda_query": "rice pilaf cooked",
+        "grams": 100,
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 28,
+        "fat_g": 3
+      },
+      {
+        "name": "Roasted sweet potato",
+        "usda_query": "sweet potato cooked roasted",
+        "grams": 100,
+        "calories": 90,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 0
+      },
+      {
+        "name": "Lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 120,
+        "calories": 18,
+        "protein_g": 1,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "Creamy salad dressing",
+        "usda_query": "caesar dressing creamy",
+        "grams": 25,
+        "calories": 110,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 11
+      },
+      {
+        "name": "Parmesan cheese",
+        "usda_query": "parmesan cheese grated",
+        "grams": 8,
+        "calories": 34,
+        "protein_g": 3,
+        "carbs_g": 0,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 567
+  }
+}

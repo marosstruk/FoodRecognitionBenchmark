@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563566626",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "be4bfd431a1039b0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 611,
+    "reasoning_tokens": 510,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9124,
+    "ai_credits": 0.03803
+  },
+  "timestamp": "2026-11-25T00:14:13.959Z",
+  "raw_text": "{\"items\":[{\"name\":\"Kalamata olives\",\"usda_query\":\"olives ripe canned\",\"grams\":65,\"calories\":75,\"protein_g\":0.5,\"carbs_g\":4,\"fat_g\":7.1},{\"name\":\"Basil leaf\",\"usda_query\":\"basil fresh\",\"grams\":1,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":75}",
+  "latency_ms": 10276,
+  "parsed": {
+    "items": [
+      {
+        "name": "Kalamata olives",
+        "usda_query": "olives ripe canned",
+        "grams": 65,
+        "calories": 75,
+        "protein_g": 0.5,
+        "carbs_g": 4,
+        "fat_g": 7.1
+      },
+      {
+        "name": "Basil leaf",
+        "usda_query": "basil fresh",
+        "grams": 1,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 75
+  }
+}

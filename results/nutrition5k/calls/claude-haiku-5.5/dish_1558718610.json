@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558718610",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7eaa0fa20a22a71b",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 815,
+    "reasoning_tokens": 723,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5373,
+    "ai_credits": 0.0529525
+  },
+  "timestamp": "2026-11-25T00:18:31.656Z",
+  "raw_text": "{\"items\":[{\"name\":\"sweet corn kernels\",\"usda_query\":\"sweet yellow corn cooked boiled drained without salt\",\"grams\":120,\"calories\":115,\"protein_g\":4,\"carbs_g\":25,\"fat_g\":2}],\"total_calories\":115}",
+  "latency_ms": 6238,
+  "parsed": {
+    "items": [
+      {
+        "name": "sweet corn kernels",
+        "usda_query": "sweet yellow corn cooked boiled drained without salt",
+        "grams": 120,
+        "calories": 115,
+        "protein_g": 4,
+        "carbs_g": 25,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 115
+  }
+}

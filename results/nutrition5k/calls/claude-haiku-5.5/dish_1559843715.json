@@ -1,0 +1,23 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559843715",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2afb6ae2e4616809",
+  "status": "invalid_json",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 791,
+    "reasoning_tokens": 496,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3917,
+    "ai_credits": 0.0517525
+  },
+  "timestamp": "2026-11-25T00:11:05.261Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked steamed\",\"grams\":50,\"calories\":18,\"protein_g\":1.4,\"carbs_g\":3.6,\"fat_g\":0.2},{\"name\":\"green apple\",\"usda_query\":\"apples raw with skin granny smith\",\"grams\":150,\"calories\":78,\"protein_g\":0.4,\"carbs_g\":21,\"fat_g\":0.2},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":120,\"calories\":38,\"protein_g\":0.8,\"carbs_g\":7.7,\"fat_g\":0.4},{\"name\":\"roasted potato\",\"usda_query\":\"potatoes roasted flesh and skin\",\"grams\":70,\"calories\":70,\"protein_g\":1.5,\"carbs_g\":15,\"fat_g\":2},{\"items\":[]}],\"total_calories\":204}",
+  "latency_ms": 5062,
+  "error": "items[4] has no name"
+}

@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558628760",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9eef2ff170e8b1d1",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 2003,
+    "reasoning_tokens": 1557,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 21211,
+    "ai_credits": 0.053815
+  },
+  "timestamp": "2026-11-25T00:26:14.726Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked bacon\",\n      \"usda_query\": \"bacon cooked pan fried\",\n      \"grams\": 90,\n      \"calories\": 486,\n      \"protein_g\": 33.3,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 37.8\n    },\n    {\n      \"name\": \"roasted potato\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 130,\n      \"calories\": 169,\n      \"protein_g\": 3.9,\n      \"carbs_g\": 39,\n      \"fat_g\": 1.3\n    },\n    {\n      \"name\": \"roasted carrot\",\n      \"usda_query\": \"carrot roasted\",\n      \"grams\": 90,\n      \"calories\": 37,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 8.6,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"bell pepper red raw\",\n      \"grams\": 35,\n      \"calories\": 11,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"black olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 25,\n      \"calories\": 36,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 3.4\n    },\n    {\n      \"name\": \"cherry tomato\",\n      \"usda_query\": \"tomatoes cherry raw\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 0.1\n    }\n  ],\n  \"total_calories\": 745\n}",
+  "latency_ms": 22075,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked bacon",
+        "usda_query": "bacon cooked pan fried",
+        "grams": 90,
+        "calories": 486,
+        "protein_g": 33.3,
+        "carbs_g": 1.3,
+        "fat_g": 37.8
+      },
+      {
+        "name": "roasted potato",
+        "usda_query": "potato roasted",
+        "grams": 130,
+        "calories": 169,
+        "protein_g": 3.9,
+        "carbs_g": 39,
+        "fat_g": 1.3
+      },
+      {
+        "name": "roasted carrot",
+        "usda_query": "carrot roasted",
+        "grams": 90,
+        "calories": 37,
+        "protein_g": 0.8,
+        "carbs_g": 8.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red raw",
+        "grams": 35,
+        "calories": 11,
+        "protein_g": 0.3,
+        "carbs_g": 2.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 25,
+        "calories": 36,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 3.4
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0.3,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 745
+  }
+}

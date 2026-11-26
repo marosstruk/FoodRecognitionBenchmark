@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568056046",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "33c22e9713032b66",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 585,
+    "reasoning_tokens": 363,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3307,
+    "ai_credits": 0.0414525
+  },
+  "timestamp": "2026-11-25T00:36:29.114Z",
+  "raw_text": "{\"items\":[{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":80,\"calories\":33,\"protein_g\":0.7,\"carbs_g\":7.7,\"fat_g\":0.2},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":90,\"calories\":16,\"protein_g\":0.8,\"carbs_g\":3.5,\"fat_g\":0.2},{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":25,\"calories\":10,\"protein_g\":0.3,\"carbs_g\":2.3,\"fat_g\":0.0}],\"total_calories\":59}",
+  "latency_ms": 4148,
+  "parsed": {
+    "items": [
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 80,
+        "calories": 33,
+        "protein_g": 0.7,
+        "carbs_g": 7.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 90,
+        "calories": 16,
+        "protein_g": 0.8,
+        "carbs_g": 3.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 25,
+        "calories": 10,
+        "protein_g": 0.3,
+        "carbs_g": 2.3,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 59
+  }
+}

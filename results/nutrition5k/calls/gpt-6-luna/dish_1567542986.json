@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567542986",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "70bb446c62526512",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1171,
+    "reasoning_tokens": 678,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8902,
+    "ai_credits": 0.06603
+  },
+  "timestamp": "2026-11-25T00:40:07.057Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Boiled potato\",\n      \"usda_query\": \"potatoes boiled\",\n      \"grams\": 90,\n      \"calories\": 78,\n      \"protein_g\": 2,\n      \"carbs_g\": 18,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Broccoli\",\n      \"usda_query\": \"broccoli cooked\",\n      \"grams\": 75,\n      \"calories\": 26,\n      \"protein_g\": 1.8,\n      \"carbs_g\": 5.3,\n      \"fat_g\": 0.3\n    },\n    {\n      \"name\": \"Creamy lettuce salad\",\n      \"usda_query\": \"lettuce salad with creamy dressing\",\n      \"grams\": 110,\n      \"calories\": 105,\n      \"protein_g\": 2,\n      \"carbs_g\": 8,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"Beef patty\",\n      \"usda_query\": \"ground beef patty cooked\",\n      \"grams\": 90,\n      \"calories\": 225,\n      \"protein_g\": 22,\n      \"carbs_g\": 1,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"Roasted carrots and peppers\",\n      \"usda_query\": \"mixed roasted vegetables\",\n      \"grams\": 70,\n      \"calories\": 35,\n      \"protein_g\": 1,\n      \"carbs_g\": 7,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Roasted chicken\",\n      \"usda_query\": \"chicken breast roasted\",\n      \"grams\": 65,\n      \"calories\": 107,\n      \"protein_g\": 20,\n      \"carbs_g\": 0,\n      \"fat_g\": 2.4\n    },\n    {\n      \"name\": \"Cheese pizza\",\n      \"usda_query\": \"cheese pizza\",\n      \"grams\": 130,\n      \"calories\": 340,\n      \"protein_g\": 15,\n      \"carbs_g\": 39,\n      \"fat_g\": 14\n    }\n  ],\n  \"total_calories\": 916\n}",
+  "latency_ms": 9786,
+  "parsed": {
+    "items": [
+      {
+        "name": "Boiled potato",
+        "usda_query": "potatoes boiled",
+        "grams": 90,
+        "calories": 78,
+        "protein_g": 2,
+        "carbs_g": 18,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Broccoli",
+        "usda_query": "broccoli cooked",
+        "grams": 75,
+        "calories": 26,
+        "protein_g": 1.8,
+        "carbs_g": 5.3,
+        "fat_g": 0.3
+      },
+      {
+        "name": "Creamy lettuce salad",
+        "usda_query": "lettuce salad with creamy dressing",
+        "grams": 110,
+        "calories": 105,
+        "protein_g": 2,
+        "carbs_g": 8,
+        "fat_g": 7
+      },
+      {
+        "name": "Beef patty",
+        "usda_query": "ground beef patty cooked",
+        "grams": 90,
+        "calories": 225,
+        "protein_g": 22,
+        "carbs_g": 1,
+        "fat_g": 15
+      },
+      {
+        "name": "Roasted carrots and peppers",
+        "usda_query": "mixed roasted vegetables",
+        "grams": 70,
+        "calories": 35,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Roasted chicken",
+        "usda_query": "chicken breast roasted",
+        "grams": 65,
+        "calories": 107,
+        "protein_g": 20,
+        "carbs_g": 0,
+        "fat_g": 2.4
+      },
+      {
+        "name": "Cheese pizza",
+        "usda_query": "cheese pizza",
+        "grams": 130,
+        "calories": 340,
+        "protein_g": 15,
+        "carbs_g": 39,
+        "fat_g": 14
+      }
+    ],
+    "total_calories": 916
+  }
+}

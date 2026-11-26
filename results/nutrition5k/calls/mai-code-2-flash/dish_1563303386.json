@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563303386",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "39fef9e4ab0a01d5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1247,
+    "reasoning_tokens": 1084,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 13971,
+    "ai_credits": 0.034915
+  },
+  "timestamp": "2026-11-25T00:10:53.710Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"fried breaded chicken\",\n      \"usda_query\": \"chicken breaded cooked fried\",\n      \"grams\": 160,\n      \"calories\": 462,\n      \"protein_g\": 24,\n      \"carbs_g\": 20,\n      \"fat_g\": 28\n    },\n    {\n      \"name\": \"cherry tomatoes\",\n      \"usda_query\": \"tomatoes cherry raw\",\n      \"grams\": 140,\n      \"calories\": 25,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 5.5,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 487\n}",
+  "latency_ms": 15090,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried breaded chicken",
+        "usda_query": "chicken breaded cooked fried",
+        "grams": 160,
+        "calories": 462,
+        "protein_g": 24,
+        "carbs_g": 20,
+        "fat_g": 28
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 140,
+        "calories": 25,
+        "protein_g": 1.2,
+        "carbs_g": 5.5,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 487
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558463690",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "791188cde85a0108",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1683,
+    "reasoning_tokens": 1534,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 19905,
+    "ai_credits": 0.045815
+  },
+  "timestamp": "2026-11-25T00:32:29.883Z",
+  "raw_text": "{\"items\":[{\"name\":\"cocktail sausages\",\"usda_query\":\"sausage pork cooked\",\"grams\":200,\"calories\":580,\"protein_g\":26,\"carbs_g\":4,\"fat_g\":54},{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes cherry raw\",\"grams\":100,\"calories\":18,\"protein_g\":0.9,\"carbs_g\":3.9,\"fat_g\":0.2},{\"name\":\"red grapes\",\"usda_query\":\"grapes red raw\",\"grams\":100,\"calories\":69,\"protein_g\":0.7,\"carbs_g\":18.1,\"fat_g\":0.2}],\"total_calories\":667}",
+  "latency_ms": 20746,
+  "parsed": {
+    "items": [
+      {
+        "name": "cocktail sausages",
+        "usda_query": "sausage pork cooked",
+        "grams": 200,
+        "calories": 580,
+        "protein_g": 26,
+        "carbs_g": 4,
+        "fat_g": 54
+      },
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes cherry raw",
+        "grams": 100,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red grapes",
+        "usda_query": "grapes red raw",
+        "grams": 100,
+        "calories": 69,
+        "protein_g": 0.7,
+        "carbs_g": 18.1,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 667
+  }
+}

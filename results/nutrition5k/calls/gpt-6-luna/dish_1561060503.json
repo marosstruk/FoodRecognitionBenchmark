@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060503",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "15c45339d5501c8e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 867,
+    "reasoning_tokens": 629,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8997,
+    "ai_credits": 0.05083
+  },
+  "timestamp": "2026-11-25T00:36:52.204Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"pineapple chunks\",\n      \"usda_query\": \"pineapple raw\",\n      \"grams\": 55,\n      \"calories\": 28,\n      \"protein_g\": 0.3,\n      \"carbs_g\": 7.2,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"bok choy\",\n      \"usda_query\": \"bok choy cooked\",\n      \"grams\": 40,\n      \"calories\": 5,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 0.8,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cheese and tomato pizza\",\n      \"usda_query\": \"pizza cheese regular crust\",\n      \"grams\": 45,\n      \"calories\": 119,\n      \"protein_g\": 5.4,\n      \"carbs_g\": 14.5,\n      \"fat_g\": 4.8\n    }\n  ],\n  \"total_calories\": 152\n}",
+  "latency_ms": 10113,
+  "parsed": {
+    "items": [
+      {
+        "name": "pineapple chunks",
+        "usda_query": "pineapple raw",
+        "grams": 55,
+        "calories": 28,
+        "protein_g": 0.3,
+        "carbs_g": 7.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "bok choy",
+        "usda_query": "bok choy cooked",
+        "grams": 40,
+        "calories": 5,
+        "protein_g": 0.6,
+        "carbs_g": 0.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cheese and tomato pizza",
+        "usda_query": "pizza cheese regular crust",
+        "grams": 45,
+        "calories": 119,
+        "protein_g": 5.4,
+        "carbs_g": 14.5,
+        "fat_g": 4.8
+      }
+    ],
+    "total_calories": 152
+  }
+}

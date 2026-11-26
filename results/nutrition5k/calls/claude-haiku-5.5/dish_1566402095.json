@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566402095",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74d3d58c97cafee0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 638,
+    "reasoning_tokens": 472,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4305,
+    "ai_credits": 0.0441025
+  },
+  "timestamp": "2026-11-25T00:19:55.347Z",
+  "raw_text": "{\"items\":[{\"name\":\"cauliflower steamed\",\"usda_query\":\"cauliflower cooked boiled drained\",\"grams\":150,\"calories\":35,\"protein_g\":2.7,\"carbs_g\":6.2,\"fat_g\":0.7},{\"name\":\"sweet potato roasted\",\"usda_query\":\"sweet potato cooked baked without skin\",\"grams\":110,\"calories\":99,\"protein_g\":2.2,\"carbs_g\":23,\"fat_g\":0.2}],\"total_calories\":134}",
+  "latency_ms": 5493,
+  "parsed": {
+    "items": [
+      {
+        "name": "cauliflower steamed",
+        "usda_query": "cauliflower cooked boiled drained",
+        "grams": 150,
+        "calories": 35,
+        "protein_g": 2.7,
+        "carbs_g": 6.2,
+        "fat_g": 0.7
+      },
+      {
+        "name": "sweet potato roasted",
+        "usda_query": "sweet potato cooked baked without skin",
+        "grams": 110,
+        "calories": 99,
+        "protein_g": 2.2,
+        "carbs_g": 23,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 134
+  }
+}

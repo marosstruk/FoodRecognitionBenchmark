@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558113941",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "9095d9b7e14d35e2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1329,
+    "reasoning_tokens": 1137,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16295,
+    "ai_credits": 0.036965
+  },
+  "timestamp": "2026-11-25T00:09:54.071Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked mushrooms\",\"usda_query\":\"mushrooms cooked\",\"grams\":120,\"calories\":35,\"protein_g\":4.8,\"carbs_g\":5.4,\"fat_g\":0.6},{\"name\":\"sauteed spinach\",\"usda_query\":\"spinach cooked\",\"grams\":110,\"calories\":25,\"protein_g\":3.2,\"carbs_g\":4.0,\"fat_g\":0.4},{\"name\":\"cooked carrots\",\"usda_query\":\"carrots cooked\",\"grams\":15,\"calories\":6,\"protein_g\":0.1,\"carbs_g\":1.4,\"fat_g\":0.1},{\"name\":\"cooking oil\",\"usda_query\":\"olive oil\",\"grams\":10,\"calories\":88,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":10}],\"total_calories\":154}",
+  "latency_ms": 17189,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked mushrooms",
+        "usda_query": "mushrooms cooked",
+        "grams": 120,
+        "calories": 35,
+        "protein_g": 4.8,
+        "carbs_g": 5.4,
+        "fat_g": 0.6
+      },
+      {
+        "name": "sauteed spinach",
+        "usda_query": "spinach cooked",
+        "grams": 110,
+        "calories": 25,
+        "protein_g": 3.2,
+        "carbs_g": 4,
+        "fat_g": 0.4
+      },
+      {
+        "name": "cooked carrots",
+        "usda_query": "carrots cooked",
+        "grams": 15,
+        "calories": 6,
+        "protein_g": 0.1,
+        "carbs_g": 1.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "olive oil",
+        "grams": 10,
+        "calories": 88,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 154
+  }
+}

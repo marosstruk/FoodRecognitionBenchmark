@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568060722",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ff66d149385ea8a6",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 937,
+    "reasoning_tokens": 576,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4574,
+    "ai_credits": 0.0590525
+  },
+  "timestamp": "2026-11-25T00:22:28.713Z",
+  "raw_text": "{\"items\":[{\"name\":\"grilled chicken breast\",\"usda_query\":\"chicken breast meat only cooked roasted\",\"grams\":150,\"calories\":248,\"protein_g\":46.5,\"carbs_g\":0,\"fat_g\":5.4},{\"name\":\"avocado\",\"usda_query\":\"avocados raw all commercial varieties\",\"grams\":80,\"calories\":128,\"protein_g\":1.5,\"carbs_g\":6.8,\"fat_g\":11.8},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":12,\"protein_g\":1.2,\"carbs_g\":2.2,\"fat_g\":0.2},{\"name\":\"red onion\",\"usda_query\":\"onions raw\",\"grams\":20,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":1.9,\"fat_g\":0},{\"name\":\"cucumber\",\"usda_query\":\"cucumber peeled raw\",\"grams\":20,\"calories\":3,\"protein_g\":0.1,\"carbs_g\":0.7,\"fat_g\":0.1}],\"total_calories\":399}",
+  "latency_ms": 5694,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast meat only cooked roasted",
+        "grams": 150,
+        "calories": 248,
+        "protein_g": 46.5,
+        "carbs_g": 0,
+        "fat_g": 5.4
+      },
+      {
+        "name": "avocado",
+        "usda_query": "avocados raw all commercial varieties",
+        "grams": 80,
+        "calories": 128,
+        "protein_g": 1.5,
+        "carbs_g": 6.8,
+        "fat_g": 11.8
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 1.2,
+        "carbs_g": 2.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red onion",
+        "usda_query": "onions raw",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.9,
+        "fat_g": 0
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber peeled raw",
+        "grams": 20,
+        "calories": 3,
+        "protein_g": 0.1,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 399
+  }
+}

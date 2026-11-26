@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568666089",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "525a061069446395",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1046,
+    "reasoning_tokens": 698,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11462,
+    "ai_credits": 0.02989
+  },
+  "timestamp": "2026-11-25T00:17:01.278Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"pizza cheese\",\n      \"grams\": 170,\n      \"calories\": 414,\n      \"protein_g\": 17,\n      \"carbs_g\": 48,\n      \"fat_g\": 17\n    },\n    {\n      \"name\": \"roasted potato wedges\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 160,\n      \"calories\": 185,\n      \"protein_g\": 4,\n      \"carbs_g\": 36,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked\",\n      \"grams\": 140,\n      \"calories\": 80,\n      \"protein_g\": 5,\n      \"carbs_g\": 16,\n      \"fat_g\": 1\n    },\n    {\n      \"name\": \"fried zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 100,\n      \"calories\": 130,\n      \"protein_g\": 2,\n      \"carbs_g\": 11,\n      \"fat_g\": 9\n    },\n    {\n      \"name\": \"sauteed mixed leafy vegetables\",\n      \"usda_query\": \"mixed vegetables cooked\",\n      \"grams\": 150,\n      \"calories\": 115,\n      \"protein_g\": 4,\n      \"carbs_g\": 13,\n      \"fat_g\": 6\n    }\n  ],\n  \"total_calories\": 924\n}",
+  "latency_ms": 12673,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "pizza cheese",
+        "grams": 170,
+        "calories": 414,
+        "protein_g": 17,
+        "carbs_g": 48,
+        "fat_g": 17
+      },
+      {
+        "name": "roasted potato wedges",
+        "usda_query": "potato roasted",
+        "grams": 160,
+        "calories": 185,
+        "protein_g": 4,
+        "carbs_g": 36,
+        "fat_g": 4
+      },
+      {
+        "name": "brussels sprouts",
+        "usda_query": "brussels sprouts cooked",
+        "grams": 140,
+        "calories": 80,
+        "protein_g": 5,
+        "carbs_g": 16,
+        "fat_g": 1
+      },
+      {
+        "name": "fried zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 100,
+        "calories": 130,
+        "protein_g": 2,
+        "carbs_g": 11,
+        "fat_g": 9
+      },
+      {
+        "name": "sauteed mixed leafy vegetables",
+        "usda_query": "mixed vegetables cooked",
+        "grams": 150,
+        "calories": 115,
+        "protein_g": 4,
+        "carbs_g": 13,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 924
+  }
+}

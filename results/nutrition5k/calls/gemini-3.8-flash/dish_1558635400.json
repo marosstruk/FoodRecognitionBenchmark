@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558635400",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "878204d44e3c5827",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 403,
+    "reasoning_tokens": 327,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5896,
+    "ai_credits": 0.261675
+  },
+  "timestamp": "2026-11-25T00:21:46.286Z",
+  "raw_text": "{\"items\": [{\"name\": \"cauliflower florets\", \"usda_query\": \"cauliflower raw\", \"grams\": 160, \"calories\": 40, \"protein_g\": 3, \"carbs_g\": 8, \"fat_g\": 0.5}], \"total_calories\": 40}",
+  "latency_ms": 6974,
+  "parsed": {
+    "items": [
+      {
+        "name": "cauliflower florets",
+        "usda_query": "cauliflower raw",
+        "grams": 160,
+        "calories": 40,
+        "protein_g": 3,
+        "carbs_g": 8,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 40
+  }
+}

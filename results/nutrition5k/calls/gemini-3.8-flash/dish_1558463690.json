@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558463690",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "791188cde85a0108",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 873,
+    "reasoning_tokens": 662,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10593,
+    "ai_credits": 0.437925
+  },
+  "timestamp": "2026-11-25T00:32:22.629Z",
+  "raw_text": "{\"items\": [{\"name\": \"whole almonds\", \"usda_query\": \"almonds raw\", \"grams\": 45, \"calories\": 260, \"protein_g\": 9.5, \"carbs_g\": 9.7, \"fat_g\": 22.5}, {\"name\": \"grape tomatoes\", \"usda_query\": \"tomatoes grape raw\", \"grams\": 115, \"calories\": 21, \"protein_g\": 1.0, \"carbs_g\": 4.5, \"fat_g\": 0.2}, {\"name\": \"red seedless grapes\", \"usda_query\": \"grapes red or green raw\", \"grams\": 55, \"calories\": 38, \"protein_g\": 0.4, \"carbs_g\": 9.9, \"fat_g\": 0.1}], \"total_calories\": 319}",
+  "latency_ms": 11481,
+  "parsed": {
+    "items": [
+      {
+        "name": "whole almonds",
+        "usda_query": "almonds raw",
+        "grams": 45,
+        "calories": 260,
+        "protein_g": 9.5,
+        "carbs_g": 9.7,
+        "fat_g": 22.5
+      },
+      {
+        "name": "grape tomatoes",
+        "usda_query": "tomatoes grape raw",
+        "grams": 115,
+        "calories": 21,
+        "protein_g": 1,
+        "carbs_g": 4.5,
+        "fat_g": 0.2
+      },
+      {
+        "name": "red seedless grapes",
+        "usda_query": "grapes red or green raw",
+        "grams": 55,
+        "calories": 38,
+        "protein_g": 0.4,
+        "carbs_g": 9.9,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 319
+  }
+}

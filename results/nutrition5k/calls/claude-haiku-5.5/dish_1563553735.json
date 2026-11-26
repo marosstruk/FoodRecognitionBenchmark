@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563553735",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "285f8e864a12e175",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 677,
+    "reasoning_tokens": 459,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3783,
+    "ai_credits": 0.0460525
+  },
+  "timestamp": "2026-11-25T00:15:58.381Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":60,\"calories\":10,\"protein_g\":0.8,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"strawberries\",\"usda_query\":\"strawberries raw\",\"grams\":40,\"calories\":13,\"protein_g\":0.3,\"carbs_g\":3.1,\"fat_g\":0.1},{\"name\":\"blackberries\",\"usda_query\":\"blackberries raw\",\"grams\":40,\"calories\":17,\"protein_g\":0.6,\"carbs_g\":3.8,\"fat_g\":0.2}],\"total_calories\":40}",
+  "latency_ms": 4921,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 10,
+        "protein_g": 0.8,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 40,
+        "calories": 13,
+        "protein_g": 0.3,
+        "carbs_g": 3.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "blackberries",
+        "usda_query": "blackberries raw",
+        "grams": 40,
+        "calories": 17,
+        "protein_g": 0.6,
+        "carbs_g": 3.8,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 40
+  }
+}

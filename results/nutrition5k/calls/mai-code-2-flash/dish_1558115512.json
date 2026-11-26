@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558115512",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "47d388c11dca4c98",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1267,
+    "reasoning_tokens": 1207,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16686,
+    "ai_credits": 0.035415
+  },
+  "timestamp": "2026-11-25T00:10:17.800Z",
+  "raw_text": "{\"items\":[{\"name\":\"falafel\",\"usda_query\":\"falafel\",\"grams\":210,\"calories\":699,\"protein_g\":27.3,\"carbs_g\":66.8,\"fat_g\":37.8}],\"total_calories\":699}",
+  "latency_ms": 17578,
+  "parsed": {
+    "items": [
+      {
+        "name": "falafel",
+        "usda_query": "falafel",
+        "grams": 210,
+        "calories": 699,
+        "protein_g": 27.3,
+        "carbs_g": 66.8,
+        "fat_g": 37.8
+      }
+    ],
+    "total_calories": 699
+  }
+}

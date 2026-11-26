@@ -1,0 +1,117 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560367116",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "88f11fc29490022c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 2336,
+    "reasoning_tokens": 1611,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 9638,
+    "ai_credits": 0.1290025
+  },
+  "timestamp": "2026-11-25T00:23:57.477Z",
+  "raw_text": "{\"items\":[{\"name\":\"cherry tomatoes\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":45,\"calories\":8,\"protein_g\":0.4,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"cucumber\",\"usda_query\":\"cucumber peeled raw\",\"grams\":60,\"calories\":9,\"protein_g\":0.4,\"carbs_g\":2.2,\"fat_g\":0.1},{\"name\":\"carrot\",\"usda_query\":\"carrots cooked boiled drained\",\"grams\":40,\"calories\":14,\"protein_g\":0.3,\"carbs_g\":3.3,\"fat_g\":0.1},{\"name\":\"red bell pepper\",\"usda_query\":\"peppers sweet red raw\",\"grams\":25,\"calories\":8,\"protein_g\":0.2,\"carbs_g\":1.5,\"fat_g\":0.1},{\"name\":\"broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":25,\"calories\":9,\"protein_g\":0.6,\"carbs_g\":1.8,\"fat_g\":0.1},{\"name\":\"sweet corn\",\"usda_query\":\"corn sweet yellow cooked boiled\",\"grams\":20,\"calories\":19,\"protein_g\":0.7,\"carbs_g\":4.2,\"fat_g\":0.3},{\"name\":\"roasted chicken with skin\",\"usda_query\":\"chicken roasting meat and skin cooked\",\"grams\":60,\"calories\":144,\"protein_g\":15,\"carbs_g\":0,\"fat_g\":9},{\"name\":\"bread stuffing\",\"usda_query\":\"stuffing bread prepared\",\"grams\":50,\"calories\":90,\"protein_g\":2.5,\"carbs_g\":12.5,\"fat_g\":3.5},{\"name\":\"lettuce\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":15,\"calories\":2,\"protein_g\":0.2,\"carbs_g\":0.4,\"fat_g\":0},{\"name\":\"bacon pieces\",\"usda_query\":\"pork bacon cooked pan-fried\",\"grams\":10,\"calories\":54,\"protein_g\":3.7,\"carbs_g\":0.1,\"fat_g\":4.2}],\"total_calories\":357}",
+  "latency_ms": 10776,
+  "parsed": {
+    "items": [
+      {
+        "name": "cherry tomatoes",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 45,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber peeled raw",
+        "grams": 60,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 2.2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "carrot",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 40,
+        "calories": 14,
+        "protein_g": 0.3,
+        "carbs_g": 3.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "peppers sweet red raw",
+        "grams": 25,
+        "calories": 8,
+        "protein_g": 0.2,
+        "carbs_g": 1.5,
+        "fat_g": 0.1
+      },
+      {
+        "name": "broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 25,
+        "calories": 9,
+        "protein_g": 0.6,
+        "carbs_g": 1.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "sweet corn",
+        "usda_query": "corn sweet yellow cooked boiled",
+        "grams": 20,
+        "calories": 19,
+        "protein_g": 0.7,
+        "carbs_g": 4.2,
+        "fat_g": 0.3
+      },
+      {
+        "name": "roasted chicken with skin",
+        "usda_query": "chicken roasting meat and skin cooked",
+        "grams": 60,
+        "calories": 144,
+        "protein_g": 15,
+        "carbs_g": 0,
+        "fat_g": 9
+      },
+      {
+        "name": "bread stuffing",
+        "usda_query": "stuffing bread prepared",
+        "grams": 50,
+        "calories": 90,
+        "protein_g": 2.5,
+        "carbs_g": 12.5,
+        "fat_g": 3.5
+      },
+      {
+        "name": "lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 15,
+        "calories": 2,
+        "protein_g": 0.2,
+        "carbs_g": 0.4,
+        "fat_g": 0
+      },
+      {
+        "name": "bacon pieces",
+        "usda_query": "pork bacon cooked pan-fried",
+        "grams": 10,
+        "calories": 54,
+        "protein_g": 3.7,
+        "carbs_g": 0.1,
+        "fat_g": 4.2
+      }
+    ],
+    "total_calories": 357
+  }
+}

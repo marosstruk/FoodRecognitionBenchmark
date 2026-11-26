@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562010369",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "a166cacc89241b72",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1111,
+    "reasoning_tokens": 899,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5794,
+    "ai_credits": 0.0677525
+  },
+  "timestamp": "2026-11-25T00:09:55.291Z",
+  "raw_text": "{\"items\":[{\"name\":\"cooked chicken pieces\",\"usda_query\":\"chicken thigh meat roasted\",\"grams\":45,\"calories\":94,\"protein_g\":12,\"carbs_g\":0,\"fat_g\":11},{\"name\":\"fried shredded potato\",\"usda_query\":\"potatoes hash browns fried\",\"grams\":15,\"calories\":36,\"protein_g\":0,\"carbs_g\":4,\"fat_g\":2},{\"name\":\"red cabbage\",\"usda_query\":\"cabbage red raw\",\"grams\":3,\"calories\":1,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":131}",
+  "latency_ms": 6655,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked chicken pieces",
+        "usda_query": "chicken thigh meat roasted",
+        "grams": 45,
+        "calories": 94,
+        "protein_g": 12,
+        "carbs_g": 0,
+        "fat_g": 11
+      },
+      {
+        "name": "fried shredded potato",
+        "usda_query": "potatoes hash browns fried",
+        "grams": 15,
+        "calories": 36,
+        "protein_g": 0,
+        "carbs_g": 4,
+        "fat_g": 2
+      },
+      {
+        "name": "red cabbage",
+        "usda_query": "cabbage red raw",
+        "grams": 3,
+        "calories": 1,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 131
+  }
+}

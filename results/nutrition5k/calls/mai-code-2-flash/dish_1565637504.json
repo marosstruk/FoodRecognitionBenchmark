@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565637504",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "989ef2ea06d3b849",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 251,
+    "reasoning_tokens": 189,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 3930,
+    "ai_credits": 0.010015
+  },
+  "timestamp": "2026-11-25T00:24:06.123Z",
+  "raw_text": "{\"items\":[{\"name\":\"diced mango\",\"usda_query\":\"mango raw\",\"grams\":100,\"calories\":60,\"protein_g\":0.8,\"carbs_g\":15.0,\"fat_g\":0.4}],\"total_calories\":60}",
+  "latency_ms": 4788,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced mango",
+        "usda_query": "mango raw",
+        "grams": 100,
+        "calories": 60,
+        "protein_g": 0.8,
+        "carbs_g": 15,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 60
+  }
+}

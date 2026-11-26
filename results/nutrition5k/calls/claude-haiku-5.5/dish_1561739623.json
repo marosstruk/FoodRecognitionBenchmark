@@ -1,0 +1,72 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561739623",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b146a52b995be728",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1317,
+    "reasoning_tokens": 951,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6292,
+    "ai_credits": 0.0780525
+  },
+  "timestamp": "2026-11-25T00:21:48.866Z",
+  "raw_text": "{\"items\":[{\"name\":\"broccoli florets\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":150,\"calories\":51,\"protein_g\":4.2,\"carbs_g\":9.9,\"fat_g\":0.6},{\"name\":\"roasted sweet potato\",\"usda_query\":\"sweet potato cooked baked in skin flesh\",\"grams\":110,\"calories\":124,\"protein_g\":2,\"carbs_g\":21,\"fat_g\":3.5},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw\",\"grams\":20,\"calories\":4,\"protein_g\":0.2,\"carbs_g\":0.8,\"fat_g\":0.1},{\"name\":\"dark grape\",\"usda_query\":\"grapes red or green raw\",\"grams\":10,\"calories\":7,\"protein_g\":0.1,\"carbs_g\":1.8,\"fat_g\":0},{\"name\":\"dark grape\",\"usda_query\":\"grapes red or green raw\",\"grams\":10,\"calories\":7,\"protein_g\":0.1,\"carbs_g\":1.8,\"fat_g\":0}],\"total_calories\":193}",
+  "latency_ms": 7405,
+  "parsed": {
+    "items": [
+      {
+        "name": "broccoli florets",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 150,
+        "calories": 51,
+        "protein_g": 4.2,
+        "carbs_g": 9.9,
+        "fat_g": 0.6
+      },
+      {
+        "name": "roasted sweet potato",
+        "usda_query": "sweet potato cooked baked in skin flesh",
+        "grams": 110,
+        "calories": 124,
+        "protein_g": 2,
+        "carbs_g": 21,
+        "fat_g": 3.5
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw",
+        "grams": 20,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.8,
+        "fat_g": 0.1
+      },
+      {
+        "name": "dark grape",
+        "usda_query": "grapes red or green raw",
+        "grams": 10,
+        "calories": 7,
+        "protein_g": 0.1,
+        "carbs_g": 1.8,
+        "fat_g": 0
+      },
+      {
+        "name": "dark grape",
+        "usda_query": "grapes red or green raw",
+        "grams": 10,
+        "calories": 7,
+        "protein_g": 0.1,
+        "carbs_g": 1.8,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 193
+  }
+}

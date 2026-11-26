@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1560888849",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "449de1e0794f5961",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 942,
+    "reasoning_tokens": 644,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9311,
+    "ai_credits": 0.05458
+  },
+  "timestamp": "2026-11-25T00:37:29.687Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Chicken breast with creamy sauce\",\n      \"usda_query\": \"chicken breast cooked\",\n      \"grams\": 90,\n      \"calories\": 149,\n      \"protein_g\": 28,\n      \"carbs_g\": 0,\n      \"fat_g\": 3.2\n    },\n    {\n      \"name\": \"Cream sauce\",\n      \"usda_query\": \"cream sauce\",\n      \"grams\": 15,\n      \"calories\": 30,\n      \"protein_g\": 0.5,\n      \"carbs_g\": 1,\n      \"fat_g\": 2.7\n    },\n    {\n      \"name\": \"Cooked lentils\",\n      \"usda_query\": \"lentils cooked\",\n      \"grams\": 18,\n      \"calories\": 21,\n      \"protein_g\": 1.6,\n      \"carbs_g\": 3.6,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"Roasted potato\",\n      \"usda_query\": \"potato roasted\",\n      \"grams\": 80,\n      \"calories\": 120,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 20,\n      \"fat_g\": 3.5\n    }\n  ],\n  \"total_calories\": 320\n}",
+  "latency_ms": 10448,
+  "parsed": {
+    "items": [
+      {
+        "name": "Chicken breast with creamy sauce",
+        "usda_query": "chicken breast cooked",
+        "grams": 90,
+        "calories": 149,
+        "protein_g": 28,
+        "carbs_g": 0,
+        "fat_g": 3.2
+      },
+      {
+        "name": "Cream sauce",
+        "usda_query": "cream sauce",
+        "grams": 15,
+        "calories": 30,
+        "protein_g": 0.5,
+        "carbs_g": 1,
+        "fat_g": 2.7
+      },
+      {
+        "name": "Cooked lentils",
+        "usda_query": "lentils cooked",
+        "grams": 18,
+        "calories": 21,
+        "protein_g": 1.6,
+        "carbs_g": 3.6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "Roasted potato",
+        "usda_query": "potato roasted",
+        "grams": 80,
+        "calories": 120,
+        "protein_g": 2.2,
+        "carbs_g": 20,
+        "fat_g": 3.5
+      }
+    ],
+    "total_calories": 320
+  }
+}

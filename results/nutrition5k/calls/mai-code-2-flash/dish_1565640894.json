@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640894",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "f12d952a3d9f2c7f",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1021,
+    "reasoning_tokens": 591,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10568,
+    "ai_credits": 0.029265
+  },
+  "timestamp": "2026-11-25T00:38:47.497Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cooked pasta\",\n      \"usda_query\": \"pasta cooked\",\n      \"grams\": 135,\n      \"calories\": 273,\n      \"protein_g\": 10,\n      \"carbs_g\": 53,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"beet\",\n      \"usda_query\": \"beets cooked\",\n      \"grams\": 70,\n      \"calories\": 32,\n      \"protein_g\": 1.2,\n      \"carbs_g\": 7,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber with peel\",\n      \"grams\": 55,\n      \"calories\": 8,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.9,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"green olives\",\n      \"usda_query\": \"olives green\",\n      \"grams\": 35,\n      \"calories\": 48,\n      \"protein_g\": 0.4,\n      \"carbs_g\": 1.1,\n      \"fat_g\": 5\n    },\n    {\n      \"name\": \"Parmesan cheese\",\n      \"usda_query\": \"parmesan cheese grated\",\n      \"grams\": 20,\n      \"calories\": 86,\n      \"protein_g\": 7.8,\n      \"carbs_g\": 0.7,\n      \"fat_g\": 5.8\n    },\n    {\n      \"name\": \"olive oil dressing\",\n      \"usda_query\": \"olive oil\",\n      \"grams\": 10,\n      \"calories\": 88,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 10\n    }\n  ],\n  \"total_calories\": 535\n}",
+  "latency_ms": 11724,
+  "parsed": {
+    "items": [
+      {
+        "name": "cooked pasta",
+        "usda_query": "pasta cooked",
+        "grams": 135,
+        "calories": 273,
+        "protein_g": 10,
+        "carbs_g": 53,
+        "fat_g": 1.5
+      },
+      {
+        "name": "beet",
+        "usda_query": "beets cooked",
+        "grams": 70,
+        "calories": 32,
+        "protein_g": 1.2,
+        "carbs_g": 7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel",
+        "grams": 55,
+        "calories": 8,
+        "protein_g": 0.4,
+        "carbs_g": 1.9,
+        "fat_g": 0.1
+      },
+      {
+        "name": "green olives",
+        "usda_query": "olives green",
+        "grams": 35,
+        "calories": 48,
+        "protein_g": 0.4,
+        "carbs_g": 1.1,
+        "fat_g": 5
+      },
+      {
+        "name": "Parmesan cheese",
+        "usda_query": "parmesan cheese grated",
+        "grams": 20,
+        "calories": 86,
+        "protein_g": 7.8,
+        "carbs_g": 0.7,
+        "fat_g": 5.8
+      },
+      {
+        "name": "olive oil dressing",
+        "usda_query": "olive oil",
+        "grams": 10,
+        "calories": 88,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 10
+      }
+    ],
+    "total_calories": 535
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564516366",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7945fe3dad778057",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 688,
+    "reasoning_tokens": 602,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4174,
+    "ai_credits": 0.0466025
+  },
+  "timestamp": "2026-11-25T00:32:02.727Z",
+  "raw_text": "{\"items\":[{\"name\":\"black olives\",\"usda_query\":\"olives ripe canned small-extra large\",\"grams\":30,\"calories\":35,\"protein_g\":0.3,\"carbs_g\":1.9,\"fat_g\":3.2}],\"total_calories\":35}",
+  "latency_ms": 5081,
+  "parsed": {
+    "items": [
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned small-extra large",
+        "grams": 30,
+        "calories": 35,
+        "protein_g": 0.3,
+        "carbs_g": 1.9,
+        "fat_g": 3.2
+      }
+    ],
+    "total_calories": 35
+  }
+}

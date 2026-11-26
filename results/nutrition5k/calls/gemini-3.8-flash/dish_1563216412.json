@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563216412",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7ff781a266423131",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 513,
+    "reasoning_tokens": 324,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 5881,
+    "ai_credits": 0.302925
+  },
+  "timestamp": "2026-11-25T00:30:26.353Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"white rice\",\n      \"usda_query\": \"rice white cooked\",\n      \"grams\": 70,\n      \"calories\": 91,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 19.7,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli cooked steamed\",\n      \"grams\": 90,\n      \"calories\": 32,\n      \"protein_g\": 2.2,\n      \"carbs_g\": 6.5,\n      \"fat_g\": 0.4\n    }\n  ],\n  \"total_calories\": 123\n}",
+  "latency_ms": 6747,
+  "parsed": {
+    "items": [
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 70,
+        "calories": 91,
+        "protein_g": 1.9,
+        "carbs_g": 19.7,
+        "fat_g": 0.2
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked steamed",
+        "grams": 90,
+        "calories": 32,
+        "protein_g": 2.2,
+        "carbs_g": 6.5,
+        "fat_g": 0.4
+      }
+    ],
+    "total_calories": 123
+  }
+}

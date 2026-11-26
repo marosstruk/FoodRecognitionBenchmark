@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562945823",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "421440ccf90a6970",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 812,
+    "reasoning_tokens": 587,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4081,
+    "ai_credits": 0.0528025
+  },
+  "timestamp": "2026-11-25T00:17:24.663Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":80,\"calories\":14,\"protein_g\":1.1,\"carbs_g\":2.6,\"fat_g\":0.2},{\"name\":\"apple\",\"usda_query\":\"apples raw with skin\",\"grams\":60,\"calories\":31,\"protein_g\":0.2,\"carbs_g\":8.4,\"fat_g\":0.1},{\"name\":\"cantaloupe melon\",\"usda_query\":\"melons cantaloupe raw\",\"grams\":70,\"calories\":24,\"protein_g\":0.6,\"carbs_g\":5.7,\"fat_g\":0.1}],\"total_calories\":69}",
+  "latency_ms": 5235,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 80,
+        "calories": 14,
+        "protein_g": 1.1,
+        "carbs_g": 2.6,
+        "fat_g": 0.2
+      },
+      {
+        "name": "apple",
+        "usda_query": "apples raw with skin",
+        "grams": 60,
+        "calories": 31,
+        "protein_g": 0.2,
+        "carbs_g": 8.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cantaloupe melon",
+        "usda_query": "melons cantaloupe raw",
+        "grams": 70,
+        "calories": 24,
+        "protein_g": 0.6,
+        "carbs_g": 5.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 69
+  }
+}

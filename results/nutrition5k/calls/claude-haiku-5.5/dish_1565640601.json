@@ -1,0 +1,135 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565640601",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "47fe1eb34b71fecc",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1795,
+    "reasoning_tokens": 972,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 7878,
+    "ai_credits": 0.1019525
+  },
+  "timestamp": "2026-11-25T00:20:48.834Z",
+  "raw_text": "{\"items\":[{\"name\":\"mixed green lettuce\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":120,\"calories\":20,\"protein_g\":2,\"carbs_g\":4,\"fat_g\":0.3},{\"name\":\"baby spinach\",\"usda_query\":\"spinach raw\",\"grams\":30,\"calories\":7,\"protein_g\":0.9,\"carbs_g\":1.1,\"fat_g\":0.1},{\"name\":\"asparagus spears\",\"usda_query\":\"asparagus cooked boiled\",\"grams\":80,\"calories\":17,\"protein_g\":2.2,\"carbs_g\":3.3,\"fat_g\":0.2},{\"name\":\"cherry tomato\",\"usda_query\":\"tomatoes red ripe raw cherry\",\"grams\":50,\"calories\":9,\"protein_g\":0.4,\"carbs_g\":2,\"fat_g\":0.1},{\"name\":\"mango chunks\",\"usda_query\":\"mangos raw\",\"grams\":40,\"calories\":24,\"protein_g\":0.3,\"carbs_g\":6,\"fat_g\":0.1},{\"name\":\"grilled zucchini\",\"usda_query\":\"squash summer zucchini includes skin cooked grilled\",\"grams\":50,\"calories\":45,\"protein_g\":1,\"carbs_g\":3,\"fat_g\":3},{\"name\":\"white rice\",\"usda_query\":\"rice white cooked\",\"grams\":60,\"calories\":78,\"protein_g\":1.6,\"carbs_g\":17,\"fat_g\":0.2},{\"name\":\"grilled beef slices\",\"usda_query\":\"beef sirloin grilled\",\"grams\":70,\"calories\":150,\"protein_g\":20,\"carbs_g\":0,\"fat_g\":7},{\"name\":\"breaded fried chicken pieces\",\"usda_query\":\"chicken breast meat breaded fried\",\"grams\":70,\"calories\":170,\"protein_g\":16,\"carbs_g\":8,\"fat_g\":8},{\"name\":\"shredded carrot\",\"usda_query\":\"carrots raw\",\"grams\":5,\"calories\":2,\"protein_g\":0,\"carbs_g\":0.5,\"fat_g\":0},{\"name\":\"raisins\",\"usda_query\":\"raisins seedless\",\"grams\":3,\"calories\":9,\"protein_g\":0.1,\"carbs_g\":2.4,\"fat_g\":0},{\"name\":\"grated cheese\",\"usda_query\":\"cheese parmesan grated\",\"grams\":5,\"calories\":20,\"protein_g\":1.8,\"carbs_g\":0.2,\"fat_g\":1.4}],\"total_calories\":551}",
+  "latency_ms": 8963,
+  "parsed": {
+    "items": [
+      {
+        "name": "mixed green lettuce",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 120,
+        "calories": 20,
+        "protein_g": 2,
+        "carbs_g": 4,
+        "fat_g": 0.3
+      },
+      {
+        "name": "baby spinach",
+        "usda_query": "spinach raw",
+        "grams": 30,
+        "calories": 7,
+        "protein_g": 0.9,
+        "carbs_g": 1.1,
+        "fat_g": 0.1
+      },
+      {
+        "name": "asparagus spears",
+        "usda_query": "asparagus cooked boiled",
+        "grams": 80,
+        "calories": 17,
+        "protein_g": 2.2,
+        "carbs_g": 3.3,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cherry tomato",
+        "usda_query": "tomatoes red ripe raw cherry",
+        "grams": 50,
+        "calories": 9,
+        "protein_g": 0.4,
+        "carbs_g": 2,
+        "fat_g": 0.1
+      },
+      {
+        "name": "mango chunks",
+        "usda_query": "mangos raw",
+        "grams": 40,
+        "calories": 24,
+        "protein_g": 0.3,
+        "carbs_g": 6,
+        "fat_g": 0.1
+      },
+      {
+        "name": "grilled zucchini",
+        "usda_query": "squash summer zucchini includes skin cooked grilled",
+        "grams": 50,
+        "calories": 45,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 3
+      },
+      {
+        "name": "white rice",
+        "usda_query": "rice white cooked",
+        "grams": 60,
+        "calories": 78,
+        "protein_g": 1.6,
+        "carbs_g": 17,
+        "fat_g": 0.2
+      },
+      {
+        "name": "grilled beef slices",
+        "usda_query": "beef sirloin grilled",
+        "grams": 70,
+        "calories": 150,
+        "protein_g": 20,
+        "carbs_g": 0,
+        "fat_g": 7
+      },
+      {
+        "name": "breaded fried chicken pieces",
+        "usda_query": "chicken breast meat breaded fried",
+        "grams": 70,
+        "calories": 170,
+        "protein_g": 16,
+        "carbs_g": 8,
+        "fat_g": 8
+      },
+      {
+        "name": "shredded carrot",
+        "usda_query": "carrots raw",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 0
+      },
+      {
+        "name": "raisins",
+        "usda_query": "raisins seedless",
+        "grams": 3,
+        "calories": 9,
+        "protein_g": 0.1,
+        "carbs_g": 2.4,
+        "fat_g": 0
+      },
+      {
+        "name": "grated cheese",
+        "usda_query": "cheese parmesan grated",
+        "grams": 5,
+        "calories": 20,
+        "protein_g": 1.8,
+        "carbs_g": 0.2,
+        "fat_g": 1.4
+      }
+    ],
+    "total_calories": 551
+  }
+}

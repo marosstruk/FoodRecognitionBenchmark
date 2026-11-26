@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1564589308",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "28df11eee38976f4",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 332,
+    "reasoning_tokens": 249,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 2735,
+    "ai_credits": 0.0288025
+  },
+  "timestamp": "2026-11-25T00:14:04.890Z",
+  "raw_text": "{\"items\":[{\"name\":\"roast potatoes\",\"usda_query\":\"potatoes home fried in oil\",\"grams\":220,\"calories\":286,\"protein_g\":5.5,\"carbs_g\":44,\"fat_g\":11}],\"total_calories\":286}",
+  "latency_ms": 3904,
+  "parsed": {
+    "items": [
+      {
+        "name": "roast potatoes",
+        "usda_query": "potatoes home fried in oil",
+        "grams": 220,
+        "calories": 286,
+        "protein_g": 5.5,
+        "carbs_g": 44,
+        "fat_g": 11
+      }
+    ],
+    "total_calories": 286
+  }
+}

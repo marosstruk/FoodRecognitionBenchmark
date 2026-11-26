@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558544663",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "0aac34157a1f3a78",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 201,
+    "reasoning_tokens": 102,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 4279,
+    "ai_credits": 0.01753
+  },
+  "timestamp": "2026-11-25T00:21:17.208Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"oatmeal porridge\",\n      \"usda_query\": \"oatmeal cooked with water\",\n      \"grams\": 250,\n      \"calories\": 178,\n      \"protein_g\": 6.2,\n      \"carbs_g\": 30.1,\n      \"fat_g\": 3.7\n    }\n  ],\n  \"total_calories\": 178\n}",
+  "latency_ms": 5553,
+  "parsed": {
+    "items": [
+      {
+        "name": "oatmeal porridge",
+        "usda_query": "oatmeal cooked with water",
+        "grams": 250,
+        "calories": 178,
+        "protein_g": 6.2,
+        "carbs_g": 30.1,
+        "fat_g": 3.7
+      }
+    ],
+    "total_calories": 178
+  }
+}

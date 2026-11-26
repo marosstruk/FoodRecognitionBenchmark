@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1573491330",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "7731cd0d4236e39e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 454,
+    "reasoning_tokens": 290,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6139,
+    "ai_credits": 0.01509
+  },
+  "timestamp": "2026-11-25T00:21:10.401Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"tomatoes\",\n      \"usda_query\": \"tomatoes red raw\",\n      \"grams\": 95,\n      \"calories\": 18,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 3.9,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cauliflower\",\n      \"usda_query\": \"cauliflower cooked boiled\",\n      \"grams\": 150,\n      \"calories\": 35,\n      \"protein_g\": 2.7,\n      \"carbs_g\": 6.8,\n      \"fat_g\": 0.6\n    }\n  ],\n  \"total_calories\": 53\n}",
+  "latency_ms": 7245,
+  "parsed": {
+    "items": [
+      {
+        "name": "tomatoes",
+        "usda_query": "tomatoes red raw",
+        "grams": 95,
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cauliflower",
+        "usda_query": "cauliflower cooked boiled",
+        "grams": 150,
+        "calories": 35,
+        "protein_g": 2.7,
+        "carbs_g": 6.8,
+        "fat_g": 0.6
+      }
+    ],
+    "total_calories": 53
+  }
+}

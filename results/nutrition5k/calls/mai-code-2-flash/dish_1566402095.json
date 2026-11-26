@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566402095",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "74d3d58c97cafee0",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 561,
+    "reasoning_tokens": 454,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8629,
+    "ai_credits": 0.017765
+  },
+  "timestamp": "2026-11-25T00:19:57.497Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg scrambled\",\"grams\":180,\"calories\":288,\"protein_g\":20.3,\"carbs_g\":2.5,\"fat_g\":21.4},{\"name\":\"tomato sauce\",\"usda_query\":\"tomato sauce canned\",\"grams\":55,\"calories\":20,\"protein_g\":0.9,\"carbs_g\":4.2,\"fat_g\":0.2}],\"total_calories\":308}",
+  "latency_ms": 9542,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 180,
+        "calories": 288,
+        "protein_g": 20.3,
+        "carbs_g": 2.5,
+        "fat_g": 21.4
+      },
+      {
+        "name": "tomato sauce",
+        "usda_query": "tomato sauce canned",
+        "grams": 55,
+        "calories": 20,
+        "protein_g": 0.9,
+        "carbs_g": 4.2,
+        "fat_g": 0.2
+      }
+    ],
+    "total_calories": 308
+  }
+}

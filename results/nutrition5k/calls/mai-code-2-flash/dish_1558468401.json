@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1558468401",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "4b9f3086bf4fd33d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 591,
+    "reasoning_tokens": 498,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 11335,
+    "ai_credits": 0.018515
+  },
+  "timestamp": "2026-11-25T00:11:57.320Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"avocado\",\n      \"usda_query\": \"avocado raw\",\n      \"grams\": 140,\n      \"calories\": 224,\n      \"protein_g\": 2.8,\n      \"carbs_g\": 11.9,\n      \"fat_g\": 20.5\n    }\n  ],\n  \"total_calories\": 224\n}",
+  "latency_ms": 12491,
+  "parsed": {
+    "items": [
+      {
+        "name": "avocado",
+        "usda_query": "avocado raw",
+        "grams": 140,
+        "calories": 224,
+        "protein_g": 2.8,
+        "carbs_g": 11.9,
+        "fat_g": 20.5
+      }
+    ],
+    "total_calories": 224
+  }
+}

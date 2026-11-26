@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566414723",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "382eab913bf0f3cb",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1156,
+    "reasoning_tokens": 781,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 10317,
+    "ai_credits": 0.54405
+  },
+  "timestamp": "2026-11-25T00:18:17.448Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"diced chicken breast\",\n      \"usda_query\": \"chicken breast cooked roasted\",\n      \"grams\": 85,\n      \"calories\": 140,\n      \"protein_g\": 26.3,\n      \"carbs_g\": 0.0,\n      \"fat_g\": 3.0\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 110,\n      \"calories\": 145,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 22.0,\n      \"fat_g\": 5.5\n    },\n    {\n      \"name\": \"chicken in creamy herb sauce\",\n      \"usda_query\": \"chicken breast with cream sauce\",\n      \"grams\": 140,\n      \"calories\": 210,\n      \"protein_g\": 18.2,\n      \"carbs_g\": 4.1,\n      \"fat_g\": 13.3\n    },\n    {\n      \"name\": \"marinated artichoke hearts\",\n      \"usda_query\": \"artichoke hearts cooked\",\n      \"grams\": 50,\n      \"calories\": 45,\n      \"protein_g\": 1.5,\n      \"carbs_g\": 5.2,\n      \"fat_g\": 2.1\n    }\n  ],\n  \"total_calories\": 540\n}",
+  "latency_ms": 11512,
+  "parsed": {
+    "items": [
+      {
+        "name": "diced chicken breast",
+        "usda_query": "chicken breast cooked roasted",
+        "grams": 85,
+        "calories": 140,
+        "protein_g": 26.3,
+        "carbs_g": 0,
+        "fat_g": 3
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 110,
+        "calories": 145,
+        "protein_g": 2.5,
+        "carbs_g": 22,
+        "fat_g": 5.5
+      },
+      {
+        "name": "chicken in creamy herb sauce",
+        "usda_query": "chicken breast with cream sauce",
+        "grams": 140,
+        "calories": 210,
+        "protein_g": 18.2,
+        "carbs_g": 4.1,
+        "fat_g": 13.3
+      },
+      {
+        "name": "marinated artichoke hearts",
+        "usda_query": "artichoke hearts cooked",
+        "grams": 50,
+        "calories": 45,
+        "protein_g": 1.5,
+        "carbs_g": 5.2,
+        "fat_g": 2.1
+      }
+    ],
+    "total_calories": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563824279",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "ecc1f90fb0115d82",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 787,
+    "reasoning_tokens": 686,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10289,
+    "ai_credits": 0.023415
+  },
+  "timestamp": "2026-11-25T00:24:56.783Z",
+  "raw_text": "{\"items\":[{\"name\":\"sliced onions\",\"usda_query\":\"onion raw\",\"grams\":45,\"calories\":18,\"protein_g\":0.5,\"carbs_g\":4.2,\"fat_g\":0},{\"name\":\"soy sauce\",\"usda_query\":\"soy sauce\",\"grams\":40,\"calories\":23,\"protein_g\":3.1,\"carbs_g\":2.2,\"fat_g\":0}],\"total_calories\":41}",
+  "latency_ms": 11192,
+  "parsed": {
+    "items": [
+      {
+        "name": "sliced onions",
+        "usda_query": "onion raw",
+        "grams": 45,
+        "calories": 18,
+        "protein_g": 0.5,
+        "carbs_g": 4.2,
+        "fat_g": 0
+      },
+      {
+        "name": "soy sauce",
+        "usda_query": "soy sauce",
+        "grams": 40,
+        "calories": 23,
+        "protein_g": 3.1,
+        "carbs_g": 2.2,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 41
+  }
+}

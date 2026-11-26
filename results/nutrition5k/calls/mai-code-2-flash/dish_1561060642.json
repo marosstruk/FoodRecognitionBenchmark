@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561060642",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6ee9ee789c2f028e",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 925,
+    "reasoning_tokens": 622,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 16235,
+    "ai_credits": 0.026865
+  },
+  "timestamp": "2026-11-25T00:37:10.007Z",
+  "raw_text": "{\"items\":[{\"name\":\"lasagna\",\"usda_query\":\"lasagna with meat and cheese\",\"grams\":150,\"calories\":350,\"protein_g\":16,\"carbs_g\":34,\"fat_g\":17},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted with oil\",\"grams\":170,\"calories\":170,\"protein_g\":4,\"carbs_g\":35,\"fat_g\":3},{\"name\":\"penne with tomato sauce\",\"usda_query\":\"penne pasta tomato sauce\",\"grams\":130,\"calories\":210,\"protein_g\":7,\"carbs_g\":41,\"fat_g\":3},{\"name\":\"green beans\",\"usda_query\":\"green beans cooked\",\"grams\":70,\"calories\":35,\"protein_g\":2,\"carbs_g\":8,\"fat_g\":0},{\"name\":\"cooked cabbage\",\"usda_query\":\"cabbage cooked\",\"grams\":70,\"calories\":25,\"protein_g\":1,\"carbs_g\":6,\"fat_g\":0},{\"name\":\"breaded chicken cutlet\",\"usda_query\":\"breaded chicken breast fried\",\"grams\":110,\"calories\":280,\"protein_g\":25,\"carbs_g\":12,\"fat_g\":15},{\"name\":\"fried tofu cubes\",\"usda_query\":\"tofu fried\",\"grams\":60,\"calories\":130,\"protein_g\":10,\"carbs_g\":4,\"fat_g\":8}],\"total_calories\":1200}",
+  "latency_ms": 17145,
+  "parsed": {
+    "items": [
+      {
+        "name": "lasagna",
+        "usda_query": "lasagna with meat and cheese",
+        "grams": 150,
+        "calories": 350,
+        "protein_g": 16,
+        "carbs_g": 34,
+        "fat_g": 17
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 170,
+        "calories": 170,
+        "protein_g": 4,
+        "carbs_g": 35,
+        "fat_g": 3
+      },
+      {
+        "name": "penne with tomato sauce",
+        "usda_query": "penne pasta tomato sauce",
+        "grams": 130,
+        "calories": 210,
+        "protein_g": 7,
+        "carbs_g": 41,
+        "fat_g": 3
+      },
+      {
+        "name": "green beans",
+        "usda_query": "green beans cooked",
+        "grams": 70,
+        "calories": 35,
+        "protein_g": 2,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "cooked cabbage",
+        "usda_query": "cabbage cooked",
+        "grams": 70,
+        "calories": 25,
+        "protein_g": 1,
+        "carbs_g": 6,
+        "fat_g": 0
+      },
+      {
+        "name": "breaded chicken cutlet",
+        "usda_query": "breaded chicken breast fried",
+        "grams": 110,
+        "calories": 280,
+        "protein_g": 25,
+        "carbs_g": 12,
+        "fat_g": 15
+      },
+      {
+        "name": "fried tofu cubes",
+        "usda_query": "tofu fried",
+        "grams": 60,
+        "calories": 130,
+        "protein_g": 10,
+        "carbs_g": 4,
+        "fat_g": 8
+      }
+    ],
+    "total_calories": 1200
+  }
+}

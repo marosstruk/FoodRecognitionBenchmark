@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559060106",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "98d3ebe873c04c22",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 540,
+    "reasoning_tokens": 308,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6931,
+    "ai_credits": 0.03448
+  },
+  "timestamp": "2026-11-25T00:21:25.372Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cooked bacon\",\n      \"usda_query\": \"bacon cooked pan-fried\",\n      \"grams\": 35,\n      \"calories\": 190,\n      \"protein_g\": 12,\n      \"carbs_g\": 0.5,\n      \"fat_g\": 15\n    },\n    {\n      \"name\": \"Roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 135,\n      \"calories\": 160,\n      \"protein_g\": 3.5,\n      \"carbs_g\": 28,\n      \"fat_g\": 4\n    },\n    {\n      \"name\": \"Strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 110,\n      \"calories\": 35,\n      \"protein_g\": 0.7,\n      \"carbs_g\": 8.5,\n      \"fat_g\": 0.3\n    }\n  ],\n  \"total_calories\": 385\n}",
+  "latency_ms": 8036,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cooked bacon",
+        "usda_query": "bacon cooked pan-fried",
+        "grams": 35,
+        "calories": 190,
+        "protein_g": 12,
+        "carbs_g": 0.5,
+        "fat_g": 15
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 135,
+        "calories": 160,
+        "protein_g": 3.5,
+        "carbs_g": 28,
+        "fat_g": 4
+      },
+      {
+        "name": "Strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 110,
+        "calories": 35,
+        "protein_g": 0.7,
+        "carbs_g": 8.5,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 385
+  }
+}

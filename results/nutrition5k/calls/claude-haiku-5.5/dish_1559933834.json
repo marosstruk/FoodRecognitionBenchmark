@@ -1,0 +1,90 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559933834",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "814f99c3ffea5e01",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1599,
+    "reasoning_tokens": 880,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6933,
+    "ai_credits": 0.0921525
+  },
+  "timestamp": "2026-11-25T00:33:19.228Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"roasted Brussels sprouts\",\n      \"usda_query\": \"brussels sprouts cooked boiled or roasted with oil\",\n      \"grams\": 150,\n      \"calories\": 90,\n      \"protein_g\": 4,\n      \"carbs_g\": 12,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"mixed salad greens\",\n      \"usda_query\": \"lettuce green leaf raw\",\n      \"grams\": 60,\n      \"calories\": 12,\n      \"protein_g\": 1,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"vinaigrette dressing\",\n      \"usda_query\": \"salad dressing vinaigrette italian regular\",\n      \"grams\": 15,\n      \"calories\": 60,\n      \"protein_g\": 0,\n      \"carbs_g\": 3,\n      \"fat_g\": 6\n    },\n    {\n      \"name\": \"roasted chicken pieces\",\n      \"usda_query\": \"chicken thigh meat and skin roasted\",\n      \"grams\": 200,\n      \"calories\": 380,\n      \"protein_g\": 44,\n      \"carbs_g\": 3,\n      \"fat_g\": 22\n    },\n    {\n      \"name\": \"roasted bell pepper and carrot\",\n      \"usda_query\": \"peppers sweet red raw or carrots cooked boiled\",\n      \"grams\": 40,\n      \"calories\": 35,\n      \"protein_g\": 1,\n      \"carbs_g\": 8,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"crispy pastry wrap\",\n      \"usda_query\": \"phyllo dough pastry baked\",\n      \"grams\": 50,\n      \"calories\": 150,\n      \"protein_g\": 3,\n      \"carbs_g\": 20,\n      \"fat_g\": 7\n    },\n    {\n      \"name\": \"filo pastry wrap with chicken\",\n      \"usda_query\": \"spring roll wrapper fried or pastry dough fried\",\n      \"grams\": 60,\n      \"calories\": 150,\n      \"protein_g\": 5,\n      \"carbs_g\": 18,\n      \"fat_g\": 6\n    }\n  ],\n  \"total_calories\": 877\n}",
+  "latency_ms": 8268,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted Brussels sprouts",
+        "usda_query": "brussels sprouts cooked boiled or roasted with oil",
+        "grams": 150,
+        "calories": 90,
+        "protein_g": 4,
+        "carbs_g": 12,
+        "fat_g": 3
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 60,
+        "calories": 12,
+        "protein_g": 1,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "vinaigrette dressing",
+        "usda_query": "salad dressing vinaigrette italian regular",
+        "grams": 15,
+        "calories": 60,
+        "protein_g": 0,
+        "carbs_g": 3,
+        "fat_g": 6
+      },
+      {
+        "name": "roasted chicken pieces",
+        "usda_query": "chicken thigh meat and skin roasted",
+        "grams": 200,
+        "calories": 380,
+        "protein_g": 44,
+        "carbs_g": 3,
+        "fat_g": 22
+      },
+      {
+        "name": "roasted bell pepper and carrot",
+        "usda_query": "peppers sweet red raw or carrots cooked boiled",
+        "grams": 40,
+        "calories": 35,
+        "protein_g": 1,
+        "carbs_g": 8,
+        "fat_g": 0
+      },
+      {
+        "name": "crispy pastry wrap",
+        "usda_query": "phyllo dough pastry baked",
+        "grams": 50,
+        "calories": 150,
+        "protein_g": 3,
+        "carbs_g": 20,
+        "fat_g": 7
+      },
+      {
+        "name": "filo pastry wrap with chicken",
+        "usda_query": "spring roll wrapper fried or pastry dough fried",
+        "grams": 60,
+        "calories": 150,
+        "protein_g": 5,
+        "carbs_g": 18,
+        "fat_g": 6
+      }
+    ],
+    "total_calories": 877
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562085672",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "497851ec813a1160",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 296,
+    "reasoning_tokens": 238,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 5128,
+    "ai_credits": 0.02228
+  },
+  "timestamp": "2026-11-25T00:12:36.679Z",
+  "raw_text": "{\"items\":[{\"name\":\"white bread\",\"usda_query\":\"white bread\",\"grams\":55,\"calories\":146,\"protein_g\":4.9,\"carbs_g\":27,\"fat_g\":1.8}],\"total_calories\":146}",
+  "latency_ms": 6184,
+  "parsed": {
+    "items": [
+      {
+        "name": "white bread",
+        "usda_query": "white bread",
+        "grams": 55,
+        "calories": 146,
+        "protein_g": 4.9,
+        "carbs_g": 27,
+        "fat_g": 1.8
+      }
+    ],
+    "total_calories": 146
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561654732",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "2d63915a08f934ec",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 889,
+    "reasoning_tokens": 611,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 4547,
+    "ai_credits": 0.0566525
+  },
+  "timestamp": "2026-11-25T00:31:11.155Z",
+  "raw_text": "{\"items\":[{\"name\":\"fried potato chunks\",\"usda_query\":\"potatoes fried in vegetable oil home-prepared\",\"grams\":140,\"calories\":210,\"protein_g\":3,\"carbs_g\":26,\"fat_g\":10},{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":110,\"calories\":165,\"protein_g\":12,\"carbs_g\":2,\"fat_g\":12},{\"name\":\"cooked carrot\",\"usda_query\":\"carrots cooked boiled drained\",\"grams\":20,\"calories\":8,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"butter\",\"usda_query\":\"butter salted\",\"grams\":0,\"calories\":0,\"protein_g\":0,\"carbs_g\":0,\"fat_g\":0}],\"total_calories\":383}",
+  "latency_ms": 5648,
+  "parsed": {
+    "items": [
+      {
+        "name": "fried potato chunks",
+        "usda_query": "potatoes fried in vegetable oil home-prepared",
+        "grams": 140,
+        "calories": 210,
+        "protein_g": 3,
+        "carbs_g": 26,
+        "fat_g": 10
+      },
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 110,
+        "calories": 165,
+        "protein_g": 12,
+        "carbs_g": 2,
+        "fat_g": 12
+      },
+      {
+        "name": "cooked carrot",
+        "usda_query": "carrots cooked boiled drained",
+        "grams": 20,
+        "calories": 8,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "butter",
+        "usda_query": "butter salted",
+        "grams": 0,
+        "calories": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 383
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563909580",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b280c8a80dac30e5",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1001,
+    "reasoning_tokens": 631,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 8118,
+    "ai_credits": 0.485925
+  },
+  "timestamp": "2026-11-25T00:29:41.713Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"cheese pizza\",\n      \"usda_query\": \"cheese pizza regular crust\",\n      \"grams\": 130,\n      \"calories\": 350,\n      \"protein_g\": 15.2,\n      \"carbs_g\": 39.1,\n      \"fat_g\": 14.8\n    },\n    {\n      \"name\": \"yellow rice\",\n      \"usda_query\": \"rice yellow cooked\",\n      \"grams\": 110,\n      \"calories\": 165,\n      \"protein_g\": 3.5,\n      \"carbs_g\": 31.0,\n      \"fat_g\": 2.8\n    },\n    {\n      \"name\": \"cooked green beans\",\n      \"usda_query\": \"snap beans cooked with oil\",\n      \"grams\": 100,\n      \"calories\": 55,\n      \"protein_g\": 1.9,\n      \"carbs_g\": 7.0,\n      \"fat_g\": 2.5\n    },\n    {\n      \"name\": \"spinach salad with parmesan\",\n      \"usda_query\": \"spinach raw with parmesan cheese\",\n      \"grams\": 35,\n      \"calories\": 35,\n      \"protein_g\": 3.0,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 2.0\n    }\n  ],\n  \"total_calories\": 605\n}",
+  "latency_ms": 8985,
+  "parsed": {
+    "items": [
+      {
+        "name": "cheese pizza",
+        "usda_query": "cheese pizza regular crust",
+        "grams": 130,
+        "calories": 350,
+        "protein_g": 15.2,
+        "carbs_g": 39.1,
+        "fat_g": 14.8
+      },
+      {
+        "name": "yellow rice",
+        "usda_query": "rice yellow cooked",
+        "grams": 110,
+        "calories": 165,
+        "protein_g": 3.5,
+        "carbs_g": 31,
+        "fat_g": 2.8
+      },
+      {
+        "name": "cooked green beans",
+        "usda_query": "snap beans cooked with oil",
+        "grams": 100,
+        "calories": 55,
+        "protein_g": 1.9,
+        "carbs_g": 7,
+        "fat_g": 2.5
+      },
+      {
+        "name": "spinach salad with parmesan",
+        "usda_query": "spinach raw with parmesan cheese",
+        "grams": 35,
+        "calories": 35,
+        "protein_g": 3,
+        "carbs_g": 1.5,
+        "fat_g": 2
+      }
+    ],
+    "total_calories": 605
+  }
+}

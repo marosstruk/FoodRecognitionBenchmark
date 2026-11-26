@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568055986",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b3aa2d58c13a39f7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 540,
+    "reasoning_tokens": 389,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3414,
+    "ai_credits": 0.0392025
+  },
+  "timestamp": "2026-11-25T00:14:40.033Z",
+  "raw_text": "{\"items\":[{\"name\":\"red onion\",\"usda_query\":\"onions red raw\",\"grams\":80,\"calories\":32,\"protein_g\":0.9,\"carbs_g\":7.4,\"fat_g\":0.1},{\"name\":\"kidney beans\",\"usda_query\":\"kidney beans red canned drained solids\",\"grams\":100,\"calories\":127,\"protein_g\":8.7,\"carbs_g\":22.8,\"fat_g\":0.5}],\"total_calories\":159}",
+  "latency_ms": 4325,
+  "parsed": {
+    "items": [
+      {
+        "name": "red onion",
+        "usda_query": "onions red raw",
+        "grams": 80,
+        "calories": 32,
+        "protein_g": 0.9,
+        "carbs_g": 7.4,
+        "fat_g": 0.1
+      },
+      {
+        "name": "kidney beans",
+        "usda_query": "kidney beans red canned drained solids",
+        "grams": 100,
+        "calories": 127,
+        "protein_g": 8.7,
+        "carbs_g": 22.8,
+        "fat_g": 0.5
+      }
+    ],
+    "total_calories": 159
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1559845046",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "80d461a80a139e42",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1062,
+    "reasoning_tokens": 755,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5163,
+    "ai_credits": 0.0653025
+  },
+  "timestamp": "2026-11-25T00:09:24.711Z",
+  "raw_text": "{\"items\":[{\"name\":\"roasted almonds\",\"usda_query\":\"almonds dry roasted without salt\",\"grams\":35,\"calories\":212,\"protein_g\":7.4,\"carbs_g\":7.6,\"fat_g\":18.6},{\"name\":\"roasted potatoes\",\"usda_query\":\"potatoes roasted in oil\",\"grams\":150,\"calories\":205,\"protein_g\":3.0,\"carbs_g\":30.0,\"fat_g\":8.0},{\"name\":\"steamed broccoli\",\"usda_query\":\"broccoli cooked boiled drained\",\"grams\":80,\"calories\":28,\"protein_g\":1.9,\"carbs_g\":5.8,\"fat_g\":0.3},{\"name\":\"mandarin orange\",\"usda_query\":\"tangerines mandarin orange raw\",\"grams\":100,\"calories\":53,\"protein_g\":0.8,\"carbs_g\":13.3,\"fat_g\":0.3}],\"total_calories\":498}",
+  "latency_ms": 6026,
+  "parsed": {
+    "items": [
+      {
+        "name": "roasted almonds",
+        "usda_query": "almonds dry roasted without salt",
+        "grams": 35,
+        "calories": 212,
+        "protein_g": 7.4,
+        "carbs_g": 7.6,
+        "fat_g": 18.6
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted in oil",
+        "grams": 150,
+        "calories": 205,
+        "protein_g": 3,
+        "carbs_g": 30,
+        "fat_g": 8
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled drained",
+        "grams": 80,
+        "calories": 28,
+        "protein_g": 1.9,
+        "carbs_g": 5.8,
+        "fat_g": 0.3
+      },
+      {
+        "name": "mandarin orange",
+        "usda_query": "tangerines mandarin orange raw",
+        "grams": 100,
+        "calories": 53,
+        "protein_g": 0.8,
+        "carbs_g": 13.3,
+        "fat_g": 0.3
+      }
+    ],
+    "total_calories": 498
+  }
+}

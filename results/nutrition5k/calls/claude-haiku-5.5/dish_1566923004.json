@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1566923004",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6956c64955230597",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 597,
+    "reasoning_tokens": 436,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 3503,
+    "ai_credits": 0.0420525
+  },
+  "timestamp": "2026-11-25T00:28:42.439Z",
+  "raw_text": "{\"items\":[{\"name\":\"scrambled eggs\",\"usda_query\":\"egg whole cooked scrambled\",\"grams\":90,\"calories\":134,\"protein_g\":9.0,\"carbs_g\":1.4,\"fat_g\":10.1},{\"name\":\"fresh pineapple\",\"usda_query\":\"pineapple raw all varieties\",\"grams\":120,\"calories\":60,\"protein_g\":0.6,\"carbs_g\":15.7,\"fat_g\":0.1}],\"total_calories\":194}",
+  "latency_ms": 4376,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg whole cooked scrambled",
+        "grams": 90,
+        "calories": 134,
+        "protein_g": 9,
+        "carbs_g": 1.4,
+        "fat_g": 10.1
+      },
+      {
+        "name": "fresh pineapple",
+        "usda_query": "pineapple raw all varieties",
+        "grams": 120,
+        "calories": 60,
+        "protein_g": 0.6,
+        "carbs_g": 15.7,
+        "fat_g": 0.1
+      }
+    ],
+    "total_calories": 194
+  }
+}

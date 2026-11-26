@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562777068",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "6ec86b05069a8796",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 1032,
+    "reasoning_tokens": 726,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 10959,
+    "ai_credits": 0.02954
+  },
+  "timestamp": "2026-11-25T00:29:08.871Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 170,\n      \"calories\": 251,\n      \"protein_g\": 16.0,\n      \"carbs_g\": 3.4,\n      \"fat_g\": 18.2\n    },\n    {\n      \"name\": \"breakfast potatoes\",\n      \"usda_query\": \"potatoes pan fried\",\n      \"grams\": 90,\n      \"calories\": 171,\n      \"protein_g\": 3.3,\n      \"carbs_g\": 24.3,\n      \"fat_g\": 7.2\n    },\n    {\n      \"name\": \"strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 120,\n      \"calories\": 38,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 9.2,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"breakfast sausage\",\n      \"usda_query\": \"pork sausage cooked\",\n      \"grams\": 75,\n      \"calories\": 245,\n      \"protein_g\": 9.8,\n      \"carbs_g\": 1.5,\n      \"fat_g\": 21.8\n    }\n  ],\n  \"total_calories\": 705\n}",
+  "latency_ms": 11825,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 170,
+        "calories": 251,
+        "protein_g": 16,
+        "carbs_g": 3.4,
+        "fat_g": 18.2
+      },
+      {
+        "name": "breakfast potatoes",
+        "usda_query": "potatoes pan fried",
+        "grams": 90,
+        "calories": 171,
+        "protein_g": 3.3,
+        "carbs_g": 24.3,
+        "fat_g": 7.2
+      },
+      {
+        "name": "strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 120,
+        "calories": 38,
+        "protein_g": 0.8,
+        "carbs_g": 9.2,
+        "fat_g": 0.4
+      },
+      {
+        "name": "breakfast sausage",
+        "usda_query": "pork sausage cooked",
+        "grams": 75,
+        "calories": 245,
+        "protein_g": 9.8,
+        "carbs_g": 1.5,
+        "fat_g": 21.8
+      }
+    ],
+    "total_calories": 705
+  }
+}

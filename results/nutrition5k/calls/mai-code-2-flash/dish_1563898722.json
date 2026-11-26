@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563898722",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "d3e9975910f66f20",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 583,
+    "reasoning_tokens": 431,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 6835,
+    "ai_credits": 0.018315
+  },
+  "timestamp": "2026-11-25T00:33:07.524Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"scrambled eggs\",\n      \"usda_query\": \"egg scrambled\",\n      \"grams\": 160,\n      \"calories\": 238,\n      \"protein_g\": 16,\n      \"carbs_g\": 2,\n      \"fat_g\": 18\n    },\n    {\n      \"name\": \"steamed broccoli\",\n      \"usda_query\": \"broccoli cooked boiled\",\n      \"grams\": 130,\n      \"calories\": 46,\n      \"protein_g\": 3,\n      \"carbs_g\": 9,\n      \"fat_g\": 1\n    }\n  ],\n  \"total_calories\": 284\n}",
+  "latency_ms": 7706,
+  "parsed": {
+    "items": [
+      {
+        "name": "scrambled eggs",
+        "usda_query": "egg scrambled",
+        "grams": 160,
+        "calories": 238,
+        "protein_g": 16,
+        "carbs_g": 2,
+        "fat_g": 18
+      },
+      {
+        "name": "steamed broccoli",
+        "usda_query": "broccoli cooked boiled",
+        "grams": 130,
+        "calories": 46,
+        "protein_g": 3,
+        "carbs_g": 9,
+        "fat_g": 1
+      }
+    ],
+    "total_calories": 284
+  }
+}

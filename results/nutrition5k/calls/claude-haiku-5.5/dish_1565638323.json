@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1565638323",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "86c7faa6c3258abf",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1352,
+    "reasoning_tokens": 927,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 6074,
+    "ai_credits": 0.0798025
+  },
+  "timestamp": "2026-11-25T00:30:33.252Z",
+  "raw_text": "{\"items\":[{\"name\":\"stir-fried beef strips\",\"usda_query\":\"beef stir-fried sirloin lean and fat\",\"grams\":120,\"calories\":300,\"protein_g\":31,\"carbs_g\":0,\"fat_g\":18},{\"name\":\"fried white rice\",\"usda_query\":\"rice white fried cooked in oil\",\"grams\":180,\"calories\":280,\"protein_g\":5,\"carbs_g\":52,\"fat_g\":6},{\"name\":\"carrot cooked\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":40,\"calories\":16,\"protein_g\":0,\"carbs_g\":4,\"fat_g\":0},{\"name\":\"tomato\",\"usda_query\":\"tomatoes red raw\",\"grams\":40,\"calories\":7,\"protein_g\":0,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"leafy greens cooked\",\"usda_query\":\"spinach cooked boiled drained without salt\",\"grams\":50,\"calories\":12,\"protein_g\":2,\"carbs_g\":2,\"fat_g\":0},{\"name\":\"mushrooms cooked\",\"usda_query\":\"mushrooms cooked saute without salt\",\"grams\":30,\"calories\":7,\"protein_g\":1,\"carbs_g\":1,\"fat_g\":0}],\"total_calories\":622}",
+  "latency_ms": 7194,
+  "parsed": {
+    "items": [
+      {
+        "name": "stir-fried beef strips",
+        "usda_query": "beef stir-fried sirloin lean and fat",
+        "grams": 120,
+        "calories": 300,
+        "protein_g": 31,
+        "carbs_g": 0,
+        "fat_g": 18
+      },
+      {
+        "name": "fried white rice",
+        "usda_query": "rice white fried cooked in oil",
+        "grams": 180,
+        "calories": 280,
+        "protein_g": 5,
+        "carbs_g": 52,
+        "fat_g": 6
+      },
+      {
+        "name": "carrot cooked",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 40,
+        "calories": 16,
+        "protein_g": 0,
+        "carbs_g": 4,
+        "fat_g": 0
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomatoes red raw",
+        "grams": 40,
+        "calories": 7,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "leafy greens cooked",
+        "usda_query": "spinach cooked boiled drained without salt",
+        "grams": 50,
+        "calories": 12,
+        "protein_g": 2,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "mushrooms cooked",
+        "usda_query": "mushrooms cooked saute without salt",
+        "grams": 30,
+        "calories": 7,
+        "protein_g": 1,
+        "carbs_g": 1,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 622
+  }
+}

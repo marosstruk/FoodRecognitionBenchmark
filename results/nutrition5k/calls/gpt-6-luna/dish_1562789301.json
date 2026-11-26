@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562789301",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "45dd2fa640645497",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 915,
+    "reasoning_tokens": 482,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9081,
+    "ai_credits": 0.05323
+  },
+  "timestamp": "2026-11-25T00:39:25.882Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"sweet corn\",\n      \"usda_query\": \"sweet corn cooked\",\n      \"grams\": 110,\n      \"calories\": 106,\n      \"protein_g\": 3.7,\n      \"carbs_g\": 23.2,\n      \"fat_g\": 1.7\n    },\n    {\n      \"name\": \"cheese and tomato pizza\",\n      \"usda_query\": \"cheese pizza\",\n      \"grams\": 100,\n      \"calories\": 266,\n      \"protein_g\": 11,\n      \"carbs_g\": 33,\n      \"fat_g\": 10\n    },\n    {\n      \"name\": \"grilled chicken breast\",\n      \"usda_query\": \"chicken breast grilled\",\n      \"grams\": 120,\n      \"calories\": 198,\n      \"protein_g\": 37,\n      \"carbs_g\": 0,\n      \"fat_g\": 4.3\n    },\n    {\n      \"name\": \"leaf lettuce\",\n      \"usda_query\": \"leaf lettuce raw\",\n      \"grams\": 45,\n      \"calories\": 7,\n      \"protein_g\": 0.6,\n      \"carbs_g\": 1.3,\n      \"fat_g\": 0.1\n    },\n    {\n      \"name\": \"cucumber\",\n      \"usda_query\": \"cucumber with peel raw\",\n      \"grams\": 25,\n      \"calories\": 4,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 0.9,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"creamy salad dressing\",\n      \"usda_query\": \"creamy salad dressing\",\n      \"grams\": 20,\n      \"calories\": 90,\n      \"protein_g\": 0.2,\n      \"carbs_g\": 1,\n      \"fat_g\": 9\n    }\n  ],\n  \"total_calories\": 671\n}",
+  "latency_ms": 9969,
+  "parsed": {
+    "items": [
+      {
+        "name": "sweet corn",
+        "usda_query": "sweet corn cooked",
+        "grams": 110,
+        "calories": 106,
+        "protein_g": 3.7,
+        "carbs_g": 23.2,
+        "fat_g": 1.7
+      },
+      {
+        "name": "cheese and tomato pizza",
+        "usda_query": "cheese pizza",
+        "grams": 100,
+        "calories": 266,
+        "protein_g": 11,
+        "carbs_g": 33,
+        "fat_g": 10
+      },
+      {
+        "name": "grilled chicken breast",
+        "usda_query": "chicken breast grilled",
+        "grams": 120,
+        "calories": 198,
+        "protein_g": 37,
+        "carbs_g": 0,
+        "fat_g": 4.3
+      },
+      {
+        "name": "leaf lettuce",
+        "usda_query": "leaf lettuce raw",
+        "grams": 45,
+        "calories": 7,
+        "protein_g": 0.6,
+        "carbs_g": 1.3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "cucumber",
+        "usda_query": "cucumber with peel raw",
+        "grams": 25,
+        "calories": 4,
+        "protein_g": 0.2,
+        "carbs_g": 0.9,
+        "fat_g": 0
+      },
+      {
+        "name": "creamy salad dressing",
+        "usda_query": "creamy salad dressing",
+        "grams": 20,
+        "calories": 90,
+        "protein_g": 0.2,
+        "carbs_g": 1,
+        "fat_g": 9
+      }
+    ],
+    "total_calories": 671
+  }
+}

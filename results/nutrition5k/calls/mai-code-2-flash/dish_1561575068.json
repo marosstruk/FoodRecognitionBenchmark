@@ -1,0 +1,108 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561575068",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "e0a7883468736a3d",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 2129,
+    "reasoning_tokens": 1516,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 20474,
+    "ai_credits": 0.056965
+  },
+  "timestamp": "2026-11-25T00:14:59.708Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"grilled eggplant\",\n      \"usda_query\": \"eggplant cooked\",\n      \"grams\": 90,\n      \"calories\": 31,\n      \"protein_g\": 1,\n      \"carbs_g\": 7,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"grilled zucchini\",\n      \"usda_query\": \"zucchini cooked\",\n      \"grams\": 50,\n      \"calories\": 17,\n      \"protein_g\": 1,\n      \"carbs_g\": 3,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"red bell pepper\",\n      \"usda_query\": \"bell pepper red cooked\",\n      \"grams\": 35,\n      \"calories\": 11,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"mixed leafy greens\",\n      \"usda_query\": \"mixed salad greens raw\",\n      \"grams\": 30,\n      \"calories\": 7,\n      \"protein_g\": 1,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"grilled halloumi\",\n      \"usda_query\": \"halloumi cheese\",\n      \"grams\": 50,\n      \"calories\": 178,\n      \"protein_g\": 11,\n      \"carbs_g\": 2,\n      \"fat_g\": 14\n    },\n    {\n      \"name\": \"tomato\",\n      \"usda_query\": \"tomato red raw\",\n      \"grams\": 35,\n      \"calories\": 6,\n      \"protein_g\": 0,\n      \"carbs_g\": 1,\n      \"fat_g\": 0\n    },\n    {\n      \"name\": \"black olives\",\n      \"usda_query\": \"olives ripe canned\",\n      \"grams\": 20,\n      \"calories\": 29,\n      \"protein_g\": 0,\n      \"carbs_g\": 2,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"croutons\",\n      \"usda_query\": \"croutons\",\n      \"grams\": 25,\n      \"calories\": 105,\n      \"protein_g\": 3,\n      \"carbs_g\": 18,\n      \"fat_g\": 3\n    },\n    {\n      \"name\": \"balsamic vinaigrette\",\n      \"usda_query\": \"balsamic vinaigrette\",\n      \"grams\": 15,\n      \"calories\": 50,\n      \"protein_g\": 0,\n      \"carbs_g\": 4,\n      \"fat_g\": 4\n    }\n  ],\n  \"total_calories\": 434\n}",
+  "latency_ms": 21601,
+  "parsed": {
+    "items": [
+      {
+        "name": "grilled eggplant",
+        "usda_query": "eggplant cooked",
+        "grams": 90,
+        "calories": 31,
+        "protein_g": 1,
+        "carbs_g": 7,
+        "fat_g": 0
+      },
+      {
+        "name": "grilled zucchini",
+        "usda_query": "zucchini cooked",
+        "grams": 50,
+        "calories": 17,
+        "protein_g": 1,
+        "carbs_g": 3,
+        "fat_g": 0
+      },
+      {
+        "name": "red bell pepper",
+        "usda_query": "bell pepper red cooked",
+        "grams": 35,
+        "calories": 11,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 0
+      },
+      {
+        "name": "mixed leafy greens",
+        "usda_query": "mixed salad greens raw",
+        "grams": 30,
+        "calories": 7,
+        "protein_g": 1,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "grilled halloumi",
+        "usda_query": "halloumi cheese",
+        "grams": 50,
+        "calories": 178,
+        "protein_g": 11,
+        "carbs_g": 2,
+        "fat_g": 14
+      },
+      {
+        "name": "tomato",
+        "usda_query": "tomato red raw",
+        "grams": 35,
+        "calories": 6,
+        "protein_g": 0,
+        "carbs_g": 1,
+        "fat_g": 0
+      },
+      {
+        "name": "black olives",
+        "usda_query": "olives ripe canned",
+        "grams": 20,
+        "calories": 29,
+        "protein_g": 0,
+        "carbs_g": 2,
+        "fat_g": 3
+      },
+      {
+        "name": "croutons",
+        "usda_query": "croutons",
+        "grams": 25,
+        "calories": 105,
+        "protein_g": 3,
+        "carbs_g": 18,
+        "fat_g": 3
+      },
+      {
+        "name": "balsamic vinaigrette",
+        "usda_query": "balsamic vinaigrette",
+        "grams": 15,
+        "calories": 50,
+        "protein_g": 0,
+        "carbs_g": 4,
+        "fat_g": 4
+      }
+    ],
+    "total_calories": 434
+  }
+}

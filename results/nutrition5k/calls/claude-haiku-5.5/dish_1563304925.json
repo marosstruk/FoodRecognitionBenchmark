@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1563304925",
+  "model": "claude-haiku-5.5",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "cbf9c2c67be5191c",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 977,
+    "output_tokens": 1156,
+    "reasoning_tokens": 714,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 973,
+    "premium_requests": 1,
+    "model_duration_ms": 5928,
+    "ai_credits": 0.0700025
+  },
+  "timestamp": "2026-11-25T00:20:36.627Z",
+  "raw_text": "{\"items\":[{\"name\":\"herb-crusted chicken breast\",\"usda_query\":\"chicken breast meat roasted with breadcrumb coating\",\"grams\":200,\"calories\":290,\"protein_g\":46,\"carbs_g\":5,\"fat_g\":9},{\"name\":\"seared beef\",\"usda_query\":\"beef sirloin steak cooked pan-broiled\",\"grams\":80,\"calories\":150,\"protein_g\":22,\"carbs_g\":0,\"fat_g\":7},{\"name\":\"cooked carrot\",\"usda_query\":\"carrots cooked boiled drained without salt\",\"grams\":30,\"calories\":12,\"protein_g\":0.3,\"carbs_g\":3,\"fat_g\":0.1},{\"name\":\"fresh dill\",\"usda_query\":\"dill weed fresh\",\"grams\":10,\"calories\":4,\"protein_g\":0.4,\"carbs_g\":0.7,\"fat_g\":0.1},{\"name\":\"mixed salad greens\",\"usda_query\":\"lettuce green leaf raw\",\"grams\":10,\"calories\":2,\"protein_g\":0.2,\"carbs_g\":0.3,\"fat_g\":0},{\"name\":\"fennel fronds\",\"usda_query\":\"fennel bulb raw\",\"grams\":5,\"calories\":2,\"protein_g\":0.1,\"carbs_g\":0.4,\"fat_g\":0}],\"total_calories\":460}",
+  "latency_ms": 7027,
+  "parsed": {
+    "items": [
+      {
+        "name": "herb-crusted chicken breast",
+        "usda_query": "chicken breast meat roasted with breadcrumb coating",
+        "grams": 200,
+        "calories": 290,
+        "protein_g": 46,
+        "carbs_g": 5,
+        "fat_g": 9
+      },
+      {
+        "name": "seared beef",
+        "usda_query": "beef sirloin steak cooked pan-broiled",
+        "grams": 80,
+        "calories": 150,
+        "protein_g": 22,
+        "carbs_g": 0,
+        "fat_g": 7
+      },
+      {
+        "name": "cooked carrot",
+        "usda_query": "carrots cooked boiled drained without salt",
+        "grams": 30,
+        "calories": 12,
+        "protein_g": 0.3,
+        "carbs_g": 3,
+        "fat_g": 0.1
+      },
+      {
+        "name": "fresh dill",
+        "usda_query": "dill weed fresh",
+        "grams": 10,
+        "calories": 4,
+        "protein_g": 0.4,
+        "carbs_g": 0.7,
+        "fat_g": 0.1
+      },
+      {
+        "name": "mixed salad greens",
+        "usda_query": "lettuce green leaf raw",
+        "grams": 10,
+        "calories": 2,
+        "protein_g": 0.2,
+        "carbs_g": 0.3,
+        "fat_g": 0
+      },
+      {
+        "name": "fennel fronds",
+        "usda_query": "fennel bulb raw",
+        "grams": 5,
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbs_g": 0.4,
+        "fat_g": 0
+      }
+    ],
+    "total_calories": 460
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1568055986",
+  "model": "mai-code-2-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "b3aa2d58c13a39f7",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 597,
+    "reasoning_tokens": 439,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 7068,
+    "ai_credits": 0.018665
+  },
+  "timestamp": "2026-11-25T00:14:40.445Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"red onion slices\",\n      \"usda_query\": \"onion red cooked\",\n      \"grams\": 120,\n      \"calories\": 48,\n      \"protein_g\": 1.3,\n      \"carbs_g\": 11.2,\n      \"fat_g\": 0.2\n    },\n    {\n      \"name\": \"cooking oil\",\n      \"usda_query\": \"oil vegetable\",\n      \"grams\": 15,\n      \"calories\": 133,\n      \"protein_g\": 0,\n      \"carbs_g\": 0,\n      \"fat_g\": 15\n    }\n  ],\n  \"total_calories\": 181\n}",
+  "latency_ms": 8191,
+  "parsed": {
+    "items": [
+      {
+        "name": "red onion slices",
+        "usda_query": "onion red cooked",
+        "grams": 120,
+        "calories": 48,
+        "protein_g": 1.3,
+        "carbs_g": 11.2,
+        "fat_g": 0.2
+      },
+      {
+        "name": "cooking oil",
+        "usda_query": "oil vegetable",
+        "grams": 15,
+        "calories": 133,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 15
+      }
+    ],
+    "total_calories": 181
+  }
+}

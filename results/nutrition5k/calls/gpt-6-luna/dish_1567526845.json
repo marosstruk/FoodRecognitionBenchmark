@@ -1,0 +1,63 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1567526845",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "49e3505220c24509",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 872,
+    "reasoning_tokens": 562,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 8833,
+    "ai_credits": 0.05108
+  },
+  "timestamp": "2026-11-25T00:15:08.676Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Cottage cheese\",\n      \"usda_query\": \"cottage cheese 4% milkfat\",\n      \"grams\": 300,\n      \"calories\": 294,\n      \"protein_g\": 34.2,\n      \"carbs_g\": 10.2,\n      \"fat_g\": 12.9\n    },\n    {\n      \"name\": \"Strawberries\",\n      \"usda_query\": \"strawberries raw\",\n      \"grams\": 130,\n      \"calories\": 42,\n      \"protein_g\": 0.9,\n      \"carbs_g\": 10.0,\n      \"fat_g\": 0.4\n    },\n    {\n      \"name\": \"Blueberries\",\n      \"usda_query\": \"blueberries raw\",\n      \"grams\": 15,\n      \"calories\": 9,\n      \"protein_g\": 0.1,\n      \"carbs_g\": 2.2,\n      \"fat_g\": 0.0\n    },\n    {\n      \"name\": \"Roasted sweet potato\",\n      \"usda_query\": \"sweet potato roasted\",\n      \"grams\": 150,\n      \"calories\": 180,\n      \"protein_g\": 3.0,\n      \"carbs_g\": 31.0,\n      \"fat_g\": 4.5\n    }\n  ],\n  \"total_calories\": 525\n}",
+  "latency_ms": 9947,
+  "parsed": {
+    "items": [
+      {
+        "name": "Cottage cheese",
+        "usda_query": "cottage cheese 4% milkfat",
+        "grams": 300,
+        "calories": 294,
+        "protein_g": 34.2,
+        "carbs_g": 10.2,
+        "fat_g": 12.9
+      },
+      {
+        "name": "Strawberries",
+        "usda_query": "strawberries raw",
+        "grams": 130,
+        "calories": 42,
+        "protein_g": 0.9,
+        "carbs_g": 10,
+        "fat_g": 0.4
+      },
+      {
+        "name": "Blueberries",
+        "usda_query": "blueberries raw",
+        "grams": 15,
+        "calories": 9,
+        "protein_g": 0.1,
+        "carbs_g": 2.2,
+        "fat_g": 0
+      },
+      {
+        "name": "Roasted sweet potato",
+        "usda_query": "sweet potato roasted",
+        "grams": 150,
+        "calories": 180,
+        "protein_g": 3,
+        "carbs_g": 31,
+        "fat_g": 4.5
+      }
+    ],
+    "total_calories": 525
+  }
+}

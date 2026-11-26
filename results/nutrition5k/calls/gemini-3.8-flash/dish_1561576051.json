@@ -1,0 +1,81 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1561576051",
+  "model": "gemini-3.8-flash",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "3131372c79beafb2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 1474,
+    "output_tokens": 1624,
+    "reasoning_tokens": 1089,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 14,
+    "model_duration_ms": 13956,
+    "ai_credits": 0.71955
+  },
+  "timestamp": "2026-11-25T00:36:56.617Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"kalamata olives\",\n      \"usda_query\": \"olives kalamata\",\n      \"grams\": 35,\n      \"calories\": 82,\n      \"protein_g\": 0.8,\n      \"carbs_g\": 2.1,\n      \"fat_g\": 8.0\n    },\n    {\n      \"name\": \"cheese lasagna\",\n      \"usda_query\": \"lasagna cheese\",\n      \"grams\": 130,\n      \"calories\": 215,\n      \"protein_g\": 11.2,\n      \"carbs_g\": 20.8,\n      \"fat_g\": 9.6\n    },\n    {\n      \"name\": \"seasoned rice pilaf\",\n      \"usda_query\": \"rice pilaf cooked\",\n      \"grams\": 70,\n      \"calories\": 110,\n      \"protein_g\": 2.5,\n      \"carbs_g\": 17.5,\n      \"fat_g\": 3.2\n    },\n    {\n      \"name\": \"roasted potatoes\",\n      \"usda_query\": \"potatoes roasted\",\n      \"grams\": 60,\n      \"calories\": 65,\n      \"protein_g\": 1.4,\n      \"carbs_g\": 11.8,\n      \"fat_g\": 1.5\n    },\n    {\n      \"name\": \"shaved parmesan cheese\",\n      \"usda_query\": \"cheese parmesan hard\",\n      \"grams\": 20,\n      \"calories\": 78,\n      \"protein_g\": 7.1,\n      \"carbs_g\": 0.6,\n      \"fat_g\": 5.2\n    },\n    {\n      \"name\": \"stuffed chicken breast\",\n      \"usda_query\": \"chicken breast stuffed baked\",\n      \"grams\": 50,\n      \"calories\": 95,\n      \"protein_g\": 12.5,\n      \"carbs_g\": 1.2,\n      \"fat_g\": 4.4\n    }\n  ],\n  \"total_calories\": 645\n}",
+  "latency_ms": 15074,
+  "parsed": {
+    "items": [
+      {
+        "name": "kalamata olives",
+        "usda_query": "olives kalamata",
+        "grams": 35,
+        "calories": 82,
+        "protein_g": 0.8,
+        "carbs_g": 2.1,
+        "fat_g": 8
+      },
+      {
+        "name": "cheese lasagna",
+        "usda_query": "lasagna cheese",
+        "grams": 130,
+        "calories": 215,
+        "protein_g": 11.2,
+        "carbs_g": 20.8,
+        "fat_g": 9.6
+      },
+      {
+        "name": "seasoned rice pilaf",
+        "usda_query": "rice pilaf cooked",
+        "grams": 70,
+        "calories": 110,
+        "protein_g": 2.5,
+        "carbs_g": 17.5,
+        "fat_g": 3.2
+      },
+      {
+        "name": "roasted potatoes",
+        "usda_query": "potatoes roasted",
+        "grams": 60,
+        "calories": 65,
+        "protein_g": 1.4,
+        "carbs_g": 11.8,
+        "fat_g": 1.5
+      },
+      {
+        "name": "shaved parmesan cheese",
+        "usda_query": "cheese parmesan hard",
+        "grams": 20,
+        "calories": 78,
+        "protein_g": 7.1,
+        "carbs_g": 0.6,
+        "fat_g": 5.2
+      },
+      {
+        "name": "stuffed chicken breast",
+        "usda_query": "chicken breast stuffed baked",
+        "grams": 50,
+        "calories": 95,
+        "protein_g": 12.5,
+        "carbs_g": 1.2,
+        "fat_g": 4.4
+      }
+    ],
+    "total_calories": 645
+  }
+}

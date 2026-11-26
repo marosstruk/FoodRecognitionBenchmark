@@ -1,0 +1,54 @@
+{
+  "dataset": "nutrition5k",
+  "dish_id": "dish_1562776497",
+  "model": "gpt-6-luna",
+  "prompt_version": "caef63b085f0",
+  "image_sha256": "be6a0fc5d0f1fbb2",
+  "status": "ok",
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 748,
+    "output_tokens": 798,
+    "reasoning_tokens": 565,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "premium_requests": 1,
+    "model_duration_ms": 9581,
+    "ai_credits": 0.04738
+  },
+  "timestamp": "2026-11-25T00:09:19.056Z",
+  "raw_text": "{\n  \"items\": [\n    {\n      \"name\": \"Scrambled eggs\",\n      \"usda_query\": \"eggs scrambled with butter\",\n      \"grams\": 165,\n      \"calories\": 245,\n      \"protein_g\": 16.5,\n      \"carbs_g\": 2.5,\n      \"fat_g\": 18.5\n    },\n    {\n      \"name\": \"Roasted potatoes\",\n      \"usda_query\": \"potatoes roasted with oil\",\n      \"grams\": 145,\n      \"calories\": 220,\n      \"protein_g\": 3.5,\n      \"carbs_g\": 33,\n      \"fat_g\": 8\n    },\n    {\n      \"name\": \"Brussels sprouts\",\n      \"usda_query\": \"Brussels sprouts cooked with oil\",\n      \"grams\": 125,\n      \"calories\": 85,\n      \"protein_g\": 4.5,\n      \"carbs_g\": 13,\n      \"fat_g\": 3\n    }\n  ],\n  \"total_calories\": 550\n}",
+  "latency_ms": 10455,
+  "parsed": {
+    "items": [
+      {
+        "name": "Scrambled eggs",
+        "usda_query": "eggs scrambled with butter",
+        "grams": 165,
+        "calories": 245,
+        "protein_g": 16.5,
+        "carbs_g": 2.5,
+        "fat_g": 18.5
+      },
+      {
+        "name": "Roasted potatoes",
+        "usda_query": "potatoes roasted with oil",
+        "grams": 145,
+        "calories": 220,
+        "protein_g": 3.5,
+        "carbs_g": 33,
+        "fat_g": 8
+      },
+      {
+        "name": "Brussels sprouts",
+        "usda_query": "Brussels sprouts cooked with oil",
+        "grams": 125,
+        "calories": 85,
+        "protein_g": 4.5,
+        "carbs_g": 13,
+        "fat_g": 3
+      }
+    ],
+    "total_calories": 550
+  }
+}
